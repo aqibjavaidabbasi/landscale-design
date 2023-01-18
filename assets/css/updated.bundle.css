@@ -100731,7 +100731,7 @@ select {
     margin-bottom: 0px;
 }
 
-.header-top-icon svg{
+.header-top-icon svg {
     width: 15px !important;
     height: 15px !important;
 }
@@ -100748,5 +100748,356 @@ select {
 
     button#kt_header_mobile_toggle {
         display: none;
+    }
+}
+
+
+/* styles for new Assesment page */
+
+.assesment-heading {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    text-transform: capitalize;
+
+    color: #074A37;
+}
+
+.assesment-border {
+    border: 1px solid rgba(154, 191, 120, 0.6);
+    border-radius: 15px;
+}
+
+.assesment-input-labels {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
+
+    text-transform: capitalize;
+
+    color: #074A37;
+}
+
+.assesment-small-text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 123.19%;
+    /* or 16px */
+    color: #4C94A0;
+}
+
+.assesments-card-header {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    text-transform: capitalize;
+
+    color: #074A37;
+}
+
+.assesment-card-btn {
+    background: #FEC045;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
+    text-transform: capitalize;
+    color: #074A37;
+}
+
+.assesment-card-sec-btn {
+    background: #074A37;
+    border-radius: 67px;
+    border: none;
+    outline: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    text-transform: capitalize;
+
+    color: #FFFFFF;
+}
+
+.assesment-radio-label {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 123.19%;
+    /* identical to box height, or 16px */
+    color: #074A37;
+    margin-top: 2px;
+    margin-left: 5px;
+}
+
+.assesment-light-btn {
+    background: rgba(35, 31, 32, 0.2);
+    border-radius: 44px;
+    border: none;
+    outline: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
+    text-transform: capitalize;
+    color: #231F20;
+    padding: 8px 20px;
+}
+
+.assesment-dark-btn {
+    background: #074A37;
+    border-radius: 44px;
+    border: none;
+    outline: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
+    text-transform: capitalize;
+    color: #EBF2E4;
+    padding: 8px 20px;
+}
+
+.assesment-warning-btn {
+    background: #FEC045;
+    border-radius: 44px;
+    border: none;
+    outline: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
+    text-transform: capitalize;
+    color: #074A37;
+    padding: 8px 20px;
+}
+
+.custom-margin {
+    margin-top: 45px;
+    margin-bottom: 15px;
+}
+
+.custom-margin-top-40 {
+    margin-top: 40px;
+}
+
+.custom-padding-40 {
+    padding: 40px;
+}
+
+.custom-padding-30 {
+    padding: 30px;
+}
+
+.custom-heading p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
+
+    text-transform: capitalize;
+
+    color: #074A37;
+}
+
+input[type=range] {
+    -webkit-appearance: none;
+    margin: 10px 0;
+    width: 100%;
+}
+
+input[type=range]:focus {
+    outline: none;
+}
+
+input[type=range]::-webkit-slider-runnable-track {
+    width: 100%;
+    height: 3px;
+    cursor: pointer;
+    box-shadow: 0px 0px 0px #000000, 0px 0px 0px #0d0d0d;
+    background: #074A37;
+    border-radius: 25px;
+    border: 0px solid #000101;
+}
+
+input[type=range]::-webkit-slider-thumb {
+    box-shadow: 0px 0px 0px #000000, 0px 0px 0px #0d0d0d;
+    border: 0px solid #000000;
+    height: 10px;
+    width: 10px;
+    border-radius: 7px;
+    background: #65001c;
+    cursor: pointer;
+    -webkit-appearance: none;
+    margin-top: -3.6px;
+}
+
+input[type=range]:focus::-webkit-slider-runnable-track {
+    background: #ac51b5;
+}
+
+input[type=range]::-moz-range-track {
+    width: 100%;
+    height: 12.8px;
+    cursor: pointer;
+    animate: 0.2s;
+    box-shadow: 0px 0px 0px #000000, 0px 0px 0px #0d0d0d;
+    background: #ac51b5;
+    border-radius: 25px;
+    border: 0px solid #000101;
+}
+
+input[type=range]::-moz-range-thumb {
+    box-shadow: 0px 0px 0px #000000, 0px 0px 0px #0d0d0d;
+    border: 0px solid #000000;
+    height: 20px;
+    width: 39px;
+    border-radius: 7px;
+    background: #65001c;
+    cursor: pointer;
+}
+
+input[type=range]::-ms-track {
+    width: 100%;
+    height: 12.8px;
+    cursor: pointer;
+    animate: 0.2s;
+    background: transparent;
+    border-color: transparent;
+    border-width: 39px 0;
+    color: transparent;
+}
+
+input[type=range]::-ms-fill-lower {
+    background: #ac51b5;
+    border: 0px solid #000101;
+    border-radius: 50px;
+    box-shadow: 0px 0px 0px #000000, 0px 0px 0px #0d0d0d;
+}
+
+input[type=range]::-ms-fill-upper {
+    background: #ac51b5;
+    border: 0px solid #000101;
+    border-radius: 50px;
+    box-shadow: 0px 0px 0px #000000, 0px 0px 0px #0d0d0d;
+}
+
+input[type=range]::-ms-thumb {
+    box-shadow: 0px 0px 0px #000000, 0px 0px 0px #0d0d0d;
+    border: 0px solid #000000;
+    height: 20px;
+    width: 39px;
+    border-radius: 7px;
+    background: #65001c;
+    cursor: pointer;
+}
+
+input[type=range]:focus::-ms-fill-lower {
+    background: #EBF2E4;
+}
+
+input[type=range]:focus::-ms-fill-upper {
+    background: #EBF2E4;
+}
+
+body {
+    padding: 30px;
+}
+
+
+.custom-control-input:checked~.custom-control-label::before {
+    color: #fff;
+    border-color: #7B1FA2;
+}
+
+.custom-control-input:checked~.custom-control-label.red::before {
+    background-color: #4C94A0;
+}
+
+.custom-control-input:checked~.custom-control-label.green::before {
+    background-color: #4C94A0;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+
+    .overview-responsive {
+        display: block !important;
+        text-align: center;
+    }
+
+    .custom-padding-40 {
+        padding: 15px;
+    }
+
+    .overview-span-responsive {
+        margin-bottom: 10px;
+        display: inline-block;
+    }
+
+    .assesment-card-header-responsive {
+        display: block !important;
+    }
+
+    .custom-heading-responsive p {
+        margin-bottom: 10px;
+        font-size: 12px;
+    }
+
+    .assesment-button-responsive {
+        display: block !important;
+    }
+
+    .assesment-responsive {
+        text-align: center;
+    }
+
+    .assesment-responsive-btn-back {
+        width: 88%;
+        margin: auto;
+    }
+
+    .assesment-responsive-btn-block {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .custom-padding-30 {
+        padding: 15px;
+    }
+
+    .assesment-responsive-fontsize {
+        font-size: 12px;
+    }
+
+    .assesment-small-text-responsive {
+        font-size: 12px;
+    }
+
+    .assesment-heading-responsive {
+        font-size: 15px;
     }
 }
