@@ -78,6 +78,12 @@ body {
     text-align: left;
     /*background-color: #ffffff;*/
     background-image: url(/img/kyle-cleveland-VDPFEyIrAn0-unsplash.jpg);
+
+}
+
+html,
+body {
+    height: auto !important;
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
@@ -100908,10 +100914,10 @@ select {
 }
 
 .custom-padding-30 {
-    padding: 30px;
+    padding-top: 30px;
 }
 
-.custom-heading p {
+.custom-heading span {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
@@ -101042,6 +101048,50 @@ body {
     background-color: #4C94A0;
 }
 
+.custom-p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 136.69%;
+    /* or 21px */
+
+
+    color: #3F544C;
+}
+
+.map-btn-wrapper .custom-map-btn {
+    background: rgba(214, 208, 33, 0.15);
+    border: 1px solid rgba(214, 208, 33, 0.6);
+    border-radius: 8px;
+    /* width: 210px; */
+    font-family: 'Roboto' !important;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 136.69%;
+    /* or 21px */
+    text-transform: capitalize;
+    color: #074A37;
+    padding: 14px 17px;
+}
+
+.map-btn-wrapper .custom-map-btn-primary {
+    background: #D6E7FF;
+    border: 1px solid rgba(128, 167, 221, 0.8);
+    border-radius: 8px;
+    width: 210px;
+    font-family: 'Roboto' !important;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 136.69%;
+    /* or 21px */
+    text-transform: capitalize;
+    color: #074A37;
+    padding: 15px 20px;
+}
+
 @media screen and (min-width: 320px) and (max-width: 767px) {
 
     .overview-responsive {
@@ -101062,7 +101112,7 @@ body {
         display: block !important;
     }
 
-    .custom-heading-responsive p {
+    .custom-heading-responsive span {
         margin-bottom: 10px;
         font-size: 12px;
     }
@@ -101099,5 +101149,30 @@ body {
 
     .assesment-heading-responsive {
         font-size: 15px;
+    }
+
+    .custom-responsive-width {
+        width: 100% !important;
+    }
+
+    .assesment-custom-padding-0 {
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+
+    .map-btn-responsive {
+        display: block !important;
+    }
+
+    .responsive-map-margin-right {
+        margin-right: 0px !important;
+    }
+
+    .responsive-map-margin-left {
+        margin-left: 0px !important;
+    }
+
+    .responsive-map-margin-top {
+        margin-top: 5px !important;
     }
 }
