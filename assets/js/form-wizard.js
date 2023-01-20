@@ -89,6 +89,13 @@ var KTWizard3 = function () {
                             knob4.style.setProperty('--myVar', 'inline');
                             knob3.style.setProperty('--bg-color', '#074A37');
                             document.getElementById('step4-title').classList.add("custom-display-inline");
+                            $('#back-btn').addClass('btn-display-none');
+                            $('#next-btn').addClass('btn-display-none');
+                            $('#save-btn').addClass('btn-display-none');
+                            $('#cancel-btn').removeClass('btn-display-none');
+                            $('#cancel-btn').addClass('btn-display-inline');
+                            $('#submit-btn').removeClass('btn-display-none');
+                            $('#submit-btn').addClass('btn-display-inline');
                         }
 
                         KTUtil.scrollTop();

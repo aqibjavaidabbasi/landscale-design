@@ -147,7 +147,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                         <!--begin::Wizard Step 1 Nav-->
                                                         <div class="wizard-step" data-wizard-type="step" data-wizard-state="current">
                                                             <div class="wizard-label">
-                                                                <h3 class="wizard-title" id="step1-title">
+                                                                <h3 class="wizard-title wizard-nav-title" id="step1-title">
                                                                     Overview
                                                                 </h3>
                                                                 <div class="wizard-bar" id="step1"></div>
@@ -158,7 +158,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                         <!--begin::Wizard Step 2 Nav-->
                                                         <div class="wizard-step" data-wizard-type="step">
                                                             <div class="wizard-label">
-                                                                <h3 class="wizard-title" id="step2-title">
+                                                                <h3 class="wizard-title wizard-nav-title" id="step2-title">
                                                                     Objectives
                                                                 </h3>
                                                                 <div class="wizard-bar" id="step2"></div>
@@ -169,8 +169,8 @@ License: You must have a valid license purchased only from themeforest(the above
                                                         <!--begin::Wizard Step 3 Nav-->
                                                         <div class="wizard-step" data-wizard-type="step">
                                                             <div class="wizard-label">
-                                                                <h3 class="wizard-title" id="step3-title">
-                                                                    Select Services
+                                                                <h3 class="wizard-title wizard-nav-title" id="step3-title">
+                                                                    Preliminary boundary
                                                                 </h3>
                                                                 <div class="wizard-bar" id="step3"></div>
                                                             </div>
@@ -180,8 +180,8 @@ License: You must have a valid license purchased only from themeforest(the above
                                                         <!--begin::Wizard Step 4 Nav-->
                                                         <div class="wizard-step" data-wizard-type="step">
                                                             <div class="wizard-label">
-                                                                <h3 class="wizard-title" id="step4-title">
-                                                                    Delivery Address
+                                                                <h3 class="wizard-title wizard-nav-title" id="step4-title">
+                                                                    Payment plan
                                                                 </h3>
                                                                 <div class="wizard-bar" id="step4"></div>
                                                             </div>
@@ -802,14 +802,19 @@ License: You must have a valid license purchased only from themeforest(the above
                                                             <!--end: Wizard Actions-->
                                                             <div class="d-flex justify-content-between align-items-center custom-margin assesment-button-responsive">
                                                                 <div class="assesment-responsive">
-                                                                    <button type="button" class="assesment-light-btn d-inline-block assesment-responsive-btn-back" data-wizard-type="action-prev">
+                                                                    <button type="button" id="back-btn" class="assesment-light-btn d-inline-block assesment-responsive-btn-back" data-wizard-type="action-prev">
                                                                         Back
                                                                     </button>
                                                                 </div>
                                                                 <div class="assesment-responsive-btn-block">
-                                                                    <button type="button" class="assesment-dark-btn d-inline-block mr-2" data-wizard-type="action-next">Next</button>
-                                                                    <button type="button" class="assesment-warning-btn d-inline-block" fdprocessedid="i7rzf">
+                                                                    <button type="button" id="next-btn" class="assesment-dark-btn d-inline-block mr-2" data-wizard-type="action-next">Next</button>
+                                                                    <button type="button" id="save-btn" class="assesment-warning-btn d-inline-block" fdprocessedid="i7rzf">
                                                                         Save
+                                                                    </button>
+
+                                                                    <button type="button" id="cancel-btn" class="assesment-primary-btn d-inline-block mr-2 btn-display-none">Cancel</button>
+                                                                    <button type="button" id="submit-btn" class="assesment-warning-btn d-inline-block btn-display-none" fdprocessedid="i7rzf">
+                                                                        Submit
                                                                     </button>
                                                                 </div>
                                                             </div>
