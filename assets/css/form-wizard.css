@@ -1,5 +1,5 @@
 :root {
-  --bg-color: #EBEDF3; 
+  --bg-color: #EBEDF3;
 }
 
 .wizard.wizard-3 .wizard-nav .wizard-steps {
@@ -124,6 +124,18 @@
 
 .custom-display-inline {
   display: inline;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .responsive-nav-progress {
+    -ms-flex-direction: row !important;
+    flex-direction:  row !important;
+    align-items: flex-end !important;
+  }
+
+  .responsive-nav-width {
+    width: 50% !important;
+  }
 }
 
 @media (max-width: 991.98px) {

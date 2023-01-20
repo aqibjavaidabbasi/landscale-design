@@ -101214,4 +101214,10 @@ body {
     .responsive-map-margin-top {
         margin-top: 5px !important;
     }
+
+    .wizard-nav-title-responsive {
+        font-weight: 200 !important;
+        font-size: 10px !important;
+        line-height: 10px !important;
+    }
 }

@@ -142,12 +142,12 @@ License: You must have a valid license purchased only from themeforest(the above
                                             <!--begin: Wizard-->
                                             <div class="wizard wizard-3" id="kt_wizard_v3" data-wizard-state="step-first" data-wizard-clickable="true">
                                                 <!--begin: Wizard Nav-->
-                                                <div class="wizard-nav">
-                                                    <div class="wizard-steps px-8 py-8 px-lg-15 w-75 py-lg-3 margin-align">
+                                                <div class="wizard-nav responsive-nav-width">
+                                                    <div class="wizard-steps px-8 py-8 px-lg-15 w-75 py-lg-3 margin-align responsive-nav-progress">
                                                         <!--begin::Wizard Step 1 Nav-->
                                                         <div class="wizard-step" data-wizard-type="step" data-wizard-state="current">
                                                             <div class="wizard-label">
-                                                                <h3 class="wizard-title wizard-nav-title" id="step1-title">
+                                                                <h3 class="wizard-title wizard-nav-title wizard-nav-title-responsive" id="step1-title">
                                                                     Overview
                                                                 </h3>
                                                                 <div class="wizard-bar" id="step1"></div>
@@ -158,7 +158,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                         <!--begin::Wizard Step 2 Nav-->
                                                         <div class="wizard-step" data-wizard-type="step">
                                                             <div class="wizard-label">
-                                                                <h3 class="wizard-title wizard-nav-title" id="step2-title">
+                                                                <h3 class="wizard-title wizard-nav-title wizard-nav-title-responsive" id="step2-title">
                                                                     Objectives
                                                                 </h3>
                                                                 <div class="wizard-bar" id="step2"></div>
@@ -169,7 +169,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                         <!--begin::Wizard Step 3 Nav-->
                                                         <div class="wizard-step" data-wizard-type="step">
                                                             <div class="wizard-label">
-                                                                <h3 class="wizard-title wizard-nav-title" id="step3-title">
+                                                                <h3 class="wizard-title wizard-nav-title wizard-nav-title-responsive" id="step3-title">
                                                                     Preliminary boundary
                                                                 </h3>
                                                                 <div class="wizard-bar" id="step3"></div>
@@ -180,7 +180,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                         <!--begin::Wizard Step 4 Nav-->
                                                         <div class="wizard-step" data-wizard-type="step">
                                                             <div class="wizard-label">
-                                                                <h3 class="wizard-title wizard-nav-title" id="step4-title">
+                                                                <h3 class="wizard-title wizard-nav-title wizard-nav-title-responsive" id="step4-title">
                                                                     Payment plan
                                                                 </h3>
                                                                 <div class="wizard-bar" id="step4"></div>
