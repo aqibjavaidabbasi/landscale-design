@@ -450,7 +450,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                     </p>
                                                                                 </div>
                                                                             </div>
-                                                                            <div class="d-flex justify-content-center align-items-center map-btn-wrapper map-btn-responsive w-100">
+                                                                            <div class="d-flex justify-content-center align-items-center map-btn-wrapper map-btn-responsive mt-5 w-100">
                                                                                 <button type="button" class="custom-map-btn d-flex align-items-center mr-2 responsive-map-margin-right">
                                                                                     <span>
                                                                                         <svg width="12" height="18" viewBox="0 0 12 18" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -471,6 +471,12 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                     <span class="d-linline-block pl-5">Your assessment</span>
                                                                                 </button>
                                                                             </div>
+
+                                                                            <div class="d-flex justify-content-center align-items-center w-100">
+                                                                                <!-- <div id="kt_gmap_1" style="height:300px;"></div> -->
+                                                                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d212645.52238783793!2d72.94602284222063!3d33.61603729659184!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38dfbfd07891722f%3A0x6059515c3bdb02b6!2sIslamabad%2C%20Islamabad%20Capital%20Territory%2C%20Pakistan!5e0!3m2!1sen!2s!4v1674216707776!5m2!1sen!2s" width="80%" height="350" style="border:0; margin-top:20px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                                                            </div>
+
                                                                         </div>
                                                                     </div>
                                                                 </div>
@@ -930,6 +936,9 @@ License: You must have a valid license purchased only from themeforest(the above
     <!-- <script src="../assets/js/scripts.bundle.js"></script> -->
     <script src="../assets/js/updated.bundle.js"></script>
     <script src="../assets/js/form-wizard.js"></script>
+    <script src="//maps.google.com/maps/api/js?key=AIzaSyBTGnKT7dt597vo9QgeQ7BFhvSRP4eiMSM"></script>
+    <script src="../assets/js/pages/features/maps/google-maps.js"></script>
+    <script src="../assets/plugins/custom/gmaps/gmaps.js"></script>
     <script src="../assets/plugins/custom/datatables/datatables.bundle.js"></script>
     <script>
         $(document).on('click', '#kt_aside_toggle', function() {

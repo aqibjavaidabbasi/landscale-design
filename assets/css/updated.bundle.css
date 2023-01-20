@@ -101061,10 +101061,11 @@ body {
 }
 
 .map-btn-wrapper .custom-map-btn {
+    box-sizing: border-box !important;
     background: rgba(214, 208, 33, 0.15);
     border: 1px solid rgba(214, 208, 33, 0.6);
     border-radius: 8px;
-    /* width: 210px; */
+    width: 210px;
     font-family: 'Roboto' !important;
     font-style: normal;
     font-weight: 400;
@@ -101073,10 +101074,11 @@ body {
     /* or 21px */
     text-transform: capitalize;
     color: #074A37;
-    padding: 14px 17px;
+    padding: 5px 20px;
 }
 
 .map-btn-wrapper .custom-map-btn-primary {
+    box-sizing: border-box !important;
     background: #D6E7FF;
     border: 1px solid rgba(128, 167, 221, 0.8);
     border-radius: 8px;
