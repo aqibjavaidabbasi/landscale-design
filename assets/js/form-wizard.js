@@ -11,14 +11,59 @@ var KTWizard3 = function () {
     // Private functions
     var _initWizard = function () {
         // Initialize form wizard
+        let knob1 = document.getElementById('step1')
+        let cssKnob1Before = window.getComputedStyle(knob1, "::before");
+        let cssKnob1After = window.getComputedStyle(knob1, "::after");
+
+        let knob2 = document.getElementById('step2')
+        let cssKnob2Before = window.getComputedStyle(knob2, "::before");
+        let cssKnob2After = window.getComputedStyle(knob2, "::after");
+
+        let knob3 = document.getElementById('step3')
+        let cssKnob3Before = window.getComputedStyle(knob3, "::before");
+        let cssKnob3After = window.getComputedStyle(knob3, "::after");
+
+        let knob4 = document.getElementById('step4')
+        let cssKnob4Before = window.getComputedStyle(knob4, "::before");
+        let cssKnob4After = window.getComputedStyle(knob4, "::after");
+
+        // knob1.style.setProperty('--myVar','none');
+        knob2.style.setProperty('--myVar', 'none');
+        knob3.style.setProperty('--myVar', 'none');
+        knob4.style.setProperty('--myVar', 'none');
+        $('#step2-title').addClass('custom-display-none')
+        $('#step3-title').addClass('custom-display-none')
+        $('#step4-title').addClass('custom-display-none')
+
         _wizardObj = new KTWizard(_wizardEl, {
             startStep: 1, // initial active step number
-            clickableSteps: true  // allow step clicking
+            // clickableSteps: true  // allow step clicking
         });
 
         // Validation before going to next page
         _wizardObj.on('change', function (wizard) {
             if (wizard.getStep() > wizard.getNewStep()) {
+                if (wizard.getStep() == 2) {
+                    console.log('step2')
+                    knob2.style.setProperty('--myVar', 'none');
+                    knob2.style.setProperty('--bg-color', '#EBEDF3');
+                    $('#step2-title').removeClass('custom-display-inline')
+                    $('#step2-title').addClass('custom-display-none')
+                }
+                if (wizard.getStep() == 3) {
+                    console.log('step3')
+                    knob3.style.setProperty('--myVar', 'none');
+                    knob3.style.setProperty('--bg-color', '#EBEDF3');
+                    $('#step3-title').removeClass('custom-display-inline')
+                    $('#step3-title').addClass('custom-display-none')
+                }
+                if (wizard.getStep() == 4) {
+                    console.log('step4')
+                    knob4.style.setProperty('--myVar', 'none');
+                    knob4.style.setProperty('--bg-color', '#EBEDF3');
+                    $('#step4-title').removeClass('custom-display-inline')
+                    $('#step4-title').addClass('custom-display-none')
+                }
                 return; // Skip if stepped back
             }
 
@@ -29,6 +74,22 @@ var KTWizard3 = function () {
                 validator.validate().then(function (status) {
                     if (status == 'Valid') {
                         wizard.goTo(wizard.getNewStep());
+
+                        if (wizard.getStep() == 2) {
+                            knob2.style.setProperty('--myVar', 'inline');
+                            knob1.style.setProperty('--bg-color', '#074A37');
+                            document.getElementById('step2-title').classList.add("custom-display-inline");
+                        }
+                        if (wizard.getStep() == 3) {
+                            knob3.style.setProperty('--myVar', 'inline');
+                            knob2.style.setProperty('--bg-color', '#074A37');
+                            document.getElementById('step3-title').classList.add("custom-display-inline");
+                        }
+                        if (wizard.getStep() == 4) {
+                            knob4.style.setProperty('--myVar', 'inline');
+                            knob3.style.setProperty('--bg-color', '#074A37');
+                            document.getElementById('step4-title').classList.add("custom-display-inline");
+                        }
 
                         KTUtil.scrollTop();
                     } else {
