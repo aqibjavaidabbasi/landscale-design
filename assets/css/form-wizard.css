@@ -133,9 +133,9 @@
     align-items: flex-end !important;
   }
 
-  .responsive-nav-width {
+  /* .responsive-nav-width {
     width: 50% !important;
-  }
+  } */
 
   .wizard.wizard-3 .wizard-nav .wizard-steps .wizard-step {
     -webkit-box-flex: 0;
@@ -154,6 +154,112 @@
     flex: 0 0 100%;
     padding: 1rem 0;
   }
+}
+
+@media screen and (min-width: 320px) and (max-width: 330px) {
+  .responsive-nav-width {
+    width: 58% !important;
+  }
+
+  .margin-align {
+    margin: 0px !important;
+  }
+}
+
+@media screen and (min-width: 330px) and (max-width: 370px) {
+  .responsive-nav-width {
+    width: 56% !important;
+  }
+
+  .margin-align {
+    margin: 0px !important;
+  }
+}
+
+@media screen and (min-width: 370px) and (max-width: 390px) {
+  .responsive-nav-width {
+    width: 54% !important;
+  }
+
+  .margin-align {
+    margin: 0px !important;
+  }
+
+}
+
+@media screen and (min-width: 390px) and (max-width: 445px) {
+  .responsive-nav-width {
+    width: 50% !important;
+  }
+
+  .margin-align {
+    margin: 0px !important;
+  }
+
+}
+
+@media screen and (min-width: 445px) and (max-width: 495px) {
+  .responsive-nav-width {
+    width: 48% !important;
+  }
+
+  .margin-align {
+    margin: 0px !important;
+  }
+
+}
+
+@media screen and (min-width: 495px) and (max-width: 580px) {
+  .responsive-nav-width {
+    width: 45% !important;
+  }
+
+  .margin-align {
+    margin: 0px !important;
+  }
+}
+
+@media screen and (min-width: 580px) and (max-width: 670px) {
+  .responsive-nav-width {
+    width: 43% !important;
+  }
+
+  .margin-align {
+    margin: 0px !important;
+  }
+}
+
+@media screen and (min-width: 670px) and (max-width: 766px) {
+  .responsive-nav-width {
+    width: 41% !important;
+  }
+
+  .margin-align {
+    margin: 0px !important;
+  }
+
+}
+
+@media screen and (min-width: 766px) and (max-width: 860px) {
+  .responsive-nav-width {
+    width: 40% !important;
+  }
+
+  .margin-align {
+    margin: 0px !important;
+  }
+
+}
+
+@media screen and (min-width: 860px) and (max-width: 991.5px) {
+  .responsive-nav-width {
+    width: 38% !important;
+  }
+
+  .margin-align {
+    margin: 0px !important;
+  }
+
 }
 
 /* @media (max-width: 991.98px) {
