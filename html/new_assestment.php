@@ -142,10 +142,10 @@ License: You must have a valid license purchased only from themeforest(the above
                                             <!--begin: Wizard-->
                                             <div class="wizard wizard-3" id="kt_wizard_v3" data-wizard-state="step-first" data-wizard-clickable="true">
                                                 <!--begin: Wizard Nav-->
-                                                <div class="wizard-nav responsive-nav-width">
+                                                <div class="wizard-nav responsive-nav-width nav-custom-marging-50">
                                                     <div class="wizard-steps px-8 py-8 px-lg-15 w-75 py-lg-3 margin-align responsive-nav-progress">
                                                         <!--begin::Wizard Step 1 Nav-->
-                                                        <div class="wizard-step" data-wizard-type="step" data-wizard-state="current">
+                                                        <div class="wizard-step custom-width-steps" data-wizard-type="step" data-wizard-state="current">
                                                             <div class="wizard-label">
                                                                 <h3 class="wizard-title wizard-nav-title wizard-nav-title-responsive" id="step1-title">
                                                                     Overview
@@ -156,7 +156,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                         <!--end::Wizard Step 1 Nav-->
 
                                                         <!--begin::Wizard Step 2 Nav-->
-                                                        <div class="wizard-step" data-wizard-type="step">
+                                                        <div class="wizard-step custom-width-steps" data-wizard-type="step">
                                                             <div class="wizard-label">
                                                                 <h3 class="wizard-title wizard-nav-title wizard-nav-title-responsive" id="step2-title">
                                                                     Objectives
@@ -167,10 +167,10 @@ License: You must have a valid license purchased only from themeforest(the above
                                                         <!--end::Wizard Step 2 Nav-->
 
                                                         <!--begin::Wizard Step 3 Nav-->
-                                                        <div class="wizard-step" data-wizard-type="step">
+                                                        <div class="wizard-step custom-width-steps" data-wizard-type="step">
                                                             <div class="wizard-label">
                                                                 <h3 class="wizard-title wizard-nav-title wizard-nav-title-responsive" id="step3-title">
-                                                                    Preliminary boundary
+                                                                    Boundary
                                                                 </h3>
                                                                 <div class="wizard-bar" id="step3"></div>
                                                             </div>
@@ -178,7 +178,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                         <!--end::Wizard Step 3 Nav-->
 
                                                         <!--begin::Wizard Step 4 Nav-->
-                                                        <div class="wizard-step" data-wizard-type="step">
+                                                        <div class="wizard-step custom-width-steps" data-wizard-type="step">
                                                             <div class="wizard-label">
                                                                 <h3 class="wizard-title wizard-nav-title wizard-nav-title-responsive" id="step4-title">
                                                                     Payment plan
@@ -810,11 +810,6 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                     <button type="button" id="next-btn" class="assesment-dark-btn d-inline-block mr-2" data-wizard-type="action-next">Next</button>
                                                                     <button type="button" id="save-btn" class="assesment-warning-btn d-inline-block" fdprocessedid="i7rzf">
                                                                         Save
-                                                                    </button>
-
-                                                                    <button type="button" id="cancel-btn" class="assesment-primary-btn d-inline-block mr-2 btn-display-none">Cancel</button>
-                                                                    <button type="button" id="submit-btn" class="assesment-warning-btn d-inline-block btn-display-none" fdprocessedid="i7rzf">
-                                                                        Submit
                                                                     </button>
                                                                 </div>
                                                             </div>

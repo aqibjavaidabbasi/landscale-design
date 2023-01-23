@@ -1,5 +1,6 @@
 :root {
   --bg-color: #EBEDF3;
+  --border-clr: #074A37;
 }
 
 .wizard.wizard-3 .wizard-nav .wizard-steps {
@@ -9,6 +10,10 @@
   -webkit-box-align: end;
   -ms-flex-align: end;
   align-items: flex-end;
+}
+
+.custom-width-steps {
+  width: 30px;
 }
 
 .wizard.wizard-3 .wizard-nav .wizard-steps .wizard-step {
@@ -37,6 +42,7 @@
   -webkit-box-flex: 1;
   -ms-flex: 1;
   flex: 1;
+  position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -48,7 +54,11 @@
   padding: 2rem 0.5rem;
   padding-left: 0px;
   padding-right: 0px;
-  text-align: right;
+  /* text-align: right; */
+}
+
+.nav-custom-marging-50 {
+  margin-top: 50px;
 }
 
 .wizard.wizard-3 .wizard-nav .wizard-steps .wizard-step .wizard-label .wizard-title {
@@ -108,12 +118,13 @@
 
 .wizard.wizard-3 .wizard-nav .wizard-steps .wizard-step .wizard-label .wizard-bar:before {
   content: '';
-  border: 7px solid #074A37;
+  /* content: url('../media/progressbar.png'); */
+  border: 7px solid var(--border-clr);
   width: 5px;
   position: absolute;
   border-radius: 50%;
   top: -5px;
-  right: 0;
+  right: 105px;
   z-index: 1;
   display: var(--myVar);
 }

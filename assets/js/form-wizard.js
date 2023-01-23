@@ -28,12 +28,16 @@ var KTWizard3 = function () {
         let cssKnob4After = window.getComputedStyle(knob4, "::after");
 
         // knob1.style.setProperty('--myVar','none');
-        knob2.style.setProperty('--myVar', 'none');
-        knob3.style.setProperty('--myVar', 'none');
-        knob4.style.setProperty('--myVar', 'none');
-        $('#step2-title').addClass('custom-display-none')
-        $('#step3-title').addClass('custom-display-none')
-        $('#step4-title').addClass('custom-display-none')
+        $('#back-btn').addClass('btn-display-none');
+        knob2.style.setProperty('--border-clr', '#EBF2E4');
+        knob3.style.setProperty('--border-clr', '#EBF2E4');
+        knob4.style.setProperty('--border-clr', '#EBF2E4');
+        // knob2.style.setProperty('--myVar', 'none');
+        // knob3.style.setProperty('--myVar', 'none');
+        // knob4.style.setProperty('--myVar', 'none');
+        // $('#step2-title').addClass('custom-display-none')
+        // $('#step3-title').addClass('custom-display-none')
+        // $('#step4-title').addClass('custom-display-none')
 
         _wizardObj = new KTWizard(_wizardEl, {
             startStep: 1, // initial active step number
@@ -43,26 +47,33 @@ var KTWizard3 = function () {
         // Validation before going to next page
         _wizardObj.on('change', function (wizard) {
             if (wizard.getStep() > wizard.getNewStep()) {
+                
                 if (wizard.getStep() == 2) {
                     console.log('step2')
-                    knob2.style.setProperty('--myVar', 'none');
+                    $('#back-btn').removeClass('btn-display-inline');
+                    $('#back-btn').addClass('btn-display-none');
+                    // knob2.style.setProperty('--myVar', 'inline');
                     knob2.style.setProperty('--bg-color', '#EBEDF3');
-                    $('#step2-title').removeClass('custom-display-inline')
-                    $('#step2-title').addClass('custom-display-none')
+                    knob2.style.setProperty('--border-clr', '#EBF2E4');
+                    // $('#step2-title').removeClass('custom-display-inline')
+                    // $('#step2-title').addClass('custom-display-none')
                 }
                 if (wizard.getStep() == 3) {
                     console.log('step3')
-                    knob3.style.setProperty('--myVar', 'none');
+                    // knob3.style.setProperty('--myVar', 'inline');
                     knob3.style.setProperty('--bg-color', '#EBEDF3');
-                    $('#step3-title').removeClass('custom-display-inline')
-                    $('#step3-title').addClass('custom-display-none')
+                    knob3.style.setProperty('--border-clr', '#EBF2E4');
+                    // $('#step3-title').removeClass('custom-display-inline')
+                    // $('#step3-title').addClass('custom-display-none')
                 }
                 if (wizard.getStep() == 4) {
                     console.log('step4')
-                    knob4.style.setProperty('--myVar', 'none');
+                    // knob4.style.setProperty('--myVar', 'inline');
                     knob4.style.setProperty('--bg-color', '#EBEDF3');
-                    $('#step4-title').removeClass('custom-display-inline')
-                    $('#step4-title').addClass('custom-display-none')
+                    knob4.style.setProperty('--border-clr', '#EBF2E4');
+                    // $('#step4-title').removeClass('custom-display-inline')
+                    // $('#step4-title').addClass('custom-display-none')
+                    $('#next-btn').addClass('btn-display-inline');
                 }
                 return; // Skip if stepped back
             }
@@ -74,28 +85,28 @@ var KTWizard3 = function () {
                 validator.validate().then(function (status) {
                     if (status == 'Valid') {
                         wizard.goTo(wizard.getNewStep());
-
                         if (wizard.getStep() == 2) {
-                            knob2.style.setProperty('--myVar', 'inline');
+                            // knob2.style.setProperty('--myVar', 'inline');
                             knob1.style.setProperty('--bg-color', '#074A37');
-                            document.getElementById('step2-title').classList.add("custom-display-inline");
+                            knob2.style.setProperty('--border-clr', '#074A37');
+                            $('#back-btn').removeClass('btn-display-none');
+                            $('#back-btn').addClass('btn-display-inline');
+                            // document.getElementById('step2-title').classList.add("custom-display-inline");
                         }
                         if (wizard.getStep() == 3) {
-                            knob3.style.setProperty('--myVar', 'inline');
+                            // knob3.style.setProperty('--myVar', 'inline');
                             knob2.style.setProperty('--bg-color', '#074A37');
-                            document.getElementById('step3-title').classList.add("custom-display-inline");
+                            knob3.style.setProperty('--border-clr', '#074A37');
+                            // document.getElementById('step3-title').classList.add("custom-display-inline");
                         }
                         if (wizard.getStep() == 4) {
-                            knob4.style.setProperty('--myVar', 'inline');
+                            // knob4.style.setProperty('--myVar', 'inline');
                             knob3.style.setProperty('--bg-color', '#074A37');
-                            document.getElementById('step4-title').classList.add("custom-display-inline");
+                            knob4.style.setProperty('--border-clr', '#074A37');
+                            // document.getElementById('step4-title').classList.add("custom-display-inline");
                             $('#back-btn').addClass('btn-display-none');
                             $('#next-btn').addClass('btn-display-none');
-                            $('#save-btn').addClass('btn-display-none');
-                            $('#cancel-btn').removeClass('btn-display-none');
-                            $('#cancel-btn').addClass('btn-display-inline');
-                            $('#submit-btn').removeClass('btn-display-none');
-                            $('#submit-btn').addClass('btn-display-inline');
+                            $('#save-btn').addClass('btn-display-inline');
                         }
 
                         KTUtil.scrollTop();
