@@ -181,7 +181,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                         <div class="wizard-step custom-width-steps" data-wizard-type="step">
                                                             <div class="wizard-label">
                                                                 <h3 class="wizard-title wizard-nav-title wizard-nav-title-responsive" id="step4-title">
-                                                                    Payment plan
+                                                                    Payment
                                                                 </h3>
                                                                 <div class="wizard-bar" id="step4"></div>
                                                             </div>
@@ -471,311 +471,175 @@ License: You must have a valid license purchased only from themeforest(the above
 
                                                             <!--begin: Wizard Step 4-->
                                                             <div class="pb-5" data-wizard-type="step-content">
-                                                                <h4 class="mb-10 font-weight-bold text-dark">Setup Your Delivery Location</h4>
-                                                                <div class="my-5">
-                                                                    <!--begin::Input-->
-                                                                    <div class="form-group">
-                                                                        <label>Address Line 1</label>
-                                                                        <input type="text" class="form-control" name="locaddress1" placeholder="Address Line 1" value="Address Line 1" />
-                                                                        <span class="form-text text-muted">Please enter your Address.</span>
-                                                                    </div>
-                                                                    <!--end::Input-->
+                                                                <div class="tab" style="display: block;">
+                                                                    <div class="d-flex justify-content-between align-items-center overview-responsive">
+                                                                        <div class="assesments-card-header overview-span-responsive">
+                                                                            <span>
+                                                                                Select pricing & plans
+                                                                            </span>
+                                                                        </div>
+                                                                        <button class="assesment-card-btn p-2" fdprocessedid="o0jh0q">
+                                                                            <span class="d-inline-block ml-2 mr-3">
+                                                                                <svg width="20" height="23" viewBox="0 0 28 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                                    <path d="M27.9994 10.5537C27.9994 13.2391 27.9988 15.925 28 18.6104C28 18.9246 27.9883 19.237 27.8938 19.5387C27.6438 20.3366 26.9698 20.7845 25.9983 20.7857C23.5916 20.7889 21.185 20.7851 18.7783 20.7876C17.9043 20.7883 17.0303 20.8008 16.1563 20.8014C15.9371 20.8014 15.7273 20.8441 15.5199 20.8999C14.9637 21.0486 14.7582 21.2976 14.6934 21.8847C14.6502 22.2793 14.373 22.5703 14.0286 22.5829C13.6743 22.5954 13.3274 22.3433 13.3126 21.9468C13.2799 21.0542 12.6731 20.8855 11.9966 20.8108C11.6806 20.7763 11.3596 20.7807 11.0411 20.7801C8.0586 20.7782 5.07607 20.7751 2.09292 20.7814C1.44666 20.7826 0.875705 20.6339 0.429436 20.1227C0.0924191 19.7369 0.00291836 19.2759 0.00291836 18.7854C0.00106662 13.2999 -0.00201962 7.81319 0.00415285 2.32709C0.00538734 1.16288 0.792994 0.417053 1.98922 0.417053C4.01502 0.417053 6.04144 0.423326 8.06725 0.42709C9.0857 0.428971 10.1035 0.420817 11.122 0.434617C12.2003 0.449044 13.1768 0.726297 13.8792 1.63646C13.9731 1.75815 14.0292 1.72616 14.1138 1.62768C14.873 0.746997 15.8594 0.428971 16.9797 0.430853C19.9832 0.434617 22.9861 0.430853 25.9896 0.432735C27.2729 0.433362 27.9981 1.16915 27.9988 2.46634C28 5.16172 27.9994 7.85772 27.9994 10.5537ZM26.639 10.5826C26.639 7.8458 26.639 5.10903 26.6383 2.37225C26.6383 1.95951 26.5075 1.81524 26.1149 1.81524C22.9892 1.81335 19.8641 1.80708 16.7383 1.819C15.4995 1.82402 14.6854 2.68526 14.6847 3.94482C14.6835 9.06333 14.6841 14.1819 14.6841 19.3004C14.6841 19.3631 14.6885 19.4258 14.6841 19.4886C14.673 19.6447 14.7193 19.6899 14.8786 19.6328C15.4575 19.4239 16.0643 19.3819 16.6698 19.3807C19.7955 19.3725 22.9207 19.3744 26.0464 19.3725C26.5254 19.3725 26.6383 19.2565 26.6383 18.7628C26.6383 16.0354 26.6383 13.3087 26.639 10.5826ZM1.37814 10.5832C1.37814 13.3206 1.37753 16.058 1.37876 18.7954C1.37876 19.2671 1.4874 19.3913 1.92749 19.3913C4.83719 19.3907 7.74751 19.3819 10.6572 19.3869C11.4467 19.3882 12.2448 19.3625 13.0083 19.6178C13.2614 19.7024 13.2922 19.6309 13.291 19.3938C13.283 17.576 13.2873 15.7582 13.2867 13.9404C13.2848 10.5449 13.2904 7.14953 13.2756 3.75413C13.2713 2.76931 12.6503 2.04419 11.7096 1.8604C11.4899 1.81775 11.2596 1.81649 11.0344 1.81586C8.02157 1.81335 5.00879 1.81398 1.99539 1.81398C1.48616 1.81398 1.37876 1.9225 1.37876 2.43372C1.37814 5.15043 1.37814 7.86713 1.37814 10.5832Z" fill="#074A37"></path>
+                                                                                    <path d="M20.6234 6.53231C19.5433 6.53231 18.4637 6.53419 17.3835 6.53105C16.9169 6.5298 16.6021 6.24627 16.5953 5.83541C16.5891 5.45277 16.9366 5.14918 17.3977 5.14855C19.5371 5.14604 21.6765 5.14604 23.8152 5.14855C24.2813 5.14918 24.5775 5.40197 24.6072 5.80718C24.6374 6.22369 24.3337 6.52791 23.8628 6.53042C22.7832 6.53607 21.703 6.53231 20.6234 6.53231Z" fill="#074A37"></path>
+                                                                                    <path d="M20.6227 9.95907C21.6819 9.95907 22.7417 9.9597 23.8009 9.95782C24.0009 9.95719 24.1929 9.97413 24.3497 10.1178C24.5558 10.3066 24.6583 10.5443 24.5891 10.8197C24.5132 11.122 24.2935 11.2876 23.9941 11.3366C23.8935 11.3529 23.7892 11.3447 23.6861 11.3447C21.6183 11.3453 19.5512 11.3453 17.4834 11.3453C17.4322 11.3453 17.3803 11.3466 17.3291 11.3447C16.9032 11.3284 16.5828 11.0141 16.5915 10.6215C16.5995 10.2664 16.918 9.96347 17.3204 9.96096C18.4216 9.95468 19.5222 9.95907 20.6227 9.95907Z" fill="#074A37"></path>
+                                                                                    <path d="M19.4592 14.7665C20.1474 14.7665 20.835 14.764 21.5232 14.7671C22.0146 14.7696 22.3226 15.0488 22.3201 15.4784C22.3176 15.8655 22.0084 16.1484 21.5467 16.1502C20.1603 16.1571 18.774 16.1571 17.3883 16.1509C16.913 16.149 16.5846 15.8316 16.5988 15.4195C16.6118 15.045 16.942 14.7702 17.3957 14.7677C18.0833 14.764 18.7715 14.7665 19.4592 14.7665Z" fill="#074A37"></path>
+                                                                                    <path d="M7.3845 6.5323C6.31481 6.5323 5.24574 6.53418 4.17605 6.53167C3.66683 6.53042 3.37363 6.27386 3.3687 5.83791C3.36438 5.42141 3.68287 5.14917 4.18717 5.14854C6.32592 5.14729 8.46468 5.14666 10.6034 5.14917C11.017 5.1498 11.2898 5.37311 11.3602 5.74445C11.417 6.04617 11.2522 6.33847 10.9547 6.47647C10.817 6.54045 10.6738 6.53167 10.5306 6.53167C9.48191 6.53293 8.4332 6.5323 7.3845 6.5323Z" fill="#074A37"></path>
+                                                                                    <path d="M7.3896 14.7671C8.44879 14.7671 9.50799 14.7677 10.5672 14.7665C10.7659 14.7665 10.9591 14.7796 11.1141 14.9277C11.306 15.1108 11.4116 15.3304 11.3536 15.6007C11.2931 15.8824 11.1085 16.0499 10.8369 16.1201C10.7678 16.1377 10.695 16.1509 10.624 16.1509C8.45435 16.1527 6.28473 16.1559 4.1151 16.1502C3.72439 16.149 3.47811 15.9589 3.38737 15.6384C3.26022 15.188 3.58304 14.7759 4.08918 14.7696C4.89098 14.7596 5.6934 14.7665 6.49521 14.7665C6.79334 14.7671 7.09147 14.7671 7.3896 14.7671Z" fill="#074A37"></path>
+                                                                                    <path d="M7.37467 9.95907C8.43386 9.95907 9.49306 9.95782 10.5516 9.9597C11.0393 9.96033 11.3633 10.2395 11.3707 10.6579C11.3781 11.0599 11.0386 11.3453 10.5442 11.346C8.40547 11.3466 6.26671 11.3472 4.12795 11.3447C3.7397 11.3441 3.46564 11.1446 3.3817 10.8166C3.30392 10.5142 3.44095 10.2037 3.71748 10.0469C3.86809 9.96158 4.03166 9.95907 4.19708 9.9597C5.25689 9.9597 6.31547 9.95907 7.37467 9.95907Z" fill="#074A37"></path>
+                                                                                </svg>
 
-                                                                    <!--begin::Input-->
-                                                                    <div class="form-group">
-                                                                        <label>Address Line 2</label>
-                                                                        <input type="text" class="form-control" name="locaddress2" placeholder="Address Line 2" value="Address Line 2" />
-                                                                        <span class="form-text text-muted">Please enter your Address.</span>
+                                                                            </span>
+                                                                            <span class="mr-2">
+                                                                                Open Guidelines
+                                                                            </span>
+                                                                        </button>
                                                                     </div>
-                                                                    <!--end::Input-->
-                                                                    <div class="row">
-                                                                        <div class="col-xl-6">
-                                                                            <!--begin::Input-->
-                                                                            <div class="form-group">
-                                                                                <label>Postcode</label>
-                                                                                <input type="text" class="form-control" name="locpostcode" placeholder="Postcode" value="3072" />
-                                                                                <span class="form-text text-muted">Please enter your Postcode.</span>
+                                                                    <div class="row mt-5">
+                                                                        <div class="col-md-12 mb-5">
+                                                                            <div class="row mt-5">
+                                                                                <div class="col-md-12">
+                                                                                    <div class="assesment-input-labels d-inline assesment-responsive-fontsize">
+                                                                                        Which plan should I select?
+                                                                                    </div>
+                                                                                </div>
                                                                             </div>
-                                                                            <!--end::Input-->
-                                                                        </div>
-                                                                        <div class="col-xl-6">
-                                                                            <!--begin::Input-->
-                                                                            <div class="form-group">
-                                                                                <label>City</label>
-                                                                                <input type="text" class="form-control" name="loccity" placeholder="City" value="Preston" />
-                                                                                <span class="form-text text-muted">Please enter your City.</span>
+                                                                            <div class="row mt-5">
+                                                                                <div class="col-md-12">
+                                                                                    <p class="custom-p">
+                                                                                        The Validated by LandScale package is for those that plan to follow the LandScale framework and guidelines; obtain LandScale and local review of their work, and optionally publish their results on the platform. Selecting this package now will save you considerable money over switching later and will help ensure that no work will need to be redone to meet LandScale requirements.
+                                                                                    </p>
+                                                                                    <p class="custom-p">
+                                                                                        The Powered by LandScale package is for those that are not yet sure what their ultimate goal is for using the platform but want to get started with the option to switch later and publish their results (if requirements are met). If you are still not sure which package is best for you, then please contact us to discuss your needs.
+                                                                                    </p>
+                                                                                    <p class="custom-p">
+                                                                                        We also offer multi-landscape packages and welcome discussions with any organization or partnership that would like a customized package, including customizing the functions of the platform.
+                                                                                    </p>
+                                                                                </div>
                                                                             </div>
-                                                                            <!--end::Input-->
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="row">
-                                                                        <div class="col-xl-6">
-                                                                            <!--begin::Input-->
-                                                                            <div class="form-group">
-                                                                                <label>State</label>
-                                                                                <input type="text" class="form-control" name="locstate" placeholder="State" value="VIC" />
-                                                                                <span class="form-text text-muted">Please enter your State.</span>
+                                                                            <div class="d-flex justify-content-center align-items-center plan-wrapper mt-5 w-100 responsive-block">
+                                                                                <div>
+                                                                                    <div class="card p-5 mr-4 payment-plan-card">
+                                                                                        <span class="d-inline-block text-center">
+                                                                                            <span class="font-weight-bold">Powered</span> By LandScale
+                                                                                        </span>
+                                                                                        <div class="text-center my-3">
+                                                                                            <span class="plan-cost d-inline-block">
+                                                                                                $7.5K
+                                                                                            </span>
+                                                                                        </div>
+                                                                                        <span class="d-inline-block text-center plan-small-text">
+                                                                                            per assessment, per landscape
+                                                                                        </span>
+                                                                                        <div class="mt-5">
+                                                                                            <ul class="listings">
+                                                                                                <li>
+                                                                                                    Access to LandScale’s online platform.
+                                                                                                </li>
+                                                                                                <li>
+                                                                                                    Use of the full LandScale assessment framework.
+                                                                                                </li>
+                                                                                                <li>
+                                                                                                    Ability to add your own custom indicators and metrics.
+                                                                                                </li>
+                                                                                                <li>
+                                                                                                    Ability to download your results at any time.
+                                                                                                </li>
+                                                                                                <li>
+                                                                                                    Access to LandScale’s assessment resources.
+                                                                                                </li>
+                                                                                                <li>
+                                                                                                    Access to online learning content.
+                                                                                                </li>
+
+                                                                                            </ul>
+                                                                                        </div>
+                                                                                    </div>
+
+                                                                                    <div class="plan-note custom-margin-right">
+                                                                                        <span class="d-block mb-2">
+                                                                                            Note:
+                                                                                        </span>
+                                                                                        This experience does not include LandScale validation. Thus, it does not enable results publication or making of claims. You can add LandScale Validation at any time for $12,000 per landscape, per assessment.
+                                                                                    </div>
+                                                                                </div>
+
+                                                                                <div>
+                                                                                    <div class="card p-5 mr-4 payment-plan-card">
+                                                                                        <span class="d-inline-block text-center">
+                                                                                            <span class="font-weight-bold">Validated</span> By LandScale
+                                                                                        </span>
+                                                                                        <div class="text-center my-3">
+                                                                                            <span class="plan-cost d-inline-block">
+                                                                                                $7.5K
+                                                                                            </span>
+                                                                                        </div>
+                                                                                        <span class="d-inline-block text-center plan-small-text">
+                                                                                            per assessment, per landscape
+                                                                                        </span>
+                                                                                        <div class="mt-5">
+                                                                                            <ul class="listings">
+                                                                                                <li>
+                                                                                                    Access to LandScale’s online platform
+                                                                                                </li>
+                                                                                                <li>
+                                                                                                    Use of the full LandScale assessment framework.
+                                                                                                </li>
+                                                                                                <li>
+                                                                                                    Ability to add your own custom indicators and metrics.
+                                                                                                </li>
+                                                                                                <li>
+                                                                                                    Ability to download your results at any time.
+                                                                                                </li>
+                                                                                                <li>
+                                                                                                    Access to LandScale’s assessment resources.
+                                                                                                </li>
+                                                                                                <li>
+                                                                                                    Access to online learning content.
+                                                                                                </li>
+                                                                                                <li>
+                                                                                                    Access to community of practice.
+                                                                                                </li>
+                                                                                                <li>
+                                                                                                    Step-by-step validation from LandScale on your methodology.
+                                                                                                </li>
+                                                                                                <li>
+                                                                                                    Develop a landscape profile and report.
+                                                                                                </li>
+                                                                                                <li>
+                                                                                                    Option to publish results after meeting one of LandScale’s assessment milestones.
+                                                                                                </li>
+                                                                                                <li>
+                                                                                                    Use of the LandScale logo when making claims on validated results.
+                                                                                                </li>
+
+                                                                                            </ul>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                    <div class="plan-note">
+                                                                                        <span class="d-block mb-2">
+                                                                                            Note:
+                                                                                        </span>
+                                                                                        Claims may be made only on LandScale’s core, landscape-dependent indicators, and optional indicators.
+                                                                                    </div>
+                                                                                </div>
+
                                                                             </div>
-                                                                            <!--end::Input-->
-                                                                        </div>
-                                                                        <div class="col-xl-6">
-                                                                            <!--begin::Select-->
-                                                                            <div class="form-group">
-                                                                                <label>Country</label>
-                                                                                <select name="loccountry" class="form-control">
-                                                                                    <option value="">Select</option>
-                                                                                    <option value="AF">Afghanistan</option>
-                                                                                    <option value="AX">Åland Islands</option>
-                                                                                    <option value="AL">Albania</option>
-                                                                                    <option value="DZ">Algeria</option>
-                                                                                    <option value="AS">American Samoa</option>
-                                                                                    <option value="AD">Andorra</option>
-                                                                                    <option value="AO">Angola</option>
-                                                                                    <option value="AI">Anguilla</option>
-                                                                                    <option value="AQ">Antarctica</option>
-                                                                                    <option value="AG">Antigua and Barbuda</option>
-                                                                                    <option value="AR">Argentina</option>
-                                                                                    <option value="AM">Armenia</option>
-                                                                                    <option value="AW">Aruba</option>
-                                                                                    <option value="AU" selected>Australia</option>
-                                                                                    <option value="AT">Austria</option>
-                                                                                    <option value="AZ">Azerbaijan</option>
-                                                                                    <option value="BS">Bahamas</option>
-                                                                                    <option value="BH">Bahrain</option>
-                                                                                    <option value="BD">Bangladesh</option>
-                                                                                    <option value="BB">Barbados</option>
-                                                                                    <option value="BY">Belarus</option>
-                                                                                    <option value="BE">Belgium</option>
-                                                                                    <option value="BZ">Belize</option>
-                                                                                    <option value="BJ">Benin</option>
-                                                                                    <option value="BM">Bermuda</option>
-                                                                                    <option value="BT">Bhutan</option>
-                                                                                    <option value="BO">Bolivia, Plurinational State of</option>
-                                                                                    <option value="BQ">Bonaire, Sint Eustatius and Saba</option>
-                                                                                    <option value="BA">Bosnia and Herzegovina</option>
-                                                                                    <option value="BW">Botswana</option>
-                                                                                    <option value="BV">Bouvet Island</option>
-                                                                                    <option value="BR">Brazil</option>
-                                                                                    <option value="IO">British Indian Ocean Territory</option>
-                                                                                    <option value="BN">Brunei Darussalam</option>
-                                                                                    <option value="BG">Bulgaria</option>
-                                                                                    <option value="BF">Burkina Faso</option>
-                                                                                    <option value="BI">Burundi</option>
-                                                                                    <option value="KH">Cambodia</option>
-                                                                                    <option value="CM">Cameroon</option>
-                                                                                    <option value="CA">Canada</option>
-                                                                                    <option value="CV">Cape Verde</option>
-                                                                                    <option value="KY">Cayman Islands</option>
-                                                                                    <option value="CF">Central African Republic</option>
-                                                                                    <option value="TD">Chad</option>
-                                                                                    <option value="CL">Chile</option>
-                                                                                    <option value="CN">China</option>
-                                                                                    <option value="CX">Christmas Island</option>
-                                                                                    <option value="CC">Cocos (Keeling) Islands</option>
-                                                                                    <option value="CO">Colombia</option>
-                                                                                    <option value="KM">Comoros</option>
-                                                                                    <option value="CG">Congo</option>
-                                                                                    <option value="CD">Congo, the Democratic Republic of the</option>
-                                                                                    <option value="CK">Cook Islands</option>
-                                                                                    <option value="CR">Costa Rica</option>
-                                                                                    <option value="CI">Côte d'Ivoire</option>
-                                                                                    <option value="HR">Croatia</option>
-                                                                                    <option value="CU">Cuba</option>
-                                                                                    <option value="CW">Curaçao</option>
-                                                                                    <option value="CY">Cyprus</option>
-                                                                                    <option value="CZ">Czech Republic</option>
-                                                                                    <option value="DK">Denmark</option>
-                                                                                    <option value="DJ">Djibouti</option>
-                                                                                    <option value="DM">Dominica</option>
-                                                                                    <option value="DO">Dominican Republic</option>
-                                                                                    <option value="EC">Ecuador</option>
-                                                                                    <option value="EG">Egypt</option>
-                                                                                    <option value="SV">El Salvador</option>
-                                                                                    <option value="GQ">Equatorial Guinea</option>
-                                                                                    <option value="ER">Eritrea</option>
-                                                                                    <option value="EE">Estonia</option>
-                                                                                    <option value="ET">Ethiopia</option>
-                                                                                    <option value="FK">Falkland Islands (Malvinas)</option>
-                                                                                    <option value="FO">Faroe Islands</option>
-                                                                                    <option value="FJ">Fiji</option>
-                                                                                    <option value="FI">Finland</option>
-                                                                                    <option value="FR">France</option>
-                                                                                    <option value="GF">French Guiana</option>
-                                                                                    <option value="PF">French Polynesia</option>
-                                                                                    <option value="TF">French Southern Territories</option>
-                                                                                    <option value="GA">Gabon</option>
-                                                                                    <option value="GM">Gambia</option>
-                                                                                    <option value="GE">Georgia</option>
-                                                                                    <option value="DE">Germany</option>
-                                                                                    <option value="GH">Ghana</option>
-                                                                                    <option value="GI">Gibraltar</option>
-                                                                                    <option value="GR">Greece</option>
-                                                                                    <option value="GL">Greenland</option>
-                                                                                    <option value="GD">Grenada</option>
-                                                                                    <option value="GP">Guadeloupe</option>
-                                                                                    <option value="GU">Guam</option>
-                                                                                    <option value="GT">Guatemala</option>
-                                                                                    <option value="GG">Guernsey</option>
-                                                                                    <option value="GN">Guinea</option>
-                                                                                    <option value="GW">Guinea-Bissau</option>
-                                                                                    <option value="GY">Guyana</option>
-                                                                                    <option value="HT">Haiti</option>
-                                                                                    <option value="HM">Heard Island and McDonald Islands</option>
-                                                                                    <option value="VA">Holy See (Vatican City State)</option>
-                                                                                    <option value="HN">Honduras</option>
-                                                                                    <option value="HK">Hong Kong</option>
-                                                                                    <option value="HU">Hungary</option>
-                                                                                    <option value="IS">Iceland</option>
-                                                                                    <option value="IN">India</option>
-                                                                                    <option value="ID">Indonesia</option>
-                                                                                    <option value="IR">Iran, Islamic Republic of</option>
-                                                                                    <option value="IQ">Iraq</option>
-                                                                                    <option value="IE">Ireland</option>
-                                                                                    <option value="IM">Isle of Man</option>
-                                                                                    <option value="IL">Israel</option>
-                                                                                    <option value="IT">Italy</option>
-                                                                                    <option value="JM">Jamaica</option>
-                                                                                    <option value="JP">Japan</option>
-                                                                                    <option value="JE">Jersey</option>
-                                                                                    <option value="JO">Jordan</option>
-                                                                                    <option value="KZ">Kazakhstan</option>
-                                                                                    <option value="KE">Kenya</option>
-                                                                                    <option value="KI">Kiribati</option>
-                                                                                    <option value="KP">Korea, Democratic People's Republic of</option>
-                                                                                    <option value="KR">Korea, Republic of</option>
-                                                                                    <option value="KW">Kuwait</option>
-                                                                                    <option value="KG">Kyrgyzstan</option>
-                                                                                    <option value="LA">Lao People's Democratic Republic</option>
-                                                                                    <option value="LV">Latvia</option>
-                                                                                    <option value="LB">Lebanon</option>
-                                                                                    <option value="LS">Lesotho</option>
-                                                                                    <option value="LR">Liberia</option>
-                                                                                    <option value="LY">Libya</option>
-                                                                                    <option value="LI">Liechtenstein</option>
-                                                                                    <option value="LT">Lithuania</option>
-                                                                                    <option value="LU">Luxembourg</option>
-                                                                                    <option value="MO">Macao</option>
-                                                                                    <option value="MK">Macedonia, the former Yugoslav Republic of</option>
-                                                                                    <option value="MG">Madagascar</option>
-                                                                                    <option value="MW">Malawi</option>
-                                                                                    <option value="MY">Malaysia</option>
-                                                                                    <option value="MV">Maldives</option>
-                                                                                    <option value="ML">Mali</option>
-                                                                                    <option value="MT">Malta</option>
-                                                                                    <option value="MH">Marshall Islands</option>
-                                                                                    <option value="MQ">Martinique</option>
-                                                                                    <option value="MR">Mauritania</option>
-                                                                                    <option value="MU">Mauritius</option>
-                                                                                    <option value="YT">Mayotte</option>
-                                                                                    <option value="MX">Mexico</option>
-                                                                                    <option value="FM">Micronesia, Federated States of</option>
-                                                                                    <option value="MD">Moldova, Republic of</option>
-                                                                                    <option value="MC">Monaco</option>
-                                                                                    <option value="MN">Mongolia</option>
-                                                                                    <option value="ME">Montenegro</option>
-                                                                                    <option value="MS">Montserrat</option>
-                                                                                    <option value="MA">Morocco</option>
-                                                                                    <option value="MZ">Mozambique</option>
-                                                                                    <option value="MM">Myanmar</option>
-                                                                                    <option value="NA">Namibia</option>
-                                                                                    <option value="NR">Nauru</option>
-                                                                                    <option value="NP">Nepal</option>
-                                                                                    <option value="NL">Netherlands</option>
-                                                                                    <option value="NC">New Caledonia</option>
-                                                                                    <option value="NZ">New Zealand</option>
-                                                                                    <option value="NI">Nicaragua</option>
-                                                                                    <option value="NE">Niger</option>
-                                                                                    <option value="NG">Nigeria</option>
-                                                                                    <option value="NU">Niue</option>
-                                                                                    <option value="NF">Norfolk Island</option>
-                                                                                    <option value="MP">Northern Mariana Islands</option>
-                                                                                    <option value="NO">Norway</option>
-                                                                                    <option value="OM">Oman</option>
-                                                                                    <option value="PK">Pakistan</option>
-                                                                                    <option value="PW">Palau</option>
-                                                                                    <option value="PS">Palestinian Territory, Occupied</option>
-                                                                                    <option value="PA">Panama</option>
-                                                                                    <option value="PG">Papua New Guinea</option>
-                                                                                    <option value="PY">Paraguay</option>
-                                                                                    <option value="PE">Peru</option>
-                                                                                    <option value="PH">Philippines</option>
-                                                                                    <option value="PN">Pitcairn</option>
-                                                                                    <option value="PL">Poland</option>
-                                                                                    <option value="PT">Portugal</option>
-                                                                                    <option value="PR">Puerto Rico</option>
-                                                                                    <option value="QA">Qatar</option>
-                                                                                    <option value="RE">Réunion</option>
-                                                                                    <option value="RO">Romania</option>
-                                                                                    <option value="RU">Russian Federation</option>
-                                                                                    <option value="RW">Rwanda</option>
-                                                                                    <option value="BL">Saint Barthélemy</option>
-                                                                                    <option value="SH">Saint Helena, Ascension and Tristan da Cunha</option>
-                                                                                    <option value="KN">Saint Kitts and Nevis</option>
-                                                                                    <option value="LC">Saint Lucia</option>
-                                                                                    <option value="MF">Saint Martin (French part)</option>
-                                                                                    <option value="PM">Saint Pierre and Miquelon</option>
-                                                                                    <option value="VC">Saint Vincent and the Grenadines</option>
-                                                                                    <option value="WS">Samoa</option>
-                                                                                    <option value="SM">San Marino</option>
-                                                                                    <option value="ST">Sao Tome and Principe</option>
-                                                                                    <option value="SA">Saudi Arabia</option>
-                                                                                    <option value="SN">Senegal</option>
-                                                                                    <option value="RS">Serbia</option>
-                                                                                    <option value="SC">Seychelles</option>
-                                                                                    <option value="SL">Sierra Leone</option>
-                                                                                    <option value="SG">Singapore</option>
-                                                                                    <option value="SX">Sint Maarten (Dutch part)</option>
-                                                                                    <option value="SK">Slovakia</option>
-                                                                                    <option value="SI">Slovenia</option>
-                                                                                    <option value="SB">Solomon Islands</option>
-                                                                                    <option value="SO">Somalia</option>
-                                                                                    <option value="ZA">South Africa</option>
-                                                                                    <option value="GS">South Georgia and the South Sandwich Islands</option>
-                                                                                    <option value="SS">South Sudan</option>
-                                                                                    <option value="ES">Spain</option>
-                                                                                    <option value="LK">Sri Lanka</option>
-                                                                                    <option value="SD">Sudan</option>
-                                                                                    <option value="SR">Suriname</option>
-                                                                                    <option value="SJ">Svalbard and Jan Mayen</option>
-                                                                                    <option value="SZ">Swaziland</option>
-                                                                                    <option value="SE">Sweden</option>
-                                                                                    <option value="CH">Switzerland</option>
-                                                                                    <option value="SY">Syrian Arab Republic</option>
-                                                                                    <option value="TW">Taiwan, Province of China</option>
-                                                                                    <option value="TJ">Tajikistan</option>
-                                                                                    <option value="TZ">Tanzania, United Republic of</option>
-                                                                                    <option value="TH">Thailand</option>
-                                                                                    <option value="TL">Timor-Leste</option>
-                                                                                    <option value="TG">Togo</option>
-                                                                                    <option value="TK">Tokelau</option>
-                                                                                    <option value="TO">Tonga</option>
-                                                                                    <option value="TT">Trinidad and Tobago</option>
-                                                                                    <option value="TN">Tunisia</option>
-                                                                                    <option value="TR">Turkey</option>
-                                                                                    <option value="TM">Turkmenistan</option>
-                                                                                    <option value="TC">Turks and Caicos Islands</option>
-                                                                                    <option value="TV">Tuvalu</option>
-                                                                                    <option value="UG">Uganda</option>
-                                                                                    <option value="UA">Ukraine</option>
-                                                                                    <option value="AE">United Arab Emirates</option>
-                                                                                    <option value="GB">United Kingdom</option>
-                                                                                    <option value="US">United States</option>
-                                                                                    <option value="UM">United States Minor Outlying Islands</option>
-                                                                                    <option value="UY">Uruguay</option>
-                                                                                    <option value="UZ">Uzbekistan</option>
-                                                                                    <option value="VU">Vanuatu</option>
-                                                                                    <option value="VE">Venezuela, Bolivarian Republic of</option>
-                                                                                    <option value="VN">Viet Nam</option>
-                                                                                    <option value="VG">Virgin Islands, British</option>
-                                                                                    <option value="VI">Virgin Islands, U.S.</option>
-                                                                                    <option value="WF">Wallis and Futuna</option>
-                                                                                    <option value="EH">Western Sahara</option>
-                                                                                    <option value="YE">Yemen</option>
-                                                                                    <option value="ZM">Zambia</option>
-                                                                                    <option value="ZW">Zimbabwe</option>
-                                                                                </select>
-                                                                            </div>
-                                                                            <!--end::Select-->
+                                                                            <!-- <div class="d-flex justify-content-center align-items-center plan-wrapper mt-5 w-100 responsive-block">
+                                                                                <div class="plan-note custom-margin-right">
+                                                                                    <span class="d-block mb-2">
+                                                                                        Note:
+                                                                                    </span>
+                                                                                    This experience does not include LandScale validation. Thus, it does not enable results publication or making of claims. You can add LandScale Validation at any time for $12,000 per landscape, per assessment.
+                                                                                </div>
+                                                                                <div class="plan-note">
+                                                                                    <span class="d-block mb-2">
+                                                                                        Note:
+                                                                                    </span>
+                                                                                    Claims may be made only on LandScale’s core, landscape-dependent indicators, and optional indicators.
+                                                                                </div>
+                                                                            </div> -->
                                                                         </div>
                                                                     </div>
                                                                 </div>
