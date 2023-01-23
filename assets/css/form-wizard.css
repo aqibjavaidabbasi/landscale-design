@@ -165,6 +165,7 @@
     flex: 0 0 100%;
     padding: 1rem 0;
   }
+
 }
 
 @media screen and (min-width: 320px) and (max-width: 330px) {
@@ -175,6 +176,28 @@
   .margin-align {
     margin: 0px !important;
   }
+
+  .wizard.wizard-3 .wizard-nav .wizard-steps .wizard-step .wizard-label .wizard-bar:before {
+    right: 12px;
+  }
+
+  .wizard-nav-title {
+    left: 10px;
+    font-size: 8px !important;
+  }
+
+  .custom-padding-40 {
+    padding: 2px !important;
+  }
+
+  .assesments-card-header {
+    font-size: 14px !important;
+  }
+
+  .assesment-card-btn {
+    font-size: 10px !important;
+  }
+
 }
 
 @media screen and (min-width: 330px) and (max-width: 370px) {
@@ -184,6 +207,16 @@
 
   .margin-align {
     margin: 0px !important;
+  }
+
+
+  .wizard.wizard-3 .wizard-nav .wizard-steps .wizard-step .wizard-label .wizard-bar:before {
+    right: 15px;
+  }
+
+  .wizard-nav-title {
+    left: 10px;
+    font-size: 8px !important;
   }
 }
 
@@ -196,6 +229,14 @@
     margin: 0px !important;
   }
 
+  .wizard.wizard-3 .wizard-nav .wizard-steps .wizard-step .wizard-label .wizard-bar:before {
+    right: 25px;
+  }
+
+  .wizard-nav-title {
+    left: 10px;
+    font-size: 8px !important;
+  }
 }
 
 @media screen and (min-width: 390px) and (max-width: 445px) {
@@ -205,6 +246,15 @@
 
   .margin-align {
     margin: 0px !important;
+  }
+
+  .wizard.wizard-3 .wizard-nav .wizard-steps .wizard-step .wizard-label .wizard-bar:before {
+    right: 25px;
+  }
+
+  .wizard-nav-title {
+    left: 13px;
+    font-size: 10px !important;
   }
 
 }
@@ -218,6 +268,15 @@
     margin: 0px !important;
   }
 
+  .wizard.wizard-3 .wizard-nav .wizard-steps .wizard-step .wizard-label .wizard-bar:before {
+    right: 27px;
+  }
+
+  .wizard-nav-title {
+    left: 21px;
+    font-size: 10px !important;
+  }
+
 }
 
 @media screen and (min-width: 495px) and (max-width: 580px) {
@@ -228,6 +287,15 @@
   .margin-align {
     margin: 0px !important;
   }
+
+  .wizard.wizard-3 .wizard-nav .wizard-steps .wizard-step .wizard-label .wizard-bar:before {
+    right: 36.5px;
+  }
+
+  .wizard-nav-title {
+    left: 21px;
+    font-size: 10px !important;
+  }
 }
 
 @media screen and (min-width: 580px) and (max-width: 670px) {
@@ -237,6 +305,15 @@
 
   .margin-align {
     margin: 0px !important;
+  }
+
+  .wizard.wizard-3 .wizard-nav .wizard-steps .wizard-step .wizard-label .wizard-bar:before {
+    right: 55px;
+  }
+
+  .wizard-nav-title {
+    left: 38px;
+    font-size: 10px !important;
   }
 }
 
@@ -249,6 +326,15 @@
     margin: 0px !important;
   }
 
+
+  .wizard.wizard-3 .wizard-nav .wizard-steps .wizard-step .wizard-label .wizard-bar:before {
+    right: 57px;
+  }
+
+  .wizard-nav-title {
+    left: 38px;
+    font-size: 10px !important;
+  }
 }
 
 @media screen and (min-width: 766px) and (max-width: 860px) {
@@ -260,6 +346,16 @@
     margin: 0px !important;
   }
 
+
+  .wizard.wizard-3 .wizard-nav .wizard-steps .wizard-step .wizard-label .wizard-bar:before {
+    right: 74px;
+  }
+
+  .wizard-nav-title {
+    left: 56px;
+    font-size: 13px !important;
+  }
+
 }
 
 @media screen and (min-width: 860px) and (max-width: 991.5px) {
@@ -269,6 +365,16 @@
 
   .margin-align {
     margin: 0px !important;
+  }
+
+
+  .wizard.wizard-3 .wizard-nav .wizard-steps .wizard-step .wizard-label .wizard-bar:before {
+    right: 88px;
+  }
+
+  .wizard-nav-title {
+    left: 66px;
+    font-size: 13px !important;
   }
 
 }
