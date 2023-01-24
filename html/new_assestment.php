@@ -572,7 +572,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                         </span>
                                                                                         <div class="text-center my-3">
                                                                                             <span class="plan-cost d-inline-block">
-                                                                                                $7.5K
+                                                                                                $15K
                                                                                             </span>
                                                                                         </div>
                                                                                         <span class="d-inline-block text-center plan-small-text">
