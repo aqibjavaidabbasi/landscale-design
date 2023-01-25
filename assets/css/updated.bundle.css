@@ -101206,7 +101206,7 @@ body {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
-    font-size: 24px;
+    font-size: 15px;
     line-height: 28px;
     text-transform: capitalize;
 
@@ -101335,7 +101335,7 @@ body {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 200;
-    font-size: 15px;
+    font-size: 13px;
     line-height: 142.19%;
     /* or 21px */
     text-transform: capitalize;
@@ -101409,7 +101409,7 @@ body {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
-    font-size: 18px;
+    font-size: 15px;
     line-height: 21px;
     /* identical to box height */
 
@@ -101430,6 +101430,13 @@ body {
     position: relative;
 }
 
+.child-bottom {
+    position: absolute;
+    bottom: 15px;
+    left: 0;
+    right: 0;
+}
+
 .locked-background {
     background-color: #E1E1E1 !important;
     color: #839FA0 !important;
@@ -101442,21 +101449,24 @@ body {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
-    font-size: 24px;
-    line-height: 28px;
+    font-size: 15px;
+    line-height: 25px;
     text-align: center;
-
     color: #FFFFFF;
-
     background: #DCE7D1;
     border-radius: 50%;
-    padding: 4px;
+    width: 25px;
+    height: 25px;
 }
 
 .progress-line {
-    width: 90%;
+    width: 80%;
     height: 3px;
     background-color: #074A37;
+}
+
+.custom-col-height {
+    height: 150px;
 }
 
 .progress-line-locked {
@@ -101481,6 +101491,31 @@ body {
 
 .steps-tab-footer-bottom-right-radius {
     border-bottom-right-radius: 4px;
+}
+
+.custom-height-step-card {
+    height: 310px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1000px) {
+    .step-number {
+        right: 6px !important;
+    }
+
+
+    .responsive-footer-text {
+        font-size: 9px;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 769px) {
+    .custom-height-step-card {
+        height: auto;
+    }
+
+    .responsive-margin-card {
+        margin-bottom: 4px;
+    }
 }
 
 @media screen and (min-width: 320px) and (max-width: 821px) {
