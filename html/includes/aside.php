@@ -28,7 +28,7 @@
             </div>
             <ul class="menu-nav">
                 <li class="menu-item menu-item-submenu" aria-haspopup="true" data-menu-toggle="hover">
-                    <a href="javascript:;" class="menu-link menu-toggle px-4 py-2 hover-menu text-center">
+                    <a href="./dashboard.php" class="menu-link px-4 py-2 hover-menu text-center">
                         <span class="svg-icon-lg p-4 d-block rounded-circle bg-light-primary mr-5">
                             <!--begin::Svg Icon | path:/metronic/theme/html/demo1/dist/assets/media/svg/icons/Code/Compiling.svg-->
                             <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18px" height="18px" viewBox="0 0 24 24" version="1.1">
@@ -55,7 +55,7 @@
                     </div>
                 </li>
                 <li class="menu-item menu-item-submenu" aria-haspopup="true" data-menu-toggle="hover">
-                    <a href="javascript:;" class="menu-link menu-toggle px-4 py-2 hover-menu text-center">
+                    <a href="./dashboard_with_square_cornors.php" class="menu-link px-4 py-2 hover-menu text-center">
                         <span class="svg-icon-lg p-4 d-block rounded-circle bg-light-primary mr-5">
                             <!--begin::Svg Icon | path:/metronic/theme/html/demo1/dist/assets/media/svg/icons/Code/Compiling.svg-->
                             <svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -81,7 +81,7 @@
                                 </span>
                             </li>
                             <li class="menu-item" aria-haspopup="true">
-                                <a href="#" class="menu-link">
+                                <a href="./dashboard_with_square_cornors.php" class="menu-link">
                                     <i class="menu-bullet-dot mr-3">
                                         <span>
                                             <svg width="7" height="9" viewBox="0 0 7 9" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -94,7 +94,7 @@
                                 </a>
                             </li>
                             <li class="menu-item" aria-haspopup="true">
-                                <a href="#" class="menu-link">
+                                <a href="./dashboard_with_square_cornors.php" class="menu-link">
                                     <i class="menu-bullet-dot mr-3">
                                         <span>
                                             <svg width="7" height="9" viewBox="0 0 7 9" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -107,7 +107,7 @@
                                 </a>
                             </li>
                             <li class="menu-item" aria-haspopup="true">
-                                <a href="#" class="menu-link">
+                                <a href="./dashboard_with_square_cornors.php" class="menu-link">
                                     <i class="menu-bullet-dot mr-3">
                                         <span>
                                             <svg width="7" height="9" viewBox="0 0 7 9" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -120,7 +120,7 @@
                                 </a>
                             </li>
                             <li class="menu-item" aria-haspopup="true">
-                                <a href="#" class="menu-link">
+                                <a href="./dashboard_with_square_cornors.php" class="menu-link">
                                     <i class="menu-bullet-dot mr-3">
                                         <span>
                                             <svg width="7" height="9" viewBox="0 0 7 9" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -133,7 +133,7 @@
                                 </a>
                             </li>
                             <li class="menu-item" aria-haspopup="true">
-                                <a href="#" class="menu-link">
+                                <a href="./dashboard_with_square_cornors.php" class="menu-link">
                                     <i class="menu-bullet-dot mr-3">
                                         <span>
                                             <svg width="7" height="9" viewBox="0 0 7 9" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -149,7 +149,7 @@
                     </div>
                 </li>
                 <li class="menu-item menu-item-submenu" aria-haspopup="true" data-menu-toggle="hover">
-                    <a href="javascript:;" class="menu-link menu-toggle px-4 py-2 hover-menu text-center">
+                    <a href="./favorite_asssesment.php" class="menu-link px-4 py-2 hover-menu text-center">
                         <span class="svg-icon-lg p-4 d-block rounded-circle bg-light-primary mr-5">
                             <!--begin::Svg Icon | path:/metronic/theme/html/demo1/dist/assets/media/svg/icons/Code/Compiling.svg-->
                             <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18px" height="18px" viewBox="0 0 24 24" version="1.1">
