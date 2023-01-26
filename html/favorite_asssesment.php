@@ -320,7 +320,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                             <div class="d-flex justify-content-center">
                                                 <img src="../assets/media/heart_icon.png" alt="" srcset="" class="mb-5">
                                             </div>
-                                            <div class="favourite-assesment-main-heading mb-3 mt-5 assesment-responsive">You don’t have any favorite Assessments</div>
+                                            <div class="favourite-assesment-main-heading mb-3 mt-5 assesment-responsive text-center">You don’t have any favorite Assessments</div>
                                             <div class="sub-heading assesment-responsive">Like any profile you see? Save them here to your favorite assessments</div>
                                             <div class="d-flex justify-content-center">
                                                 <a href="#" class="frt-default-btn frt-dark-clr custom-padding-x-y d-inline-block mt-5">Start Exploring</a>

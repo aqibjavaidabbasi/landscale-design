@@ -101497,6 +101497,163 @@ body {
     height: 310px;
 }
 
+/* indicator & metrices style */
+
+.step-card {
+    box-sizing: border-box;
+    background: #EBF2E4;
+    border: 1px solid rgba(154, 191, 120, 0.6);
+    border-radius: 15px;
+}
+
+.steps-custom-height {
+    height: 234px;
+}
+
+.steps-default-text {
+    font-family: 'Roboto';
+    font-style: normal;
+}
+
+.steps-heading {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    text-transform: uppercase;
+    color: #074A37;
+}
+
+.steps-p-text {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 136.69%;
+    color: #3F544C;
+}
+
+.steps-small-text {
+    font-size: 15px;
+    line-height: 136.69%;
+    /* identical to box height, or 21px */
+    color: #074A37;
+}
+
+.step-radius {
+    border-radius: 5px;
+}
+
+.steps-table-radius {
+    border-collapse: separate;
+    border: 1px solid rgba(154, 191, 120, 0.3);
+    border-radius: 5px;
+}
+
+.steps-table-header-text {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 136.69%;
+    color: #074A37;
+}
+
+.steps-table-header-color {
+    background-color: #DCE6D1;
+}
+
+.step-table-custom-col-w {
+    width: 169px;
+}
+
+.steps-tags-text {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    text-align: center;
+}
+
+.steps-success-tag {
+    background: #D5E7C5;
+    border-radius: 3px;
+    color: #78A251;
+}
+
+.step-required-tag {
+    background: #4C94A0;
+    border-radius: 3px;
+    color: #fff;
+}
+
+.step-pending-tag {
+    background: #D8EDF9;
+    border-radius: 3px;
+    color: #299CDB;
+}
+
+.steps-task td {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.steps-custom-margin-top {
+    margin-top: 30px;
+}
+
+.steps-custom-margin-top-70 {
+    margin-top: 70px;
+}
+
+.steps-image-container {
+    position: relative;
+    border: 1px solid #EBF2E4;
+    border-radius: 6px;
+    padding: 20px;
+}
+
+.step-unit-image-1 {
+    position: absolute;
+    left: 2px;
+    top: 4px;
+    z-index: 2;
+    border-radius: 7px;
+}
+
+.step-unit-image-2 {
+    position: absolute;
+    left: 25px;
+    top: 4px;
+    z-index: 1;
+    border-radius: 7px;
+}
+
+.step-unit-image-3 {
+    position: absolute;
+    left: 53px;
+    top: 4px;
+    border-radius: 7px;
+}
+
+.step-unit-image-4 {
+    position: absolute;
+    left: 109px;
+    top: 4px;
+    border-radius: 7px;
+    background-color: #074A37;
+    padding: 8px;
+}
+
+.step-unit-counter {
+    position: absolute;
+    left: 87px;
+    top: 4px;
+    border-radius: 7px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    text-align: center;
+    padding: 8px;
+    color: #4C94A0
+}
+
 @media screen and (min-width: 768px) and (max-width: 1000px) {
     .step-number {
         right: 6px !important;

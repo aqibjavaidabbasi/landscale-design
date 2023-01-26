@@ -81,6 +81,41 @@
   position: relative;
 }
 
+.wizard.wizard-3 .wizard-nav .wizard-steps .wizard-step .wizard-label .wizard-bar-1 {
+  height: 4px;
+  width: 100%;
+  background-color: #074A37;
+  position: relative;
+}
+
+.wizard.wizard-3 .wizard-nav .wizard-steps .wizard-step .wizard-label .wizard-bar-2 {
+  height: 4px;
+  width: 100%;
+  background-color: #074A37;
+  position: relative;
+}
+
+.wizard.wizard-3 .wizard-nav .wizard-steps .wizard-step .wizard-label .wizard-bar-3 {
+  height: 4px;
+  width: 100%;
+  background-color: #074A37;
+  position: relative;
+}
+
+.wizard.wizard-3 .wizard-nav .wizard-steps .wizard-step .wizard-label .wizard-bar-4 {
+  height: 4px;
+  width: 100%;
+  background-color: #074A37;
+  position: relative;
+}
+
+.wizard.wizard-3 .wizard-nav .wizard-steps .wizard-step .wizard-label .wizard-bar-5 {
+  height: 4px;
+  width: 100%;
+  background-color: #074A37;
+  position: relative;
+}
+
 .wizard.wizard-3 .wizard-nav .wizard-steps .wizard-step .wizard-label .wizard-bar:after {
   content: " ";
   position: absolute;
@@ -89,6 +124,76 @@
   height: 4px;
   width: 0;
   background-color: var(--bg-color);
+  -webkit-transition: color 0.15s ease, background-color 0.15s ease, border-color 0.15s ease, -webkit-box-shadow 0.15s ease;
+  transition: color 0.15s ease, background-color 0.15s ease, border-color 0.15s ease, -webkit-box-shadow 0.15s ease;
+  transition: color 0.15s ease, background-color 0.15s ease, border-color 0.15s ease, box-shadow 0.15s ease;
+  transition: color 0.15s ease, background-color 0.15s ease, border-color 0.15s ease, box-shadow 0.15s ease, -webkit-box-shadow 0.15s ease;
+}
+
+.wizard.wizard-3 .wizard-nav .wizard-steps .wizard-step .wizard-label .wizard-bar-1:after {
+  content: " ";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 4px;
+  width: 0;
+  background-color: #074A37;
+  -webkit-transition: color 0.15s ease, background-color 0.15s ease, border-color 0.15s ease, -webkit-box-shadow 0.15s ease;
+  transition: color 0.15s ease, background-color 0.15s ease, border-color 0.15s ease, -webkit-box-shadow 0.15s ease;
+  transition: color 0.15s ease, background-color 0.15s ease, border-color 0.15s ease, box-shadow 0.15s ease;
+  transition: color 0.15s ease, background-color 0.15s ease, border-color 0.15s ease, box-shadow 0.15s ease, -webkit-box-shadow 0.15s ease;
+}
+
+.wizard.wizard-3 .wizard-nav .wizard-steps .wizard-step .wizard-label .wizard-bar-2:after {
+  content: " ";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 4px;
+  width: 0;
+  background-color: #074A37;
+  -webkit-transition: color 0.15s ease, background-color 0.15s ease, border-color 0.15s ease, -webkit-box-shadow 0.15s ease;
+  transition: color 0.15s ease, background-color 0.15s ease, border-color 0.15s ease, -webkit-box-shadow 0.15s ease;
+  transition: color 0.15s ease, background-color 0.15s ease, border-color 0.15s ease, box-shadow 0.15s ease;
+  transition: color 0.15s ease, background-color 0.15s ease, border-color 0.15s ease, box-shadow 0.15s ease, -webkit-box-shadow 0.15s ease;
+}
+
+.wizard.wizard-3 .wizard-nav .wizard-steps .wizard-step .wizard-label .wizard-bar-3:after {
+  content: " ";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 4px;
+  width: 0;
+  background-color: #074A37;
+  -webkit-transition: color 0.15s ease, background-color 0.15s ease, border-color 0.15s ease, -webkit-box-shadow 0.15s ease;
+  transition: color 0.15s ease, background-color 0.15s ease, border-color 0.15s ease, -webkit-box-shadow 0.15s ease;
+  transition: color 0.15s ease, background-color 0.15s ease, border-color 0.15s ease, box-shadow 0.15s ease;
+  transition: color 0.15s ease, background-color 0.15s ease, border-color 0.15s ease, box-shadow 0.15s ease, -webkit-box-shadow 0.15s ease;
+}
+
+.wizard.wizard-3 .wizard-nav .wizard-steps .wizard-step .wizard-label .wizard-bar-4:after {
+  content: " ";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 4px;
+  width: 0;
+  background-color: #074A37;
+  -webkit-transition: color 0.15s ease, background-color 0.15s ease, border-color 0.15s ease, -webkit-box-shadow 0.15s ease;
+  transition: color 0.15s ease, background-color 0.15s ease, border-color 0.15s ease, -webkit-box-shadow 0.15s ease;
+  transition: color 0.15s ease, background-color 0.15s ease, border-color 0.15s ease, box-shadow 0.15s ease;
+  transition: color 0.15s ease, background-color 0.15s ease, border-color 0.15s ease, box-shadow 0.15s ease, -webkit-box-shadow 0.15s ease;
+}
+
+.wizard.wizard-3 .wizard-nav .wizard-steps .wizard-step .wizard-label .wizard-bar-5:after {
+  content: " ";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 4px;
+  width: 0;
+  background-color: #074A37;
   -webkit-transition: color 0.15s ease, background-color 0.15s ease, border-color 0.15s ease, -webkit-box-shadow 0.15s ease;
   transition: color 0.15s ease, background-color 0.15s ease, border-color 0.15s ease, -webkit-box-shadow 0.15s ease;
   transition: color 0.15s ease, background-color 0.15s ease, border-color 0.15s ease, box-shadow 0.15s ease;
@@ -127,6 +232,117 @@
   right: 105px;
   z-index: 1;
   display: var(--myVar);
+}
+
+.wizard.wizard-3 .wizard-nav .wizard-steps .wizard-step .wizard-label .wizard-bar-1:before {
+  content: '';
+  content: url('../media/Preparation.png');
+  border: 2px solid #9ABF78;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  border-radius: 50%;
+  top: -23px;
+  left: 0px;
+  background-color: #EBF2E4;
+  padding: 6px;
+  z-index: 1;
+  display: var(--myVar);
+}
+
+.wizard.wizard-3 .wizard-nav .wizard-steps .wizard-step .wizard-label .wizard-bar-2:before {
+  content: '';
+  content: url('../media/Boundaries.png');
+  border: 2px solid #9ABF78;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  border-radius: 50%;
+  top: -23px;
+  left: 35px;
+  background-color: #EBF2E4;
+  padding: 6px;
+  z-index: 1;
+  display: var(--myVar);
+}
+
+.wizard.wizard-3 .wizard-nav .wizard-steps .wizard-step .wizard-label .wizard-bar-3:before {
+  content: '';
+  content: url('../media/indicator_and_matrics.png');
+  border: 2px solid #9ABF78;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  border-radius: 50%;
+  top: -23px;
+  left: 55px;
+  background-color: #EBF2E4;
+  padding: 8px;
+  z-index: 1;
+  display: var(--myVar);
+}
+
+.wizard.wizard-3 .wizard-nav .wizard-steps .wizard-step .wizard-label .wizard-bar-4:before {
+  content: '';
+  content: url('../media/chart.png');
+  border: 2px solid #9ABF78;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  border-radius: 50%;
+  top: -23px;
+  left: 75px;
+  background-color: #EBF2E4;
+  padding: 8px;
+  z-index: 1;
+  display: var(--myVar);
+}
+
+.wizard.wizard-3 .wizard-nav .wizard-steps .wizard-step .wizard-label .wizard-bar-5:before {
+  content: '';
+  content: url('../media/reports.png');
+  border: 2px solid #D3D3D3;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  border-radius: 50%;
+  top: -23px;
+  right: 0px;
+  background-color: #E1E1E1;
+  padding: 8px;
+  padding-right: 12px;
+  z-index: 1;
+  display: var(--myVar);
+}
+
+.custom-steps-title .custom-width-steps:nth-child(1) .label-wrapper{
+  position: absolute;
+  top: 60px;
+  left: -10px;
+}
+
+.custom-steps-title .custom-width-steps:nth-child(2) .label-wrapper{
+  position: absolute;
+  top: 60px;
+  left: 15px;
+}
+
+.custom-steps-title .custom-width-steps:nth-child(3) .label-wrapper{
+  position: absolute;
+  top: 60px;
+  left: 30px;
+}
+
+.custom-steps-title .custom-width-steps:nth-child(4) .label-wrapper{
+  position: absolute;
+  top: 60px;
+  left: 60px;
+}
+
+.custom-steps-title .custom-width-steps:nth-child(5) .label-wrapper{
+  position: absolute;
+  top: 60px;
+  right: -20px;
 }
 
 .custom-display-none {
@@ -170,7 +386,7 @@
 
 @media screen and (min-width: 320px) and (max-width: 330px) {
   .responsive-nav-width {
-    width: 58% !important;
+    width: 55% !important;
   }
 
   .margin-align {
@@ -179,6 +395,59 @@
 
   .wizard.wizard-3 .wizard-nav .wizard-steps .wizard-step .wizard-label .wizard-bar:before {
     right: 12px;
+  }
+
+  .wizard.wizard-3 .wizard-nav .wizard-steps .wizard-step .wizard-label .wizard-bar-1:before {
+    transform: scale(.5);
+    left: -16px;
+  }
+  .wizard.wizard-3 .wizard-nav .wizard-steps .wizard-step .wizard-label .wizard-bar-2:before {
+    transform: scale(.5);
+    left: -10px;
+  }
+  .wizard.wizard-3 .wizard-nav .wizard-steps .wizard-step .wizard-label .wizard-bar-3:before {
+    transform: scale(.5);
+    left: -6px;
+  }
+  .wizard.wizard-3 .wizard-nav .wizard-steps .wizard-step .wizard-label .wizard-bar-4:before {
+    transform: scale(.5);
+    left: 0;
+  }
+  .wizard.wizard-3 .wizard-nav .wizard-steps .wizard-step .wizard-label .wizard-bar-5:before {
+    transform: scale(.5);
+    left: 0;
+  }
+
+  .custom-steps-title .custom-width-steps:nth-child(1) .label-wrapper{
+    top: 30px;
+    left: 0;
+  }
+  .custom-steps-title .custom-width-steps:nth-child(2) .label-wrapper{
+    top: 30px;
+    left: 0;
+  }
+
+  .custom-steps-title .custom-width-steps:nth-child(3) .label-wrapper{
+    top: 30px;
+    left: 0;
+  }
+
+  .custom-steps-title .custom-width-steps:nth-child(4) .label-wrapper{
+    top: 30px;
+    left: 0;
+  }
+  .custom-steps-title .custom-width-steps:nth-child(5) .label-wrapper{
+    top: 30px;
+    /* right: -20px; */
+  }
+
+  .step-title {
+    font-size: 5px !important;
+    margin-bottom: 0px !important;
+  }
+
+  .steps-tags-text {
+    font-size: 4px !important;
   }
 
   .wizard-nav-title {
@@ -205,6 +474,14 @@
     width: 56% !important;
   }
 
+  .steps-custom-height {
+    height: auto;
+  }
+
+  .step-nav-width {
+    width: 50% !important;
+  }
+
   .margin-align {
     margin: 0px !important;
   }
@@ -212,6 +489,59 @@
 
   .wizard.wizard-3 .wizard-nav .wizard-steps .wizard-step .wizard-label .wizard-bar:before {
     right: 15px;
+  }
+
+  .wizard.wizard-3 .wizard-nav .wizard-steps .wizard-step .wizard-label .wizard-bar-1:before {
+    transform: scale(.5);
+    left: -16px;
+  }
+  .wizard.wizard-3 .wizard-nav .wizard-steps .wizard-step .wizard-label .wizard-bar-2:before {
+    transform: scale(.5);
+    left: -10px;
+  }
+  .wizard.wizard-3 .wizard-nav .wizard-steps .wizard-step .wizard-label .wizard-bar-3:before {
+    transform: scale(.5);
+    left: -6px;
+  }
+  .wizard.wizard-3 .wizard-nav .wizard-steps .wizard-step .wizard-label .wizard-bar-4:before {
+    transform: scale(.5);
+    left: 0;
+  }
+  .wizard.wizard-3 .wizard-nav .wizard-steps .wizard-step .wizard-label .wizard-bar-5:before {
+    transform: scale(.5);
+    left: 0;
+  }
+
+  .custom-steps-title .custom-width-steps:nth-child(1) .label-wrapper{
+    top: 30px;
+    left: 0;
+  }
+  .custom-steps-title .custom-width-steps:nth-child(2) .label-wrapper{
+    top: 30px;
+    left: 0;
+  }
+
+  .custom-steps-title .custom-width-steps:nth-child(3) .label-wrapper{
+    top: 30px;
+    left: 0;
+  }
+
+  .custom-steps-title .custom-width-steps:nth-child(4) .label-wrapper{
+    top: 30px;
+    left: 0;
+  }
+  .custom-steps-title .custom-width-steps:nth-child(5) .label-wrapper{
+    top: 30px;
+    /* right: -20px; */
+  }
+
+  .step-title {
+    font-size: 5px !important;
+    margin-bottom: 0px !important;
+  }
+
+  .steps-tags-text {
+    font-size: 4px !important;
   }
 
   .wizard-nav-title {
