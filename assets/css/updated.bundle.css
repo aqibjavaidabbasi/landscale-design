@@ -100707,7 +100707,7 @@ select {
 
 .table-radius {
     border-collapse: separate;
-    border-spacing: 0;
+    border-spacing: 0 !important;
 }
 
 .table-radius thead:first-child th:first-child {
@@ -101543,8 +101543,33 @@ body {
 
 .steps-table-radius {
     border-collapse: separate;
-    border: 1px solid rgba(154, 191, 120, 0.3);
-    border-radius: 5px;
+    /* border: 1px solid rgba(154, 191, 120, 0.3); */
+    border-radius: 20px;
+    border-spacing: 0;
+}
+
+.custom-step-table-radius thead tr th:first-child {
+    border-top-left-radius: 20px !important;
+    border-top: 1px solid rgba(154, 191, 120, 0.3);
+    border-left: 1px solid rgba(154, 191, 120, 0.3);
+}
+
+.custom-step-table-radius thead tr th:last-child {
+    border-top-right-radius: 20px !important;
+    border-top: 1px solid rgba(154, 191, 120, 0.3);
+    border-left: 1px solid rgba(154, 191, 120, 0.3);
+}
+
+.custom-step-table-radius tbody tr:last-child td:first-child {
+    border-bottom-left-radius: 20px !important;
+    /* border-bottom: 1px solid rgba(154, 191, 120, 0.3); */
+    /* border-left: 1px solid rgba(154, 191, 120, 0.3); */
+}
+
+.custom-step-table-radius tbody tr:last-child td:last-child {
+    border-bottom-right-radius: 20px !important;
+    /* border-top: 1px solid rgba(154, 191, 120, 0.3);
+    border-left: 1px solid rgba(154, 191, 120, 0.3); */
 }
 
 .steps-table-header-text {
@@ -101673,6 +101698,26 @@ body {
     .responsive-margin-card {
         margin-bottom: 4px;
     }
+
+    .steps-heading {
+        font-size: 14px !important;
+        text-align: center;
+    }
+
+    .steps-small-text {
+        font-size: 12px !important;
+    }
+
+    .steps-custom-height {
+        height: auto !important;
+        text-align: center !important;
+    }
+
+    .steps-p-text {
+        font-size: 12px !important;
+        text-align: center !important;
+    }
+
 }
 
 @media screen and (min-width: 320px) and (max-width: 821px) {

@@ -142,12 +142,12 @@ License: You must have a valid license purchased only from themeforest(the above
                                             <span class="steps-default-text steps-heading">Steps</span>
                                         </div>
                                         <div class="col-md-12 text-center">
-                                            <div class="wizard wizard-3" id="kt_wizard_v3" data-wizard-state="step-first" data-wizard-clickable="true">
-                                                <div class="wizard-nav responsive-nav-width step-nav-width">
-                                                    <div class="wizard-steps custom-steps-title px-8 py-8 px-lg-15 w-75 py-lg-3 margin-align responsive-nav-progress">
+                                            <div class="wizard wizard-3" id="kt_wizard_v3" data-wizard-state="step-first" data-wizard-clickable="true" style="position: relative;">
+                                                <div class="wizard-nav responsive-mobile step-nav-width">
+                                                    <div class="wizard-steps metrices-step custom-steps-title px-8 py-8 px-lg-15 py-lg-3 margin-align responsive-nav-progress">
                                                         <!--begin::Wizard Step 1 Nav-->
-                                                        <div class="wizard-step custom-width-steps" data-wizard-type="step" data-wizard-state="done">
-                                                            <div class="wizard-label">
+                                                        <div class="wizard-step custom-width-steps custom-metrices-step" data-wizard-type="step" data-wizard-state="done">
+                                                            <div class="wizard-label metrices-label">
                                                                 <div class="label-wrapper text-center">
                                                                     <h3 class="wizard-title wizard-nav-title-step wizard-nav-title-responsive step-title" id="step1-title">
                                                                         Preparation
@@ -160,7 +160,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                         <!--end::Wizard Step 1 Nav-->
 
                                                         <!--begin::Wizard Step 2 Nav-->
-                                                        <div class="wizard-step custom-width-steps" data-wizard-type="step" data-wizard-state="done">
+                                                        <div class="wizard-step custom-width-steps custom-metrices-step" data-wizard-type="step" data-wizard-state="done">
                                                             <div class="wizard-label">
                                                                 <div class="label-wrapper text-center">
                                                                     <h3 class="wizard-title wizard-nav-title-step wizard-nav-title-responsive step-title" id="step1-title">
@@ -174,7 +174,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                         <!--end::Wizard Step 2 Nav-->
 
                                                         <!--begin::Wizard Step 3 Nav-->
-                                                        <div class="wizard-step custom-width-steps" data-wizard-type="step" data-wizard-state="done">
+                                                        <div class="wizard-step custom-width-steps custom-metrices-step" data-wizard-type="step" data-wizard-state="done">
                                                             <div class="wizard-label">
                                                                 <div class="label-wrapper text-center">
                                                                     <h3 class="wizard-title wizard-nav-title-step wizard-nav-title-responsive step-title" id="step1-title">
@@ -188,7 +188,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                         <!--end::Wizard Step 3 Nav-->
 
                                                         <!--begin::Wizard Step 4 Nav-->
-                                                        <div class="wizard-step custom-width-steps" data-wizard-type="step" data-wizard-state="current">
+                                                        <div class="wizard-step custom-width-steps custom-metrices-step" data-wizard-type="step" data-wizard-state="current">
                                                             <div class="wizard-label">
                                                                 <div class="label-wrapper text-center">
                                                                     <h3 class="wizard-title wizard-nav-title-step wizard-nav-title-responsive step-title" id="step1-title">
@@ -202,7 +202,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                         <!--end::Wizard Step 4 Nav-->
 
                                                         <!--begin::Wizard Step 5 Nav-->
-                                                        <div class="wizard-step custom-width-steps" data-wizard-type="step" data-wizard-state="current">
+                                                        <div class="wizard-step custom-width-steps custom-metrices-step" data-wizard-type="step" data-wizard-state="current">
                                                             <div class="wizard-label">
                                                                 <div class="label-wrapper text-center">
                                                                     <h3 class="wizard-title wizard-nav-title-step wizard-nav-title-responsive step-title" id="step1-title">
@@ -328,7 +328,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                             <div class="step-card custom-padding-40">
                                                 <span class="steps-default-text steps-heading d-block mb-1">Progress report</span>
                                                 <p class="steps-default-text steps-p-text d-block my-5">You are encouraged to submit your indicators & metrics once the 4 pillars are completed. Select the completed pillars and send them for approval.</p>
-                                                <table class="table steps-table-radius steps-custom-margin-top">
+                                                <table class="table steps-table-radius custom-step-table-radius steps-custom-margin-top">
                                                     <thead class="steps-table-header-color">
                                                         <tr>
                                                             <th class="steps-default-text steps-table-header-text" scope="col">Pillars</th>
@@ -353,7 +353,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                             </div>
                                         </div>
                                         <div class="col-md-6">
-                                            <table class="table steps-task steps-table-radius">
+                                            <table class="table steps-task steps-table-radius custom-step-table-radius">
                                                 <thead class="steps-table-header-color">
                                                     <tr>
                                                         <th class="steps-default-text steps-table-header-text" scope="col">Tasks</th>
