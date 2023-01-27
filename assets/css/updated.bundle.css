@@ -90811,7 +90811,7 @@ code {
 
 .dataTables_wrapper .dataTable th.sorting_asc,
 .dataTables_wrapper .dataTable td.sorting_asc {
-    color: #074A37 !important;
+    color: #fff !important;
 }
 
 .dataTables_wrapper .dataTable th.sorting_asc:before,
@@ -100553,7 +100553,7 @@ body {
 
 .table-head-custom thead.header-table tr th {
     font-weight: 400;
-    color: #074a37 !important;
+    color: #fff !important;
     font-size: 16px;
     text-transform: capitalize;
     line-height: 21px;
@@ -100566,16 +100566,16 @@ body {
 }
 
 thead.header-table {
-    background: #DCE6D1;
+    background: #074A37;
     border-radius: 10px 10px 0px 0px;
 }
 
 .even {
-    background: #DCE6D1;
+    background: #F0F0F0;
 }
 
 .odd {
-    background: #EBF2E4;
+    background: #F9F9F9;
 }
 
 .table.table-separate th:first-child,
@@ -100586,6 +100586,14 @@ thead.header-table {
 .table.table-separate th,
 .table.table-separate td {
     padding-right: 10px !important;
+}
+
+.filter-bg-dark {
+    background-color: #074A37;
+}
+
+.filter-bg-light {
+    background-color: #F0F0F0;
 }
 
 table.dataTable>thead .sorting:before,

@@ -249,9 +249,9 @@ License: You must have a valid license purchased only from themeforest(the above
                                                         <div class="col-sm-12 col-md-3">
                                                             <div id="kt_datatable_filter" class="dataTables_filter">
                                                                 <div class="input-group custom-search-bar table-searchbar">
-                                                                    <input type="text" class="form-control input-circle-left primary-bg-color outline-0 border-0 w-50" placeholder="search for anything" fdprocessedid="4cnwu">
+                                                                    <input type="text" class="form-control input-circle-left filter-bg-light outline-0 border-0 w-50" placeholder="search for anything" fdprocessedid="4cnwu">
                                                                     <div class="input-group-append">
-                                                                        <span class="input-group-text input-circle-right primary-bg-color">
+                                                                        <span class="input-group-text input-circle-right filter-bg-light">
                                                                             <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                                                 <path d="M7.5517 0C9.74111 0.0465077 11.6163 0.864121 13.1088 2.51213C14.0713 3.57506 14.6741 4.82367 14.902 6.24304C15.2578 8.45837 14.7355 10.4493 13.3442 12.2095C13.2672 12.3068 13.28 12.354 13.363 12.4371C14.6834 13.751 16.0005 15.0685 17.3173 16.386C17.5942 16.6629 17.5995 17.0318 17.3339 17.3002C17.0599 17.5774 16.6896 17.5813 16.4059 17.2987C15.0867 15.9834 13.7695 14.6663 12.4549 13.3467C12.3747 13.2664 12.3313 13.2444 12.2302 13.3239C10.4302 14.7415 8.39274 15.2993 6.14297 14.8519C3.24245 14.2754 1.25966 12.5475 0.385246 9.7336C-0.535678 6.77096 0.210931 4.14416 2.44863 1.99522C3.85096 0.648268 5.58169 0.034082 7.5517 0ZM7.52294 1.2408C4.08101 1.24399 1.28948 4.03446 1.28274 7.47851C1.27635 10.9233 4.07888 13.724 7.53039 13.7219C10.9844 13.7198 13.7717 10.9258 13.766 7.4707C13.7607 4.02807 10.9645 1.2376 7.52294 1.2408Z" fill="#4C94A0" />
                                                                             </svg>
@@ -263,11 +263,11 @@ License: You must have a valid license purchased only from themeforest(the above
                                                     </div>
                                                     <div class="row">
                                                         <div class="col-md-3 pr-1">
-                                                            <div class="card odd rounded filter-card-borders">
-                                                                <div class="filter-borders">
-                                                                    <span class="filter-card-font d-inline-block p-5">Filters</span>
+                                                            <div class="card rounded filter-card-borders">
+                                                                <div class="filter-bg-dark filter-borders">
+                                                                    <span class="filter-card-font text-light d-inline-block p-5">Filters</span>
                                                                 </div>
-                                                                <div class="filter-borders">
+                                                                <!-- <div class="filter-borders">
                                                                     <div class="input-group custom-search-bar">
                                                                         <input type="text" class="form-control primary-bg-color outline-0 border-0 w-50" placeholder="Search" fdprocessedid="4cnwu">
                                                                         <div class="input-group-append">
@@ -278,8 +278,8 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                             </span>
                                                                         </div>
                                                                     </div>
-                                                                </div>
-                                                                <div class="filter-borders">
+                                                                </div> -->
+                                                                <div class="filter-borders filter-bg-light">
                                                                     <div class="p-5 btn-tags">
                                                                         <span class="filter-card-font d-block mb-5">Related
                                                                             Pillars:</span>
@@ -288,7 +288,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                             Well-being</button>
                                                                     </div>
                                                                 </div>
-                                                                <div class="filter-borders">
+                                                                <div class="filter-borders filter-bg-light">
                                                                     <div class="p-5 pb-0 btn-tags">
                                                                         <span class="filter-card-font d-inline-block mb-5">Related
                                                                             Indicators:</span>
@@ -313,7 +313,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                     </div>
                                                                 </div>
                                                                 <div>
-                                                                    <div class="p-5 btn-tags">
+                                                                    <div class="p-5 btn-tags filter-bg-light">
                                                                         <span class="filter-card-font d-block mb-5">Resource
                                                                             type:</span>
                                                                         <button class="btn bg-white-btn font-btn border-radius-50">Data
