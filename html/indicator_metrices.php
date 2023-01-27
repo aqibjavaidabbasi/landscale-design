@@ -224,14 +224,19 @@ License: You must have a valid license purchased only from themeforest(the above
                                         <div class="col-md-6">
                                             <div class="step-card steps-custom-height custom-padding-40">
                                                 <span class="steps-default-text steps-heading d-block mb-1">Step 3: Indicator & Metrics</span>
-                                                <span class="steps-default-text steps-small-text d-block my-5">View Instructions</span>
+                                                <!-- <span class="steps-default-text steps-small-text d-block my-5">View Instructions</span> -->
+                                                <span data-toggle="collapse" data-target="#demo" class="steps-default-text steps-small-text d-block my-5">View Instructions <img src="../assets/media/arrow_down.png" alt=""></span>
+
+                                                <div id="demo" class="collapse mb-2">
+                                                    Lorem ipsum dolor text Lorem ipsum dolor text Lorem ipsum dolor text Lorem ipsum dolor text Lorem ipsum dolor text Lorem ipsum dolor text 
+                                                </div>
                                                 <span class="frt-dark-clr p-2 step-radius d-inline-block mt-1">
                                                     <span>Pillars Completed</span>
                                                     <span class="bg-warning p-1 step-radius">2/4</span>
                                                 </span>
                                             </div>
                                         </div>
-                                        <div class="col-md-6">
+                                        <div class="col-md-6 custom-padding-0">
                                             <div class="p-4 steps-custom-height">
                                                 <div class="row">
                                                     <div class="col-md-4 responsive-margin-card">
@@ -270,7 +275,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="row" style="margin-top: 20px;">
+                                                <div class="row custom-margin-top-20">
                                                     <div class="col-md-4 responsive-margin-card">
                                                         <div class="p-5 cards-tabs text-center h-100">
                                                             <div class="mb-3 mt-2">
@@ -328,7 +333,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                             <div class="step-card custom-padding-40">
                                                 <span class="steps-default-text steps-heading d-block mb-1">Progress report</span>
                                                 <p class="steps-default-text steps-p-text d-block my-5">You are encouraged to submit your indicators & metrics once the 4 pillars are completed. Select the completed pillars and send them for approval.</p>
-                                                <table class="table steps-table-radius custom-step-table-radius steps-custom-margin-top">
+                                                <table class="table steps-table-radius custom-step-table-radius steps-custom-margin-top border-custom">
                                                     <thead class="steps-table-header-color">
                                                         <tr>
                                                             <th class="steps-default-text steps-table-header-text" scope="col">Pillars</th>
@@ -352,8 +357,8 @@ License: You must have a valid license purchased only from themeforest(the above
                                                 </table>
                                             </div>
                                         </div>
-                                        <div class="col-md-6">
-                                            <table class="table steps-task steps-table-radius custom-step-table-radius">
+                                        <div class="col-md-6 custom-display-none">
+                                            <table class="table steps-task steps-table-radius custom-step-table-radius border-custom">
                                                 <thead class="steps-table-header-color">
                                                     <tr>
                                                         <th class="steps-default-text steps-table-header-text" scope="col">Tasks</th>
@@ -393,6 +398,46 @@ License: You must have a valid license purchased only from themeforest(the above
                                                     </tr>
                                                 </tbody>
                                             </table>
+                                        </div>
+                                    </div>
+
+                                    <div class="row steps-custom-margin-top custom-lg-display-block">
+                                        <div class="col-md-6">
+                                            <div class="step-card steps-custom-height text-center custom-padding-40">
+                                                <span class="steps-default-text steps-heading d-block mb-1">Add Indicators</span>
+                                                <div class="d-flex justify-content-center">
+                                                    <div class="steps-image-container" style="margin-right: 100px;">
+                                                        <img src="../assets/media/person1.png" class="step-unit-image-1" alt="">
+                                                        <img src="../assets/media/person3.png" class="step-unit-image-2" alt="">
+                                                        <img src="../assets/media/person2.png" class="step-unit-image-3" alt="">
+                                                        <span class="step-unit-counter d-inline-block">6</span>
+                                                        <img src="../assets/media/add_person.png" class="step-unit-image-4" alt="">
+                                                    </div>
+                                                </div>
+                                                <div class="d-flex justify-content-center flex-column align-items-center">
+                                                    <span class="steps-tags-text step-required-tag p-1 w-25 mt-2">Required</span>
+                                                    <span class="steps-tags-text steps-success-tag p-1 w-25 mt-2">Completed</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="col-md-6 steps-custom-margin-top">
+                                            <div class="step-card steps-custom-height text-center custom-padding-40">
+                                                <span class="steps-default-text steps-heading d-block mb-1">Add Metrics</span>
+                                                <div class="d-flex justify-content-center">
+                                                    <div class="steps-image-container" style="margin-right: 100px;">
+                                                        <img src="../assets/media/person1.png" class="step-unit-image-1" alt="">
+                                                        <img src="../assets/media/person3.png" class="step-unit-image-2" alt="">
+                                                        <img src="../assets/media/person2.png" class="step-unit-image-3" alt="">
+                                                        <span class="step-unit-counter d-inline-block">6</span>
+                                                        <img src="../assets/media/add_person.png" class="step-unit-image-4" alt="">
+                                                    </div>
+                                                </div>
+                                                <div class="d-flex justify-content-center flex-column align-items-center">
+                                                    <span class="steps-tags-text step-required-tag p-1 w-25 mt-2">Required</span>
+                                                    <span class="steps-tags-text steps-success-tag p-1 w-25 mt-2">Completed</span>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>

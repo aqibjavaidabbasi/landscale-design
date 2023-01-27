@@ -101557,7 +101557,7 @@ body {
 .custom-step-table-radius thead tr th:last-child {
     border-top-right-radius: 20px !important;
     border-top: 1px solid rgba(154, 191, 120, 0.3);
-    border-left: 1px solid rgba(154, 191, 120, 0.3);
+    border-right: 1px solid rgba(154, 191, 120, 0.3);
 }
 
 .custom-step-table-radius tbody tr:last-child td:first-child {
@@ -101570,6 +101570,16 @@ body {
     border-bottom-right-radius: 20px !important;
     /* border-top: 1px solid rgba(154, 191, 120, 0.3);
     border-left: 1px solid rgba(154, 191, 120, 0.3); */
+}
+
+.border-custom {
+    border-bottom: 1px solid rgba(154, 191, 120, 0.3);
+    border-left: 1px solid rgba(154, 191, 120, 0.3);
+    border-right: 1px solid rgba(154, 191, 120, 0.3);
+}
+
+.custom-margin-top-20 {
+    margin-top: 20px;
 }
 
 .steps-table-header-text {
@@ -101679,6 +101689,14 @@ body {
     color: #4C94A0
 }
 
+.custom-display-none {
+    display: block !important;
+}
+
+.custom-lg-display-block {
+    display: none !important;
+}
+
 @media screen and (min-width: 768px) and (max-width: 1000px) {
     .step-number {
         right: 6px !important;
@@ -101693,6 +101711,26 @@ body {
 @media screen and (min-width: 320px) and (max-width: 769px) {
     .custom-height-step-card {
         height: auto;
+    }
+
+    .custom-padding-0 {
+        padding: 0px !important;
+    }
+
+    .custom-margin-top-20 {
+        margin-top: 0px !important;
+    }
+
+    .steps-custom-margin-top {
+        margin-top: 5px !important;
+    }
+
+    .custom-display-none {
+        display: none !important;
+    }
+
+    .custom-lg-display-block {
+        display: block !important;
     }
 
     .responsive-margin-card {
