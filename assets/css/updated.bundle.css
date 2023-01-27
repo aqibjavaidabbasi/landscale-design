@@ -101618,6 +101618,12 @@ body {
     color: #78A251;
 }
 
+.steps-dark-tag {
+    background: #074A37;
+    border-radius: 3px;
+    color: #fff;
+}
+
 .step-required-tag {
     background: #4C94A0;
     border-radius: 3px;
@@ -101628,6 +101634,20 @@ body {
     background: #D8EDF9;
     border-radius: 3px;
     color: #299CDB;
+}
+
+.deffered-tag {
+    background: #E1E1E1;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    color: #9C9C9C;
+}
+
+.included-tag {
+    background: #EBF2E4;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    color: #074A37;
 }
 
 .steps-task td {
@@ -101705,6 +101725,141 @@ body {
     display: none !important;
 }
 
+/* add indicator page style */
+
+.indicator-btn-dark {
+    background: #074A37;
+    border-radius: 79px;
+    border: none;
+    outline: none;
+    padding: 8px 12px;
+}
+
+.indicator-btn-warning {
+    background: #FEC85C;
+    border-radius: 34px;
+    border: none;
+    outline: none;
+    padding: 8px 12px;
+}
+
+.indicator-accordian-card {
+    border-radius: 20px;
+}
+
+.indicator-accordian-card-header {
+    border-top-left-radius: 20px !important;
+    border-top-right-radius: 20px !important;
+}
+
+.indicator-accordian-card-body-bg {
+    background-color: #EBF2E4;
+}
+
+.indicator-table-header-text {
+    font-size: 13px !important;
+    line-height: 15px !important;
+    font-weight: lighter !important;
+    text-transform: capitalize;
+    color: #074A37 !important;
+}
+
+.indicator-table tbody tr td {
+    vertical-align: middle;
+}
+
+.indicator-table thead tr th {
+    padding: 20px 0px;
+    background-color: #EBF2E4;
+}
+
+.indicator-table thead tr th:first-child {
+    padding-left: 10px;
+}
+
+.indicator-table thead tr th:nth-child(3) {
+    text-align: center;
+}
+
+.indicator-table thead tr th:nth-child(4) {
+    text-align: center;
+}
+
+.indicator-tab-body {
+    background-color: #EBF2E4;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.indicator-tab-container {
+    border: 1px solid rgba(154, 191, 120, 0.6);
+    border-radius: 15px;
+}
+
+.indicator-nav-icon {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 7px;
+    border: 1px solid #fff;
+    background-color: #EBF2E4;
+    /* background-color: #074A37; */
+}
+
+.indicator-nav-icon.active {
+    background-color: #074A37;
+}
+
+.nav.nav-pills .nav-link.active {
+    background-color: #EBF2E4 !important;
+    color: #074A37 !important;
+    border-radius: 25px 0px 0px 25px;
+    padding-right: 0px !important;
+    padding-left: 7px !important;
+}
+
+.nav.nav-pills .nav-link {
+    padding-right: 0px !important;
+    padding-left: 7px !important;
+}
+
+.indicator-tab-link {
+    font-family: 'Roboto' !important;
+    font-style: normal !important;
+    font-weight: 500 !important;
+    font-size: 13px !important;
+    line-height: 136.69% !important;
+    /* identical to box height, or 18px */
+    text-align: center !important;
+    text-transform: capitalize !important;
+    color: #074A37 !important;
+}
+
+.indicator-nav-brand {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 136.69%;
+    /* identical to box height, or 25px */
+
+    text-transform: capitalize;
+
+    color: #074A37;
+}
+
+.indicator-custom-margin-left-10 {
+    margin-left: 10px !important;
+    display: inline-block;
+}
+
+.indicator-padding-right-0 {
+    padding-right: 0px !important;
+}
+
+
 @media screen and (min-width: 768px) and (max-width: 1000px) {
     .step-number {
         right: 6px !important;
@@ -101764,6 +101919,55 @@ body {
         text-align: center !important;
     }
 
+    .indicator-accordian-responsive {
+        flex-direction: column;
+    }
+
+    .indicator-image-container-responsive {
+        left: -36px !important;
+        margin: 10px 0px !important;
+    }
+
+    .indicator-respoonsive-margin-y {
+        margin: 10px 0px !important;
+    }
+
+    .indicator-responsive-collapse {
+        overflow: scroll !important;
+    }
+
+    .indicator-tab-body {
+        border-bottom-left-radius: 15px !important;
+    }
+
+    .indicator-btn-warning {
+        font-size: 9px !important;
+    }
+
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1400px) {
+    .indicator-accordian-responsive {
+        flex-direction: column;
+    }
+
+    .indicator-image-container-responsive {
+        left: -36px !important;
+        margin: 10px 0px !important;
+    }
+
+    .indicator-respoonsive-margin-y {
+        margin: 10px 0px !important;
+    }
+
+    .indicator-responsive-collapse {
+        overflow: scroll !important;
+    }
+
+    .indicator-btn-warning {
+        font-size: 9px !important;
+    }
 }
 
 @media screen and (min-width: 320px) and (max-width: 821px) {
