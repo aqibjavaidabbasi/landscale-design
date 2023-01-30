@@ -759,8 +759,8 @@ License: You must have a valid license purchased only from themeforest(the above
                                                         </div> -->
                                                     </div>
                                                 </div>
-                                                <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">fareed</div>
-                                                <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">Rafif</div>
+                                                <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab"></div>
+                                                <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab"></div>
                                             </div>
                                         </div>
                                     </div>
