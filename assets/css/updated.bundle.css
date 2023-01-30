@@ -101810,6 +101810,7 @@ body {
 
 .indicator-nav-icon.active {
     background-color: #074A37;
+    fill: blue;
 }
 
 .nav.nav-pills .nav-link.active {
@@ -101859,6 +101860,75 @@ body {
     padding-right: 0px !important;
 }
 
+span.accordian-header-text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 136.69%;
+    /* identical to box height, or 25px */
+
+    text-transform: capitalize;
+
+    color: #074A37;
+}
+
+.indicator-small-text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 136.69%;
+    /* identical to box height, or 15px */
+    text-transform: capitalize;
+    color: #3F544C;
+}
+
+.custom-margin-right-170 {
+    margin-right: 170px;
+}
+
+.image-container-alignment {
+    left: -163px !important;
+}
+
+.custom-position-relative {
+    position: relative;
+    right: -32px;
+}
+
+.custom-card-border {
+    border: 1px solid rgba(154, 191, 120, 0.6);
+    border-radius: 7px;
+}
+
+.custom-head-radius {
+    border-radius: 7px 7px 0px 0px;
+}
+
+.result-card {
+    border: 1px solid rgba(154, 191, 120, 0.6);
+    border-radius: 9px;
+}
+
+.result-input {
+    border-top-left-radius: 50px !important;
+    border-bottom-left-radius: 50px !important;
+    background: #EBF2E4;
+    border: 1px solid rgba(154, 191, 120, 0.6);
+    outline: 0px;
+}
+
+.result-input-btn {
+    border-top-right-radius: 50px !important;
+    border-bottom-right-radius: 50px !important;
+    background: #EBF2E4;
+    border: 1px solid rgba(154, 191, 120, 0.6);
+}
+
+.result-bg-dark {
+    background-color: #074A37;
+}
 
 @media screen and (min-width: 768px) and (max-width: 1000px) {
     .step-number {
@@ -101944,7 +102014,22 @@ body {
         font-size: 9px !important;
     }
 
+    .custom-margin-right-170 {
+        margin-right: 0px !important;
+    }
 
+    .custom-position-relative {
+        right: 0px !important;
+    }
+
+    .result-card {
+        margin-top: 5px !important;
+    }
+
+    .indicator-btn-dark {
+        font-size: 8px !important;
+        margin-top: 2px !important;
+    }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1400px) {
@@ -101967,6 +102052,24 @@ body {
 
     .indicator-btn-warning {
         font-size: 9px !important;
+    }
+
+    .custom-margin-right-170 {
+        margin-right: 0px !important;
+    }
+
+    .custom-position-relative {
+        right: 0px !important;
+    }
+
+
+    .result-card {
+        margin-top: 5px !important;
+    }
+
+    .indicator-btn-dark {
+        font-size: 8px !important;
+        margin-top: 2px !important;
     }
 }
 
