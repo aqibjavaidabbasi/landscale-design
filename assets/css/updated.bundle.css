@@ -101665,7 +101665,7 @@ body {
 
 .steps-image-container {
     position: relative;
-    border: 1px solid #EBF2E4;
+    /* border: 1px solid #EBF2E4; */
     border-radius: 6px;
     padding: 20px;
 }
@@ -101676,6 +101676,7 @@ body {
     top: 4px;
     z-index: 2;
     border-radius: 7px;
+    width: 70% !important;
 }
 
 .step-unit-image-2 {
@@ -101684,6 +101685,7 @@ body {
     top: 4px;
     z-index: 1;
     border-radius: 7px;
+    width: 70% !important;
 }
 
 .step-unit-image-3 {
@@ -101691,6 +101693,7 @@ body {
     left: 53px;
     top: 4px;
     border-radius: 7px;
+    width: 70% !important;
 }
 
 .step-unit-image-4 {
@@ -101700,6 +101703,32 @@ body {
     border-radius: 7px;
     background-color: #074A37;
     padding: 8px;
+}
+
+.accordian-unit-image-1 {
+    position: absolute;
+    left: 2px;
+    top: 4px;
+    z-index: 2;
+    border-radius: 7px;
+    width: 32px !important;
+}
+
+.accordian-unit-image-2 {
+    position: absolute;
+    left: 25px;
+    top: 4px;
+    z-index: 1;
+    border-radius: 7px;
+    width: 32px !important;
+}
+
+.accordian-unit-image-3 {
+    position: absolute;
+    left: 53px;
+    top: 4px;
+    border-radius: 7px;
+    width: 32px !important;
 }
 
 .step-unit-counter {
@@ -102033,6 +102062,15 @@ span.accordian-header-text {
     .indicator-btn-dark {
         font-size: 8px !important;
         margin-top: 2px !important;
+    }
+
+    .indicator-btn-warning {
+        margin-top: 2px !important;
+        display: inline-block !important;
+    }
+
+    .margin-top-5 {
+        margin-top: 5px !important;
     }
 }
 
