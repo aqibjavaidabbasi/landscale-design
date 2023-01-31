@@ -228,7 +228,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                 <span data-toggle="collapse" data-target="#demo" class="steps-default-text steps-small-text d-block my-5">View Instructions <img src="../assets/media/arrow_down.png" alt=""></span>
 
                                                 <div id="demo" class="collapse mb-2">
-                                                    Lorem ipsum dolor text Lorem ipsum dolor text Lorem ipsum dolor text Lorem ipsum dolor text Lorem ipsum dolor text Lorem ipsum dolor text 
+                                                    Lorem ipsum dolor text Lorem ipsum dolor text Lorem ipsum dolor text Lorem ipsum dolor text Lorem ipsum dolor text Lorem ipsum dolor text
                                                 </div>
                                                 <span class="frt-dark-clr p-2 step-radius d-inline-block mt-1">
                                                     <span>Pillars Completed</span>
@@ -420,7 +420,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                 </div>
                                             </div>
                                         </div>
-                                        
+
                                         <div class="col-md-6 steps-custom-margin-top">
                                             <div class="step-card steps-custom-height text-center custom-padding-40">
                                                 <span class="steps-default-text steps-heading d-block mb-1">Add Metrics</span>
@@ -455,6 +455,16 @@ License: You must have a valid license purchased only from themeforest(the above
         <!--end::Page-->
     </div>
     <!--end::Main-->
+    <!-- begin help center btn-->
+    <div class="btn-help-center-wrapper">
+        <div class="btn-dropdown btn-lg mr-1 d-flex" id="kt_quick_cart_toggle">
+            <span class="btn-help-icon"><img src="../assets/media/help.png" alt=""></span><span class="help-center-font-family btn-help-text">Help Center</span>
+        </div>
+    </div>
+    <!-- end help center btn -->
+    <!-- begin help panel cart -->
+    <?php include './includes/help-center.php'; ?>
+    <!-- end help panel cart -->
     <script>
         var KTAppSettings = {
             "breakpoints": {
