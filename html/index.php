@@ -15,9 +15,9 @@ License: You must have a valid license purchased only from themeforest(the above
 <!--begin::Head-->
 
 <head>
-    <meta charset="utf-8" />
-    <meta name="description" content="Layout options builder" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta charset="utf-8">
+    <meta name="description" content="Layout options builder">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <!-- Google Tag Manager -->
     <script>
@@ -37,9 +37,9 @@ License: You must have a valid license purchased only from themeforest(the above
     </script>
     <!-- End Google Tag Manager -->
     <title>Landscale</title>
-    <link rel="canonical" href="https://keenthemes.com/metronic" />
+    <link rel="canonical" href="https://keenthemes.com/metronic">
     <!--begin::Fonts-->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700">
     <!--end::Fonts-->
     <!--begin::Global Theme Styles(used by all pages)-->
     <link rel="stylesheet" href="../assets/plugins/global/plugins.bundle.css">
@@ -80,7 +80,7 @@ License: You must have a valid license purchased only from themeforest(the above
     <div id="kt_header_mobile" class="header-mobile align-items-center header-mobile-fixed">
         <!--begin::Logo-->
         <a href="/metronic/demo1/index.html">
-            <img alt="Logo" src="../assets/media/landscale_logo.png" />
+            <img alt="Logo" src="../assets/media/landscale_logo.png">
         </a>
         <!--end::Logo-->
         <!--begin::Toolbar-->
@@ -215,7 +215,7 @@ License: You must have a valid license purchased only from themeforest(the above
 
                                                     <!--begin::Button-->
 
-                                                    <button type="button" class="btn btn-light-primary font-weight-bolder brt-10 brb-10 tablinks" onclick="openCity(event, 'grid_view')" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" fdprocessedid="0a2vz7">
+                                                    <button type="button" class="btn btn-light-primary font-weight-bolder brt-10 brb-10 tablinks" onclick="openCity(event, 'grid_view')">
                                                         <span class="svg-icon svg-icon-md">
                                                             <!--begin::Svg Icon | path:/metronic/theme/html/demo1/dist/assets/media/svg/icons/Design/PenAndRuller.svg-->
                                                             <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -242,7 +242,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                     <div class="row my-5">
                                                         <div class="col-sm-12 col-md-9">
                                                             <div class="dataTables_length" id="kt_datatable_length">
-                                                                <label class="entries-label">Show <select name="kt_datatable_length" aria-controls="kt_datatable" class="custom-select custom-select-sm form-control form-control-sm bg-table-entries" fdprocessedid="9kdh4">
+                                                                <label class="entries-label">Show <select name="kt_datatable_length" aria-controls="kt_datatable" class="custom-select custom-select-sm form-control form-control-sm bg-table-entries">
                                                                         <option value="10">10</option>
                                                                         <option value="25">25</option>
                                                                         <option value="50">50</option>
@@ -253,7 +253,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                         <div class="col-sm-12 col-md-3">
                                                             <div id="kt_datatable_filter" class="dataTables_filter">
                                                                 <div class="input-group custom-search-bar table-searchbar">
-                                                                    <input type="text" class="form-control input-circle-left filter-bg-light outline-0 border-0 w-50" placeholder="search for anything" fdprocessedid="4cnwu">
+                                                                    <input type="text" class="form-control input-circle-left filter-bg-light outline-0 border-0 w-50" placeholder="search for anything">
                                                                     <div class="input-group-append">
                                                                         <span class="input-group-text input-circle-right filter-bg-light">
                                                                             <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -273,7 +273,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                 </div>
                                                                 <!-- <div class="filter-borders">
                                                                     <div class="input-group custom-search-bar">
-                                                                        <input type="text" class="form-control primary-bg-color outline-0 border-0 w-50" placeholder="Search" fdprocessedid="4cnwu">
+                                                                        <input type="text" class="form-control primary-bg-color outline-0 border-0 w-50" placeholder="Search">
                                                                         <div class="input-group-append">
                                                                             <span class="input-group-text border-radius-0 primary-bg-color">
                                                                                 <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">

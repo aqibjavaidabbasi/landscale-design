@@ -24,7 +24,7 @@
 
                 <!-- search bar start -->
                 <div class="input-group custom-search-bar ml-5">
-                    <input type="text" class="form-control input-circle-left primary-bg-color outline-0 border-0" placeholder="search for anything" fdprocessedid="4cnwu">
+                    <input type="text" class="form-control input-circle-left primary-bg-color outline-0 border-0" placeholder="search for anything">
                     <div class="input-group-append">
                         <span class="input-group-text input-circle-right primary-bg-color">
                             <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">

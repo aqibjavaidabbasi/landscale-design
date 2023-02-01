@@ -4,7 +4,7 @@
     <div class="brand flex-column-auto primary-border-right primary-border-bottom" id="kt_brand">
         <!--begin::Logo-->
         <a href="/metronic/demo1/index.html" class="brand-logo">
-            <img alt="Logo" src="../assets/media/landscale_icon.svg" />
+            <img alt="Logo" src="../assets/media/landscale_icon.svg">
         </a>
         <!--end::Logo-->
     </div>
@@ -16,7 +16,7 @@
             <!--begin::Menu Nav-->
             <div class="mob-resp">
                 <div class="input-group custom-search-bar p-3">
-                    <input type="text" class="form-control input-circle-left primary-bg-color outline-0 border-0" placeholder="search for anything" fdprocessedid="4cnwu">
+                    <input type="text" class="form-control input-circle-left primary-bg-color outline-0 border-0" placeholder="search for anything">
                     <div class="input-group-append">
                         <span class="input-group-text input-circle-right primary-bg-color">
                             <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
