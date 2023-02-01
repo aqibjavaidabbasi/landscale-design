@@ -102251,6 +102251,10 @@ span.accordian-header-text {
     .responsive-margin-help {
         margin: 5px 0px !important;
     }
+
+    .responsive-tabs-custom-padding-x {
+        padding: 0px 1rem !important;
+    }
 }
 
 @media screen and (min-width: 769px) and (max-width: 992px) {
