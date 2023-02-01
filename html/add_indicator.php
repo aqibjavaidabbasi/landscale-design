@@ -899,7 +899,26 @@ License: You must have a valid license purchased only from themeforest(the above
             //     $(this).children('.indicator-nav-icon').addClass('active');
             //     $(this).children('.indicator-nav-icon').find(".demo-svg").css('fill', '#EBF2E4');
             // }
-        })
+        });
+
+        $(document).ready(function() {
+
+            var strHash = document.location.hash;
+
+            if (strHash !== "") {
+                $(".nav-pills").find('.nav-link.active').find('img.d-none').removeClass('d-none deactive');
+                $(".nav-pills").find('.nav-link.active').find('img:nth-child(2)').addClass('d-none');
+                $(".nav-pills").find('.nav-link.active').find('img:nth-child(2)').removeClass('active')
+                $(strHash+'-tab').find('img.d-none').addClass('active');
+                $(strHash+'-tab').find('img.d-none').removeClass('d-none');
+                $(strHash+'-tab').find('img:nth-child(1)').addClass('d-none deactive');
+                $(".nav-pills").find('.nav-link.active').removeClass('active')
+                $(strHash+'-tab').addClass('active')
+                $(".tab-content").find('.tab-pane.show.active').removeClass('show active')
+                $(strHash).addClass('show active')
+            }
+            
+        });
     </script>
 </body>
 <!--end::Body-->

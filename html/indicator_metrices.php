@@ -369,7 +369,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                 </thead>
                                                 <tbody class="bg-white">
                                                     <tr>
-                                                        <td><a href="./add_indicator.php#v-pills-home-tab">Add Indicators</a></td>
+                                                        <td><a href="./add_indicator.php">Add Indicators</a></td>
                                                         <td>
                                                             <div class="steps-image-container">
                                                                 <img src="../assets/media/icons_and_Illustrations/Avatars/Avatars_Baboon.png" class="accordian-unit-image-1" alt="">
