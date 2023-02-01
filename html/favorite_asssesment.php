@@ -135,11 +135,22 @@ License: You must have a valid license purchased only from themeforest(the above
                         </div>
                         <div class="row">
                             <div class="col-md-12">
-                                <div class="card w-100 rounded p-5 card w-100 rounded p-5">
+                                <div class="card w-100 p-5">
                                     <div class="row">
                                         <div class="col-xl-4 col-lg-12 col-md-12 col-sm-12 col-xs-12 custom-padding-left">
                                             <span class="favourite-assesment-main-heading d-inline-block py-5">Find assessments by location</span>
                                             <div class="row">
+                                                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                                                    <a class="favourite-assesment-tab">Colombia</a>
+                                                </div>
+                                                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 responsive-margin-help">
+                                                    <a class="favourite-assesment-tab">Colombia</a>
+                                                </div>
+                                                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                                                    <a class="favourite-assesment-tab">Colombia</a>
+                                                </div>
+                                            </div>
+                                            <div class="row mt-5">
                                                 <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
                                                     <a class="favourite-assesment-tab">Colombia</a>
                                                 </div>
@@ -221,7 +232,7 @@ License: You must have a valid license purchased only from themeforest(the above
 
                         <div class="row mt-5">
                             <div class="col-md-12">
-                                <div class="card w-100 rounded p-5 card w-100 rounded p-5">
+                                <div class="card w-100 p-5">
                                     <div class="row">
                                         <div class="col-md-12 custom-padding-left">
                                             <div class="d-flex justify-content-between align-items-center w-100 responsive-block">
@@ -289,7 +300,7 @@ License: You must have a valid license purchased only from themeforest(the above
 
                         <div class="row mt-5">
                             <div class="col-md-12">
-                                <div class="card w-100 rounded p-5 card w-100 rounded p-5">
+                                <div class="card w-100 p-5">
                                     <div class="row">
                                         <div class="col-md-12 custom-padding-left">
                                             <div class="d-flex justify-content-between align-items-center w-100 responsive-block">
@@ -358,7 +369,7 @@ License: You must have a valid license purchased only from themeforest(the above
 
                         <div class="row mt-5">
                             <div class="col-md-12">
-                                <div class="card w-100 rounded p-5 card w-100 rounded p-5">
+                                <div class="card w-100 p-5">
                                     <div class="d-flex justify-content-center align-items-center">
                                         <div style="padding: 50px;">
                                             <div class="d-flex justify-content-center">

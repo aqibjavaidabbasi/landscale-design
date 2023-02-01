@@ -306,9 +306,9 @@ License: You must have a valid license purchased only from themeforest(the above
                                                 <div class="mb-3 mt-3">
                                                     <img src="../assets/media/indicator_and_matrics.png" alt="" srcset="">
                                                 </div>
-                                                <span class="py-5">
+                                                <a href="./indicator_metrices.php" class="py-5">
                                                     Indicator & Metrics
-                                                </span>
+                                                </a>
                                                 <div class="child-bottom">
                                                     <div class="d-flex justify-content-center my-4">
                                                         <div class="progress-line"></div>

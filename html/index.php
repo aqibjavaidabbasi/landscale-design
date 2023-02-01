@@ -15,6 +15,9 @@ License: You must have a valid license purchased only from themeforest(the above
 <!--begin::Head-->
 
 <head>
+    <meta charset="utf-8" />
+    <meta name="description" content="Layout options builder" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <!-- Google Tag Manager -->
     <script>
@@ -33,10 +36,7 @@ License: You must have a valid license purchased only from themeforest(the above
         })(window, document, 'script', 'dataLayer', 'GTM-5FS8GGP');
     </script>
     <!-- End Google Tag Manager -->
-    <meta charset="utf-8" />
     <title>Landscale</title>
-    <meta name="description" content="Layout options builder" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <link rel="canonical" href="https://keenthemes.com/metronic" />
     <!--begin::Fonts-->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" />
@@ -131,7 +131,7 @@ License: You must have a valid license purchased only from themeforest(the above
                     <div class="container">
                         <div class="row">
                             <div class="col-md-12">
-                                <div class="card w-100 rounded p-5">
+                                <div class="card w-100 p-5">
                                     <div class="row p-5">
                                         <div class="col-md-5">
                                             <div class="card w-100 rounded p-5 card-color">

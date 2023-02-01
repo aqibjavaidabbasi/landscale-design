@@ -130,7 +130,7 @@ License: You must have a valid license purchased only from themeforest(the above
                     <div class="container">
                         <div class="row">
                             <div class="col-md-12">
-                                <div class="card w-100 rounded custom-padding-30">
+                                <div class="card w-100 custom-padding-30">
                                     <div class="row">
                                         <div class="col-md-12 text-center">
                                             <h4 class="assesment-heading assesment-heading-responsive">Assessment registration of New assessment</h4>

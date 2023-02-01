@@ -45,14 +45,14 @@
                     </a>
                     <div class="menu-submenu bg-light-primary brt-50 brb-50">
                         <i class="menu-arrow"></i>
-                        <!-- <ul class="menu-subnav py-0  brt-50">
+                        <ul class="menu-subnav py-0  brt-50">
                             <li class="menu-item menu-item-parent brt-50 brb-50 bg-primary" aria-haspopup="true">
                                 <span class="menu-link p-5" style="height: auto!important;">
-                                    <span class="menu-text m-1 text-light">Assesments Dashboard</span>
+                                    <span class="menu-text m-1 text-light"><a href="./index.php" class="text-light">Assesments Dashboard</a></span>
                                 </span>
                             </li>
-                        </ul> -->
-                        <ul class="menu-subnav pt-0  brt-50">
+                        </ul>
+                        <!-- <ul class="menu-subnav pt-0  brt-50">
                             <li class="menu-item menu-item-parent brt-50 brb-50  bg-primary" aria-haspopup="true">
                                 <span class="menu-link p-5" style="height: auto!important;">
                                     <span class="menu-text m-1 text-light">Assesments Dashboard</span>
@@ -71,7 +71,7 @@
                                     <span class="menu-text">Dashboard</span>
                                 </a>
                             </li>
-                        </ul>
+                        </ul> -->
                     </div>
                 </li>
                 <li class="menu-item menu-item-submenu" aria-haspopup="true" data-menu-toggle="hover">

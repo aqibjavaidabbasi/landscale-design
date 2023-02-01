@@ -101559,13 +101559,13 @@ body {
 }
 
 .custom-step-table-radius thead tr th:first-child {
-    border-top-left-radius: 20px !important;
+    border-top-left-radius: 15px !important;
     border-top: 1px solid rgba(154, 191, 120, 0.3);
     border-left: 1px solid rgba(154, 191, 120, 0.3);
 }
 
 .custom-step-table-radius thead tr th:last-child {
-    border-top-right-radius: 20px !important;
+    border-top-right-radius: 15px !important;
     border-top: 1px solid rgba(154, 191, 120, 0.3);
     border-right: 1px solid rgba(154, 191, 120, 0.3);
 }
@@ -101735,7 +101735,7 @@ body {
 
 .step-unit-counter {
     position: absolute;
-    left: 87px;
+    left: 80px;
     top: 4px;
     border-radius: 7px;
     font-family: 'Roboto';
@@ -101745,7 +101745,8 @@ body {
     line-height: 15px;
     text-align: center;
     padding: 8px;
-    color: #4C94A0
+    color: #4C94A0;
+    background: #EBF2E4;
 }
 
 .custom-display-none {

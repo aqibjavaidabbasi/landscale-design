@@ -136,7 +136,7 @@ License: You must have a valid license purchased only from themeforest(the above
                         </div>
                         <div class="row">
                             <div class="col-md-12">
-                                <div class="card w-100 rounded custom-padding-40">
+                                <div class="card w-100 custom-padding-40">
                                     <div class="row">
                                         <div class="col-md-12">
                                             <span class="steps-default-text steps-heading">Step 3: Indicator & Metrics</span>
@@ -144,7 +144,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                     </div>
 
                                     <div class="row mt-5">
-                                        <div class="col-md-6">
+                                        <div class="col-md-6 pl-0 pl-md-4 p-sm-4">
                                             <div class="step-card steps-custom-height custom-padding-40">
                                                 <span class="steps-default-text steps-heading d-block mb-1">Select Indicator</span>
                                                 <!-- <span class="steps-default-text steps-small-text d-block my-5">View Instructions</span> -->
@@ -158,7 +158,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                 </span>
                                             </div>
                                         </div>
-                                        <div class="col-md-6 custom-padding-0">
+                                        <div class="col-md-6 custom-padding-0 pr-0">
                                             <div class="p-4 steps-custom-height">
                                                 <div class="row">
                                                     <div class="col-md-4 responsive-margin-card">
@@ -251,7 +251,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                     </div>
 
                                     <div class="row steps-custom-margin-top">
-                                        <div class="col-md-12">
+                                        <div class="col-md-12 pl-0 pl-sm-4 pb-sm-4">
                                             <button type="button" class="indicator-btn-dark align-items-center">
                                                 <span><img src="../assets/media/circle_add_icon.png" alt=""></span>
                                                 <span class="text-light">Create Custom Piller</span>
@@ -259,7 +259,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                         </div>
                                     </div>
 
-                                    <div class="row steps-custom-margin-top indicator-tab-container">
+                                    <div class="row steps-custom-margin-top indicator-tab-container m-sm-0">
                                         <div class="col-md-3 col-sm-12 col-xs-12 indicator-padding-right-0">
                                             <div class="indicator-nav-brand p-5">
                                                 Custom Pillars
@@ -330,7 +330,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                         <img src="../assets/media/icons_and_Illustrations/Avatars/Avatars_Baboon.png" class="step-unit-image-1" alt="">
                                                                         <img src="../assets/media/icons_and_Illustrations/Avatars/Avatars_Frog.png" class="step-unit-image-2" alt="">
                                                                         <img src="../assets/media/icons_and_Illustrations/Avatars/Avatars_Parrot.png" class="step-unit-image-3" alt="">
-                                                                        <span class="step-unit-counter d-inline-block">6</span>
+                                                                        <span class="step-unit-counter d-inline-block">6+</span>
                                                                         <img src="../assets/media/add_person.png" class="step-unit-image-4" alt="">
                                                                     </div>
                                                                     <span class="steps-tags-text steps-success-tag p-1 custom-position-relative">Completed</span>
@@ -417,7 +417,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                         <img src="../assets/media/icons_and_Illustrations/Avatars/Avatars_Baboon.png" class="step-unit-image-1" alt="">
                                                                         <img src="../assets/media/icons_and_Illustrations/Avatars/Avatars_Frog.png" class="step-unit-image-2" alt="">
                                                                         <img src="../assets/media/icons_and_Illustrations/Avatars/Avatars_Parrot.png" class="step-unit-image-3" alt="">
-                                                                        <span class="step-unit-counter d-inline-block">6</span>
+                                                                        <span class="step-unit-counter d-inline-block">6+</span>
                                                                         <img src="../assets/media/add_person.png" class="step-unit-image-4" alt="">
                                                                     </div>
                                                                     <span class="steps-tags-text steps-success-tag p-1 custom-position-relative">Completed</span>
@@ -529,7 +529,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                     <img src="../assets/media/icons_and_Illustrations/Avatars/Avatars_Baboon.png" class="accordian-unit-image-1" alt="">
                                                                                     <img src="../assets/media/icons_and_Illustrations/Avatars/Avatars_Frog.png" class="accordian-unit-image-2" alt="">
                                                                                     <img src="../assets/media/icons_and_Illustrations/Avatars/Avatars_Parrot.png" class="accordian-unit-image-3" alt="">
-                                                                                    <span class="step-unit-counter d-inline-block">6</span>
+                                                                                    <span class="step-unit-counter d-inline-block">6+</span>
                                                                                     <img src="../assets/media/add_person.png" class="step-unit-image-4" alt="">
                                                                                 </div>
                                                                             </td>
