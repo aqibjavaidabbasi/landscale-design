@@ -372,9 +372,9 @@ License: You must have a valid license purchased only from themeforest(the above
                                                         <td>Add Indicators</td>
                                                         <td>
                                                             <div class="steps-image-container">
-                                                                <img src="../assets/media/person1.png" class="step-unit-image-1" alt="">
-                                                                <img src="../assets/media/person3.png" class="step-unit-image-2" alt="">
-                                                                <img src="../assets/media/person2.png" class="step-unit-image-3" alt="">
+                                                                <img src="../assets/media/icons_and_Illustrations/Avatars/Avatars_Baboon.png" class="accordian-unit-image-1" alt="">
+                                                                <img src="../assets/media/icons_and_Illustrations/Avatars/Avatars_Frog.png" class="accordian-unit-image-2" alt="">
+                                                                <img src="../assets/media/icons_and_Illustrations/Avatars/Avatars_Parrot.png" class="accordian-unit-image-3" alt="">
                                                                 <span class="step-unit-counter d-inline-block">6</span>
                                                                 <img src="../assets/media/add_person.png" class="step-unit-image-4" alt="">
                                                             </div>
@@ -386,9 +386,9 @@ License: You must have a valid license purchased only from themeforest(the above
                                                         <td>Add Metrics</td>
                                                         <td>
                                                             <div class="steps-image-container">
-                                                                <img src="../assets/media/person1.png" class="step-unit-image-1" alt="">
-                                                                <img src="../assets/media/person3.png" class="step-unit-image-2" alt="">
-                                                                <img src="../assets/media/person2.png" class="step-unit-image-3" alt="">
+                                                                <img src="../assets/media/icons_and_Illustrations/Avatars/Avatars_Baboon.png" class="accordian-unit-image-1" alt="">
+                                                                <img src="../assets/media/icons_and_Illustrations/Avatars/Avatars_Frog.png" class="accordian-unit-image-2" alt="">
+                                                                <img src="../assets/media/icons_and_Illustrations/Avatars/Avatars_Parrot.png" class="accordian-unit-image-3" alt="">
                                                                 <span class="step-unit-counter d-inline-block">6</span>
                                                                 <img src="../assets/media/add_person.png" class="step-unit-image-4" alt="">
                                                             </div>
@@ -407,9 +407,9 @@ License: You must have a valid license purchased only from themeforest(the above
                                                 <span class="steps-default-text steps-heading d-block mb-1">Add Indicators</span>
                                                 <div class="d-flex justify-content-center">
                                                     <div class="steps-image-container" style="margin-right: 100px;">
-                                                        <img src="../assets/media/person1.png" class="step-unit-image-1" alt="">
-                                                        <img src="../assets/media/person3.png" class="step-unit-image-2" alt="">
-                                                        <img src="../assets/media/person2.png" class="step-unit-image-3" alt="">
+                                                        <img src="../assets/media/icons_and_Illustrations/Avatars/Avatars_Baboon.png" class="accordian-unit-image-1" alt="">
+                                                        <img src="../assets/media/icons_and_Illustrations/Avatars/Avatars_Frog.png" class="accordian-unit-image-2" alt="">
+                                                        <img src="../assets/media/icons_and_Illustrations/Avatars/Avatars_Parrot.png" class="accordian-unit-image-3" alt="">
                                                         <span class="step-unit-counter d-inline-block">6</span>
                                                         <img src="../assets/media/add_person.png" class="step-unit-image-4" alt="">
                                                     </div>
@@ -426,9 +426,9 @@ License: You must have a valid license purchased only from themeforest(the above
                                                 <span class="steps-default-text steps-heading d-block mb-1">Add Metrics</span>
                                                 <div class="d-flex justify-content-center">
                                                     <div class="steps-image-container" style="margin-right: 100px;">
-                                                        <img src="../assets/media/person1.png" class="step-unit-image-1" alt="">
-                                                        <img src="../assets/media/person3.png" class="step-unit-image-2" alt="">
-                                                        <img src="../assets/media/person2.png" class="step-unit-image-3" alt="">
+                                                        <img src="../assets/media/icons_and_Illustrations/Avatars/Avatars_Baboon.png" class="accordian-unit-image-1" alt="">
+                                                        <img src="../assets/media/icons_and_Illustrations/Avatars/Avatars_Frog.png" class="accordian-unit-image-2" alt="">
+                                                        <img src="../assets/media/icons_and_Illustrations/Avatars/Avatars_Parrot.png" class="accordian-unit-image-3" alt="">
                                                         <span class="step-unit-counter d-inline-block">6</span>
                                                         <img src="../assets/media/add_person.png" class="step-unit-image-4" alt="">
                                                     </div>
