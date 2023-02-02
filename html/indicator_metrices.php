@@ -15,6 +15,9 @@ License: You must have a valid license purchased only from themeforest(the above
 <!--begin::Head-->
 
 <head>
+    <meta charset="utf-8">
+    <meta name="description" content="Layout options builder">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <!-- Google Tag Manager -->
     <script>
@@ -33,13 +36,10 @@ License: You must have a valid license purchased only from themeforest(the above
         })(window, document, 'script', 'dataLayer', 'GTM-5FS8GGP');
     </script>
     <!-- End Google Tag Manager -->
-    <meta charset="utf-8" />
     <title>Landscale</title>
-    <meta name="description" content="Layout options builder" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <link rel="canonical" href="https://keenthemes.com/metronic" />
+    <link rel="canonical" href="https://keenthemes.com/metronic">
     <!--begin::Fonts-->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700">
     <!--end::Fonts-->
     <!--begin::Global Theme Styles(used by all pages)-->
     <link rel="stylesheet" href="../assets/plugins/global/plugins.bundle.css">
@@ -81,7 +81,7 @@ License: You must have a valid license purchased only from themeforest(the above
     <div id="kt_header_mobile" class="header-mobile align-items-center header-mobile-fixed">
         <!--begin::Logo-->
         <a href="/metronic/demo1/index.html">
-            <img alt="Logo" src="../assets/media/landscale_logo.png" />
+            <img alt="Logo" src="../assets/media/landscale_logo.png">
         </a>
         <!--end::Logo-->
         <!--begin::Toolbar-->
@@ -149,7 +149,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                         <div class="wizard-step custom-width-steps custom-metrices-step" data-wizard-type="step" data-wizard-state="done">
                                                             <div class="wizard-label metrices-label">
                                                                 <div class="label-wrapper text-center">
-                                                                    <h3 class="wizard-title wizard-nav-title-step wizard-nav-title-responsive step-title" id="step1-title">
+                                                                    <h3 class="wizard-title wizard-nav-title-step wizard-nav-title-responsive step-title">
                                                                         Preparation
                                                                     </h3>
                                                                     <span class="steps-tags-text step-pending-tag p-1">Pending Review</span>
@@ -163,7 +163,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                         <div class="wizard-step custom-width-steps custom-metrices-step" data-wizard-type="step" data-wizard-state="done">
                                                             <div class="wizard-label">
                                                                 <div class="label-wrapper text-center">
-                                                                    <h3 class="wizard-title wizard-nav-title-step wizard-nav-title-responsive step-title" id="step1-title">
+                                                                    <h3 class="wizard-title wizard-nav-title-step wizard-nav-title-responsive step-title">
                                                                         Boundary
                                                                     </h3>
                                                                     <span class="steps-tags-text step-pending-tag p-1">Pending Review</span>
@@ -177,7 +177,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                         <div class="wizard-step custom-width-steps custom-metrices-step" data-wizard-type="step" data-wizard-state="done">
                                                             <div class="wizard-label">
                                                                 <div class="label-wrapper text-center">
-                                                                    <h3 class="wizard-title wizard-nav-title-step wizard-nav-title-responsive step-title" id="step1-title">
+                                                                    <h3 class="wizard-title wizard-nav-title-step wizard-nav-title-responsive step-title">
                                                                         Indicator & Metrics
                                                                     </h3>
                                                                     <span class="steps-tags-text steps-success-tag p-1">Completed</span>
@@ -191,7 +191,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                         <div class="wizard-step custom-width-steps custom-metrices-step" data-wizard-type="step" data-wizard-state="current">
                                                             <div class="wizard-label">
                                                                 <div class="label-wrapper text-center">
-                                                                    <h3 class="wizard-title wizard-nav-title-step wizard-nav-title-responsive step-title" id="step1-title">
+                                                                    <h3 class="wizard-title wizard-nav-title-step wizard-nav-title-responsive step-title">
                                                                         Data & Results
                                                                     </h3>
                                                                     <span class="steps-tags-text step-pending-tag p-1">Pending Review</span>
@@ -205,7 +205,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                         <div class="wizard-step custom-width-steps custom-metrices-step" data-wizard-type="step" data-wizard-state="current">
                                                             <div class="wizard-label">
                                                                 <div class="label-wrapper text-center">
-                                                                    <h3 class="wizard-title wizard-nav-title-step wizard-nav-title-responsive step-title" id="step1-title">
+                                                                    <h3 class="wizard-title wizard-nav-title-step wizard-nav-title-responsive step-title">
                                                                         Report & Publish
                                                                     </h3>
                                                                     <span class="steps-tags-text step-pending-tag p-1">Pending Review</span>
@@ -242,7 +242,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                     <div class="col-md-4 responsive-margin-card">
                                                         <div class="custom-padding-1 cards-tabs text-center h-100">
                                                             <div class="mb-3 mt-2">
-                                                                <img src="../assets/media/Reference library.png" alt="">
+                                                                <img src="../assets/media/Reference_library.png" alt="">
                                                             </div>
                                                             <span class="mb-2">
                                                                 Reference Library
