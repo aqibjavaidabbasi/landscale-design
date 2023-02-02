@@ -15,6 +15,9 @@ License: You must have a valid license purchased only from themeforest(the above
 <!--begin::Head-->
 
 <head>
+    <meta charset="utf-8">
+    <meta name="description" content="Layout options builder">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <!-- Google Tag Manager -->
     <script>
@@ -33,13 +36,10 @@ License: You must have a valid license purchased only from themeforest(the above
         })(window, document, 'script', 'dataLayer', 'GTM-5FS8GGP');
     </script>
     <!-- End Google Tag Manager -->
-    <meta charset="utf-8" />
     <title>Landscale</title>
-    <meta name="description" content="Layout options builder" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <link rel="canonical" href="https://keenthemes.com/metronic" />
+    <link rel="canonical" href="https://keenthemes.com/metronic">
     <!--begin::Fonts-->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700">
     <!--end::Fonts-->
     <!--begin::Global Theme Styles(used by all pages)-->
     <link rel="stylesheet" href="../assets/plugins/global/plugins.bundle.css">
@@ -81,7 +81,7 @@ License: You must have a valid license purchased only from themeforest(the above
     <div id="kt_header_mobile" class="header-mobile align-items-center header-mobile-fixed">
         <!--begin::Logo-->
         <a href="/metronic/demo1/index.html">
-            <img alt="Logo" src="../assets/media/landscale_logo.png" />
+            <img alt="Logo" src="../assets/media/landscale_logo.png">
         </a>
         <!--end::Logo-->
         <!--begin::Toolbar-->
@@ -205,7 +205,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                 <div class="tab" style="display: block;">
                                                                     <div class="d-flex justify-content-between align-items-center overview-responsive">
                                                                         <span class="assesments-card-header overview-span-responsive">Overview</span>
-                                                                        <button class="assesment-card-btn p-2" fdprocessedid="thqp8w">
+                                                                        <button class="assesment-card-btn p-2">
                                                                             <span class="d-inline-block ml-2 mr-3">
                                                                                 <svg width="20" height="23" viewBox="0 0 28 23" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                                                     <path d="M27.9994 10.5537C27.9994 13.2391 27.9988 15.925 28 18.6104C28 18.9246 27.9883 19.237 27.8938 19.5387C27.6438 20.3366 26.9698 20.7845 25.9983 20.7857C23.5916 20.7889 21.185 20.7851 18.7783 20.7876C17.9043 20.7883 17.0303 20.8008 16.1563 20.8014C15.9371 20.8014 15.7273 20.8441 15.5199 20.8999C14.9637 21.0486 14.7582 21.2976 14.6934 21.8847C14.6502 22.2793 14.373 22.5703 14.0286 22.5829C13.6743 22.5954 13.3274 22.3433 13.3126 21.9468C13.2799 21.0542 12.6731 20.8855 11.9966 20.8108C11.6806 20.7763 11.3596 20.7807 11.0411 20.7801C8.0586 20.7782 5.07607 20.7751 2.09292 20.7814C1.44666 20.7826 0.875705 20.6339 0.429436 20.1227C0.0924191 19.7369 0.00291836 19.2759 0.00291836 18.7854C0.00106662 13.2999 -0.00201962 7.81319 0.00415285 2.32709C0.00538734 1.16288 0.792994 0.417053 1.98922 0.417053C4.01502 0.417053 6.04144 0.423326 8.06725 0.42709C9.0857 0.428971 10.1035 0.420817 11.122 0.434617C12.2003 0.449044 13.1768 0.726297 13.8792 1.63646C13.9731 1.75815 14.0292 1.72616 14.1138 1.62768C14.873 0.746997 15.8594 0.428971 16.9797 0.430853C19.9832 0.434617 22.9861 0.430853 25.9896 0.432735C27.2729 0.433362 27.9981 1.16915 27.9988 2.46634C28 5.16172 27.9994 7.85772 27.9994 10.5537ZM26.639 10.5826C26.639 7.8458 26.639 5.10903 26.6383 2.37225C26.6383 1.95951 26.5075 1.81524 26.1149 1.81524C22.9892 1.81335 19.8641 1.80708 16.7383 1.819C15.4995 1.82402 14.6854 2.68526 14.6847 3.94482C14.6835 9.06333 14.6841 14.1819 14.6841 19.3004C14.6841 19.3631 14.6885 19.4258 14.6841 19.4886C14.673 19.6447 14.7193 19.6899 14.8786 19.6328C15.4575 19.4239 16.0643 19.3819 16.6698 19.3807C19.7955 19.3725 22.9207 19.3744 26.0464 19.3725C26.5254 19.3725 26.6383 19.2565 26.6383 18.7628C26.6383 16.0354 26.6383 13.3087 26.639 10.5826ZM1.37814 10.5832C1.37814 13.3206 1.37753 16.058 1.37876 18.7954C1.37876 19.2671 1.4874 19.3913 1.92749 19.3913C4.83719 19.3907 7.74751 19.3819 10.6572 19.3869C11.4467 19.3882 12.2448 19.3625 13.0083 19.6178C13.2614 19.7024 13.2922 19.6309 13.291 19.3938C13.283 17.576 13.2873 15.7582 13.2867 13.9404C13.2848 10.5449 13.2904 7.14953 13.2756 3.75413C13.2713 2.76931 12.6503 2.04419 11.7096 1.8604C11.4899 1.81775 11.2596 1.81649 11.0344 1.81586C8.02157 1.81335 5.00879 1.81398 1.99539 1.81398C1.48616 1.81398 1.37876 1.9225 1.37876 2.43372C1.37814 5.15043 1.37814 7.86713 1.37814 10.5832Z" fill="#074A37"></path>
@@ -229,17 +229,17 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                 <div class="row">
                                                                                     <div class="col-md-6">
                                                                                         <div class="custom-search-bar ml-1 p-5">
-                                                                                            <label for="" class="assesment-input-labels d-inline assesment-responsive-fontsize">Landscape name*</label>
-                                                                                            <input type="text" class="form-control primary-bg-color outline-0 border-0 w-100 mt-4 mb-2" placeholder="Enter Name" fdprocessedid="4cnwu">
+                                                                                            <label for="landscape_name" class="assesment-input-labels d-inline assesment-responsive-fontsize">Landscape name*</label>
+                                                                                            <input type="text" id="landscape_name" class="form-control primary-bg-color outline-0 border-0 w-100 mt-4 mb-2" placeholder="Enter Name">
                                                                                             <span class="assesment-small-text assesment-small-text-responsive">This can either be the official name of the jurisdiction, catchment area, or region, or also the name of the initiative behind the assessment.</span>
                                                                                         </div>
                                                                                     </div>
                                                                                     <div class="col-md-6">
 
                                                                                         <div class="custom-search-bar ml-1 p-5">
-                                                                                            <label for="" class="assesment-input-labels d-inline assesment-responsive-fontsize">Country*</label>
+                                                                                            <label for="exampleFormControlSelect1" class="assesment-input-labels d-inline assesment-responsive-fontsize">Country*</label>
                                                                                             <div class="select-wrapper mt-4 mb-2">
-                                                                                                <select class="form-control bg-primary text-light" id="exampleFormControlSelect1" fdprocessedid="5f18sk">
+                                                                                                <select class="form-control bg-primary text-light" id="exampleFormControlSelect1">
                                                                                                     <option>None Selected</option>
                                                                                                     <option>Selected</option>
                                                                                                 </select>
@@ -263,7 +263,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                                     Add Municipalities Of Your Landscape
                                                                                                 </span>
                                                                                             </div>
-                                                                                            <button class="assesment-card-sec-btn" fdprocessedid="uwydlh">
+                                                                                            <button class="assesment-card-sec-btn">
                                                                                                 <span class="d-inline-block pl-3 pt-2">
                                                                                                     <svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                                                                         <path d="M1.07324 8.44254C1.07775 4.32039 4.40376 1.0079 8.53324 1.00001C12.5889 0.992122 16 4.24883 16 8.47128C16 12.5901 12.6345 16.0186 8.31462 15.8868C4.11978 15.7583 1.07324 12.4278 1.07324 8.44254ZM8.52197 15.0557C12.1968 15.0591 15.1419 12.1787 15.1672 8.49551C15.192 4.83819 12.2244 1.87673 8.57437 1.85645C4.9441 1.8356 1.94207 4.78748 1.93193 8.44592C1.92235 11.9748 4.72605 15.0934 8.52197 15.0557Z" fill="white" stroke="white" stroke-width="0.2"></path>
@@ -279,15 +279,15 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                 <div class="row mt-5">
                                                                                     <div class="col-md-6">
                                                                                         <div class="custom-search-bar ml-1 px-5 mt-3">
-                                                                                            <label for="" class="assesment-input-labels d-inline assesment-responsive-fontsize">Municipality*</label>
-                                                                                            <input type="text" class="form-control primary-bg-color outline-0 border-0 w-100 mt-4 mb-2" placeholder="Enter Municipality" fdprocessedid="4cnwu">
+                                                                                            <label for="landscape_municipality" class="assesment-input-labels d-inline assesment-responsive-fontsize">Municipality*</label>
+                                                                                            <input type="text" id="landscape_municipality" class="form-control primary-bg-color outline-0 border-0 w-100 mt-4 mb-2" placeholder="Enter Municipality">
                                                                                             <span class="assesment-small-text assesment-small-text-responsive">Sub-national jurisdiction(s) (i.e: State, Department, Municipality).</span>
                                                                                         </div>
                                                                                     </div>
                                                                                     <div class="col-md-6">
                                                                                         <div class="custom-search-bar ml-1 px-5 mt-3">
-                                                                                            <label for="" class="assesment-input-labels d-inline assesment-responsive-fontsize">What is the name of the lead organization?*</label>
-                                                                                            <input type="text" class="form-control primary-bg-color outline-0 border-0 w-100 mt-4 mb-2" placeholder="Enter Name of Organization" fdprocessedid="4cnwu">
+                                                                                            <label for="landscape_org" class="assesment-input-labels d-inline assesment-responsive-fontsize">What is the name of the lead organization?*</label>
+                                                                                            <input type="text" id="landscape_org" class="form-control primary-bg-color outline-0 border-0 w-100 mt-4 mb-2" placeholder="Enter Name of Organization">
                                                                                             <span class="assesment-small-text assesment-small-text-responsive">Name of organizations responsible for LandScale design and assessment</span>
                                                                                         </div>
                                                                                     </div>
@@ -295,7 +295,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                 <div class="row mt-5">
                                                                                     <div class="col-md-6">
                                                                                         <div class="custom-search-bar ml-1 px-5 mt-3">
-                                                                                            <label for="" class="assesment-input-labels d-inline assesment-responsive-fontsize">Is this a partnership?*</label>
+                                                                                            <label class="assesment-input-labels d-inline assesment-responsive-fontsize">Is this a partnership?*</label>
                                                                                             <div>
                                                                                                 <div class="custom-control custom-radio mt-3">
                                                                                                     <input type="radio" id="rd_1" name="rd" class="custom-control-input" value="Yes">
@@ -312,8 +312,8 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                     </div>
                                                                                     <div class="col-md-6">
                                                                                         <div class="custom-search-bar ml-1 px-5 mt-3">
-                                                                                            <label for="" class="assesment-input-labels d-inline assesment-responsive-fontsize">Please name any co-lead organizations*</label>
-                                                                                            <input type="text" class="form-control primary-bg-color outline-0 border-0 w-100 mt-4 mb-2" placeholder="Enter Name of Co-Lead Organization" fdprocessedid="4cnwu">
+                                                                                            <label for="landscape_colead_org" class="assesment-input-labels d-inline assesment-responsive-fontsize">Please name any co-lead organizations*</label>
+                                                                                            <input type="text" id="landscape_colead_org" class="form-control primary-bg-color outline-0 border-0 w-100 mt-4 mb-2" placeholder="Enter Name of Co-Lead Organization">
                                                                                             <div class="assesment-small-text assesment-small-text-responsive mt-5">Name of the co-lead organization responsible for LandScale design and assessment</div>
                                                                                         </div>
                                                                                     </div>
@@ -338,7 +338,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                 Please enter up to three key objectives for conducting a LandScale assessment (you will be able to add more in Step 1)
                                                                             </div>
                                                                         </div>
-                                                                        <button class="assesment-card-btn p-2 align-self-start" fdprocessedid="o0jh0q">
+                                                                        <button class="assesment-card-btn p-2 align-self-start">
                                                                             <span class="d-inline-block ml-2 mr-3">
                                                                                 <svg width="20" height="23" viewBox="0 0 28 23" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                                                     <path d="M27.9994 10.5537C27.9994 13.2391 27.9988 15.925 28 18.6104C28 18.9246 27.9883 19.237 27.8938 19.5387C27.6438 20.3366 26.9698 20.7845 25.9983 20.7857C23.5916 20.7889 21.185 20.7851 18.7783 20.7876C17.9043 20.7883 17.0303 20.8008 16.1563 20.8014C15.9371 20.8014 15.7273 20.8441 15.5199 20.8999C14.9637 21.0486 14.7582 21.2976 14.6934 21.8847C14.6502 22.2793 14.373 22.5703 14.0286 22.5829C13.6743 22.5954 13.3274 22.3433 13.3126 21.9468C13.2799 21.0542 12.6731 20.8855 11.9966 20.8108C11.6806 20.7763 11.3596 20.7807 11.0411 20.7801C8.0586 20.7782 5.07607 20.7751 2.09292 20.7814C1.44666 20.7826 0.875705 20.6339 0.429436 20.1227C0.0924191 19.7369 0.00291836 19.2759 0.00291836 18.7854C0.00106662 13.2999 -0.00201962 7.81319 0.00415285 2.32709C0.00538734 1.16288 0.792994 0.417053 1.98922 0.417053C4.01502 0.417053 6.04144 0.423326 8.06725 0.42709C9.0857 0.428971 10.1035 0.420817 11.122 0.434617C12.2003 0.449044 13.1768 0.726297 13.8792 1.63646C13.9731 1.75815 14.0292 1.72616 14.1138 1.62768C14.873 0.746997 15.8594 0.428971 16.9797 0.430853C19.9832 0.434617 22.9861 0.430853 25.9896 0.432735C27.2729 0.433362 27.9981 1.16915 27.9988 2.46634C28 5.16172 27.9994 7.85772 27.9994 10.5537ZM26.639 10.5826C26.639 7.8458 26.639 5.10903 26.6383 2.37225C26.6383 1.95951 26.5075 1.81524 26.1149 1.81524C22.9892 1.81335 19.8641 1.80708 16.7383 1.819C15.4995 1.82402 14.6854 2.68526 14.6847 3.94482C14.6835 9.06333 14.6841 14.1819 14.6841 19.3004C14.6841 19.3631 14.6885 19.4258 14.6841 19.4886C14.673 19.6447 14.7193 19.6899 14.8786 19.6328C15.4575 19.4239 16.0643 19.3819 16.6698 19.3807C19.7955 19.3725 22.9207 19.3744 26.0464 19.3725C26.5254 19.3725 26.6383 19.2565 26.6383 18.7628C26.6383 16.0354 26.6383 13.3087 26.639 10.5826ZM1.37814 10.5832C1.37814 13.3206 1.37753 16.058 1.37876 18.7954C1.37876 19.2671 1.4874 19.3913 1.92749 19.3913C4.83719 19.3907 7.74751 19.3819 10.6572 19.3869C11.4467 19.3882 12.2448 19.3625 13.0083 19.6178C13.2614 19.7024 13.2922 19.6309 13.291 19.3938C13.283 17.576 13.2873 15.7582 13.2867 13.9404C13.2848 10.5449 13.2904 7.14953 13.2756 3.75413C13.2713 2.76931 12.6503 2.04419 11.7096 1.8604C11.4899 1.81775 11.2596 1.81649 11.0344 1.81586C8.02157 1.81335 5.00879 1.81398 1.99539 1.81398C1.48616 1.81398 1.37876 1.9225 1.37876 2.43372C1.37814 5.15043 1.37814 7.86713 1.37814 10.5832Z" fill="#074A37"></path>
@@ -361,16 +361,16 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                             <div class="row mt-5">
                                                                                 <div class="col-md-6">
                                                                                     <div class="custom-search-bar ml-1 p-5">
-                                                                                        <label for="" class="assesment-input-labels d-inline assesment-responsive-fontsize">Objective 1*</label>
-                                                                                        <input type="text" class="form-control primary-bg-color outline-0 border-0 w-100 mt-4 mb-2" placeholder="Enter Name" fdprocessedid="4cnwu">
+                                                                                        <label for="landscape_obj_1" class="assesment-input-labels d-inline assesment-responsive-fontsize">Objective 1*</label>
+                                                                                        <input type="text" id="landscape_obj_1" class="form-control primary-bg-color outline-0 border-0 w-100 mt-4 mb-2" placeholder="Enter Name">
                                                                                         <span class="assesment-small-text assesment-small-text-responsive">(0/500)</span>
                                                                                     </div>
                                                                                 </div>
                                                                                 <div class="col-md-6">
 
                                                                                     <div class="custom-search-bar ml-1 p-5">
-                                                                                        <label for="" class="assesment-input-labels d-inline assesment-responsive-fontsize">Objective 2</label>
-                                                                                        <input type="text" class="form-control primary-bg-color outline-0 border-0 w-100 mt-4 mb-2" placeholder="Enter Name" fdprocessedid="4cnwu">
+                                                                                        <label for="landscape_obj_2" class="assesment-input-labels d-inline assesment-responsive-fontsize">Objective 2</label>
+                                                                                        <input type="text" id="landscape_obj_2" class="form-control primary-bg-color outline-0 border-0 w-100 mt-4 mb-2" placeholder="Enter Name">
                                                                                         <span class="assesment-small-text assesment-small-text-responsive">(0/500)</span>
                                                                                     </div>
                                                                                 </div>
@@ -378,8 +378,8 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                 <div class="col-md-6">
 
                                                                                     <div class="custom-search-bar ml-1 p-5">
-                                                                                        <label for="" class="assesment-input-labels d-inline assesment-responsive-fontsize">Objective 3</label>
-                                                                                        <input type="text" class="form-control primary-bg-color outline-0 border-0 w-100 mt-4 mb-2" placeholder="Enter Name" fdprocessedid="4cnwu">
+                                                                                        <label for="landscape_obj_3" class="assesment-input-labels d-inline assesment-responsive-fontsize">Objective 3</label>
+                                                                                        <input type="text" id="landscape_obj_3" class="form-control primary-bg-color outline-0 border-0 w-100 mt-4 mb-2" placeholder="Enter Name">
                                                                                         <span class="assesment-small-text assesment-small-text-responsive">(0/500)</span>
                                                                                     </div>
                                                                                 </div>
@@ -400,7 +400,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                 Preliminary boundary
                                                                             </span>
                                                                         </div>
-                                                                        <button class="assesment-card-btn p-2" fdprocessedid="o0jh0q">
+                                                                        <button class="assesment-card-btn p-2">
                                                                             <span class="d-inline-block ml-2 mr-3">
                                                                                 <svg width="20" height="23" viewBox="0 0 28 23" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                                                     <path d="M27.9994 10.5537C27.9994 13.2391 27.9988 15.925 28 18.6104C28 18.9246 27.9883 19.237 27.8938 19.5387C27.6438 20.3366 26.9698 20.7845 25.9983 20.7857C23.5916 20.7889 21.185 20.7851 18.7783 20.7876C17.9043 20.7883 17.0303 20.8008 16.1563 20.8014C15.9371 20.8014 15.7273 20.8441 15.5199 20.8999C14.9637 21.0486 14.7582 21.2976 14.6934 21.8847C14.6502 22.2793 14.373 22.5703 14.0286 22.5829C13.6743 22.5954 13.3274 22.3433 13.3126 21.9468C13.2799 21.0542 12.6731 20.8855 11.9966 20.8108C11.6806 20.7763 11.3596 20.7807 11.0411 20.7801C8.0586 20.7782 5.07607 20.7751 2.09292 20.7814C1.44666 20.7826 0.875705 20.6339 0.429436 20.1227C0.0924191 19.7369 0.00291836 19.2759 0.00291836 18.7854C0.00106662 13.2999 -0.00201962 7.81319 0.00415285 2.32709C0.00538734 1.16288 0.792994 0.417053 1.98922 0.417053C4.01502 0.417053 6.04144 0.423326 8.06725 0.42709C9.0857 0.428971 10.1035 0.420817 11.122 0.434617C12.2003 0.449044 13.1768 0.726297 13.8792 1.63646C13.9731 1.75815 14.0292 1.72616 14.1138 1.62768C14.873 0.746997 15.8594 0.428971 16.9797 0.430853C19.9832 0.434617 22.9861 0.430853 25.9896 0.432735C27.2729 0.433362 27.9981 1.16915 27.9988 2.46634C28 5.16172 27.9994 7.85772 27.9994 10.5537ZM26.639 10.5826C26.639 7.8458 26.639 5.10903 26.6383 2.37225C26.6383 1.95951 26.5075 1.81524 26.1149 1.81524C22.9892 1.81335 19.8641 1.80708 16.7383 1.819C15.4995 1.82402 14.6854 2.68526 14.6847 3.94482C14.6835 9.06333 14.6841 14.1819 14.6841 19.3004C14.6841 19.3631 14.6885 19.4258 14.6841 19.4886C14.673 19.6447 14.7193 19.6899 14.8786 19.6328C15.4575 19.4239 16.0643 19.3819 16.6698 19.3807C19.7955 19.3725 22.9207 19.3744 26.0464 19.3725C26.5254 19.3725 26.6383 19.2565 26.6383 18.7628C26.6383 16.0354 26.6383 13.3087 26.639 10.5826ZM1.37814 10.5832C1.37814 13.3206 1.37753 16.058 1.37876 18.7954C1.37876 19.2671 1.4874 19.3913 1.92749 19.3913C4.83719 19.3907 7.74751 19.3819 10.6572 19.3869C11.4467 19.3882 12.2448 19.3625 13.0083 19.6178C13.2614 19.7024 13.2922 19.6309 13.291 19.3938C13.283 17.576 13.2873 15.7582 13.2867 13.9404C13.2848 10.5449 13.2904 7.14953 13.2756 3.75413C13.2713 2.76931 12.6503 2.04419 11.7096 1.8604C11.4899 1.81775 11.2596 1.81649 11.0344 1.81586C8.02157 1.81335 5.00879 1.81398 1.99539 1.81398C1.48616 1.81398 1.37876 1.9225 1.37876 2.43372C1.37814 5.15043 1.37814 7.86713 1.37814 10.5832Z" fill="#074A37"></path>
@@ -464,7 +464,7 @@ License: You must have a valid license purchased only from themeforest(the above
 
                                                                             <div class="d-flex justify-content-center align-items-center w-100">
                                                                                 <!-- <div id="kt_gmap_1" style="height:300px;"></div> -->
-                                                                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d212645.52238783793!2d72.94602284222063!3d33.61603729659184!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38dfbfd07891722f%3A0x6059515c3bdb02b6!2sIslamabad%2C%20Islamabad%20Capital%20Territory%2C%20Pakistan!5e0!3m2!1sen!2s!4v1674216707776!5m2!1sen!2s" width="80%" height="350" style="border:0; margin-top:20px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                                                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d212645.52238783793!2d72.94602284222063!3d33.61603729659184!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38dfbfd07891722f%3A0x6059515c3bdb02b6!2sIslamabad%2C%20Islamabad%20Capital%20Territory%2C%20Pakistan!5e0!3m2!1sen!2s!4v1674216707776!5m2!1sen!2s" style="border:0; margin-top:20px; width: 80%; height: 350px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                                                                             </div>
 
                                                                         </div>
@@ -482,7 +482,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                 Select pricing & plans
                                                                             </span>
                                                                         </div>
-                                                                        <button class="assesment-card-btn p-2" fdprocessedid="o0jh0q">
+                                                                        <button class="assesment-card-btn p-2">
                                                                             <span class="d-inline-block ml-2 mr-3">
                                                                                 <svg width="20" height="23" viewBox="0 0 28 23" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                                                     <path d="M27.9994 10.5537C27.9994 13.2391 27.9988 15.925 28 18.6104C28 18.9246 27.9883 19.237 27.8938 19.5387C27.6438 20.3366 26.9698 20.7845 25.9983 20.7857C23.5916 20.7889 21.185 20.7851 18.7783 20.7876C17.9043 20.7883 17.0303 20.8008 16.1563 20.8014C15.9371 20.8014 15.7273 20.8441 15.5199 20.8999C14.9637 21.0486 14.7582 21.2976 14.6934 21.8847C14.6502 22.2793 14.373 22.5703 14.0286 22.5829C13.6743 22.5954 13.3274 22.3433 13.3126 21.9468C13.2799 21.0542 12.6731 20.8855 11.9966 20.8108C11.6806 20.7763 11.3596 20.7807 11.0411 20.7801C8.0586 20.7782 5.07607 20.7751 2.09292 20.7814C1.44666 20.7826 0.875705 20.6339 0.429436 20.1227C0.0924191 19.7369 0.00291836 19.2759 0.00291836 18.7854C0.00106662 13.2999 -0.00201962 7.81319 0.00415285 2.32709C0.00538734 1.16288 0.792994 0.417053 1.98922 0.417053C4.01502 0.417053 6.04144 0.423326 8.06725 0.42709C9.0857 0.428971 10.1035 0.420817 11.122 0.434617C12.2003 0.449044 13.1768 0.726297 13.8792 1.63646C13.9731 1.75815 14.0292 1.72616 14.1138 1.62768C14.873 0.746997 15.8594 0.428971 16.9797 0.430853C19.9832 0.434617 22.9861 0.430853 25.9896 0.432735C27.2729 0.433362 27.9981 1.16915 27.9988 2.46634C28 5.16172 27.9994 7.85772 27.9994 10.5537ZM26.639 10.5826C26.639 7.8458 26.639 5.10903 26.6383 2.37225C26.6383 1.95951 26.5075 1.81524 26.1149 1.81524C22.9892 1.81335 19.8641 1.80708 16.7383 1.819C15.4995 1.82402 14.6854 2.68526 14.6847 3.94482C14.6835 9.06333 14.6841 14.1819 14.6841 19.3004C14.6841 19.3631 14.6885 19.4258 14.6841 19.4886C14.673 19.6447 14.7193 19.6899 14.8786 19.6328C15.4575 19.4239 16.0643 19.3819 16.6698 19.3807C19.7955 19.3725 22.9207 19.3744 26.0464 19.3725C26.5254 19.3725 26.6383 19.2565 26.6383 18.7628C26.6383 16.0354 26.6383 13.3087 26.639 10.5826ZM1.37814 10.5832C1.37814 13.3206 1.37753 16.058 1.37876 18.7954C1.37876 19.2671 1.4874 19.3913 1.92749 19.3913C4.83719 19.3907 7.74751 19.3819 10.6572 19.3869C11.4467 19.3882 12.2448 19.3625 13.0083 19.6178C13.2614 19.7024 13.2922 19.6309 13.291 19.3938C13.283 17.576 13.2873 15.7582 13.2867 13.9404C13.2848 10.5449 13.2904 7.14953 13.2756 3.75413C13.2713 2.76931 12.6503 2.04419 11.7096 1.8604C11.4899 1.81775 11.2596 1.81649 11.0344 1.81586C8.02157 1.81335 5.00879 1.81398 1.99539 1.81398C1.48616 1.81398 1.37876 1.9225 1.37876 2.43372C1.37814 5.15043 1.37814 7.86713 1.37814 10.5832Z" fill="#074A37"></path>
@@ -676,7 +676,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                 </div>
                                                                 <div class="assesment-responsive-btn-block">
                                                                     <button type="button" id="next-btn" class="assesment-dark-btn d-inline-block mr-2" data-wizard-type="action-next">Next</button>
-                                                                    <button type="button" id="save-btn" class="assesment-warning-btn d-inline-block" fdprocessedid="i7rzf">
+                                                                    <button type="button" id="save-btn" class="assesment-warning-btn d-inline-block">
                                                                         Save
                                                                     </button>
                                                                 </div>
