@@ -15,6 +15,9 @@ License: You must have a valid license purchased only from themeforest(the above
 <!--begin::Head-->
 
 <head>
+    <meta charset="utf-8">
+    <meta name="description" content="Layout options builder">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <!-- Google Tag Manager -->
     <script>
@@ -33,13 +36,10 @@ License: You must have a valid license purchased only from themeforest(the above
         })(window, document, 'script', 'dataLayer', 'GTM-5FS8GGP');
     </script>
     <!-- End Google Tag Manager -->
-    <meta charset="utf-8" />
     <title>Landscale</title>
-    <meta name="description" content="Layout options builder" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <link rel="canonical" href="https://keenthemes.com/metronic" />
+    <link rel="canonical" href="https://keenthemes.com/metronic">
     <!--begin::Fonts-->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700">
     <!--end::Fonts-->
     <!--begin::Global Theme Styles(used by all pages)-->
     <link rel="stylesheet" href="../assets/plugins/global/plugins.bundle.css">
@@ -81,7 +81,7 @@ License: You must have a valid license purchased only from themeforest(the above
     <div id="kt_header_mobile" class="header-mobile align-items-center header-mobile-fixed">
         <!--begin::Logo-->
         <a href="/metronic/demo1/index.html">
-            <img alt="Logo" src="../assets/media/landscale_logo.png" />
+            <img alt="Logo" src="../assets/media/landscale_logo.png">
         </a>
         <!--end::Logo-->
         <!--begin::Toolbar-->
@@ -164,7 +164,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                     <div class="col-md-4 responsive-margin-card">
                                                         <div class="custom-padding-1 cards-tabs text-center h-100">
                                                             <div class="mb-3 mt-2">
-                                                                <img src="../assets/media/Reference library.png" alt="">
+                                                                <img src="../assets/media/Reference_library.png" alt="">
                                                             </div>
                                                             <span class="mb-2">
                                                                 Reference Library
@@ -271,8 +271,8 @@ License: You must have a valid license purchased only from themeforest(the above
                                                             <path class="demo-svg" d="M6.36488 4.86279C6.44434 4.57274 6.53449 4.28732 6.64281 4.00797C7.2532 2.43158 8.36458 1.35405 9.91353 0.707319C11.1653 0.184946 12.4769 -0.00176901 13.8231 1.26142e-05C14.0986 0.00036894 14.327 0.188153 14.3309 0.446489C14.3459 1.4442 14.328 2.43977 14.0619 3.41254C13.6047 5.08371 12.5104 6.14093 10.8966 6.69466C10.1633 6.94623 9.40256 7.06025 8.63289 7.12368C8.18891 7.16038 7.7435 7.17321 7.29845 7.17249C7.20189 7.17249 7.16732 7.19245 7.16732 7.29756C7.17053 8.93025 7.17053 10.5626 7.16732 12.1953C7.16697 12.2982 7.19904 12.3221 7.29774 12.3243C8.7601 12.3531 10.2082 12.5224 11.6449 12.7896C12.4253 12.9346 13.1974 13.1167 13.9553 13.3537C14.2073 13.4324 14.3359 13.6092 14.3355 13.85C14.3352 14.0834 14.2094 14.2595 13.9892 14.335C13.8723 14.3749 13.7572 14.3653 13.6403 14.33C12.1944 13.8932 10.7138 13.6302 9.21442 13.4741C7.83686 13.3305 6.45503 13.2792 5.07248 13.4029C3.74588 13.5212 2.45135 13.8044 1.1782 14.191C1.00823 14.2427 0.837554 14.2933 0.665805 14.3393C0.377893 14.4166 0.113143 14.2776 0.0261999 14.0079C-0.0621689 13.7328 0.0782235 13.4492 0.368629 13.3597C1.46718 13.0212 2.57571 12.7226 3.7131 12.5398C4.47564 12.4173 5.24174 12.3396 6.0139 12.325C6.11616 12.3232 6.14218 12.2904 6.14182 12.1917C6.13861 11.0757 6.13719 9.95967 6.14324 8.84331C6.14396 8.71218 6.08017 8.7218 5.99252 8.71966C5.12522 8.69721 4.26113 8.63984 3.4202 8.40609C2.05334 8.02661 1.02284 7.24162 0.462699 5.90789C0.207926 5.30107 0.0953271 4.66004 0.0443725 4.0069C0.00767098 3.53298 0.000900791 3.05836 0.0051767 2.58337C0.00802731 2.26731 0.21042 2.04354 0.521136 2.04604C1.90297 2.05708 3.23384 2.28798 4.45212 2.98602C5.21466 3.42288 5.82362 4.01723 6.27758 4.76979C6.29753 4.80257 6.30466 4.84711 6.36488 4.86279ZM7.80586 6.15447C7.80586 6.14521 7.80586 6.13594 7.80586 6.12668C7.91846 6.12668 8.03141 6.13274 8.14366 6.12561C8.99064 6.07359 9.83228 5.98272 10.6386 5.69659C11.8291 5.27435 12.6661 4.49934 13.0374 3.26752C13.2445 2.58017 13.2904 1.87179 13.3122 1.15985C13.3168 1.0077 13.2259 1.03799 13.1393 1.04298C12.4752 1.08075 11.8202 1.17803 11.1781 1.35583C9.45529 1.83295 8.15648 2.79325 7.53897 4.53675C7.37399 5.00283 7.27957 5.4828 7.20759 5.96954C7.18621 6.11421 7.22149 6.17407 7.37934 6.15768C7.52009 6.14271 7.66369 6.15447 7.80586 6.15447ZM5.59201 7.69273C5.72812 7.69273 5.86495 7.68632 6.00071 7.69487C6.1012 7.70128 6.11901 7.66422 6.11011 7.57265C6.07162 7.18247 5.99929 6.79942 5.88348 6.42492C5.63014 5.60537 5.23533 4.87312 4.56436 4.31583C3.57841 3.49664 2.40503 3.19661 1.15967 3.09684C1.05171 3.08829 1.03175 3.12392 1.03425 3.22298C1.04636 3.74535 1.07879 4.26488 1.18568 4.77798C1.47502 6.16659 2.31737 7.03317 3.67604 7.40981C4.30282 7.58369 4.94528 7.64498 5.59201 7.69273Z" fill="#EBF2E4" />
                                                         </svg>
                                                     </span> -->
-                                                    <img src="../assets/media/icons_and_Illustrations/Icons/PNGs/Ecosystems/Main icon/Icons_Tier 1_Ecosystems_Pale Green.png" class="deactive d-none" width="30px" alt="">
-                                                    <img src="../assets/media/icons_and_Illustrations/Icons/PNGs/Ecosystems/Main icon/Icons_Tier 1_Ecosystems_Dark Green.png" class="active" width="30px" alt="">
+                                                    <img src="../assets/media/icons_and_Illustrations/Icons/PNGs/Ecosystems/Main_icon/Icons_Tier_1_Ecosystems_Pale_Green.png" class="deactive d-none" style="width: 30px;" alt="">
+                                                    <img src="../assets/media/icons_and_Illustrations/Icons/PNGs/Ecosystems/Main_icon/Icons_Tier_1_Ecosystems_Dark_Green.png" class="active" style="width: 30px;" alt="">
                                                     <span class="indicator-custom-margin-left-10">
                                                         Ecosystems
                                                     </span>
@@ -283,8 +283,8 @@ License: You must have a valid license purchased only from themeforest(the above
                                                             <path d="M4.69615 7.49961C2.54229 5.96412 2.38041 3.05502 4.01734 1.30414C5.62613 -0.416163 8.32679 -0.440481 9.96199 1.26663C11.643 3.02167 11.5951 5.78313 9.38496 7.48607C9.44889 7.54443 9.53261 7.54512 9.60591 7.56527C10.629 7.84319 11.5708 8.2823 12.3771 8.98057C13.43 9.89213 14.013 11.0278 13.9998 12.442C13.9953 12.9398 14.0008 13.4377 13.9987 13.9355C13.9939 15.1128 13.1077 16.0039 11.9331 16.0046C8.65057 16.0067 5.36837 16.0063 2.08582 16.0046C0.953651 16.0039 0.0809907 15.1997 0.0229755 14.0637C-0.0110694 13.3942 -0.00585845 12.7199 0.0292286 12.0505C0.0921074 10.8617 0.638215 9.89769 1.50358 9.10459C2.34984 8.3292 3.35798 7.85882 4.45714 7.56562C4.52801 7.54651 4.59888 7.52636 4.69615 7.49961ZM6.9921 15.0009C8.63598 15.0009 10.2795 15.0023 11.9234 15.0003C12.5699 14.9996 12.9906 14.5796 12.9937 13.9362C12.9965 13.4154 12.9892 12.8947 12.9955 12.3739C13.0062 11.5117 12.6769 10.7881 12.1054 10.1624C11.4739 9.4704 10.6849 9.02191 9.81226 8.71446C8.39454 8.21456 6.93721 8.13396 5.46494 8.38131C4.26781 8.58245 3.15649 9.00523 2.22999 9.823C1.43514 10.5244 0.985959 11.3877 1.00854 12.4702C1.01827 12.9329 1.00993 13.396 1.01028 13.8591C1.01097 14.5896 1.41951 15.0009 2.14765 15.0013C3.76235 15.0013 5.37705 15.0009 6.9921 15.0009ZM6.998 7.19703C8.68044 7.20676 10.0912 5.81544 10.1037 4.13404C10.1162 2.4311 8.73325 1.01059 7.05289 1.00017C5.32043 0.989403 3.93119 2.35155 3.91521 4.07602C3.89923 5.81127 5.25789 7.18661 6.998 7.19703Z" class="demo-svg" fill="#074A37" />
                                                         </svg>
                                                     </span> -->
-                                                    <img src="../assets/media/icons_and_Illustrations/Icons/PNGs/Human Wellbeing/Main icon/Icons_Tier 1_Human Wellbeing_Pale Green.png" width="30px" alt="">
-                                                    <img src="../assets/media/icons_and_Illustrations/Icons/PNGs/Human Wellbeing/Main icon/Icons_Tier 1_Human Wellbeing_Dark Green.png" class="d-none" width="30px" alt="">
+                                                    <img src="../assets/media/icons_and_Illustrations/Icons/PNGs/Human_Wellbeing/Main_icon/Icons_Tier_1_Human_Wellbeing_Pale_Green.png" style="width: 30px;" alt="">
+                                                    <img src="../assets/media/icons_and_Illustrations/Icons/PNGs/Human_Wellbeing/Main_icon/Icons_Tier_1_Human_Wellbeing_Dark_Green.png" class="d-none" style="width: 30px;" alt="">
                                                     <span class="indicator-custom-margin-left-10">
                                                         Human Well-being
                                                     </span>
@@ -295,8 +295,8 @@ License: You must have a valid license purchased only from themeforest(the above
                                                             <path class="demo-svg" d="M10.4269 9.30188L10.427 9.30186C10.8834 8.85159 11.3363 8.39791 11.7893 7.94405C12.0713 7.66151 12.3534 7.3789 12.6365 7.09699C13.0625 6.67276 13.2872 6.16635 13.3003 5.55441C13.2928 4.98657 13.0998 4.4828 12.6934 4.07411L12.6934 4.07406C12.5073 3.88648 12.3214 3.69879 12.1354 3.5111C11.1814 2.54808 10.2277 1.58536 9.25713 0.639984C8.43935 -0.1565 7.12909 -0.14186 6.31931 0.661574L6.3193 0.66158C4.44051 2.52501 2.56797 4.3946 0.706207 6.27492L0.670677 6.23975L0.706205 6.27493C-0.194685 7.18471 -0.159771 8.48806 0.756267 9.38989L0.756276 9.3899C0.998085 9.62809 1.2378 9.86873 1.47734 10.1092L10.4269 9.30188ZM10.4269 9.30188C10.3975 9.33099 10.3719 9.35866 10.3532 9.38608C10.3343 9.41383 10.3205 9.44406 10.3182 9.47801C10.3137 9.54642 10.3571 9.60635 10.4206 9.6694L10.4207 9.66947M10.4269 9.30188L10.4207 9.66947M10.4207 9.66947C11.1357 10.3762 11.8465 11.0868 12.5574 11.7977C12.9282 12.1685 13.2991 12.5393 13.6707 12.9097L13.6707 12.9097M10.4207 9.66947L13.6707 12.9097M13.6707 12.9097C13.8424 13.0807 13.9759 13.2434 13.9454 13.4764C13.9168 13.6942 13.8069 13.854 13.5944 13.9299L13.5943 13.9299M13.6707 12.9097L13.5943 13.9299M13.5943 13.9299C13.4786 13.9713 13.3729 13.977 13.2761 13.953C13.179 13.9291 13.0875 13.8744 13.0022 13.7897C12.6146 13.4047 12.2286 13.0181 11.8425 12.6313C11.6736 12.4621 11.5046 12.2928 11.3354 12.1236C11.1682 11.9563 11.0007 11.7895 10.8333 11.6226C10.4297 11.2204 10.0263 10.8185 9.62702 10.4122L9.62699 10.4121L13.5943 13.9299ZM7.0994 12.6402L7.09941 12.6402C7.44888 12.2877 7.79921 11.9375 8.14945 11.5875C8.53957 11.1976 8.92957 10.8078 9.31814 10.415C9.31815 10.4149 9.31815 10.4149 9.31816 10.4149L9.35371 10.4501L7.0994 12.6402ZM7.0994 12.6402C6.64756 13.0963 6.11016 13.3298 5.46914 13.3056C4.91438 13.2842 4.43847 13.0717 4.04512 12.6797L4.00983 12.7151M7.0994 12.6402L4.00983 12.7151M11.8969 4.83294L11.8969 4.83296C12.1006 5.03725 12.205 5.28349 12.2001 5.58381C12.2068 5.87432 12.0838 6.1227 11.8786 6.32726C11.3719 6.83278 10.8644 7.33778 10.3569 7.84275C9.94175 8.25583 9.52663 8.66889 9.11202 9.0822L9.07672 9.04678L9.11202 9.0822C8.90716 9.28637 8.70405 9.49127 8.50853 9.7026L8.50849 9.70264C8.46477 9.74978 8.41724 9.79171 8.35835 9.7954C8.29774 9.7992 8.24496 9.76186 8.19297 9.70974L8.19293 9.70969C6.68758 8.19646 5.17809 6.68653 3.66528 5.18033C3.66528 5.18032 3.66527 5.18032 3.66527 5.18031L11.8969 4.83294ZM11.8969 4.83294C11.5528 4.48829 11.2089 4.14332 10.865 3.79833C10.1198 3.05079 9.37441 2.30311 8.62677 1.55818C8.35221 1.28462 8.0754 1.14214 7.79254 1.14341C7.50978 1.14468 7.23344 1.28955 6.95964 1.56319L6.95963 1.5632M11.8969 4.83294L6.95963 1.5632M6.95963 1.5632C6.56814 1.95461 6.17711 2.34634 5.78611 2.73804M6.95963 1.5632L5.78611 2.73804M6.31314 11.8946L6.31311 11.8947C5.87006 12.3246 5.21196 12.3134 4.77768 11.8788C4.30841 11.4093 3.83924 10.9397 3.37005 10.47C2.74387 9.84318 2.11765 9.21633 1.49115 8.58972C1.49114 8.58971 1.49113 8.5897 1.49112 8.5897M6.31314 11.8946L1.52648 8.55434L1.49112 8.5897M6.31314 11.8946C6.50374 11.7095 6.69116 11.5213 6.87813 11.3332L6.91285 11.2982C7.08829 11.1217 7.26348 10.9454 7.44109 10.7715C7.48187 10.7316 7.51906 10.6877 7.52048 10.634C7.52192 10.579 7.48572 10.5336 7.4415 10.4913C7.22523 10.2844 7.01432 10.0722 6.8029 9.85937C6.72788 9.78386 6.6528 9.7083 6.5774 9.63288C6.36015 9.41549 6.14288 9.19812 5.92563 8.98076C4.91069 7.96533 3.8959 6.95006 2.88308 5.93282L2.88307 5.93281M6.31314 11.8946L2.88307 5.93281M1.49112 8.5897C1.27998 8.37883 1.15325 8.12865 1.15271 7.82131L1.49112 8.5897ZM2.88307 5.93281C2.86425 5.91391 2.84525 5.8956 2.82602 5.88126M2.88307 5.93281L2.82602 5.88126M4.00983 12.7151L4.04512 12.6797C3.53423 12.1706 3.02485 11.66 2.51542 11.1495M4.00983 12.7151L2.51542 11.1495M2.51542 11.1495C2.26071 10.8942 2.00599 10.6389 1.75106 10.3838L2.51542 11.1495ZM5.78611 2.73804C5.08241 3.44301 4.3788 4.14789 3.67273 4.85061L5.78611 2.73804ZM2.82602 5.88126C2.80669 5.86683 2.78401 5.85398 2.75738 5.84949M2.82602 5.88126L2.75738 5.84949M2.75738 5.84949C2.70005 5.8398 2.65062 5.8719 2.60312 5.92084L2.75738 5.84949Z" fill="#074A37" stroke="#EBF2E4" stroke-width="0.1" />
                                                         </svg>
                                                     </span> -->
-                                                    <img src="../assets/media/icons_and_Illustrations/Icons/PNGs/Governance/Main icon/Icons_Tier 1_Governance_Pale Green.png" width="30px" alt="">
-                                                    <img src="../assets/media/icons_and_Illustrations/Icons/PNGs/Governance/Main icon/Icons_Tier 1_Governance_Dark Green.png" class="d-none" width="30px" alt="">
+                                                    <img src="../assets/media/icons_and_Illustrations/Icons/PNGs/Governance/Main_icon/Icons_Tier_1_Governance_Pale_Green.png" style="width: 30px;" alt="">
+                                                    <img src="../assets/media/icons_and_Illustrations/Icons/PNGs/Governance/Main_icon/Icons_Tier_1_Governance_Dark_Green.png" class="d-none" style="width: 30px;" alt="">
                                                     <span class="indicator-custom-margin-left-10">
                                                         Governance
                                                     </span>
@@ -308,8 +308,8 @@ License: You must have a valid license purchased only from themeforest(the above
                                                         </svg>
 
                                                     </span> -->
-                                                    <img src="../assets/media/icons_and_Illustrations/Icons/PNGs/Production/Main icon/Icons_Tier 1_Production_Pale Green.png" width="30px" alt="">
-                                                    <img src="../assets/media/icons_and_Illustrations/Icons/PNGs/Production/Main icon/Icons_Tier 1_Production_Dark Green.png" class="d-none" width="30px" alt="">
+                                                    <img src="../assets/media/icons_and_Illustrations/Icons/PNGs/Production/Main_icon/Icons_Tier_1_Production_Pale_Green.png" style="width: 30px;" alt="">
+                                                    <img src="../assets/media/icons_and_Illustrations/Icons/PNGs/Production/Main_icon/Icons_Tier_1_Production_Dark_Green.png" class="d-none" style="width: 30px;" alt="">
                                                     <span class="indicator-custom-margin-left-10">
                                                         Production
                                                     </span>
@@ -319,10 +319,10 @@ License: You must have a valid license purchased only from themeforest(the above
                                         <div class="col-md-9 col-sm-12 col-xs-12 indicator-tab-body">
                                             <div class="tab-content" id="v-pills-tabContent">
                                                 <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
-                                                    <div class="accordion m-5" id="accordionExample">
+                                                    <div class="accordion m-5" id="accordionExample-0">
                                                         <div class="card indicator-accordian-card">
-                                                            <div class="card-header bg-white indicator-accordian-card-header" id="headingOne">
-                                                                <div class="btn btn-block text-left d-flex justify-content-between align-items-center indicator-accordian-responsive" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                                            <div class="card-header bg-white indicator-accordian-card-header" id="headingOne-0">
+                                                                <div class="btn btn-block text-left d-flex justify-content-between align-items-center indicator-accordian-responsive" role="region" data-toggle="collapse" data-target="#collapseOne-0" aria-expanded="true" aria-controls="collapseOne-0">
                                                                     <span>
                                                                         1.1 Conserve and restore natural ecosystems
                                                                     </span>
@@ -334,14 +334,14 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                         <img src="../assets/media/add_person.png" class="step-unit-image-4" alt="">
                                                                     </div>
                                                                     <span class="steps-tags-text steps-success-tag p-1 custom-position-relative">Completed</span>
-                                                                    <button type="button" class="indicator-btn-dark indicator-respoonsive-margin-y align-items-center">
+                                                                    <a class="indicator-btn-dark indicator-respoonsive-margin-y align-items-center">
                                                                         <span><img src="../assets/media/circle_add_icon.png" alt=""></span>
                                                                         <span class="text-light">Add Indicator</span>
-                                                                    </button>
+                                                                    </a>
                                                                 </div>
                                                             </div>
 
-                                                            <div id="collapseOne" class="collapse show indicator-responsive-collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                                                            <div id="collapseOne-0" class="collapse show indicator-responsive-collapse" aria-labelledby="headingOne-0" data-parent="#accordionExample-0">
                                                                 <!-- <div class="card-body"> -->
                                                                 <table class="table indicator-table">
                                                                     <thead class="steps-table-header-color">
@@ -408,8 +408,8 @@ License: You must have a valid license purchased only from themeforest(the above
                                                             </div>
                                                         </div>
                                                         <div class="card indicator-accordian-card">
-                                                            <div class="card-header bg-white indicator-accordian-card-header" id="headingTwo">
-                                                                <div class="btn btn-block text-left collapsed d-flex justify-content-between align-items-center indicator-accordian-responsive" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                                            <div class="card-header bg-white indicator-accordian-card-header" id="headingTwo-0">
+                                                                <div class="btn btn-block text-left collapsed d-flex justify-content-between align-items-center indicator-accordian-responsive" role="region" data-toggle="collapse" data-target="#collapseTwo-0" aria-expanded="false" aria-controls="collapseTwo-0">
                                                                     <span>
                                                                         1.1 Conserve and restore natural ecosystems
                                                                     </span>
@@ -421,13 +421,13 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                         <img src="../assets/media/add_person.png" class="step-unit-image-4" alt="">
                                                                     </div>
                                                                     <span class="steps-tags-text steps-success-tag p-1 custom-position-relative">Completed</span>
-                                                                    <button type="button" class="indicator-btn-dark indicator-respoonsive-margin-y align-items-center">
+                                                                    <a class="indicator-btn-dark indicator-respoonsive-margin-y align-items-center">
                                                                         <span><img src="../assets/media/circle_add_icon.png" alt=""></span>
                                                                         <span class="text-light">Add Indicator</span>
-                                                                    </button>
+                                                                    </a>
                                                                 </div>
                                                             </div>
-                                                            <div id="collapseTwo" class="collapse indicator-responsive-collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                                                            <div id="collapseTwo-0" class="collapse indicator-responsive-collapse" aria-labelledby="headingTwo-0" data-parent="#accordionExample-0">
                                                                 <table class="table indicator-table">
                                                                     <thead class="steps-table-header-color">
                                                                         <tr>
@@ -499,7 +499,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                     </button>
                                                                 </h2>
                                                             </div>
-                                                            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                                                            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample-0">
                                                                 <div class="card-body">
                                                                     And lastly, the placeholder content for the third and final accordion panel. This panel is hidden by default.
                                                                 </div>
@@ -511,7 +511,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                     <div class="accordion m-5" id="accordionExample">
                                                         <div class="card indicator-accordian-card">
                                                             <div class="card-header bg-white indicator-accordian-card-header" id="headingOne">
-                                                                <div class="btn btn-block text-left d-flex justify-content-between align-items-center indicator-accordian-responsive" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                                                <div class="btn btn-block text-left d-flex justify-content-between align-items-center indicator-accordian-responsive" role="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                                                                     <span class="accordian-header-text">
                                                                         Indicator
                                                                     </span>
@@ -567,17 +567,17 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                         <a href="#"><img src="../assets/media/delete_bin.png" alt=""></a>
                                                                                     </div>
                                                                                     <div class="px-5">
-                                                                                        <label class="indicator-small-text" for="">Total percent converted (%)</label>
+                                                                                        <label class="indicator-small-text">Total percent converted (%)</label>
                                                                                         <div class="d-flex align-items-center">
-                                                                                            <input class="p-2 result-input w-100" type="text" name="" id="">
+                                                                                            <input class="p-2 result-input w-100" type="text">
                                                                                             <span class="p-2 result-bg-dark result-input-btn"><img src="../assets/media/icon_edit.png" alt=""></span>
                                                                                         </div>
                                                                                     </div>
 
                                                                                     <div class="px-5 my-5">
-                                                                                        <label class="indicator-small-text" for="">Total area converted (ha)</label>
+                                                                                        <label class="indicator-small-text">Total area converted (ha)</label>
                                                                                         <div class="d-flex align-items-center">
-                                                                                            <input class="p-2 result-input w-100" type="text" name="" id="">
+                                                                                            <input class="p-2 result-input w-100" type="text">
                                                                                             <span class="p-2 result-bg-dark result-input-btn"><img src="../assets/media/icon_edit.png" alt=""></span>
                                                                                         </div>
                                                                                     </div>
@@ -591,17 +591,17 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                         <a href="#"><img src="../assets/media/delete_bin.png" alt=""></a>
                                                                                     </div>
                                                                                     <div class="px-5">
-                                                                                        <label class="indicator-small-text" for="">Total percent converted (%)</label>
+                                                                                        <label class="indicator-small-text">Total percent converted (%)</label>
                                                                                         <div class="d-flex align-items-center">
-                                                                                            <input class="p-2 result-input w-100" type="text" name="" id="">
+                                                                                            <input class="p-2 result-input w-100" type="text">
                                                                                             <span class="p-2 result-bg-dark result-input-btn"><img src="../assets/media/icon_edit.png" alt=""></span>
                                                                                         </div>
                                                                                     </div>
 
                                                                                     <div class="px-5 my-5">
-                                                                                        <label class="indicator-small-text" for="">Total area converted (ha)</label>
+                                                                                        <label class="indicator-small-text">Total area converted (ha)</label>
                                                                                         <div class="d-flex align-items-center">
-                                                                                            <input class="p-2 result-input w-100" type="text" name="" id="">
+                                                                                            <input class="p-2 result-input w-100" type="text">
                                                                                             <span class="p-2 result-bg-dark result-input-btn"><img src="../assets/media/icon_edit.png" alt=""></span>
                                                                                         </div>
                                                                                     </div>
@@ -615,17 +615,17 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                         <a href="#"><img src="../assets/media/delete_bin.png" alt=""></a>
                                                                                     </div>
                                                                                     <div class="px-5">
-                                                                                        <label class="indicator-small-text" for="">Total percent converted (%)</label>
+                                                                                        <label class="indicator-small-text">Total percent converted (%)</label>
                                                                                         <div class="d-flex align-items-center">
-                                                                                            <input class="p-2 result-input w-100" type="text" name="" id="">
+                                                                                            <input class="p-2 result-input w-100" type="text">
                                                                                             <span class="p-2 result-bg-dark result-input-btn"><img src="../assets/media/icon_edit.png" alt=""></span>
                                                                                         </div>
                                                                                     </div>
 
                                                                                     <div class="px-5 my-5">
-                                                                                        <label class="indicator-small-text" for="">Total area converted (ha)</label>
+                                                                                        <label class="indicator-small-text">Total area converted (ha)</label>
                                                                                         <div class="d-flex align-items-center">
-                                                                                            <input class="p-2 result-input w-100" type="text" name="" id="">
+                                                                                            <input class="p-2 result-input w-100" type="text">
                                                                                             <span class="p-2 result-bg-dark result-input-btn"><img src="../assets/media/icon_edit.png" alt=""></span>
                                                                                         </div>
                                                                                     </div>
@@ -642,9 +642,9 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                         <div class="row mt-5">
                                                                             <div class="col-md-6">
                                                                                 <div class="d-flex align-items-center">
-                                                                                    <label class="indicator-small-text" for="">Result year*</label>
+                                                                                    <label class="indicator-small-text">Result year*</label>
                                                                                     <div class="d-flex align-items-center">
-                                                                                        <input class="p-2 result-input w-100 ml-5" type="text" name="" id="">
+                                                                                        <input class="p-2 result-input w-100 ml-5" type="text">
                                                                                         <span class="p-2 result-bg-dark result-input-btn"><img src="../assets/media/icon_edit.png" alt=""></span>
                                                                                     </div>
                                                                                 </div>
@@ -680,7 +680,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                         </div>
                                                         <div class="card indicator-accordian-card">
                                                             <div class="card-header bg-white indicator-accordian-card-header" id="headingTwo">
-                                                                <div class="btn btn-block text-left collapsed d-flex justify-content-between align-items-center indicator-accordian-responsive" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                                                <div class="btn btn-block text-left collapsed d-flex justify-content-between align-items-center indicator-accordian-responsive" role="region" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                                                                     <span>
                                                                         1.1.2.2 Natural ecosystem conversion rate (average area [ha] & percentage [%] conversion per yr)
                                                                     </span>
@@ -909,15 +909,15 @@ License: You must have a valid license purchased only from themeforest(the above
                 $(".nav-pills").find('.nav-link.active').find('img.d-none').removeClass('d-none deactive');
                 $(".nav-pills").find('.nav-link.active').find('img:nth-child(2)').addClass('d-none');
                 $(".nav-pills").find('.nav-link.active').find('img:nth-child(2)').removeClass('active')
-                $(strHash+'-tab').find('img.d-none').addClass('active');
-                $(strHash+'-tab').find('img.d-none').removeClass('d-none');
-                $(strHash+'-tab').find('img:nth-child(1)').addClass('d-none deactive');
+                $(strHash + '-tab').find('img.d-none').addClass('active');
+                $(strHash + '-tab').find('img.d-none').removeClass('d-none');
+                $(strHash + '-tab').find('img:nth-child(1)').addClass('d-none deactive');
                 $(".nav-pills").find('.nav-link.active').removeClass('active')
-                $(strHash+'-tab').addClass('active')
+                $(strHash + '-tab').addClass('active')
                 $(".tab-content").find('.tab-pane.show.active').removeClass('show active')
                 $(strHash).addClass('show active')
             }
-            
+
         });
     </script>
 </body>
