@@ -15,6 +15,9 @@ License: You must have a valid license purchased only from themeforest(the above
 <!--begin::Head-->
 
 <head>
+    <meta charset="utf-8">
+    <meta name="description" content="Layout options builder">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <!-- Google Tag Manager -->
     <script>
@@ -33,13 +36,10 @@ License: You must have a valid license purchased only from themeforest(the above
         })(window, document, 'script', 'dataLayer', 'GTM-5FS8GGP');
     </script>
     <!-- End Google Tag Manager -->
-    <meta charset="utf-8" />
     <title>Landscale</title>
-    <meta name="description" content="Layout options builder" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <link rel="canonical" href="https://keenthemes.com/metronic" />
+    <link rel="canonical" href="https://keenthemes.com/metronic">
     <!--begin::Fonts-->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700">
     <!--end::Fonts-->
     <!--begin::Global Theme Styles(used by all pages)-->
     <link rel="stylesheet" href="../assets/plugins/global/plugins.bundle.css">
@@ -80,7 +80,7 @@ License: You must have a valid license purchased only from themeforest(the above
     <div id="kt_header_mobile" class="header-mobile align-items-center header-mobile-fixed">
         <!--begin::Logo-->
         <a href="/metronic/demo1/index.html">
-            <img alt="Logo" src="../assets/media/landscale_logo.png" />
+            <img alt="Logo" src="../assets/media/landscale_logo.png">
         </a>
         <!--end::Logo-->
         <!--begin::Toolbar-->
@@ -223,7 +223,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                             </div> -->
                                         </div>
                                         <div class="col-xl-8 col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                            <img src="../assets/media/favourite-map-img.png" class="header-map-img p-5" width="100%" alt="">
+                                            <img src="../assets/media/favourite-map-img.png" class="header-map-img p-5" style="width: 100%;" alt="">
                                         </div>
                                     </div>
                                 </div>
@@ -248,7 +248,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                     <div class="row frt-card-padding">
                                         <div class="col-xl-4 col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                             <div class="frt-asesment-card">
-                                                <img src="../assets/media/map_img1.png" class="img-padding" width="100%" height="70%" alt="">
+                                                <img src="../assets/media/map_img1.png" class="img-padding" style="width: 100%; height: 70%;" alt="">
                                                 <div class="frt-caption px-5">
                                                     <span class="main-caption">Alicante River Canyon</span>
                                                     <span class="sub-heading my-1"><span class="font-weight-bold">Country: </span>Colombia</span>
@@ -258,7 +258,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                         </div>
                                         <div class="responsive-margin-grid col-xl-4 col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                             <div class="frt-asesment-card">
-                                                <img src="../assets/media/map_img1.png" class="img-padding" width="100%" height="70%" alt="">
+                                                <img src="../assets/media/map_img1.png" class="img-padding" style="width: 100%; height: 70%;" alt="">
                                                 <div class="frt-caption px-5">
                                                     <span class="main-caption">San José Northern</span>
                                                     <span class="sub-heading my-1"><span class="font-weight-bold">Country: </span>Costa Rica</span>
@@ -268,7 +268,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                         </div>
                                         <div class="col-xl-4 col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                             <div class="frt-asesment-card">
-                                                <img src="../assets/media/map_img1.png" class="img-padding" width="100%" height="70%" alt="">
+                                                <img src="../assets/media/map_img1.png" class="img-padding" style="width: 100%; height: 70%;" alt="">
                                                 <div class="frt-caption px-5">
                                                     <span class="main-caption">Lamas Landscape</span>
                                                     <span class="sub-heading my-1"><span class="font-weight-bold">Country: </span>Peru</span>
@@ -316,7 +316,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                     <div class="row frt-card-padding">
                                         <div class="col-xl-4 col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                             <div class="frt-asesment-card">
-                                                <img src="../assets/media/map_img1.png" class="img-padding" width="100%" height="70%" alt="">
+                                                <img src="../assets/media/map_img1.png" class="img-padding" style="width: 100%; height: 70%;" alt="">
                                                 <div class="frt-caption px-5">
                                                     <span class="main-caption">Alicante River Canyon</span>
                                                     <span class="sub-heading my-1"><span class="font-weight-bold">Country: </span>Colombia</span>
@@ -326,7 +326,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                         </div>
                                         <div class="col-xl-4 col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                             <div class="frt-asesment-card">
-                                                <img src="../assets/media/map_img1.png" class="img-padding" width="100%" height="70%" alt="">
+                                                <img src="../assets/media/map_img1.png" class="img-padding" style="width: 100%; height: 70%;" alt="">
                                                 <div class="frt-caption px-5">
                                                     <span class="main-caption">San José Northern</span>
                                                     <span class="sub-heading my-1"><span class="font-weight-bold">Country: </span>Costa Rica</span>
@@ -336,7 +336,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                         </div>
                                         <div class="col-xl-4 col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                             <div class="frt-asesment-card">
-                                                <img src="../assets/media/map_img1.png" class="img-padding" width="100%" height="70%" alt="">
+                                                <img src="../assets/media/map_img1.png" class="img-padding" style="width: 100%; height: 70%;" alt="">
                                                 <div class="frt-caption px-5">
                                                     <span class="main-caption">Lamas Landscape</span>
                                                     <span class="sub-heading my-1"><span class="font-weight-bold">Country: </span>Peru</span>
@@ -373,7 +373,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                     <div class="d-flex justify-content-center align-items-center">
                                         <div style="padding: 50px;">
                                             <div class="d-flex justify-content-center">
-                                                <img src="../assets/media/heart_icon.png" alt="" srcset="" class="mb-5">
+                                                <img src="../assets/media/heart_icon.png" alt="" class="mb-5">
                                             </div>
                                             <div class="favourite-assesment-main-heading mb-3 mt-5 assesment-responsive text-center">You don’t have any favorite Assessments</div>
                                             <div class="sub-heading assesment-responsive">Like any profile you see? Save them here to your favorite assessments</div>
