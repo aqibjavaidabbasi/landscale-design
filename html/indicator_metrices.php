@@ -404,7 +404,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                     <div class="row steps-custom-margin-top custom-lg-display-block">
                                         <div class="col-md-6">
                                             <div class="step-card steps-custom-height text-center custom-padding-40">
-                                                <span class="steps-default-text steps-heading d-block mb-1">Add Indicators</span>
+                                                <span class="steps-default-text steps-heading d-block mb-1"><a href="./add_indicator.php">Add Indicators</a></span>
                                                 <div class="d-flex justify-content-center">
                                                     <div class="steps-image-container" style="margin-right: 100px;">
                                                         <img src="../assets/media/icons_and_Illustrations/Avatars/Avatars_Baboon.png" class="accordian-unit-image-1" alt="">
@@ -423,7 +423,7 @@ License: You must have a valid license purchased only from themeforest(the above
 
                                         <div class="col-md-6 steps-custom-margin-top">
                                             <div class="step-card steps-custom-height text-center custom-padding-40">
-                                                <span class="steps-default-text steps-heading d-block mb-1">Add Metrics</span>
+                                                <span class="steps-default-text steps-heading d-block mb-1"><a href="./add_indicator.php#v-pills-profile">Add Metrics</a></span>
                                                 <div class="d-flex justify-content-center">
                                                     <div class="steps-image-container" style="margin-right: 100px;">
                                                         <img src="../assets/media/icons_and_Illustrations/Avatars/Avatars_Baboon.png" class="accordian-unit-image-1" alt="">
@@ -458,7 +458,12 @@ License: You must have a valid license purchased only from themeforest(the above
     <!-- begin help center btn-->
     <div class="btn-help-center-wrapper">
         <div class="btn-dropdown btn-lg mr-1 d-flex" id="kt_quick_cart_toggle">
-            <span class="btn-help-icon"><img src="../assets/media/help.png" alt=""></span><span class="help-center-font-family btn-help-text">Help Center</span>
+            <span class="btn-help-icon">
+                <img src="../assets/media/help.png" alt="">
+            </span>
+            <span class="d-none help-center-font-family btn-help-text">
+                Help Center
+            </span>
         </div>
     </div>
     <!-- end help center btn -->
@@ -550,7 +555,16 @@ License: You must have a valid license purchased only from themeforest(the above
                 $(this).parent().find('.menu-submenu').addClass('brt-50');
                 $(this).parent().find('.menu-subnav').addClass('brt-50');
             }
-        })
+        });
+        $(".btn-help-center-wrapper").mouseenter(function() {
+            $(".btn-help-center-wrapper").find('.btn-help-text').removeClass('d-none')
+            $(".btn-help-center-wrapper").find('.btn-help-text').addClass('d-flex align-self-center')
+        });
+
+        $(".btn-help-center-wrapper").mouseleave(function() {
+            $(".btn-help-center-wrapper").find('.btn-help-text').addClass('d-none')
+            $(".btn-help-center-wrapper").find('.btn-help-text').removeClass('d-flex align-self-center')
+        });
     </script>
 </body>
 <!--end::Body-->

@@ -732,7 +732,12 @@ License: You must have a valid license purchased only from themeforest(the above
     <!-- begin help center btn-->
     <div class="btn-help-center-wrapper">
         <div class="btn-dropdown btn-lg mr-1 d-flex" id="kt_quick_cart_toggle">
-            <span class="btn-help-icon"><img src="../assets/media/help.png" alt=""></span><span class="help-center-font-family btn-help-text">Help Center</span>
+            <span class="btn-help-icon">
+                <img src="../assets/media/help.png" alt="">
+            </span>
+            <span class="help-center-font-family btn-help-text d-none">
+                Help Center
+            </span>
         </div>
     </div>
     <!-- end help center btn -->
@@ -948,6 +953,16 @@ License: You must have a valid license purchased only from themeforest(the above
         $(document).ready(function() {
             var tabcontent = document.getElementsByClassName("tabcontent");
             tabcontent[0].style.display = "block";
+        });
+
+        $(".btn-help-center-wrapper").mouseenter(function() {
+            $(".btn-help-center-wrapper").find('.btn-help-text').removeClass('d-none')
+            $(".btn-help-center-wrapper").find('.btn-help-text').addClass('d-flex align-self-center')
+        });
+
+        $(".btn-help-center-wrapper").mouseleave(function() {
+            $(".btn-help-center-wrapper").find('.btn-help-text').addClass('d-none')
+            $(".btn-help-center-wrapper").find('.btn-help-text').removeClass('d-flex align-self-center')
         });
 
         function openCity(evt, cityName) {
