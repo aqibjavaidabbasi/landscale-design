@@ -252,10 +252,16 @@ License: You must have a valid license purchased only from themeforest(the above
 
                                     <div class="row steps-custom-margin-top">
                                         <div class="col-md-12 pl-0 pl-sm-4 pb-sm-4">
-                                            <button type="button" class="indicator-btn-dark align-items-center">
-                                                <span><img src="../assets/media/circle_add_icon.png" alt=""></span>
-                                                <span class="text-light">Create Custom Piller</span>
-                                            </button>
+                                            <div class="d-flex justify-content-between">
+                                                <a class="indicator-btn-dark align-items-center">
+                                                    <span><img src="../assets/media/circle_add_icon.png" alt=""></span>
+                                                    <span class="text-light">Create Custom Piller</span>
+                                                </a>
+                                                <a class="indicator-btn-dark align-items-center">
+                                                    <span><img src="../assets/media/circle_add_icon.png" alt=""></span>
+                                                    <span class="text-light">Add Indicator</span>
+                                                </a>
+                                            </div>
                                         </div>
                                     </div>
 
@@ -334,77 +340,79 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                         <img src="../assets/media/add_person.png" class="step-unit-image-4" alt="">
                                                                     </div>
                                                                     <span class="steps-tags-text steps-success-tag p-1 custom-position-relative">Completed</span>
-                                                                    <a class="indicator-btn-dark indicator-respoonsive-margin-y align-items-center">
-                                                                        <span><img src="../assets/media/circle_add_icon.png" alt=""></span>
-                                                                        <span class="text-light">Add Indicator</span>
-                                                                    </a>
+                                                                    <span class=" p-1"><img src="../assets/media/Vector_arrow_down.png" alt=""></span>
                                                                 </div>
                                                             </div>
 
                                                             <div id="collapseOne-0" class="collapse show indicator-responsive-collapse" aria-labelledby="headingOne-0" data-parent="#accordionExample-0">
-                                                                <!-- <div class="card-body"> -->
-                                                                <table class="table indicator-table">
-                                                                    <thead class="steps-table-header-color">
-                                                                        <tr>
-                                                                            <th class="steps-default-text indicator-table-header-text" scope="col">Indicator</th>
-                                                                            <th class="steps-default-text indicator-table-header-text" scope="col">Applicability</th>
-                                                                            <th class="steps-default-text indicator-table-header-text" scope="col">Select</th>
-                                                                            <th class="steps-default-text indicator-table-header-text" scope="col">Actions</th>
-                                                                        </tr>
-                                                                    </thead>
-                                                                    <tbody class="bg-white">
-                                                                        <tr>
-                                                                            <td>1.1.1 Effective conservation and protection of natural ecosystems</td>
-                                                                            <td><span class="steps-tags-text steps-dark-tag p-1">Core</span></td>
-                                                                            <td>
-                                                                                <div>
-                                                                                    <span class="steps-tags-text deffered-tag p-2" style="margin-right: -4px;">Deffered</span>
-                                                                                    <span class="steps-tags-text included-tag p-2">Included</span>
-                                                                                </div>
-                                                                            </td>
-                                                                            <td>
-                                                                                <button type="button" class="indicator-btn-warning align-items-center">
-                                                                                    <span><img src="../assets/media/circle_add_icon.png" alt=""></span>
-                                                                                    <span class="text-light">Not Applicable</span>
-                                                                                </button>
-                                                                            </td>
-                                                                        </tr>
-                                                                        <tr>
-                                                                            <td>1.1.1 Effective conservation and protection of natural ecosystems</td>
-                                                                            <td><span class="steps-tags-text steps-dark-tag p-1">Core</span></td>
-                                                                            <td>
-                                                                                <div>
-                                                                                    <span class="steps-tags-text deffered-tag p-2" style="margin-right: -4px;">Deffered</span>
-                                                                                    <span class="steps-tags-text included-tag p-2">Included</span>
-                                                                                </div>
-                                                                            </td>
-                                                                            <td>
-                                                                                <button type="button" class="indicator-btn-warning align-items-center">
-                                                                                    <span><img src="../assets/media/circle_add_icon.png" alt=""></span>
-                                                                                    <span class="text-light">Not Applicable</span>
-                                                                                </button>
-                                                                            </td>
-                                                                        </tr>
-                                                                        <tr>
-                                                                            <td>1.1.1 Effective conservation and protection of natural ecosystems</td>
-                                                                            <td><span class="steps-tags-text steps-dark-tag p-1">Core</span></td>
-                                                                            <td>
-                                                                                <div>
-                                                                                    <span class="steps-tags-text deffered-tag p-2" style="margin-right: -4px;">Deffered</span>
-                                                                                    <span class="steps-tags-text included-tag p-2">Included</span>
-                                                                                </div>
-                                                                            </td>
-                                                                            <td>
-                                                                                <button type="button" class="indicator-btn-warning align-items-center">
-                                                                                    <span><img src="../assets/media/circle_add_icon.png" alt=""></span>
-                                                                                    <span class="text-light">Not Applicable</span>
-                                                                                </button>
-                                                                            </td>
-                                                                        </tr>
+                                                                <div class="mx-5 custom-card-border mb-5">
+                                                                    <table class="table indicator-table">
+                                                                        <thead class="steps-table-header-color">
+                                                                            <tr>
+                                                                                <th class="steps-default-text indicator-table-header-text" scope="col">Indicator</th>
+                                                                                <th class="steps-default-text indicator-table-header-text" scope="col">Applicability</th>
+                                                                                <th class="steps-default-text indicator-table-header-text" scope="col">Select</th>
+                                                                                <th class="steps-default-text indicator-table-header-text" scope="col">Actions</th>
+                                                                            </tr>
+                                                                        </thead>
+                                                                        <tbody class="bg-white">
+                                                                            <tr>
+                                                                                <td>1.1.1 Effective conservation and protection of natural ecosystems</td>
+                                                                                <td><span class="steps-tags-text steps-dark-tag p-1">Core</span></td>
+                                                                                <td>
+                                                                                    <div>
+                                                                                        <span class="steps-tags-text deffered-tag p-2" style="margin-right: -4px;">Deffered</span>
+                                                                                        <span class="steps-tags-text included-tag p-2">Included</span>
+                                                                                    </div>
+                                                                                </td>
+                                                                                <td>
+                                                                                    <a href="#" class="indicator-btn-warning align-items-center">
+                                                                                        <span><img src="../assets/media/dark_edit.png" class="indicator-accordian-icon" alt=""></span>
+                                                                                        <span class="text-dark indicator-accordain-btn-text">Not Applicable</span>
+                                                                                    </a>
+                                                                                </td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td>1.1.1 Effective conservation and protection of natural ecosystems</td>
+                                                                                <td>
+                                                                                    <div class="d-flex flex-column">
+                                                                                        <span class="steps-tags-text steps-dependent-tag p-1">Landscape Dependent</span>
+                                                                                        <span class="steps-tags-text steps-not-applicable-tag p-1">Not Applicable</span>
+                                                                                    </div>
+                                                                                </td>
+                                                                                <td>
+                                                                                    <div>
+                                                                                        <span class="steps-tags-text deffered-tag p-2" style="margin-right: -4px;">Deffered</span>
+                                                                                        <span class="steps-tags-text included-tag-dark p-2">Included</span>
+                                                                                    </div>
+                                                                                </td>
+                                                                                <td>
+                                                                                    <a href="#" class="indicator-btn-warning align-items-center">
+                                                                                        <span><img src="../assets/media/dark_edit.png" class="indicator-accordian-icon" alt=""></span>
+                                                                                        <span class="text-dark indicator-accordain-btn-text">Not Applicable</span>
+                                                                                    </a>
+                                                                                </td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td>1.1.1 Effective conservation and protection of natural ecosystems</td>
+                                                                                <td><span class="steps-tags-text steps-optional-tag p-1">Optional</span></td>
+                                                                                <td>
+                                                                                    <div>
+                                                                                        <span class="steps-tags-text deffered-tag p-2" style="margin-right: -4px;">Deffered</span>
+                                                                                        <span class="steps-tags-text included-tag p-2">Included</span>
+                                                                                    </div>
+                                                                                </td>
+                                                                                <td>
+                                                                                    <a href="#" class="indicator-btn-warning align-items-center">
+                                                                                        <span><img src="../assets/media/dark_edit.png" class="indicator-accordian-icon" alt=""></span>
+                                                                                        <span class="text-dark indicator-accordain-btn-text">Not Applicable</span>
+                                                                                    </a>
+                                                                                </td>
+                                                                            </tr>
 
-                                                                    </tbody>
-                                                                </table>
-                                                                <!-- </div> -->
+                                                                        </tbody>
+                                                                    </table>
+                                                                </div>
                                                             </div>
                                                         </div>
                                                         <div class="card indicator-accordian-card">
@@ -421,74 +429,73 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                         <img src="../assets/media/add_person.png" class="step-unit-image-4" alt="">
                                                                     </div>
                                                                     <span class="steps-tags-text steps-success-tag p-1 custom-position-relative">Completed</span>
-                                                                    <a class="indicator-btn-dark indicator-respoonsive-margin-y align-items-center">
-                                                                        <span><img src="../assets/media/circle_add_icon.png" alt=""></span>
-                                                                        <span class="text-light">Add Indicator</span>
-                                                                    </a>
+                                                                    <span class=" p-1"><img src="../assets/media/Vector_arrow_down.png" alt=""></span>
                                                                 </div>
                                                             </div>
                                                             <div id="collapseTwo-0" class="collapse indicator-responsive-collapse" aria-labelledby="headingTwo-0" data-parent="#accordionExample-0">
-                                                                <table class="table indicator-table">
-                                                                    <thead class="steps-table-header-color">
-                                                                        <tr>
-                                                                            <th class="steps-default-text indicator-table-header-text" scope="col">Indicator</th>
-                                                                            <th class="steps-default-text indicator-table-header-text" scope="col">Applicability</th>
-                                                                            <th class="steps-default-text indicator-table-header-text" scope="col">Select</th>
-                                                                            <th class="steps-default-text indicator-table-header-text" scope="col">Actions</th>
-                                                                        </tr>
-                                                                    </thead>
-                                                                    <tbody class="bg-white">
-                                                                        <tr>
-                                                                            <td>1.1.1 Effective conservation and protection of natural ecosystems</td>
-                                                                            <td><span class="steps-tags-text steps-dark-tag p-1">Core</span></td>
-                                                                            <td>
-                                                                                <div>
-                                                                                    <span class="steps-tags-text deffered-tag p-2" style="margin-right: -4px;">Deffered</span>
-                                                                                    <span class="steps-tags-text included-tag p-2">Included</span>
-                                                                                </div>
-                                                                            </td>
-                                                                            <td>
-                                                                                <button type="button" class="indicator-btn-warning align-items-center">
-                                                                                    <span><img src="../assets/media/circle_add_icon.png" alt=""></span>
-                                                                                    <span class="text-light">Not Applicable</span>
-                                                                                </button>
-                                                                            </td>
-                                                                        </tr>
-                                                                        <tr>
-                                                                            <td>1.1.1 Effective conservation and protection of natural ecosystems</td>
-                                                                            <td><span class="steps-tags-text steps-dark-tag p-1">Core</span></td>
-                                                                            <td>
-                                                                                <div>
-                                                                                    <span class="steps-tags-text deffered-tag p-2" style="margin-right: -4px;">Deffered</span>
-                                                                                    <span class="steps-tags-text included-tag p-2">Included</span>
-                                                                                </div>
-                                                                            </td>
-                                                                            <td>
-                                                                                <button type="button" class="indicator-btn-warning align-items-center">
-                                                                                    <span><img src="../assets/media/circle_add_icon.png" alt=""></span>
-                                                                                    <span class="text-light">Not Applicable</span>
-                                                                                </button>
-                                                                            </td>
-                                                                        </tr>
-                                                                        <tr>
-                                                                            <td>1.1.1 Effective conservation and protection of natural ecosystems</td>
-                                                                            <td><span class="steps-tags-text steps-dark-tag p-1">Core</span></td>
-                                                                            <td>
-                                                                                <div>
-                                                                                    <span class="steps-tags-text deffered-tag p-2" style="margin-right: -4px;">Deffered</span>
-                                                                                    <span class="steps-tags-text included-tag p-2">Included</span>
-                                                                                </div>
-                                                                            </td>
-                                                                            <td>
-                                                                                <button type="button" class="indicator-btn-warning align-items-center">
-                                                                                    <span><img src="../assets/media/circle_add_icon.png" alt=""></span>
-                                                                                    <span class="text-light">Not Applicable</span>
-                                                                                </button>
-                                                                            </td>
-                                                                        </tr>
+                                                                <div class="mx-5 custom-card-border mb-5">
+                                                                    <table class="table indicator-table">
+                                                                        <thead class="steps-table-header-color">
+                                                                            <tr>
+                                                                                <th class="steps-default-text indicator-table-header-text" scope="col">Indicator</th>
+                                                                                <th class="steps-default-text indicator-table-header-text" scope="col">Applicability</th>
+                                                                                <th class="steps-default-text indicator-table-header-text" scope="col">Select</th>
+                                                                                <th class="steps-default-text indicator-table-header-text" scope="col">Actions</th>
+                                                                            </tr>
+                                                                        </thead>
+                                                                        <tbody class="bg-white">
+                                                                            <tr>
+                                                                                <td>1.1.1 Effective conservation and protection of natural ecosystems</td>
+                                                                                <td><span class="steps-tags-text steps-dark-tag p-1">Core</span></td>
+                                                                                <td>
+                                                                                    <div>
+                                                                                        <span class="steps-tags-text deffered-tag p-2" style="margin-right: -4px;">Deffered</span>
+                                                                                        <span class="steps-tags-text included-tag p-2">Included</span>
+                                                                                    </div>
+                                                                                </td>
+                                                                                <td>
+                                                                                    <a href="#" class="indicator-btn-warning align-items-center">
+                                                                                        <span><img src="../assets/media/dark_edit.png" class="indicator-accordian-icon" alt=""></span>
+                                                                                        <span class="text-dark indicator-accordain-btn-text">Not Applicable</span>
+                                                                                    </a>
+                                                                                </td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td>1.1.1 Effective conservation and protection of natural ecosystems</td>
+                                                                                <td><span class="steps-tags-text steps-dark-tag p-1">Core</span></td>
+                                                                                <td>
+                                                                                    <div>
+                                                                                        <span class="steps-tags-text deffered-tag p-2" style="margin-right: -4px;">Deffered</span>
+                                                                                        <span class="steps-tags-text included-tag p-2">Included</span>
+                                                                                    </div>
+                                                                                </td>
+                                                                                <td>
+                                                                                    <a href="#" class="indicator-btn-warning align-items-center">
+                                                                                        <span><img src="../assets/media/dark_edit.png" class="indicator-accordian-icon" alt=""></span>
+                                                                                        <span class="text-dark indicator-accordain-btn-text">Not Applicable</span>
+                                                                                    </a>
+                                                                                </td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td>1.1.1 Effective conservation and protection of natural ecosystems</td>
+                                                                                <td><span class="steps-tags-text steps-dark-tag p-1">Core</span></td>
+                                                                                <td>
+                                                                                    <div>
+                                                                                        <span class="steps-tags-text deffered-tag p-2" style="margin-right: -4px;">Deffered</span>
+                                                                                        <span class="steps-tags-text included-tag p-2">Included</span>
+                                                                                    </div>
+                                                                                </td>
+                                                                                <td>
+                                                                                    <a href="#" class="indicator-btn-warning align-items-center">
+                                                                                        <span><img src="../assets/media/dark_edit.png" class="indicator-accordian-icon" alt=""></span>
+                                                                                        <span class="text-dark indicator-accordain-btn-text">Not Applicable</span>
+                                                                                    </a>
+                                                                                </td>
+                                                                            </tr>
 
-                                                                    </tbody>
-                                                                </table>
+                                                                        </tbody>
+                                                                    </table>
+                                                                </div>
                                                             </div>
                                                         </div>
                                                         <!-- <div class="card">
@@ -560,7 +567,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                             </div>
                                                                         </div>
                                                                         <div class="row mt-5">
-                                                                            <div class="col-lg-3 col-md-12 col-sm-12 col-xs-12">
+                                                                            <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12">
                                                                                 <div class="result-card">
                                                                                     <div class="d-flex justify-content-between align-items-center p-5">
                                                                                         <span class="accordian-header-text">General results</span>
@@ -570,7 +577,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                         <label class="indicator-small-text">Total percent converted (%)</label>
                                                                                         <div class="d-flex align-items-center">
                                                                                             <input class="p-2 result-input w-100" type="text">
-                                                                                            <span class="p-2 result-bg-dark result-input-btn"><img src="../assets/media/icon_edit.png" alt=""></span>
+                                                                                            <span class="p-2 px-3 result-bg-dark result-input-btn"><img src="../assets/media/icon_edit.png" alt=""></span>
                                                                                         </div>
                                                                                     </div>
 
@@ -578,13 +585,13 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                         <label class="indicator-small-text">Total area converted (ha)</label>
                                                                                         <div class="d-flex align-items-center">
                                                                                             <input class="p-2 result-input w-100" type="text">
-                                                                                            <span class="p-2 result-bg-dark result-input-btn"><img src="../assets/media/icon_edit.png" alt=""></span>
+                                                                                            <span class="p-2 px-3 result-bg-dark result-input-btn"><img src="../assets/media/icon_edit.png" alt=""></span>
                                                                                         </div>
                                                                                     </div>
 
                                                                                 </div>
                                                                             </div>
-                                                                            <div class="col-lg-3 col-md-12 col-sm-12 col-xs-12">
+                                                                            <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12">
                                                                                 <div class="result-card">
                                                                                     <div class="d-flex justify-content-between align-items-center p-5">
                                                                                         <span class="accordian-header-text">General results</span>
@@ -594,7 +601,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                         <label class="indicator-small-text">Total percent converted (%)</label>
                                                                                         <div class="d-flex align-items-center">
                                                                                             <input class="p-2 result-input w-100" type="text">
-                                                                                            <span class="p-2 result-bg-dark result-input-btn"><img src="../assets/media/icon_edit.png" alt=""></span>
+                                                                                            <span class="p-2 px-3 result-bg-dark result-input-btn"><img src="../assets/media/icon_edit.png" alt=""></span>
                                                                                         </div>
                                                                                     </div>
 
@@ -602,13 +609,13 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                         <label class="indicator-small-text">Total area converted (ha)</label>
                                                                                         <div class="d-flex align-items-center">
                                                                                             <input class="p-2 result-input w-100" type="text">
-                                                                                            <span class="p-2 result-bg-dark result-input-btn"><img src="../assets/media/icon_edit.png" alt=""></span>
+                                                                                            <span class="p-2 px-3 result-bg-dark result-input-btn"><img src="../assets/media/icon_edit.png" alt=""></span>
                                                                                         </div>
                                                                                     </div>
 
                                                                                 </div>
                                                                             </div>
-                                                                            <div class="col-lg-3 col-md-12 col-sm-12 col-xs-12">
+                                                                            <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12">
                                                                                 <div class="result-card">
                                                                                     <div class="d-flex justify-content-between align-items-center p-5">
                                                                                         <span class="accordian-header-text">General results</span>
@@ -618,7 +625,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                         <label class="indicator-small-text">Total percent converted (%)</label>
                                                                                         <div class="d-flex align-items-center">
                                                                                             <input class="p-2 result-input w-100" type="text">
-                                                                                            <span class="p-2 result-bg-dark result-input-btn"><img src="../assets/media/icon_edit.png" alt=""></span>
+                                                                                            <span class="p-2 px-3 result-bg-dark result-input-btn"><img src="../assets/media/icon_edit.png" alt=""></span>
                                                                                         </div>
                                                                                     </div>
 
@@ -626,7 +633,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                         <label class="indicator-small-text">Total area converted (ha)</label>
                                                                                         <div class="d-flex align-items-center">
                                                                                             <input class="p-2 result-input w-100" type="text">
-                                                                                            <span class="p-2 result-bg-dark result-input-btn"><img src="../assets/media/icon_edit.png" alt=""></span>
+                                                                                            <span class="p-2 px-3 result-bg-dark result-input-btn"><img src="../assets/media/icon_edit.png" alt=""></span>
                                                                                         </div>
                                                                                     </div>
 
@@ -645,7 +652,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                     <label class="indicator-small-text">Result year*</label>
                                                                                     <div class="d-flex align-items-center">
                                                                                         <input class="p-2 result-input w-100 ml-5" type="text">
-                                                                                        <span class="p-2 result-bg-dark result-input-btn"><img src="../assets/media/icon_edit.png" alt=""></span>
+                                                                                        <span class="p-2 px-3 result-bg-dark result-input-btn"><img src="../assets/media/icon_edit.png" alt=""></span>
                                                                                     </div>
                                                                                 </div>
                                                                             </div>
@@ -688,67 +695,146 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                 </div>
                                                             </div>
                                                             <div id="collapseTwo" class="collapse indicator-responsive-collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
-                                                                <table class="table indicator-table">
-                                                                    <thead class="steps-table-header-color">
-                                                                        <tr>
-                                                                            <th class="steps-default-text indicator-table-header-text" scope="col">Indicator</th>
-                                                                            <th class="steps-default-text indicator-table-header-text" scope="col">Applicability</th>
-                                                                            <th class="steps-default-text indicator-table-header-text" scope="col">Select</th>
-                                                                            <th class="steps-default-text indicator-table-header-text" scope="col">Actions</th>
-                                                                        </tr>
-                                                                    </thead>
-                                                                    <tbody class="bg-white">
-                                                                        <tr>
-                                                                            <td>1.1.1 Effective conservation and protection of natural ecosystems</td>
-                                                                            <td><span class="steps-tags-text steps-dark-tag p-1">Core</span></td>
-                                                                            <td>
-                                                                                <div>
-                                                                                    <span class="steps-tags-text deffered-tag p-2" style="margin-right: -4px;">Deffered</span>
-                                                                                    <span class="steps-tags-text included-tag p-2">Included</span>
-                                                                                </div>
-                                                                            </td>
-                                                                            <td>
-                                                                                <button type="button" class="indicator-btn-warning align-items-center">
-                                                                                    <span><img src="../assets/media/circle_add_icon.png" alt=""></span>
-                                                                                    <span class="text-light">Not Applicable</span>
+                                                                <div class="mx-5 custom-card-border mb-5">
+                                                                    <div class="steps-table-header-color p-5 custom-head-radius">
+                                                                        <span class="py-5">1.1.1.1 Total area (ha) & percentage (%) of the landscape in designated protected areas disaggregated by natural ecosystem type</span>
+                                                                    </div>
+                                                                    <div class="p-5">
+                                                                        <div class="row">
+                                                                            <div class="col-md-12">
+                                                                                <span class="d-block accordian-header-text">Add results*</span>
+                                                                                <span class="d-block indicator-small-text">Variable Metric</span>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="row mt-5">
+                                                                            <div class="col-md-12 col-sm-12 col-xs-12">
+                                                                                <button type="button" class="indicator-btn-dark align-items-center">
+                                                                                    <span><img src="../assets/media/icon_stack.png" alt=""></span>
+                                                                                    <span class="text-light">Add new category</span>
                                                                                 </button>
-                                                                            </td>
-                                                                        </tr>
-                                                                        <tr>
-                                                                            <td>1.1.1 Effective conservation and protection of natural ecosystems</td>
-                                                                            <td><span class="steps-tags-text steps-dark-tag p-1">Core</span></td>
-                                                                            <td>
-                                                                                <div>
-                                                                                    <span class="steps-tags-text deffered-tag p-2" style="margin-right: -4px;">Deffered</span>
-                                                                                    <span class="steps-tags-text included-tag p-2">Included</span>
-                                                                                </div>
-                                                                            </td>
-                                                                            <td>
-                                                                                <button type="button" class="indicator-btn-warning align-items-center">
-                                                                                    <span><img src="../assets/media/circle_add_icon.png" alt=""></span>
-                                                                                    <span class="text-light">Not Applicable</span>
+                                                                                <button type="button" class="indicator-btn-dark align-items-center">
+                                                                                    <span><img src="../assets/media/vector_world.png" alt=""></span>
+                                                                                    <span class="text-light">Geographic Disaggregation</span>
                                                                                 </button>
-                                                                            </td>
-                                                                        </tr>
-                                                                        <tr>
-                                                                            <td>1.1.1 Effective conservation and protection of natural ecosystems</td>
-                                                                            <td><span class="steps-tags-text steps-dark-tag p-1">Core</span></td>
-                                                                            <td>
-                                                                                <div>
-                                                                                    <span class="steps-tags-text deffered-tag p-2" style="margin-right: -4px;">Deffered</span>
-                                                                                    <span class="steps-tags-text included-tag p-2">Included</span>
-                                                                                </div>
-                                                                            </td>
-                                                                            <td>
-                                                                                <button type="button" class="indicator-btn-warning align-items-center">
-                                                                                    <span><img src="../assets/media/circle_add_icon.png" alt=""></span>
-                                                                                    <span class="text-light">Not Applicable</span>
-                                                                                </button>
-                                                                            </td>
-                                                                        </tr>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="row mt-5">
+                                                                            <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12">
+                                                                                <div class="result-card">
+                                                                                    <div class="d-flex justify-content-between align-items-center p-5">
+                                                                                        <span class="accordian-header-text">General results</span>
+                                                                                        <a href="#"><img src="../assets/media/delete_bin.png" alt=""></a>
+                                                                                    </div>
+                                                                                    <div class="px-5">
+                                                                                        <label class="indicator-small-text">Total percent converted (%)</label>
+                                                                                        <div class="d-flex align-items-center">
+                                                                                            <input class="p-2 result-input w-100" type="text">
+                                                                                            <span class="p-2 px-3 result-bg-dark result-input-btn"><img src="../assets/media/icon_edit.png" alt=""></span>
+                                                                                        </div>
+                                                                                    </div>
 
-                                                                    </tbody>
-                                                                </table>
+                                                                                    <div class="px-5 my-5">
+                                                                                        <label class="indicator-small-text">Total area converted (ha)</label>
+                                                                                        <div class="d-flex align-items-center">
+                                                                                            <input class="p-2 result-input w-100" type="text">
+                                                                                            <span class="p-2 px-3 result-bg-dark result-input-btn"><img src="../assets/media/icon_edit.png" alt=""></span>
+                                                                                        </div>
+                                                                                    </div>
+
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12">
+                                                                                <div class="result-card">
+                                                                                    <div class="d-flex justify-content-between align-items-center p-5">
+                                                                                        <span class="accordian-header-text">General results</span>
+                                                                                        <a href="#"><img src="../assets/media/delete_bin.png" alt=""></a>
+                                                                                    </div>
+                                                                                    <div class="px-5">
+                                                                                        <label class="indicator-small-text">Total percent converted (%)</label>
+                                                                                        <div class="d-flex align-items-center">
+                                                                                            <input class="p-2 result-input w-100" type="text">
+                                                                                            <span class="p-2 px-3 result-bg-dark result-input-btn"><img src="../assets/media/icon_edit.png" alt=""></span>
+                                                                                        </div>
+                                                                                    </div>
+
+                                                                                    <div class="px-5 my-5">
+                                                                                        <label class="indicator-small-text">Total area converted (ha)</label>
+                                                                                        <div class="d-flex align-items-center">
+                                                                                            <input class="p-2 result-input w-100" type="text">
+                                                                                            <span class="p-2 px-3 result-bg-dark result-input-btn"><img src="../assets/media/icon_edit.png" alt=""></span>
+                                                                                        </div>
+                                                                                    </div>
+
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12">
+                                                                                <div class="result-card">
+                                                                                    <div class="d-flex justify-content-between align-items-center p-5">
+                                                                                        <span class="accordian-header-text">General results</span>
+                                                                                        <a href="#"><img src="../assets/media/delete_bin.png" alt=""></a>
+                                                                                    </div>
+                                                                                    <div class="px-5">
+                                                                                        <label class="indicator-small-text">Total percent converted (%)</label>
+                                                                                        <div class="d-flex align-items-center">
+                                                                                            <input class="p-2 result-input w-100" type="text">
+                                                                                            <span class="p-2 px-3 result-bg-dark result-input-btn"><img src="../assets/media/icon_edit.png" alt=""></span>
+                                                                                        </div>
+                                                                                    </div>
+
+                                                                                    <div class="px-5 my-5">
+                                                                                        <label class="indicator-small-text">Total area converted (ha)</label>
+                                                                                        <div class="d-flex align-items-center">
+                                                                                            <input class="p-2 result-input w-100" type="text">
+                                                                                            <span class="p-2 px-3 result-bg-dark result-input-btn"><img src="../assets/media/icon_edit.png" alt=""></span>
+                                                                                        </div>
+                                                                                    </div>
+
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="p-5">
+                                                                        <div class="d-flex justify-content-between align-items-center">
+                                                                            <span class="accordian-header-text">Add metadata</span>
+                                                                            <span class="indicator-small-text">Status:Not Started</span>
+                                                                        </div>
+                                                                        <div class="row mt-5">
+                                                                            <div class="col-md-6">
+                                                                                <div class="d-flex align-items-center">
+                                                                                    <label class="indicator-small-text">Result year*</label>
+                                                                                    <div class="d-flex align-items-center">
+                                                                                        <input class="p-2 result-input w-100 ml-5" type="text">
+                                                                                        <span class="p-2 px-3 result-bg-dark result-input-btn"><img src="../assets/media/icon_edit.png" alt=""></span>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="col-md-6 margin-top-5">
+                                                                                <div class="h-100 d-flex align-items-center">
+                                                                                    <span class="indicator-small-text">Publish metric:</span>
+                                                                                    <div class="ml-5 form-check-inline">
+                                                                                        <label class="indicator-small-text form-check-label d-flex align-items-center">
+                                                                                            <input type="radio" class="form-check-input" name="optradio">Yes
+                                                                                        </label>
+                                                                                    </div>
+                                                                                    <div class="form-check-inline">
+                                                                                        <label class="indicator-small-text form-check-label d-flex align-items-center">
+                                                                                            <input type="radio" class="form-check-input" name="optradio">No
+                                                                                        </label>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="p-5">
+                                                                        <div class="row mb-5">
+                                                                            <div class="col-md-12">
+                                                                                <a href="#" class="indicator-btn-warning">Method*</a>
+                                                                                <a href="#" class="indicator-btn-warning">Limitations*</a>
+                                                                                <a href="#" class="indicator-btn-warning">Synthesis statement*</a>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
                                                             </div>
                                                         </div>
                                                         <!-- <div class="card">

@@ -73876,6 +73876,8 @@ code {
     border-bottom: 0;
     padding: 0;
     background-color: #F3F6F9;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
 
 .accordion .card .card-header .card-title {
@@ -101609,7 +101611,7 @@ body {
 
 .steps-tags-text {
     font-weight: 400;
-    font-size: 13px;
+    font-size: 9px;
     line-height: 15px;
     text-align: center;
 }
@@ -101624,6 +101626,28 @@ body {
     background: #074A37;
     border-radius: 3px;
     color: #fff;
+}
+
+.steps-optional-tag {
+    background: #4C94A0;
+    border-radius: 3px;
+    color: #fff;
+}
+
+.steps-dependent-tag {
+    font-size: 8px;
+    background: #D47F54;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    color: #fff;
+}
+
+.steps-not-applicable-tag {
+    font-size: 8px;
+    background: #F6E5DD;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    color: #3F544C;
 }
 
 .step-required-tag {
@@ -101647,9 +101671,16 @@ body {
 
 .included-tag {
     background: #EBF2E4;
-    border-top-left-radius: 3px;
-    border-bottom-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
     color: #074A37;
+}
+
+.included-tag-dark {
+    background: #074A37;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    color: #EBF2E4;
 }
 
 .steps-task td {
@@ -101772,7 +101803,7 @@ body {
     border-radius: 34px;
     border: none;
     outline: none;
-    padding: 8px 12px;
+    padding: 5px 10px;
 }
 
 .indicator-accordian-card {
@@ -101798,15 +101829,22 @@ body {
 
 .indicator-table tbody tr td {
     vertical-align: middle;
+    padding: 15px;
 }
 
 .indicator-table thead tr th {
     padding: 20px 0px;
-    background-color: #EBF2E4;
+    background-color: #DCE6D1;
+    color: #074A37 !important;
 }
 
 .indicator-table thead tr th:first-child {
     padding-left: 10px;
+    border-top-left-radius: 7px;
+}
+
+.indicator-table thead tr th:last-child {
+    border-top-right-radius: 7px;
 }
 
 .indicator-table thead tr th:nth-child(3) {
@@ -101914,6 +101952,18 @@ span.accordian-header-text {
     /* identical to box height, or 15px */
     text-transform: capitalize;
     color: #3F544C;
+}
+
+.indicator-accordian-icon {
+    vertical-align: middle;
+    border-style: none;
+    width: 10%;
+}
+
+.indicator-accordain-btn-text {
+    vertical-align: middle;
+    font-size: 8px;
+    font-weight: bold;
 }
 
 .custom-margin-right-170 {
