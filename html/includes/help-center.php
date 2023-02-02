@@ -1,6 +1,7 @@
 <div id="kt_quick_cart" class="offcanvas offcanvas-right help-panal-border">
     <!--begin::Header-->
-    <div class="d-flex align-items-center justify-content-between p-7 help-panal-border-bottom" kt-hidden-height="47">
+    <!--  kt-hidden-height="47" -->
+    <div class="d-flex align-items-center justify-content-between p-7 help-panal-border-bottom">
         <h4 class="help-center-font-family help-center-header-text font-weight-bold m-0">
             Help Center
         </h4>
@@ -38,16 +39,16 @@
         </div>
     </div>
     <ul class="help-center-ul">
-        <li class="d-flex align-items-center"><span class="help-center-link-icon"><img src="../assets/media/guideline.png" width="50%" alt=""></span><span class="help-link-text">Guidelines Library</span></li>
-        <li class="d-flex align-items-center help-panal-border-bottom"><span class="help-center-link-icon"><img src="../assets/media/icon_feedback.png" width="50%" alt=""></span><span class="help-link-text">Platform Updates</span></li>
+        <li class="d-flex align-items-center"><span class="help-center-link-icon"><img src="../assets/media/guideline.png" style="width: 50%;" alt=""></span><span class="help-link-text">Guidelines Library</span></li>
+        <li class="d-flex align-items-center help-panal-border-bottom"><span class="help-center-link-icon"><img src="../assets/media/icon_feedback.png" style="width: 50%;" alt=""></span><span class="help-link-text">Platform Updates</span></li>
     </ul>
 
     <h6 class="help-center-font-family help-center-sub-head-text py-4 px-7">Can't find what you're looking for?</h6>
     <ul class="help-center-ul">
-        <li class="d-flex align-items-center"><span class="help-center-link-icon"><img src="../assets/media/help_icon.png" width="50%" alt=""></span><span class="help-link-text">FAQs</span></li>
-        <li class="d-flex align-items-center"><span class="help-center-link-icon"><img src="../assets/media/info.png" width="50%" alt=""></span><span class="help-link-text">Help Desk</span></li>
-        <li class="d-flex align-items-center"><span class="help-center-link-icon"><img src="../assets/media/tuts.png" width="30%" alt=""></span><span class="help-link-text">Interactive Tutorials</span></li>
-        <li class="d-flex align-items-center"><span class="help-center-link-icon"><img src="../assets/media/vector_profile.png" width="50%" alt=""></span><span class="help-link-text">About</span></li>
+        <li class="d-flex align-items-center"><span class="help-center-link-icon"><img src="../assets/media/help_icon.png" style="width: 50%;" alt=""></span><span class="help-link-text">FAQs</span></li>
+        <li class="d-flex align-items-center"><span class="help-center-link-icon"><img src="../assets/media/info.png" style="width: 50%;" alt=""></span><span class="help-link-text">Help Desk</span></li>
+        <li class="d-flex align-items-center"><span class="help-center-link-icon"><img src="../assets/media/tuts.png"  style="width: 30%;" alt=""></span><span class="help-link-text">Interactive Tutorials</span></li>
+        <li class="d-flex align-items-center"><span class="help-center-link-icon"><img src="../assets/media/vector_profile.png" style="width: 50%;" alt=""></span><span class="help-link-text">About</span></li>
     </ul>
 
     <!--end::Content-->

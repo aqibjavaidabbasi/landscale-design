@@ -139,7 +139,8 @@
                             </div> -->
             <!--end::Chat-->
             <!--begin::User-->
-            <div class="dropdown" id="kt_quick_search_toggle">
+            <!-- id="kt_quick_search_toggle" -->
+            <div class="dropdown">
                 <!--begin::Toggle-->
                 <div class="topbar-item" data-toggle="dropdown" data-offset="10px,0px">
                     <div class="btn btn-icon btn-clean btn-md mr-1 ml-2 rounded-circle bg-light-primary">
@@ -149,7 +150,8 @@
                 <!--end::Toggle-->
                 <!--begin::Dropdown-->
                 <div class="dropdown-menu p-0 m-0 dropdown-menu-right dropdown-menu-anim-up dropdown-menu-lg primary-border-color">
-                    <div class="quick-search" id="kt_quick_search_dropdown">
+                <!-- id="kt_quick_search_dropdown" -->
+                    <div class="quick-search">
                         <div class="scroll pr-7 mr-n7 ps ps--active-y">
                             <!--begin::Item-->
                             <div class="d-flex align-items-center primary-border-bottom p-2">

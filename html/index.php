@@ -298,7 +298,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                             Indicators:</span>
                                                                         <div class="form-group">
                                                                             <div class="select-wrapper">
-                                                                                <select class="form-control bg-primary text-light" id="exampleFormControlSelect1">
+                                                                                <select class="form-control bg-primary text-light">
                                                                                     <option>None Selected</option>
                                                                                     <option>Selected</option>
                                                                                 </select>
@@ -308,7 +308,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                             Metrics:</span>
                                                                         <div class="form-group">
                                                                             <div class="select-wrapper">
-                                                                                <select class="form-control bg-primary text-light" id="exampleFormControlSelect1">
+                                                                                <select class="form-control bg-primary text-light">
                                                                                     <option>None Selected</option>
                                                                                     <option>Selected</option>
                                                                                 </select>
@@ -333,20 +333,21 @@ License: You must have a valid license purchased only from themeforest(the above
                                                             <div id="table_view" class="tabcontent">
                                                                 <div class="row">
                                                                     <div class="col-sm-12 table-margin mob-style">
-                                                                        <table class="table table-separate table-radius table-head-custom table-checkable dataTable no-footer dtr-inline filter-card-borders" id="kt_datatable" role="grid" aria-describedby="kt_datatable_info" style="width: 1151px;">
+                                                                    <!-- aria-describedby="kt_datatable_info"  -->
+                                                                        <table class="table table-separate table-radius table-head-custom table-checkable dataTable no-footer dtr-inline filter-card-borders" id="kt_datatable" role="grid" style="width: 1151px;">
                                                                             <thead class="header-table">
-                                                                                <tr role="row">
-                                                                                    <th class="sorting sorting_asc" tabindex="0" aria-controls="kt_datatable" rowspan="1" colspan="1" style="width: 56px;" aria-sort="ascending" aria-label="Record ID: activate to sort column descending">
+                                                                                <tr>
+                                                                                    <th class="sorting sorting_asc" tabindex="0" aria-controls="kt_datatable" rowspan="1" colspan="1" style="width: 56px;" aria-sort="ascending">
                                                                                         Record ID</th>
-                                                                                    <th class="sorting" tabindex="0" aria-controls="kt_datatable" rowspan="1" colspan="1" style="width: 45px;" aria-label="Order ID: activate to sort column ascending">
+                                                                                    <th class="sorting" tabindex="0" aria-controls="kt_datatable" rowspan="1" colspan="1" style="width: 45px;">
                                                                                         Order ID</th>
-                                                                                    <th class="sorting" tabindex="0" aria-controls="kt_datatable" rowspan="1" colspan="1" style="width: 65px;" aria-label="Country: activate to sort column ascending">
+                                                                                    <th class="sorting" tabindex="0" aria-controls="kt_datatable" rowspan="1" colspan="1" style="width: 65px;">
                                                                                         Country</th>
-                                                                                    <th class="sorting" tabindex="0" aria-controls="kt_datatable" rowspan="1" colspan="1" style="width: 41px;" aria-label="Ship City: activate to sort column ascending">
+                                                                                    <th class="sorting" tabindex="0" aria-controls="kt_datatable" rowspan="1" colspan="1" style="width: 41px;">
                                                                                         Ship City</th>
-                                                                                    <th class="sorting" tabindex="0" aria-controls="kt_datatable" rowspan="1" colspan="1" style="width: 62px;" aria-label="Ship Address: activate to sort column ascending">
+                                                                                    <th class="sorting" tabindex="0" aria-controls="kt_datatable" rowspan="1" colspan="1" style="width: 62px;">
                                                                                         Ship Address</th>
-                                                                                    <th class="sorting" tabindex="0" aria-controls="kt_datatable" rowspan="1" colspan="1" style="width: 69px;" aria-label="Company Agent: activate to sort column ascending">
+                                                                                    <th class="sorting" tabindex="0" aria-controls="kt_datatable" rowspan="1" colspan="1" style="width: 69px;">
                                                                                         Company Agent</th>
                                                                                 </tr>
                                                                             </thead>
