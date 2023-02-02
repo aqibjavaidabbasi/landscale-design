@@ -15,6 +15,9 @@ License: You must have a valid license purchased only from themeforest(the above
 <!--begin::Head-->
 
 <head>
+    <meta charset="utf-8">
+    <meta name="description" content="Layout options builder">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <!-- Google Tag Manager -->
     <script>
@@ -33,13 +36,10 @@ License: You must have a valid license purchased only from themeforest(the above
         })(window, document, 'script', 'dataLayer', 'GTM-5FS8GGP');
     </script>
     <!-- End Google Tag Manager -->
-    <meta charset="utf-8" />
     <title>Landscale</title>
-    <meta name="description" content="Layout options builder" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <link rel="canonical" href="https://keenthemes.com/metronic" />
+    <link rel="canonical" href="https://keenthemes.com/metronic">
     <!--begin::Fonts-->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700">
     <!--end::Fonts-->
     <!--begin::Global Theme Styles(used by all pages)-->
     <link rel="stylesheet" href="../assets/plugins/global/plugins.bundle.css">
@@ -80,7 +80,7 @@ License: You must have a valid license purchased only from themeforest(the above
     <div id="kt_header_mobile" class="header-mobile align-items-center header-mobile-fixed">
         <!--begin::Logo-->
         <a href="/metronic/demo1/index.html">
-            <img alt="Logo" src="../assets/media/landscale_logo.png" />
+            <img alt="Logo" src="../assets/media/landscale_logo.png">
         </a>
         <!--end::Logo-->
         <!--begin::Toolbar-->
@@ -160,7 +160,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                         <div class="col-md-4 responsive-margin-card">
                                             <div class="p-5 cards-tabs text-center h-100">
                                                 <div class="mb-3 mt-2">
-                                                    <img src="../assets/media/Reference library.png" alt="">
+                                                    <img src="../assets/media/Reference_library.png" alt="">
                                                 </div>
                                                 <span class="mb-2">
                                                     Reference Library
@@ -253,7 +253,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                         <div class="col-12 col-sm-6 col-md mb-2 custom-col-height">
                                             <div class="p-5 steps-tabs text-center h-100">
                                                 <div class="mb-3 mt-3">
-                                                    <img src="../assets/media/Preparation.png" alt="" srcset="">
+                                                    <img src="../assets/media/Preparation.png" alt="">
                                                 </div>
                                                 <span class="py-5">
                                                     Preparation
@@ -278,7 +278,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                         <div class="col-12 col-sm-6 col-md mb-2 custom-col-height">
                                             <div class="p-5 steps-tabs text-center h-100">
                                                 <div class="mb-3 mt-3">
-                                                    <img src="../assets/media/Boundaries.png" alt="" srcset="">
+                                                    <img src="../assets/media/Boundaries.png" alt="">
                                                 </div>
                                                 <span class="py-5">
                                                     Boundary
@@ -304,7 +304,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                         <div class="col-12 col-sm-6 col-md mb-2 custom-col-height">
                                             <div class="p-5 steps-tabs text-center h-100">
                                                 <div class="mb-3 mt-3">
-                                                    <img src="../assets/media/indicator_and_matrics.png" alt="" srcset="">
+                                                    <img src="../assets/media/indicator_and_matrics.png" alt="">
                                                 </div>
                                                 <a href="./indicator_metrices.php" class="py-5">
                                                     Indicator & Metrics
@@ -329,7 +329,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                         <div class="col-12 col-sm-6 col-md mb-2 custom-col-height">
                                             <div class="p-5 steps-tabs text-center h-100">
                                                 <div class="mb-3 mt-3">
-                                                    <img src="../assets/media/chart.png" alt="" srcset="">
+                                                    <img src="../assets/media/chart.png" alt="">
                                                 </div>
                                                 <span class="py-5">
                                                     Data & Results
@@ -354,7 +354,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                         <div class="col-12 col-sm-6 col-md mb-2 custom-col-height">
                                             <div class="p-5 steps-tabs text-center h-100 locked-background">
                                                 <div class="mb-3 mt-3">
-                                                    <img src="../assets/media/reports.png" alt="" srcset="">
+                                                    <img src="../assets/media/reports.png" alt="">
                                                 </div>
                                                 <span class="py-5">
                                                     Report & Publish
