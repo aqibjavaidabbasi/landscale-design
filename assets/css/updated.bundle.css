@@ -101702,7 +101702,7 @@ body {
     position: absolute;
     left: 109px;
     top: 4px;
-    border-radius: 7px;
+    border-radius: 50%;
     background-color: #074A37;
     padding: 8px;
 }
@@ -101737,7 +101737,7 @@ body {
     position: absolute;
     left: 80px;
     top: 4px;
-    border-radius: 7px;
+    border-radius: 50%;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
