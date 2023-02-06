@@ -708,7 +708,7 @@ License: You must have a valid license purchased only from themeforest(the above
     </div>
     <!--end::Main-->
     <!-- begin help center btn-->
-    <div class="btn-help-center-wrapper">
+    <div class="btn-help-center-wrapper custom-cursor-pointer">
         <div class="btn-dropdown btn-lg mr-1 d-flex" id="kt_quick_cart_toggle">
             <span class="btn-help-icon">
                 <img src="../assets/media/help.png" alt="">

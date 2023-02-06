@@ -100427,7 +100427,7 @@ body {
 
 .body-bg {
     background: url(../media/LS_Background.jpg) top left no-repeat;
-    background-size: 100% 100%;
+    background-size: 100% 500vh;
     background-color: #21661133;
     background-blend-mode: overlay;
 }
@@ -102217,6 +102217,10 @@ span.accordian-header-text {
 .custom-border-bottom-10 {
     border-bottom-right-radius: 10px;
     border-bottom-left-radius: 10px;
+}
+
+.custom-cursor-pointer {
+    cursor: pointer;
 }
 
 
