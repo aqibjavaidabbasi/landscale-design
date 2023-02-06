@@ -225,7 +225,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                             <div class="step-card steps-custom-height custom-padding-40">
                                                 <span class="steps-default-text steps-heading d-block mb-1">Step 3: Indicator & Metrics</span>
                                                 <!-- <span class="steps-default-text steps-small-text d-block my-5">View Instructions</span> -->
-                                                <span data-toggle="collapse" data-target="#demo" class="steps-default-text steps-small-text d-block my-5">View Instructions <img src="../assets/media/arrow_down.png" alt=""></span>
+                                                <span data-toggle="collapse" data-target="#demo" class="steps-default-text steps-small-text d-block my-5 custom-cursor-pointer">View Instructions <img src="../assets/media/arrow_down.png" alt=""></span>
 
                                                 <div id="demo" class="collapse mb-2">
                                                     Lorem ipsum dolor text Lorem ipsum dolor text Lorem ipsum dolor text Lorem ipsum dolor text Lorem ipsum dolor text Lorem ipsum dolor text
