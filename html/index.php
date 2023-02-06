@@ -242,7 +242,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                     <div class="row my-5">
                                                         <div class="col-sm-12 col-md-9">
                                                             <div class="dataTables_length" id="kt_datatable_length">
-                                                                <label class="entries-label">Show <select name="kt_datatable_length" aria-controls="kt_datatable" class="custom-select custom-select-sm form-control form-control-sm bg-table-entries">
+                                                                <label class="entries-label">Show <select name="kt_datatable_length" aria-controls="kt_datatable" class="custom-select custom-select-sm bg-table-entries">
                                                                         <option value="10">10</option>
                                                                         <option value="25">25</option>
                                                                         <option value="50">50</option>
@@ -269,7 +269,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                         <div class="col-md-3 pr-1">
                                                             <div class="card rounded filter-card-borders">
                                                                 <div class="filter-bg-dark filter-borders">
-                                                                    <span class="filter-card-font text-light d-inline-block p-5">Filters</span>
+                                                                    <span class="filter-card-font text-light d-inline-block p-4">Filters</span>
                                                                 </div>
                                                                 <!-- <div class="filter-borders">
                                                                     <div class="input-group custom-search-bar">
@@ -298,7 +298,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                             Indicators:</span>
                                                                         <div class="form-group">
                                                                             <div class="select-wrapper">
-                                                                                <select class="form-control bg-primary text-light">
+                                                                                <select class="form-control bg-primary text-light border-radius-50">
                                                                                     <option>None Selected</option>
                                                                                     <option>Selected</option>
                                                                                 </select>
@@ -308,7 +308,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                             Metrics:</span>
                                                                         <div class="form-group">
                                                                             <div class="select-wrapper">
-                                                                                <select class="form-control bg-primary text-light">
+                                                                                <select class="form-control bg-primary text-light border-radius-50">
                                                                                     <option>None Selected</option>
                                                                                     <option>Selected</option>
                                                                                 </select>
@@ -317,7 +317,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                     </div>
                                                                 </div>
                                                                 <div>
-                                                                    <div class="p-5 btn-tags filter-bg-light">
+                                                                    <div class="p-5 btn-tags filter-bg-light custom-border-bottom-10">
                                                                         <span class="filter-card-font d-block mb-5">Resource
                                                                             type:</span>
                                                                         <button class="btn bg-white-btn font-btn border-radius-50">Data
@@ -333,7 +333,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                             <div id="table_view" class="tabcontent">
                                                                 <div class="row">
                                                                     <div class="col-sm-12 table-margin mob-style">
-                                                                    <!-- aria-describedby="kt_datatable_info"  -->
+                                                                        <!-- aria-describedby="kt_datatable_info"  -->
                                                                         <table class="table table-separate table-radius table-head-custom table-checkable dataTable no-footer dtr-inline filter-card-borders" id="kt_datatable" role="grid" style="width: 1151px;">
                                                                             <thead class="header-table">
                                                                                 <tr>
@@ -829,7 +829,7 @@ License: You must have a valid license purchased only from themeforest(the above
                 $(this).parent().find('.menu-submenu').addClass('brt-50');
                 $(this).parent().find('.menu-subnav').addClass('brt-50');
             }
-        })
+        });
     </script>
 
     <script>
@@ -963,6 +963,15 @@ License: You must have a valid license purchased only from themeforest(the above
         $(".btn-help-center-wrapper").mouseleave(function() {
             $(".btn-help-center-wrapper").find('.btn-help-text').addClass('d-none')
             $(".btn-help-center-wrapper").find('.btn-help-text').removeClass('d-flex align-self-center')
+        });
+
+        $(".menu-submenu").mouseenter(function() {
+            $(this).parent('.menu-item').find('.menu-toggle').addClass('side-icon-bg-dark');
+        });
+
+        $(".menu-submenu").mouseleave(function() {
+            let element = $(this).parent('.menu-item').find('.menu-toggle');
+            element.removeClass('side-icon-bg-dark');
         });
 
         function openCity(evt, cityName) {

@@ -253,14 +253,39 @@ License: You must have a valid license purchased only from themeforest(the above
                                     <div class="row steps-custom-margin-top">
                                         <div class="col-md-12 pl-0 pl-sm-4 pb-sm-4">
                                             <div class="d-flex justify-content-between">
-                                                <a class="indicator-btn-dark align-items-center">
+                                                <a class="indicator-btn-dark align-items-center" data-toggle="modal" data-target="#myModal">
                                                     <span><img src="../assets/media/circle_add_icon.png" alt=""></span>
                                                     <span class="text-light">Create Custom Piller</span>
                                                 </a>
-                                                <a class="indicator-btn-dark align-items-center">
+                                                <!-- <a class="indicator-btn-dark align-items-center">
                                                     <span><img src="../assets/media/circle_add_icon.png" alt=""></span>
                                                     <span class="text-light">Add Indicator</span>
-                                                </a>
+                                                </a> -->
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- The Modal -->
+                                    <div class="modal fade" id="myModal">
+                                        <div class="modal-dialog modal-dialog-centered">
+                                            <div class="modal-content">
+
+                                                <!-- Modal Header -->
+                                                <div class="modal-header steps-table-header-color">
+                                                    <h4 class="modal-title indicator-tab-link">Modal Heading</h4>
+                                                    <button type="button" class="close text-dark" data-dismiss="modal">&times;</button>
+                                                </div>
+
+                                                <!-- Modal body -->
+                                                <div class="modal-body">
+                                                    Modal body..
+                                                </div>
+
+                                                <!-- Modal footer -->
+                                                <div class="modal-footer p-2">
+                                                    <button type="button" class="btn indicator-btn-dark text-light" data-dismiss="modal">Close</button>
+                                                </div>
+
                                             </div>
                                         </div>
                                     </div>
@@ -323,6 +348,12 @@ License: You must have a valid license purchased only from themeforest(the above
                                             </div>
                                         </div>
                                         <div class="col-md-9 col-sm-12 col-xs-12 indicator-tab-body">
+                                            <div class="d-flex justify-content-end mt-5 mr-5">
+                                                <a class="indicator-btn-dark align-items-center">
+                                                    <span><img src="../assets/media/circle_add_icon.png" alt=""></span>
+                                                    <span class="text-light">Add Indicator</span>
+                                                </a>
+                                            </div>
                                             <div class="tab-content" id="v-pills-tabContent">
                                                 <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
                                                     <div class="accordion m-5" id="accordionExample-0">
@@ -516,13 +547,37 @@ License: You must have a valid license purchased only from themeforest(the above
                                                 </div>
                                                 <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
                                                     <div class="accordion m-5" id="accordionExample">
+                                                        <!-- <div class="bg-light" id="headingOne-header">
+                                                            <div class="btn btn-block text-left d-flex justify-content-between align-items-center indicator-accordian-responsive">
+                                                                <span class="accordian-header-text">
+                                                                    Indicator
+                                                                </span>
+                                                                <span class="p-1 accordian-header-text custom-margin-right-170">Assigned To</span>
+                                                            </div>
+                                                            <table class="table indicator-table mb-0">
+                                                                <tbody class="bg-white">
+                                                                    <tr>
+                                                                        <td>1.1.1 Effective conservation and protection of natural ecosystems</td>
+                                                                        <td>
+                                                                            <div class="steps-image-container indicator-image-container-responsive image-container-alignment mr-5">
+                                                                                <img src="../assets/media/icons_and_Illustrations/Avatars/Avatars_Baboon.png" class="accordian-unit-image-1" alt="">
+                                                                                <img src="../assets/media/icons_and_Illustrations/Avatars/Avatars_Frog.png" class="accordian-unit-image-2" alt="">
+                                                                                <img src="../assets/media/icons_and_Illustrations/Avatars/Avatars_Parrot.png" class="accordian-unit-image-3" alt="">
+                                                                                <span class="step-unit-counter d-inline-block">6+</span>
+                                                                                <img src="../assets/media/add_person.png" class="step-unit-image-4" alt="">
+                                                                            </div>
+                                                                        </td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </div>
                                                         <div class="card indicator-accordian-card">
-                                                            <div class="card-header bg-white indicator-accordian-card-header" id="headingOne">
+                                                            <div class="card-header bg-white indicator-accordian-card-header accordian-header-click" id="headingOne">
                                                                 <div class="btn btn-block text-left d-flex justify-content-between align-items-center indicator-accordian-responsive" role="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                                                    <span class="accordian-header-text">
-                                                                        Indicator
+                                                                    <span>
+                                                                        1.1.2.2 Natural ecosystem conversion rate (average area [ha] & percentage [%] conversion per yr)
                                                                     </span>
-                                                                    <span class="p-1 accordian-header-text custom-margin-right-170">Assigned To</span>
+                                                                    <span class=" p-1"><img src="../assets/media/Vector_arrow_down.png" alt=""></span>
                                                                 </div>
                                                             </div>
 
@@ -684,9 +739,43 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                     </div>
                                                                 </div>
                                                             </div>
+                                                        </div> -->
+                                                        <div class="bg-light d-none indicator-border-top-15" id="headingTwo-header">
+                                                            <div class="btn btn-block text-left d-flex justify-content-between align-items-center indicator-accordian-responsive">
+                                                                <span class="accordian-header-text">
+                                                                    Indicator
+                                                                </span>
+                                                                <span class="p-1 accordian-header-text custom-margin-right-170">Assigned To</span>
+                                                            </div>
+                                                            <div class="p-5 d-flex justify-content-between align-items-center indicator-accordian-responsive" style="background-color: #fff;">
+                                                                <span>1.1.1 Effective conservation and protection of natural ecosystems</span>
+                                                                <div class="steps-image-container indicator-image-container-responsive image-container-alignment custom-margin-right-80">
+                                                                    <img src="../assets/media/icons_and_Illustrations/Avatars/Avatars_Baboon.png" class="accordian-unit-image-1" alt="">
+                                                                    <img src="../assets/media/icons_and_Illustrations/Avatars/Avatars_Frog.png" class="accordian-unit-image-2" alt="">
+                                                                    <img src="../assets/media/icons_and_Illustrations/Avatars/Avatars_Parrot.png" class="accordian-unit-image-3" alt="">
+                                                                    <span class="step-unit-counter d-inline-block">6+</span>
+                                                                    <img src="../assets/media/add_person.png" class="step-unit-image-4" alt="">
+                                                                </div>
+                                                            </div>
+                                                            <!-- <table class="table indicator-table mb-0">
+                                                                <tbody class="bg-white">
+                                                                    <tr>
+                                                                        <td>1.1.1 Effective conservation and protection of natural ecosystems</td>
+                                                                        <td>
+                                                                            <div class="steps-image-container indicator-image-container-responsive image-container-alignment mr-5">
+                                                                                <img src="../assets/media/icons_and_Illustrations/Avatars/Avatars_Baboon.png" class="accordian-unit-image-1" alt="">
+                                                                                <img src="../assets/media/icons_and_Illustrations/Avatars/Avatars_Frog.png" class="accordian-unit-image-2" alt="">
+                                                                                <img src="../assets/media/icons_and_Illustrations/Avatars/Avatars_Parrot.png" class="accordian-unit-image-3" alt="">
+                                                                                <span class="step-unit-counter d-inline-block">6+</span>
+                                                                                <img src="../assets/media/add_person.png" class="step-unit-image-4" alt="">
+                                                                            </div>
+                                                                        </td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table> -->
                                                         </div>
-                                                        <div class="card indicator-accordian-card">
-                                                            <div class="card-header bg-white indicator-accordian-card-header" id="headingTwo">
+                                                        <div class="card indicator-accordian-card indicator-border-top-15">
+                                                            <div class="card-header bg-white indicator-accordian-card-header indicator-border-bottom-15 accordian-header-click" id="headingTwo">
                                                                 <div class="btn btn-block text-left collapsed d-flex justify-content-between align-items-center indicator-accordian-responsive" role="region" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                                                                     <span>
                                                                         1.1.2.2 Natural ecosystem conversion rate (average area [ha] & percentage [%] conversion per yr)
@@ -811,7 +900,15 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                             <div class="col-md-6 margin-top-5">
                                                                                 <div class="h-100 d-flex align-items-center">
                                                                                     <span class="indicator-small-text">Publish metric:</span>
-                                                                                    <div class="ml-5 form-check-inline">
+                                                                                    <div class="custom-control custom-radio mx-3">
+                                                                                        <input type="radio" id="rd_1" name="rd" class="custom-control-input" value="Yes">
+                                                                                        <label class="custom-control-label green" for="rd_1">Yes</label>
+                                                                                    </div>
+                                                                                    <div class="custom-control custom-radio mx-2">
+                                                                                        <input type="radio" id="rd_2" name="rd" class="custom-control-input" value="No">
+                                                                                        <label class="custom-control-label red" for="rd_2">No</label>
+                                                                                    </div>
+                                                                                    <!-- <div class="ml-5 form-check-inline">
                                                                                         <label class="indicator-small-text form-check-label d-flex align-items-center">
                                                                                             <input type="radio" class="form-check-input" name="optradio">Yes
                                                                                         </label>
@@ -820,7 +917,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                         <label class="indicator-small-text form-check-label d-flex align-items-center">
                                                                                             <input type="radio" class="form-check-input" name="optradio">No
                                                                                         </label>
-                                                                                    </div>
+                                                                                    </div> -->
                                                                                 </div>
                                                                             </div>
                                                                         </div>
@@ -976,20 +1073,17 @@ License: You must have a valid license purchased only from themeforest(the above
         });
 
         $('.nav-link').on('click', function() {
-            $(this).find('img.d-none').removeClass('d-none');
-            $(this).find('img:nth-child(1)').addClass('d-none');
-            $(this).parent().find("img.active").addClass('d-none')
-            $(this).parent().find("img.deactive").removeClass('d-none')
-            $(this).parent().find("img.active").removeClass('active')
-            $(this).parent().find("img.deactive").removeClass('deactive')
-            $(this).find('img.d-none').addClass('deactive');
-            $(this).find('img:nth-child(2)').addClass('active');
-            // if ($('.nav-link').children('.indicator-nav-icon').hasClass('active')) {
-            //     $(this).parent().find('.indicator-nav-icon.active').removeClass('active');
-            //     $(this).parent().find(".demo-svg").css('fill', '#074A37')
-            //     $(this).children('.indicator-nav-icon').addClass('active');
-            //     $(this).children('.indicator-nav-icon').find(".demo-svg").css('fill', '#EBF2E4');
-            // }
+            let prevActiveLink = $(this).siblings( ".active" );
+            let dNoneImg = prevActiveLink.find('img.d-none');
+            let visibleImg = dNoneImg.siblings('img'); 
+            let currentLinkDnoneImg = $(this).find('img.d-none');
+            let currentLinkVisibleImg = currentLinkDnoneImg.siblings('img');
+            if(!$(this).hasClass('active')){
+                dNoneImg.toggleClass('d-none');
+                visibleImg.toggleClass('d-none');
+                currentLinkDnoneImg.toggleClass('d-none');
+                currentLinkVisibleImg.toggleClass('d-none');
+            }
         });
 
         $(document).ready(function() {
@@ -997,12 +1091,14 @@ License: You must have a valid license purchased only from themeforest(the above
             var strHash = document.location.hash;
 
             if (strHash !== "") {
-                $(".nav-pills").find('.nav-link.active').find('img.d-none').removeClass('d-none deactive');
-                $(".nav-pills").find('.nav-link.active').find('img:nth-child(2)').addClass('d-none');
-                $(".nav-pills").find('.nav-link.active').find('img:nth-child(2)').removeClass('active')
-                $(strHash + '-tab').find('img.d-none').addClass('active');
-                $(strHash + '-tab').find('img.d-none').removeClass('d-none');
-                $(strHash + '-tab').find('img:nth-child(1)').addClass('d-none deactive');
+                let prevInvisibleImg = $(".nav-pills").find('.nav-link.active').find('img.d-none');
+                let prevVisibleImg = prevInvisibleImg.siblings('img');
+                let currentInvisibleImg = $(strHash + '-tab').find('img.d-none');
+                let currentVisibleImg = currentInvisibleImg.siblings('img');
+                prevInvisibleImg.toggleClass('d-none');
+                prevVisibleImg.toggleClass('d-none');
+                currentInvisibleImg.toggleClass('d-none');
+                currentVisibleImg.toggleClass('d-none');
                 $(".nav-pills").find('.nav-link.active').removeClass('active')
                 $(strHash + '-tab').addClass('active')
                 $(".tab-content").find('.tab-pane.show.active').removeClass('show active')
@@ -1020,6 +1116,31 @@ License: You must have a valid license purchased only from themeforest(the above
             $(".btn-help-center-wrapper").find('.btn-help-text').addClass('d-none')
             $(".btn-help-center-wrapper").find('.btn-help-text').removeClass('d-flex align-self-center')
         });
+
+        $(".menu-submenu").mouseenter(function() {
+            $(this).parent('.menu-item').find('.menu-toggle').addClass('side-icon-bg-dark');
+        });
+
+        $(".menu-submenu").mouseleave(function() {
+            let element = $(this).parent('.menu-item').find('.menu-toggle');
+            element.removeClass('side-icon-bg-dark');
+        });
+
+        $('.accordian-header-click').on('click', function() {
+
+            let headerId = $(this).attr('id');
+            if ($('#' + headerId + '-header').hasClass('d-none')) {
+                $('#' + headerId + '-header').removeClass('d-none');
+            } else {
+                $('#' + headerId + '-header').addClass('d-none');
+            }
+
+            if ($(this).parent().hasClass('indicator-border-top-15')) {
+                $(this).parent().removeClass('indicator-border-top-15');
+            } else {
+                $(this).parent().addClass('indicator-border-top-15');
+            }
+        })
     </script>
 </body>
 <!--end::Body-->

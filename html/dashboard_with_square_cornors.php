@@ -508,6 +508,15 @@ License: You must have a valid license purchased only from themeforest(the above
             $(".btn-help-center-wrapper").find('.btn-help-text').addClass('d-none')
             $(".btn-help-center-wrapper").find('.btn-help-text').removeClass('d-flex align-self-center')
         });
+
+        $(".menu-submenu").mouseenter(function() {
+            $(this).parent('.menu-item').find('.menu-toggle').addClass('side-icon-bg-dark');
+        });
+
+        $(".menu-submenu").mouseleave(function() {
+            let element = $(this).parent('.menu-item').find('.menu-toggle');
+            element.removeClass('side-icon-bg-dark');
+        });
     </script>
 
 </body>
