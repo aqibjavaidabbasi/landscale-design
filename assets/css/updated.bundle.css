@@ -100427,7 +100427,7 @@ body {
 
 .body-bg {
     background: url(../media/LS_Background.jpg) top left no-repeat;
-    background-size: 100% 500vh;
+    background-size: cover;
     background-color: #21661133;
     background-blend-mode: overlay;
 }
@@ -102223,6 +102223,119 @@ span.accordian-header-text {
     cursor: pointer;
 }
 
+/* switch btn */
+/* CSS rules are kept repetitive so that you can get CSS rules for each button easily :) */
+.button-cover,
+.knobs,
+.layer {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.button {
+    position: relative;
+    top: 50%;
+    width: 100%;
+    overflow: hidden;
+    padding-bottom: 3px;
+}
+
+.button.r,
+.button.r .layer {
+    border-radius: 100px;
+}
+
+.button.b2 {
+    border-radius: 2px;
+}
+
+.switch-checkbox {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    opacity: 0;
+    cursor: pointer;
+    z-index: 3;
+}
+
+.knobs {
+    z-index: 2;
+}
+
+.layer {
+    width: 100%;
+    background-color: #fcebeb;
+    transition: 0.3s ease all;
+    z-index: 1;
+}
+
+
+
+/* Button 10 */
+.button-10 .knobs:before,
+.button-10 .knobs:after,
+.button-10 .knobs span {
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    font-size: 7px;
+    text-align: center;
+    line-height: 1;
+    padding: 9px 4px;
+    border-radius: 2px;
+    transition: 0.3s ease all;
+}
+
+.button-10 .knobs:before {
+    content: "";
+    /* left: 4px; */
+    background-color: #074A37;
+}
+
+.button-10 .knobs:after {
+    content: "Included";
+    right: 4px;
+    color: #4e4e4e;
+}
+
+.button-10 .knobs span {
+    display: inline-block;
+    /* left: 4px; */
+    color: #fff;
+    z-index: 1;
+}
+
+.button-10 .switch-checkbox:checked+.knobs span {
+    color: #9C9C9C;
+}
+
+.button-10 .switch-checkbox:checked+.knobs:before {
+    left: 45px;
+    background-color: #074A37;
+}
+
+.button-10 .switch-checkbox:checked+.knobs:after {
+    color: #fff;
+}
+
+.button-10 .switch-checkbox:checked~.layer {
+    background-color: #fcebeb;
+}
+
+
+
+/* switch btn end */
+
+@media screen and (min-width: 320px) and (max-width: 515px) {
+    .button {
+        width: 70px !important;
+    }
+}
 
 @media screen and (min-width: 768px) and (max-width: 1000px) {
     .step-number {
@@ -102311,7 +102424,7 @@ span.accordian-header-text {
     .custom-margin-right-170 {
         margin-right: 0px !important;
     }
-    
+
     .custom-margin-right-80 {
         margin-right: 0px !important;
     }
@@ -102344,6 +102457,28 @@ span.accordian-header-text {
 
     .responsive-tabs-custom-padding-x {
         padding: 0px 1rem !important;
+    }
+
+    .button {
+        padding-bottom: 25px !important;
+    }
+
+    .button-10 .knobs:before {
+        left: 0px !important;
+    }
+
+    .button-10 .knobs:after {
+        bottom: 0 !important;
+    }
+
+    .button-10 .switch-checkbox:checked+.knobs:before {
+        left: 0px !important;
+        bottom: 0 !important;
+    }
+
+    .button-10 .knobs:before, .button-10 .knobs:after, .button-10 .knobs span {
+        width: 100% !important;
+        height: 50% !important;
     }
 }
 
@@ -102405,6 +102540,28 @@ span.accordian-header-text {
         width: auto !important;
         height: auto !important;
         padding-bottom: 10px;
+    }
+
+    .button {
+        padding-bottom: 25px !important;
+    }
+
+    .button-10 .knobs:before {
+        left: 0px !important;
+    }
+
+    .button-10 .knobs:after {
+        bottom: 0 !important;
+    }
+
+    .button-10 .switch-checkbox:checked+.knobs:before {
+        left: 0px !important;
+        bottom: 0 !important;
+    }
+
+    .button-10 .knobs:before, .button-10 .knobs:after, .button-10 .knobs span {
+        width: 100% !important;
+        height: 50% !important;
     }
 }
 

@@ -382,7 +382,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                             <tr>
                                                                                 <th class="steps-default-text indicator-table-header-text" scope="col">Indicator</th>
                                                                                 <th class="steps-default-text indicator-table-header-text" scope="col">Applicability</th>
-                                                                                <th class="steps-default-text indicator-table-header-text" scope="col">Select</th>
+                                                                                <th class="steps-default-text indicator-table-header-text w-125px" scope="col">Select</th>
                                                                                 <th class="steps-default-text indicator-table-header-text" scope="col">Actions</th>
                                                                             </tr>
                                                                         </thead>
@@ -391,10 +391,17 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                 <td>1.1.1 Effective conservation and protection of natural ecosystems</td>
                                                                                 <td><span class="steps-tags-text steps-dark-tag p-1">Core</span></td>
                                                                                 <td>
-                                                                                    <div>
+                                                                                    <div class="button b2 button-10" id="button-10">
+                                                                                        <input type="checkbox" class="switch-checkbox" />
+                                                                                        <div class="knobs">
+                                                                                            <span>Defferred</span>
+                                                                                        </div>
+                                                                                        <div class="layer"></div>
+                                                                                    </div>
+                                                                                    <!-- <div>
                                                                                         <span class="steps-tags-text deffered-tag p-2" style="margin-right: -4px;">Deffered</span>
                                                                                         <span class="steps-tags-text included-tag p-2">Included</span>
-                                                                                    </div>
+                                                                                    </div> -->
                                                                                 </td>
                                                                                 <td>
                                                                                     <a href="#" class="indicator-btn-warning align-items-center">
@@ -412,9 +419,12 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                     </div>
                                                                                 </td>
                                                                                 <td>
-                                                                                    <div>
-                                                                                        <span class="steps-tags-text deffered-tag p-2" style="margin-right: -4px;">Deffered</span>
-                                                                                        <span class="steps-tags-text included-tag-dark p-2">Included</span>
+                                                                                    <div class="button b2 button-10" id="button-10">
+                                                                                        <input type="checkbox" class="switch-checkbox" />
+                                                                                        <div class="knobs">
+                                                                                            <span>Defferred</span>
+                                                                                        </div>
+                                                                                        <div class="layer"></div>
                                                                                     </div>
                                                                                 </td>
                                                                                 <td>
@@ -428,9 +438,12 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                 <td>1.1.1 Effective conservation and protection of natural ecosystems</td>
                                                                                 <td><span class="steps-tags-text steps-optional-tag p-1">Optional</span></td>
                                                                                 <td>
-                                                                                    <div>
-                                                                                        <span class="steps-tags-text deffered-tag p-2" style="margin-right: -4px;">Deffered</span>
-                                                                                        <span class="steps-tags-text included-tag p-2">Included</span>
+                                                                                    <div class="button b2 button-10" id="button-10">
+                                                                                        <input type="checkbox" class="switch-checkbox" />
+                                                                                        <div class="knobs">
+                                                                                            <span>Defferred</span>
+                                                                                        </div>
+                                                                                        <div class="layer"></div>
                                                                                     </div>
                                                                                 </td>
                                                                                 <td>
@@ -470,7 +483,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                             <tr>
                                                                                 <th class="steps-default-text indicator-table-header-text" scope="col">Indicator</th>
                                                                                 <th class="steps-default-text indicator-table-header-text" scope="col">Applicability</th>
-                                                                                <th class="steps-default-text indicator-table-header-text" scope="col">Select</th>
+                                                                                <th class="steps-default-text indicator-table-header-text w-125px" scope="col">Select</th>
                                                                                 <th class="steps-default-text indicator-table-header-text" scope="col">Actions</th>
                                                                             </tr>
                                                                         </thead>
@@ -479,9 +492,12 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                 <td>1.1.1 Effective conservation and protection of natural ecosystems</td>
                                                                                 <td><span class="steps-tags-text steps-dark-tag p-1">Core</span></td>
                                                                                 <td>
-                                                                                    <div>
-                                                                                        <span class="steps-tags-text deffered-tag p-2" style="margin-right: -4px;">Deffered</span>
-                                                                                        <span class="steps-tags-text included-tag p-2">Included</span>
+                                                                                    <div class="button b2 button-10" id="button-10">
+                                                                                        <input type="checkbox" class="switch-checkbox" />
+                                                                                        <div class="knobs">
+                                                                                            <span>Defferred</span>
+                                                                                        </div>
+                                                                                        <div class="layer"></div>
                                                                                     </div>
                                                                                 </td>
                                                                                 <td>
@@ -495,9 +511,12 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                 <td>1.1.1 Effective conservation and protection of natural ecosystems</td>
                                                                                 <td><span class="steps-tags-text steps-dark-tag p-1">Core</span></td>
                                                                                 <td>
-                                                                                    <div>
-                                                                                        <span class="steps-tags-text deffered-tag p-2" style="margin-right: -4px;">Deffered</span>
-                                                                                        <span class="steps-tags-text included-tag p-2">Included</span>
+                                                                                    <div class="button b2 button-10" id="button-10">
+                                                                                        <input type="checkbox" class="switch-checkbox" />
+                                                                                        <div class="knobs">
+                                                                                            <span>Defferred</span>
+                                                                                        </div>
+                                                                                        <div class="layer"></div>
                                                                                     </div>
                                                                                 </td>
                                                                                 <td>
@@ -511,9 +530,12 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                 <td>1.1.1 Effective conservation and protection of natural ecosystems</td>
                                                                                 <td><span class="steps-tags-text steps-dark-tag p-1">Core</span></td>
                                                                                 <td>
-                                                                                    <div>
-                                                                                        <span class="steps-tags-text deffered-tag p-2" style="margin-right: -4px;">Deffered</span>
-                                                                                        <span class="steps-tags-text included-tag p-2">Included</span>
+                                                                                    <div class="button b2 button-10" id="button-10">
+                                                                                        <input type="checkbox" class="switch-checkbox" />
+                                                                                        <div class="knobs">
+                                                                                            <span>Defferred</span>
+                                                                                        </div>
+                                                                                        <div class="layer"></div>
                                                                                     </div>
                                                                                 </td>
                                                                                 <td>
@@ -1073,12 +1095,12 @@ License: You must have a valid license purchased only from themeforest(the above
         });
 
         $('.nav-link').on('click', function() {
-            let prevActiveLink = $(this).siblings( ".active" );
+            let prevActiveLink = $(this).siblings(".active");
             let dNoneImg = prevActiveLink.find('img.d-none');
-            let visibleImg = dNoneImg.siblings('img'); 
+            let visibleImg = dNoneImg.siblings('img');
             let currentLinkDnoneImg = $(this).find('img.d-none');
             let currentLinkVisibleImg = currentLinkDnoneImg.siblings('img');
-            if(!$(this).hasClass('active')){
+            if (!$(this).hasClass('active')) {
                 dNoneImg.toggleClass('d-none');
                 visibleImg.toggleClass('d-none');
                 currentLinkDnoneImg.toggleClass('d-none');
