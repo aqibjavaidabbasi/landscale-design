@@ -375,8 +375,8 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                 </div>
                                                             </div>
 
-                                                            <div id="collapseOne-0" class="collapse show indicator-responsive-collapse" aria-labelledby="headingOne-0" data-parent="#accordionExample-0">
-                                                                <div class="mx-5 custom-card-border mb-5">
+                                                            <div id="collapseOne-0" class="collapse show" aria-labelledby="headingOne-0" data-parent="#accordionExample-0">
+                                                                <div class="mx-5 custom-card-border mb-5 indicator-responsive-collapse">
                                                                     <table class="table indicator-table">
                                                                         <thead class="steps-table-header-color">
                                                                             <tr>
@@ -476,8 +476,8 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                     <span class=" p-1"><img src="../assets/media/Vector_arrow_down.png" alt=""></span>
                                                                 </div>
                                                             </div>
-                                                            <div id="collapseTwo-0" class="collapse indicator-responsive-collapse" aria-labelledby="headingTwo-0" data-parent="#accordionExample-0">
-                                                                <div class="mx-5 custom-card-border mb-5">
+                                                            <div id="collapseTwo-0" class="collapse" aria-labelledby="headingTwo-0" data-parent="#accordionExample-0">
+                                                                <div class="mx-5 custom-card-border mb-5 indicator-responsive-collapse">
                                                                     <table class="table indicator-table">
                                                                         <thead class="steps-table-header-color">
                                                                             <tr>
