@@ -24,9 +24,9 @@
 
                 <!-- search bar start -->
                 <div class="input-group custom-search-bar ml-5">
-                    <input type="text" class="form-control input-circle-left primary-bg-color outline-0 border-0" placeholder="search for anything">
+                    <input type="text" class="form-control custom-btlr-50 custom-bblr-50 custom-bg-light-pale outline-0 border-0" placeholder="search for anything">
                     <div class="input-group-append">
-                        <span class="input-group-text input-circle-right primary-bg-color">
+                        <span class="input-group-text custom-btrr-50 custom-bbrr-50 custom-bg-light-pale">
                             <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M7.5517 0C9.74111 0.0465077 11.6163 0.864121 13.1088 2.51213C14.0713 3.57506 14.6741 4.82367 14.902 6.24304C15.2578 8.45837 14.7355 10.4493 13.3442 12.2095C13.2672 12.3068 13.28 12.354 13.363 12.4371C14.6834 13.751 16.0005 15.0685 17.3173 16.386C17.5942 16.6629 17.5995 17.0318 17.3339 17.3002C17.0599 17.5774 16.6896 17.5813 16.4059 17.2987C15.0867 15.9834 13.7695 14.6663 12.4549 13.3467C12.3747 13.2664 12.3313 13.2444 12.2302 13.3239C10.4302 14.7415 8.39274 15.2993 6.14297 14.8519C3.24245 14.2754 1.25966 12.5475 0.385246 9.7336C-0.535678 6.77096 0.210931 4.14416 2.44863 1.99522C3.85096 0.648268 5.58169 0.034082 7.5517 0ZM7.52294 1.2408C4.08101 1.24399 1.28948 4.03446 1.28274 7.47851C1.27635 10.9233 4.07888 13.724 7.53039 13.7219C10.9844 13.7198 13.7717 10.9258 13.766 7.4707C13.7607 4.02807 10.9645 1.2376 7.52294 1.2408Z" fill="#4C94A0" />
                             </svg>

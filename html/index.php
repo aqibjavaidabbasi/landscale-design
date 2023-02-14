@@ -129,22 +129,22 @@ License: You must have a valid license purchased only from themeforest(the above
                 <div class="d-flex flex-column flex-column-fluid" id="kt_content">
                     <!--begin::Subheader-->
                     <div class="container">
-                        <div class="breadcrumb-nav">
-                            <a href="#">Main /</a>
-                            <span>Assessments</span>
+                        <div class="py-5">
+                            <a href="#" class="custom-font-style-text custom-text-grey">Main /</a>
+                            <span class="custom-font-style-text custom-text-primary">Assessments</span>
                         </div>
                         <div class="row">
                             <div class="col-md-12">
                                 <div class="card w-100 p-5">
                                     <div class="row p-5">
-                                        <div class="col-md-5">
-                                            <div class="card w-100 rounded p-5 card-color">
+                                        <div class="col-lg-5 col-md-12 col-sm-12 col-xs-12">
+                                            <div class="card w-100 h-100 p-5 custom-bg-grey">
                                                 <div class="row mb-5 ml-5">
                                                     <div class="col-md-12 mt-5">
-                                                        <h2 class="card_title mt-4">Welcome to the LandScale</h2>
-                                                        <p class="pb-3">Select an assessment or create a new assessment
+                                                        <h2 class="custom-font-family custom-font-style-headings custom-text-primary mt-4">Welcome to the LandScale</h2>
+                                                        <p class="custom-font-family custom-font-style-text custom-text-grey pb-3">Select an assessment or create a new assessment
                                                         </p>
-                                                        <a href="./new_assestment.php" class="btn-card d-flex justify-content-center my-5 align-items-center">
+                                                        <a href="./overview.php" class="custom-btn-grey d-flex justify-content-center w-75 my-5 align-items-center">
                                                             <span class="pr-2">
                                                                 <svg width="21" height="19" viewBox="0 0 21 19" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                                     <path d="M10.4413 18.9917C7.9664 18.9917 5.49153 18.9961 3.01755 18.9899C1.54313 18.9863 0.44931 18.1655 0.0909304 16.8254C0.0126737 16.5328 0.0206772 16.2384 0.0206772 15.9441C0.0162308 11.648 0.051802 7.35097 0.000223722 3.05486C-0.0193405 1.367 1.24611 -0.0345043 3.06291 0.00106694C4.48487 0.0295239 5.90772 0.0197418 7.32967 0.000177663C7.87658 -0.00693658 8.25364 0.199377 8.53999 0.660913C8.92949 1.28786 9.36257 1.88812 9.75652 2.5124C9.91481 2.76317 10.09 2.86188 10.3968 2.8601C12.901 2.84588 15.4052 2.84588 17.9094 2.85477C19.3465 2.8601 20.4395 3.69692 20.7934 5.01928C20.8716 5.31185 20.8636 5.6062 20.8636 5.90056C20.8672 9.2487 20.8263 12.5977 20.8832 15.945C20.9117 17.5821 19.6764 19.0254 17.8196 18.9997C15.3608 18.9668 12.901 18.9917 10.4413 18.9917ZM10.4582 17.0753C12.917 17.0753 15.375 17.0779 17.8339 17.0744C18.6547 17.0735 18.9775 16.7391 18.9775 15.9112C18.9784 12.6235 18.9775 9.33674 18.9775 6.04907C18.9775 5.03706 18.7062 4.76761 17.6853 4.76761C15.0344 4.76672 12.3835 4.76228 9.73251 4.77206C9.22829 4.77384 8.85835 4.60576 8.58534 4.16824C8.17983 3.51728 7.73163 2.89212 7.32078 2.24383C7.17138 2.00728 7.00865 1.91035 6.71785 1.9148C5.51821 1.93436 4.31857 1.92102 3.11893 1.92369C2.2003 1.92547 1.90684 2.22338 1.90684 3.15001C1.90684 7.38476 1.90684 11.6195 1.90684 15.8543C1.90684 16.7711 2.20742 17.0744 3.12693 17.0744C5.57068 17.077 8.01442 17.0753 10.4582 17.0753Z" fill="white" />
@@ -160,10 +160,10 @@ License: You must have a valid license purchased only from themeforest(the above
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-md-7">
-                                            <div class="card w-100 rounded p-5 card-bg-color">
+                                        <div class="col-lg-7 col-md-12 col-sm-12 col-xs-12">
+                                            <div class="card w-100 h-100 p-5 custom-bg-pale">
                                                 <div class="row d-flex align-items-center">
-                                                    <div class="col-md-6">
+                                                    <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
                                                         <div class="box-colors">
                                                             <ul>
                                                                 <li>
@@ -181,7 +181,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                             </ul>
                                                         </div>
                                                     </div>
-                                                    <div class="col-md-6">
+                                                    <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
                                                         <div id="chart">
                                                         </div>
                                                     </div>
@@ -192,21 +192,21 @@ License: You must have a valid license purchased only from themeforest(the above
                                     <div class="row p-5">
                                         <div class="col-md-12">
                                             <div class="d-flex justify-content-between py-5">
-                                                <h3 class="">
+                                                <h3 class="custom-font-style-headings">
                                                     Assessments
                                                 </h3>
                                                 <div class="d-flex">
                                                     <!--begin::Dropdown-->
-                                                    <button type="button" class="btn btn-primary font-weight-bolder blt-10 blb-10 tablinks" onclick="openCity(event, 'table_view')">
+                                                    <button type="button" class="btn btn-light-primary font-weight-bolder custom-btlr-11 custom-bblr-11 tablinks active" onclick="openCity(event, 'table_view')">
                                                         <span class="svg-icon svg-icon-md">
                                                             <!--begin::Svg Icon | path:/metronic/theme/html/demo1/dist/assets/media/svg/icons/Design/Flatten.svg-->
                                                             <svg width="24" height="19" viewBox="0 0 24 19" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                                <path d="M15.1306 11.698C12.9454 11.698 10.7601 11.7043 8.5749 11.6955C7.31597 11.6906 6.33318 10.7352 6.31937 9.53206C6.30494 8.29649 7.28585 7.32061 8.57616 7.30816C9.74722 7.29695 10.9183 7.30504 12.0894 7.30504C15.2781 7.30504 18.4675 7.3038 21.6562 7.30567C22.8311 7.30629 23.7398 8.01624 23.9469 9.08429C24.2143 10.4625 23.1769 11.6887 21.7184 11.6955C19.5218 11.7049 17.3265 11.698 15.1306 11.698Z" fill="#EBF2E4" />
-                                                                <path d="M15.1664 14.6226C17.3516 14.6226 19.5369 14.6163 21.7221 14.625C22.875 14.6294 23.763 15.3587 23.9507 16.423C24.1923 17.7931 23.1618 18.9888 21.714 18.995C19.6436 19.0043 17.5732 18.9981 15.5028 18.9981C13.2027 18.9981 10.902 19.0025 8.60189 18.9962C7.30907 18.9925 6.31561 18.0285 6.31812 16.8016C6.32063 15.6383 7.25008 14.6462 8.42178 14.6344C10.6698 14.6113 12.9178 14.6275 15.1658 14.6275C15.1664 14.6257 15.1664 14.6238 15.1664 14.6226Z" fill="#EBF2E4" />
-                                                                <path d="M15.1507 4.37991C12.9655 4.37991 10.7803 4.38676 8.5944 4.37741C7.28024 4.37181 6.2987 3.40029 6.31878 2.15414C6.33887 0.946591 7.33609 0.00683502 8.61887 0.00558948C11.8603 0.00123011 15.1018 0.00434395 18.3433 0.00434395C19.4829 0.00434395 20.6226 -0.00686586 21.7623 0.00932608C22.6635 0.0224042 23.3551 0.425957 23.7555 1.23493C24.1566 2.04453 24.0593 2.8342 23.5108 3.54789C23.0551 4.14014 22.4257 4.38676 21.6763 4.38364C19.5005 4.3743 17.3259 4.37991 15.1507 4.37991Z" fill="#EBF2E4" />
-                                                                <path d="M4.41968 9.49905C4.42031 10.6973 3.40174 11.703 2.19553 11.6962C0.994962 11.6893 0.000872015 10.696 0.000244433 9.50341C-0.000383149 8.29711 1.00877 7.29944 2.22189 7.30691C3.41743 7.31438 4.41905 8.3133 4.41968 9.49905Z" fill="#EBF2E4" />
-                                                                <path d="M4.41969 16.7948C4.42597 17.9967 3.41744 18.9975 2.20244 18.9944C0.994347 18.9919 0.00716049 18.0141 0.000884669 16.8147C-0.00539115 15.6121 0.967989 14.6356 2.18299 14.625C3.41744 14.6145 4.41404 15.581 4.41969 16.7948Z" fill="#EBF2E4" />
-                                                                <path d="M2.19861 4.37742C0.968551 4.3687 -0.00985005 3.38971 0.00081885 2.17905C0.0114877 0.970256 1.01938 -0.00935649 2.23438 0.00683545C3.44813 0.0230274 4.43783 1.02942 4.42025 2.23011C4.40205 3.42583 3.40922 4.38613 2.19861 4.37742Z" fill="#EBF2E4" />
+                                                                <path d="M15.1306 11.698C12.9454 11.698 10.7601 11.7043 8.5749 11.6955C7.31597 11.6906 6.33318 10.7352 6.31937 9.53206C6.30494 8.29649 7.28585 7.32061 8.57616 7.30816C9.74722 7.29695 10.9183 7.30504 12.0894 7.30504C15.2781 7.30504 18.4675 7.3038 21.6562 7.30567C22.8311 7.30629 23.7398 8.01624 23.9469 9.08429C24.2143 10.4625 23.1769 11.6887 21.7184 11.6955C19.5218 11.7049 17.3265 11.698 15.1306 11.698Z" fill="#4C94A0" />
+                                                                <path d="M15.1664 14.6226C17.3516 14.6226 19.5369 14.6163 21.7221 14.625C22.875 14.6294 23.763 15.3587 23.9507 16.423C24.1923 17.7931 23.1618 18.9888 21.714 18.995C19.6436 19.0043 17.5732 18.9981 15.5028 18.9981C13.2027 18.9981 10.902 19.0025 8.60189 18.9962C7.30907 18.9925 6.31561 18.0285 6.31812 16.8016C6.32063 15.6383 7.25008 14.6462 8.42178 14.6344C10.6698 14.6113 12.9178 14.6275 15.1658 14.6275C15.1664 14.6257 15.1664 14.6238 15.1664 14.6226Z" fill="#4C94A0" />
+                                                                <path d="M15.1507 4.37991C12.9655 4.37991 10.7803 4.38676 8.5944 4.37741C7.28024 4.37181 6.2987 3.40029 6.31878 2.15414C6.33887 0.946591 7.33609 0.00683502 8.61887 0.00558948C11.8603 0.00123011 15.1018 0.00434395 18.3433 0.00434395C19.4829 0.00434395 20.6226 -0.00686586 21.7623 0.00932608C22.6635 0.0224042 23.3551 0.425957 23.7555 1.23493C24.1566 2.04453 24.0593 2.8342 23.5108 3.54789C23.0551 4.14014 22.4257 4.38676 21.6763 4.38364C19.5005 4.3743 17.3259 4.37991 15.1507 4.37991Z" fill="#4C94A0" />
+                                                                <path d="M4.41968 9.49905C4.42031 10.6973 3.40174 11.703 2.19553 11.6962C0.994962 11.6893 0.000872015 10.696 0.000244433 9.50341C-0.000383149 8.29711 1.00877 7.29944 2.22189 7.30691C3.41743 7.31438 4.41905 8.3133 4.41968 9.49905Z" fill="#4C94A0" />
+                                                                <path d="M4.41969 16.7948C4.42597 17.9967 3.41744 18.9975 2.20244 18.9944C0.994347 18.9919 0.00716049 18.0141 0.000884669 16.8147C-0.00539115 15.6121 0.967989 14.6356 2.18299 14.625C3.41744 14.6145 4.41404 15.581 4.41969 16.7948Z" fill="#4C94A0" />
+                                                                <path d="M2.19861 4.37742C0.968551 4.3687 -0.00985005 3.38971 0.00081885 2.17905C0.0114877 0.970256 1.01938 -0.00935649 2.23438 0.00683545C3.44813 0.0230274 4.43783 1.02942 4.42025 2.23011C4.40205 3.42583 3.40922 4.38613 2.19861 4.37742Z" fill="#4C94A0" />
                                                             </svg>
 
                                                             <!--end::Svg Icon--></span>
@@ -215,7 +215,7 @@ License: You must have a valid license purchased only from themeforest(the above
 
                                                     <!--begin::Button-->
 
-                                                    <button type="button" class="btn btn-light-primary font-weight-bolder brt-10 brb-10 tablinks" onclick="openCity(event, 'grid_view')">
+                                                    <button type="button" class="btn btn-light-primary font-weight-bolder custom-btrr-11 custom-bbrr-11 tablinks" onclick="openCity(event, 'grid_view')">
                                                         <span class="svg-icon svg-icon-md">
                                                             <!--begin::Svg Icon | path:/metronic/theme/html/demo1/dist/assets/media/svg/icons/Design/PenAndRuller.svg-->
                                                             <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -240,9 +240,10 @@ License: You must have a valid license purchased only from themeforest(the above
                                                 <!--begin: Datatable-->
                                                 <div id="kt_datatable_wrapper" class="dataTables_wrapper dt-bootstrap4 no-footer">
                                                     <div class="row my-5">
-                                                        <div class="col-sm-12 col-md-9">
+                                                        <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12">
                                                             <div class="dataTables_length" id="kt_datatable_length">
-                                                                <label class="entries-label">Show <select name="kt_datatable_length" aria-controls="kt_datatable" class="custom-select custom-select-sm bg-table-entries">
+                                                                <label class="entries-label">Show 
+                                                                    <select name="kt_datatable_length" aria-controls="kt_datatable" class="custom-select custom-select-sm custom-bg-light-pale custom-border-radius-0">
                                                                         <option value="10">10</option>
                                                                         <option value="25">25</option>
                                                                         <option value="50">50</option>
@@ -250,12 +251,12 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                     </select> entries</label>
                                                             </div>
                                                         </div>
-                                                        <div class="col-sm-12 col-md-3">
+                                                        <div class="col-lg-3 col-md-3 col-sm-9 col-xs-12">
                                                             <div id="kt_datatable_filter" class="dataTables_filter">
                                                                 <div class="input-group custom-search-bar table-searchbar">
-                                                                    <input type="text" class="form-control input-circle-left filter-bg-light outline-0 border-0 w-50" placeholder="search for anything">
+                                                                    <input type="text" class="form-control custom-btlr-50 custom-bblr-50 custom-bg-light-grey outline-0 border-0 w-50" placeholder="search for anything">
                                                                     <div class="input-group-append">
-                                                                        <span class="input-group-text input-circle-right filter-bg-light">
+                                                                        <span class="input-group-text custom-btrr-50 custom-bbrr-50 custom-bg-light-grey">
                                                                             <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                                                 <path d="M7.5517 0C9.74111 0.0465077 11.6163 0.864121 13.1088 2.51213C14.0713 3.57506 14.6741 4.82367 14.902 6.24304C15.2578 8.45837 14.7355 10.4493 13.3442 12.2095C13.2672 12.3068 13.28 12.354 13.363 12.4371C14.6834 13.751 16.0005 15.0685 17.3173 16.386C17.5942 16.6629 17.5995 17.0318 17.3339 17.3002C17.0599 17.5774 16.6896 17.5813 16.4059 17.2987C15.0867 15.9834 13.7695 14.6663 12.4549 13.3467C12.3747 13.2664 12.3313 13.2444 12.2302 13.3239C10.4302 14.7415 8.39274 15.2993 6.14297 14.8519C3.24245 14.2754 1.25966 12.5475 0.385246 9.7336C-0.535678 6.77096 0.210931 4.14416 2.44863 1.99522C3.85096 0.648268 5.58169 0.034082 7.5517 0ZM7.52294 1.2408C4.08101 1.24399 1.28948 4.03446 1.28274 7.47851C1.27635 10.9233 4.07888 13.724 7.53039 13.7219C10.9844 13.7198 13.7717 10.9258 13.766 7.4707C13.7607 4.02807 10.9645 1.2376 7.52294 1.2408Z" fill="#4C94A0" />
                                                                             </svg>
@@ -266,76 +267,147 @@ License: You must have a valid license purchased only from themeforest(the above
                                                         </div>
                                                     </div>
                                                     <div class="row">
-                                                        <div class="col-md-3 pr-1">
-                                                            <div class="card rounded filter-card-borders">
-                                                                <div class="filter-bg-dark filter-borders">
-                                                                    <span class="filter-card-font text-light d-inline-block p-4">Filters</span>
-                                                                </div>
-                                                                <!-- <div class="filter-borders">
-                                                                    <div class="input-group custom-search-bar">
-                                                                        <input type="text" class="form-control primary-bg-color outline-0 border-0 w-50" placeholder="Search">
-                                                                        <div class="input-group-append">
-                                                                            <span class="input-group-text border-radius-0 primary-bg-color">
-                                                                                <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                                                    <path d="M7.5517 0C9.74111 0.0465077 11.6163 0.864121 13.1088 2.51213C14.0713 3.57506 14.6741 4.82367 14.902 6.24304C15.2578 8.45837 14.7355 10.4493 13.3442 12.2095C13.2672 12.3068 13.28 12.354 13.363 12.4371C14.6834 13.751 16.0005 15.0685 17.3173 16.386C17.5942 16.6629 17.5995 17.0318 17.3339 17.3002C17.0599 17.5774 16.6896 17.5813 16.4059 17.2987C15.0867 15.9834 13.7695 14.6663 12.4549 13.3467C12.3747 13.2664 12.3313 13.2444 12.2302 13.3239C10.4302 14.7415 8.39274 15.2993 6.14297 14.8519C3.24245 14.2754 1.25966 12.5475 0.385246 9.7336C-0.535678 6.77096 0.210931 4.14416 2.44863 1.99522C3.85096 0.648268 5.58169 0.034082 7.5517 0ZM7.52294 1.2408C4.08101 1.24399 1.28948 4.03446 1.28274 7.47851C1.27635 10.9233 4.07888 13.724 7.53039 13.7219C10.9844 13.7198 13.7717 10.9258 13.766 7.4707C13.7607 4.02807 10.9645 1.2376 7.52294 1.2408Z" fill="#4C94A0"></path>
-                                                                                </svg>
-                                                                            </span>
+                                                        <div class="col-lg-3 col-md-12 col-sm-12 col-xs-12 pr-1">
+                                                            <div class="card card-custom card-border gutter-b card-shadowless" id="sub_menu_wizard">
+                                                                <div class="custom-bg-light-pale custom-padding-15" style="position: -webkit-sticky;position: sticky; top: 0px;">
+                                                                    <div class="row justify-content-between">
+                                                                        <div class="col-md-6">
+                                                                            <h4 class="custom-font-family custom-font-style-subheadings">Filters</h4>
                                                                         </div>
-                                                                    </div>
-                                                                </div> -->
-                                                                <div class="filter-borders filter-bg-light">
-                                                                    <div class="p-5 btn-tags">
-                                                                        <span class="filter-card-font d-block mb-5">Related
-                                                                            Pillars:</span>
-                                                                        <button class="btn bg-white-btn font-btn border-radius-50">Ecosystems</button>
-                                                                        <button class="btn bg-primary text-light my-4 font-btn border-radius-50">Human
-                                                                            Well-being</button>
+                                                                        <div class="col-md-6" style="text-align: right;"><a class="btn btn-secondary btn-sm btn-text-white btn-hover-primary" id="btn_clear_all" style="display:none">{!!trans('data_resources.label_clear_filter')!!}</a></div>
                                                                     </div>
                                                                 </div>
-                                                                <div class="filter-borders filter-bg-light">
-                                                                    <div class="p-5 pb-0 btn-tags">
-                                                                        <span class="filter-card-font d-inline-block mb-5">Related
-                                                                            Indicators:</span>
-                                                                        <div class="form-group">
-                                                                            <div class="select-wrapper">
-                                                                                <select class="form-control bg-primary text-light border-radius-50">
-                                                                                    <option>None Selected</option>
-                                                                                    <option>Selected</option>
-                                                                                </select>
+                                                                <div class="card-body pt-2 mt-5" id="filters_body">
+                                                                    <div class="demo-assessment mb-5"><!-- indicators filter -->
+                                                                        <div class="row justify-content-between">
+                                                                            <div class="col-md-8"><label class="">Country:</label></div>
+                                                                            <div class="col-md-4" style="text-align: right;"><i class="fas fa-filter"></i><span id="table-filter-indicators-total"></span></div>
+                                                                        </div>
+                                                                        <select id="table-filter-country_map" class="form-control"> <!-- select input with unique countries of the assessment -->
+                                                                        </select>
+                                                                    </div>
+                                                                    
+                                                                    <div class="demo-assessment mb-5"><!-- indicators filter -->
+                                                                        <div class="row justify-content-between">
+                                                                            <div class="col-md-8"><label class="">Continent:</label></div>
+                                                                            <div class="col-md-4" style="text-align: right;"><i class="fas fa-filter"></i><span id="table-filter-indicators-total"></span></div>
+                                                                        </div>
+                                                                        <select id="table-filter-continent_map" class="form-control"> <!-- select input with unique countries of the assessment -->
+                                                                        </select>
+                                                                    </div>
+                                                                    <div class="demo-assessment mb-5"><!-- indicators filter -->
+                                                                        <div class="row justify-content-between">
+                                                                            <div class="col-md-8"><label class="">Test Assessments:</label></div>
+                                                                            <div class="col-md-4" style="text-align: right;"><i class="fas fa-filter"></i><span id="table-filter-indicators-total"></span></div>
+                                                                        </div>
+                                                                        <div id="test_filters_map">
+                                                                            <div class="d-inline">
+                                                                                <input type="checkbox" class="btn-check filter_test_map" value="{!!trans('general.filter_test_val')!!}" name="test_filter_map" id="test_map" autocomplete="off">
+                                                                                <label class="mr-1 btn btn-outline-primary btn-sm custom-border-radius-0" for="test_map">Test</label>
                                                                             </div>
-                                                                        </div>
-                                                                        <span class="filter-card-font d-inline-block mb-5">Related
-                                                                            Metrics:</span>
-                                                                        <div class="form-group">
-                                                                            <div class="select-wrapper">
-                                                                                <select class="form-control bg-primary text-light border-radius-50">
-                                                                                    <option>None Selected</option>
-                                                                                    <option>Selected</option>
-                                                                                </select>
+
+                                                                            <div class="d-inline">
+                                                                                <input type="checkbox" class="btn-check filter_test_map" value="{!!trans('general.filter_test_val2')!!}" name="test_filter_map" id="official_map" autocomplete="off">
+                                                                                <label class="mr-1 btn btn-outline-primary btn-sm custom-border-radius-0" for="official_map">Official</label>
                                                                             </div>
+
                                                                         </div>
                                                                     </div>
-                                                                </div>
-                                                                <div>
-                                                                    <div class="p-5 btn-tags filter-bg-light custom-border-bottom-10">
-                                                                        <span class="filter-card-font d-block mb-5">Resource
-                                                                            type:</span>
-                                                                        <button class="btn bg-white-btn font-btn border-radius-50">Data
-                                                                            Collection Tool</button>
-                                                                        <button class="btn bg-primary text-light my-4 font-btn border-radius-50">Guidelines/Frameworks</button>
-                                                                        <button class="btn bg-white-btn font-btn border-radius-50">Ecosystems</button>
-                                                                        <button class="btn bg-white-btn font-btn border-radius-50">Ecosystems</button>
+                                                                    <div class="demo-assessment mb-5"><!-- indicators filter -->
+                                                                        <div class="row justify-content-between">
+                                                                            <div class="col-md-8"><label class="">Assigned tasks to:</label></div>
+                                                                            <div class="col-md-4" style="text-align: right;"><i class="fas fa-filter"></i><span id="table-filter-indicators-total"></span></div>
+                                                                        </div>
+                                                                        <select id="table-filter-user_map" class="form-control"> <!-- select input with unique countries of the assessment -->
+                                                                        </select>
                                                                     </div>
+                                                                    <div class="demo-assessment mb-5"><!-- indicators filter -->
+                                                                        <div class="row justify-content-between">
+                                                                            <div class="col-md-8"><label class="">Assessment contact:</label></div>
+                                                                            <div class="col-md-4" style="text-align: right;"><i class="fas fa-filter"></i><span id="table-filter-indicators-total"></span></div>
+                                                                        </div>
+                                                                        <select id="table-filter-concat_user_map" class="form-control"> <!-- select input with unique countries of the assessment -->
+
+                                                                        </select>
+
+                                                                    </div>
+                                                                    
+                                                                    <div class="demo-assessment mb-5"><!-- indicators filter -->
+                                                                        <div class="row justify-content-between">
+                                                                            <div class="col-md-8"><label class="">Assessments:</label></div>
+                                                                            <div class="col-md-4" style="text-align: right;"><i class="fas fa-filter"></i><span id="table-filter-indicators-total"></span></div>
+                                                                        </div>
+                                                                        <select id="table-filter-name_map" class="form-control"> <!-- select input with unique countries of the assessment -->
+                                                                        </select>
+
+                                                                    </div>
+                                                                    <div class="demo-assessment mb-5"><!-- indicators filter -->
+                                                                        <div class="row justify-content-between">
+                                                                            <div class="col-md-8"><label class="">Steps completed:</label></div>
+                                                                            <div class="col-md-4" style="text-align: right;"><i class="fas fa-filter"></i><span id="table-filter-indicators-total"></span></div>
+                                                                        </div>
+                                                                        <div id="filter_steps_map">
+                                                                            <div class="step-custom-filter d-inline">
+                                                                                <input type="radio" class="btn-check filter_div_map" value="0" name="steps_map" id="step-map-0" autocomplete="off">
+                                                                                <label class="mr-1 btn btn-outline-primary btn-sm custom-border-radius-0" for="step-map-0">Step 0 (in process)</label>
+                                                                            </div>
+
+                                                                            <div class="step-custom-filter d-inline">
+                                                                                <input type="radio" class="btn-check filter_div_map" value="9" name="steps_map" id="step-map-9" autocomplete="off">
+                                                                                <label class="mr-1 btn btn-outline-primary btn-sm custom-border-radius-0" for="step-map-9">Plan change (pending)</label>
+                                                                            </div>
+
+                                                                            <div class="step-custom-filter d-inline">
+                                                                                <input type="radio" class="btn-check filter_div_map" value="1" name="steps_map" id="step-map-1" autocomplete="off">
+                                                                                <label class="mr-1 btn btn-outline-primary btn-sm custom-border-radius-0" for="step-map-1">Step 1</label>
+                                                                            </div>
+
+                                                                            <div class="step-custom-filter d-inline">
+                                                                                <input type="radio" class="btn-check filter_div_map" value="2" name="steps_map" id="step-map-2" autocomplete="off">
+                                                                                <label class="mr-1 btn btn-outline-primary btn-sm custom-border-radius-0" for="step-map-2">Step 2</label>
+                                                                            </div>
+
+                                                                            <div class="step-custom-filter d-inline">
+                                                                                <input type="radio" class="btn-check filter_div_map" value="3" name="steps_map" id="step-map-3" autocomplete="off">
+                                                                                <label class="mr-1 btn btn-outline-primary btn-sm custom-border-radius-0" for="step-map-3">Step 3</label>
+                                                                            </div>
+
+                                                                            <div class="step-custom-filter d-inline">
+                                                                                <input type="radio" class="btn-check filter_div_map" value="4" name="steps_map" id="step-map-4" autocomplete="off">
+                                                                                <label class="mr-1 btn btn-outline-primary btn-sm custom-border-radius-0" for="step-map-4">Step 4</label>
+                                                                            </div>
+
+                                                                            <div class="step-custom-filter d-inline">
+                                                                                <input type="radio" class="btn-check filter_div_map" value="5" name="steps_map" id="step-map-5" autocomplete="off">
+                                                                                <label class="mr-1 btn btn-outline-primary btn-sm custom-border-radius-0" for="step-map-5">Step 5</label>
+                                                                            </div>
+
+                                                                            <div class="step-custom-filter d-inline">
+                                                                                <input type="radio" class="btn-check filter_div_map" value="7" name="steps_map" id="step-map-7" autocomplete="off">
+                                                                                <label class="mr-1 btn btn-outline-primary btn-sm custom-border-radius-0" for="step-map-7">Assessment Expired</label>
+                                                                            </div>
+
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="demo-assessment mb-5"><!-- indicators filter -->
+                                                                        <div class="row justify-content-between">
+                                                                            <div class="col-md-8"><label class="">Status:</label></div>
+                                                                            <div class="col-md-4" style="text-align: right;"><i class="fas fa-filter"></i><span id="table-filter-indicators-total"></span></div>
+                                                                        </div>
+                                                                        <select id="table-filter-status_map" class="form-control"> <!-- select input with unique status of the assessment  -->
+                                                                            <option value="">All</option>
+                                                                        </select>
+                                                                    </div>
+
                                                                 </div>
                                                             </div>
                                                         </div>
-                                                        <div class="col-md-9 pl-1">
+                                                        <div class="col-lg-9 col-md-12 col-sm-12 col-xs-12 pl-1">
                                                             <div id="table_view" class="tabcontent">
                                                                 <div class="row">
-                                                                    <div class="col-sm-12 table-margin mob-style">
-                                                                        <!-- aria-describedby="kt_datatable_info"  -->
-                                                                        <table class="table table-separate table-radius table-head-custom table-checkable dataTable no-footer dtr-inline filter-card-borders" id="kt_datatable" role="grid" style="width: 1151px;">
-                                                                            <thead class="header-table">
+                                                                    <div class="col-sm-12 table-margin custom-responsive-overflow-scroll">
+                                                                        <table class="table table-separate table-head-custom table-checkable dataTable no-footer dtr-inline custom-border-radius-0" id="kt_datatable" role="grid" style="width: 1151px; margin-top: 0px !important;">
+                                                                            <thead class="custom-bg-light-pale">
                                                                                 <tr>
                                                                                     <th class="sorting sorting_asc" tabindex="0" aria-controls="kt_datatable" rowspan="1" colspan="1" style="width: 56px;" aria-sort="ascending">
                                                                                         Record ID</th>
@@ -413,244 +485,245 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                     </div>
                                                                 </div>
                                                             </div>
+                                                            <div class="row"></div>
                                                             <div id="grid_view" class="tabcontent">
                                                                 <div class="row ml-4">
                                                                     <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12 grid-card">
-                                                                        <img src="../assets/media/map_img1.png" class="grid-card-img" alt="">
+                                                                        <img src="../assets/media/map_img1.png" class="w-100 custom-border-radius-15 p-1" alt="">
                                                                         <div class="p-4">
-                                                                            <h6 class="grid-card-heading-text">Jacob Michael</h6>
-                                                                            <span class="grid-card-sub-text">Not Plan yet!</span>
+                                                                            <h6 class="custom-font-style-subheadings">Jacob Michael</h6>
+                                                                            <span class="custom-font-style-small">Not Plan yet!</span>
                                                                         </div>
                                                                         <div class="d-flex px-4">
-                                                                            <span class="grid-card-icon">
-                                                                                <img src="../assets/media/world-grid.png" alt="">
+                                                                            <span class="custom-sm-icon custom-bg-light-pale">
+                                                                                <img src="../assets/media/world-grid.png" class="custom-vertical-align-unset" alt="">
                                                                             </span>
-                                                                            <span class="">Country: Florida</span>
+                                                                            <span class="custom-font-style-small">Country: Florida</span>
                                                                         </div>
                                                                         <div class="d-flex px-4 mt-3">
-                                                                            <span class="grid-card-icon">
-                                                                                <img src="../assets/media/phone.png" alt="">
+                                                                            <span class="custom-sm-icon custom-bg-light-pale">
+                                                                                <img src="../assets/media/phone.png" class="custom-vertical-align-unset" alt="">
                                                                             </span>
-                                                                            <span class="">Assessment Contact: +1 202 555 0156</span>
+                                                                            <span class="custom-font-style-small">Assessment Contact: +1 202 555 0156</span>
                                                                         </div>
 
                                                                         <div class="d-flex justify-content-between align-items-center my-5 px-4">
-                                                                            <span class="grid-card-date-tag">
+                                                                            <span class="custom-font-style-small custom-bg-light-grey px-5 py-2">
                                                                                 2022-12-07
                                                                             </span>
-                                                                            <span class="grid-card-status-tag">Completed</span>
+                                                                            <span class="custom-bg-light-pale custom-font-style-small custom-bg-light-grey px-5 py-2">Completed</span>
                                                                         </div>
                                                                     </div>
                                                                     <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12 grid-card mx-3 responsive-margin-grid">
-                                                                        <img src="../assets/media/map_img1.png" class="grid-card-img" alt="">
+                                                                        <img src="../assets/media/map_img1.png" class="w-100 custom-border-radius-15 p-1" alt="">
                                                                         <div class="p-4">
-                                                                            <h6 class="grid-card-heading-text">Jacob Michael</h6>
-                                                                            <span class="grid-card-sub-text">Not Plan yet!</span>
+                                                                            <h6 class="custom-font-style-subheadings">Jacob Michael</h6>
+                                                                            <span class="custom-font-style-small">Not Plan yet!</span>
                                                                         </div>
                                                                         <div class="d-flex px-4">
-                                                                            <span class="grid-card-icon">
-                                                                                <img src="../assets/media/world-grid.png" alt="">
+                                                                            <span class="custom-sm-icon custom-bg-light-pale">
+                                                                                <img src="../assets/media/world-grid.png" class="custom-vertical-align-unset" alt="">
                                                                             </span>
-                                                                            <span class="">Country: Florida</span>
+                                                                            <span class="custom-font-style-small">Country: Florida</span>
                                                                         </div>
                                                                         <div class="d-flex px-4 mt-3">
-                                                                            <span class="grid-card-icon">
+                                                                            <span class="custom-sm-icon custom-bg-light-pale">
                                                                                 <img src="../assets/media/phone.png" alt="">
                                                                             </span>
-                                                                            <span class="">Assessment Contact: +1 202 555 0156</span>
+                                                                            <span class="custom-font-style-small">Assessment Contact: +1 202 555 0156</span>
                                                                         </div>
 
                                                                         <div class="d-flex justify-content-between align-items-center my-5 px-4">
-                                                                            <span class="grid-card-date-tag">
+                                                                            <span class="custom-font-style-small custom-bg-light-grey px-5 py-2">
                                                                                 2022-12-07
                                                                             </span>
-                                                                            <span class="grid-card-status-tag">Completed</span>
+                                                                            <span class="custom-bg-light-pale custom-font-style-small custom-bg-light-grey px-5 py-2">Completed</span>
                                                                         </div>
                                                                     </div>
                                                                     <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12 grid-card">
-                                                                        <img src="../assets/media/map_img1.png" class="grid-card-img" alt="">
+                                                                        <img src="../assets/media/map_img1.png" class="w-100 custom-border-radius-15 p-1" alt="">
                                                                         <div class="p-4">
-                                                                            <h6 class="grid-card-heading-text">Jacob Michael</h6>
-                                                                            <span class="grid-card-sub-text">Not Plan yet!</span>
+                                                                            <h6 class="custom-font-style-subheadings">Jacob Michael</h6>
+                                                                            <span class="custom-font-style-small">Not Plan yet!</span>
                                                                         </div>
                                                                         <div class="d-flex px-4">
-                                                                            <span class="grid-card-icon">
-                                                                                <img src="../assets/media/world-grid.png" alt="">
+                                                                            <span class="custom-sm-icon custom-bg-light-pale">
+                                                                                <img src="../assets/media/world-grid.png" class="custom-vertical-align-unset" alt="">
                                                                             </span>
-                                                                            <span class="">Country: Florida</span>
+                                                                            <span class="custom-font-style-small">Country: Florida</span>
                                                                         </div>
                                                                         <div class="d-flex px-4 mt-3">
-                                                                            <span class="grid-card-icon">
+                                                                            <span class="custom-sm-icon custom-bg-light-pale">
                                                                                 <img src="../assets/media/phone.png" alt="">
                                                                             </span>
-                                                                            <span class="">Assessment Contact: +1 202 555 0156</span>
+                                                                            <span class="custom-font-style-small">Assessment Contact: +1 202 555 0156</span>
                                                                         </div>
 
                                                                         <div class="d-flex justify-content-between align-items-center my-5 px-4">
-                                                                            <span class="grid-card-date-tag">
+                                                                            <span class="custom-font-style-small custom-bg-light-grey px-5 py-2">
                                                                                 2022-12-07
                                                                             </span>
-                                                                            <span class="grid-card-status-tag">Completed</span>
+                                                                            <span class="custom-bg-light-pale custom-font-style-small custom-bg-light-grey px-5 py-2">Completed</span>
                                                                         </div>
                                                                     </div>
                                                                 </div>
                                                                 <div class="row ml-4 my-5">
                                                                     <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12 grid-card">
-                                                                        <img src="../assets/media/map_img1.png" class="grid-card-img" alt="">
+                                                                        <img src="../assets/media/map_img1.png" class="w-100 custom-border-radius-15 p-1" alt="">
                                                                         <div class="p-4">
-                                                                            <h6 class="grid-card-heading-text">Jacob Michael</h6>
-                                                                            <span class="grid-card-sub-text">Not Plan yet!</span>
+                                                                            <h6 class="custom-font-style-subheadings">Jacob Michael</h6>
+                                                                            <span class="custom-font-style-small">Not Plan yet!</span>
                                                                         </div>
                                                                         <div class="d-flex px-4">
-                                                                            <span class="grid-card-icon">
-                                                                                <img src="../assets/media/world-grid.png" alt="">
+                                                                            <span class="custom-sm-icon custom-bg-light-pale">
+                                                                                <img src="../assets/media/world-grid.png" class="custom-vertical-align-unset" alt="">
                                                                             </span>
-                                                                            <span class="">Country: Florida</span>
+                                                                            <span class="custom-font-style-small">Country: Florida</span>
                                                                         </div>
                                                                         <div class="d-flex px-4 mt-3">
-                                                                            <span class="grid-card-icon">
+                                                                            <span class="custom-sm-icon custom-bg-light-pale">
                                                                                 <img src="../assets/media/phone.png" alt="">
                                                                             </span>
-                                                                            <span class="">Assessment Contact: +1 202 555 0156</span>
+                                                                            <span class="custom-font-style-small">Assessment Contact: +1 202 555 0156</span>
                                                                         </div>
 
                                                                         <div class="d-flex justify-content-between align-items-center my-5 px-4">
-                                                                            <span class="grid-card-date-tag">
+                                                                            <span class="custom-font-style-small custom-bg-light-grey px-5 py-2">
                                                                                 2022-12-07
                                                                             </span>
-                                                                            <span class="grid-card-status-tag">Completed</span>
+                                                                            <span class="custom-bg-light-pale custom-font-style-small custom-bg-light-grey px-5 py-2">Completed</span>
                                                                         </div>
                                                                     </div>
                                                                     <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12 grid-card mx-3 responsive-margin-grid">
-                                                                        <img src="../assets/media/map_img1.png" class="grid-card-img" alt="">
+                                                                        <img src="../assets/media/map_img1.png" class="w-100 custom-border-radius-15 p-1" alt="">
                                                                         <div class="p-4">
-                                                                            <h6 class="grid-card-heading-text">Jacob Michael</h6>
-                                                                            <span class="grid-card-sub-text">Not Plan yet!</span>
+                                                                            <h6 class="custom-font-style-subheadings">Jacob Michael</h6>
+                                                                            <span class="custom-font-style-small">Not Plan yet!</span>
                                                                         </div>
                                                                         <div class="d-flex px-4">
-                                                                            <span class="grid-card-icon">
-                                                                                <img src="../assets/media/world-grid.png" alt="">
+                                                                            <span class="custom-sm-icon custom-bg-light-pale">
+                                                                                <img src="../assets/media/world-grid.png" class="custom-vertical-align-unset" alt="">
                                                                             </span>
-                                                                            <span class="">Country: Florida</span>
+                                                                            <span class="custom-font-style-small">Country: Florida</span>
                                                                         </div>
                                                                         <div class="d-flex px-4 mt-3">
-                                                                            <span class="grid-card-icon">
+                                                                            <span class="custom-sm-icon custom-bg-light-pale">
                                                                                 <img src="../assets/media/phone.png" alt="">
                                                                             </span>
-                                                                            <span class="">Assessment Contact: +1 202 555 0156</span>
+                                                                            <span class="custom-font-style-small">Assessment Contact: +1 202 555 0156</span>
                                                                         </div>
 
                                                                         <div class="d-flex justify-content-between align-items-center my-5 px-4">
-                                                                            <span class="grid-card-date-tag">
+                                                                            <span class="custom-font-style-small custom-bg-light-grey px-5 py-2">
                                                                                 2022-12-07
                                                                             </span>
-                                                                            <span class="grid-card-status-tag">Completed</span>
+                                                                            <span class="custom-bg-light-pale custom-font-style-small custom-bg-light-grey px-5 py-2">Completed</span>
                                                                         </div>
                                                                     </div>
                                                                     <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12 grid-card">
-                                                                        <img src="../assets/media/map_img1.png" class="grid-card-img" alt="">
+                                                                        <img src="../assets/media/map_img1.png" class="w-100 custom-border-radius-15 p-1" alt="">
                                                                         <div class="p-4">
-                                                                            <h6 class="grid-card-heading-text">Jacob Michael</h6>
-                                                                            <span class="grid-card-sub-text">Not Plan yet!</span>
+                                                                            <h6 class="custom-font-style-subheadings">Jacob Michael</h6>
+                                                                            <span class="custom-font-style-small">Not Plan yet!</span>
                                                                         </div>
                                                                         <div class="d-flex px-4">
-                                                                            <span class="grid-card-icon">
-                                                                                <img src="../assets/media/world-grid.png" alt="">
+                                                                            <span class="custom-sm-icon custom-bg-light-pale">
+                                                                                <img src="../assets/media/world-grid.png" class="custom-vertical-align-unset" alt="">
                                                                             </span>
-                                                                            <span class="">Country: Florida</span>
+                                                                            <span class="custom-font-style-small">Country: Florida</span>
                                                                         </div>
                                                                         <div class="d-flex px-4 mt-3">
-                                                                            <span class="grid-card-icon">
+                                                                            <span class="custom-sm-icon custom-bg-light-pale">
                                                                                 <img src="../assets/media/phone.png" alt="">
                                                                             </span>
-                                                                            <span class="">Assessment Contact: +1 202 555 0156</span>
+                                                                            <span class="custom-font-style-small">Assessment Contact: +1 202 555 0156</span>
                                                                         </div>
 
                                                                         <div class="d-flex justify-content-between align-items-center my-5 px-4">
-                                                                            <span class="grid-card-date-tag">
+                                                                            <span class="custom-font-style-small custom-bg-light-grey px-5 py-2">
                                                                                 2022-12-07
                                                                             </span>
-                                                                            <span class="grid-card-status-tag">Completed</span>
+                                                                            <span class="custom-bg-light-pale custom-font-style-small custom-bg-light-grey px-5 py-2">Completed</span>
                                                                         </div>
                                                                     </div>
                                                                 </div>
                                                                 <div class="row ml-4">
                                                                     <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12 grid-card">
-                                                                        <img src="../assets/media/map_img1.png" class="grid-card-img" alt="">
+                                                                        <img src="../assets/media/map_img1.png" class="w-100 custom-border-radius-15 p-1" alt="">
                                                                         <div class="p-4">
-                                                                            <h6 class="grid-card-heading-text">Jacob Michael</h6>
-                                                                            <span class="grid-card-sub-text">Not Plan yet!</span>
+                                                                            <h6 class="custom-font-style-subheadings">Jacob Michael</h6>
+                                                                            <span class="custom-font-style-small">Not Plan yet!</span>
                                                                         </div>
                                                                         <div class="d-flex px-4">
-                                                                            <span class="grid-card-icon">
-                                                                                <img src="../assets/media/world-grid.png" alt="">
+                                                                            <span class="custom-sm-icon custom-bg-light-pale">
+                                                                                <img src="../assets/media/world-grid.png" class="custom-vertical-align-unset" alt="">
                                                                             </span>
-                                                                            <span class="">Country: Florida</span>
+                                                                            <span class="custom-font-style-small">Country: Florida</span>
                                                                         </div>
                                                                         <div class="d-flex px-4 mt-3">
-                                                                            <span class="grid-card-icon">
+                                                                            <span class="custom-sm-icon custom-bg-light-pale">
                                                                                 <img src="../assets/media/phone.png" alt="">
                                                                             </span>
-                                                                            <span class="">Assessment Contact: +1 202 555 0156</span>
+                                                                            <span class="custom-font-style-small">Assessment Contact: +1 202 555 0156</span>
                                                                         </div>
 
                                                                         <div class="d-flex justify-content-between align-items-center my-5 px-4">
-                                                                            <span class="grid-card-date-tag">
+                                                                            <span class="custom-font-style-small custom-bg-light-grey px-5 py-2">
                                                                                 2022-12-07
                                                                             </span>
-                                                                            <span class="grid-card-status-tag">Completed</span>
+                                                                            <span class="custom-bg-light-pale custom-font-style-small custom-bg-light-grey px-5 py-2">Completed</span>
                                                                         </div>
                                                                     </div>
                                                                     <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12 grid-card mx-3 responsive-margin-grid">
-                                                                        <img src="../assets/media/map_img1.png" class="grid-card-img" alt="">
+                                                                        <img src="../assets/media/map_img1.png" class="w-100 custom-border-radius-15 p-1" alt="">
                                                                         <div class="p-4">
-                                                                            <h6 class="grid-card-heading-text">Jacob Michael</h6>
-                                                                            <span class="grid-card-sub-text">Not Plan yet!</span>
+                                                                            <h6 class="custom-font-style-subheadings">Jacob Michael</h6>
+                                                                            <span class="custom-font-style-small">Not Plan yet!</span>
                                                                         </div>
                                                                         <div class="d-flex px-4">
-                                                                            <span class="grid-card-icon">
-                                                                                <img src="../assets/media/world-grid.png" alt="">
+                                                                            <span class="custom-sm-icon custom-bg-light-pale">
+                                                                                <img src="../assets/media/world-grid.png" class="custom-vertical-align-unset" alt="">
                                                                             </span>
-                                                                            <span class="">Country: Florida</span>
+                                                                            <span class="custom-font-style-small">Country: Florida</span>
                                                                         </div>
                                                                         <div class="d-flex px-4 mt-3">
-                                                                            <span class="grid-card-icon">
+                                                                            <span class="custom-sm-icon custom-bg-light-pale">
                                                                                 <img src="../assets/media/phone.png" alt="">
                                                                             </span>
-                                                                            <span class="">Assessment Contact: +1 202 555 0156</span>
+                                                                            <span class="custom-font-style-small">Assessment Contact: +1 202 555 0156</span>
                                                                         </div>
 
                                                                         <div class="d-flex justify-content-between align-items-center my-5 px-4">
-                                                                            <span class="grid-card-date-tag">
+                                                                            <span class="custom-font-style-small custom-bg-light-grey px-5 py-2">
                                                                                 2022-12-07
                                                                             </span>
-                                                                            <span class="grid-card-status-tag">Completed</span>
+                                                                            <span class="custom-bg-light-pale custom-font-style-small custom-bg-light-grey px-5 py-2">Completed</span>
                                                                         </div>
                                                                     </div>
                                                                     <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12 grid-card">
-                                                                        <img src="../assets/media/map_img1.png" class="grid-card-img" alt="">
+                                                                        <img src="../assets/media/map_img1.png" class="w-100 custom-border-radius-15 p-1" alt="">
                                                                         <div class="p-4">
-                                                                            <h6 class="grid-card-heading-text">Jacob Michael</h6>
-                                                                            <span class="grid-card-sub-text">Not Plan yet!</span>
+                                                                            <h6 class="custom-font-style-subheadings">Jacob Michael</h6>
+                                                                            <span class="custom-font-style-small">Not Plan yet!</span>
                                                                         </div>
                                                                         <div class="d-flex px-4">
-                                                                            <span class="grid-card-icon">
-                                                                                <img src="../assets/media/world-grid.png" alt="">
+                                                                            <span class="custom-sm-icon custom-bg-light-pale">
+                                                                                <img src="../assets/media/world-grid.png" class="custom-vertical-align-unset" alt="">
                                                                             </span>
-                                                                            <span class="">Country: Florida</span>
+                                                                            <span class="custom-font-style-small">Country: Florida</span>
                                                                         </div>
                                                                         <div class="d-flex px-4 mt-3">
-                                                                            <span class="grid-card-icon">
+                                                                            <span class="custom-sm-icon custom-bg-light-pale">
                                                                                 <img src="../assets/media/phone.png" alt="">
                                                                             </span>
-                                                                            <span class="">Assessment Contact: +1 202 555 0156</span>
+                                                                            <span class="custom-font-style-small">Assessment Contact: +1 202 555 0156</span>
                                                                         </div>
 
                                                                         <div class="d-flex justify-content-between align-items-center my-5 px-4">
-                                                                            <span class="grid-card-date-tag">
+                                                                            <span class="custom-font-style-small custom-bg-light-grey px-5 py-2">
                                                                                 2022-12-07
                                                                             </span>
-                                                                            <span class="grid-card-status-tag">Completed</span>
+                                                                            <span class="custom-bg-light-pale custom-font-style-small px-5 py-2">Completed</span>
                                                                         </div>
                                                                     </div>
                                                                 </div>
@@ -735,7 +808,7 @@ License: You must have a valid license purchased only from themeforest(the above
             <span class="btn-help-icon">
                 <img src="../assets/media/help.png" alt="">
             </span>
-            <span class="help-center-font-family btn-help-text d-none">
+            <span class="btn-help-toggle custom-font-style-sub-text p-6 bg-light d-none">
                 Help Center
             </span>
         </div>
@@ -956,13 +1029,13 @@ License: You must have a valid license purchased only from themeforest(the above
         });
 
         $(".btn-help-center-wrapper").mouseenter(function() {
-            $(".btn-help-center-wrapper").find('.btn-help-text').removeClass('d-none')
-            $(".btn-help-center-wrapper").find('.btn-help-text').addClass('d-flex align-self-center')
+            $(".btn-help-center-wrapper").find('.btn-help-toggle').removeClass('d-none')
+            $(".btn-help-center-wrapper").find('.btn-help-toggle').addClass('d-flex align-self-center')
         });
 
         $(".btn-help-center-wrapper").mouseleave(function() {
-            $(".btn-help-center-wrapper").find('.btn-help-text').addClass('d-none')
-            $(".btn-help-center-wrapper").find('.btn-help-text').removeClass('d-flex align-self-center')
+            $(".btn-help-center-wrapper").find('.btn-help-toggle').addClass('d-none')
+            $(".btn-help-center-wrapper").find('.btn-help-toggle').removeClass('d-flex align-self-center')
         });
 
         $(".menu-submenu").mouseenter(function() {

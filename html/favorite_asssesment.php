@@ -129,101 +129,74 @@ License: You must have a valid license purchased only from themeforest(the above
                 <div class="d-flex flex-column flex-column-fluid" id="kt_content">
                     <!--begin::Subheader-->
                     <div class="container">
-                        <div class="breadcrumb-nav">
-                            <a href="#">Explore Landscapes /</a>
-                            <span>Assessments</span>
+                        <div class="py-5">
+                            <a href="#" class="custom-font-style-text custom-text-grey">Explore Landscapes /</a>
+                            <span class="custom-font-style-text custom-text-primary">Assessments</span>
                         </div>
                         <div class="row">
                             <div class="col-md-12">
-                                <div class="card w-100 p-5">
+                                <div class="card w-100 p-10">
                                     <div class="row">
-                                        <div class="col-xl-4 col-lg-12 col-md-12 col-sm-12 col-xs-12 custom-padding-left">
-                                            <span class="favourite-assesment-main-heading d-inline-block py-5">Find assessments by location</span>
-                                            <div class="row">
+                                        <div class="col-xl-4 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                            <span class="custom-font-style-headings custom-text-primary d-inline-block mb-5">Find assessments by location</span>
+                                            <div class="row mt-5">
                                                 <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-                                                    <a class="favourite-assesment-tab">Colombia</a>
+                                                    <a class="custom-bg-light-pale custom-font-style-text custom-text-grey custom-border-radius-15 px-5 py-2 d-inline-block text-center w-100">Ghana</a>
                                                 </div>
                                                 <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 responsive-margin-help">
-                                                    <a class="favourite-assesment-tab">Colombia</a>
+                                                    <a class="custom-bg-light-pale custom-font-style-text custom-text-grey custom-border-radius-15 px-5 py-2 d-inline-block text-center w-100">Mali</a>
                                                 </div>
                                                 <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-                                                    <a class="favourite-assesment-tab">Colombia</a>
+                                                    <a class="custom-bg-light-pale custom-font-style-text custom-text-grey custom-border-radius-15 px-5 py-2 d-inline-block text-center w-100">Peru</a>
                                                 </div>
                                             </div>
                                             <div class="row mt-5">
                                                 <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-                                                    <a class="favourite-assesment-tab">Colombia</a>
+                                                    <a class="custom-bg-light-pale custom-font-style-text custom-text-grey custom-border-radius-15 px-5 py-2 d-inline-block text-center w-100">Ghana</a>
                                                 </div>
                                                 <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 responsive-margin-help">
-                                                    <a class="favourite-assesment-tab">Colombia</a>
+                                                    <a class="custom-bg-light-pale custom-font-style-text custom-text-grey custom-border-radius-15 px-5 py-2 d-inline-block text-center w-100">Mali</a>
                                                 </div>
                                                 <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-                                                    <a class="favourite-assesment-tab">Colombia</a>
+                                                    <a class="custom-bg-light-pale custom-font-style-text custom-text-grey custom-border-radius-15 px-5 py-2 d-inline-block text-center w-100">Peru</a>
                                                 </div>
                                             </div>
                                             <div class="row mt-5">
                                                 <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-                                                    <a class="favourite-assesment-tab">Colombia</a>
+                                                    <a class="custom-bg-light-pale custom-font-style-text custom-text-grey custom-border-radius-15 px-5 py-2 d-inline-block text-center w-100">Ghana</a>
                                                 </div>
                                                 <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 responsive-margin-help">
-                                                    <a class="favourite-assesment-tab">Colombia</a>
+                                                    <a class="custom-bg-light-pale custom-font-style-text custom-text-grey custom-border-radius-15 px-5 py-2 d-inline-block text-center w-100">Mali</a>
                                                 </div>
                                                 <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-                                                    <a class="favourite-assesment-tab">Colombia</a>
+                                                    <a class="custom-bg-light-pale custom-font-style-text custom-text-grey custom-border-radius-15 px-5 py-2 d-inline-block text-center w-100">Peru</a>
                                                 </div>
                                             </div>
-                                            <div class="row  mt-5">
+                                            <div class="row mt-5">
                                                 <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-                                                    <a class="favourite-assesment-tab">Colombia</a>
+                                                    <a class="custom-bg-light-pale custom-font-style-text custom-text-grey custom-border-radius-15 px-5 py-2 d-inline-block text-center w-100">Ghana</a>
                                                 </div>
                                                 <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 responsive-margin-help">
-                                                    <a class="favourite-assesment-tab">Colombia</a>
+                                                    <a class="custom-bg-light-pale custom-font-style-text custom-text-grey custom-border-radius-15 px-5 py-2 d-inline-block text-center w-100">Mali</a>
                                                 </div>
                                                 <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-                                                    <a class="favourite-assesment-tab">Colombia</a>
+                                                    <a class="custom-bg-light-pale custom-font-style-text custom-text-grey custom-border-radius-15 px-5 py-2 d-inline-block text-center w-100">Peru</a>
                                                 </div>
                                             </div>
-                                            <div class="row  mt-5">
+                                            <div class="row mt-5">
                                                 <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-                                                    <a class="favourite-assesment-tab">Colombia</a>
+                                                    <a class="custom-bg-light-pale custom-font-style-text custom-text-grey custom-border-radius-15 px-5 py-2 d-inline-block text-center w-100">Ghana</a>
                                                 </div>
                                                 <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 responsive-margin-help">
-                                                    <a class="favourite-assesment-tab">Colombia</a>
+                                                    <a class="custom-bg-light-pale custom-font-style-text custom-text-grey custom-border-radius-15 px-5 py-2 d-inline-block text-center w-100">Mali</a>
                                                 </div>
                                                 <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-                                                    <a class="favourite-assesment-tab">Colombia</a>
+                                                    <a class="custom-bg-light-pale custom-font-style-text custom-text-grey custom-border-radius-15 px-5 py-2 d-inline-block text-center w-100">Peru</a>
                                                 </div>
                                             </div>
-                                            <!-- <div class="custom-padding-12">
-                                                <div class="row custom-sapcing">
-                                                    <a class="favourite-assesment-tab">Colombia</a>
-                                                    <a class="favourite-assesment-tab">Colombia</a>
-                                                    <a class="favourite-assesment-tab">Colombia</a>
-                                                </div>
-                                                <div class="row custom-sapcing">
-                                                    <a class="favourite-assesment-tab">Colombia</a>
-                                                    <a class="favourite-assesment-tab">Colombia</a>
-                                                    <a class="favourite-assesment-tab">Colombia</a>
-                                                </div>
-                                                <div class="row custom-sapcing">
-                                                    <a class="favourite-assesment-tab">Colombia</a>
-                                                    <a class="favourite-assesment-tab">Colombia</a>
-                                                    <a class="favourite-assesment-tab">Colombia</a>
-                                                </div>
-                                                <div class="row custom-sapcing">
-                                                    <a class="favourite-assesment-tab">Colombia</a>
-                                                    <a class="favourite-assesment-tab">Colombia</a>
-                                                    <a class="favourite-assesment-tab">Colombia</a>
-                                                </div>
-                                                <div class="row custom-sapcing">
-                                                    <a class="favourite-assesment-tab">Colombia</a>
-                                                    <a class="favourite-assesment-tab">Colombia</a>
-                                                    <a class="favourite-assesment-tab">Colombia</a>
-                                                </div>
-                                            </div> -->
                                         </div>
                                         <div class="col-xl-8 col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                            <img src="../assets/media/favourite-map-img.png" class="header-map-img p-5" style="width: 100%;" alt="">
+                                            <img src="../assets/media/favourite-map-img.png" class="custom-border-radius-35" style="width: 100%; height: 320px;" alt="">
                                         </div>
                                     </div>
                                 </div>
@@ -232,61 +205,65 @@ License: You must have a valid license purchased only from themeforest(the above
 
                         <div class="row mt-5">
                             <div class="col-md-12">
-                                <div class="card w-100 p-5">
-                                    <div class="row">
-                                        <div class="col-md-12 custom-padding-left">
+                                <div class="card w-100 p-10">
+                                    <div class="row mb-5">
+                                        <div class="col-md-12">
                                             <div class="d-flex justify-content-between align-items-center w-100 responsive-block">
-                                                <span class="favourite-assesment-main-heading d-inline-block py-5">Featured assessments</span>
-                                                <div class="custom-padding-right-50">
-                                                    <button type="button" class="frt-default-btn frt-light-clr mr-5">Profile Not Available</button>
-                                                    <button type="button" class="frt-default-btn frt-dark-clr">Profile Available</button>
+                                                <span class="custom-font-style-headings custom-text-primary d-inline-block">Featured assessments</span>
+                                                <div class="pr-5">
+                                                    <button type="button" class="custom-bg-light-pale custom-text-grey custom-border-radius-35 border-0 w-176px h-40px mr-5">Profile Not Available</button>
+                                                    <button type="button" class="custom-bg-primary custom-text-light-pale custom-border-radius-35 border-0 w-176px h-40px">Profile Available</button>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
 
-                                    <div class="row frt-card-padding">
+                                    <div class="row mt-5">
                                         <div class="col-xl-4 col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                            <div class="frt-asesment-card">
-                                                <img src="../assets/media/map_img1.png" class="img-padding" style="width: 100%; height: 70%;" alt="">
-                                                <div class="frt-caption px-5">
-                                                    <span class="main-caption">Alicante River Canyon</span>
-                                                    <span class="sub-heading my-1"><span class="font-weight-bold">Country: </span>Colombia</span>
-                                                    <span class="sub-heading"><span class="font-weight-bold">Organization: </span> XYZ</span>
+                                            <div class="custom-border-color-pale custom-border-radius-15 h-350px">
+                                                <img src="../assets/media/map_img1.png" class="p-3 custom-border-radius-15" style="width: 100%; height: 70%;" alt="">
+                                                <div class="mt-3 px-6">
+                                                    <div class="custom-font-style-subheadings">Alicante River Canyon</div>
+                                                    <div class="custom-font-style-small mt-2 my-1"><span class="font-weight-bold">Country: </span>Colombia</div>
+                                                    <div class="custom-font-style-small"><span class="font-weight-bold">Organization: </span> XYZ</div>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="responsive-margin-grid col-xl-4 col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                            <div class="frt-asesment-card">
-                                                <img src="../assets/media/map_img1.png" class="img-padding" style="width: 100%; height: 70%;" alt="">
-                                                <div class="frt-caption px-5">
-                                                    <span class="main-caption">San José Northern</span>
-                                                    <span class="sub-heading my-1"><span class="font-weight-bold">Country: </span>Costa Rica</span>
-                                                    <span class="sub-heading"><span class="font-weight-bold">Organization: </span> IUCN</span>
+                                            <div class="custom-border-color-pale custom-border-radius-15 h-350px">
+                                                <img src="../assets/media/map_img1.png" class="p-3 custom-border-radius-15" style="width: 100%; height: 70%;" alt="">
+                                                <div class="mt-3 px-6">
+                                                    <div class="custom-font-style-subheadings">San José Northern</div>
+                                                    <div class="custom-font-style-small mt-2 my-1"><span class="font-weight-bold">Country: </span>Costa Rica</div>
+                                                    <div class="custom-font-style-small"><span class="font-weight-bold">Organization: </span> IUCN</div>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="col-xl-4 col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                            <div class="frt-asesment-card">
-                                                <img src="../assets/media/map_img1.png" class="img-padding" style="width: 100%; height: 70%;" alt="">
-                                                <div class="frt-caption px-5">
-                                                    <span class="main-caption">Lamas Landscape</span>
-                                                    <span class="sub-heading my-1"><span class="font-weight-bold">Country: </span>Peru</span>
-                                                    <span class="sub-heading"><span class="font-weight-bold">Organization: </span>Rainforest Alliance </span>
+                                            <div class="custom-border-color-pale custom-border-radius-15 h-350px">
+                                                <img src="../assets/media/map_img1.png" class="p-3 custom-border-radius-15" style="width: 100%; height: 70%;" alt="">
+                                                <div class="mt-3 px-6">
+                                                    <div class="custom-font-style-subheadings">Lamas Landscape</div>
+                                                    <div class="custom-font-style-small mt-2 my-1"><span class="font-weight-bold">Country: </span>Peru</div>
+                                                    <div class="custom-font-style-small"><span class="font-weight-bold">Organization: </span>Rainforest Alliance </div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
 
                                     <div class="d-flex justify-content-center w-100">
-                                        <div class="custom-margin-top-bottom">
-                                            <a href="#" class="single-paginate-item btlr bblr">
+                                        <div class="mt-10">
+                                            <a href="#" class="single-paginate-item custom-border-color-pale custom-btlr-50 custom-bblr-50 custom-bg-light-pale p-4 m-0">
                                                 <svg width="15" height="16" viewBox="0 0 15 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                     <path d="M5.71777 8.01932C8.27768 10.6813 10.8415 13.3474 13.3923 16C13.9112 15.4644 14.4478 14.9098 14.9996 14.3401C12.984 12.2474 10.9642 10.1502 8.89984 8.00719C9.20487 7.70567 9.49564 7.42976 9.77431 7.14127C11.4662 5.38696 13.1534 3.6277 14.8475 1.87564C14.9913 1.7269 15.003 1.64287 14.8475 1.48694C14.361 0.999382 13.8935 0.491603 13.4265 0C10.8445 2.68629 8.28114 5.35281 5.71777 8.01932Z" fill="#4C94A0" />
                                                     <path d="M7.65165 15.9681C8.14678 15.4522 8.67778 14.8986 9.23253 14.3203C7.23256 12.2469 5.20753 10.1479 3.1717 8.03773C5.21703 5.91494 7.23688 3.81867 9.23988 1.73991C8.68253 1.16024 8.1511 0.607521 7.63566 0.0714312C5.10211 2.70874 2.5409 5.37481 0 8.01931C2.53528 10.6535 5.10254 13.3204 7.65165 15.9681Z" fill="#4C94A0" />
                                                 </svg>
                                             </a>
-                                            <a href="#" class="single-paginate-item">1</a><a href="#" class="single-paginate-item">2</a><a href="#" class="single-paginate-item">3</a><a href="#" class="single-paginate-item">4</a><a href="#" class="single-paginate-item btrr bbrr">
+                                            <a href="#" class="custom-border-color-pale custom-bg-light-pale custom-text-light-grey p-4 m-0">1</a>
+                                            <a href="#" class="custom-border-color-pale p-4 custom-bg-primary custom-text-light-pale" style="margin: -3px !important;">2</a>
+                                            <a href="#" class="custom-border-color-pale custom-bg-light-pale custom-text-light-grey p-4 m-0">3</a>
+                                            <a href="#" class="custom-border-color-pale custom-bg-light-pale custom-text-light-grey p-4" style="margin: -3px !important;">4</a>
+                                            <a href="#" class="custom-border-color-pale custom-bg-light-pale p-4 m-0 custom-btrr-50 custom-bbrr-50">
                                                 <svg width="15" height="16" viewBox="0 0 15 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                     <path d="M9.28223 8.01932C6.72232 10.6813 4.15852 13.3474 1.60768 16C1.08878 15.4644 0.552174 14.9098 0.000442505 14.3401C2.01597 12.2474 4.03581 10.1502 6.10016 8.00719C5.79513 7.70567 5.50436 7.42976 5.22569 7.14127C3.53377 5.38696 1.8466 3.6277 0.152525 1.87564C0.00865078 1.7269 -0.00301456 1.64287 0.152525 1.48694C0.639015 0.999382 1.1065 0.491603 1.57355 0C4.15549 2.68629 6.71886 5.35281 9.28223 8.01932Z" fill="#4C94A0" />
                                                     <path d="M7.34835 15.9681C6.85322 15.4522 6.32222 14.8986 5.76747 14.3203C7.76744 12.2469 9.79247 10.1479 11.8283 8.03773C9.78297 5.91494 7.76312 3.81867 5.76012 1.73991C6.31747 1.16024 6.8489 0.607521 7.36434 0.0714312C9.89789 2.70874 12.4591 5.37481 15 8.01931C12.4647 10.6535 9.89746 13.3204 7.34835 15.9681Z" fill="#4C94A0" />
@@ -300,61 +277,65 @@ License: You must have a valid license purchased only from themeforest(the above
 
                         <div class="row mt-5">
                             <div class="col-md-12">
-                                <div class="card w-100 p-5">
-                                    <div class="row">
-                                        <div class="col-md-12 custom-padding-left">
+                                <div class="card w-100 p-10">
+                                    <div class="row mb-5">
+                                        <div class="col-md-12">
                                             <div class="d-flex justify-content-between align-items-center w-100 responsive-block">
-                                                <span class="favourite-assesment-main-heading d-inline-block py-5">Assessments in progress</span>
-                                                <div class="custom-padding-right-50">
-                                                    <button type="button" class="frt-default-btn frt-light-clr mr-5">Profile Not Available</button>
-                                                    <button type="button" class="frt-default-btn frt-dark-clr">Profile Available</button>
+                                                <span class="custom-font-style-headings custom-text-primary d-inline-block">Assessments in progress</span>
+                                                <div class="pr-5">
+                                                    <button type="button" class="custom-bg-light-pale custom-text-grey custom-border-radius-35 border-0 w-176px h-40px mr-5">Profile Not Available</button>
+                                                    <button type="button" class="custom-bg-primary custom-text-light-pale custom-border-radius-35 border-0 w-176px h-40px">Profile Available</button>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
 
-                                    <div class="row frt-card-padding">
+                                    <div class="row mt-5">
                                         <div class="col-xl-4 col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                            <div class="frt-asesment-card">
-                                                <img src="../assets/media/map_img1.png" class="img-padding" style="width: 100%; height: 70%;" alt="">
-                                                <div class="frt-caption px-5">
-                                                    <span class="main-caption">Alicante River Canyon</span>
-                                                    <span class="sub-heading my-1"><span class="font-weight-bold">Country: </span>Colombia</span>
-                                                    <span class="sub-heading"><span class="font-weight-bold">Organization: </span> XYZ</span>
+                                            <div class="custom-border-color-pale custom-border-radius-15 h-350px">
+                                                <img src="../assets/media/map_img1.png" class="p-3 custom-border-radius-15" style="width: 100%; height: 70%;" alt="">
+                                                <div class="mt-3 px-6">
+                                                    <div class="custom-font-style-subheadings">Alicante River Canyon</div>
+                                                    <div class="custom-font-style-small mt-2 my-1"><span class="font-weight-bold">Country: </span>Colombia</div>
+                                                    <div class="custom-font-style-small"><span class="font-weight-bold">Organization: </span> XYZ</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="responsive-margin-grid col-xl-4 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                            <div class="custom-border-color-pale custom-border-radius-15 h-350px">
+                                                <img src="../assets/media/map_img1.png" class="p-3 custom-border-radius-15" style="width: 100%; height: 70%;" alt="">
+                                                <div class="mt-3 px-6">
+                                                    <div class="custom-font-style-subheadings">San José Northern</div>
+                                                    <div class="custom-font-style-small mt-2 my-1"><span class="font-weight-bold">Country: </span>Costa Rica</div>
+                                                    <div class="custom-font-style-small"><span class="font-weight-bold">Organization: </span> IUCN</div>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="col-xl-4 col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                            <div class="frt-asesment-card">
-                                                <img src="../assets/media/map_img1.png" class="img-padding" style="width: 100%; height: 70%;" alt="">
-                                                <div class="frt-caption px-5">
-                                                    <span class="main-caption">San José Northern</span>
-                                                    <span class="sub-heading my-1"><span class="font-weight-bold">Country: </span>Costa Rica</span>
-                                                    <span class="sub-heading"><span class="font-weight-bold">Organization: </span> IUCN</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-xl-4 col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                            <div class="frt-asesment-card">
-                                                <img src="../assets/media/map_img1.png" class="img-padding" style="width: 100%; height: 70%;" alt="">
-                                                <div class="frt-caption px-5">
-                                                    <span class="main-caption">Lamas Landscape</span>
-                                                    <span class="sub-heading my-1"><span class="font-weight-bold">Country: </span>Peru</span>
-                                                    <span class="sub-heading"><span class="font-weight-bold">Organization: </span>Rainforest Alliance </span>
+                                            <div class="custom-border-color-pale custom-border-radius-15 h-350px">
+                                                <img src="../assets/media/map_img1.png" class="p-3 custom-border-radius-15" style="width: 100%; height: 70%;" alt="">
+                                                <div class="mt-3 px-6">
+                                                    <div class="custom-font-style-subheadings">Lamas Landscape</div>
+                                                    <div class="custom-font-style-small mt-2 my-1"><span class="font-weight-bold">Country: </span>Peru</div>
+                                                    <div class="custom-font-style-small"><span class="font-weight-bold">Organization: </span>Rainforest Alliance </div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
 
                                     <div class="d-flex justify-content-center w-100">
-                                        <div class="custom-margin-top-bottom">
-                                            <a href="#" class="single-paginate-item btlr bblr">
+                                        <div class="mt-10">
+                                            <a href="#" class="single-paginate-item custom-border-color-pale custom-btlr-50 custom-bblr-50 custom-bg-light-pale p-4 m-0">
                                                 <svg width="15" height="16" viewBox="0 0 15 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                     <path d="M5.71777 8.01932C8.27768 10.6813 10.8415 13.3474 13.3923 16C13.9112 15.4644 14.4478 14.9098 14.9996 14.3401C12.984 12.2474 10.9642 10.1502 8.89984 8.00719C9.20487 7.70567 9.49564 7.42976 9.77431 7.14127C11.4662 5.38696 13.1534 3.6277 14.8475 1.87564C14.9913 1.7269 15.003 1.64287 14.8475 1.48694C14.361 0.999382 13.8935 0.491603 13.4265 0C10.8445 2.68629 8.28114 5.35281 5.71777 8.01932Z" fill="#4C94A0" />
                                                     <path d="M7.65165 15.9681C8.14678 15.4522 8.67778 14.8986 9.23253 14.3203C7.23256 12.2469 5.20753 10.1479 3.1717 8.03773C5.21703 5.91494 7.23688 3.81867 9.23988 1.73991C8.68253 1.16024 8.1511 0.607521 7.63566 0.0714312C5.10211 2.70874 2.5409 5.37481 0 8.01931C2.53528 10.6535 5.10254 13.3204 7.65165 15.9681Z" fill="#4C94A0" />
                                                 </svg>
                                             </a>
-                                            <a href="#" class="single-paginate-item">1</a><a href="#" class="single-paginate-item">2</a><a href="#" class="single-paginate-item">3</a><a href="#" class="single-paginate-item">4</a><a href="#" class="single-paginate-item btrr bbrr">
+                                            <a href="#" class="custom-border-color-pale custom-bg-light-pale custom-text-light-grey p-4 m-0">1</a>
+                                            <a href="#" class="custom-border-color-pale p-4 custom-bg-primary custom-text-light-pale" style="margin: -3px !important;">2</a>
+                                            <a href="#" class="custom-border-color-pale custom-bg-light-pale custom-text-light-grey p-4 m-0">3</a>
+                                            <a href="#" class="custom-border-color-pale custom-bg-light-pale custom-text-light-grey p-4" style="margin: -3px !important;">4</a>
+                                            <a href="#" class="custom-border-color-pale custom-bg-light-pale p-4 m-0 custom-btrr-50 custom-bbrr-50">
                                                 <svg width="15" height="16" viewBox="0 0 15 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                     <path d="M9.28223 8.01932C6.72232 10.6813 4.15852 13.3474 1.60768 16C1.08878 15.4644 0.552174 14.9098 0.000442505 14.3401C2.01597 12.2474 4.03581 10.1502 6.10016 8.00719C5.79513 7.70567 5.50436 7.42976 5.22569 7.14127C3.53377 5.38696 1.8466 3.6277 0.152525 1.87564C0.00865078 1.7269 -0.00301456 1.64287 0.152525 1.48694C0.639015 0.999382 1.1065 0.491603 1.57355 0C4.15549 2.68629 6.71886 5.35281 9.28223 8.01932Z" fill="#4C94A0" />
                                                     <path d="M7.34835 15.9681C6.85322 15.4522 6.32222 14.8986 5.76747 14.3203C7.76744 12.2469 9.79247 10.1479 11.8283 8.03773C9.78297 5.91494 7.76312 3.81867 5.76012 1.73991C6.31747 1.16024 6.8489 0.607521 7.36434 0.0714312C9.89789 2.70874 12.4591 5.37481 15 8.01931C12.4647 10.6535 9.89746 13.3204 7.34835 15.9681Z" fill="#4C94A0" />
@@ -365,7 +346,6 @@ License: You must have a valid license purchased only from themeforest(the above
                                 </div>
                             </div>
                         </div>
-
 
                         <div class="row mt-5">
                             <div class="col-md-12">
@@ -375,10 +355,10 @@ License: You must have a valid license purchased only from themeforest(the above
                                             <div class="d-flex justify-content-center">
                                                 <img src="../assets/media/heart_icon.png" alt="" class="mb-5">
                                             </div>
-                                            <div class="favourite-assesment-main-heading mb-3 mt-5 assesment-responsive text-center">You don’t have any favorite Assessments</div>
-                                            <div class="sub-heading assesment-responsive">Like any profile you see? Save them here to your favorite assessments</div>
+                                            <div class="custom-font-style-headings custom-text-primary mb-3 mt-5 text-center">You don’t have any favorite Assessments</div>
+                                            <div class="custom-font-style-text">Like any profile you see? Save them here to your favorite assessments</div>
                                             <div class="d-flex justify-content-center">
-                                                <a href="#" class="frt-default-btn frt-dark-clr custom-padding-x-y d-inline-block mt-5">Start Exploring</a>
+                                                <a href="#" class="custom-bg-primary custom-text-light-pale px-5 py-3 custom-border-radius-35 custom-font-style-text d-inline-block mt-5">Start Exploring</a>
                                             </div>
                                         </div>
                                     </div>
@@ -404,7 +384,7 @@ License: You must have a valid license purchased only from themeforest(the above
             <span class="btn-help-icon">
                 <img src="../assets/media/help.png" alt="">
             </span>
-            <span class="help-center-font-family btn-help-text d-none">
+            <span class="btn-help-toggle custom-font-style-sub-text p-6 bg-light d-none">
                 Help Center
             </span>
         </div>
@@ -499,17 +479,17 @@ License: You must have a valid license purchased only from themeforest(the above
                 $(this).parent().find('.menu-subnav').addClass('brt-50');
             }
         });
-        
+
         $(".btn-help-center-wrapper").mouseenter(function() {
-            $(".btn-help-center-wrapper").find('.btn-help-text').removeClass('d-none')
-            $(".btn-help-center-wrapper").find('.btn-help-text').addClass('d-flex align-self-center')
+            $(".btn-help-center-wrapper").find('.btn-help-toggle').removeClass('d-none')
+            $(".btn-help-center-wrapper").find('.btn-help-toggle').addClass('d-flex align-self-center')
         });
 
         $(".btn-help-center-wrapper").mouseleave(function() {
-            $(".btn-help-center-wrapper").find('.btn-help-text').addClass('d-none')
-            $(".btn-help-center-wrapper").find('.btn-help-text').removeClass('d-flex align-self-center')
+            $(".btn-help-center-wrapper").find('.btn-help-toggle').addClass('d-none')
+            $(".btn-help-center-wrapper").find('.btn-help-toggle').removeClass('d-flex align-self-center')
         });
-        
+
         $(".menu-submenu").mouseenter(function() {
             $(this).parent('.menu-item').find('.menu-toggle').addClass('side-icon-bg-dark');
         });

@@ -146,12 +146,12 @@ License: You must have a valid license purchased only from themeforest(the above
                                     <div class="row mt-7">
                                         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                                             <div class="custom-bg-light-pale custom-border-radius-15 custom-border-color-pale h-100 p-10">
-                                                <span class="custom-font-style-headings custom-text-primary d-block mb-1">Indicator selection</span>
+                                                <span class="custom-font-style-headings custom-text-primary d-block mb-1">Select Metrics tasks</span>
                                                 <!-- <span class="steps-default-text steps-small-text d-block my-5">View Instructions</span> -->
                                                 <span data-toggle="collapse" data-target="#demo" class="custom-font-style-text custom-text-primary d-block my-5 custom-cursor-pointer">View Instructions <img src="../assets/media/arrow_down.png" alt=""></span>
 
                                                 <div id="demo" class="collapse mb-2">
-                                                    Below you will find the indicators of Ecosystems pillar of the LandScale framework. The Applicability indicates whether the indicator is required to meet the full LandScale requirements or is optional (see guidance for a complete description and explanation of each indicator). Action is required for each indicator. For Landscape-dependent indicators you must determine applicability to your landscape (see guidance). For Core indicators these are required in all landscapes but you may defer these due to data deficiency (as determined in Step 4) or for other reasons that you document. Optional indicators should be marked as included or excluded. Actions to defer, include, or not include are done using the toggle in the Select column below.
+                                                    Below you may select the metrics applicable to your assessment. You may also Modify a metric to propose an alternative and set Targets and Milestones for any metric. Setting user-defined or creating custom metrics is also supported below. Please read the Step 4 guidelines before engaging in the several functions provided in this interface.
                                                 </div>
                                                 <span class="custom-bg-primary p-2 custom-border-radius-4 d-inline-block mt-1">
                                                     <span class="custom-text-light-pale">Approved</span>
@@ -248,48 +248,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                             </div>
                                         </div>
                                     </div>
-
-                                    <div class="row mt-7">
-                                        <div class="col-md-12 pl-0 pl-sm-4 pb-sm-4">
-                                            <div class="d-flex justify-content-between">
-                                                <a class="custom-bg-primary custom-border-radius-35 px-5 py-2 align-items-center" data-toggle="modal" data-target="#myModal">
-                                                    <span><img src="../assets/media/circle_add_icon.png" alt=""></span>
-                                                    <span class="text-light">Create Custom Piller</span>
-                                                </a>
-                                                <!-- <a class="indicator-btn-dark align-items-center">
-                                                    <span><img src="../assets/media/circle_add_icon.png" alt=""></span>
-                                                    <span class="text-light">Add Indicator</span>
-                                                </a> -->
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <!-- The Modal -->
-                                    <div class="modal fade" id="myModal">
-                                        <div class="modal-dialog modal-dialog-centered">
-                                            <div class="modal-content">
-
-                                                <!-- Modal Header -->
-                                                <div class="modal-header steps-table-header-color">
-                                                    <h4 class="modal-title indicator-tab-link">Modal Heading</h4>
-                                                    <button type="button" class="close text-dark" data-dismiss="modal">&times;</button>
-                                                </div>
-
-                                                <!-- Modal body -->
-                                                <div class="modal-body">
-                                                    Modal body..
-                                                </div>
-
-                                                <!-- Modal footer -->
-                                                <div class="modal-footer p-2">
-                                                    <button type="button" class="btn indicator-btn-dark text-light" data-dismiss="modal">Close</button>
-                                                </div>
-
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="row custom-border-color-pale custom-border-radius-15 m-sm-0">
+                                    <div class="row custom-border-color-pale custom-border-radius-15 mx-0 mt-5">
                                         <div class="col-md-3 col-sm-12 col-xs-12 pr-0">
                                             <div class="custom-font-style-subheadings custom-text-primary p-5">
                                                 Custom Pillars
@@ -347,14 +306,17 @@ License: You must have a valid license purchased only from themeforest(the above
                                             </div>
                                         </div>
                                         <div class="col-md-9 col-sm-12 col-xs-12 custom-bg-light-pale custom-btrr-15 custom-bbrr-15">
-                                            <div class="d-flex justify-content-end mt-5 mr-5">
-                                                <a class="custom-bg-primary custom-border-radius-35 px-5 py-3 align-items-center">
-                                                    <span><img src="../assets/media/circle_add_icon.png" alt=""></span>
-                                                    <span class="text-light">Add Custom Goal</span>
-                                                </a>
-                                            </div>
+
                                             <div class="tab-content" id="v-pills-tabContent">
                                                 <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
+                                                    <div class="mt-5 px-5">
+                                                        <div class="select-wrapper">
+                                                            <select name="indicator_filter" class="form-control custom-bg-primary text-light custom-select-arrow">
+                                                                <option value="1">1.1 Conserve and restore natural ecosystems</option>
+                                                                <option value="1">1.2 Protect and restore biodiversity</option>
+                                                            </select>
+                                                        </div>
+                                                    </div>
                                                     <div class="accordion m-5" id="accordionExample-0">
                                                         <div class="card indicator-accordian-card">
                                                             <div class="card-header bg-white indicator-accordian-card-header" id="headingOne-0">
@@ -362,7 +324,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                     <div class="row">
                                                                         <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
                                                                             <span>
-                                                                                1.1 Conserve and restore natural ecosystems
+                                                                                1.1.1 Effective conservation and protection of natural ecosystems
                                                                             </span>
                                                                         </div>
                                                                         <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
@@ -389,85 +351,85 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                     <table class="table indicator-table">
                                                                         <thead class="steps-table-header-color">
                                                                             <tr>
-                                                                                <th class="custom-font-style-sub-text" scope="col">Indicator</th>
-                                                                                <th class="custom-font-style-sub-text" scope="col">Applicability</th>
-                                                                                <th class="custom-font-style-sub-text w-125px" scope="col">Select</th>
+                                                                                <th class="custom-font-style-sub-text" scope="col">Include</th>
+                                                                                <th class="custom-font-style-sub-text" scope="col">Metric</th>
+                                                                                <th class="custom-font-style-sub-text w-125px" scope="col">Target</th>
+                                                                                <th class="custom-font-style-sub-text" scope="col">Milestone</th>
+                                                                                <th class="custom-font-style-sub-text" scope="col">Type</th>
                                                                                 <th class="custom-font-style-sub-text" scope="col">Actions</th>
                                                                             </tr>
                                                                         </thead>
                                                                         <tbody class="bg-white">
                                                                             <tr>
-                                                                                <td>1.1.1 Effective conservation and protection of natural ecosystems</td>
-                                                                                <td><span class="custom-bg-primary custom-text-light-pale custom-font-style-xs custom-border-radius-3 p-1">Core</span></td>
                                                                                 <td>
-                                                                                    <div class="button b2 button-10" id="button-10">
-                                                                                        <input type="checkbox" class="switch-checkbox" />
-                                                                                        <div class="knobs">
-                                                                                            <span>Defferred</span>
-                                                                                        </div>
-                                                                                        <div class="layer"></div>
-                                                                                    </div>
-                                                                                    <!-- <div>
-                                                                                        <span class="steps-tags-text deffered-tag p-2" style="margin-right: -4px;">Deffered</span>
-                                                                                        <span class="steps-tags-text included-tag p-2">Included</span>
-                                                                                    </div> -->
+                                                                                    <label class="container-chkbox">
+                                                                                        <input type="checkbox" checked="checked">
+                                                                                        <span class="checkmark"></span>
+                                                                                    </label>
+                                                                                </td>
+                                                                                <td>
+                                                                                    1.1.1.1 Total area (ha) & percentage (%) of the landscape in designated protected areas disaggregated by natural ecosystem type
                                                                                 </td>
                                                                                 <td>
                                                                                     <a href="#" class="custom-bg-warning custom-border-radius-35 px-3 py-2 align-items-center">
                                                                                         <span><img src="../assets/media/dark_edit.png" style="width: 10%;" alt=""></span>
-                                                                                        <span class="custom-font-style-xs custom-text-primary">Not Applicable</span>
+                                                                                        <span class="custom-font-style-xs custom-text-primary">Add/Edit</span>
                                                                                     </a>
+                                                                                </td>
+                                                                                <td></td>
+                                                                                <td>
+                                                                                    <span class="custom-bg-primary custom-text-light-pale custom-font-style-xs custom-border-radius-3 p-1">Required</span>
+                                                                                </td>
+                                                                                <td>
+                                                                                    <span class="custom-bg-primary custom-text-light-pale custom-font-style-xs custom-border-radius-3 p-1">Modify</span>
                                                                                 </td>
                                                                             </tr>
                                                                             <tr>
-                                                                                <td>1.1.2 Natural ecosystem conversion</td>
                                                                                 <td>
-                                                                                    <div class="d-flex flex-column">
-                                                                                        <span class="text-center steps-dependent-tag p-1">Landscape Dependent</span>
-                                                                                        <span class="text-center steps-not-applicable-tag p-1">Not Applicable</span>
-                                                                                    </div>
+                                                                                    <label class="container-chkbox">
+                                                                                        <input type="checkbox" checked="checked">
+                                                                                        <span class="checkmark"></span>
+                                                                                    </label>
                                                                                 </td>
                                                                                 <td>
-                                                                                    <div class="button b2 button-10" id="button-10">
-                                                                                        <input type="checkbox" class="switch-checkbox" />
-                                                                                        <div class="knobs">
-                                                                                            <span>Defferred</span>
-                                                                                        </div>
-                                                                                        <div class="layer"></div>
-                                                                                    </div>
+                                                                                    1.1.1.2 Percentage (%) of the total area of designated protected areas with effective management disaggregated by IUCN category
                                                                                 </td>
                                                                                 <td>
                                                                                     <a href="#" class="custom-bg-warning custom-border-radius-35 px-3 py-2 align-items-center">
                                                                                         <span><img src="../assets/media/dark_edit.png" style="width: 10%;" alt=""></span>
-                                                                                        <span class="custom-font-style-xs custom-text-primary">Not Applicable</span>
+                                                                                        <span class="custom-font-style-xs custom-text-primary">Add/Edit</span>
                                                                                     </a>
+                                                                                </td>
+                                                                                <td></td>
+                                                                                <td>
+                                                                                    <span class="custom-bg-primary custom-text-light-pale custom-font-style-xs custom-border-radius-3 p-1">Required</span>
+                                                                                </td>
+                                                                                <td>
+                                                                                    <span class="custom-bg-primary custom-text-light-pale custom-font-style-xs custom-border-radius-3 p-1">Modify</span>
                                                                                 </td>
                                                                             </tr>
                                                                             <tr>
-                                                                                <td>1.1.4 Ecosystem restoration</td>
-                                                                                <td><span class="custom-bg-cyan text-light custom-font-style-xs p-1">Optional</span></td>
                                                                                 <td>
-                                                                                    <div class="button b2 button-10" id="button-10">
-                                                                                        <input type="checkbox" class="switch-checkbox" />
-                                                                                        <div class="knobs">
-                                                                                            <span>Defferred</span>
-                                                                                        </div>
-                                                                                        <div class="layer"></div>
-                                                                                    </div>
+                                                                                    <label class="container-chkbox">
+                                                                                        <input type="checkbox" checked="checked">
+                                                                                        <span class="checkmark"></span>
+                                                                                    </label>
+                                                                                </td>
+                                                                                <td>
+                                                                                    1.1.1.3 Total area (ha) & percentage (%) of the landscape that is effectively conserved in other ways disaggregated by natural ecosystem type
                                                                                 </td>
                                                                                 <td>
                                                                                     <a href="#" class="custom-bg-warning custom-border-radius-35 px-3 py-2 align-items-center">
                                                                                         <span><img src="../assets/media/dark_edit.png" style="width: 10%;" alt=""></span>
-                                                                                        <span class="custom-font-style-xs custom-text-primary">Not Applicable</span>
+                                                                                        <span class="custom-font-style-xs custom-text-primary">Add/Edit</span>
                                                                                     </a>
                                                                                 </td>
-                                                                            </tr>
-                                                                            <tr>
+                                                                                <td></td>
                                                                                 <td>
-                                                                                    <a class="custom-bg-primary custom-border-radius-35 px-5 py-3 align-items-center">
-                                                                                        <span><img src="../assets/media/circle_add_icon.png" alt=""></span>
-                                                                                        <span class="text-light">Add Custom Indicator</span>
-                                                                                    </a>
+                                                                                    <span class="custom-bg-primary custom-text-light-pale custom-font-style-xs custom-border-radius-3 p-1">Required</span>
+                                                                                </td>
+                                                                                <td>
+                                                                                    <span class="custom-bg-primary custom-text-light-pale custom-font-style-xs custom-border-radius-3 p-1">Modify</span>
                                                                                 </td>
                                                                             </tr>
 
@@ -482,7 +444,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                     <div class="row">
                                                                         <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
                                                                             <span>
-                                                                                1.2 Protect and restore biodiversity
+                                                                                1.1.2 Natural ecosystem conversion
                                                                             </span>
                                                                         </div>
                                                                         <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
@@ -508,76 +470,85 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                     <table class="table indicator-table">
                                                                         <thead class="steps-table-header-color">
                                                                             <tr>
-                                                                                <th class="custom-font-style-sub-text" scope="col">Indicator</th>
-                                                                                <th class="custom-font-style-sub-text" scope="col">Applicability</th>
-                                                                                <th class="custom-font-style-sub-text w-125px" scope="col">Select</th>
+                                                                                <th class="custom-font-style-sub-text" scope="col">Include</th>
+                                                                                <th class="custom-font-style-sub-text" scope="col">Metric</th>
+                                                                                <th class="custom-font-style-sub-text w-125px" scope="col">Target</th>
+                                                                                <th class="custom-font-style-sub-text" scope="col">Milestone</th>
+                                                                                <th class="custom-font-style-sub-text" scope="col">Type</th>
                                                                                 <th class="custom-font-style-sub-text" scope="col">Actions</th>
                                                                             </tr>
                                                                         </thead>
                                                                         <tbody class="bg-white">
                                                                             <tr>
-                                                                                <td>1.2.1 Threats to species</td>
-                                                                                <td><span class="custom-bg-primary custom-text-light-pale custom-font-style-xs custom-border-radius-3 p-1">Core</span></td>
                                                                                 <td>
-                                                                                    <div class="button b2 button-10" id="button-10">
-                                                                                        <input type="checkbox" class="switch-checkbox" />
-                                                                                        <div class="knobs">
-                                                                                            <span>Defferred</span>
-                                                                                        </div>
-                                                                                        <div class="layer"></div>
-                                                                                    </div>
+                                                                                    <label class="container-chkbox">
+                                                                                        <input type="checkbox" checked="checked">
+                                                                                        <span class="checkmark"></span>
+                                                                                    </label>
+                                                                                </td>
+                                                                                <td>
+                                                                                    1.1.2.1 Total area (ha) & percentage (%) of area of natural ecosystems in the landscape that has been recently converted
                                                                                 </td>
                                                                                 <td>
                                                                                     <a href="#" class="custom-bg-warning custom-border-radius-35 px-3 py-2 align-items-center">
-                                                                                        <span><img src="../assets/media/dark_edit.png" style="width:10%;" alt=""></span>
-                                                                                        <span class="custom-font-style-xs custom-text-primary">Not Applicable</span>
+                                                                                        <span><img src="../assets/media/dark_edit.png" style="width: 10%;" alt=""></span>
+                                                                                        <span class="custom-font-style-xs custom-text-primary">Add/Edit</span>
                                                                                     </a>
                                                                                 </td>
-                                                                            </tr>
-                                                                            <tr>
-                                                                                <td>1.2.2 Biodiversity habitat conversion</td>
-                                                                                <td><span class="custom-bg-primary custom-text-light-pale custom-font-style-xs custom-border-radius-3 p-1">Core</span></td>
+                                                                                <td></td>
                                                                                 <td>
-                                                                                    <div class="button b2 button-10" id="button-10">
-                                                                                        <input type="checkbox" class="switch-checkbox" />
-                                                                                        <div class="knobs">
-                                                                                            <span>Defferred</span>
-                                                                                        </div>
-                                                                                        <div class="layer"></div>
-                                                                                    </div>
+                                                                                    <span class="custom-bg-primary custom-text-light-pale custom-font-style-xs custom-border-radius-3 p-1">Required</span>
                                                                                 </td>
                                                                                 <td>
-                                                                                    <a href="#" class="custom-bg-warning custom-border-radius-35 px-3 py-2 align-items-center">
-                                                                                        <span><img src="../assets/media/dark_edit.png" style="width:10%;" alt=""></span>
-                                                                                        <span class="custom-font-style-xs custom-text-primary">Not Applicable</span>
-                                                                                    </a>
-                                                                                </td>
-                                                                            </tr>
-                                                                            <tr>
-                                                                                <td>1.2.3 Biodiversity habitat degradation</td>
-                                                                                <td><span class="custom-bg-primary custom-text-light-pale custom-font-style-xs custom-border-radius-3 p-1">Core</span></td>
-                                                                                <td>
-                                                                                    <div class="button b2 button-10" id="button-10">
-                                                                                        <input type="checkbox" class="switch-checkbox" />
-                                                                                        <div class="knobs">
-                                                                                            <span>Defferred</span>
-                                                                                        </div>
-                                                                                        <div class="layer"></div>
-                                                                                    </div>
-                                                                                </td>
-                                                                                <td>
-                                                                                    <a href="#" class="custom-bg-warning custom-border-radius-35 px-3 py-2 align-items-center">
-                                                                                        <span><img src="../assets/media/dark_edit.png" style="width:10%;" alt=""></span>
-                                                                                        <span class="custom-font-style-xs custom-text-primary">Not Applicable</span>
-                                                                                    </a>
+                                                                                    <span class="custom-bg-primary custom-text-light-pale custom-font-style-xs custom-border-radius-3 p-1">Modify</span>
                                                                                 </td>
                                                                             </tr>
                                                                             <tr>
                                                                                 <td>
-                                                                                    <a class="custom-bg-primary custom-border-radius-35 px-5 py-3 align-items-center">
-                                                                                        <span><img src="../assets/media/circle_add_icon.png" alt=""></span>
-                                                                                        <span class="text-light">Add Custom Indicator</span>
+                                                                                    <label class="container-chkbox">
+                                                                                        <input type="checkbox" checked="checked">
+                                                                                        <span class="checkmark"></span>
+                                                                                    </label>
+                                                                                </td>
+                                                                                <td>
+                                                                                    1.1.2.2 Natural ecosystem conversion rate (average area [ha] & percentage [%] conversion per yr)
+                                                                                </td>
+                                                                                <td>
+                                                                                    <a href="#" class="custom-bg-warning custom-border-radius-35 px-3 py-2 align-items-center">
+                                                                                        <span><img src="../assets/media/dark_edit.png" style="width: 10%;" alt=""></span>
+                                                                                        <span class="custom-font-style-xs custom-text-primary">Add/Edit</span>
                                                                                     </a>
+                                                                                </td>
+                                                                                <td></td>
+                                                                                <td>
+                                                                                    <span class="custom-bg-primary custom-text-light-pale custom-font-style-xs custom-border-radius-3 p-1">Required</span>
+                                                                                </td>
+                                                                                <td>
+                                                                                    <span class="custom-bg-primary custom-text-light-pale custom-font-style-xs custom-border-radius-3 p-1">Modify</span>
+                                                                                </td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td>
+                                                                                    <label class="container-chkbox">
+                                                                                        <input type="checkbox" checked="checked">
+                                                                                        <span class="checkmark"></span>
+                                                                                    </label>
+                                                                                </td>
+                                                                                <td>
+                                                                                    1.1.2.3 User-defined metric for ecosystem category (e.g., forest ecosystem types) of area (ha) & percentage (%) of area in the landscape that has been recently converted
+                                                                                </td>
+                                                                                <td>
+                                                                                    <a href="#" class="custom-bg-warning custom-border-radius-35 px-3 py-2 align-items-center">
+                                                                                        <span><img src="../assets/media/dark_edit.png" style="width: 10%;" alt=""></span>
+                                                                                        <span class="custom-font-style-xs custom-text-primary">Add/Edit</span>
+                                                                                    </a>
+                                                                                </td>
+                                                                                <td></td>
+                                                                                <td>
+                                                                                    <span class="custom-bg-primary custom-text-light-pale custom-font-style-xs custom-border-radius-3 p-1">Required</span>
+                                                                                </td>
+                                                                                <td>
+                                                                                    <span class="custom-bg-primary custom-text-light-pale custom-font-style-xs custom-border-radius-3 p-1">Modify</span>
                                                                                 </td>
                                                                             </tr>
 
@@ -586,23 +557,17 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                 </div>
                                                             </div>
                                                         </div>
-                                                        <!-- <div class="card">
-                                                            <div class="card-header" id="headingThree">
-                                                                <h2 class="mb-0">
-                                                                    <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                                                        Collapsible Group Item #3
-                                                                    </button>
-                                                                </h2>
-                                                            </div>
-                                                            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample-0">
-                                                                <div class="card-body">
-                                                                    And lastly, the placeholder content for the third and final accordion panel. This panel is hidden by default.
-                                                                </div>
-                                                            </div>
-                                                        </div> -->
                                                     </div>
                                                 </div>
                                                 <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+                                                    <div class="mt-5 px-5">
+                                                        <div class="select-wrapper">
+                                                            <select name="indicator_filter" class="form-control custom-bg-primary text-light custom-select-arrow">
+                                                                <option value="1">2.1 Improve standard of living, especially for vulnerable and/or marginalized groups</option>
+                                                                <option value="1">2.2 Respect, protect, and fulfill human rights</option>
+                                                            </select>
+                                                        </div>
+                                                    </div>
                                                     <div class="accordion m-5" id="accordionExample-1">
                                                         <div class="card indicator-accordian-card">
                                                             <div class="card-header bg-white indicator-accordian-card-header" id="headingOne-0">
@@ -610,7 +575,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                     <div class="row">
                                                                         <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
                                                                             <span>
-                                                                                2.1 Respect, protect, and fulfill human rights
+                                                                                2.1.1 Household income & assets
                                                                             </span>
                                                                         </div>
                                                                         <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
@@ -637,85 +602,60 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                     <table class="table indicator-table">
                                                                         <thead class="steps-table-header-color">
                                                                             <tr>
-                                                                                <th class="custom-font-style-sub-text" scope="col">Indicator</th>
-                                                                                <th class="custom-font-style-sub-text" scope="col">Applicability</th>
-                                                                                <th class="custom-font-style-sub-text w-125px" scope="col">Select</th>
+                                                                                <th class="custom-font-style-sub-text" scope="col">Include</th>
+                                                                                <th class="custom-font-style-sub-text" scope="col">Metric</th>
+                                                                                <th class="custom-font-style-sub-text w-125px" scope="col">Target</th>
+                                                                                <th class="custom-font-style-sub-text" scope="col">Milestone</th>
+                                                                                <th class="custom-font-style-sub-text" scope="col">Type</th>
                                                                                 <th class="custom-font-style-sub-text" scope="col">Actions</th>
                                                                             </tr>
                                                                         </thead>
                                                                         <tbody class="bg-white">
                                                                             <tr>
-                                                                                <td>2.1.1 Household income & assets</td>
-                                                                                <td><span class="custom-bg-primary custom-text-light-pale custom-font-style-xs custom-border-radius-3 p-1">Core</span></td>
                                                                                 <td>
-                                                                                    <div class="button b2 button-10" id="button-10">
-                                                                                        <input type="checkbox" class="switch-checkbox" />
-                                                                                        <div class="knobs">
-                                                                                            <span>Defferred</span>
-                                                                                        </div>
-                                                                                        <div class="layer"></div>
-                                                                                    </div>
-                                                                                    <!-- <div>
-                                                                                        <span class="steps-tags-text deffered-tag p-2" style="margin-right: -4px;">Deffered</span>
-                                                                                        <span class="steps-tags-text included-tag p-2">Included</span>
-                                                                                    </div> -->
+                                                                                    <label class="container-chkbox">
+                                                                                        <input type="checkbox" checked="checked">
+                                                                                        <span class="checkmark"></span>
+                                                                                    </label>
                                                                                 </td>
+                                                                                <td>
+                                                                                    2.1.1.1 Percentage (%) of female and male population living below the local poverty line (or, if this is not specified, earning <$1.90 /day) </td>
                                                                                 <td>
                                                                                     <a href="#" class="custom-bg-warning custom-border-radius-35 px-3 py-2 align-items-center">
                                                                                         <span><img src="../assets/media/dark_edit.png" style="width: 10%;" alt=""></span>
-                                                                                        <span class="custom-font-style-xs custom-text-primary">Not Applicable</span>
+                                                                                        <span class="custom-font-style-xs custom-text-primary">Add/Edit</span>
                                                                                     </a>
                                                                                 </td>
-                                                                            </tr>
-                                                                            <tr>
-                                                                                <td>2.1.2 Health & nutrition</td>
+                                                                                <td></td>
                                                                                 <td>
-                                                                                    <div class="d-flex flex-column">
-                                                                                        <span class="text-center steps-dependent-tag p-1">Landscape Dependent</span>
-                                                                                        <span class="text-center steps-not-applicable-tag p-1">Not Applicable</span>
-                                                                                    </div>
+                                                                                    <span class="custom-bg-primary custom-text-light-pale custom-font-style-xs custom-border-radius-3 p-1">Required</span>
                                                                                 </td>
                                                                                 <td>
-                                                                                    <div class="button b2 button-10" id="button-10">
-                                                                                        <input type="checkbox" class="switch-checkbox" />
-                                                                                        <div class="knobs">
-                                                                                            <span>Defferred</span>
-                                                                                        </div>
-                                                                                        <div class="layer"></div>
-                                                                                    </div>
-                                                                                </td>
-                                                                                <td>
-                                                                                    <a href="#" class="custom-bg-warning custom-border-radius-35 px-3 py-2 align-items-center">
-                                                                                        <span><img src="../assets/media/dark_edit.png" style="width: 10%;" alt=""></span>
-                                                                                        <span class="custom-font-style-xs custom-text-primary">Not Applicable</span>
-                                                                                    </a>
-                                                                                </td>
-                                                                            </tr>
-                                                                            <tr>
-                                                                                <td>2.1.3 Education</td>
-                                                                                <td><span class="custom-bg-cyan text-light custom-font-style-xs p-1">Optional</span></td>
-                                                                                <td>
-                                                                                    <div class="button b2 button-10" id="button-10">
-                                                                                        <input type="checkbox" class="switch-checkbox" />
-                                                                                        <div class="knobs">
-                                                                                            <span>Defferred</span>
-                                                                                        </div>
-                                                                                        <div class="layer"></div>
-                                                                                    </div>
-                                                                                </td>
-                                                                                <td>
-                                                                                    <a href="#" class="custom-bg-warning custom-border-radius-35 px-3 py-2 align-items-center">
-                                                                                        <span><img src="../assets/media/dark_edit.png" style="width: 10%;" alt=""></span>
-                                                                                        <span class="custom-font-style-xs custom-text-primary">Not Applicable</span>
-                                                                                    </a>
+                                                                                    <span class="custom-bg-primary custom-text-light-pale custom-font-style-xs custom-border-radius-3 p-1">Modify</span>
                                                                                 </td>
                                                                             </tr>
                                                                             <tr>
                                                                                 <td>
-                                                                                    <a class="custom-bg-primary custom-border-radius-35 px-5 py-3 align-items-center">
-                                                                                        <span><img src="../assets/media/circle_add_icon.png" alt=""></span>
-                                                                                        <span class="text-light">Add Custom Indicator</span>
+                                                                                    <label class="container-chkbox">
+                                                                                        <input type="checkbox" checked="checked">
+                                                                                        <span class="checkmark"></span>
+                                                                                    </label>
+                                                                                </td>
+                                                                                <td>
+                                                                                    2.1.1.2 Percentage (%) of households owning or lacking context-appropriate asset(s). Examples include radio, TV, telephone, computer, animal cart, bicycle, motorbike, refrigerator, car, or truck
+                                                                                </td>
+                                                                                <td>
+                                                                                    <a href="#" class="custom-bg-warning custom-border-radius-35 px-3 py-2 align-items-center">
+                                                                                        <span><img src="../assets/media/dark_edit.png" style="width: 10%;" alt=""></span>
+                                                                                        <span class="custom-font-style-xs custom-text-primary">Add/Edit</span>
                                                                                     </a>
+                                                                                </td>
+                                                                                <td></td>
+                                                                                <td>
+                                                                                    <span class="custom-bg-primary custom-text-light-pale custom-font-style-xs custom-border-radius-3 p-1">Required</span>
+                                                                                </td>
+                                                                                <td>
+                                                                                    <span class="custom-bg-primary custom-text-light-pale custom-font-style-xs custom-border-radius-3 p-1">Modify</span>
                                                                                 </td>
                                                                             </tr>
 
@@ -730,7 +670,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                     <div class="row">
                                                                         <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
                                                                             <span>
-                                                                                2.2 Improve standard of living,
+                                                                                2.1.2 Health & nutrition
                                                                             </span>
                                                                         </div>
                                                                         <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
@@ -756,76 +696,61 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                     <table class="table indicator-table">
                                                                         <thead class="steps-table-header-color">
                                                                             <tr>
-                                                                                <th class="custom-font-style-sub-text" scope="col">Indicator</th>
-                                                                                <th class="custom-font-style-sub-text" scope="col">Applicability</th>
-                                                                                <th class="custom-font-style-sub-text w-125px" scope="col">Select</th>
+                                                                                <th class="custom-font-style-sub-text" scope="col">Include</th>
+                                                                                <th class="custom-font-style-sub-text" scope="col">Metric</th>
+                                                                                <th class="custom-font-style-sub-text w-125px" scope="col">Target</th>
+                                                                                <th class="custom-font-style-sub-text" scope="col">Milestone</th>
+                                                                                <th class="custom-font-style-sub-text" scope="col">Type</th>
                                                                                 <th class="custom-font-style-sub-text" scope="col">Actions</th>
                                                                             </tr>
                                                                         </thead>
                                                                         <tbody class="bg-white">
                                                                             <tr>
-                                                                                <td>2.2.1 Child labor</td>
-                                                                                <td><span class="custom-bg-primary custom-text-light-pale custom-font-style-xs custom-border-radius-3 p-1">Core</span></td>
                                                                                 <td>
-                                                                                    <div class="button b2 button-10" id="button-10">
-                                                                                        <input type="checkbox" class="switch-checkbox" />
-                                                                                        <div class="knobs">
-                                                                                            <span>Defferred</span>
-                                                                                        </div>
-                                                                                        <div class="layer"></div>
-                                                                                    </div>
+                                                                                    <label class="container-chkbox">
+                                                                                        <input type="checkbox" checked="checked">
+                                                                                        <span class="checkmark"></span>
+                                                                                    </label>
+                                                                                </td>
+                                                                                <td>
+                                                                                    2.1.2.1 Percentage (%) of girls and boys that are undernourished (required)
                                                                                 </td>
                                                                                 <td>
                                                                                     <a href="#" class="custom-bg-warning custom-border-radius-35 px-3 py-2 align-items-center">
-                                                                                        <span><img src="../assets/media/dark_edit.png" style="width:10%;" alt=""></span>
-                                                                                        <span class="custom-font-style-xs custom-text-primary">Not Applicable</span>
+                                                                                        <span><img src="../assets/media/dark_edit.png" style="width: 10%;" alt=""></span>
+                                                                                        <span class="custom-font-style-xs custom-text-primary">Add/Edit</span>
                                                                                     </a>
                                                                                 </td>
-                                                                            </tr>
-                                                                            <tr>
-                                                                                <td>2.2.2 Women’s rights</td>
-                                                                                <td><span class="custom-bg-primary custom-text-light-pale custom-font-style-xs custom-border-radius-3 p-1">Core</span></td>
+                                                                                <td></td>
                                                                                 <td>
-                                                                                    <div class="button b2 button-10" id="button-10">
-                                                                                        <input type="checkbox" class="switch-checkbox" />
-                                                                                        <div class="knobs">
-                                                                                            <span>Defferred</span>
-                                                                                        </div>
-                                                                                        <div class="layer"></div>
-                                                                                    </div>
+                                                                                    <span class="custom-bg-primary custom-text-light-pale custom-font-style-xs custom-border-radius-3 p-1">Required</span>
                                                                                 </td>
                                                                                 <td>
-                                                                                    <a href="#" class="custom-bg-warning custom-border-radius-35 px-3 py-2 align-items-center">
-                                                                                        <span><img src="../assets/media/dark_edit.png" style="width:10%;" alt=""></span>
-                                                                                        <span class="custom-font-style-xs custom-text-primary">Not Applicable</span>
-                                                                                    </a>
-                                                                                </td>
-                                                                            </tr>
-                                                                            <tr>
-                                                                                <td>2.2.3 Indigenous peoples’ and other marginalized groups’ right</td>
-                                                                                <td><span class="custom-bg-primary custom-text-light-pale custom-font-style-xs custom-border-radius-3 p-1">Core</span></td>
-                                                                                <td>
-                                                                                    <div class="button b2 button-10" id="button-10">
-                                                                                        <input type="checkbox" class="switch-checkbox" />
-                                                                                        <div class="knobs">
-                                                                                            <span>Defferred</span>
-                                                                                        </div>
-                                                                                        <div class="layer"></div>
-                                                                                    </div>
-                                                                                </td>
-                                                                                <td>
-                                                                                    <a href="#" class="custom-bg-warning custom-border-radius-35 px-3 py-2 align-items-center">
-                                                                                        <span><img src="../assets/media/dark_edit.png" style="width:10%;" alt=""></span>
-                                                                                        <span class="custom-font-style-xs custom-text-primary">Not Applicable</span>
-                                                                                    </a>
+                                                                                    <span class="custom-bg-primary custom-text-light-pale custom-font-style-xs custom-border-radius-3 p-1">Modify</span>
                                                                                 </td>
                                                                             </tr>
                                                                             <tr>
                                                                                 <td>
-                                                                                    <a class="custom-bg-primary custom-border-radius-35 px-5 py-3 align-items-center">
-                                                                                        <span><img src="../assets/media/circle_add_icon.png" alt=""></span>
-                                                                                        <span class="text-light">Add Custom Indicator</span>
+                                                                                    <label class="container-chkbox">
+                                                                                        <input type="checkbox" checked="checked">
+                                                                                        <span class="checkmark"></span>
+                                                                                    </label>
+                                                                                </td>
+                                                                                <td>
+                                                                                    2.1.2.2 Percentage (%) of female and male population without access to health services
+                                                                                </td>
+                                                                                <td>
+                                                                                    <a href="#" class="custom-bg-warning custom-border-radius-35 px-3 py-2 align-items-center">
+                                                                                        <span><img src="../assets/media/dark_edit.png" style="width: 10%;" alt=""></span>
+                                                                                        <span class="custom-font-style-xs custom-text-primary">Add/Edit</span>
                                                                                     </a>
+                                                                                </td>
+                                                                                <td></td>
+                                                                                <td>
+                                                                                    <span class="custom-bg-primary custom-text-light-pale custom-font-style-xs custom-border-radius-3 p-1">Required</span>
+                                                                                </td>
+                                                                                <td>
+                                                                                    <span class="custom-bg-primary custom-text-light-pale custom-font-style-xs custom-border-radius-3 p-1">Modify</span>
                                                                                 </td>
                                                                             </tr>
 
@@ -838,6 +763,14 @@ License: You must have a valid license purchased only from themeforest(the above
                                                     </div>
                                                 </div>
                                                 <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
+                                                    <div class="mt-5 px-5">
+                                                        <div class="select-wrapper">
+                                                            <select name="indicator_filter" class="form-control custom-bg-primary text-light custom-select-arrow">
+                                                                <option value="1">3.1 Recognize and protect rights to land and resources, and reduce related conflicts</option>
+                                                                <option value="1">3.2 Promote transparency, participation, inclusion, and coordination in landscape policy, planning, and management</option>
+                                                            </select>
+                                                        </div>
+                                                    </div>
                                                     <div class="accordion m-5" id="accordionExample-1">
                                                         <div class="card indicator-accordian-card">
                                                             <div class="card-header bg-white indicator-accordian-card-header" id="headingOne-0">
@@ -845,7 +778,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                     <div class="row">
                                                                         <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
                                                                             <span>
-                                                                                3.1 Recognize and protect rights
+                                                                                3.1.1 Land tenure
                                                                             </span>
                                                                         </div>
                                                                         <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
@@ -872,85 +805,61 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                     <table class="table indicator-table">
                                                                         <thead class="steps-table-header-color">
                                                                             <tr>
-                                                                                <th class="custom-font-style-sub-text" scope="col">Indicator</th>
-                                                                                <th class="custom-font-style-sub-text" scope="col">Applicability</th>
-                                                                                <th class="custom-font-style-sub-text w-125px" scope="col">Select</th>
+                                                                                <th class="custom-font-style-sub-text" scope="col">Include</th>
+                                                                                <th class="custom-font-style-sub-text" scope="col">Metric</th>
+                                                                                <th class="custom-font-style-sub-text w-125px" scope="col">Target</th>
+                                                                                <th class="custom-font-style-sub-text" scope="col">Milestone</th>
+                                                                                <th class="custom-font-style-sub-text" scope="col">Type</th>
                                                                                 <th class="custom-font-style-sub-text" scope="col">Actions</th>
                                                                             </tr>
                                                                         </thead>
                                                                         <tbody class="bg-white">
                                                                             <tr>
-                                                                                <td>3.1.1 Land tenure</td>
-                                                                                <td><span class="custom-bg-primary custom-text-light-pale custom-font-style-xs custom-border-radius-3 p-1">Core</span></td>
                                                                                 <td>
-                                                                                    <div class="button b2 button-10" id="button-10">
-                                                                                        <input type="checkbox" class="switch-checkbox" />
-                                                                                        <div class="knobs">
-                                                                                            <span>Defferred</span>
-                                                                                        </div>
-                                                                                        <div class="layer"></div>
-                                                                                    </div>
-                                                                                    <!-- <div>
-                                                                                        <span class="steps-tags-text deffered-tag p-2" style="margin-right: -4px;">Deffered</span>
-                                                                                        <span class="steps-tags-text included-tag p-2">Included</span>
-                                                                                    </div> -->
+                                                                                    <label class="container-chkbox">
+                                                                                        <input type="checkbox" checked="checked">
+                                                                                        <span class="checkmark"></span>
+                                                                                    </label>
+                                                                                </td>
+                                                                                <td>
+                                                                                    3.1.1.1 Percentage (%) of the landscape with formalized land tenure rights
                                                                                 </td>
                                                                                 <td>
                                                                                     <a href="#" class="custom-bg-warning custom-border-radius-35 px-3 py-2 align-items-center">
                                                                                         <span><img src="../assets/media/dark_edit.png" style="width: 10%;" alt=""></span>
-                                                                                        <span class="custom-font-style-xs custom-text-primary">Not Applicable</span>
+                                                                                        <span class="custom-font-style-xs custom-text-primary">Add/Edit</span>
                                                                                     </a>
+                                                                                </td>
+                                                                                <td></td>
+                                                                                <td>
+                                                                                    <span class="custom-bg-primary custom-text-light-pale custom-font-style-xs custom-border-radius-3 p-1">Required</span>
+                                                                                </td>
+                                                                                <td>
+                                                                                    <span class="custom-bg-primary custom-text-light-pale custom-font-style-xs custom-border-radius-3 p-1">Modify</span>
                                                                                 </td>
                                                                             </tr>
                                                                             <tr>
-                                                                                <td>3.1.2 Land conflicts</td>
                                                                                 <td>
-                                                                                    <div class="d-flex flex-column">
-                                                                                        <span class="text-center steps-dependent-tag p-1">Landscape Dependent</span>
-                                                                                        <span class="text-center steps-not-applicable-tag p-1">Not Applicable</span>
-                                                                                    </div>
+                                                                                    <label class="container-chkbox">
+                                                                                        <input type="checkbox" checked="checked">
+                                                                                        <span class="checkmark"></span>
+                                                                                    </label>
                                                                                 </td>
                                                                                 <td>
-                                                                                    <div class="button b2 button-10" id="button-10">
-                                                                                        <input type="checkbox" class="switch-checkbox" />
-                                                                                        <div class="knobs">
-                                                                                            <span>Defferred</span>
-                                                                                        </div>
-                                                                                        <div class="layer"></div>
-                                                                                    </div>
+                                                                                    3.1.1.1 Percentage (%) of the landscape with formalized land tenure rights
                                                                                 </td>
                                                                                 <td>
                                                                                     <a href="#" class="custom-bg-warning custom-border-radius-35 px-3 py-2 align-items-center">
                                                                                         <span><img src="../assets/media/dark_edit.png" style="width: 10%;" alt=""></span>
-                                                                                        <span class="custom-font-style-xs custom-text-primary">Not Applicable</span>
+                                                                                        <span class="custom-font-style-xs custom-text-primary">Add/Edit</span>
                                                                                     </a>
                                                                                 </td>
-                                                                            </tr>
-                                                                            <tr>
-                                                                                <td>3.1.3 Resource tenure</td>
-                                                                                <td><span class="custom-bg-cyan text-light custom-font-style-xs p-1">Optional</span></td>
+                                                                                <td></td>
                                                                                 <td>
-                                                                                    <div class="button b2 button-10" id="button-10">
-                                                                                        <input type="checkbox" class="switch-checkbox" />
-                                                                                        <div class="knobs">
-                                                                                            <span>Defferred</span>
-                                                                                        </div>
-                                                                                        <div class="layer"></div>
-                                                                                    </div>
+                                                                                    <span class="custom-bg-primary custom-text-light-pale custom-font-style-xs custom-border-radius-3 p-1">Required</span>
                                                                                 </td>
                                                                                 <td>
-                                                                                    <a href="#" class="custom-bg-warning custom-border-radius-35 px-3 py-2 align-items-center">
-                                                                                        <span><img src="../assets/media/dark_edit.png" style="width: 10%;" alt=""></span>
-                                                                                        <span class="custom-font-style-xs custom-text-primary">Not Applicable</span>
-                                                                                    </a>
-                                                                                </td>
-                                                                            </tr>
-                                                                            <tr>
-                                                                                <td>
-                                                                                    <a class="custom-bg-primary custom-border-radius-35 px-5 py-3 align-items-center">
-                                                                                        <span><img src="../assets/media/circle_add_icon.png" alt=""></span>
-                                                                                        <span class="text-light">Add Custom Indicator</span>
-                                                                                    </a>
+                                                                                    <span class="custom-bg-primary custom-text-light-pale custom-font-style-xs custom-border-radius-3 p-1">Modify</span>
                                                                                 </td>
                                                                             </tr>
 
@@ -965,7 +874,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                     <div class="row">
                                                                         <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
                                                                             <span>
-                                                                                3.2 Promote transparency, participation
+                                                                                3.1.2 Land conflicts
                                                                             </span>
                                                                         </div>
                                                                         <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
@@ -991,76 +900,61 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                     <table class="table indicator-table">
                                                                         <thead class="steps-table-header-color">
                                                                             <tr>
-                                                                                <th class="custom-font-style-sub-text" scope="col">Indicator</th>
-                                                                                <th class="custom-font-style-sub-text" scope="col">Applicability</th>
-                                                                                <th class="custom-font-style-sub-text w-125px" scope="col">Select</th>
+                                                                                <th class="custom-font-style-sub-text" scope="col">Include</th>
+                                                                                <th class="custom-font-style-sub-text" scope="col">Metric</th>
+                                                                                <th class="custom-font-style-sub-text w-125px" scope="col">Target</th>
+                                                                                <th class="custom-font-style-sub-text" scope="col">Milestone</th>
+                                                                                <th class="custom-font-style-sub-text" scope="col">Type</th>
                                                                                 <th class="custom-font-style-sub-text" scope="col">Actions</th>
                                                                             </tr>
                                                                         </thead>
                                                                         <tbody class="bg-white">
                                                                             <tr>
-                                                                                <td>3.2.1 Land-use plan adoption & enforcement</td>
-                                                                                <td><span class="custom-bg-primary custom-text-light-pale custom-font-style-xs custom-border-radius-3 p-1">Core</span></td>
                                                                                 <td>
-                                                                                    <div class="button b2 button-10" id="button-10">
-                                                                                        <input type="checkbox" class="switch-checkbox" />
-                                                                                        <div class="knobs">
-                                                                                            <span>Defferred</span>
-                                                                                        </div>
-                                                                                        <div class="layer"></div>
-                                                                                    </div>
+                                                                                    <label class="container-chkbox">
+                                                                                        <input type="checkbox" checked="checked">
+                                                                                        <span class="checkmark"></span>
+                                                                                    </label>
+                                                                                </td>
+                                                                                <td>
+                                                                                    3.1.2.1 Number of unresolved land and resource conflicts or grievances, and the area of land (ha) subject to such conflicts
                                                                                 </td>
                                                                                 <td>
                                                                                     <a href="#" class="custom-bg-warning custom-border-radius-35 px-3 py-2 align-items-center">
-                                                                                        <span><img src="../assets/media/dark_edit.png" style="width:10%;" alt=""></span>
-                                                                                        <span class="custom-font-style-xs custom-text-primary">Not Applicable</span>
+                                                                                        <span><img src="../assets/media/dark_edit.png" style="width: 10%;" alt=""></span>
+                                                                                        <span class="custom-font-style-xs custom-text-primary">Add/Edit</span>
                                                                                     </a>
                                                                                 </td>
-                                                                            </tr>
-                                                                            <tr>
-                                                                                <td>3.2.2 Coordination of government agencies in land-use policy</td>
-                                                                                <td><span class="custom-bg-primary custom-text-light-pale custom-font-style-xs custom-border-radius-3 p-1">Core</span></td>
+                                                                                <td></td>
                                                                                 <td>
-                                                                                    <div class="button b2 button-10" id="button-10">
-                                                                                        <input type="checkbox" class="switch-checkbox" />
-                                                                                        <div class="knobs">
-                                                                                            <span>Defferred</span>
-                                                                                        </div>
-                                                                                        <div class="layer"></div>
-                                                                                    </div>
+                                                                                    <span class="custom-bg-primary custom-text-light-pale custom-font-style-xs custom-border-radius-3 p-1">Required</span>
                                                                                 </td>
                                                                                 <td>
-                                                                                    <a href="#" class="custom-bg-warning custom-border-radius-35 px-3 py-2 align-items-center">
-                                                                                        <span><img src="../assets/media/dark_edit.png" style="width:10%;" alt=""></span>
-                                                                                        <span class="custom-font-style-xs custom-text-primary">Not Applicable</span>
-                                                                                    </a>
-                                                                                </td>
-                                                                            </tr>
-                                                                            <tr>
-                                                                                <td>3.2.3 Stakeholder participation and inclusion in land-use policy</td>
-                                                                                <td><span class="custom-bg-primary custom-text-light-pale custom-font-style-xs custom-border-radius-3 p-1">Core</span></td>
-                                                                                <td>
-                                                                                    <div class="button b2 button-10" id="button-10">
-                                                                                        <input type="checkbox" class="switch-checkbox" />
-                                                                                        <div class="knobs">
-                                                                                            <span>Defferred</span>
-                                                                                        </div>
-                                                                                        <div class="layer"></div>
-                                                                                    </div>
-                                                                                </td>
-                                                                                <td>
-                                                                                    <a href="#" class="custom-bg-warning custom-border-radius-35 px-3 py-2 align-items-center">
-                                                                                        <span><img src="../assets/media/dark_edit.png" style="width:10%;" alt=""></span>
-                                                                                        <span class="custom-font-style-xs custom-text-primary">Not Applicable</span>
-                                                                                    </a>
+                                                                                    <span class="custom-bg-primary custom-text-light-pale custom-font-style-xs custom-border-radius-3 p-1">Modify</span>
                                                                                 </td>
                                                                             </tr>
                                                                             <tr>
                                                                                 <td>
-                                                                                    <a class="custom-bg-primary custom-border-radius-35 px-5 py-3 align-items-center">
-                                                                                        <span><img src="../assets/media/circle_add_icon.png" alt=""></span>
-                                                                                        <span class="text-light">Add Custom Indicator</span>
+                                                                                    <label class="container-chkbox">
+                                                                                        <input type="checkbox" checked="checked">
+                                                                                        <span class="checkmark"></span>
+                                                                                    </label>
+                                                                                </td>
+                                                                                <td>
+                                                                                    3.1.2.2 Number of women and men, young and adult (e.g., environmental and human rights defenders) subject to violence or receiving threats of violence as a result of conflicts over land & resources
+                                                                                </td>
+                                                                                <td>
+                                                                                    <a href="#" class="custom-bg-warning custom-border-radius-35 px-3 py-2 align-items-center">
+                                                                                        <span><img src="../assets/media/dark_edit.png" style="width: 10%;" alt=""></span>
+                                                                                        <span class="custom-font-style-xs custom-text-primary">Add/Edit</span>
                                                                                     </a>
+                                                                                </td>
+                                                                                <td></td>
+                                                                                <td>
+                                                                                    <span class="custom-bg-primary custom-text-light-pale custom-font-style-xs custom-border-radius-3 p-1">Required</span>
+                                                                                </td>
+                                                                                <td>
+                                                                                    <span class="custom-bg-primary custom-text-light-pale custom-font-style-xs custom-border-radius-3 p-1">Modify</span>
                                                                                 </td>
                                                                             </tr>
 
@@ -1073,6 +967,14 @@ License: You must have a valid license purchased only from themeforest(the above
                                                     </div>
                                                 </div>
                                                 <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+                                                    <div class="mt-5 px-5">
+                                                        <div class="select-wrapper">
+                                                            <select name="indicator_filter" class="form-control custom-bg-primary text-light custom-select-arrow">
+                                                                <option value="1">4.1 Promote regenerative, agricultural, agroforestry, and tree production systems</option>
+                                                                <option value="1">4.2 Promote sustainability of other natural resource-based production sectors</option>
+                                                            </select>
+                                                        </div>
+                                                    </div>
                                                     <div class="accordion m-5" id="accordionExample-1">
                                                         <div class="card indicator-accordian-card">
                                                             <div class="card-header bg-white indicator-accordian-card-header" id="headingOne-0">
@@ -1080,7 +982,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                     <div class="row">
                                                                         <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
                                                                             <span>
-                                                                                4.1 Promote regenerative, agricultural
+                                                                                4.1.1 Agricultural, agroforestry & tree plantation productivity
                                                                             </span>
                                                                         </div>
                                                                         <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
@@ -1107,85 +1009,61 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                     <table class="table indicator-table">
                                                                         <thead class="steps-table-header-color">
                                                                             <tr>
-                                                                                <th class="custom-font-style-sub-text" scope="col">Indicator</th>
-                                                                                <th class="custom-font-style-sub-text" scope="col">Applicability</th>
-                                                                                <th class="custom-font-style-sub-text w-125px" scope="col">Select</th>
+                                                                                <th class="custom-font-style-sub-text" scope="col">Include</th>
+                                                                                <th class="custom-font-style-sub-text" scope="col">Metric</th>
+                                                                                <th class="custom-font-style-sub-text w-125px" scope="col">Target</th>
+                                                                                <th class="custom-font-style-sub-text" scope="col">Milestone</th>
+                                                                                <th class="custom-font-style-sub-text" scope="col">Type</th>
                                                                                 <th class="custom-font-style-sub-text" scope="col">Actions</th>
                                                                             </tr>
                                                                         </thead>
                                                                         <tbody class="bg-white">
                                                                             <tr>
-                                                                                <td>4.1.1 Agricultural, agroforestry & tree plantation productivity</td>
-                                                                                <td><span class="custom-bg-primary custom-text-light-pale custom-font-style-xs custom-border-radius-3 p-1">Core</span></td>
                                                                                 <td>
-                                                                                    <div class="button b2 button-10" id="button-10">
-                                                                                        <input type="checkbox" class="switch-checkbox" />
-                                                                                        <div class="knobs">
-                                                                                            <span>Defferred</span>
-                                                                                        </div>
-                                                                                        <div class="layer"></div>
-                                                                                    </div>
-                                                                                    <!-- <div>
-                                                                                        <span class="steps-tags-text deffered-tag p-2" style="margin-right: -4px;">Deffered</span>
-                                                                                        <span class="steps-tags-text included-tag p-2">Included</span>
-                                                                                    </div> -->
+                                                                                    <label class="container-chkbox">
+                                                                                        <input type="checkbox" checked="checked">
+                                                                                        <span class="checkmark"></span>
+                                                                                    </label>
+                                                                                </td>
+                                                                                <td>
+                                                                                    4.1.1.1 Average crop productivity (yield/ha) disaggregated by crop
                                                                                 </td>
                                                                                 <td>
                                                                                     <a href="#" class="custom-bg-warning custom-border-radius-35 px-3 py-2 align-items-center">
                                                                                         <span><img src="../assets/media/dark_edit.png" style="width: 10%;" alt=""></span>
-                                                                                        <span class="custom-font-style-xs custom-text-primary">Not Applicable</span>
+                                                                                        <span class="custom-font-style-xs custom-text-primary">Add/Edit</span>
                                                                                     </a>
+                                                                                </td>
+                                                                                <td></td>
+                                                                                <td>
+                                                                                    <span class="custom-bg-primary custom-text-light-pale custom-font-style-xs custom-border-radius-3 p-1">Required</span>
+                                                                                </td>
+                                                                                <td>
+                                                                                    <span class="custom-bg-primary custom-text-light-pale custom-font-style-xs custom-border-radius-3 p-1">Modify</span>
                                                                                 </td>
                                                                             </tr>
                                                                             <tr>
-                                                                                <td>4.1.2 Input use efficiency in agricultural</td>
                                                                                 <td>
-                                                                                    <div class="d-flex flex-column">
-                                                                                        <span class="text-center steps-dependent-tag p-1">Landscape Dependent</span>
-                                                                                        <span class="text-center steps-not-applicable-tag p-1">Not Applicable</span>
-                                                                                    </div>
+                                                                                    <label class="container-chkbox">
+                                                                                        <input type="checkbox" checked="checked">
+                                                                                        <span class="checkmark"></span>
+                                                                                    </label>
                                                                                 </td>
                                                                                 <td>
-                                                                                    <div class="button b2 button-10" id="button-10">
-                                                                                        <input type="checkbox" class="switch-checkbox" />
-                                                                                        <div class="knobs">
-                                                                                            <span>Defferred</span>
-                                                                                        </div>
-                                                                                        <div class="layer"></div>
-                                                                                    </div>
+                                                                                    4.1.1.2 Average productivity of pasture-raised animals (livestock units/ha or meat or dairy production/ha) disaggregated by animal type
                                                                                 </td>
                                                                                 <td>
                                                                                     <a href="#" class="custom-bg-warning custom-border-radius-35 px-3 py-2 align-items-center">
                                                                                         <span><img src="../assets/media/dark_edit.png" style="width: 10%;" alt=""></span>
-                                                                                        <span class="custom-font-style-xs custom-text-primary">Not Applicable</span>
+                                                                                        <span class="custom-font-style-xs custom-text-primary">Add/Edit</span>
                                                                                     </a>
                                                                                 </td>
-                                                                            </tr>
-                                                                            <tr>
-                                                                                <td>4.1.3 Adoption of sustainable land management practices</td>
-                                                                                <td><span class="custom-bg-cyan text-light custom-font-style-xs p-1">Optional</span></td>
+                                                                                <td></td>
                                                                                 <td>
-                                                                                    <div class="button b2 button-10" id="button-10">
-                                                                                        <input type="checkbox" class="switch-checkbox" />
-                                                                                        <div class="knobs">
-                                                                                            <span>Defferred</span>
-                                                                                        </div>
-                                                                                        <div class="layer"></div>
-                                                                                    </div>
+                                                                                    <span class="custom-bg-primary custom-text-light-pale custom-font-style-xs custom-border-radius-3 p-1">Required</span>
                                                                                 </td>
                                                                                 <td>
-                                                                                    <a href="#" class="custom-bg-warning custom-border-radius-35 px-3 py-2 align-items-center">
-                                                                                        <span><img src="../assets/media/dark_edit.png" style="width: 10%;" alt=""></span>
-                                                                                        <span class="custom-font-style-xs custom-text-primary">Not Applicable</span>
-                                                                                    </a>
-                                                                                </td>
-                                                                            </tr>
-                                                                            <tr>
-                                                                                <td>
-                                                                                    <a class="custom-bg-primary custom-border-radius-35 px-5 py-3 align-items-center">
-                                                                                        <span><img src="../assets/media/circle_add_icon.png" alt=""></span>
-                                                                                        <span class="text-light">Add Custom Indicator</span>
-                                                                                    </a>
+                                                                                    <span class="custom-bg-primary custom-text-light-pale custom-font-style-xs custom-border-radius-3 p-1">Modify</span>
                                                                                 </td>
                                                                             </tr>
 
@@ -1200,7 +1078,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                     <div class="row">
                                                                         <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
                                                                             <span>
-                                                                                4.2 Promote sustainability of other natural resource
+                                                                                4.2.1 User-defined indicator(s)
                                                                             </span>
                                                                         </div>
                                                                         <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
@@ -1226,38 +1104,37 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                     <table class="table indicator-table">
                                                                         <thead class="steps-table-header-color">
                                                                             <tr>
-                                                                                <th class="custom-font-style-sub-text" scope="col">Indicator</th>
-                                                                                <th class="custom-font-style-sub-text" scope="col">Applicability</th>
-                                                                                <th class="custom-font-style-sub-text w-125px" scope="col">Select</th>
+                                                                                <th class="custom-font-style-sub-text" scope="col">Include</th>
+                                                                                <th class="custom-font-style-sub-text" scope="col">Metric</th>
+                                                                                <th class="custom-font-style-sub-text w-125px" scope="col">Target</th>
+                                                                                <th class="custom-font-style-sub-text" scope="col">Milestone</th>
+                                                                                <th class="custom-font-style-sub-text" scope="col">Type</th>
                                                                                 <th class="custom-font-style-sub-text" scope="col">Actions</th>
                                                                             </tr>
                                                                         </thead>
                                                                         <tbody class="bg-white">
                                                                             <tr>
-                                                                                <td>4.2.1 User-defined indicator(s)</td>
-                                                                                <td><span class="custom-bg-primary custom-text-light-pale custom-font-style-xs custom-border-radius-3 p-1">Core</span></td>
                                                                                 <td>
-                                                                                    <div class="button b2 button-10" id="button-10">
-                                                                                        <input type="checkbox" class="switch-checkbox" />
-                                                                                        <div class="knobs">
-                                                                                            <span>Defferred</span>
-                                                                                        </div>
-                                                                                        <div class="layer"></div>
-                                                                                    </div>
+                                                                                    <label class="container-chkbox">
+                                                                                        <input type="checkbox" checked="checked">
+                                                                                        <span class="checkmark"></span>
+                                                                                    </label>
+                                                                                </td>
+                                                                                <td>
+                                                                                    4.2.1.1 Average forest plantation productivity (timber volume/ha) disaggregated by plantation type
                                                                                 </td>
                                                                                 <td>
                                                                                     <a href="#" class="custom-bg-warning custom-border-radius-35 px-3 py-2 align-items-center">
-                                                                                        <span><img src="../assets/media/dark_edit.png" style="width:10%;" alt=""></span>
-                                                                                        <span class="custom-font-style-xs custom-text-primary">Not Applicable</span>
+                                                                                        <span><img src="../assets/media/dark_edit.png" style="width: 10%;" alt=""></span>
+                                                                                        <span class="custom-font-style-xs custom-text-primary">Add/Edit</span>
                                                                                     </a>
                                                                                 </td>
-                                                                            </tr>
-                                                                            <tr>
+                                                                                <td></td>
                                                                                 <td>
-                                                                                    <a class="custom-bg-primary custom-border-radius-35 px-5 py-3 align-items-center">
-                                                                                        <span><img src="../assets/media/circle_add_icon.png" alt=""></span>
-                                                                                        <span class="text-light">Add Custom Indicator</span>
-                                                                                    </a>
+                                                                                    <span class="custom-bg-primary custom-text-light-pale custom-font-style-xs custom-border-radius-3 p-1">Required</span>
+                                                                                </td>
+                                                                                <td>
+                                                                                    <span class="custom-bg-primary custom-text-light-pale custom-font-style-xs custom-border-radius-3 p-1">Modify</span>
                                                                                 </td>
                                                                             </tr>
 

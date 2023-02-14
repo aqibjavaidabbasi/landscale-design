@@ -46,7 +46,7 @@
                     <div class="menu-submenu bg-light-primary brt-50 brb-50">
                         <i class="menu-arrow"></i>
                         <ul class="menu-subnav py-0  brt-50">
-                            <li class="menu-item menu-item-parent brt-50 brb-50 bg-primary" aria-haspopup="true">
+                            <li class="menu-item menu-item-parent brt-50 brb-50 bg-primary custom-height-58" aria-haspopup="true">
                                 <span class="menu-link p-5" style="height: auto!important;">
                                     <span class="menu-text m-1 text-light"><a href="./index.php" class="text-light">Assesments Dashboard</a></span>
                                 </span>
@@ -95,7 +95,7 @@
                     <div class="menu-submenu bg-light-primary brt-50">
                         <i class="menu-arrow"></i>
                         <ul class="menu-subnav pt-0  brt-50">
-                            <li class="menu-item menu-item-parent brt-50 brb-50  bg-primary" aria-haspopup="true">
+                            <li class="menu-item menu-item-parent brt-50 brb-50  bg-primary custom-height-59" aria-haspopup="true">
                                 <span class="menu-link p-5" style="height: auto!important;">
                                     <span class="menu-text m-1 text-light">Assesments</span>
                                 </span>
@@ -194,7 +194,7 @@
                             </li>
                         </ul> -->
                         <ul class="menu-subnav pt-0  brt-50">
-                            <li class="menu-item menu-item-parent brt-50 brb-50  bg-primary" aria-haspopup="true">
+                            <li class="menu-item menu-item-parent brt-50 brb-50  bg-primary custom-height-59" aria-haspopup="true">
                                 <span class="menu-link p-5" style="height: auto!important;">
                                     <span class="menu-text m-1 text-light">Explore Landscapes</span>
                                 </span>
@@ -246,7 +246,7 @@
                     <div class="menu-submenu bg-light-primary brt-50 brb-50">
                         <i class="menu-arrow"></i>
                         <ul class="menu-subnav py-0  brt-50">
-                            <li class="menu-item menu-item-parent brt-50 brb-50 bg-primary" aria-haspopup="true">
+                            <li class="menu-item menu-item-parent brt-50 brb-50 bg-primary custom-height-59" aria-haspopup="true">
                                 <span class="menu-link p-5" style="height: auto!important;">
                                     <span class="menu-text m-1 text-light">Help Center</span>
                                 </span>

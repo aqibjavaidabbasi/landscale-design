@@ -128,16 +128,16 @@ License: You must have a valid license purchased only from themeforest(the above
                 <div class="d-flex flex-column flex-column-fluid" id="kt_content">
                     <!--begin::Subheader-->
                     <div class="container">
-                        <div class="breadcrumb-nav">
-                            <a href="#">Assessment /</a>
-                            <span>New Assessment</span>
+                        <div class="py-5">
+                            <a href="#" class="custom-font-style-text custom-text-grey">Assessment /</a>
+                            <span class="custom-font-style-text custom-text-primary">New Assessment</span>
                         </div>
                         <div class="row">
                             <div class="col-md-12">
-                                <div class="card w-100 custom-padding-30">
+                                <div class="card w-100">
                                     <div class="row">
                                         <div class="col-md-12 text-center">
-                                            <h4 class="assesment-heading assesment-heading-responsive">Assessment registration of New assessment</h4>
+                                            <h4 class="custom-font-style-headings">Assessment registration of New assessment</h4>
                                         </div>
                                     </div>
 
@@ -713,7 +713,7 @@ License: You must have a valid license purchased only from themeforest(the above
             <span class="btn-help-icon">
                 <img src="../assets/media/help.png" alt="">
             </span>
-            <span class="help-center-font-family btn-help-text d-none">
+            <span class="btn-help-toggle custom-font-style-sub-text p-6 bg-light d-none">
                 Help Center
             </span>
         </div>
@@ -814,13 +814,13 @@ License: You must have a valid license purchased only from themeforest(the above
         });
 
         $(".btn-help-center-wrapper").mouseenter(function() {
-            $(".btn-help-center-wrapper").find('.btn-help-text').removeClass('d-none')
-            $(".btn-help-center-wrapper").find('.btn-help-text').addClass('d-flex align-self-center')
+            $(".btn-help-center-wrapper").find('.btn-help-toggle').removeClass('d-none')
+            $(".btn-help-center-wrapper").find('.btn-help-toggle').addClass('d-flex align-self-center')
         });
 
         $(".btn-help-center-wrapper").mouseleave(function() {
-            $(".btn-help-center-wrapper").find('.btn-help-text').addClass('d-none')
-            $(".btn-help-center-wrapper").find('.btn-help-text').removeClass('d-flex align-self-center')
+            $(".btn-help-center-wrapper").find('.btn-help-toggle').addClass('d-none')
+            $(".btn-help-center-wrapper").find('.btn-help-toggle').removeClass('d-flex align-self-center')
         });
 
         $(".menu-submenu").mouseenter(function() {

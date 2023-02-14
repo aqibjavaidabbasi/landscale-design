@@ -223,16 +223,12 @@ License: You must have a valid license purchased only from themeforest(the above
                                     <div class="row mt-35">
                                         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                                             <div class="custom-bg-light-pale custom-border-radius-15 custom-border-color-pale h-100 p-10">
-                                                <span class="custom-font-style-headings custom-text-primary d-block mb-1">Step 3: Indicator & Metrics</span>
+                                                <span class="custom-font-style-headings custom-text-primary d-block mb-1">Step 4: Data Tasks & Results</span>
                                                 <!-- <span class="steps-default-text steps-small-text d-block my-5">View Instructions</span> -->
                                                 <span data-toggle="collapse" data-target="#demo" class="custom-font-style-text custom-text-primary d-block my-5 custom-cursor-pointer">View Instructions <img src="../assets/media/arrow_down.png" alt=""></span>
 
                                                 <div id="demo" class="collapse mb-2">
-                                                    Select applicable and optional indicators. Then, select applicable and optional metrics that provide the measurement of the indicators. Optionally, create custom indicators and metrics.
-
-                                                    LandScale guidance provides directions for determining which indicators are required and which are optional. This step may be revisited after data screening and evaluation in step 4 if certain metrics and indicators have been determined to be data deficient and, therefore, deferred to a later assessment when data may become available.
-
-                                                    You may assign indicators and metrics tasks to team members below as overall leads for these tasks but to assign leads to specific areas of the framework you must first navigate to the appropriate pillar and goal on the following screens.
+                                                    Identify, screen, and evaluate data suitable to measure the metrics from step 3. Start either with individual metrics or with candidate datasets. Thoroughly read the step 4 guidance before beginning these tasks.
                                                 </div>
                                                 <span class="custom-bg-primary p-2 custom-border-radius-4 d-inline-block mt-1">
                                                     <span class="custom-text-light-pale">Pillars Completed</span>
@@ -332,35 +328,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                     </div>
 
                                     <div class="row mt-15">
-                                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                                            <div class="custom-bg-light-pale p-10">
-                                                <span class="custom-font-style-headings custom-text-primary d-block mb-1">Progress report</span>
-                                                <p class="custom-font-style-text custom-text-primary d-block my-5">You are encouraged to submit your indicators & metrics once the 4 pillars are completed. Select the completed pillars and send them for approval.</p>
-                                                <table class="table steps-table-radius custom-step-table-radius steps-custom-margin-top border-custom">
-                                                    <thead class="steps-table-header-color">
-                                                        <tr>
-                                                            <th class="custom-font-style-subheadings custom-text-primary" scope="col">Pillars</th>
-                                                            <th class="custom-font-style-subheadings custom-text-primary" scope="col">Indicators & Metrics</th>
-                                                        </tr>
-                                                    </thead>
-                                                    <tbody class="bg-white">
-                                                        <tr>
-                                                            <td>Ecosystems</td>
-                                                            <td><span class="custom-bg-light-pale custom-text-primary p-1">Completed</span></td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td>Human Well-Being</td>
-                                                            <td><span class="custom-bg-light-blue custom-text-primary p-1">Pending</span></td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td>Governance</td>
-                                                            <td><span class="custom-bg-light-yellow custom-text-primary p-1">Under review</span></td>
-                                                        </tr>
-                                                    </tbody>
-                                                </table>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 custom-display-none">
+                                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 custom-display-none">
                                             <table class="table steps-task steps-table-radius custom-step-table-radius border-custom">
                                                 <thead class="steps-table-header-color">
                                                     <tr>
@@ -372,7 +340,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                 </thead>
                                                 <tbody class="bg-white">
                                                     <tr>
-                                                        <td><a href="./add_indicator.php">Add Indicators</a></td>
+                                                        <td><a href="./themes&datasets.php">Data Themes & Datasets</a></td>
                                                         <td>
                                                             <div class="steps-image-container">
                                                                 <img src="../assets/media/icons_and_Illustrations/Avatars/Avatars_Baboon.png" class="accordian-unit-image-1" alt="">
@@ -386,7 +354,21 @@ License: You must have a valid license purchased only from themeforest(the above
                                                         <td><span class="custom-bg-light-pale custom-text-primary p-1">Completed</span></td>
                                                     </tr>
                                                     <tr>
-                                                        <td><a href="./add_metrices.php">Add Metrics</a></td>
+                                                        <td><a href="./metric_result.php">Enter Metric Results</a></td>
+                                                        <td>
+                                                            <div class="steps-image-container">
+                                                                <img src="../assets/media/icons_and_Illustrations/Avatars/Avatars_Baboon.png" class="accordian-unit-image-1" alt="">
+                                                                <img src="../assets/media/icons_and_Illustrations/Avatars/Avatars_Frog.png" class="accordian-unit-image-2" alt="">
+                                                                <img src="../assets/media/icons_and_Illustrations/Avatars/Avatars_Parrot.png" class="accordian-unit-image-3" alt="">
+                                                                <span class="step-unit-counter d-inline-block">6+</span>
+                                                                <img src="../assets/media/add_person.png" class="step-unit-image-4" alt="">
+                                                            </div>
+                                                        </td>
+                                                        <td><span class="custom-bg-cyan text-light p-1">Required</span></td>
+                                                        <td><span class="custom-bg-light-pale custom-text-primary p-1">Completed</span></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td><a href="./validation_results.php">Validation of results</a></td>
                                                         <td>
                                                             <div class="steps-image-container">
                                                                 <img src="../assets/media/icons_and_Illustrations/Avatars/Avatars_Baboon.png" class="accordian-unit-image-1" alt="">
