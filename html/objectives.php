@@ -149,12 +149,6 @@ License: You must have a valid license purchased only from themeforest(the above
                                                 <span class="custom-progress-bar boundary-after"></span>
                                                 <span class="custom-progress-bar plan-after"></span>
                                             </div>
-                                            <!-- <div class="wrapper-progerss-bar d-flex">
-                                                <span class="custom-progress-bar"></span>
-                                                <span class="custom-progress-bar-1"></span>
-                                                <span class="custom-progress-bar-2"></span>
-                                                <span class="custom-progress-bar-4"></span>
-                                            </div> -->
                                         </div>
                                     </div>
 

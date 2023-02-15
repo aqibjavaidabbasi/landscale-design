@@ -147,21 +147,45 @@ License: You must have a valid license purchased only from themeforest(the above
                                         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                                             <div class="custom-bg-light-pale custom-border-radius-15 custom-border-color-pale h-100 p-10">
                                                 <span class="custom-font-style-headings custom-text-primary d-block mb-1">Overall progress</span>
-                                                <div class="custom-bg-primary p-4 custom-text-light-pale mt-5 w-50">
-                                                    Applicable metrics: 26
+                                                <div class="row mt-5">
+                                                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                                                        <div class="custom-bg-primary p-4 w-100 custom-text-light-pale">
+                                                            <div class="d-flex flex-column">
+                                                                <span class="custom-font-style-headings">26</span>
+                                                                <span class="custom-font-style-small-text">Applicable metrics</span>
+                                                            </div>
+                                                             
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                                                        <div class="custom-bg-light-yellow p-4 w-100 custom-text-primary">
+                                                            <div class="d-flex flex-column">
+                                                                <span class="custom-font-style-headings">9</span>
+                                                                <span class="custom-font-style-small-text">Metrics in validation</span>
+                                                            </div>
+                                                             
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                                                        <div class="custom-bg-cyan p-4 text-light w-100">
+                                                            <div class="d-flex flex-column">
+                                                                <span class="custom-font-style-headings">0</span>
+                                                                <span class="custom-font-style-small-text">Metrics Published</span>
+                                                            </div>
+                                                             
+                                                        </div>
+                                                    </div>
+                                                    <!-- <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                                                        <div class="custom-bg-light-yellow p-4 custom-text-primary">
+                                                            Metrics in validation: 9
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                                                        <div class="custom-bg-cyan p-4 text-light">
+                                                            Metrics Published: 0
+                                                        </div>
+                                                    </div> -->
                                                 </div>
-                                                <div class="custom-bg-light-yellow p-4 custom-text-primary my-2 w-50">
-                                                    Metrics in validation: 9
-                                                </div>
-                                                <div class="custom-bg-cyan p-4 text-light w-50">
-                                                    Metrics Published: 0
-                                                </div>
-                                                <!-- <span data-toggle="collapse" data-target="#demo" class="custom-font-style-text custom-text-primary d-block my-5 custom-cursor-pointer">View Instructions <img src="../assets/media/arrow_down.png" alt=""></span>
-
-                                                <div id="demo" class="collapse mb-2">
-                                                    Below you will find the indicators of Ecosystems pillar of the LandScale framework. The Applicability indicates whether the indicator is required to meet the full LandScale requirements or is optional (see guidance for a complete description and explanation of each indicator). Action is required for each indicator. For Landscape-dependent indicators you must determine applicability to your landscape (see guidance). For Core indicators these are required in all landscapes but you may defer these due to data deficiency (as determined in Step 4) or for other reasons that you document. Optional indicators should be marked as included or excluded. Actions to defer, include, or not include are done using the toggle in the Select column below.
-                                                </div> -->
-
                                             </div>
                                         </div>
                                         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 custom-padding-0 pl-0 pr-0">

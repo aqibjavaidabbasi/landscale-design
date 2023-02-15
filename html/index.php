@@ -272,7 +272,9 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                 <div class="custom-bg-light-pale custom-padding-15" style="position: -webkit-sticky;position: sticky; top: 0px;">
                                                                     <div class="row justify-content-between">
                                                                         <div class="col-md-6">
-                                                                            <h4 class="custom-font-family custom-font-style-subheadings">Filters</h4>
+                                                                            <div class="d-flex align-items-center h-100">
+                                                                                <span class="custom-font-family custom-text-primary custom-font-style-subheadings p-1">Filters</span>
+                                                                            </div>
                                                                         </div>
                                                                         <div class="col-md-6" style="text-align: right;"><a class="btn btn-secondary btn-sm btn-text-white btn-hover-primary" id="btn_clear_all" style="display:none">{!!trans('data_resources.label_clear_filter')!!}</a></div>
                                                                     </div>
@@ -489,7 +491,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                             <div id="grid_view" class="tabcontent">
                                                                 <div class="row ml-4">
                                                                     <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12 grid-card">
-                                                                        <img src="../assets/media/map_img1.png" class="w-100 custom-border-radius-15 p-1" alt="">
+                                                                        <img src="../assets/media/map_img1.png" class="w-100 p-1" alt="">
                                                                         <div class="p-4">
                                                                             <h6 class="custom-font-style-subheadings">Jacob Michael</h6>
                                                                             <span class="custom-font-style-small">Not Plan yet!</span>
@@ -515,7 +517,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                         </div>
                                                                     </div>
                                                                     <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12 grid-card mx-3 responsive-margin-grid">
-                                                                        <img src="../assets/media/map_img1.png" class="w-100 custom-border-radius-15 p-1" alt="">
+                                                                        <img src="../assets/media/map_img1.png" class="w-100 p-1" alt="">
                                                                         <div class="p-4">
                                                                             <h6 class="custom-font-style-subheadings">Jacob Michael</h6>
                                                                             <span class="custom-font-style-small">Not Plan yet!</span>
@@ -541,7 +543,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                         </div>
                                                                     </div>
                                                                     <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12 grid-card">
-                                                                        <img src="../assets/media/map_img1.png" class="w-100 custom-border-radius-15 p-1" alt="">
+                                                                        <img src="../assets/media/map_img1.png" class="w-100 p-1" alt="">
                                                                         <div class="p-4">
                                                                             <h6 class="custom-font-style-subheadings">Jacob Michael</h6>
                                                                             <span class="custom-font-style-small">Not Plan yet!</span>
@@ -569,7 +571,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                 </div>
                                                                 <div class="row ml-4 my-5">
                                                                     <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12 grid-card">
-                                                                        <img src="../assets/media/map_img1.png" class="w-100 custom-border-radius-15 p-1" alt="">
+                                                                        <img src="../assets/media/map_img1.png" class="w-100 p-1" alt="">
                                                                         <div class="p-4">
                                                                             <h6 class="custom-font-style-subheadings">Jacob Michael</h6>
                                                                             <span class="custom-font-style-small">Not Plan yet!</span>
@@ -595,7 +597,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                         </div>
                                                                     </div>
                                                                     <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12 grid-card mx-3 responsive-margin-grid">
-                                                                        <img src="../assets/media/map_img1.png" class="w-100 custom-border-radius-15 p-1" alt="">
+                                                                        <img src="../assets/media/map_img1.png" class="w-100 p-1" alt="">
                                                                         <div class="p-4">
                                                                             <h6 class="custom-font-style-subheadings">Jacob Michael</h6>
                                                                             <span class="custom-font-style-small">Not Plan yet!</span>
@@ -621,7 +623,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                         </div>
                                                                     </div>
                                                                     <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12 grid-card">
-                                                                        <img src="../assets/media/map_img1.png" class="w-100 custom-border-radius-15 p-1" alt="">
+                                                                        <img src="../assets/media/map_img1.png" class="w-100 p-1" alt="">
                                                                         <div class="p-4">
                                                                             <h6 class="custom-font-style-subheadings">Jacob Michael</h6>
                                                                             <span class="custom-font-style-small">Not Plan yet!</span>
@@ -649,7 +651,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                 </div>
                                                                 <div class="row ml-4">
                                                                     <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12 grid-card">
-                                                                        <img src="../assets/media/map_img1.png" class="w-100 custom-border-radius-15 p-1" alt="">
+                                                                        <img src="../assets/media/map_img1.png" class="w-100 p-1" alt="">
                                                                         <div class="p-4">
                                                                             <h6 class="custom-font-style-subheadings">Jacob Michael</h6>
                                                                             <span class="custom-font-style-small">Not Plan yet!</span>
@@ -675,7 +677,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                         </div>
                                                                     </div>
                                                                     <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12 grid-card mx-3 responsive-margin-grid">
-                                                                        <img src="../assets/media/map_img1.png" class="w-100 custom-border-radius-15 p-1" alt="">
+                                                                        <img src="../assets/media/map_img1.png" class="w-100 p-1" alt="">
                                                                         <div class="p-4">
                                                                             <h6 class="custom-font-style-subheadings">Jacob Michael</h6>
                                                                             <span class="custom-font-style-small">Not Plan yet!</span>
@@ -701,7 +703,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                         </div>
                                                                     </div>
                                                                     <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12 grid-card">
-                                                                        <img src="../assets/media/map_img1.png" class="w-100 custom-border-radius-15 p-1" alt="">
+                                                                        <img src="../assets/media/map_img1.png" class="w-100 p-1" alt="">
                                                                         <div class="p-4">
                                                                             <h6 class="custom-font-style-subheadings">Jacob Michael</h6>
                                                                             <span class="custom-font-style-small">Not Plan yet!</span>

@@ -466,10 +466,12 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                 </span>
                                                                             </div>
                                                                             <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
-                                                                                <select name="indicator_filter" class="form-control custom-bg-primary text-light">
-                                                                                    <option value="1">Select an action</option>
-                                                                                    <option value="1">Remove result</option>
-                                                                                </select>
+                                                                                <div class="select-wrapper">
+                                                                                    <select name="indicator_filter" class="form-control custom-bg-primary text-light">
+                                                                                        <option value="">Action</option>
+                                                                                        <option value="1">Remove result</option>
+                                                                                    </select>
+                                                                                </div>
                                                                             </div>
                                                                         </div>
                                                                     </div>

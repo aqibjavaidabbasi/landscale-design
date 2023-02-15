@@ -100373,7 +100373,8 @@ body {
     }
 }
 
-.aside-minimize:not(.aside-minimize-hover) .aside-menu .menu-nav>.menu-item:not([data-menu-submenu-mode=accordion]).menu-item-hover>.menu-submenu, .aside-menu.aside-menu-dropdown .menu-nav>.menu-item:not([data-menu-submenu-mode=accordion]).menu-item-hover>.menu-submenu {
+.aside-minimize:not(.aside-minimize-hover) .aside-menu .menu-nav>.menu-item:not([data-menu-submenu-mode=accordion]).menu-item-hover>.menu-submenu,
+.aside-menu.aside-menu-dropdown .menu-nav>.menu-item:not([data-menu-submenu-mode=accordion]).menu-item-hover>.menu-submenu {
     top: 0px !important;
 }
 
@@ -100504,7 +100505,6 @@ body {
 .grid-card {
     background: #FFFFFF;
     border: 1px solid rgba(154, 191, 120, 0.6);
-    border-radius: 15px;
     padding-left: 0px !important;
     padding-right: 0px !important;
     max-width: 31% !important;
@@ -100557,7 +100557,8 @@ body {
 }
 
 .btn-help-icon {
-    background-color: #4C94A0;
+    opacity: 0.3;
+    background-color: #074A37;
     border-radius: 25px 0px 0px 25px;
     padding: 4px;
 }
@@ -100621,6 +100622,7 @@ body {
 .wrapper-progerss-bar .custom-progress-bar:nth-child(2) {
     background-color: #EBF2E4;
 }
+
 .wrapper-progerss-bar .custom-progress-bar:nth-child(2)::before {
     content: '';
     position: absolute;
@@ -100631,12 +100633,15 @@ body {
     height: 15px;
     border-radius: 50%;
 }
+
 .active-bar {
     background-color: #074A37 !important;
 }
+
 .active-bar::before {
-    background-color: #074A37!important;
+    background-color: #074A37 !important;
 }
+
 .wrapper-progerss-bar .custom-progress-bar:nth-child(2)::after {
     content: 'Objectives';
     position: absolute;
@@ -100648,6 +100653,7 @@ body {
 .wrapper-progerss-bar .custom-progress-bar:nth-child(3) {
     background-color: #EBF2E4;
 }
+
 .wrapper-progerss-bar .custom-progress-bar:nth-child(3)::before {
     content: '';
     position: absolute;
@@ -100658,6 +100664,7 @@ body {
     height: 15px;
     border-radius: 50%;
 }
+
 .wrapper-progerss-bar .custom-progress-bar:nth-child(3)::after {
     content: 'Objectives';
     position: absolute;
@@ -100669,6 +100676,7 @@ body {
 .wrapper-progerss-bar .custom-progress-bar:nth-child(4) {
     background-color: #EBF2E4;
 }
+
 .wrapper-progerss-bar .custom-progress-bar:nth-child(4)::before {
     content: '';
     position: absolute;
@@ -100679,6 +100687,7 @@ body {
     height: 15px;
     border-radius: 50%;
 }
+
 .wrapper-progerss-bar .custom-progress-bar:nth-child(4)::after {
     content: 'Objectives';
     position: absolute;
@@ -100704,20 +100713,6 @@ body {
     height: 3px;
 }
 
-.objective-after::after {
-    content: "Objectives" !important;
-}
-
-.boundary-after::after {
-    content: "Boundary" !important;
-}
-
-.plan-after::after {
-    content: "Payment plan" !important;
-}
-
-/* delete from here */
-
 .custom-progress-bar::before {
     content: '';
     position: absolute;
@@ -100737,83 +100732,18 @@ body {
     color: #9ABF78;
 }
 
-.custom-progress-bar-1 {
-    position: relative;
-    width: 25%;
-    background-color: #074A37;
-    height: 3px;
+.objective-after::after {
+    content: "Objectives" !important;
 }
 
-.custom-progress-bar-1::before {
-    content: '';
-    position: absolute;
-    top: -5px;
-    left: 112.731px;
-    background-color: #074A37;
-    width: 15px;
-    height: 15px;
-    border-radius: 50%;
+.boundary-after::after {
+    content: "Boundary" !important;
 }
 
-.custom-progress-bar-1::after {
-    content: 'Objectives';
-    position: absolute;
-    top: -35px;
-    left: 100.731px;
-    color: #9ABF78;
+.plan-after::after {
+    content: "Payment plan" !important;
 }
 
-.custom-progress-bar-2 {
-    position: relative;
-    width: 25%;
-    background-color: #074A37;
-    height: 3px;
-}
-
-.custom-progress-bar-2::before {
-    content: '';
-    position: absolute;
-    top: -5px;
-    left: 112.731px;
-    background-color: #074A37;
-    width: 15px;
-    height: 15px;
-    border-radius: 50%;
-}
-
-.custom-progress-bar-2::after {
-    content: 'Boundary';
-    position: absolute;
-    top: -35px;
-    left: 100.731px;
-    color: #9ABF78;
-}
-
-.custom-progress-bar-4 {
-    position: relative;
-    width: 25%;
-    background-color: #074A37;
-    height: 3px;
-}
-
-.custom-progress-bar-4::before {
-    content: '';
-    position: absolute;
-    top: -5px;
-    left: 112.731px;
-    background-color: #074A37;
-    width: 15px;
-    height: 15px;
-    border-radius: 50%;
-}
-
-.custom-progress-bar-4::after {
-    content: 'Payment Plan';
-    position: absolute;
-    top: -35px;
-    left: 100.731px;
-    color: #9ABF78;
-}
 
 .steps-image-container {
     position: relative;
@@ -101063,8 +100993,8 @@ body {
     position: absolute;
     top: 0;
     left: 0;
-    height: 25px;
-    width: 25px;
+    height: 20px;
+    width: 20px;
     background-color: #eee;
 }
 
@@ -101103,7 +101033,7 @@ body {
     transform: rotate(45deg);
 }
 
-.custom-select-arrow {
+select {
     -webkit-appearance: none;
     appearance: none;
 }
@@ -101119,6 +101049,7 @@ body {
     right: 15px;
     position: absolute;
     color: #fff;
+    z-index: 2 !important;
 }
 
 .hover-menu:hover,
