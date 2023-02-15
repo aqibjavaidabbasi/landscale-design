@@ -43,7 +43,7 @@
                         </span>
                         <span class="menu-text menu-text-opened">Assesments Dashboard</span>
                     </a>
-                    <div class="menu-submenu bg-light-primary brt-50 brb-50">
+                    <div class="menu-submenu bg-light-primary brt-50">
                         <i class="menu-arrow"></i>
                         <!-- menu-subnav py-0  brt-50 -->
                         <ul class="menu-subnav pt-0  brt-50">
@@ -211,7 +211,7 @@
                         </span>
                         <span class="menu-text menu-text-opened">Explore Landscapes</span>
                     </a>
-                    <div class="menu-submenu bg-light-primary brt-50 brb-50">
+                    <div class="menu-submenu bg-light-primary brt-50">
                         <i class="menu-arrow"></i>
                         <!-- <ul class="menu-subnav py-0  brt-50">
                             <li class="menu-item menu-item-parent brt-50 brb-50 bg-primary" aria-haspopup="true">
@@ -270,7 +270,7 @@
                         </span>
                         <span class="menu-text menu-text-opened">Help Center</span>
                     </a>
-                    <div class="menu-submenu bg-light-primary brt-50 brb-50">
+                    <div class="menu-submenu bg-light-primary brt-50">
                         <i class="menu-arrow"></i>
                         <ul class="menu-subnav py-0  brt-50">
                             <li class="menu-item menu-item-parent brt-50 brb-50 bg-primary custom-height-59" aria-haspopup="true">
