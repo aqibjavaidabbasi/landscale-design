@@ -51,6 +51,32 @@
                                     <span class="menu-text m-1 text-light"><a href="./index.php" class="text-light">Assesments Dashboard</a></span>
                                 </span>
                             </li>
+                            <li class="menu-item" aria-haspopup="true">
+                                <a href="./admin_dashboard.php" class="menu-link">
+                                    <i class="menu-bullet-dot mr-3">
+                                        <span>
+                                            <svg width="7" height="9" viewBox="0 0 7 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M1.19995 1.42438L1.65276 1L5.39995 4.5L1.65276 8L1.19995 7.57781L4.49214 4.5L1.19995 1.42438Z" stroke="#3F544C" />
+                                            </svg>
+
+                                        </span>
+                                    </i>
+                                    <span class="menu-text">Admin Dashboard</span>
+                                </a>
+                            </li>
+                            <li class="menu-item" aria-haspopup="true">
+                                <a href="./landscale_listing_dashboard.php" class="menu-link">
+                                    <i class="menu-bullet-dot mr-3">
+                                        <span>
+                                            <svg width="7" height="9" viewBox="0 0 7 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M1.19995 1.42438L1.65276 1L5.39995 4.5L1.65276 8L1.19995 7.57781L4.49214 4.5L1.19995 1.42438Z" stroke="#3F544C" />
+                                            </svg>
+
+                                        </span>
+                                    </i>
+                                    <span class="menu-text">Landscale Dashboard</span>
+                                </a>
+                            </li>
                         </ul>
                         <!-- <ul class="menu-subnav pt-0  brt-50">
                             <li class="menu-item menu-item-parent brt-50 brb-50  bg-primary" aria-haspopup="true">
@@ -114,7 +140,7 @@
                                 </a>
                             </li>
                             <li class="menu-item" aria-haspopup="true">
-                                <a href="./dashboard_with_square_cornors.php" class="menu-link">
+                                <a href="./admin_dashboard.php" class="menu-link">
                                     <i class="menu-bullet-dot mr-3">
                                         <span>
                                             <svg width="7" height="9" viewBox="0 0 7 9" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -123,11 +149,11 @@
 
                                         </span>
                                     </i>
-                                    <span class="menu-text">Assesment 02</span>
+                                    <span class="menu-text">Admin Dashboard</span>
                                 </a>
                             </li>
                             <li class="menu-item" aria-haspopup="true">
-                                <a href="./dashboard_with_square_cornors.php" class="menu-link">
+                                <a href="./landscale_listing_dashboard.php" class="menu-link">
                                     <i class="menu-bullet-dot mr-3">
                                         <span>
                                             <svg width="7" height="9" viewBox="0 0 7 9" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -136,7 +162,7 @@
 
                                         </span>
                                     </i>
-                                    <span class="menu-text">Assesment 03</span>
+                                    <span class="menu-text">Landscale Dashboard</span>
                                 </a>
                             </li>
                             <li class="menu-item" aria-haspopup="true">
