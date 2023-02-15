@@ -74,11 +74,11 @@
                 <div class="dropdown-menu p-0 m-0 dropdown-menu-right dropdown-menu-anim-up dropdown-menu-lg primary-border-color">
                     <div class="quick-search" id="kt_quick_search_dropdown">
                         <div class="scroll pr-7 mr-n7 ps ps--active-y" data-scroll="true" data-height="300" data-mobile-height="200" style="height: 300px; overflow: hidden;">
-                            <div class="text-center py-1 primary-border-bottom">
+                            <div class="text-center py-1 custom-border-bottom-pale">
                                 <h6 class="mt-2">You have 1 unread notification</h6>
                             </div>
                             <!--begin::Item-->
-                            <div class="d-flex align-items-center primary-border-bottom">
+                            <div class="d-flex align-items-center custom-border-bottom-pale">
                                 <!--begin::Symbol-->
                                 <div class="p-4 rounded-circle bg-light-primary ml-5 mr-5 my-5">
                                     <span class="symbol-label">
@@ -154,7 +154,7 @@
                     <div class="quick-search">
                         <div class="scroll pr-7 mr-n7 ps ps--active-y">
                             <!--begin::Item-->
-                            <div class="d-flex align-items-center primary-border-bottom p-2">
+                            <div class="d-flex align-items-center custom-border-bottom-pale p-2">
                                 <!--begin::Symbol-->
                                 <div class="btn btn-icon btn-clean btn-md mr-1 ml-2 rounded-circle bg-light-primary m-5">
                                     <img src="../assets/media/profile.svg" height="40" alt="">
@@ -166,7 +166,7 @@
                                 </div>
                                 <!--end::Text-->
                             </div>
-                            <div class="d-flex align-items-center primary-border-bottom">
+                            <div class="d-flex align-items-center custom-border-bottom-pale">
                                 <!--begin::Symbol-->
                                 <div class="p-5 rounded-circle bg-light-primary ml-5 mr-5 my-5">
                                     <svg width="14" height="15" viewBox="0 0 14 15" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -184,7 +184,7 @@
                                 </div>
                                 <!--end::Text-->
                             </div>
-                            <div class="d-flex align-items-center primary-border-bottom">
+                            <div class="d-flex align-items-center custom-border-bottom-pale">
                                 <!--begin::Symbol-->
                                 <div class="p-4 rounded-circle bg-light-primary ml-5 mr-5 my-5">
                                     <span class="symbol-label">

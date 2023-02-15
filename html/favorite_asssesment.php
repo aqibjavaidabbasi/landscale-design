@@ -139,60 +139,67 @@ License: You must have a valid license purchased only from themeforest(the above
                                     <div class="row">
                                         <div class="col-xl-4 col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                             <span class="custom-font-style-headings custom-text-primary d-inline-block mb-5">Find assessments by location</span>
-                                            <div class="row mt-5">
+                                            <div class="row">
                                                 <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-                                                    <a class="custom-bg-light-pale custom-font-style-text custom-text-grey custom-border-radius-15 px-5 py-2 d-inline-block text-center w-100">Ghana</a>
+                                                    <input type="radio" class="btn-check filter_div" value="0" name="steps" id="step-0" autocomplete="off">
+                                                    <label class="btn-outline-primary custom-bg-light-pale custom-font-style-text custom-text-grey custom-border-radius-15 px-5 py-2 d-inline-block text-center w-100 custom-cursor-pointer" for="step-0">Ghana</label>
                                                 </div>
-                                                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 responsive-margin-help">
-                                                    <a class="custom-bg-light-pale custom-font-style-text custom-text-grey custom-border-radius-15 px-5 py-2 d-inline-block text-center w-100">Mali</a>
-                                                </div>
+
                                                 <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-                                                    <a class="custom-bg-light-pale custom-font-style-text custom-text-grey custom-border-radius-15 px-5 py-2 d-inline-block text-center w-100">Peru</a>
+                                                    <input type="radio" class="btn-check filter_div" value="9" name="steps" id="step-9" autocomplete="off">
+                                                    <label class="btn-outline-primary custom-bg-light-pale custom-font-style-text custom-text-grey custom-border-radius-15 px-5 py-2 d-inline-block text-center w-100 custom-cursor-pointer" for="step-9">Pakistan</label>
                                                 </div>
-                                            </div>
-                                            <div class="row mt-5">
+
                                                 <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-                                                    <a class="custom-bg-light-pale custom-font-style-text custom-text-grey custom-border-radius-15 px-5 py-2 d-inline-block text-center w-100">Ghana</a>
+                                                    <input type="radio" class="btn-check filter_div" value="1" name="steps" id="step-1" autocomplete="off">
+                                                    <label class="btn-outline-primary custom-bg-light-pale custom-font-style-text custom-text-grey custom-border-radius-15 px-5 py-2 d-inline-block text-center w-100 custom-cursor-pointer" for="step-1">Thiland</label>
                                                 </div>
-                                                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 responsive-margin-help">
-                                                    <a class="custom-bg-light-pale custom-font-style-text custom-text-grey custom-border-radius-15 px-5 py-2 d-inline-block text-center w-100">Mali</a>
-                                                </div>
+
                                                 <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-                                                    <a class="custom-bg-light-pale custom-font-style-text custom-text-grey custom-border-radius-15 px-5 py-2 d-inline-block text-center w-100">Peru</a>
+                                                    <input type="radio" class="btn-check filter_div" value="2" name="steps" id="step-2" autocomplete="off">
+                                                    <label class="btn-outline-primary custom-bg-light-pale custom-font-style-text custom-text-grey custom-border-radius-15 px-5 py-2 d-inline-block text-center w-100 custom-cursor-pointer" for="step-2">India</label>
                                                 </div>
-                                            </div>
-                                            <div class="row mt-5">
+
                                                 <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-                                                    <a class="custom-bg-light-pale custom-font-style-text custom-text-grey custom-border-radius-15 px-5 py-2 d-inline-block text-center w-100">Ghana</a>
+                                                    <input type="radio" class="btn-check filter_div" value="3" name="steps" id="step-3" autocomplete="off">
+                                                    <label class="btn-outline-primary custom-bg-light-pale custom-font-style-text custom-text-grey custom-border-radius-15 px-5 py-2 d-inline-block text-center w-100 custom-cursor-pointer" for="step-3">Mali</label>
                                                 </div>
-                                                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 responsive-margin-help">
-                                                    <a class="custom-bg-light-pale custom-font-style-text custom-text-grey custom-border-radius-15 px-5 py-2 d-inline-block text-center w-100">Mali</a>
-                                                </div>
+
                                                 <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-                                                    <a class="custom-bg-light-pale custom-font-style-text custom-text-grey custom-border-radius-15 px-5 py-2 d-inline-block text-center w-100">Peru</a>
+                                                    <input type="radio" class="btn-check filter_div" value="4" name="steps" id="step-4" autocomplete="off">
+                                                    <label class="btn-outline-primary custom-bg-light-pale custom-font-style-text custom-text-grey custom-border-radius-15 px-5 py-2 d-inline-block text-center w-100 custom-cursor-pointer" for="step-4">Peru</label>
                                                 </div>
-                                            </div>
-                                            <div class="row mt-5">
+
                                                 <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-                                                    <a class="custom-bg-light-pale custom-font-style-text custom-text-grey custom-border-radius-15 px-5 py-2 d-inline-block text-center w-100">Ghana</a>
+                                                    <input type="radio" class="btn-check filter_div" value="5" name="steps" id="step-5" autocomplete="off">
+                                                    <label class="btn-outline-primary custom-bg-light-pale custom-font-style-text custom-text-grey custom-border-radius-15 px-5 py-2 d-inline-block text-center w-100 custom-cursor-pointer" for="step-5">Colombia</label>
                                                 </div>
-                                                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 responsive-margin-help">
-                                                    <a class="custom-bg-light-pale custom-font-style-text custom-text-grey custom-border-radius-15 px-5 py-2 d-inline-block text-center w-100">Mali</a>
-                                                </div>
+
                                                 <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-                                                    <a class="custom-bg-light-pale custom-font-style-text custom-text-grey custom-border-radius-15 px-5 py-2 d-inline-block text-center w-100">Peru</a>
+                                                    <input type="radio" class="btn-check filter_div" value="7" name="steps" id="step-7" autocomplete="off">
+                                                    <label class="btn-outline-primary custom-bg-light-pale custom-font-style-text custom-text-grey custom-border-radius-15 px-5 py-2 d-inline-block text-center w-100 custom-cursor-pointer" for="step-7">America</label>
                                                 </div>
-                                            </div>
-                                            <div class="row mt-5">
+
                                                 <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-                                                    <a class="custom-bg-light-pale custom-font-style-text custom-text-grey custom-border-radius-15 px-5 py-2 d-inline-block text-center w-100">Ghana</a>
+                                                    <input type="radio" class="btn-check filter_div" value="8" name="steps" id="step-8" autocomplete="off">
+                                                    <label class="btn-outline-primary custom-bg-light-pale custom-font-style-text custom-text-grey custom-border-radius-15 px-5 py-2 d-inline-block text-center w-100 custom-cursor-pointer" for="step-8">Turkey</label>
                                                 </div>
-                                                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 responsive-margin-help">
-                                                    <a class="custom-bg-light-pale custom-font-style-text custom-text-grey custom-border-radius-15 px-5 py-2 d-inline-block text-center w-100">Mali</a>
-                                                </div>
+
                                                 <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-                                                    <a class="custom-bg-light-pale custom-font-style-text custom-text-grey custom-border-radius-15 px-5 py-2 d-inline-block text-center w-100">Peru</a>
+                                                    <input type="radio" class="btn-check filter_div" value="8" name="steps" id="step-10" autocomplete="off">
+                                                    <label class="btn-outline-primary custom-bg-light-pale custom-font-style-text custom-text-grey custom-border-radius-15 px-5 py-2 d-inline-block text-center w-100 custom-cursor-pointer" for="step-10">Dubai</label>
                                                 </div>
+
+                                                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                                                    <input type="radio" class="btn-check filter_div" value="12" name="steps" id="step-12" autocomplete="off">
+                                                    <label class="btn-outline-primary custom-bg-light-pale custom-font-style-text custom-text-grey custom-border-radius-15 px-5 py-2 d-inline-block text-center w-100 custom-cursor-pointer" for="step-12">Mexico</label>
+                                                </div>
+
+                                                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                                                    <input type="radio" class="btn-check filter_div" value="13" name="steps" id="step-13" autocomplete="off">
+                                                    <label class="btn-outline-primary custom-bg-light-pale custom-font-style-text custom-text-grey custom-border-radius-15 px-5 py-2 d-inline-block text-center w-100 custom-cursor-pointer" for="step-13">Kenya</label>
+                                                </div>
+
                                             </div>
                                         </div>
                                         <div class="col-xl-8 col-lg-12 col-md-12 col-sm-12 col-xs-12">
@@ -497,6 +504,16 @@ License: You must have a valid license purchased only from themeforest(the above
         $(".menu-submenu").mouseleave(function() {
             let element = $(this).parent('.menu-item').find('.menu-toggle');
             element.removeClass('side-icon-bg-dark');
+        });
+        $('.filter_div').on('change', function() {
+            /*function to apply filter by countries on assessment table*/
+            console.log('jj')
+            if ($('.filter_div').siblings('label').hasClass('active')) {
+                $('.filter_div').siblings('label').removeClass('active')
+            }
+            $(this).prop("checked", true);
+            $(this).siblings('label').addClass("active");
+            // filterColumn( 9,this.value);
         });
     </script>
 

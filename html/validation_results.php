@@ -175,16 +175,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                              
                                                         </div>
                                                     </div>
-                                                    <!-- <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-                                                        <div class="custom-bg-light-yellow p-4 custom-text-primary">
-                                                            Metrics in validation: 9
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-                                                        <div class="custom-bg-cyan p-4 text-light">
-                                                            Metrics Published: 0
-                                                        </div>
-                                                    </div> -->
+                                                    
                                                 </div>
                                             </div>
                                         </div>
@@ -284,7 +275,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                             <div class="custom-border-color-pale custom-border-radius-15 p-10">
                                                 <span class="custom-font-style-headings custom-text-primary d-block mb-1">Progress report</span>
                                                 <p class="custom-font-style-text custom-text-primary d-block my-5">Metrics are considered complete when the result value, result year, methods, and limitations are provided.</p>
-                                                <table class="table steps-table-radius custom-step-table-radius steps-custom-margin-top border-custom">
+                                                <table class="table table-vertical-center steps-table-radius custom-step-table-radius steps-custom-margin-top border-custom">
                                                     <thead class="steps-table-header-color">
                                                         <tr>
                                                             <th class="custom-font-style-subheadings custom-text-primary" scope="col">Pillars</th>
@@ -443,7 +434,7 @@ License: You must have a valid license purchased only from themeforest(the above
 
                                                             <div id="collapseOne-0" class="collapse show" aria-labelledby="headingOne-0" data-parent="#accordionExample-0">
                                                                 <div class="mx-5 custom-border-color-pale mb-5 indicator-responsive-collapse">
-                                                                    <table class="table indicator-table">
+                                                                    <table class="table table-vertical-center indicator-table">
                                                                         <thead class="steps-table-header-color">
                                                                             <tr>
                                                                                 <th class="custom-font-style-sub-text" scope="col">Metrics</th>
@@ -528,7 +519,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                             </div>
                                                             <div id="collapseTwo-0" class="collapse" aria-labelledby="headingTwo-0" data-parent="#accordionExample-0">
                                                                 <div class="mx-5 custom-border-color-pale mb-5 indicator-responsive-collapse">
-                                                                    <table class="table indicator-table">
+                                                                    <table class="table table-vertical-center indicator-table">
                                                                         <thead class="steps-table-header-color">
                                                                             <tr>
                                                                                 <th class="custom-font-style-sub-text" scope="col">Metrics</th>

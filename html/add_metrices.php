@@ -348,7 +348,7 @@ License: You must have a valid license purchased only from themeforest(the above
 
                                                             <div id="collapseOne-0" class="collapse show" aria-labelledby="headingOne-0" data-parent="#accordionExample-0">
                                                                 <div class="mx-5 custom-border-color-pale mb-5 indicator-responsive-collapse">
-                                                                    <table class="table indicator-table">
+                                                                    <table class="table table-vertical-center indicator-table">
                                                                         <thead class="steps-table-header-color">
                                                                             <tr>
                                                                                 <th class="custom-font-style-sub-text" scope="col">Include</th>
@@ -467,7 +467,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                             </div>
                                                             <div id="collapseTwo-0" class="collapse" aria-labelledby="headingTwo-0" data-parent="#accordionExample-0">
                                                                 <div class="mx-5 custom-border-color-pale mb-5 indicator-responsive-collapse">
-                                                                    <table class="table indicator-table">
+                                                                    <table class="table table-vertical-center indicator-table">
                                                                         <thead class="steps-table-header-color">
                                                                             <tr>
                                                                                 <th class="custom-font-style-sub-text" scope="col">Include</th>
@@ -599,7 +599,7 @@ License: You must have a valid license purchased only from themeforest(the above
 
                                                             <div id="collapseOne-0" class="collapse show" aria-labelledby="headingOne-0" data-parent="#accordionExample-1">
                                                                 <div class="mx-5 custom-border-color-pale mb-5 indicator-responsive-collapse">
-                                                                    <table class="table indicator-table">
+                                                                    <table class="table table-vertical-center indicator-table">
                                                                         <thead class="steps-table-header-color">
                                                                             <tr>
                                                                                 <th class="custom-font-style-sub-text" scope="col">Include</th>
@@ -693,7 +693,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                             </div>
                                                             <div id="collapseTwo-0" class="collapse" aria-labelledby="headingTwo-0" data-parent="#accordionExample-1">
                                                                 <div class="mx-5 custom-border-color-pale mb-5 indicator-responsive-collapse">
-                                                                    <table class="table indicator-table">
+                                                                    <table class="table table-vertical-center indicator-table">
                                                                         <thead class="steps-table-header-color">
                                                                             <tr>
                                                                                 <th class="custom-font-style-sub-text" scope="col">Include</th>
@@ -802,7 +802,7 @@ License: You must have a valid license purchased only from themeforest(the above
 
                                                             <div id="collapseOne-0" class="collapse show" aria-labelledby="headingOne-0" data-parent="#accordionExample-1">
                                                                 <div class="mx-5 custom-border-color-pale mb-5 indicator-responsive-collapse">
-                                                                    <table class="table indicator-table">
+                                                                    <table class="table table-vertical-center indicator-table">
                                                                         <thead class="steps-table-header-color">
                                                                             <tr>
                                                                                 <th class="custom-font-style-sub-text" scope="col">Include</th>
@@ -897,7 +897,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                             </div>
                                                             <div id="collapseTwo-0" class="collapse" aria-labelledby="headingTwo-0" data-parent="#accordionExample-1">
                                                                 <div class="mx-5 custom-border-color-pale mb-5 indicator-responsive-collapse">
-                                                                    <table class="table indicator-table">
+                                                                    <table class="table table-vertical-center indicator-table">
                                                                         <thead class="steps-table-header-color">
                                                                             <tr>
                                                                                 <th class="custom-font-style-sub-text" scope="col">Include</th>
@@ -1006,7 +1006,7 @@ License: You must have a valid license purchased only from themeforest(the above
 
                                                             <div id="collapseOne-0" class="collapse show" aria-labelledby="headingOne-0" data-parent="#accordionExample-1">
                                                                 <div class="mx-5 custom-border-color-pale mb-5 indicator-responsive-collapse">
-                                                                    <table class="table indicator-table">
+                                                                    <table class="table table-vertical-center indicator-table">
                                                                         <thead class="steps-table-header-color">
                                                                             <tr>
                                                                                 <th class="custom-font-style-sub-text" scope="col">Include</th>
@@ -1101,7 +1101,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                             </div>
                                                             <div id="collapseTwo-0" class="collapse" aria-labelledby="headingTwo-0" data-parent="#accordionExample-1">
                                                                 <div class="mx-5 custom-border-color-pale mb-5 indicator-responsive-collapse">
-                                                                    <table class="table indicator-table">
+                                                                    <table class="table table-vertical-center indicator-table">
                                                                         <thead class="steps-table-header-color">
                                                                             <tr>
                                                                                 <th class="custom-font-style-sub-text" scope="col">Include</th>

@@ -161,30 +161,69 @@ License: You must have a valid license purchased only from themeforest(the above
                                             </div>
                                         </div>
                                         <div class="col-lg-7 col-md-12 col-sm-12 col-xs-12">
-                                            <div class="card w-100 h-100 p-5 custom-bg-pale">
-                                                <div class="row d-flex align-items-center">
-                                                    <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
-                                                        <div class="box-colors">
-                                                            <ul>
-                                                                <li>
-                                                                    Overview (10 Assessments)
-                                                                </li>
-                                                                <li>
-                                                                    Objectives (25 Assessments)
-                                                                </li>
-                                                                <li>
-                                                                    Preliminary boundary (35 Assessments)
-                                                                </li>
-                                                                <li>
-                                                                    Payment plan ( 30 Assessments)
-                                                                </li>
-                                                            </ul>
+                                            <div class="card w-100 h-100 p-5 custom-bg-white">
+                                                <!-- <div class="row mt-10">
+                                                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                                                        <a href="#" class="custom-bg-primary p-4 w-100 custom-text-light-pale d-block card-hover">
+                                                            <div class="d-flex flex-column">
+                                                                <span class="custom-font-style-headings">26</span>
+                                                                <span class="custom-font-style-small-text">Issue Replies</span>
+                                                            </div>
+
+                                                        </a>
+                                                    </div>
+                                                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                                                        <a href="#" class="custom-bg-light-yellow p-4 w-100 custom-text-primary d-block">
+                                                            <div class="d-flex flex-column">
+                                                                <span class="custom-font-style-headings">9</span>
+                                                                <span class="custom-font-style-small-text">Ongoing tasks</span>
+                                                            </div>
+
+                                                        </a>
+                                                    </div>
+                                                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                                                        <a href="#" class="custom-bg-cyan p-4 text-light w-100 d-block card-hover">
+                                                            <div class="d-flex flex-column">
+                                                                <span class="custom-font-style-headings">0</span>
+                                                                <span class="custom-font-style-small-text">Outstanding Reviews</span>
+                                                            </div>
+
+                                                        </a>
+                                                    </div>
+
+                                                </div> -->
+                                                <div class="row">
+                                                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 responsive-margin-card">
+                                                        <div class="p-5 custom-bg-light-pale custom-border-radius-15 text-center h-100 custom-cursor-pointer">
+                                                            <div class="mb-3 mt-2">
+                                                                25
+                                                            </div>
+                                                            <span class="custom-font-style-sub-text mb-2">
+                                                                Issue Replies
+                                                            </span>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
-                                                        <div id="chart">
+                                                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 responsive-margin-card">
+                                                        <div class="p-5 custom-bg-light-pale text-center custom-border-radius-15 h-100 custom-cursor-pointer">
+                                                            <div class="mb-3 mt-2">
+                                                                5
+                                                            </div>
+                                                            <span class="custom-font-style-sub-text mb-2">
+                                                                Ongoing Tasks
+                                                            </span>
                                                         </div>
                                                     </div>
+                                                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 responsive-margin-card">
+                                                        <div class="p-5 custom-bg-light-pale text-center custom-border-radius-15 h-100 custom-cursor-pointer">
+                                                            <div class="mb-3 mt-2">
+                                                                41
+                                                            </div>
+                                                            <span class="custom-font-style-sub-text mb-2">
+                                                                Outstanding Reviews
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                    
                                                 </div>
                                             </div>
                                         </div>
@@ -242,7 +281,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                     <div class="row my-5">
                                                         <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12">
                                                             <div class="dataTables_length" id="kt_datatable_length">
-                                                                <label class="entries-label">Show 
+                                                                <label class="entries-label">Show
                                                                     <select name="kt_datatable_length" aria-controls="kt_datatable" class="custom-select custom-select-sm custom-bg-light-pale custom-border-radius-0">
                                                                         <option value="10">10</option>
                                                                         <option value="25">25</option>
@@ -288,7 +327,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                         <select id="table-filter-country_map" class="form-control"> <!-- select input with unique countries of the assessment -->
                                                                         </select>
                                                                     </div>
-                                                                    
+
                                                                     <div class="demo-assessment mb-5"><!-- indicators filter -->
                                                                         <div class="row justify-content-between">
                                                                             <div class="col-md-8"><label class="">Continent:</label></div>
@@ -333,7 +372,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                         </select>
 
                                                                     </div>
-                                                                    
+
                                                                     <div class="demo-assessment mb-5"><!-- indicators filter -->
                                                                         <div class="row justify-content-between">
                                                                             <div class="col-md-8"><label class="">Assessments:</label></div>

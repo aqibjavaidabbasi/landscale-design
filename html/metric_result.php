@@ -259,7 +259,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                     </div>
                                                 </div>
                                                 <p class="custom-font-style-text custom-text-primary d-block my-5">Metrics are considered complete when the result value, result year, methods, and limitations are provided.</p>
-                                                <table class="table steps-table-radius custom-step-table-radius steps-custom-margin-top border-custom">
+                                                <table class="table table-vertical-center steps-table-radius custom-step-table-radius steps-custom-margin-top border-custom">
                                                     <thead class="steps-table-header-color">
                                                         <tr>
                                                             <th class="custom-font-style-subheadings custom-text-primary" scope="col">Pillars</th>
@@ -451,9 +451,11 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                     <div class="px-4">
                                                                         <div class="row py-5 custom-bg-light-pale">
                                                                             <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
-                                                                                <span class="custom-bg-cyan text-light custom-border-radius-4 custom-font-style-xs p-2">
-                                                                                    Required
-                                                                                </span>
+                                                                                <div class="d-flex align-items-center h-100">
+                                                                                    <span class="custom-bg-cyan text-light custom-border-radius-4 custom-font-style-xs p-2">
+                                                                                        Required
+                                                                                    </span>
+                                                                                </div>
                                                                             </div>
                                                                             <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                                                                                 <span>
@@ -461,16 +463,21 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                 </span>
                                                                             </div>
                                                                             <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
-                                                                                <span class="custom-bg-cyan text-light custom-border-radius-4 custom-font-style-xs p-2">
-                                                                                    Unsubmitted
-                                                                                </span>
+                                                                                <div class="d-flex align-items-center h-100">
+                                                                                    <span class="custom-bg-cyan text-light custom-border-radius-4 custom-font-style-xs p-2">
+                                                                                        Unsubmitted
+                                                                                    </span>
+                                                                                </div>
                                                                             </div>
                                                                             <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
-                                                                                <div class="select-wrapper">
-                                                                                    <select name="indicator_filter" class="form-control custom-bg-primary text-light">
-                                                                                        <option value="">Action</option>
-                                                                                        <option value="1">Remove result</option>
-                                                                                    </select>
+                                                                                <div class="d-flex align-items-center h-100">
+                                                                                    <div class="select-wrapper">
+                                                                                        <select name="indicator_filter" class="form-control custom-bg-primary text-light">
+                                                                                            <option value="">Action</option>
+                                                                                            <option value="1">Remove result</option>
+                                                                                        </select>
+                                                                                    </div>
+
                                                                                 </div>
                                                                             </div>
                                                                         </div>

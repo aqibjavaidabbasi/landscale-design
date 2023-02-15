@@ -101077,6 +101077,14 @@ select {
     height: 58px !important;
 }
 
+.card-hover:hover {
+    color: #fff !important;
+}
+
+.card-hover-dark:hover {
+    color: #074A37 !important;
+}
+
 
 /* switch btn end */
 
@@ -101152,6 +101160,10 @@ select {
 
 .custom-text-light-pale {
     color: #EBF2E4;
+}
+
+.custom-text-white {
+    color: #fff;
 }
 
 /* end text color */
@@ -101379,6 +101391,16 @@ table#kt_datatable tbody tr:nth-child(odd) {
     padding: 6px 0px;
 }
 
+.btn-outline-primary:not(:disabled):not(.disabled).active {
+    background-color: #074A37 !important;
+}
+
+.btn-outline-primary:hover {
+    color: #ffffff !important;
+    background-color: #074A37 !important;
+    border-color: #074A37 !important;
+}
+
 /* end custom mix styles */
 
 
@@ -101414,4 +101436,11 @@ table#kt_datatable tbody tr:nth-child(odd) {
     /* .responsive-width-auto {
         width: auto !important;
     } */
+}
+
+@media screen and (min-width: 768px) and (max-width: 1326px) {
+    .custom-font-style-xs {
+        font-weight: 700 !important;
+        font-size: 6px !important;
+    }
 }

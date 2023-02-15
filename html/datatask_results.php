@@ -329,7 +329,7 @@ License: You must have a valid license purchased only from themeforest(the above
 
                                     <div class="row mt-15">
                                         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 custom-display-none">
-                                            <table class="table steps-task steps-table-radius custom-step-table-radius border-custom">
+                                            <table class="table table-vertical-center steps-task steps-table-radius custom-step-table-radius border-custom">
                                                 <thead class="steps-table-header-color">
                                                     <tr>
                                                         <th class="custom-font-style-subheadings custom-text-primary" scope="col">Tasks</th>

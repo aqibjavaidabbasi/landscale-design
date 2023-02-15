@@ -386,7 +386,7 @@ License: You must have a valid license purchased only from themeforest(the above
 
                                                             <div id="collapseOne-0" class="collapse show" aria-labelledby="headingOne-0" data-parent="#accordionExample-0">
                                                                 <div class="mx-5 custom-border-color-pale mb-5 indicator-responsive-collapse">
-                                                                    <table class="table indicator-table">
+                                                                    <table class="table table-vertical-center indicator-table">
                                                                         <thead class="steps-table-header-color">
                                                                             <tr>
                                                                                 <th class="custom-font-style-sub-text" scope="col">Indicator</th>
@@ -413,7 +413,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                     </div> -->
                                                                                 </td>
                                                                                 <td>
-                                                                                    <a href="#" class="custom-bg-warning custom-border-radius-35 px-3 py-2 align-items-center">
+                                                                                    <a href="#" class="custom-bg-warning custom-border-radius-35 px-2 py-1 align-items-center">
                                                                                         <span><img src="../assets/media/dark_edit.png" style="width: 10%;" alt=""></span>
                                                                                         <span class="custom-font-style-xs custom-text-primary">Not Applicable</span>
                                                                                     </a>
@@ -437,7 +437,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                     </div>
                                                                                 </td>
                                                                                 <td>
-                                                                                    <a href="#" class="custom-bg-warning custom-border-radius-35 px-3 py-2 align-items-center">
+                                                                                    <a href="#" class="custom-bg-warning custom-border-radius-35 px-2 py-1 align-items-center">
                                                                                         <span><img src="../assets/media/dark_edit.png" style="width: 10%;" alt=""></span>
                                                                                         <span class="custom-font-style-xs custom-text-primary">Not Applicable</span>
                                                                                     </a>
@@ -456,7 +456,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                     </div>
                                                                                 </td>
                                                                                 <td>
-                                                                                    <a href="#" class="custom-bg-warning custom-border-radius-35 px-3 py-2 align-items-center">
+                                                                                    <a href="#" class="custom-bg-warning custom-border-radius-35 px-2 py-1 align-items-center">
                                                                                         <span><img src="../assets/media/dark_edit.png" style="width: 10%;" alt=""></span>
                                                                                         <span class="custom-font-style-xs custom-text-primary">Not Applicable</span>
                                                                                     </a>
@@ -505,7 +505,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                             </div>
                                                             <div id="collapseTwo-0" class="collapse" aria-labelledby="headingTwo-0" data-parent="#accordionExample-0">
                                                                 <div class="mx-5 custom-border-color-pale mb-5 indicator-responsive-collapse">
-                                                                    <table class="table indicator-table">
+                                                                    <table class="table table-vertical-center indicator-table">
                                                                         <thead class="steps-table-header-color">
                                                                             <tr>
                                                                                 <th class="custom-font-style-sub-text" scope="col">Indicator</th>
@@ -528,8 +528,8 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                     </div>
                                                                                 </td>
                                                                                 <td>
-                                                                                    <a href="#" class="custom-bg-warning custom-border-radius-35 px-3 py-2 align-items-center">
-                                                                                        <span><img src="../assets/media/dark_edit.png" style="width:10%;" alt=""></span>
+                                                                                    <a href="#" class="custom-bg-warning custom-border-radius-35 px-2 py-1 align-items-center">
+                                                                                        <span><img src="../assets/media/dark_edit.png" style="width:6%;" alt=""></span>
                                                                                         <span class="custom-font-style-xs custom-text-primary">Not Applicable</span>
                                                                                     </a>
                                                                                 </td>
@@ -547,8 +547,8 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                     </div>
                                                                                 </td>
                                                                                 <td>
-                                                                                    <a href="#" class="custom-bg-warning custom-border-radius-35 px-3 py-2 align-items-center">
-                                                                                        <span><img src="../assets/media/dark_edit.png" style="width:10%;" alt=""></span>
+                                                                                    <a href="#" class="custom-bg-warning custom-border-radius-35 px-2 py-1 align-items-center">
+                                                                                        <span><img src="../assets/media/dark_edit.png" style="width:6%;" alt=""></span>
                                                                                         <span class="custom-font-style-xs custom-text-primary">Not Applicable</span>
                                                                                     </a>
                                                                                 </td>
@@ -566,8 +566,8 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                     </div>
                                                                                 </td>
                                                                                 <td>
-                                                                                    <a href="#" class="custom-bg-warning custom-border-radius-35 px-3 py-2 align-items-center">
-                                                                                        <span><img src="../assets/media/dark_edit.png" style="width:10%;" alt=""></span>
+                                                                                    <a href="#" class="custom-bg-warning custom-border-radius-35 px-2 py-1 align-items-center">
+                                                                                        <span><img src="../assets/media/dark_edit.png" style="width:6%;" alt=""></span>
                                                                                         <span class="custom-font-style-xs custom-text-primary">Not Applicable</span>
                                                                                     </a>
                                                                                 </td>
@@ -634,7 +634,7 @@ License: You must have a valid license purchased only from themeforest(the above
 
                                                             <div id="collapseOne-0" class="collapse show" aria-labelledby="headingOne-0" data-parent="#accordionExample-1">
                                                                 <div class="mx-5 custom-border-color-pale mb-5 indicator-responsive-collapse">
-                                                                    <table class="table indicator-table">
+                                                                    <table class="table table-vertical-center indicator-table">
                                                                         <thead class="steps-table-header-color">
                                                                             <tr>
                                                                                 <th class="custom-font-style-sub-text" scope="col">Indicator</th>
@@ -661,8 +661,8 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                     </div> -->
                                                                                 </td>
                                                                                 <td>
-                                                                                    <a href="#" class="custom-bg-warning custom-border-radius-35 px-3 py-2 align-items-center">
-                                                                                        <span><img src="../assets/media/dark_edit.png" style="width: 10%;" alt=""></span>
+                                                                                    <a href="#" class="custom-bg-warning custom-border-radius-35 px-2 py-1 align-items-center">
+                                                                                        <span><img src="../assets/media/dark_edit.png" style="width: 7%;" alt=""></span>
                                                                                         <span class="custom-font-style-xs custom-text-primary">Not Applicable</span>
                                                                                     </a>
                                                                                 </td>
@@ -685,7 +685,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                     </div>
                                                                                 </td>
                                                                                 <td>
-                                                                                    <a href="#" class="custom-bg-warning custom-border-radius-35 px-3 py-2 align-items-center">
+                                                                                    <a href="#" class="custom-bg-warning custom-border-radius-35 px-2 py-1 align-items-center">
                                                                                         <span><img src="../assets/media/dark_edit.png" style="width: 10%;" alt=""></span>
                                                                                         <span class="custom-font-style-xs custom-text-primary">Not Applicable</span>
                                                                                     </a>
@@ -704,7 +704,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                     </div>
                                                                                 </td>
                                                                                 <td>
-                                                                                    <a href="#" class="custom-bg-warning custom-border-radius-35 px-3 py-2 align-items-center">
+                                                                                    <a href="#" class="custom-bg-warning custom-border-radius-35 px-2 py-1 align-items-center">
                                                                                         <span><img src="../assets/media/dark_edit.png" style="width: 10%;" alt=""></span>
                                                                                         <span class="custom-font-style-xs custom-text-primary">Not Applicable</span>
                                                                                     </a>
@@ -753,7 +753,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                             </div>
                                                             <div id="collapseTwo-0" class="collapse" aria-labelledby="headingTwo-0" data-parent="#accordionExample-1">
                                                                 <div class="mx-5 custom-border-color-pale mb-5 indicator-responsive-collapse">
-                                                                    <table class="table indicator-table">
+                                                                    <table class="table table-vertical-center indicator-table">
                                                                         <thead class="steps-table-header-color">
                                                                             <tr>
                                                                                 <th class="custom-font-style-sub-text" scope="col">Indicator</th>
@@ -776,7 +776,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                     </div>
                                                                                 </td>
                                                                                 <td>
-                                                                                    <a href="#" class="custom-bg-warning custom-border-radius-35 px-3 py-2 align-items-center">
+                                                                                    <a href="#" class="custom-bg-warning custom-border-radius-35 px-2 py-1 align-items-center">
                                                                                         <span><img src="../assets/media/dark_edit.png" style="width:10%;" alt=""></span>
                                                                                         <span class="custom-font-style-xs custom-text-primary">Not Applicable</span>
                                                                                     </a>
@@ -795,7 +795,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                     </div>
                                                                                 </td>
                                                                                 <td>
-                                                                                    <a href="#" class="custom-bg-warning custom-border-radius-35 px-3 py-2 align-items-center">
+                                                                                    <a href="#" class="custom-bg-warning custom-border-radius-35 px-2 py-1 align-items-center">
                                                                                         <span><img src="../assets/media/dark_edit.png" style="width:10%;" alt=""></span>
                                                                                         <span class="custom-font-style-xs custom-text-primary">Not Applicable</span>
                                                                                     </a>
@@ -814,7 +814,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                     </div>
                                                                                 </td>
                                                                                 <td>
-                                                                                    <a href="#" class="custom-bg-warning custom-border-radius-35 px-3 py-2 align-items-center">
+                                                                                    <a href="#" class="custom-bg-warning custom-border-radius-35 px-2 py-1 align-items-center">
                                                                                         <span><img src="../assets/media/dark_edit.png" style="width:10%;" alt=""></span>
                                                                                         <span class="custom-font-style-xs custom-text-primary">Not Applicable</span>
                                                                                     </a>
@@ -869,7 +869,7 @@ License: You must have a valid license purchased only from themeforest(the above
 
                                                             <div id="collapseOne-0" class="collapse show" aria-labelledby="headingOne-0" data-parent="#accordionExample-1">
                                                                 <div class="mx-5 custom-border-color-pale mb-5 indicator-responsive-collapse">
-                                                                    <table class="table indicator-table">
+                                                                    <table class="table table-vertical-center indicator-table">
                                                                         <thead class="steps-table-header-color">
                                                                             <tr>
                                                                                 <th class="custom-font-style-sub-text" scope="col">Indicator</th>
@@ -896,7 +896,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                     </div> -->
                                                                                 </td>
                                                                                 <td>
-                                                                                    <a href="#" class="custom-bg-warning custom-border-radius-35 px-3 py-2 align-items-center">
+                                                                                    <a href="#" class="custom-bg-warning custom-border-radius-35 px-2 py-1 align-items-center">
                                                                                         <span><img src="../assets/media/dark_edit.png" style="width: 10%;" alt=""></span>
                                                                                         <span class="custom-font-style-xs custom-text-primary">Not Applicable</span>
                                                                                     </a>
@@ -920,7 +920,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                     </div>
                                                                                 </td>
                                                                                 <td>
-                                                                                    <a href="#" class="custom-bg-warning custom-border-radius-35 px-3 py-2 align-items-center">
+                                                                                    <a href="#" class="custom-bg-warning custom-border-radius-35 px-2 py-1 align-items-center">
                                                                                         <span><img src="../assets/media/dark_edit.png" style="width: 10%;" alt=""></span>
                                                                                         <span class="custom-font-style-xs custom-text-primary">Not Applicable</span>
                                                                                     </a>
@@ -939,7 +939,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                     </div>
                                                                                 </td>
                                                                                 <td>
-                                                                                    <a href="#" class="custom-bg-warning custom-border-radius-35 px-3 py-2 align-items-center">
+                                                                                    <a href="#" class="custom-bg-warning custom-border-radius-35 px-2 py-1 align-items-center">
                                                                                         <span><img src="../assets/media/dark_edit.png" style="width: 10%;" alt=""></span>
                                                                                         <span class="custom-font-style-xs custom-text-primary">Not Applicable</span>
                                                                                     </a>
@@ -988,7 +988,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                             </div>
                                                             <div id="collapseTwo-0" class="collapse" aria-labelledby="headingTwo-0" data-parent="#accordionExample-1">
                                                                 <div class="mx-5 custom-border-color-pale mb-5 indicator-responsive-collapse">
-                                                                    <table class="table indicator-table">
+                                                                    <table class="table table-vertical-center indicator-table">
                                                                         <thead class="steps-table-header-color">
                                                                             <tr>
                                                                                 <th class="custom-font-style-sub-text" scope="col">Indicator</th>
@@ -1011,7 +1011,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                     </div>
                                                                                 </td>
                                                                                 <td>
-                                                                                    <a href="#" class="custom-bg-warning custom-border-radius-35 px-3 py-2 align-items-center">
+                                                                                    <a href="#" class="custom-bg-warning custom-border-radius-35 px-2 py-1 align-items-center">
                                                                                         <span><img src="../assets/media/dark_edit.png" style="width:10%;" alt=""></span>
                                                                                         <span class="custom-font-style-xs custom-text-primary">Not Applicable</span>
                                                                                     </a>
@@ -1030,7 +1030,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                     </div>
                                                                                 </td>
                                                                                 <td>
-                                                                                    <a href="#" class="custom-bg-warning custom-border-radius-35 px-3 py-2 align-items-center">
+                                                                                    <a href="#" class="custom-bg-warning custom-border-radius-35 px-2 py-1 align-items-center">
                                                                                         <span><img src="../assets/media/dark_edit.png" style="width:10%;" alt=""></span>
                                                                                         <span class="custom-font-style-xs custom-text-primary">Not Applicable</span>
                                                                                     </a>
@@ -1049,7 +1049,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                     </div>
                                                                                 </td>
                                                                                 <td>
-                                                                                    <a href="#" class="custom-bg-warning custom-border-radius-35 px-3 py-2 align-items-center">
+                                                                                    <a href="#" class="custom-bg-warning custom-border-radius-35 px-2 py-1 align-items-center">
                                                                                         <span><img src="../assets/media/dark_edit.png" style="width:10%;" alt=""></span>
                                                                                         <span class="custom-font-style-xs custom-text-primary">Not Applicable</span>
                                                                                     </a>
@@ -1104,7 +1104,7 @@ License: You must have a valid license purchased only from themeforest(the above
 
                                                             <div id="collapseOne-0" class="collapse show" aria-labelledby="headingOne-0" data-parent="#accordionExample-1">
                                                                 <div class="mx-5 custom-border-color-pale mb-5 indicator-responsive-collapse">
-                                                                    <table class="table indicator-table">
+                                                                    <table class="table table-vertical-center indicator-table">
                                                                         <thead class="steps-table-header-color">
                                                                             <tr>
                                                                                 <th class="custom-font-style-sub-text" scope="col">Indicator</th>
@@ -1131,7 +1131,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                     </div> -->
                                                                                 </td>
                                                                                 <td>
-                                                                                    <a href="#" class="custom-bg-warning custom-border-radius-35 px-3 py-2 align-items-center">
+                                                                                    <a href="#" class="custom-bg-warning custom-border-radius-35 px-2 py-1 align-items-center">
                                                                                         <span><img src="../assets/media/dark_edit.png" style="width: 10%;" alt=""></span>
                                                                                         <span class="custom-font-style-xs custom-text-primary">Not Applicable</span>
                                                                                     </a>
@@ -1155,7 +1155,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                     </div>
                                                                                 </td>
                                                                                 <td>
-                                                                                    <a href="#" class="custom-bg-warning custom-border-radius-35 px-3 py-2 align-items-center">
+                                                                                    <a href="#" class="custom-bg-warning custom-border-radius-35 px-2 py-1 align-items-center">
                                                                                         <span><img src="../assets/media/dark_edit.png" style="width: 10%;" alt=""></span>
                                                                                         <span class="custom-font-style-xs custom-text-primary">Not Applicable</span>
                                                                                     </a>
@@ -1174,7 +1174,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                     </div>
                                                                                 </td>
                                                                                 <td>
-                                                                                    <a href="#" class="custom-bg-warning custom-border-radius-35 px-3 py-2 align-items-center">
+                                                                                    <a href="#" class="custom-bg-warning custom-border-radius-35 px-2 py-1 align-items-center">
                                                                                         <span><img src="../assets/media/dark_edit.png" style="width: 10%;" alt=""></span>
                                                                                         <span class="custom-font-style-xs custom-text-primary">Not Applicable</span>
                                                                                     </a>
@@ -1223,7 +1223,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                             </div>
                                                             <div id="collapseTwo-0" class="collapse" aria-labelledby="headingTwo-0" data-parent="#accordionExample-1">
                                                                 <div class="mx-5 custom-border-color-pale mb-5 indicator-responsive-collapse">
-                                                                    <table class="table indicator-table">
+                                                                    <table class="table table-vertical-center indicator-table">
                                                                         <thead class="steps-table-header-color">
                                                                             <tr>
                                                                                 <th class="custom-font-style-sub-text" scope="col">Indicator</th>
@@ -1246,7 +1246,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                     </div>
                                                                                 </td>
                                                                                 <td>
-                                                                                    <a href="#" class="custom-bg-warning custom-border-radius-35 px-3 py-2 align-items-center">
+                                                                                    <a href="#" class="custom-bg-warning custom-border-radius-35 px-2 py-1 align-items-center">
                                                                                         <span><img src="../assets/media/dark_edit.png" style="width:10%;" alt=""></span>
                                                                                         <span class="custom-font-style-xs custom-text-primary">Not Applicable</span>
                                                                                     </a>
