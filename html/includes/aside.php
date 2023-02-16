@@ -28,7 +28,7 @@
             </div>
             <ul class="menu-nav">
                 <li class="menu-item menu-item-submenu" aria-haspopup="true" data-menu-toggle="hover">
-                    <a href="javascript:;" class="menu-link menu-toggle px-4 py-2 hover-menu text-center">
+                    <a href="javascript:;" onclick="javascript:location.href='./index.php'" class="menu-link menu-toggle px-4 py-2 hover-menu text-center">
                         <span class="svg-icon-lg p-4 d-block rounded-circle bg-light-primary mr-5">
                             <!--begin::Svg Icon | path:/metronic/theme/html/demo1/dist/assets/media/svg/icons/Code/Compiling.svg-->
                             <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18px" height="18px" viewBox="0 0 24 24" version="1.1">
@@ -79,30 +79,11 @@
                                 </a>
                             </li>
                         </ul>
-                        <!-- <ul class="menu-subnav pt-0  brt-50">
-                            <li class="menu-item menu-item-parent brt-50 brb-50  bg-primary" aria-haspopup="true">
-                                <span class="menu-link p-5" style="height: auto!important;">
-                                    <span class="menu-text m-1 text-light">Assesments Dashboard</span>
-                                </span>
-                            </li>
-                            <li class="menu-item" aria-haspopup="true">
-                                <a href="./dashboard.php" class="menu-link">
-                                    <i class="menu-bullet-dot mr-3">
-                                        <span>
-                                            <svg width="7" height="9" viewBox="0 0 7 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M1.19995 1.42438L1.65276 1L5.39995 4.5L1.65276 8L1.19995 7.57781L4.49214 4.5L1.19995 1.42438Z" stroke="#3F544C" />
-                                            </svg>
-
-                                        </span>
-                                    </i>
-                                    <span class="menu-text">Dashboard</span>
-                                </a>
-                            </li>
-                        </ul> -->
+                        
                     </div>
                 </li>
                 <li class="menu-item menu-item-submenu" aria-haspopup="true" data-menu-toggle="hover">
-                    <a href="javascript:;" class="menu-link menu-toggle px-4 py-2 hover-menu text-center">
+                    <a href="javascript:;" onclick="javascript:location.href='./dashboard_with_square_cornors.php'" class="menu-link menu-toggle px-4 py-2 hover-menu text-center">
                         <span class="svg-icon-lg p-4 d-block rounded-circle bg-light-primary mr-5">
                             <!--begin::Svg Icon | path:/metronic/theme/html/demo1/dist/assets/media/svg/icons/Code/Compiling.svg-->
                             <svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -124,7 +105,7 @@
                         <ul class="menu-subnav pt-0  brt-50">
                             <li class="menu-item menu-item-parent brt-50 brb-50  bg-primary custom-height-59" aria-haspopup="true">
                                 <span class="menu-link p-5" style="height: auto!important;">
-                                    <span class="menu-text m-1 text-light">Assesments</span>
+                                    <span class="menu-text m-1 text-light"><a href="./dashboard_with_square_cornors.php" class="text-light">Assesments</a></span>
                                 </span>
                             </li>
                             <li class="menu-item" aria-haspopup="true">
@@ -196,7 +177,7 @@
                     </div>
                 </li>
                 <li class="menu-item menu-item-submenu" aria-haspopup="true" data-menu-toggle="hover">
-                    <a href="javascript:;" class="menu-link menu-toggle px-4 py-2 hover-menu text-center">
+                    <a href="javascript:;" onclick="javascript:location.href='./favorite_asssesment.php'" class="menu-link menu-toggle px-4 py-2 hover-menu text-center">
                         <span class="svg-icon-lg p-4 d-block rounded-circle bg-light-primary mr-5">
                             <!--begin::Svg Icon | path:/metronic/theme/html/demo1/dist/assets/media/svg/icons/Code/Compiling.svg-->
                             <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18px" height="18px" viewBox="0 0 24 24" version="1.1">
@@ -213,17 +194,11 @@
                     </a>
                     <div class="menu-submenu bg-light-primary brt-50">
                         <i class="menu-arrow"></i>
-                        <!-- <ul class="menu-subnav py-0  brt-50">
-                            <li class="menu-item menu-item-parent brt-50 brb-50 bg-primary" aria-haspopup="true">
-                                <span class="menu-link p-5" style="height: auto!important;">
-                                    <span class="menu-text m-1 text-light">Explore Landscapes</span>
-                                </span>
-                            </li>
-                        </ul> -->
+                        
                         <ul class="menu-subnav pt-0  brt-50">
                             <li class="menu-item menu-item-parent brt-50 brb-50  bg-primary custom-height-59" aria-haspopup="true">
                                 <span class="menu-link p-5" style="height: auto!important;">
-                                    <span class="menu-text m-1 text-light">Explore Landscapes</span>
+                                    <span class="menu-text m-1 text-light"><a href="./favorite_asssesment.php" class="text-light">Explore Landscapes</a></span>
                                 </span>
                             </li>
                             <li class="menu-item" aria-haspopup="true">
@@ -256,7 +231,7 @@
                     </div>
                 </li>
                 <li class="menu-item menu-item-submenu" aria-haspopup="true" data-menu-toggle="hover">
-                    <a href="javascript:;" class="menu-link menu-toggle px-4 py-2 hover-menu text-center">
+                    <a href="javascript:;" class="menu-link menu-toggle px-4 py-2 hover-menu text-center" id="kt_quick_cart_toggle_link">
                         <span class="svg-icon-lg p-4 d-block rounded-circle bg-light-primary mr-5">
                             <!--begin::Svg Icon | path:/metronic/theme/html/demo1/dist/assets/media/svg/icons/Code/Compiling.svg-->
                             <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -270,12 +245,12 @@
                         </span>
                         <span class="menu-text menu-text-opened">Help Center</span>
                     </a>
-                    <div class="menu-submenu bg-light-primary brt-50">
+                    <div class="menu-submenu bg-light-primary brt-50 brb-50">
                         <i class="menu-arrow"></i>
                         <ul class="menu-subnav py-0  brt-50">
                             <li class="menu-item menu-item-parent brt-50 brb-50 bg-primary custom-height-59" aria-haspopup="true">
                                 <span class="menu-link p-5" style="height: auto!important;">
-                                    <span class="menu-text m-1 text-light">Help Center</span>
+                                    <span class="menu-text m-1 text-light" id="kt_quick_cart_toggle_span"><a href="#" class="text-light">Help Center</a></span>
                                 </span>
                             </li>
                         </ul>

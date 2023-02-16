@@ -10562,7 +10562,7 @@ var KTLayoutQuickCartPanel = function() {
             baseClass: 'offcanvas',
             placement: 'right',
             closeBy: 'kt_quick_cart_close',
-            toggleBy: 'kt_quick_cart_toggle'
+            toggleBy: ['kt_quick_cart_toggle', 'kt_quick_cart_toggle_link', 'kt_quick_cart_toggle_span', 'kt_quick_cart_toggle_icon']
         });
 
         var header = KTUtil.find(_element, '.offcanvas-header');

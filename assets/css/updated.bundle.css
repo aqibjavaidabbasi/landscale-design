@@ -100507,7 +100507,7 @@ body {
     border: 1px solid rgba(154, 191, 120, 0.6);
     padding-left: 0px !important;
     padding-right: 0px !important;
-    max-width: 31% !important;
+    /* max-width: 31% !important; */
 }
 
 .child-bottom {

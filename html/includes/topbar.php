@@ -40,9 +40,6 @@
         <!--begin::Topbar-->
         <div class="topbar">
 
-            <div class="topbar-item mr-3 ">
-                <a href="#" class="text-link font-weight-bold">More About</a>
-            </div>
             <div class="topbar-item header-top-icon">
                 <div class="btn btn-icon btn-clean btn-md mr-1 ml-2 rounded-circle bg-light-primary" data-toggle="modal" data-target="#kt_chat_modal">
                     <span class="svg-icon-md svg-icon-primary">
