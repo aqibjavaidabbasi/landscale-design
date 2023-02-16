@@ -139,7 +139,13 @@ License: You must have a valid license purchased only from themeforest(the above
                                 <div class="card w-100 p-10">
                                     <div class="row">
                                         <div class="col-md-12">
-                                            <span class="custom-font-style-headings custom-text-primary">Step 4: Data Tasks & Results</span>
+                                            <div class="d-flex justify-content-between align-items-center">
+                                                <span class="custom-font-style-headings custom-text-primary">Step 4: Data Tasks & Results</span>
+                                                <span>
+                                                    <a href="./metric_result.php" class="custom-bg-warning custom-border-radius-35 custom-text-primary custom-font-style-small p-2">Metrics Results</a>
+                                                    <a href="./themes&datasets.php" class="custom-bg-warning custom-border-radius-35 custom-text-primary custom-font-style-small p-2">Themes & Datasets</a>
+                                                </span>
+                                            </div>
                                         </div>
                                     </div>
 
@@ -154,7 +160,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                 <span class="custom-font-style-headings">26</span>
                                                                 <span class="custom-font-style-small-text">Applicable metrics</span>
                                                             </div>
-                                                             
+
                                                         </div>
                                                     </div>
                                                     <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
@@ -163,7 +169,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                 <span class="custom-font-style-headings">9</span>
                                                                 <span class="custom-font-style-small-text">Metrics in validation</span>
                                                             </div>
-                                                             
+
                                                         </div>
                                                     </div>
                                                     <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
@@ -172,10 +178,10 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                 <span class="custom-font-style-headings">0</span>
                                                                 <span class="custom-font-style-small-text">Metrics Published</span>
                                                             </div>
-                                                             
+
                                                         </div>
                                                     </div>
-                                                    
+
                                                 </div>
                                             </div>
                                         </div>
@@ -432,7 +438,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                 </div>
                                                             </div>
 
-                                                            <div id="collapseOne-0" class="collapse show" aria-labelledby="headingOne-0" data-parent="#accordionExample-0">
+                                                            <div id="collapseOne-0" class="collapse show" aria-labelledby="headingOne-0">
                                                                 <div class="mx-5 custom-border-color-pale mb-5 indicator-responsive-collapse">
                                                                     <table class="table table-vertical-center indicator-table">
                                                                         <thead class="steps-table-header-color">
@@ -517,7 +523,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                     </div>
                                                                 </div>
                                                             </div>
-                                                            <div id="collapseTwo-0" class="collapse" aria-labelledby="headingTwo-0" data-parent="#accordionExample-0">
+                                                            <div id="collapseTwo-0" class="collapse" aria-labelledby="headingTwo-0">
                                                                 <div class="mx-5 custom-border-color-pale mb-5 indicator-responsive-collapse">
                                                                     <table class="table table-vertical-center indicator-table">
                                                                         <thead class="steps-table-header-color">

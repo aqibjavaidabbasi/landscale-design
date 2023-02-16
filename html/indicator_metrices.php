@@ -336,7 +336,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                             <div class="custom-bg-light-pale p-10">
                                                 <span class="custom-font-style-headings custom-text-primary d-block mb-1">Progress report</span>
                                                 <p class="custom-font-style-text custom-text-primary d-block my-5">You are encouraged to submit your indicators & metrics once the 4 pillars are completed. Select the completed pillars and send them for approval.</p>
-                                                <table class="table steps-table-radius custom-step-table-radius steps-custom-margin-top border-custom">
+                                                <table class="table table-vertical-center steps-table-radius custom-step-table-radius steps-custom-margin-top border-custom">
                                                     <thead class="steps-table-header-color">
                                                         <tr>
                                                             <th class="custom-font-style-subheadings custom-text-primary" scope="col">Pillars</th>
@@ -361,11 +361,11 @@ License: You must have a valid license purchased only from themeforest(the above
                                             </div>
                                         </div>
                                         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 custom-display-none">
-                                            <table class="table steps-task steps-table-radius custom-step-table-radius border-custom">
+                                            <table class="table table-vertical-center steps-task steps-table-radius custom-step-table-radius border-custom">
                                                 <thead class="steps-table-header-color">
                                                     <tr>
                                                         <th class="custom-font-style-subheadings custom-text-primary" scope="col">Tasks</th>
-                                                        <th class="custom-font-style-subheadings custom-text-primary step-table-custom-col-w" scope="col">Assigned To</th>
+                                                        <th class="custom-font-style-subheadings custom-text-primary w-200px">Assigned To</th>
                                                         <th class="custom-font-style-subheadings custom-text-primary" scope="col">Tasks Type</th>
                                                         <th class="custom-font-style-subheadings custom-text-primary" scope="col">Status</th>
                                                     </tr>

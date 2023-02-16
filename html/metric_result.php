@@ -139,23 +139,195 @@ License: You must have a valid license purchased only from themeforest(the above
                                 <div class="card w-100 p-10">
                                     <div class="row">
                                         <div class="col-md-12">
-                                            <span class="custom-font-style-headings custom-text-primary">Step 4: Data Tasks & Results</span>
+                                            <div class="d-flex justify-content-between align-items-center">
+                                                <span class="custom-font-style-headings custom-text-primary">Step 4: Data Tasks & Results</span>
+                                                <span>
+                                                    <a href="./themes&datasets.php" class="custom-bg-warning custom-border-radius-35 custom-text-primary custom-font-style-small p-2">Themes & Datasets</a>
+                                                    <a href="./validation_results.php" class="custom-bg-warning custom-border-radius-35 custom-text-primary custom-font-style-small p-2">Result validation</a>
+                                                </span>
+                                            </div>
                                         </div>
                                     </div>
 
                                     <div class="row mt-7">
                                         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                                             <div class="custom-bg-light-pale custom-border-radius-15 custom-border-color-pale h-100 p-10">
-                                                <span class="custom-font-style-headings custom-text-primary d-block mb-1">Enter Metric Tasks</span>
-                                                <!-- <span class="steps-default-text steps-small-text d-block my-5">View Instructions</span> -->
-                                                <span data-toggle="collapse" data-target="#demo" class="custom-font-style-text custom-text-primary d-block my-5 custom-cursor-pointer">View Instructions <img src="../assets/media/arrow_down.png" alt=""></span>
+                                                <div class="d-flex justify-content-between">
+                                                    <span class="custom-font-style-headings custom-text-primary d-block mb-1">Enter Metric Tasks</span>
+                                                    <a class="custom-bg-warning custom-border-radius-35 text-center px-5 py-2 align-items-center custom-cursor-pointer" data-toggle="modal" data-target="#myModal">
+                                                        <span class="custom-text-primary">View Instructions</span>
+                                                    </a>
+                                                </div>
+                                                <div class="d-flex justify-content-end mt-5 mb-2">
+                                                    <a href="#" class="custom-bg-primary custom-text-light-pale custom-border-radius-35 px-4 py-2">Download XLSX</a>
+                                                    <a href="#" class="custom-bg-primary custom-text-light-pale custom-border-radius-35 ml-1 px-4 py-2">Result Trackers</a>
+                                                </div>
+                                                <table class="table table-vertical-center steps-table-radius custom-step-table-radius steps-custom-margin-top border-custom">
+                                                    <thead class="steps-table-header-color">
+                                                        <tr>
+                                                            <th class="custom-font-style-subheadings custom-text-primary" scope="col">Pillars</th>
+                                                            <th class="custom-font-style-subheadings custom-text-primary" scope="col">Metrics</th>
+                                                            <th class="custom-font-style-subheadings custom-text-primary" scope="col">Metrics in validation</th>
+                                                            <th class="custom-font-style-subheadings custom-text-primary" scope="col">Pending to submit</th>
+                                                            <th class="custom-font-style-subheadings custom-text-primary" scope="col">Submit</th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody class="bg-white">
+                                                        <tr>
+                                                            <td>Ecosystems</td>
+                                                            <td>6</td>
+                                                            <td>6</td>
+                                                            <td>6</td>
+                                                            <td>
+                                                                <label class="container-chkbox">
+                                                                    <input type="checkbox" checked="checked">
+                                                                    <span class="checkmark"></span>
+                                                                </label>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Human Well-Being</td>
+                                                            <td>3</td>
+                                                            <td>3</td>
+                                                            <td>3</td>
+                                                            <td>
+                                                                <label class="container-chkbox">
+                                                                    <input type="checkbox" checked="checked">
+                                                                    <span class="checkmark"></span>
+                                                                </label>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Governance</td>
+                                                            <td>4</td>
+                                                            <td>4</td>
+                                                            <td>4</td>
+                                                            <td>
+                                                                <label class="container-chkbox">
+                                                                    <input type="checkbox" checked="checked">
+                                                                    <span class="checkmark"></span>
+                                                                </label>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Production</td>
+                                                            <td>0</td>
+                                                            <td>0</td>
+                                                            <td>0</td>
+                                                            <td>
+                                                                <label class="container-chkbox">
+                                                                    <input type="checkbox" checked="checked">
+                                                                    <span class="checkmark"></span>
+                                                                </label>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                                <div class="d-flex justify-content-end mt-2">
+                                                    <button class="custom-bg-warning custom-text-primary border-0 custom-border-radius-35 px-4 py-2">
+                                                        Submit for Approval
+                                                    </button>
+                                                </div>
+                                                <div class="modal fade" id="myModal">
+                                                    <div class="modal-dialog modal-dialog-centered">
+                                                        <div class="modal-content">
+
+                                                            <!-- Modal Header -->
+                                                            <div class="modal-header steps-table-header-color">
+                                                                <h4 class="modal-title indicator-tab-link">Metric Tasks</h4>
+                                                                <button type="button" class="close text-dark" data-dismiss="modal">&times;</button>
+                                                            </div>
+
+                                                            <!-- Modal body -->
+                                                            <div class="modal-body">
+                                                                In this task you will enter the results for each metric. You may not enter results until you have conducted the prior tasks to define your data themes and datasets and screened and evaluated dataset quality.
+                                                            </div>
+
+                                                            <!-- Modal footer -->
+                                                            <div class="modal-footer p-2">
+                                                                <button type="button" class="custom-bg-primary px-3 py-2 custom-border-radius-35 custom-text-light-pale border-0" data-dismiss="modal">Close</button>
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- <span data-toggle="collapse" data-target="#demo" class="custom-font-style-text custom-text-primary d-block my-5 custom-cursor-pointer">Progress Report <img src="../assets/media/arrow_down.png" alt=""></span>
 
                                                 <div id="demo" class="collapse mb-2">
-                                                    In this task you will enter the results for each metric. You may not enter results until you have conducted the prior tasks to define your data themes and datasets and screened and evaluated dataset quality.
-                                                </div>
-                                                <span class="custom-bg-primary p-2 custom-border-radius-4 d-inline-block mt-1">
+                                                    <div class="d-flex justify-content-end mb-2">
+                                                        <a href="#" class="custom-bg-primary custom-text-light-pale custom-border-radius-35 px-4 py-2">Download XLSX</a>
+                                                        <a href="#" class="custom-bg-primary custom-text-light-pale custom-border-radius-35 px-4 py-2">Result Trackers</a>
+                                                    </div>
+                                                    <table class="table table-vertical-center steps-table-radius custom-step-table-radius steps-custom-margin-top border-custom">
+                                                        <thead class="steps-table-header-color">
+                                                            <tr>
+                                                                <th class="custom-font-style-subheadings custom-text-primary" scope="col">Pillars</th>
+                                                                <th class="custom-font-style-subheadings custom-text-primary" scope="col">Metrics</th>
+                                                                <th class="custom-font-style-subheadings custom-text-primary" scope="col">Metrics in validation</th>
+                                                                <th class="custom-font-style-subheadings custom-text-primary" scope="col">Pending to submit</th>
+                                                                <th class="custom-font-style-subheadings custom-text-primary" scope="col">Submit</th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody class="bg-white">
+                                                            <tr>
+                                                                <td>Ecosystems</td>
+                                                                <td>6</td>
+                                                                <td>6</td>
+                                                                <td>6</td>
+                                                                <td>
+                                                                    <label class="container-chkbox">
+                                                                        <input type="checkbox" checked="checked">
+                                                                        <span class="checkmark"></span>
+                                                                    </label>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>Human Well-Being</td>
+                                                                <td>3</td>
+                                                                <td>3</td>
+                                                                <td>3</td>
+                                                                <td>
+                                                                    <label class="container-chkbox">
+                                                                        <input type="checkbox" checked="checked">
+                                                                        <span class="checkmark"></span>
+                                                                    </label>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>Governance</td>
+                                                                <td>4</td>
+                                                                <td>4</td>
+                                                                <td>4</td>
+                                                                <td>
+                                                                    <label class="container-chkbox">
+                                                                        <input type="checkbox" checked="checked">
+                                                                        <span class="checkmark"></span>
+                                                                    </label>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>Production</td>
+                                                                <td>0</td>
+                                                                <td>0</td>
+                                                                <td>0</td>
+                                                                <td>
+                                                                    <label class="container-chkbox">
+                                                                        <input type="checkbox" checked="checked">
+                                                                        <span class="checkmark"></span>
+                                                                    </label>
+                                                                </td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                    <div class="d-flex justify-content-end mt-2">
+                                                        <button class="custom-bg-warning custom-text-primary border-0 custom-border-radius-35 px-4 py-2">
+                                                            Submit for Approval
+                                                        </button>
+                                                    </div>
+                                                </div> -->
+                                                <!-- <span class="custom-bg-primary p-2 custom-border-radius-4 d-inline-block mt-1">
                                                     <span class="custom-text-light-pale">Approved</span>
-                                                </span>
+                                                </span> -->
                                             </div>
                                         </div>
                                         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 custom-padding-0 pl-0 pr-0">
@@ -248,7 +420,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="row mt-7">
+                                    <!-- <div class="row mt-7">
                                         <div class="col-md-12">
                                             <div class="custom-border-color-pale custom-border-radius-15 p-10">
                                                 <div class="d-flex justify-content-between align-items-center">
@@ -327,7 +499,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>
+                                    </div> -->
                                     <div class="row custom-border-color-pale custom-border-radius-15 mx-0 mt-5">
                                         <div class="col-md-3 col-sm-12 col-xs-12 pr-0">
                                             <div class="custom-font-style-subheadings custom-text-primary p-5">
@@ -446,7 +618,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                     </div>
                                                                 </div>
                                                             </div>
-                                                            <div id="collapseTwo" class="collapse indicator-responsive-collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                                                            <div id="collapseTwo" class="collapse indicator-responsive-collapse" aria-labelledby="headingTwo">
                                                                 <div class="mx-5 custom-border-color-pale mb-5">
                                                                     <div class="px-4">
                                                                         <div class="row py-5 custom-bg-light-pale">

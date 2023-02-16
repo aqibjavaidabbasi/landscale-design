@@ -328,12 +328,40 @@ License: You must have a valid license purchased only from themeforest(the above
                                     </div>
 
                                     <div class="row mt-15">
-                                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 custom-display-none">
+                                        <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+                                            <div class="custom-bg-light-pale p-10">
+                                                <span class="custom-font-style-headings custom-text-primary d-block mb-1">Progress report</span>
+                                                <p class="custom-font-style-text custom-text-primary d-block my-5">You are encouraged to submit your indicators & metrics once the 4 pillars are completed. Select the completed pillars and send them for approval.</p>
+                                                <table class="table steps-table-radius custom-step-table-radius steps-custom-margin-top border-custom">
+                                                    <thead class="steps-table-header-color">
+                                                        <tr>
+                                                            <th class="custom-font-style-subheadings custom-text-primary" scope="col">Pillars</th>
+                                                            <th class="custom-font-style-subheadings custom-text-primary" scope="col">Indicators & Metrics</th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody class="bg-white">
+                                                        <tr>
+                                                            <td>Ecosystems</td>
+                                                            <td><span class="custom-bg-light-pale custom-text-primary p-1">Completed</span></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Human Well-Being</td>
+                                                            <td><span class="custom-bg-light-blue custom-text-primary p-1">Pending</span></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Governance</td>
+                                                            <td><span class="custom-bg-light-yellow custom-text-primary p-1">Under review</span></td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 custom-display-none">
                                             <table class="table table-vertical-center steps-task steps-table-radius custom-step-table-radius border-custom">
                                                 <thead class="steps-table-header-color">
                                                     <tr>
                                                         <th class="custom-font-style-subheadings custom-text-primary" scope="col">Tasks</th>
-                                                        <th class="custom-font-style-subheadings custom-text-primary step-table-custom-col-w" scope="col">Assigned To</th>
+                                                        <th class="custom-font-style-subheadings custom-text-primary w-200px">Assigned To</th>
                                                         <th class="custom-font-style-subheadings custom-text-primary" scope="col">Tasks Type</th>
                                                         <th class="custom-font-style-subheadings custom-text-primary" scope="col">Status</th>
                                                     </tr>
@@ -389,7 +417,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                     <div class="row steps-custom-margin-top custom-lg-display-block">
                                         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                                             <div class="custom-bg-light-pale custom-border-color-pale custom-border-radius-15 my-2 py-2 text-center custom-padding-40">
-                                                <span class="steps-default-text steps-heading d-block mb-1"><a href="./add_indicator.php">Add Indicators</a></span>
+                                                <span class="steps-default-text steps-heading d-block mb-1"><a href="./themes&datasets.php">Data Themes & Datasets</a></span>
                                                 <div class="d-flex justify-content-center">
                                                     <div class="steps-image-container" style="margin-right: 100px;">
                                                         <img src="../assets/media/icons_and_Illustrations/Avatars/Avatars_Baboon.png" class="accordian-unit-image-1" alt="">
@@ -408,7 +436,25 @@ License: You must have a valid license purchased only from themeforest(the above
 
                                         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 steps-custom-margin-top">
                                             <div class="custom-bg-light-pale custom-border-color-pale custom-border-radius-15 my-2 py-2 text-center custom-padding-40">
-                                                <span class="steps-default-text steps-heading d-block mb-1"><a href="./add_metrices.php">Add Metrics</a></span>
+                                                <span class="steps-default-text steps-heading d-block mb-1"><a href="./metric_result.php">Enter Metric Results</a></span>
+                                                <div class="d-flex justify-content-center">
+                                                    <div class="steps-image-container" style="margin-right: 100px;">
+                                                        <img src="../assets/media/icons_and_Illustrations/Avatars/Avatars_Baboon.png" class="accordian-unit-image-1" alt="">
+                                                        <img src="../assets/media/icons_and_Illustrations/Avatars/Avatars_Frog.png" class="accordian-unit-image-2" alt="">
+                                                        <img src="../assets/media/icons_and_Illustrations/Avatars/Avatars_Parrot.png" class="accordian-unit-image-3" alt="">
+                                                        <span class="step-unit-counter d-inline-block">6+</span>
+                                                        <img src="../assets/media/add_person.png" class="step-unit-image-4" alt="">
+                                                    </div>
+                                                </div>
+                                                <div class="d-flex justify-content-center flex-column align-items-center">
+                                                    <span class="custom-bg-cyan text-light px-3 py-2 custom-font-style-xs p-1 w-25 custom-border-radius-4 mt-2">Required</span>
+                                                    <span class="custom-bg-light-yellow custom-text-primary custom-font-style-xs custom-border-radius-4 px-3 py-2 p-1 w-25 mt-2">Completed</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 steps-custom-margin-top">
+                                            <div class="custom-bg-light-pale custom-border-color-pale custom-border-radius-15 my-2 py-2 text-center custom-padding-40">
+                                                <span class="steps-default-text steps-heading d-block mb-1"><a href="./validation_results.php">Validation of results</a></span>
                                                 <div class="d-flex justify-content-center">
                                                     <div class="steps-image-container" style="margin-right: 100px;">
                                                         <img src="../assets/media/icons_and_Illustrations/Avatars/Avatars_Baboon.png" class="accordian-unit-image-1" alt="">

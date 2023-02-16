@@ -139,11 +139,14 @@ License: You must have a valid license purchased only from themeforest(the above
                                 <div class="card w-100 p-10">
                                     <div class="row">
                                         <div class="col-md-12">
-                                            <span class="custom-font-style-headings custom-text-primary">Step 3: Indicator & Metrics</span>
+                                            <div class="d-flex justify-content-between align-items-center">
+                                                <span class="custom-font-style-headings custom-text-primary">Step 3: Indicator & Metrics</span>
+                                                <a href="./add_metrices.php" class="custom-bg-warning custom-border-radius-35 custom-text-primary custom-font-style-small p-2">Select Metrics</a>
+                                            </div>
                                         </div>
                                     </div>
 
-                                    <div class="row mt-7">
+                                    <div class="row mt-7 mb-7">
                                         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                                             <div class="custom-bg-light-pale custom-border-radius-15 custom-border-color-pale h-100 p-10">
                                                 <span class="custom-font-style-headings custom-text-primary d-block mb-1">Indicator selection</span>
@@ -216,7 +219,7 @@ License: You must have a valid license purchased only from themeforest(the above
 
                                                             </div>
                                                             <span class="custom-font-style-sub-text mb-2">
-                                                                Current Plan
+                                                                Landscale Experience
                                                             </span>
                                                         </div>
                                                     </div>
@@ -249,20 +252,17 @@ License: You must have a valid license purchased only from themeforest(the above
                                         </div>
                                     </div>
 
-                                    <div class="row mt-7">
+                                    <!-- <div class="row mt-7">
                                         <div class="col-md-12 pl-0 pl-sm-4 pb-sm-4">
                                             <div class="d-flex justify-content-between">
                                                 <a class="custom-bg-primary custom-border-radius-35 px-5 py-2 align-items-center" data-toggle="modal" data-target="#myModal">
                                                     <span><img src="../assets/media/circle_add_icon.png" alt=""></span>
-                                                    <span class="text-light">Create Custom Piller</span>
+                                                    <span class="text-light">Create Custom Pillar</span>
                                                 </a>
-                                                <!-- <a class="indicator-btn-dark align-items-center">
-                                                    <span><img src="../assets/media/circle_add_icon.png" alt=""></span>
-                                                    <span class="text-light">Add Indicator</span>
-                                                </a> -->
+                                                
                                             </div>
                                         </div>
-                                    </div>
+                                    </div> -->
 
                                     <!-- The Modal -->
                                     <div class="modal fade" id="myModal">
@@ -290,7 +290,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                     </div>
 
                                     <div class="row custom-border-color-pale custom-border-radius-15 m-sm-0">
-                                        <div class="col-md-3 col-sm-12 col-xs-12 pr-0">
+                                        <div class="col-md-3 col-sm-12 col-xs-12 pr-0" id="inner-side-nav">
                                             <div class="custom-font-style-subheadings custom-text-primary p-5">
                                                 Custom Pillars
                                             </div>
@@ -345,9 +345,25 @@ License: You must have a valid license purchased only from themeforest(the above
                                                     </span>
                                                 </a>
                                             </div>
+                                            <div class="d-flex justify-content-center mt-5 mb-5">
+                                                <a class="custom-bg-primary custom-border-radius-35 text-center px-5 py-2 align-items-center custom-cursor-pointer" data-toggle="modal" data-target="#myModal">
+                                                    <span><img src="../assets/media/circle_add_icon.png" alt=""></span>
+                                                    <span class="text-light">Create Custom Pillar</span>
+                                                </a>
+                                            </div>
                                         </div>
-                                        <div class="col-md-9 col-sm-12 col-xs-12 custom-bg-light-pale custom-btrr-15 custom-bbrr-15">
+                                        <div class="col-md-9 col-sm-12 col-xs-12 custom-bg-light-pale custom-btrr-15 custom-bbrr-15" id="inner-side-main">
                                             <div class="d-flex justify-content-end mt-5 mr-5">
+                                                <!-- <button class="ml-5" onclick="toggleAside()">
+                                                    <span class="svg-icon svg-icon-primary svg-icon-2x">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
+                                                            <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                                                <rect x="0" y="0" width="24" height="24" />
+                                                                <rect fill="#EBF2E4" x="4" y="5" width="16" height="3" rx="1.5" />
+                                                                <path d="M5.5,15 L18.5,15 C19.3284271,15 20,15.6715729 20,16.5 C20,17.3284271 19.3284271,18 18.5,18 L5.5,18 C4.67157288,18 4,17.3284271 4,16.5 C4,15.6715729 4.67157288,15 5.5,15 Z M5.5,10 L18.5,10 C19.3284271,10 20,10.6715729 20,11.5 C20,12.3284271 19.3284271,13 18.5,13 L5.5,13 C4.67157288,13 4,12.3284271 4,11.5 C4,10.6715729 4.67157288,10 5.5,10 Z" fill="#EBF2E4" opacity="0.3" />
+                                                            </g>
+                                                        </svg>
+                                                </button> -->
                                                 <a class="custom-bg-primary custom-border-radius-35 px-5 py-3 align-items-center">
                                                     <span><img src="../assets/media/circle_add_icon.png" alt=""></span>
                                                     <span class="text-light">Add Custom Goal</span>
@@ -360,12 +376,17 @@ License: You must have a valid license purchased only from themeforest(the above
                                                             <div class="card-header bg-white indicator-accordian-card-header" id="headingOne-0">
                                                                 <div class="btn btn-block text-left indicator-accordian-responsive" role="region" data-toggle="collapse" data-target="#collapseOne-0" aria-expanded="true" aria-controls="collapseOne-0">
                                                                     <div class="row">
+                                                                        <div class="col-lg-1 col-md-1 col-sm-12 col-xs-12">
+                                                                            <div class="d-flex align-items-center h-100">
+                                                                                <img src="../assets/media/icons_and_Illustrations/Icons/PNGs/Ecosystems/Sub icons/Icons_Tier 2_Ecosystems_B_Pale Green.png" style="width: 30px;" alt="">
+                                                                            </div>
+                                                                        </div>
                                                                         <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
-                                                                            <span>
+                                                                            <span class="d-flex align-items-center h-100">
                                                                                 1.1 Conserve and restore natural ecosystems
                                                                             </span>
                                                                         </div>
-                                                                        <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                                                                        <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
                                                                             <div class="steps-image-container indicator-image-container-responsive mr-5">
                                                                                 <img src="../assets/media/icons_and_Illustrations/Avatars/Avatars_Baboon.png" class="step-unit-image-1" alt="">
                                                                                 <img src="../assets/media/icons_and_Illustrations/Avatars/Avatars_Frog.png" class="step-unit-image-2" alt="">
@@ -375,16 +396,18 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                             </div>
                                                                         </div>
                                                                         <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
-                                                                            <span class="steps-tags-text steps-success-tag p-1 custom-position-relative">Completed</span>
+                                                                            <span class="steps-tags-text steps-success-tag p-1 custom-position-relative d-flex align-items-center h-100">
+                                                                                Completed
+                                                                            </span>
                                                                         </div>
                                                                         <div class="col-lg-1 col-md-1 col-sm-12 col-xs-12">
-                                                                            <span class=" p-1"><img src="../assets/media/Vector_arrow_down.png" alt=""></span>
+                                                                            <span class="d-flex align-items-center h-100 p-1"><img src="../assets/media/Vector_arrow_down.png" alt=""></span>
                                                                         </div>
                                                                     </div>
                                                                 </div>
                                                             </div>
 
-                                                            <div id="collapseOne-0" class="collapse show" aria-labelledby="headingOne-0" data-parent="#accordionExample-0">
+                                                            <div id="collapseOne-0" class="collapse show" aria-labelledby="headingOne-0">
                                                                 <div class="mx-5 custom-border-color-pale mb-5 indicator-responsive-collapse">
                                                                     <table class="table table-vertical-center indicator-table">
                                                                         <thead class="steps-table-header-color">
@@ -480,12 +503,17 @@ License: You must have a valid license purchased only from themeforest(the above
                                                             <div class="card-header bg-white indicator-accordian-card-header" id="headingTwo-0">
                                                                 <div class="btn btn-block text-left collapsed indicator-accordian-responsive" role="region" data-toggle="collapse" data-target="#collapseTwo-0" aria-expanded="false" aria-controls="collapseTwo-0">
                                                                     <div class="row">
+                                                                        <div class="col-lg-1 col-md-1 col-sm-12 col-xs-12">
+                                                                            <div class="d-flex align-items-center h-100">
+                                                                                <img src="../assets/media/icons_and_Illustrations/Icons/PNGs/Ecosystems/Sub icons/Icons_Tier 2_Ecosystems_A_Pale Green.png" style="width: 30px;" alt="">
+                                                                            </div>
+                                                                        </div>
                                                                         <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
-                                                                            <span>
+                                                                            <span class="d-flex align-items-center h-100">
                                                                                 1.2 Protect and restore biodiversity
                                                                             </span>
                                                                         </div>
-                                                                        <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                                                                        <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
                                                                             <div class="steps-image-container indicator-image-container-responsive mr-5">
                                                                                 <img src="../assets/media/icons_and_Illustrations/Avatars/Avatars_Baboon.png" class="step-unit-image-1" alt="">
                                                                                 <img src="../assets/media/icons_and_Illustrations/Avatars/Avatars_Frog.png" class="step-unit-image-2" alt="">
@@ -495,15 +523,17 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                             </div>
                                                                         </div>
                                                                         <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
-                                                                            <span class="steps-tags-text steps-success-tag p-1 custom-position-relative">Completed</span>
+                                                                            <span class="steps-tags-text steps-success-tag p-1 custom-position-relative d-flex align-items-center h-100">
+                                                                                Completed
+                                                                            </span>
                                                                         </div>
                                                                         <div class="col-lg-1 col-md-1 col-sm-12 col-xs-12">
-                                                                            <span class=" p-1"><img src="../assets/media/Vector_arrow_down.png" alt=""></span>
+                                                                            <span class="d-flex align-items-center h-100 p-1"><img src="../assets/media/Vector_arrow_down.png" alt=""></span>
                                                                         </div>
                                                                     </div>
                                                                 </div>
                                                             </div>
-                                                            <div id="collapseTwo-0" class="collapse" aria-labelledby="headingTwo-0" data-parent="#accordionExample-0">
+                                                            <div id="collapseTwo-0" class="collapse" aria-labelledby="headingTwo-0">
                                                                 <div class="mx-5 custom-border-color-pale mb-5 indicator-responsive-collapse">
                                                                     <table class="table table-vertical-center indicator-table">
                                                                         <thead class="steps-table-header-color">
@@ -586,34 +616,21 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                 </div>
                                                             </div>
                                                         </div>
-                                                        <!-- <div class="card">
-                                                            <div class="card-header" id="headingThree">
-                                                                <h2 class="mb-0">
-                                                                    <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                                                        Collapsible Group Item #3
-                                                                    </button>
-                                                                </h2>
-                                                            </div>
-                                                            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample-0">
-                                                                <div class="card-body">
-                                                                    And lastly, the placeholder content for the third and final accordion panel. This panel is hidden by default.
-                                                                </div>
-                                                            </div>
-                                                        </div> -->
-                                                    </div>
-                                                </div>
-                                                <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
-                                                    <div class="accordion m-5" id="accordionExample-1">
                                                         <div class="card indicator-accordian-card">
-                                                            <div class="card-header bg-white indicator-accordian-card-header" id="headingOne-0">
-                                                                <div class="btn btn-block text-left indicator-accordian-responsive" role="region" data-toggle="collapse" data-target="#collapseOne-0" aria-expanded="true" aria-controls="collapseOne-0">
+                                                            <div class="card-header bg-white indicator-accordian-card-header" id="headingTwo-3">
+                                                                <div class="btn btn-block text-left collapsed indicator-accordian-responsive" role="region" data-toggle="collapse" data-target="#collapseTwo-3" aria-expanded="false" aria-controls="collapseTwo-3">
                                                                     <div class="row">
+                                                                        <div class="col-lg-1 col-md-1 col-sm-12 col-xs-12">
+                                                                            <div class="d-flex align-items-center h-100">
+                                                                                <img src="../assets/media/icons_and_Illustrations/Icons/PNGs/Ecosystems/Sub icons/Icons_Tier 2_Ecosystems_C_Pale Green.png" style="width: 30px;" alt="">
+                                                                            </div>
+                                                                        </div>
                                                                         <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
-                                                                            <span>
-                                                                                2.1 Respect, protect, and fulfill human rights
+                                                                            <span class="d-flex align-items-center h-100">
+                                                                                1.3 Maintain and enhance ecosystem services
                                                                             </span>
                                                                         </div>
-                                                                        <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                                                                        <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
                                                                             <div class="steps-image-container indicator-image-container-responsive mr-5">
                                                                                 <img src="../assets/media/icons_and_Illustrations/Avatars/Avatars_Baboon.png" class="step-unit-image-1" alt="">
                                                                                 <img src="../assets/media/icons_and_Illustrations/Avatars/Avatars_Frog.png" class="step-unit-image-2" alt="">
@@ -623,16 +640,140 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                             </div>
                                                                         </div>
                                                                         <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
-                                                                            <span class="steps-tags-text steps-success-tag p-1 custom-position-relative">Completed</span>
+                                                                            <span class="steps-tags-text steps-success-tag p-1 custom-position-relative d-flex align-items-center h-100">
+                                                                                Completed
+                                                                            </span>
                                                                         </div>
                                                                         <div class="col-lg-1 col-md-1 col-sm-12 col-xs-12">
-                                                                            <span class=" p-1"><img src="../assets/media/Vector_arrow_down.png" alt=""></span>
+                                                                            <span class="d-flex align-items-center h-100 p-1"><img src="../assets/media/Vector_arrow_down.png" alt=""></span>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div id="collapseTwo-3" class="collapse" aria-labelledby="headingTwo-3">
+                                                                <div class="mx-5 custom-border-color-pale mb-5 indicator-responsive-collapse">
+                                                                    <table class="table table-vertical-center indicator-table">
+                                                                        <thead class="steps-table-header-color">
+                                                                            <tr>
+                                                                                <th class="custom-font-style-sub-text" scope="col">Indicator</th>
+                                                                                <th class="custom-font-style-sub-text" scope="col">Applicability</th>
+                                                                                <th class="custom-font-style-sub-text w-125px" scope="col">Select</th>
+                                                                                <th class="custom-font-style-sub-text" scope="col">Actions</th>
+                                                                            </tr>
+                                                                        </thead>
+                                                                        <tbody class="bg-white">
+                                                                            <tr>
+                                                                                <td>1.2.1 Threats to species</td>
+                                                                                <td><span class="custom-bg-primary custom-text-light-pale custom-font-style-xs custom-border-radius-3 p-1">Core</span></td>
+                                                                                <td>
+                                                                                    <div class="button b2 button-10" id="button-10">
+                                                                                        <input type="checkbox" class="switch-checkbox" />
+                                                                                        <div class="knobs">
+                                                                                            <span>Defferred</span>
+                                                                                        </div>
+                                                                                        <div class="layer"></div>
+                                                                                    </div>
+                                                                                </td>
+                                                                                <td>
+                                                                                    <a href="#" class="custom-bg-warning custom-border-radius-35 px-2 py-1 align-items-center">
+                                                                                        <span><img src="../assets/media/dark_edit.png" style="width:6%;" alt=""></span>
+                                                                                        <span class="custom-font-style-xs custom-text-primary">Not Applicable</span>
+                                                                                    </a>
+                                                                                </td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td>1.2.2 Biodiversity habitat conversion</td>
+                                                                                <td><span class="custom-bg-primary custom-text-light-pale custom-font-style-xs custom-border-radius-3 p-1">Core</span></td>
+                                                                                <td>
+                                                                                    <div class="button b2 button-10" id="button-10">
+                                                                                        <input type="checkbox" class="switch-checkbox" />
+                                                                                        <div class="knobs">
+                                                                                            <span>Defferred</span>
+                                                                                        </div>
+                                                                                        <div class="layer"></div>
+                                                                                    </div>
+                                                                                </td>
+                                                                                <td>
+                                                                                    <a href="#" class="custom-bg-warning custom-border-radius-35 px-2 py-1 align-items-center">
+                                                                                        <span><img src="../assets/media/dark_edit.png" style="width:6%;" alt=""></span>
+                                                                                        <span class="custom-font-style-xs custom-text-primary">Not Applicable</span>
+                                                                                    </a>
+                                                                                </td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td>1.2.3 Biodiversity habitat degradation</td>
+                                                                                <td><span class="custom-bg-primary custom-text-light-pale custom-font-style-xs custom-border-radius-3 p-1">Core</span></td>
+                                                                                <td>
+                                                                                    <div class="button b2 button-10" id="button-10">
+                                                                                        <input type="checkbox" class="switch-checkbox" />
+                                                                                        <div class="knobs">
+                                                                                            <span>Defferred</span>
+                                                                                        </div>
+                                                                                        <div class="layer"></div>
+                                                                                    </div>
+                                                                                </td>
+                                                                                <td>
+                                                                                    <a href="#" class="custom-bg-warning custom-border-radius-35 px-2 py-1 align-items-center">
+                                                                                        <span><img src="../assets/media/dark_edit.png" style="width:6%;" alt=""></span>
+                                                                                        <span class="custom-font-style-xs custom-text-primary">Not Applicable</span>
+                                                                                    </a>
+                                                                                </td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td>
+                                                                                    <a class="custom-bg-primary custom-border-radius-35 px-5 py-3 align-items-center">
+                                                                                        <span><img src="../assets/media/circle_add_icon.png" alt=""></span>
+                                                                                        <span class="text-light">Add Custom Indicator</span>
+                                                                                    </a>
+                                                                                </td>
+                                                                            </tr>
+
+                                                                        </tbody>
+                                                                    </table>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                                <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+                                                    <div class="accordion m-5" id="accordionExample-1">
+                                                        <div class="card indicator-accordian-card">
+                                                            <div class="card-header bg-white indicator-accordian-card-header" id="headingOne-0">
+                                                                <div class="btn btn-block text-left indicator-accordian-responsive" role="region" data-toggle="collapse" data-target="#collapseOne-0" aria-expanded="true" aria-controls="collapseOne-0">
+                                                                    <div class="row">
+                                                                        <div class="col-lg-1 col-md-1 col-sm-12 col-xs-12">
+                                                                            <div class="d-flex align-items-center h-100">
+                                                                                <img src="../assets/media/icons_and_Illustrations/Icons/PNGs/Human_Wellbeing/Sub icons/Icons_Tier 2_Human Wellbeing_A_Pale Green.png" style="width: 30px;" alt="">
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
+                                                                            <span class="d-flex align-items-center h-100">
+                                                                                2.1 Improve standard of living, especially for vulnerable and/or marginalized groups
+                                                                            </span>
+                                                                        </div>
+                                                                        <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                                                                            <div class="steps-image-container indicator-image-container-responsive mr-5">
+                                                                                <img src="../assets/media/icons_and_Illustrations/Avatars/Avatars_Baboon.png" class="step-unit-image-1" alt="">
+                                                                                <img src="../assets/media/icons_and_Illustrations/Avatars/Avatars_Frog.png" class="step-unit-image-2" alt="">
+                                                                                <img src="../assets/media/icons_and_Illustrations/Avatars/Avatars_Parrot.png" class="step-unit-image-3" alt="">
+                                                                                <span class="step-unit-counter d-inline-block">6+</span>
+                                                                                <img src="../assets/media/add_person.png" class="step-unit-image-4" alt="">
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
+                                                                            <span class="steps-tags-text steps-success-tag p-1 custom-position-relative d-flex align-items-center h-100">
+                                                                                Completed
+                                                                            </span>
+                                                                        </div>
+                                                                        <div class="col-lg-1 col-md-1 col-sm-12 col-xs-12">
+                                                                            <span class="d-flex align-items-center h-100 p-1"><img src="../assets/media/Vector_arrow_down.png" alt=""></span>
                                                                         </div>
                                                                     </div>
                                                                 </div>
                                                             </div>
 
-                                                            <div id="collapseOne-0" class="collapse show" aria-labelledby="headingOne-0" data-parent="#accordionExample-1">
+                                                            <div id="collapseOne-0" class="collapse show" aria-labelledby="headingOne-0">
                                                                 <div class="mx-5 custom-border-color-pale mb-5 indicator-responsive-collapse">
                                                                     <table class="table table-vertical-center indicator-table">
                                                                         <thead class="steps-table-header-color">
@@ -728,12 +869,17 @@ License: You must have a valid license purchased only from themeforest(the above
                                                             <div class="card-header bg-white indicator-accordian-card-header" id="headingTwo-0">
                                                                 <div class="btn btn-block text-left collapsed indicator-accordian-responsive" role="region" data-toggle="collapse" data-target="#collapseTwo-0" aria-expanded="false" aria-controls="collapseTwo-0">
                                                                     <div class="row">
+                                                                        <div class="col-lg-1 col-md-1 col-sm-12 col-xs-12">
+                                                                            <div class="d-flex align-items-center h-100">
+                                                                                <img src="../assets/media/icons_and_Illustrations/Icons/PNGs/Human_Wellbeing/Sub icons/Icons_Tier 2_Human Wellbeing_B_Pale Green.png" style="width: 30px;" alt="">
+                                                                            </div>
+                                                                        </div>
                                                                         <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
-                                                                            <span>
-                                                                                2.2 Improve standard of living,
+                                                                            <span class="d-flex align-items-center h-100">
+                                                                                2.2 Respect, protect, and fulfill human rights
                                                                             </span>
                                                                         </div>
-                                                                        <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                                                                        <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
                                                                             <div class="steps-image-container indicator-image-container-responsive mr-5">
                                                                                 <img src="../assets/media/icons_and_Illustrations/Avatars/Avatars_Baboon.png" class="step-unit-image-1" alt="">
                                                                                 <img src="../assets/media/icons_and_Illustrations/Avatars/Avatars_Frog.png" class="step-unit-image-2" alt="">
@@ -743,15 +889,17 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                             </div>
                                                                         </div>
                                                                         <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
-                                                                            <span class="steps-tags-text steps-success-tag p-1 custom-position-relative">Completed</span>
+                                                                            <span class="steps-tags-text steps-success-tag p-1 custom-position-relative d-flex align-items-center h-100">
+                                                                                Completed
+                                                                            </span>
                                                                         </div>
                                                                         <div class="col-lg-1 col-md-1 col-sm-12 col-xs-12">
-                                                                            <span class=" p-1"><img src="../assets/media/Vector_arrow_down.png" alt=""></span>
+                                                                            <span class="d-flex align-items-center h-100 p-1"><img src="../assets/media/Vector_arrow_down.png" alt=""></span>
                                                                         </div>
                                                                     </div>
                                                                 </div>
                                                             </div>
-                                                            <div id="collapseTwo-0" class="collapse" aria-labelledby="headingTwo-0" data-parent="#accordionExample-1">
+                                                            <div id="collapseTwo-0" class="collapse" aria-labelledby="headingTwo-0">
                                                                 <div class="mx-5 custom-border-color-pale mb-5 indicator-responsive-collapse">
                                                                     <table class="table table-vertical-center indicator-table">
                                                                         <thead class="steps-table-header-color">
@@ -843,12 +991,17 @@ License: You must have a valid license purchased only from themeforest(the above
                                                             <div class="card-header bg-white indicator-accordian-card-header" id="headingOne-0">
                                                                 <div class="btn btn-block text-left indicator-accordian-responsive" role="region" data-toggle="collapse" data-target="#collapseOne-0" aria-expanded="true" aria-controls="collapseOne-0">
                                                                     <div class="row">
+                                                                        <div class="col-lg-1 col-md-1 col-sm-12 col-xs-12">
+                                                                            <div class="d-flex align-items-center h-100">
+                                                                                <img src="../assets/media/icons_and_Illustrations/Icons/PNGs/Governance/Sub icons/Icons_Tier 2_Governance_A_Pale Green.png" style="width: 30px;" alt="">
+                                                                            </div>
+                                                                        </div>
                                                                         <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
-                                                                            <span>
-                                                                                3.1 Recognize and protect rights
+                                                                            <span class="d-flex align-items-center h-100">
+                                                                                3.1 Recognize and protect rights to land and resources, and reduce related conflicts
                                                                             </span>
                                                                         </div>
-                                                                        <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                                                                        <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
                                                                             <div class="steps-image-container indicator-image-container-responsive mr-5">
                                                                                 <img src="../assets/media/icons_and_Illustrations/Avatars/Avatars_Baboon.png" class="step-unit-image-1" alt="">
                                                                                 <img src="../assets/media/icons_and_Illustrations/Avatars/Avatars_Frog.png" class="step-unit-image-2" alt="">
@@ -858,16 +1011,18 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                             </div>
                                                                         </div>
                                                                         <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
-                                                                            <span class="steps-tags-text steps-success-tag p-1 custom-position-relative">Completed</span>
+                                                                            <span class="steps-tags-text steps-success-tag p-1 custom-position-relative d-flex align-items-center h-100">
+                                                                                Completed
+                                                                            </span>
                                                                         </div>
                                                                         <div class="col-lg-1 col-md-1 col-sm-12 col-xs-12">
-                                                                            <span class=" p-1"><img src="../assets/media/Vector_arrow_down.png" alt=""></span>
+                                                                            <span class="d-flex align-items-center h-100 p-1"><img src="../assets/media/Vector_arrow_down.png" alt=""></span>
                                                                         </div>
                                                                     </div>
                                                                 </div>
                                                             </div>
 
-                                                            <div id="collapseOne-0" class="collapse show" aria-labelledby="headingOne-0" data-parent="#accordionExample-1">
+                                                            <div id="collapseOne-0" class="collapse show" aria-labelledby="headingOne-0">
                                                                 <div class="mx-5 custom-border-color-pale mb-5 indicator-responsive-collapse">
                                                                     <table class="table table-vertical-center indicator-table">
                                                                         <thead class="steps-table-header-color">
@@ -963,12 +1118,17 @@ License: You must have a valid license purchased only from themeforest(the above
                                                             <div class="card-header bg-white indicator-accordian-card-header" id="headingTwo-0">
                                                                 <div class="btn btn-block text-left collapsed indicator-accordian-responsive" role="region" data-toggle="collapse" data-target="#collapseTwo-0" aria-expanded="false" aria-controls="collapseTwo-0">
                                                                     <div class="row">
+                                                                        <div class="col-lg-1 col-md-1 col-sm-12 col-xs-12">
+                                                                            <div class="d-flex align-items-center h-100">
+                                                                                <img src="../assets/media/icons_and_Illustrations/Icons/PNGs/Governance/Sub icons/Icons_Tier 2_Governance_B_Pale Green.png" style="width: 30px;" alt="">
+                                                                            </div>
+                                                                        </div>
                                                                         <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
-                                                                            <span>
-                                                                                3.2 Promote transparency, participation
+                                                                            <span class="d-flex align-items-center h-100">
+                                                                                3.2 Promote transparency, participation, inclusion, and coordination in landscape policy, planning, and management
                                                                             </span>
                                                                         </div>
-                                                                        <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                                                                        <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
                                                                             <div class="steps-image-container indicator-image-container-responsive mr-5">
                                                                                 <img src="../assets/media/icons_and_Illustrations/Avatars/Avatars_Baboon.png" class="step-unit-image-1" alt="">
                                                                                 <img src="../assets/media/icons_and_Illustrations/Avatars/Avatars_Frog.png" class="step-unit-image-2" alt="">
@@ -978,15 +1138,17 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                             </div>
                                                                         </div>
                                                                         <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
-                                                                            <span class="steps-tags-text steps-success-tag p-1 custom-position-relative">Completed</span>
+                                                                            <span class="steps-tags-text steps-success-tag p-1 custom-position-relative d-flex align-items-center h-100">
+                                                                                Completed
+                                                                            </span>
                                                                         </div>
                                                                         <div class="col-lg-1 col-md-1 col-sm-12 col-xs-12">
-                                                                            <span class=" p-1"><img src="../assets/media/Vector_arrow_down.png" alt=""></span>
+                                                                            <span class="d-flex align-items-center h-100 p-1"><img src="../assets/media/Vector_arrow_down.png" alt=""></span>
                                                                         </div>
                                                                     </div>
                                                                 </div>
                                                             </div>
-                                                            <div id="collapseTwo-0" class="collapse" aria-labelledby="headingTwo-0" data-parent="#accordionExample-1">
+                                                            <div id="collapseTwo-0" class="collapse" aria-labelledby="headingTwo-0">
                                                                 <div class="mx-5 custom-border-color-pale mb-5 indicator-responsive-collapse">
                                                                     <table class="table table-vertical-center indicator-table">
                                                                         <thead class="steps-table-header-color">
@@ -1078,12 +1240,17 @@ License: You must have a valid license purchased only from themeforest(the above
                                                             <div class="card-header bg-white indicator-accordian-card-header" id="headingOne-0">
                                                                 <div class="btn btn-block text-left indicator-accordian-responsive" role="region" data-toggle="collapse" data-target="#collapseOne-0" aria-expanded="true" aria-controls="collapseOne-0">
                                                                     <div class="row">
+                                                                        <div class="col-lg-1 col-md-1 col-sm-12 col-xs-12">
+                                                                            <div class="d-flex align-items-center h-100">
+                                                                                <img src="../assets/media/icons_and_Illustrations/Icons/PNGs/Production/Sub icons/Icons_Tier 2_Production_A_Pale Green.png" style="width: 30px;" alt="">
+                                                                            </div>
+                                                                        </div>
                                                                         <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
-                                                                            <span>
-                                                                                4.1 Promote regenerative, agricultural
+                                                                            <span class="d-flex align-items-center h-100">
+                                                                                4.1 Promote regenerative, agricultural, agroforestry, and tree production systems
                                                                             </span>
                                                                         </div>
-                                                                        <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                                                                        <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
                                                                             <div class="steps-image-container indicator-image-container-responsive mr-5">
                                                                                 <img src="../assets/media/icons_and_Illustrations/Avatars/Avatars_Baboon.png" class="step-unit-image-1" alt="">
                                                                                 <img src="../assets/media/icons_and_Illustrations/Avatars/Avatars_Frog.png" class="step-unit-image-2" alt="">
@@ -1093,16 +1260,18 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                             </div>
                                                                         </div>
                                                                         <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
-                                                                            <span class="steps-tags-text steps-success-tag p-1 custom-position-relative">Completed</span>
+                                                                            <span class="steps-tags-text steps-success-tag p-1 custom-position-relative d-flex align-items-center h-100">
+                                                                                Completed
+                                                                            </span>
                                                                         </div>
                                                                         <div class="col-lg-1 col-md-1 col-sm-12 col-xs-12">
-                                                                            <span class=" p-1"><img src="../assets/media/Vector_arrow_down.png" alt=""></span>
+                                                                            <span class="d-flex align-items-center h-100 p-1"><img src="../assets/media/Vector_arrow_down.png" alt=""></span>
                                                                         </div>
                                                                     </div>
                                                                 </div>
                                                             </div>
 
-                                                            <div id="collapseOne-0" class="collapse show" aria-labelledby="headingOne-0" data-parent="#accordionExample-1">
+                                                            <div id="collapseOne-0" class="collapse show" aria-labelledby="headingOne-0">
                                                                 <div class="mx-5 custom-border-color-pale mb-5 indicator-responsive-collapse">
                                                                     <table class="table table-vertical-center indicator-table">
                                                                         <thead class="steps-table-header-color">
@@ -1198,12 +1367,17 @@ License: You must have a valid license purchased only from themeforest(the above
                                                             <div class="card-header bg-white indicator-accordian-card-header" id="headingTwo-0">
                                                                 <div class="btn btn-block text-left collapsed indicator-accordian-responsive" role="region" data-toggle="collapse" data-target="#collapseTwo-0" aria-expanded="false" aria-controls="collapseTwo-0">
                                                                     <div class="row">
+                                                                        <div class="col-lg-1 col-md-1 col-sm-12 col-xs-12">
+                                                                            <div class="d-flex align-items-center h-100">
+                                                                                <img src="../assets/media/icons_and_Illustrations/Icons/PNGs/Production/Sub icons/Icons_Tier 2_Production_B_Pale Green.png" style="width: 30px;" alt="">
+                                                                            </div>
+                                                                        </div>
                                                                         <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
-                                                                            <span>
-                                                                                4.2 Promote sustainability of other natural resource
+                                                                            <span class="d-flex align-items-center h-100">
+                                                                                4.2 Promote sustainability of other natural resource-based production sectors
                                                                             </span>
                                                                         </div>
-                                                                        <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                                                                        <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
                                                                             <div class="steps-image-container indicator-image-container-responsive mr-5">
                                                                                 <img src="../assets/media/icons_and_Illustrations/Avatars/Avatars_Baboon.png" class="step-unit-image-1" alt="">
                                                                                 <img src="../assets/media/icons_and_Illustrations/Avatars/Avatars_Frog.png" class="step-unit-image-2" alt="">
@@ -1213,15 +1387,17 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                             </div>
                                                                         </div>
                                                                         <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
-                                                                            <span class="steps-tags-text steps-success-tag p-1 custom-position-relative">Completed</span>
+                                                                            <span class="steps-tags-text steps-success-tag p-1 custom-position-relative d-flex align-items-center h-100">
+                                                                                Completed
+                                                                            </span>
                                                                         </div>
                                                                         <div class="col-lg-1 col-md-1 col-sm-12 col-xs-12">
-                                                                            <span class=" p-1"><img src="../assets/media/Vector_arrow_down.png" alt=""></span>
+                                                                            <span class="d-flex align-items-center h-100 p-1"><img src="../assets/media/Vector_arrow_down.png" alt=""></span>
                                                                         </div>
                                                                     </div>
                                                                 </div>
                                                             </div>
-                                                            <div id="collapseTwo-0" class="collapse" aria-labelledby="headingTwo-0" data-parent="#accordionExample-1">
+                                                            <div id="collapseTwo-0" class="collapse" aria-labelledby="headingTwo-0">
                                                                 <div class="mx-5 custom-border-color-pale mb-5 indicator-responsive-collapse">
                                                                     <table class="table table-vertical-center indicator-table">
                                                                         <thead class="steps-table-header-color">
@@ -1458,6 +1634,16 @@ License: You must have a valid license purchased only from themeforest(the above
                 $(this).parent().addClass('indicator-border-top-15');
             }
         })
+
+        // function toggleAside() {
+        //     if($('#inner-side-nav').hasClass('d-none')){
+        //         $('#inner-side-nav').removeClass('d-none');
+        //         $('#inner-side-main').addClass('col-md-9');
+        //     }else {
+        //         $('#inner-side-nav').addClass('d-none')
+        //         $('#inner-side-main').removeClass('col-md-9');
+        //     }
+        // }
     </script>
 </body>
 <!--end::Body-->

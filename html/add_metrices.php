@@ -139,7 +139,10 @@ License: You must have a valid license purchased only from themeforest(the above
                                 <div class="card w-100 p-10">
                                     <div class="row">
                                         <div class="col-md-12">
-                                            <span class="custom-font-style-headings custom-text-primary">Step 3: Indicator & Metrics</span>
+                                            <div class="d-flex justify-content-between align-items-center">
+                                                <span class="custom-font-style-headings custom-text-primary">Step 3: Indicator & Metrics</span>
+                                                <a href="./add_indicator.php" class="custom-bg-warning custom-border-radius-35 custom-text-primary custom-font-style-small p-2">Select Indicator</a>
+                                            </div>
                                         </div>
                                     </div>
 
@@ -346,7 +349,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                 </div>
                                                             </div>
 
-                                                            <div id="collapseOne-0" class="collapse show" aria-labelledby="headingOne-0" data-parent="#accordionExample-0">
+                                                            <div id="collapseOne-0" class="collapse show" aria-labelledby="headingOne-0">
                                                                 <div class="mx-5 custom-border-color-pale mb-5 indicator-responsive-collapse">
                                                                     <table class="table table-vertical-center indicator-table">
                                                                         <thead class="steps-table-header-color">
@@ -465,7 +468,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                     </div>
                                                                 </div>
                                                             </div>
-                                                            <div id="collapseTwo-0" class="collapse" aria-labelledby="headingTwo-0" data-parent="#accordionExample-0">
+                                                            <div id="collapseTwo-0" class="collapse" aria-labelledby="headingTwo-0">
                                                                 <div class="mx-5 custom-border-color-pale mb-5 indicator-responsive-collapse">
                                                                     <table class="table table-vertical-center indicator-table">
                                                                         <thead class="steps-table-header-color">
@@ -597,7 +600,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                 </div>
                                                             </div>
 
-                                                            <div id="collapseOne-0" class="collapse show" aria-labelledby="headingOne-0" data-parent="#accordionExample-1">
+                                                            <div id="collapseOne-0" class="collapse show" aria-labelledby="headingOne-0">
                                                                 <div class="mx-5 custom-border-color-pale mb-5 indicator-responsive-collapse">
                                                                     <table class="table table-vertical-center indicator-table">
                                                                         <thead class="steps-table-header-color">
@@ -691,7 +694,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                     </div>
                                                                 </div>
                                                             </div>
-                                                            <div id="collapseTwo-0" class="collapse" aria-labelledby="headingTwo-0" data-parent="#accordionExample-1">
+                                                            <div id="collapseTwo-0" class="collapse" aria-labelledby="headingTwo-0">
                                                                 <div class="mx-5 custom-border-color-pale mb-5 indicator-responsive-collapse">
                                                                     <table class="table table-vertical-center indicator-table">
                                                                         <thead class="steps-table-header-color">
@@ -800,7 +803,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                 </div>
                                                             </div>
 
-                                                            <div id="collapseOne-0" class="collapse show" aria-labelledby="headingOne-0" data-parent="#accordionExample-1">
+                                                            <div id="collapseOne-0" class="collapse show" aria-labelledby="headingOne-0">
                                                                 <div class="mx-5 custom-border-color-pale mb-5 indicator-responsive-collapse">
                                                                     <table class="table table-vertical-center indicator-table">
                                                                         <thead class="steps-table-header-color">
@@ -895,7 +898,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                     </div>
                                                                 </div>
                                                             </div>
-                                                            <div id="collapseTwo-0" class="collapse" aria-labelledby="headingTwo-0" data-parent="#accordionExample-1">
+                                                            <div id="collapseTwo-0" class="collapse" aria-labelledby="headingTwo-0">
                                                                 <div class="mx-5 custom-border-color-pale mb-5 indicator-responsive-collapse">
                                                                     <table class="table table-vertical-center indicator-table">
                                                                         <thead class="steps-table-header-color">
@@ -1004,7 +1007,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                 </div>
                                                             </div>
 
-                                                            <div id="collapseOne-0" class="collapse show" aria-labelledby="headingOne-0" data-parent="#accordionExample-1">
+                                                            <div id="collapseOne-0" class="collapse show" aria-labelledby="headingOne-0">
                                                                 <div class="mx-5 custom-border-color-pale mb-5 indicator-responsive-collapse">
                                                                     <table class="table table-vertical-center indicator-table">
                                                                         <thead class="steps-table-header-color">
@@ -1099,7 +1102,8 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                     </div>
                                                                 </div>
                                                             </div>
-                                                            <div id="collapseTwo-0" class="collapse" aria-labelledby="headingTwo-0" data-parent="#accordionExample-1">
+                                                            <!-- place data-parent here if need to collapse previous accordians while clicking on other -->
+                                                            <div id="collapseTwo-0" class="collapse" aria-labelledby="headingTwo-0">
                                                                 <div class="mx-5 custom-border-color-pale mb-5 indicator-responsive-collapse">
                                                                     <table class="table table-vertical-center indicator-table">
                                                                         <thead class="steps-table-header-color">

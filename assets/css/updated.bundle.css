@@ -100762,7 +100762,7 @@ body {
     top: 4px;
     z-index: 2;
     border-radius: 7px;
-    width: 12% !important;
+    width: 32px !important;
 }
 
 .step-unit-image-2 {
@@ -100771,7 +100771,7 @@ body {
     top: 4px;
     z-index: 1;
     border-radius: 7px;
-    width: 12% !important;
+    width: 32px !important;
 }
 
 .step-unit-image-3 {
@@ -100779,7 +100779,7 @@ body {
     left: 53px;
     top: 4px;
     border-radius: 7px;
-    width: 12% !important;
+    width: 32px !important;
 }
 
 .step-unit-image-4 {
