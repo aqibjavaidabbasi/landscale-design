@@ -182,7 +182,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                 Ongoing Tasks
                                                             </span>
                                                         </div>
-                                                        <div class="custom-bg-light-pale custom-border-radius-15 text-center mt-2 h-100 custom-cursor-pointer d-flex flex-column align-items-center justify-content-center">
+                                                        <div class="custom-bg-light-pale custom-border-radius-15 text-center mt-4 h-100 custom-cursor-pointer d-flex flex-column align-items-center justify-content-center">
                                                             <div class="custom-font-style-large custom-text-primary">
                                                                 15
                                                             </div>

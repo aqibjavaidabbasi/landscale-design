@@ -190,7 +190,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                     </div>
 
                                                 </div>
-                                                <div class="row h-50 mt-3">
+                                                <div class="row h-50 mt-7">
                                                     <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 responsive-margin-card">
                                                         <div class="custom-bg-light-pale custom-border-radius-15 text-center h-100 custom-cursor-pointer d-flex flex-column align-items-center justify-content-center">
                                                             <div class="custom-font-style-large custom-text-primary">
