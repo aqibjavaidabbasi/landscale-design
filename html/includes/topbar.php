@@ -23,7 +23,7 @@
                 <!--end::Header Nav-->
 
                 <!-- search bar start -->
-                <div class="input-group custom-search-bar ml-5">
+                <!-- <div class="input-group custom-search-bar ml-5">
                     <input type="text" class="form-control custom-btlr-50 custom-bblr-50 custom-bg-light-pale outline-0 border-0" placeholder="search for anything">
                     <div class="input-group-append">
                         <span class="input-group-text custom-btrr-50 custom-bbrr-50 custom-bg-light-pale">
@@ -32,7 +32,7 @@
                             </svg>
                         </span>
                     </div>
-                </div>
+                </div> -->
             </div>
             <!--end::Header Menu-->
         </div>

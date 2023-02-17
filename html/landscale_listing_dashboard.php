@@ -137,7 +137,7 @@ License: You must have a valid license purchased only from themeforest(the above
                             <div class="col-md-12">
                                 <div class="card w-100 p-5">
                                     <div class="row p-5">
-                                        <div class="col-lg-7 col-md-12 col-sm-12 col-xs-12">
+                                        <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
                                             <div class="card w-100 h-100 p-5 custom-bg-pale">
                                                 <div class="row d-flex align-items-center">
                                                     <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
@@ -165,7 +165,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-lg-5 col-md-12 col-sm-12 col-xs-12">
+                                        <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
                                             <div class="card w-100 h-100 p-5 custom-bg-white">
                                                 <div class="row h-50">
                                                     <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 responsive-margin-card">
@@ -219,17 +219,20 @@ License: You must have a valid license purchased only from themeforest(the above
                                     </div>
                                     <div class="row p-5">
                                         <div class="col-md-12">
-                                            <div class="d-flex justify-content-between py-5">
+                                            <!-- <div class="d-flex justify-content-between py-5">
                                                 <h3 class="custom-font-style-headings custom-text-primary">
                                                     Assessments
                                                 </h3>
-                                            </div>
+                                            </div> -->
 
                                             <div>
                                                 <!--begin: Datatable-->
                                                 <div id="kt_datatable_wrapper" class="dataTables_wrapper dt-bootstrap4 no-footer">
                                                     <div class="row my-5">
                                                         <div class="col-lg-8 col-md-12 col-sm-12 col-xs-12">
+                                                            <h3 class="custom-font-style-headings custom-text-primary">
+                                                                Assessments
+                                                            </h3>
                                                             <!-- <div class="dataTables_length" id="kt_datatable_length">
                                                                 <label class="entries-label">Show
                                                                     <select name="kt_datatable_length" aria-controls="kt_datatable" class="custom-select custom-select-sm custom-bg-light-pale custom-border-radius-0">

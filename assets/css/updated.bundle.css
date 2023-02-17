@@ -101089,6 +101089,10 @@ select {
     max-width: 6% !important;
 }
 
+.max-w-32-percent {
+    max-width: 32% !important;
+}
+
 
 /* switch btn end */
 

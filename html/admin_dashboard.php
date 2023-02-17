@@ -137,7 +137,7 @@ License: You must have a valid license purchased only from themeforest(the above
                             <div class="col-md-12">
                                 <div class="card w-100 p-5">
                                     <div class="row p-5">
-                                        <div class="col-lg-5 col-md-12 col-sm-12 col-xs-12">
+                                        <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
                                             <div class="card w-100 h-100 p-5 custom-bg-grey">
                                                 <div class="row mb-5 ml-5">
                                                     <div class="col-md-12 mt-5">
@@ -160,7 +160,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-lg-7 col-md-12 col-sm-12 col-xs-12">
+                                        <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
                                             <div class="card w-100 h-100 p-5 custom-bg-white">
                                                 <div class="d-flex h-100 w-100">
                                                     <div class="w-50 m-2">
@@ -187,29 +187,32 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                 15
                                                             </div>
                                                             <span class="custom-font-style-sub-text custom-text-primary mb-2">
-                                                                Outstanding Reviews
+                                                                To Be Done
                                                             </span>
                                                         </div>
                                                     </div>
                                                 </div>
-                                                
+
                                             </div>
                                         </div>
                                     </div>
                                     <div class="row p-5">
                                         <div class="col-md-12">
-                                            <div class="d-flex justify-content-between py-5">
+                                            <!-- <div class="d-flex justify-content-between py-5">
                                                 <h3 class="custom-font-style-headings custom-text-primary">
                                                     Assessments
                                                 </h3>
                                                 
-                                            </div>
+                                            </div> -->
 
                                             <div>
                                                 <!--begin: Datatable-->
                                                 <div id="kt_datatable_wrapper" class="dataTables_wrapper dt-bootstrap4 no-footer">
                                                     <div class="row my-5">
                                                         <div class="col-lg-8 col-md-12 col-sm-12 col-xs-12">
+                                                            <h3 class="custom-font-style-headings custom-text-primary">
+                                                                Assessments
+                                                            </h3>
                                                             <!-- <div class="dataTables_length" id="kt_datatable_length">
                                                                 <label class="entries-label">Show
                                                                     <select name="kt_datatable_length" aria-controls="kt_datatable" class="custom-select custom-select-sm custom-bg-light-pale custom-border-radius-0">
@@ -277,144 +280,8 @@ License: You must have a valid license purchased only from themeforest(the above
                                                         </div>
                                                     </div>
                                                     <div class="row">
-                                                        <div class="col-lg-3 col-md-12 col-sm-12 col-xs-12 pr-1">
-                                                            <div class="card card-custom card-border gutter-b card-shadowless" id="sub_menu_wizard">
-                                                                <div class="custom-bg-light-pale custom-padding-15" style="position: -webkit-sticky;position: sticky; top: 0px;">
-                                                                    <div class="row justify-content-between">
-                                                                        <div class="col-md-6">
-                                                                            <div class="d-flex align-items-center h-100">
-                                                                                <span class="custom-font-family custom-text-primary custom-font-style-subheadings p-1">Filters</span>
-                                                                            </div>
-                                                                        </div>
-                                                                        <div class="col-md-6" style="text-align: right;"><a class="btn btn-secondary btn-sm btn-text-white btn-hover-primary" id="btn_clear_all" style="display:none">{!!trans('data_resources.label_clear_filter')!!}</a></div>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="card-body pt-2 mt-5" id="filters_body">
-                                                                    <div class="demo-assessment mb-5"><!-- indicators filter -->
-                                                                        <div class="row justify-content-between">
-                                                                            <div class="col-md-8"><label class="">Country:</label></div>
-                                                                            <div class="col-md-4" style="text-align: right;"><i class="fas fa-filter"></i><span id="table-filter-indicators-total"></span></div>
-                                                                        </div>
-                                                                        <select id="table-filter-country_map" class="form-control"> <!-- select input with unique countries of the assessment -->
-                                                                        </select>
-                                                                    </div>
 
-                                                                    <div class="demo-assessment mb-5"><!-- indicators filter -->
-                                                                        <div class="row justify-content-between">
-                                                                            <div class="col-md-8"><label class="">Continent:</label></div>
-                                                                            <div class="col-md-4" style="text-align: right;"><i class="fas fa-filter"></i><span id="table-filter-indicators-total"></span></div>
-                                                                        </div>
-                                                                        <select id="table-filter-continent_map" class="form-control"> <!-- select input with unique countries of the assessment -->
-                                                                        </select>
-                                                                    </div>
-                                                                    <div class="demo-assessment mb-5"><!-- indicators filter -->
-                                                                        <div class="row justify-content-between">
-                                                                            <div class="col-md-8"><label class="">Test Assessments:</label></div>
-                                                                            <div class="col-md-4" style="text-align: right;"><i class="fas fa-filter"></i><span id="table-filter-indicators-total"></span></div>
-                                                                        </div>
-                                                                        <div id="test_filters_map">
-                                                                            <div class="d-inline">
-                                                                                <input type="checkbox" class="btn-check filter_test_map" value="{!!trans('general.filter_test_val')!!}" name="test_filter_map" id="test_map" autocomplete="off">
-                                                                                <label class="mr-1 btn btn-outline-primary btn-sm custom-border-radius-0" for="test_map">Test</label>
-                                                                            </div>
-
-                                                                            <div class="d-inline">
-                                                                                <input type="checkbox" class="btn-check filter_test_map" value="{!!trans('general.filter_test_val2')!!}" name="test_filter_map" id="official_map" autocomplete="off">
-                                                                                <label class="mr-1 btn btn-outline-primary btn-sm custom-border-radius-0" for="official_map">Official</label>
-                                                                            </div>
-
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="demo-assessment mb-5"><!-- indicators filter -->
-                                                                        <div class="row justify-content-between">
-                                                                            <div class="col-md-8"><label class="">Assigned tasks to:</label></div>
-                                                                            <div class="col-md-4" style="text-align: right;"><i class="fas fa-filter"></i><span id="table-filter-indicators-total"></span></div>
-                                                                        </div>
-                                                                        <select id="table-filter-user_map" class="form-control"> <!-- select input with unique countries of the assessment -->
-                                                                        </select>
-                                                                    </div>
-                                                                    <div class="demo-assessment mb-5"><!-- indicators filter -->
-                                                                        <div class="row justify-content-between">
-                                                                            <div class="col-md-8"><label class="">Assessment contact:</label></div>
-                                                                            <div class="col-md-4" style="text-align: right;"><i class="fas fa-filter"></i><span id="table-filter-indicators-total"></span></div>
-                                                                        </div>
-                                                                        <select id="table-filter-concat_user_map" class="form-control"> <!-- select input with unique countries of the assessment -->
-
-                                                                        </select>
-
-                                                                    </div>
-
-                                                                    <div class="demo-assessment mb-5"><!-- indicators filter -->
-                                                                        <div class="row justify-content-between">
-                                                                            <div class="col-md-8"><label class="">Assessments:</label></div>
-                                                                            <div class="col-md-4" style="text-align: right;"><i class="fas fa-filter"></i><span id="table-filter-indicators-total"></span></div>
-                                                                        </div>
-                                                                        <select id="table-filter-name_map" class="form-control"> <!-- select input with unique countries of the assessment -->
-                                                                        </select>
-
-                                                                    </div>
-                                                                    <div class="demo-assessment mb-5"><!-- indicators filter -->
-                                                                        <div class="row justify-content-between">
-                                                                            <div class="col-md-8"><label class="">Steps completed:</label></div>
-                                                                            <div class="col-md-4" style="text-align: right;"><i class="fas fa-filter"></i><span id="table-filter-indicators-total"></span></div>
-                                                                        </div>
-                                                                        <div id="filter_steps_map">
-                                                                            <div class="step-custom-filter d-inline">
-                                                                                <input type="radio" class="btn-check filter_div_map" value="0" name="steps_map" id="step-map-0" autocomplete="off">
-                                                                                <label class="mr-1 btn btn-outline-primary btn-sm custom-border-radius-0" for="step-map-0">Step 0 (in process)</label>
-                                                                            </div>
-
-                                                                            <div class="step-custom-filter d-inline">
-                                                                                <input type="radio" class="btn-check filter_div_map" value="9" name="steps_map" id="step-map-9" autocomplete="off">
-                                                                                <label class="mr-1 btn btn-outline-primary btn-sm custom-border-radius-0" for="step-map-9">Plan change (pending)</label>
-                                                                            </div>
-
-                                                                            <div class="step-custom-filter d-inline">
-                                                                                <input type="radio" class="btn-check filter_div_map" value="1" name="steps_map" id="step-map-1" autocomplete="off">
-                                                                                <label class="mr-1 btn btn-outline-primary btn-sm custom-border-radius-0" for="step-map-1">Step 1</label>
-                                                                            </div>
-
-                                                                            <div class="step-custom-filter d-inline">
-                                                                                <input type="radio" class="btn-check filter_div_map" value="2" name="steps_map" id="step-map-2" autocomplete="off">
-                                                                                <label class="mr-1 btn btn-outline-primary btn-sm custom-border-radius-0" for="step-map-2">Step 2</label>
-                                                                            </div>
-
-                                                                            <div class="step-custom-filter d-inline">
-                                                                                <input type="radio" class="btn-check filter_div_map" value="3" name="steps_map" id="step-map-3" autocomplete="off">
-                                                                                <label class="mr-1 btn btn-outline-primary btn-sm custom-border-radius-0" for="step-map-3">Step 3</label>
-                                                                            </div>
-
-                                                                            <div class="step-custom-filter d-inline">
-                                                                                <input type="radio" class="btn-check filter_div_map" value="4" name="steps_map" id="step-map-4" autocomplete="off">
-                                                                                <label class="mr-1 btn btn-outline-primary btn-sm custom-border-radius-0" for="step-map-4">Step 4</label>
-                                                                            </div>
-
-                                                                            <div class="step-custom-filter d-inline">
-                                                                                <input type="radio" class="btn-check filter_div_map" value="5" name="steps_map" id="step-map-5" autocomplete="off">
-                                                                                <label class="mr-1 btn btn-outline-primary btn-sm custom-border-radius-0" for="step-map-5">Step 5</label>
-                                                                            </div>
-
-                                                                            <div class="step-custom-filter d-inline">
-                                                                                <input type="radio" class="btn-check filter_div_map" value="7" name="steps_map" id="step-map-7" autocomplete="off">
-                                                                                <label class="mr-1 btn btn-outline-primary btn-sm custom-border-radius-0" for="step-map-7">Assessment Expired</label>
-                                                                            </div>
-
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="demo-assessment mb-5"><!-- indicators filter -->
-                                                                        <div class="row justify-content-between">
-                                                                            <div class="col-md-8"><label class="">Status:</label></div>
-                                                                            <div class="col-md-4" style="text-align: right;"><i class="fas fa-filter"></i><span id="table-filter-indicators-total"></span></div>
-                                                                        </div>
-                                                                        <select id="table-filter-status_map" class="form-control"> <!-- select input with unique status of the assessment  -->
-                                                                            <option value="">All</option>
-                                                                        </select>
-                                                                    </div>
-
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-lg-9 col-md-12 col-sm-12 col-xs-12 pl-1">
+                                                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                                             <div id="table_view" class="tabcontent">
                                                                 <div class="row">
                                                                     <div class="col-sm-12 table-margin custom-responsive-overflow-scroll">
@@ -499,7 +366,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                             </div>
                                                             <div class="row"></div>
                                                             <div id="grid_view" class="tabcontent">
-                                                                <div class="row ml-4">
+                                                                <div class="row">
                                                                     <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12">
                                                                         <div class="grid-card">
                                                                             <img src="../assets/media/map_img1.png" class="w-100 p-1" alt="">
