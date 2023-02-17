@@ -139,24 +139,112 @@ License: You must have a valid license purchased only from themeforest(the above
                                 <div class="card w-100 p-10">
                                     <div class="row">
                                         <div class="col-md-12">
-                                            <div class="d-flex justify-content-between align-items-center">
-                                                <span class="custom-font-style-headings custom-text-primary">Step 4: Data Tasks & Results</span>
+                                            <div class="col-md-12 text-center">
+                                                <div class="wizard wizard-3" id="kt_wizard_v3" data-wizard-state="step-first" data-wizard-clickable="true" style="position: relative;">
+                                                    <div class="wizard-nav responsive-mobile step-nav-width">
+                                                        <div class="wizard-steps metrices-step custom-steps-title px-8 py-8 px-lg-15 py-lg-3 margin-align responsive-nav-progress">
+                                                            <!--begin::Wizard Step 1 Nav-->
+                                                            <div class="wizard-step custom-width-steps custom-metrices-step" data-wizard-type="step" data-wizard-state="done">
+                                                                <div class="wizard-label metrices-label">
+                                                                    <div class="label-wrapper text-center">
+                                                                        <h3 class="wizard-title wizard-nav-title-step wizard-nav-title-responsive step-title">
+                                                                            Preparation
+                                                                        </h3>
+                                                                        <span class="steps-tags-text step-pending-tag p-1">Pending Review</span>
+                                                                    </div>
+                                                                    <div class="wizard-bar-1" id="step1" style="--bg-color:#074A37;"></div>
+                                                                </div>
+                                                            </div>
+                                                            <!--end::Wizard Step 1 Nav-->
+
+                                                            <!--begin::Wizard Step 2 Nav-->
+                                                            <div class="wizard-step custom-width-steps custom-metrices-step" data-wizard-type="step" data-wizard-state="done">
+                                                                <div class="wizard-label">
+                                                                    <div class="label-wrapper text-center">
+                                                                        <h3 class="wizard-title wizard-nav-title-step wizard-nav-title-responsive step-title">
+                                                                            Boundary
+                                                                        </h3>
+                                                                        <span class="steps-tags-text step-pending-tag p-1">Pending Review</span>
+                                                                    </div>
+                                                                    <div class="wizard-bar-2" id="step2" style="--border-clr:#074A37; --bg-color:#074A37;"></div>
+                                                                </div>
+                                                            </div>
+                                                            <!--end::Wizard Step 2 Nav-->
+
+                                                            <!--begin::Wizard Step 3 Nav-->
+                                                            <div class="wizard-step custom-width-steps custom-metrices-step" data-wizard-type="step" data-wizard-state="done">
+                                                                <div class="wizard-label">
+                                                                    <div class="label-wrapper text-center">
+                                                                        <h3 class="wizard-title wizard-nav-title-step wizard-nav-title-responsive step-title">
+                                                                            Indicator &amp; Metrics
+                                                                        </h3>
+                                                                        <span class="steps-tags-text steps-success-tag p-1">Completed</span>
+                                                                    </div>
+                                                                    <div class="wizard-bar-3" id="step3" style="--border-clr:#074A37; --bg-color:#074A37;"></div>
+                                                                </div>
+                                                            </div>
+                                                            <!--end::Wizard Step 3 Nav-->
+
+                                                            <!--begin::Wizard Step 4 Nav-->
+                                                            <div class="wizard-step custom-width-steps custom-metrices-step" data-wizard-type="step" data-wizard-state="current">
+                                                                <div class="wizard-label">
+                                                                    <div class="label-wrapper text-center">
+                                                                        <h3 class="wizard-title wizard-nav-title-step wizard-nav-title-responsive step-title">
+                                                                            Data &amp; Results
+                                                                        </h3>
+                                                                        <span class="steps-tags-text step-pending-tag p-1">Pending Review</span>
+                                                                    </div>
+                                                                    <div class="wizard-bar-4" id="step4" style="--border-clr:#074A37;"></div>
+                                                                </div>
+                                                            </div>
+                                                            <!--end::Wizard Step 4 Nav-->
+
+                                                            <!--begin::Wizard Step 5 Nav-->
+                                                            <div class="wizard-step custom-width-steps custom-metrices-step" data-wizard-type="step" data-wizard-state="current">
+                                                                <div class="wizard-label">
+                                                                    <div class="label-wrapper text-center">
+                                                                        <h3 class="wizard-title wizard-nav-title-step wizard-nav-title-responsive step-title custom-text-light-grey">
+                                                                            Report &amp; Publish
+                                                                        </h3>
+                                                                        <span class="steps-tags-text step-pending-tag p-1 custom-text-light-grey">Pending Review</span>
+                                                                    </div>
+                                                                    <div class="wizard-bar-5" id="step5" style="--border-clr:#074A37;"></div>
+                                                                </div>
+                                                            </div>
+                                                            <!--end::Wizard Step 5 Nav-->
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12 mt-17">
+                                            <span class="custom-font-style-headings custom-text-primary">Step 4: Data Tasks & Results</span>
+                                            <!-- <div class="d-flex justify-content-between align-items-center">
                                                 <span>
                                                     <a href="./metric_result.php" class="custom-bg-warning custom-border-radius-35 custom-text-primary custom-font-style-small p-2">Metrics Result</a>
                                                     <a href="./validation_results.php" class="custom-bg-warning custom-border-radius-35 custom-text-primary custom-font-style-small p-2">Result validation</a>
                                                 </span>
-                                            </div>
+                                            </div> -->
                                         </div>
                                     </div>
 
                                     <div class="row mt-7">
                                         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                                            <div class="custom-bg-light-pale custom-border-radius-15 custom-border-color-pale h-100 p-10">
+                                            <div class="custom-bg-light-pale custom-border-radius-15 custom-border-color-pale h-100 p-6">
                                                 <div class="d-flex justify-content-between">
                                                     <span class="custom-font-style-headings custom-text-primary d-block mb-1">Data Themes & Datasets</span>
-                                                    <a class="custom-bg-warning custom-border-radius-35 text-center px-5 py-2 align-items-center custom-cursor-pointer" data-toggle="modal" data-target="#myModal">
+                                                    <!-- <a class="custom-bg-warning custom-border-radius-35 text-center px-5 py-2 align-items-center custom-cursor-pointer" data-toggle="modal" data-target="#myModal">
                                                         <span class="custom-text-primary">View Instructions</span>
-                                                    </a>
+                                                    </a> -->
+                                                </div>
+                                                <span data-toggle="collapse" data-target="#demo" class="custom-font-style-text custom-text-primary d-block my-5 custom-cursor-pointer">View Instructions <img src="../assets/media/arrow_down.png" alt=""></span>
+
+                                                <div id="demo" class="collapse mb-2">
+                                                    Below, you may begin with either specifying a data theme or a dataset. Data themes are descriptions of data requirements for measuring metrics and so are a logical starting point. datasets are specific datasets that fuflill the requirements of one or more data themes. Every metric will require at least one data theme and source, many require multiples of these.
+
+                                                    If you already have known datasets and simply wish to begin inventorying them, you may select "Add dataset" which will prompt you for the level of the framework you wish to associate it to and provide basic information about it. The dataset will then remain in your inventory for you to later associate it with a data theme.
+
+                                                    The main task is to define all data themes needed to measure the metrics. For example, measuring area and proportion of ecosystem types within protected areas requires an ecosystem map and a protected area map. Because those particular data themes are used in multiple metrics, you can choose which level of the framework to associate them to, in this case, they could be associated to all of pillar 1 or to goals 1.1. and 1.2 within that pillar. Finally you will associate the theme to each relevant metric which will automatically populate the selected dataset.
                                                 </div>
                                                 <table class="table steps-table-radius custom-step-table-radius steps-custom-margin-top border-custom mt-5">
                                                     <thead class="steps-table-header-color">
@@ -343,6 +431,40 @@ License: You must have a valid license purchased only from themeforest(the above
                                                         </div>
                                                     </div>
                                                 </div>
+                                                <div class="row" style="margin-top: 20px;">
+                                                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 responsive-margin-card">
+                                                        <div class="p-5 custom-bg-light-pale text-center custom-border-radius-15 h-100 custom-cursor-pointer">
+                                                            <div class="mb-3 mt-2">
+                                                                <svg width="32" height="29" viewBox="0 0 32 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                    <path d="M0 11.6781C0 8.15427 0 4.63049 0 1.10671C0 0.571011 0.214975 0.346296 0.752065 0.346296C4.47412 0.344209 8.19549 0.344209 11.9168 0.346296C12.4066 0.346296 12.6773 0.590491 12.6766 1.00931C12.6759 1.42813 12.4032 1.66884 11.9141 1.66884C8.50577 1.67024 5.09679 1.67371 1.68849 1.66258C1.39282 1.66189 1.30168 1.71824 1.30237 2.03618C1.3142 7.36812 1.31281 12.7001 1.30516 18.032C1.30446 18.2964 1.36081 18.3771 1.64118 18.3764C4.8178 18.3652 7.99443 18.3701 11.171 18.3694C11.8438 18.3694 12.488 18.4919 13.0648 18.8508C13.3104 19.0039 13.3417 18.9246 13.3403 18.6839C13.334 17.4552 13.3375 16.2266 13.3375 14.998C13.3375 11.2773 13.3347 7.55665 13.3389 3.83599C13.3403 2.26924 14.1654 1.03088 15.5227 0.525789C15.9311 0.373429 16.3548 0.32612 16.7861 0.32612C20.2758 0.325424 23.7655 0.324033 27.2552 0.325424C27.8027 0.325424 28.0316 0.560575 28.0316 1.11575C28.033 4.56996 28.033 8.02417 28.0316 11.4784C28.0316 11.98 27.7749 12.2791 27.361 12.2757C26.9491 12.2715 26.7084 11.9779 26.7084 11.4638C26.707 8.32263 26.7021 5.18149 26.7146 2.04035C26.716 1.71685 26.6284 1.64102 26.3132 1.64241C23.1714 1.65423 20.0295 1.6765 16.8877 1.63754C15.5345 1.62084 14.6475 2.66023 14.6545 3.87773C14.6858 9.65005 14.6684 15.4224 14.6684 21.1947C14.6684 21.5425 14.6712 21.8897 14.6677 22.2376C14.6614 22.808 14.4291 23.0446 13.8655 23.0446C9.49508 23.0467 5.12392 23.0474 0.753456 23.046C0.214279 23.0446 0 22.822 0 22.2842C0 18.7493 0 15.2137 0 11.6781ZM7.30845 21.7186C9.19592 21.7186 11.0841 21.7102 12.9715 21.7262C13.3104 21.729 13.3549 21.6114 13.3055 21.3206C13.1476 20.3946 12.3551 19.7135 11.3262 19.7093C8.07165 19.6961 4.81711 19.7059 1.56326 19.701C1.36707 19.701 1.30168 19.7553 1.30724 19.9549C1.31977 20.4294 1.32672 20.9053 1.30516 21.3791C1.29263 21.6483 1.36638 21.7283 1.64536 21.7262C3.53282 21.7123 5.42029 21.7186 7.30845 21.7186Z" fill="#074A37" />
+                                                                    <path d="M23.9889 12.3513C28.3976 12.3409 31.9944 15.9322 32 20.3506C32.0056 24.7705 28.422 28.3729 24.0146 28.3778C19.6052 28.3833 16.0084 24.7914 16 20.3757C15.9917 15.9628 19.5767 12.3618 23.9889 12.3513ZM24.0063 13.6836C20.28 13.6975 17.3156 16.694 17.333 20.4286C17.3504 24.0671 20.3524 27.0489 23.9979 27.0476C27.6956 27.0455 30.6837 24.0386 30.6705 20.3332C30.6573 16.6641 27.6567 13.6704 24.0063 13.6836Z" fill="#074A37" />
+                                                                    <path d="M7.06694 12.3391C6.08181 12.3391 5.09738 12.3446 4.11225 12.337C3.57655 12.3328 3.26418 11.9432 3.40888 11.475C3.50767 11.155 3.75187 11.0151 4.07051 11.0144C6.05189 11.011 8.03328 11.0089 10.0147 11.0179C10.4314 11.02 10.7104 11.3157 10.702 11.6907C10.6937 12.0671 10.4161 12.3314 9.98684 12.3349C9.01354 12.3433 8.04024 12.3377 7.06694 12.3377C7.06694 12.3377 7.06694 12.3384 7.06694 12.3391Z" fill="#074A37" />
+                                                                    <path d="M7.05519 5.65747C8.01666 5.65747 8.97883 5.6526 9.94031 5.65956C10.3988 5.66304 10.7063 5.94828 10.7014 6.33997C10.6965 6.71843 10.4064 6.97654 9.95561 7.00089C9.87491 7.00507 9.79351 7.00228 9.71211 7.00228C8.47235 7.00228 7.23259 7.00228 5.99214 7.00228C5.37783 7.00228 4.76351 7.00854 4.1499 7.00089C3.71925 6.99533 3.45905 6.8054 3.39435 6.47563C3.30321 6.01229 3.61002 5.66373 4.13529 5.65956C5.10859 5.65191 6.08189 5.65747 7.05519 5.65747Z" fill="#074A37" />
+                                                                    <path d="M21.0084 7.00357C20.0698 7.00357 19.132 7.00566 18.1935 7.00288C17.7469 7.00148 17.4644 6.81364 17.392 6.48457C17.294 6.03723 17.6168 5.66363 18.1267 5.65876C18.9609 5.65041 19.795 5.65667 20.6292 5.65667C21.7416 5.65667 22.8541 5.6518 23.9658 5.66015C24.4 5.66363 24.6963 5.95026 24.697 6.33221C24.6977 6.70442 24.4264 6.96461 23.9978 6.99801C23.9053 7.00496 23.8128 7.00218 23.7202 7.00218C22.8158 7.00288 21.9121 7.00288 21.0084 7.00357Z" fill="#074A37" />
+                                                                    <path d="M7.04129 13.6844C7.99164 13.6844 8.94198 13.683 9.89162 13.6851C10.3939 13.6858 10.6973 13.9342 10.7021 14.3412C10.7077 14.7454 10.3995 15.0118 9.90137 15.0125C7.98955 15.016 6.07773 15.0153 4.16522 15.0125C3.65874 15.0118 3.37281 14.7565 3.37976 14.3335C3.38672 13.9251 3.66709 13.6872 4.15548 13.6858C5.11765 13.683 6.07912 13.6844 7.04129 13.6844Z" fill="#074A37" />
+                                                                    <path d="M7.02668 8.34425C7.98885 8.34425 8.95032 8.34355 9.91249 8.34494C10.3891 8.34564 10.6917 8.59471 10.7014 8.98709C10.7112 9.39338 10.3988 9.67097 9.91667 9.67167C7.99302 9.67445 6.06938 9.67445 4.14574 9.67306C3.67335 9.67236 3.38393 9.41565 3.38185 9.00935C3.37976 8.59958 3.66431 8.34703 4.14156 8.34564C5.10304 8.34216 6.06451 8.34425 7.02668 8.34425Z" fill="#074A37" />
+                                                                    <path d="M21.0447 9.6722C20.0832 9.6722 19.121 9.67359 18.1595 9.6715C17.6656 9.67011 17.3727 9.40922 17.381 8.98762C17.3887 8.58411 17.6767 8.34408 18.1616 8.34408C20.0734 8.34339 21.9853 8.34339 23.8971 8.34478C24.3987 8.34478 24.6999 8.59593 24.6985 9.0071C24.6971 9.41618 24.3924 9.67081 23.895 9.6722C22.9446 9.67429 21.995 9.67289 21.0447 9.6722Z" fill="#074A37" />
+                                                                    <path d="M24.6728 20.5889C24.6728 21.2839 24.6929 21.9796 24.6644 22.6732C24.6512 22.9968 24.7625 23.0823 25.0547 23.042C25.1681 23.0267 25.2871 23.0336 25.4012 23.0482C25.7615 23.0935 26.0238 23.3954 26.0064 23.7349C25.989 24.0709 25.7289 24.3499 25.3747 24.3548C24.4599 24.368 23.5443 24.368 22.6301 24.3548C22.2732 24.3499 22.0172 24.0737 21.9984 23.7349C21.9804 23.3947 22.2412 23.0962 22.603 23.0461C22.6371 23.0413 22.6726 23.0413 22.7067 23.0399C23.3328 23.0079 23.3328 23.0079 23.3328 22.3602C23.3321 21.3528 23.3238 20.3454 23.337 19.338C23.3405 19.0945 23.2758 19.0082 23.0295 19.0305C22.859 19.0458 22.6802 19.034 22.5133 18.9971C22.2002 18.9282 21.9762 18.6409 21.9998 18.3417C22.0249 18.0217 22.1919 17.7768 22.5161 17.7274C23.0545 17.6453 23.6021 17.646 24.1398 17.7246C24.4988 17.7768 24.6665 18.0419 24.6707 18.4698C24.6776 19.1766 24.6728 19.8827 24.6728 20.5889Z" fill="#074A37" />
+                                                                    <path d="M24.663 16.3642C24.6582 16.7239 24.3493 17.0258 23.9924 17.0203C23.6355 17.0147 23.3356 16.7044 23.3419 16.3461C23.3475 15.9809 23.6459 15.6907 24.0105 15.6956C24.3736 15.7005 24.6686 16.0024 24.663 16.3642Z" fill="#074A37" />
+                                                                </svg>
+
+                                                            </div>
+                                                            <span class="custom-font-style-sub-text mb-2">
+                                                                <a href="./metric_result.php" class="custom-text-primary custom-font-style-small p-2">Metrics Result</a>
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 responsive-margin-card">
+                                                        <div class="p-5 custom-bg-light-pale text-center custom-border-radius-15 h-100 custom-cursor-pointer">
+                                                            <div class="mb-3 mt-2">
+                                                                <img src="../assets/media/Community_of_practice.png" alt="">
+                                                            </div>
+                                                            <span class="custom-font-style-sub-text mb-2">
+                                                                <a href="./validation_results.php" class="custom-text-primary custom-font-style-small p-2">Result validation</a>
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -418,46 +540,68 @@ License: You must have a valid license purchased only from themeforest(the above
 
                                             <div class="tab-content" id="v-pills-tabContent">
                                                 <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
-                                                    <div id="accordion" class="mt-7">
-                                                        <div class="custom-bg-white p-5">
-                                                            <div id="headingOne" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                                                <h5 class="mb-0 d-inline">
-                                                                    1.1 Conserve and restore natural ecosystems
-                                                                </h5>
+                                                    <div id="accordion" class="my-7">
+                                                        <div class="card">
+                                                            <div id="headingOne" class="card-header p-4" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                                                <div class="row">
+                                                                    <div class="col-lg-1 col-md-1 col-sm-12 col-xs-12 pr-0 max-w-6-percent">
+                                                                        <div class="d-flex align-items-center h-100">
+                                                                            <img src="../assets/media/icons_and_Illustrations/Icons/PNGs/Ecosystems/Sub icons/Icons_Tier 2_Ecosystems_B_Pale Green.png" style="width: 30px;" alt="">
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-lg-10 col-md-10 col-sm-12 col-xs-12 pl-0">
+                                                                        <div class="d-flex align-items-center h-100">
+                                                                            <h5 class="mb-0 d-inline custom-text-primary">
+                                                                                1.1 Conserve and restore natural ecosystems
+                                                                            </h5>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-lg-1 col-md-1 col-sm-12 col-xs-12 pr-0">
+                                                                        <div class="d-flex align-items-center h-100">
+                                                                            <img src="../assets/media/Vector_arrow_down.png" alt="">
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
                                                             </div>
                                                             <div id="collapseOne" class="collapse" aria-labelledby="headingOne">
                                                                 <div id="child1">
-                                                                    <div>
-                                                                        <div class="ml-10 mt-5" data-toggle="collapse" data-target="#collapseOneA">
+                                                                    <div class="custom-text-primary">
+                                                                        <div class="card-header pl-12 pr-22 py-5 d-flex justify-content-between align-items-center" data-toggle="collapse" data-target="#collapseOneA">
                                                                             <span>1.1.1 Effective conservation and protection of natural ecosystems</span>
+                                                                            <img src="../assets/media/Vector_arrow_down.png" alt="">
                                                                         </div>
                                                                         <div class="collapse" id="collapseOneA">
-                                                                            <div class="ml-15 mt-5" data-toggle="collapse" data-target="#collapseOneB">
+                                                                            <div class="card-header pl-14 py-4 pr-22 d-flex justify-content-between align-items-center" data-toggle="collapse" data-target="#collapseOneB">
                                                                                 <span>1.1.1.1 Total area (ha) & percentage (%) of the landscape in designated protected areas disaggregated by natural ecosystem type</span>
+                                                                                <img src="../assets/media/Vector_arrow_down.png" alt="">
                                                                             </div>
                                                                             <div class="collapse" id="collapseOneB">
-                                                                                <div class="ml-20 mt-5" data-toggle="collapse" data-target="#collapseOneC">
+                                                                                <div class="card-header pl-16 py-4 pr-22 d-flex justify-content-between align-items-center" data-toggle="collapse" data-target="#collapseOneC">
                                                                                     <span>Demo_LR</span>
+                                                                                    <img src="../assets/media/Vector_arrow_down.png" alt="">
                                                                                 </div>
-                                                                                <div class="collapse ml-20 mt-5" id="collapseOneC">
+                                                                                <div class="collapse pl-18 p-4" id="collapseOneC">
                                                                                     Another flipp runch wolf moon tempor, sunt aliqua put a bird.
                                                                                 </div>
                                                                             </div>
                                                                         </div>
                                                                     </div>
-                                                                    <div>
-                                                                        <div class="ml-10 mt-5">
+                                                                    <div class="custom-text-primary">
+                                                                        <div class="card-header pl-12 py-5 pr-22 d-flex justify-content-between align-items-center">
                                                                             <span href="#" data-toggle="collapse" data-target="#collapseOne2">1.1.2 Natural ecosystem conversion</span>
+                                                                            <img src="../assets/media/Vector_arrow_down.png" alt="">
                                                                         </div>
                                                                         <div class="collapse" id="collapseOne2">
-                                                                            <div class="ml-15 mt-5" data-toggle="collapse" data-target="#collapseOneD">
+                                                                            <div class="card-header pl-14 py-4 pr-22 d-flex justify-content-between align-items-center" data-toggle="collapse" data-target="#collapseOneD">
                                                                                 <span href="#">1.1.2.1 Total area (ha) & percentage (%) of area of natural ecosystems in the landscape that has been recently converted</span>
+                                                                                <img src="../assets/media/Vector_arrow_down.png" alt="">
                                                                             </div>
                                                                             <div class="collapse" id="collapseOneD">
-                                                                                <div class="ml-20 mt-5" data-toggle="collapse" data-target="#collapseOneE">
+                                                                                <div class="card-header pl-16 py-4 pr-22 d-flex justify-content-between align-items-center" data-toggle="collapse" data-target="#collapseOneE">
                                                                                     <span href="#">Demo_LR</span>
+                                                                                    <img src="../assets/media/Vector_arrow_down.png" alt="">
                                                                                 </div>
-                                                                                <div class="collapse ml-20 mt-5" id="collapseOneE">
+                                                                                <div class="collapse pl-18 p-4" id="collapseOneE">
                                                                                     Another flipp runch wolf moon tempor, sunt aliqua put a bird.
                                                                                 </div>
                                                                             </div>
@@ -518,138 +662,30 @@ License: You must have a valid license purchased only from themeforest(the above
                                                     </div> -->
                                                 </div>
                                                 <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
-                                                    <div id="accordion" class="mt-7">
-                                                        <div class="custom-bg-white p-5">
-                                                            <div id="headingOne" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                                                <h5 class="mb-0 d-inline">
-                                                                    2.1 Improve standard of living, especially for vulnerable and/or marginalized groups
-                                                                </h5>
-                                                            </div>
-                                                            <div id="collapseOne" class="collapse" aria-labelledby="headingOne">
-                                                                <div id="child1">
-                                                                    <div>
-                                                                        <div class="ml-10 mt-5" data-toggle="collapse" data-target="#collapseOneA">
-                                                                            <span>2.1.1 Household income & assets</span>
-                                                                        </div>
-                                                                        <div class="collapse" id="collapseOneA">
-                                                                            <div class="ml-15 mt-5" data-toggle="collapse" data-target="#collapseOneB">
-                                                                                <span>2.1.1.1 Percentage (%) of female and male population living below the local poverty line (or, if this is not specified, earning <$1.90 /day)</span>
-                                                                            </div>
-                                                                            <div class="collapse" id="collapseOneB">
-                                                                                <div class="ml-20 mt-5" data-toggle="collapse" data-target="#collapseOneC">
-                                                                                    <span>Demo_LR</span>
-                                                                                </div>
-                                                                                <div class="collapse ml-20 mt-5" id="collapseOneC">
-                                                                                    Another flipp runch wolf moon tempor, sunt aliqua put a bird.
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div>
-                                                                        <div class="ml-10 mt-5">
-                                                                            <span href="#" data-toggle="collapse" data-target="#collapseOne2">2.1.2 Health & nutrition</span>
-                                                                        </div>
-                                                                        <div class="collapse" id="collapseOne2">
-                                                                            <div class="ml-15 mt-5" data-toggle="collapse" data-target="#collapseOneD">
-                                                                                <span href="#">2.1.2.1 Percentage (%) of girls and boys that are undernourished (required)</span>
-                                                                            </div>
-                                                                            <div class="collapse" id="collapseOneD">
-                                                                                <div class="ml-20 mt-5" data-toggle="collapse" data-target="#collapseOneE">
-                                                                                    <span href="#">Demo_LR</span>
-                                                                                </div>
-                                                                                <div class="collapse ml-20 mt-5" id="collapseOneE">
-                                                                                    Another flipp runch wolf moon tempor, sunt aliqua put a bird.
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
+                                                    <div class="d-flex flex-column justify-content-center align-items-center p-5" style="height: 20rem;">
+                                                        <h6 class="custom-text-primary">Pillar not ready yet</h6>
+                                                        <p class="custom-text-primary">
+                                                            You may not enter metric result for this pillar untill the pillar is completed and validated in step 3
+                                                            and you have a suitable dataset associated
+                                                        </p>
                                                     </div>
                                                 </div>
                                                 <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
-                                                    <div id="accordion" class="mt-7">
-                                                        <div class="custom-bg-white p-5">
-                                                            <div id="headingOne" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                                                <h5 class="mb-0 d-inline">
-                                                                    3.1 Recognize and protect rights to land and resources, and reduce related conflicts
-                                                                </h5>
-                                                            </div>
-                                                            <div id="collapseOne" class="collapse" aria-labelledby="headingOne">
-                                                                <div id="child1">
-                                                                    <div>
-                                                                        <div class="ml-10 mt-5" data-toggle="collapse" data-target="#collapseOneA">
-                                                                            <span>3.1.1 Land tenure</span>
-                                                                        </div>
-                                                                        <div class="collapse" id="collapseOneA">
-                                                                            <div class="ml-15 mt-5" data-toggle="collapse" data-target="#collapseOneB">
-                                                                                <span>3.1.1.1 Percentage (%) of the landscape with formalized land tenure rights</span>
-                                                                            </div>
-                                                                            <div class="collapse" id="collapseOneB">
-                                                                                <div class="ml-20 mt-5" data-toggle="collapse" data-target="#collapseOneC">
-                                                                                    <span>Demo_LR</span>
-                                                                                </div>
-                                                                                <div class="collapse ml-20 mt-5" id="collapseOneC">
-                                                                                    Another flipp runch wolf moon tempor, sunt aliqua put a bird.
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div>
-                                                                        <div class="ml-10 mt-5">
-                                                                            <span href="#" data-toggle="collapse" data-target="#collapseOne2">3.1.2 Land conflicts</span>
-                                                                        </div>
-                                                                        <div class="collapse" id="collapseOne2">
-                                                                            <div class="ml-15 mt-5" data-toggle="collapse" data-target="#collapseOneD">
-                                                                                <span href="#">3.1.2.1 Number of unresolved land and resource conflicts or grievances, and the area of land (ha) subject to such conflicts</span>
-                                                                            </div>
-                                                                            <div class="collapse" id="collapseOneD">
-                                                                                <div class="ml-20 mt-5" data-toggle="collapse" data-target="#collapseOneE">
-                                                                                    <span href="#">Demo_LR</span>
-                                                                                </div>
-                                                                                <div class="collapse ml-20 mt-5" id="collapseOneE">
-                                                                                    Another flipp runch wolf moon tempor, sunt aliqua put a bird.
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
+                                                    <div class="d-flex flex-column justify-content-center align-items-center p-5" style="height: 20rem;">
+                                                        <h6 class="custom-text-primary">Pillar not ready yet</h6>
+                                                        <p class="custom-text-primary">
+                                                            You may not enter metric result for this pillar untill the pillar is completed and validated in step 3
+                                                            and you have a suitable dataset associated
+                                                        </p>
                                                     </div>
                                                 </div>
                                                 <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">
-                                                    <div id="accordion" class="mt-7">
-                                                        <div class="custom-bg-white p-5">
-                                                            <div id="headingOne" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                                                <h5 class="mb-0 d-inline">
-                                                                    4.1 Promote regenerative, agricultural, agroforestry, and tree production systems
-                                                                </h5>
-                                                            </div>
-                                                            <div id="collapseOne" class="collapse" aria-labelledby="headingOne">
-                                                                <div id="child1">
-                                                                    <div>
-                                                                        <div class="ml-10 mt-5" data-toggle="collapse" data-target="#collapseOneA">
-                                                                            <span>4.1.1 Agricultural, agroforestry & tree plantation productivity</span>
-                                                                        </div>
-                                                                        <div class="collapse" id="collapseOneA">
-                                                                            <div class="ml-15 mt-5" data-toggle="collapse" data-target="#collapseOneB">
-                                                                                <span>4.1.1.1 Average crop productivity (yield/ha) disaggregated by crop</span>
-                                                                            </div>
-                                                                            <div class="collapse" id="collapseOneB">
-                                                                                <div class="ml-20 mt-5" data-toggle="collapse" data-target="#collapseOneC">
-                                                                                    <span>Demo_LR</span>
-                                                                                </div>
-                                                                                <div class="collapse ml-20 mt-5" id="collapseOneC">
-                                                                                    Another flipp runch wolf moon tempor, sunt aliqua put a bird.
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
+                                                    <div class="d-flex flex-column justify-content-center align-items-center p-5" style="height: 20rem;">
+                                                        <h6 class="custom-text-primary">Pillar not ready yet</h6>
+                                                        <p class="custom-text-primary">
+                                                            You may not enter metric result for this pillar untill the pillar is completed and validated in step 3
+                                                            and you have a suitable dataset associated
+                                                        </p>
                                                     </div>
                                                 </div>
                                             </div>

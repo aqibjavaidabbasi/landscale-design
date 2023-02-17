@@ -139,17 +139,96 @@ License: You must have a valid license purchased only from themeforest(the above
                                 <div class="card w-100 p-10">
                                     <div class="row">
                                         <div class="col-md-12">
-                                            <div class="d-flex justify-content-between align-items-center">
-                                                <span class="custom-font-style-headings custom-text-primary">Step 3: Indicator & Metrics</span>
-                                                <a href="./add_metrices.php" class="custom-bg-warning custom-border-radius-35 custom-text-primary custom-font-style-small p-2">Select Metrics</a>
+                                            <div class="col-md-12 text-center">
+                                                <div class="wizard wizard-3" id="kt_wizard_v3" data-wizard-state="step-first" data-wizard-clickable="true" style="position: relative;">
+                                                    <div class="wizard-nav responsive-mobile step-nav-width">
+                                                        <div class="wizard-steps metrices-step custom-steps-title px-8 py-8 px-lg-15 py-lg-3 margin-align responsive-nav-progress">
+                                                            <!--begin::Wizard Step 1 Nav-->
+                                                            <div class="wizard-step custom-width-steps custom-metrices-step" data-wizard-type="step" data-wizard-state="done">
+                                                                <div class="wizard-label metrices-label">
+                                                                    <div class="label-wrapper text-center">
+                                                                        <h3 class="wizard-title wizard-nav-title-step wizard-nav-title-responsive step-title">
+                                                                            Preparation
+                                                                        </h3>
+                                                                        <span class="steps-tags-text step-pending-tag p-1">Pending Review</span>
+                                                                    </div>
+                                                                    <div class="wizard-bar-1" id="step1" style="--bg-color:#074A37;"></div>
+                                                                </div>
+                                                            </div>
+                                                            <!--end::Wizard Step 1 Nav-->
+
+                                                            <!--begin::Wizard Step 2 Nav-->
+                                                            <div class="wizard-step custom-width-steps custom-metrices-step" data-wizard-type="step" data-wizard-state="done">
+                                                                <div class="wizard-label">
+                                                                    <div class="label-wrapper text-center">
+                                                                        <h3 class="wizard-title wizard-nav-title-step wizard-nav-title-responsive step-title">
+                                                                            Boundary
+                                                                        </h3>
+                                                                        <span class="steps-tags-text step-pending-tag p-1">Pending Review</span>
+                                                                    </div>
+                                                                    <div class="wizard-bar-2" id="step2" style="--border-clr:#074A37; --bg-color:#074A37;"></div>
+                                                                </div>
+                                                            </div>
+                                                            <!--end::Wizard Step 2 Nav-->
+
+                                                            <!--begin::Wizard Step 3 Nav-->
+                                                            <div class="wizard-step custom-width-steps custom-metrices-step" data-wizard-type="step" data-wizard-state="done">
+                                                                <div class="wizard-label">
+                                                                    <div class="label-wrapper text-center">
+                                                                        <h3 class="wizard-title wizard-nav-title-step wizard-nav-title-responsive step-title">
+                                                                            Indicator &amp; Metrics
+                                                                        </h3>
+                                                                        <span class="steps-tags-text steps-success-tag p-1">Completed</span>
+                                                                    </div>
+                                                                    <div class="wizard-bar-3" id="step3" style="--border-clr:#074A37; --bg-color:#074A37;"></div>
+                                                                </div>
+                                                            </div>
+                                                            <!--end::Wizard Step 3 Nav-->
+
+                                                            <!--begin::Wizard Step 4 Nav-->
+                                                            <div class="wizard-step custom-width-steps custom-metrices-step" data-wizard-type="step" data-wizard-state="current">
+                                                                <div class="wizard-label">
+                                                                    <div class="label-wrapper text-center">
+                                                                        <h3 class="wizard-title wizard-nav-title-step wizard-nav-title-responsive step-title">
+                                                                            Data &amp; Results
+                                                                        </h3>
+                                                                        <span class="steps-tags-text step-pending-tag p-1">Pending Review</span>
+                                                                    </div>
+                                                                    <div class="wizard-bar-4" id="step4" style="--border-clr:#074A37;"></div>
+                                                                </div>
+                                                            </div>
+                                                            <!--end::Wizard Step 4 Nav-->
+
+                                                            <!--begin::Wizard Step 5 Nav-->
+                                                            <div class="wizard-step custom-width-steps custom-metrices-step" data-wizard-type="step" data-wizard-state="current">
+                                                                <div class="wizard-label">
+                                                                    <div class="label-wrapper text-center">
+                                                                        <h3 class="wizard-title wizard-nav-title-step wizard-nav-title-responsive step-title custom-text-light-grey">
+                                                                            Report &amp; Publish
+                                                                        </h3>
+                                                                        <span class="steps-tags-text step-pending-tag p-1 custom-text-light-grey">Pending Review</span>
+                                                                    </div>
+                                                                    <div class="wizard-bar-5" id="step5" style="--border-clr:#074A37;"></div>
+                                                                </div>
+                                                            </div>
+                                                            <!--end::Wizard Step 5 Nav-->
+                                                        </div>
+                                                    </div>
+                                                </div>
                                             </div>
+                                        </div>
+                                        <div class="col-md-12 mt-17">
+                                            <span class="custom-font-style-headings custom-text-primary">Step 3: Indicator & Metrics</span>
                                         </div>
                                     </div>
 
                                     <div class="row mt-7 mb-7">
                                         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                                            <div class="custom-bg-light-pale custom-border-radius-15 custom-border-color-pale h-100 p-10">
-                                                <span class="custom-font-style-headings custom-text-primary d-block mb-1">Indicator selection</span>
+                                            <div class="custom-bg-light-pale custom-border-radius-15 custom-border-color-pale h-100 p-6">
+                                                <div class="d-flex justify-content-between align-items-center">
+                                                    <span class="custom-font-style-headings custom-text-primary d-block mb-1">Indicator selection</span>
+                                                    <a href="./add_metrices.php" class="custom-bg-warning custom-border-radius-35 custom-text-primary custom-font-style-small p-2">Select Metrics</a>
+                                                </div>
                                                 <!-- <span class="steps-default-text steps-small-text d-block my-5">View Instructions</span> -->
                                                 <span data-toggle="collapse" data-target="#demo" class="custom-font-style-text custom-text-primary d-block my-5 custom-cursor-pointer">View Instructions <img src="../assets/media/arrow_down.png" alt=""></span>
 

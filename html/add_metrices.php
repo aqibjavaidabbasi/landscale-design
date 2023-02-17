@@ -139,17 +139,96 @@ License: You must have a valid license purchased only from themeforest(the above
                                 <div class="card w-100 p-10">
                                     <div class="row">
                                         <div class="col-md-12">
-                                            <div class="d-flex justify-content-between align-items-center">
-                                                <span class="custom-font-style-headings custom-text-primary">Step 3: Indicator & Metrics</span>
-                                                <a href="./add_indicator.php" class="custom-bg-warning custom-border-radius-35 custom-text-primary custom-font-style-small p-2">Select Indicator</a>
+                                            <div class="col-md-12 text-center">
+                                                <div class="wizard wizard-3" id="kt_wizard_v3" data-wizard-state="step-first" data-wizard-clickable="true" style="position: relative;">
+                                                    <div class="wizard-nav responsive-mobile step-nav-width">
+                                                        <div class="wizard-steps metrices-step custom-steps-title px-8 py-8 px-lg-15 py-lg-3 margin-align responsive-nav-progress">
+                                                            <!--begin::Wizard Step 1 Nav-->
+                                                            <div class="wizard-step custom-width-steps custom-metrices-step" data-wizard-type="step" data-wizard-state="done">
+                                                                <div class="wizard-label metrices-label">
+                                                                    <div class="label-wrapper text-center">
+                                                                        <h3 class="wizard-title wizard-nav-title-step wizard-nav-title-responsive step-title">
+                                                                            Preparation
+                                                                        </h3>
+                                                                        <span class="steps-tags-text step-pending-tag p-1">Pending Review</span>
+                                                                    </div>
+                                                                    <div class="wizard-bar-1" id="step1" style="--bg-color:#074A37;"></div>
+                                                                </div>
+                                                            </div>
+                                                            <!--end::Wizard Step 1 Nav-->
+
+                                                            <!--begin::Wizard Step 2 Nav-->
+                                                            <div class="wizard-step custom-width-steps custom-metrices-step" data-wizard-type="step" data-wizard-state="done">
+                                                                <div class="wizard-label">
+                                                                    <div class="label-wrapper text-center">
+                                                                        <h3 class="wizard-title wizard-nav-title-step wizard-nav-title-responsive step-title">
+                                                                            Boundary
+                                                                        </h3>
+                                                                        <span class="steps-tags-text step-pending-tag p-1">Pending Review</span>
+                                                                    </div>
+                                                                    <div class="wizard-bar-2" id="step2" style="--border-clr:#074A37; --bg-color:#074A37;"></div>
+                                                                </div>
+                                                            </div>
+                                                            <!--end::Wizard Step 2 Nav-->
+
+                                                            <!--begin::Wizard Step 3 Nav-->
+                                                            <div class="wizard-step custom-width-steps custom-metrices-step" data-wizard-type="step" data-wizard-state="done">
+                                                                <div class="wizard-label">
+                                                                    <div class="label-wrapper text-center">
+                                                                        <h3 class="wizard-title wizard-nav-title-step wizard-nav-title-responsive step-title">
+                                                                            Indicator &amp; Metrics
+                                                                        </h3>
+                                                                        <span class="steps-tags-text steps-success-tag p-1">Completed</span>
+                                                                    </div>
+                                                                    <div class="wizard-bar-3" id="step3" style="--border-clr:#074A37; --bg-color:#074A37;"></div>
+                                                                </div>
+                                                            </div>
+                                                            <!--end::Wizard Step 3 Nav-->
+
+                                                            <!--begin::Wizard Step 4 Nav-->
+                                                            <div class="wizard-step custom-width-steps custom-metrices-step" data-wizard-type="step" data-wizard-state="current">
+                                                                <div class="wizard-label">
+                                                                    <div class="label-wrapper text-center">
+                                                                        <h3 class="wizard-title wizard-nav-title-step wizard-nav-title-responsive step-title">
+                                                                            Data &amp; Results
+                                                                        </h3>
+                                                                        <span class="steps-tags-text step-pending-tag p-1">Pending Review</span>
+                                                                    </div>
+                                                                    <div class="wizard-bar-4" id="step4" style="--border-clr:#074A37;"></div>
+                                                                </div>
+                                                            </div>
+                                                            <!--end::Wizard Step 4 Nav-->
+
+                                                            <!--begin::Wizard Step 5 Nav-->
+                                                            <div class="wizard-step custom-width-steps custom-metrices-step" data-wizard-type="step" data-wizard-state="current">
+                                                                <div class="wizard-label">
+                                                                    <div class="label-wrapper text-center">
+                                                                        <h3 class="wizard-title wizard-nav-title-step wizard-nav-title-responsive step-title custom-text-light-grey">
+                                                                            Report &amp; Publish
+                                                                        </h3>
+                                                                        <span class="steps-tags-text step-pending-tag p-1 custom-text-light-grey">Pending Review</span>
+                                                                    </div>
+                                                                    <div class="wizard-bar-5" id="step5" style="--border-clr:#074A37;"></div>
+                                                                </div>
+                                                            </div>
+                                                            <!--end::Wizard Step 5 Nav-->
+                                                        </div>
+                                                    </div>
+                                                </div>
                                             </div>
+                                        </div>
+                                        <div class="col-md-12 mt-17">
+                                            <span class="custom-font-style-headings custom-text-primary">Step 3: Indicator & Metrics</span>
                                         </div>
                                     </div>
 
                                     <div class="row mt-7">
                                         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                                            <div class="custom-bg-light-pale custom-border-radius-15 custom-border-color-pale h-100 p-10">
-                                                <span class="custom-font-style-headings custom-text-primary d-block mb-1">Select Metrics tasks</span>
+                                            <div class="custom-bg-light-pale custom-border-radius-15 custom-border-color-pale h-100 p-6">
+                                                <div class="d-flex justify-content-between align-items-center">
+                                                    <span class="custom-font-style-headings custom-text-primary d-block mb-1">Select Metrics tasks</span>
+                                                    <a href="./add_indicator.php" class="custom-bg-warning custom-border-radius-35 custom-text-primary custom-font-style-small p-2">Select Indicator</a>
+                                                </div>
                                                 <!-- <span class="steps-default-text steps-small-text d-block my-5">View Instructions</span> -->
                                                 <span data-toggle="collapse" data-target="#demo" class="custom-font-style-text custom-text-primary d-block my-5 custom-cursor-pointer">View Instructions <img src="../assets/media/arrow_down.png" alt=""></span>
 
@@ -312,25 +391,30 @@ License: You must have a valid license purchased only from themeforest(the above
 
                                             <div class="tab-content" id="v-pills-tabContent">
                                                 <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
-                                                    <div class="mt-5 px-5">
+                                                    <!-- <div class="mt-5 px-5">
                                                         <div class="select-wrapper">
                                                             <select name="indicator_filter" class="form-control custom-bg-primary text-light custom-select-arrow">
                                                                 <option value="1">1.1 Conserve and restore natural ecosystems</option>
                                                                 <option value="1">1.2 Protect and restore biodiversity</option>
                                                             </select>
                                                         </div>
-                                                    </div>
+                                                    </div> -->
                                                     <div class="accordion m-5" id="accordionExample-0">
                                                         <div class="card indicator-accordian-card">
                                                             <div class="card-header bg-white indicator-accordian-card-header" id="headingOne-0">
                                                                 <div class="btn btn-block text-left indicator-accordian-responsive" role="region" data-toggle="collapse" data-target="#collapseOne-0" aria-expanded="true" aria-controls="collapseOne-0">
                                                                     <div class="row">
-                                                                        <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
-                                                                            <span>
-                                                                                1.1.1 Effective conservation and protection of natural ecosystems
+                                                                        <div class="col-lg-1 col-md-1 col-sm-12 col-xs-12 pr-0 max-w-6-percent">
+                                                                            <div class="d-flex align-items-center h-100">
+                                                                                <img src="../assets/media/icons_and_Illustrations/Icons/PNGs/Ecosystems/Sub icons/Icons_Tier 2_Ecosystems_B_Pale Green.png" style="width: 30px;" alt="">
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12 pl-0">
+                                                                            <span class="d-flex align-items-center h-100">
+                                                                                1.1 Conserve and restore natural ecosystems
                                                                             </span>
                                                                         </div>
-                                                                        <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                                                                        <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
                                                                             <div class="steps-image-container indicator-image-container-responsive mr-5">
                                                                                 <img src="../assets/media/icons_and_Illustrations/Avatars/Avatars_Baboon.png" class="step-unit-image-1" alt="">
                                                                                 <img src="../assets/media/icons_and_Illustrations/Avatars/Avatars_Frog.png" class="step-unit-image-2" alt="">
@@ -340,104 +424,235 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                             </div>
                                                                         </div>
                                                                         <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
-                                                                            <span class="steps-tags-text steps-success-tag p-1 custom-position-relative">Completed</span>
+                                                                            <span class="steps-tags-text steps-success-tag p-1 custom-position-relative d-flex align-items-center h-100">
+                                                                                Completed
+                                                                            </span>
                                                                         </div>
                                                                         <div class="col-lg-1 col-md-1 col-sm-12 col-xs-12">
-                                                                            <span class=" p-1"><img src="../assets/media/Vector_arrow_down.png" alt=""></span>
+                                                                            <span class="d-flex align-items-center h-100 p-1"><img src="../assets/media/Vector_arrow_down.png" alt=""></span>
                                                                         </div>
                                                                     </div>
                                                                 </div>
                                                             </div>
 
                                                             <div id="collapseOne-0" class="collapse show" aria-labelledby="headingOne-0">
-                                                                <div class="mx-5 custom-border-color-pale mb-5 indicator-responsive-collapse">
-                                                                    <table class="table table-vertical-center indicator-table">
-                                                                        <thead class="steps-table-header-color">
-                                                                            <tr>
-                                                                                <th class="custom-font-style-sub-text" scope="col">Include</th>
-                                                                                <th class="custom-font-style-sub-text" scope="col">Metric</th>
-                                                                                <th class="custom-font-style-sub-text w-125px" scope="col">Target</th>
-                                                                                <th class="custom-font-style-sub-text" scope="col">Milestone</th>
-                                                                                <th class="custom-font-style-sub-text" scope="col">Type</th>
-                                                                                <th class="custom-font-style-sub-text" scope="col">Actions</th>
-                                                                            </tr>
-                                                                        </thead>
-                                                                        <tbody class="bg-white">
-                                                                            <tr>
-                                                                                <td>
-                                                                                    <label class="container-chkbox">
-                                                                                        <input type="checkbox" checked="checked">
-                                                                                        <span class="checkmark"></span>
-                                                                                    </label>
-                                                                                </td>
-                                                                                <td>
-                                                                                    1.1.1.1 Total area (ha) & percentage (%) of the landscape in designated protected areas disaggregated by natural ecosystem type
-                                                                                </td>
-                                                                                <td>
-                                                                                    <a href="#" class="custom-bg-warning custom-border-radius-35 px-3 py-2 align-items-center">
-                                                                                        <span><img src="../assets/media/dark_edit.png" style="width: 10%;" alt=""></span>
-                                                                                        <span class="custom-font-style-xs custom-text-primary">Add/Edit</span>
-                                                                                    </a>
-                                                                                </td>
-                                                                                <td></td>
-                                                                                <td>
-                                                                                    <span class="custom-bg-primary custom-text-light-pale custom-font-style-xs custom-border-radius-3 p-1">Required</span>
-                                                                                </td>
-                                                                                <td>
-                                                                                    <span class="custom-bg-primary custom-text-light-pale custom-font-style-xs custom-border-radius-3 p-1">Modify</span>
-                                                                                </td>
-                                                                            </tr>
-                                                                            <tr>
-                                                                                <td>
-                                                                                    <label class="container-chkbox">
-                                                                                        <input type="checkbox" checked="checked">
-                                                                                        <span class="checkmark"></span>
-                                                                                    </label>
-                                                                                </td>
-                                                                                <td>
-                                                                                    1.1.1.2 Percentage (%) of the total area of designated protected areas with effective management disaggregated by IUCN category
-                                                                                </td>
-                                                                                <td>
-                                                                                    <a href="#" class="custom-bg-warning custom-border-radius-35 px-3 py-2 align-items-center">
-                                                                                        <span><img src="../assets/media/dark_edit.png" style="width: 10%;" alt=""></span>
-                                                                                        <span class="custom-font-style-xs custom-text-primary">Add/Edit</span>
-                                                                                    </a>
-                                                                                </td>
-                                                                                <td></td>
-                                                                                <td>
-                                                                                    <span class="custom-bg-primary custom-text-light-pale custom-font-style-xs custom-border-radius-3 p-1">Required</span>
-                                                                                </td>
-                                                                                <td>
-                                                                                    <span class="custom-bg-primary custom-text-light-pale custom-font-style-xs custom-border-radius-3 p-1">Modify</span>
-                                                                                </td>
-                                                                            </tr>
-                                                                            <tr>
-                                                                                <td>
-                                                                                    <label class="container-chkbox">
-                                                                                        <input type="checkbox" checked="checked">
-                                                                                        <span class="checkmark"></span>
-                                                                                    </label>
-                                                                                </td>
-                                                                                <td>
-                                                                                    1.1.1.3 Total area (ha) & percentage (%) of the landscape that is effectively conserved in other ways disaggregated by natural ecosystem type
-                                                                                </td>
-                                                                                <td>
-                                                                                    <a href="#" class="custom-bg-warning custom-border-radius-35 px-3 py-2 align-items-center">
-                                                                                        <span><img src="../assets/media/dark_edit.png" style="width: 10%;" alt=""></span>
-                                                                                        <span class="custom-font-style-xs custom-text-primary">Add/Edit</span>
-                                                                                    </a>
-                                                                                </td>
-                                                                                <td></td>
-                                                                                <td>
-                                                                                    <span class="custom-bg-primary custom-text-light-pale custom-font-style-xs custom-border-radius-3 p-1">Required</span>
-                                                                                </td>
-                                                                                <td>
-                                                                                    <span class="custom-bg-primary custom-text-light-pale custom-font-style-xs custom-border-radius-3 p-1">Modify</span>
-                                                                                </td>
-                                                                            </tr>
+                                                                <div class="card">
+                                                                    <div class="pl-17 py-4 d-flex justify-content-between align-items-center" data-toggle="collapse" data-target="#collapseOneA">
+                                                                        <span class="custom-text-primary">1.1.1 Effective conservation and protection of natural ecosystems</span>
+                                                                        <span class="pr-20"><img src="../assets/media/Vector_arrow_down.png" alt=""></span>
+                                                                    </div>
+                                                                    <div class="collapse custom-border-bottom-pale" id="collapseOneA">
+                                                                        <div class="mx-10 mt-5">
+                                                                            <table class="table table-vertical-center indicator-table">
+                                                                                <thead class="steps-table-header-color">
+                                                                                    <tr>
+                                                                                        <th class="custom-font-style-sub-text custom-text-primary" scope="col">Include</th>
+                                                                                        <th class="custom-font-style-sub-text custom-text-primary" scope="col">Metric</th>
+                                                                                        <th class="custom-font-style-sub-text custom-text-primary w-125px" scope="col">Target</th>
+                                                                                        <th class="custom-font-style-sub-text custom-text-primary" scope="col">Milestone</th>
+                                                                                        <th class="custom-font-style-sub-text custom-text-primary" scope="col">Type</th>
+                                                                                        <th class="custom-font-style-sub-text custom-text-primary" scope="col">Actions</th>
+                                                                                    </tr>
+                                                                                </thead>
+                                                                                <tbody class="bg-white">
+                                                                                    <tr>
+                                                                                        <td>
+                                                                                            <label class="container-chkbox">
+                                                                                                <input type="checkbox" checked="checked">
+                                                                                                <span class="checkmark"></span>
+                                                                                            </label>
+                                                                                        </td>
+                                                                                        <td>
+                                                                                            1.1.1.1 Total area (ha) & percentage (%) of the landscape in designated protected areas disaggregated by natural ecosystem type
+                                                                                        </td>
+                                                                                        <td>
+                                                                                            <a href="#" class="custom-bg-warning custom-border-radius-35 px-3 py-2 align-items-center">
+                                                                                                <span><img src="../assets/media/dark_edit.png" style="width: 10%;" alt=""></span>
+                                                                                                <span class="custom-font-style-xs custom-text-primary">Add/Edit</span>
+                                                                                            </a>
+                                                                                        </td>
+                                                                                        <td></td>
+                                                                                        <td>
+                                                                                            <span class="custom-bg-primary custom-text-light-pale custom-font-style-xs custom-border-radius-3 p-1">Required</span>
+                                                                                        </td>
+                                                                                        <td>
+                                                                                            <span class="custom-bg-primary custom-text-light-pale custom-font-style-xs custom-border-radius-3 p-1">Modify</span>
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td>
+                                                                                            <label class="container-chkbox">
+                                                                                                <input type="checkbox" checked="checked">
+                                                                                                <span class="checkmark"></span>
+                                                                                            </label>
+                                                                                        </td>
+                                                                                        <td>
+                                                                                            1.1.1.2 Percentage (%) of the total area of designated protected areas with effective management disaggregated by IUCN category
+                                                                                        </td>
+                                                                                        <td>
+                                                                                            <a href="#" class="custom-bg-warning custom-border-radius-35 px-3 py-2 align-items-center">
+                                                                                                <span><img src="../assets/media/dark_edit.png" style="width: 10%;" alt=""></span>
+                                                                                                <span class="custom-font-style-xs custom-text-primary">Add/Edit</span>
+                                                                                            </a>
+                                                                                        </td>
+                                                                                        <td></td>
+                                                                                        <td>
+                                                                                            <span class="custom-bg-primary custom-text-light-pale custom-font-style-xs custom-border-radius-3 p-1">Required</span>
+                                                                                        </td>
+                                                                                        <td>
+                                                                                            <span class="custom-bg-primary custom-text-light-pale custom-font-style-xs custom-border-radius-3 p-1">Modify</span>
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td>
+                                                                                            <label class="container-chkbox">
+                                                                                                <input type="checkbox" checked="checked">
+                                                                                                <span class="checkmark"></span>
+                                                                                            </label>
+                                                                                        </td>
+                                                                                        <td>
+                                                                                            1.1.1.3 Total area (ha) & percentage (%) of the landscape that is effectively conserved in other ways disaggregated by natural ecosystem type
+                                                                                        </td>
+                                                                                        <td>
+                                                                                            <a href="#" class="custom-bg-warning custom-border-radius-35 px-3 py-2 align-items-center">
+                                                                                                <span><img src="../assets/media/dark_edit.png" style="width: 10%;" alt=""></span>
+                                                                                                <span class="custom-font-style-xs custom-text-primary">Add/Edit</span>
+                                                                                            </a>
+                                                                                        </td>
+                                                                                        <td></td>
+                                                                                        <td>
+                                                                                            <span class="custom-bg-primary custom-text-light-pale custom-font-style-xs custom-border-radius-3 p-1">Required</span>
+                                                                                        </td>
+                                                                                        <td>
+                                                                                            <span class="custom-bg-primary custom-text-light-pale custom-font-style-xs custom-border-radius-3 p-1">Modify</span>
+                                                                                        </td>
+                                                                                    </tr>
 
-                                                                        </tbody>
-                                                                    </table>
+                                                                                </tbody>
+                                                                            </table>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="card">
+                                                                    <div class="pl-17 py-4 d-flex justify-content-between align-items-center" data-toggle="collapse" data-target="#collapseOneB">
+                                                                        <span class="custom-text-primary">1.1.2 Natural ecosystem conversion</span>
+                                                                        <span class="pr-20"><img src="../assets/media/Vector_arrow_down.png" alt=""></span>
+                                                                    </div>
+                                                                    <div class="collapse custom-border-bottom-pale" id="collapseOneB">
+                                                                        <div class="mx-10 mt-5">
+                                                                            <table class="table table-vertical-center indicator-table">
+                                                                                <thead class="steps-table-header-color">
+                                                                                    <tr>
+                                                                                        <th class="custom-font-style-sub-text" scope="col">Include</th>
+                                                                                        <th class="custom-font-style-sub-text" scope="col">Metric</th>
+                                                                                        <th class="custom-font-style-sub-text w-125px" scope="col">Target</th>
+                                                                                        <th class="custom-font-style-sub-text" scope="col">Milestone</th>
+                                                                                        <th class="custom-font-style-sub-text" scope="col">Type</th>
+                                                                                        <th class="custom-font-style-sub-text" scope="col">Actions</th>
+                                                                                    </tr>
+                                                                                </thead>
+                                                                                <tbody class="bg-white">
+                                                                                    <tr>
+                                                                                        <td>
+                                                                                            <label class="container-chkbox">
+                                                                                                <input type="checkbox" checked="checked">
+                                                                                                <span class="checkmark"></span>
+                                                                                            </label>
+                                                                                        </td>
+                                                                                        <td>
+                                                                                            1.1.2.1 Total area (ha) & percentage (%) of area of natural ecosystems in the landscape that has been recently converted
+                                                                                        </td>
+                                                                                        <td>
+                                                                                            <a href="#" class="custom-bg-warning custom-border-radius-35 px-3 py-2 align-items-center">
+                                                                                                <span><img src="../assets/media/dark_edit.png" style="width: 10%;" alt=""></span>
+                                                                                                <span class="custom-font-style-xs custom-text-primary">Add/Edit</span>
+                                                                                            </a>
+                                                                                        </td>
+                                                                                        <td></td>
+                                                                                        <td>
+                                                                                            <span class="custom-bg-primary custom-text-light-pale custom-font-style-xs custom-border-radius-3 p-1">Required</span>
+                                                                                        </td>
+                                                                                        <td>
+                                                                                            <span class="custom-bg-primary custom-text-light-pale custom-font-style-xs custom-border-radius-3 p-1">Modify</span>
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td>
+                                                                                            <label class="container-chkbox">
+                                                                                                <input type="checkbox" checked="checked">
+                                                                                                <span class="checkmark"></span>
+                                                                                            </label>
+                                                                                        </td>
+                                                                                        <td>
+                                                                                            1.1.2.2 Natural ecosystem conversion rate (average area [ha] & percentage [%] conversion per yr)
+                                                                                        </td>
+                                                                                        <td>
+                                                                                            <a href="#" class="custom-bg-warning custom-border-radius-35 px-3 py-2 align-items-center">
+                                                                                                <span><img src="../assets/media/dark_edit.png" style="width: 10%;" alt=""></span>
+                                                                                                <span class="custom-font-style-xs custom-text-primary">Add/Edit</span>
+                                                                                            </a>
+                                                                                        </td>
+                                                                                        <td></td>
+                                                                                        <td>
+                                                                                            <span class="custom-bg-primary custom-text-light-pale custom-font-style-xs custom-border-radius-3 p-1">Required</span>
+                                                                                        </td>
+                                                                                        <td>
+                                                                                            <span class="custom-bg-primary custom-text-light-pale custom-font-style-xs custom-border-radius-3 p-1">Modify</span>
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td>
+                                                                                            <label class="container-chkbox">
+                                                                                                <input type="checkbox" checked="checked">
+                                                                                                <span class="checkmark"></span>
+                                                                                            </label>
+                                                                                        </td>
+                                                                                        <td>
+                                                                                            1.1.2.3 User-defined metric for ecosystem category (e.g., forest ecosystem types) of area (ha) & percentage (%) of area in the landscape that has been recently converted
+                                                                                        </td>
+                                                                                        <td>
+                                                                                            <a href="#" class="custom-bg-warning custom-border-radius-35 px-3 py-2 align-items-center">
+                                                                                                <span><img src="../assets/media/dark_edit.png" style="width: 10%;" alt=""></span>
+                                                                                                <span class="custom-font-style-xs custom-text-primary">Add/Edit</span>
+                                                                                            </a>
+                                                                                        </td>
+                                                                                        <td></td>
+                                                                                        <td>
+                                                                                            <span class="custom-bg-primary custom-text-light-pale custom-font-style-xs custom-border-radius-3 p-1">Required</span>
+                                                                                        </td>
+                                                                                        <td>
+                                                                                            <span class="custom-bg-primary custom-text-light-pale custom-font-style-xs custom-border-radius-3 p-1">Modify</span>
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td>
+                                                                                            <label class="container-chkbox">
+                                                                                                <input type="checkbox" checked="checked">
+                                                                                                <span class="checkmark"></span>
+                                                                                            </label>
+                                                                                        </td>
+                                                                                        <td>
+                                                                                            1.1.2.4 User-defined metric for ecosystem category (e.g., forest ecosystem types) of conversion rate (average area [ha] & percentage [%] conversion per yr)
+                                                                                        </td>
+                                                                                        <td>
+                                                                                            <a href="#" class="custom-bg-warning custom-border-radius-35 px-3 py-2 align-items-center">
+                                                                                                <span><img src="../assets/media/dark_edit.png" style="width: 10%;" alt=""></span>
+                                                                                                <span class="custom-font-style-xs custom-text-primary">Add/Edit</span>
+                                                                                            </a>
+                                                                                        </td>
+                                                                                        <td></td>
+                                                                                        <td>
+                                                                                            <span class="custom-bg-primary custom-text-light-pale custom-font-style-xs custom-border-radius-3 p-1">Required</span>
+                                                                                        </td>
+                                                                                        <td>
+                                                                                            <span class="custom-bg-primary custom-text-light-pale custom-font-style-xs custom-border-radius-3 p-1">Modify</span>
+                                                                                        </td>
+                                                                                    </tr>
+
+                                                                                </tbody>
+                                                                            </table>
+                                                                        </div>
+                                                                    </div>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -445,12 +660,17 @@ License: You must have a valid license purchased only from themeforest(the above
                                                             <div class="card-header bg-white indicator-accordian-card-header" id="headingTwo-0">
                                                                 <div class="btn btn-block text-left collapsed indicator-accordian-responsive" role="region" data-toggle="collapse" data-target="#collapseTwo-0" aria-expanded="false" aria-controls="collapseTwo-0">
                                                                     <div class="row">
-                                                                        <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
-                                                                            <span>
-                                                                                1.1.2 Natural ecosystem conversion
+                                                                        <div class="col-lg-1 col-md-1 col-sm-12 col-xs-12 pr-0 max-w-6-percent">
+                                                                            <div class="d-flex align-items-center h-100">
+                                                                                <img src="../assets/media/icons_and_Illustrations/Icons/PNGs/Ecosystems/Sub icons/Icons_Tier 2_Ecosystems_A_Pale Green.png" style="width: 30px;" alt="">
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12 pl-0">
+                                                                            <span class="d-flex align-items-center h-100">
+                                                                                1.2 Protect and restore biodiversity
                                                                             </span>
                                                                         </div>
-                                                                        <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                                                                        <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
                                                                             <div class="steps-image-container indicator-image-container-responsive mr-5">
                                                                                 <img src="../assets/media/icons_and_Illustrations/Avatars/Avatars_Baboon.png" class="step-unit-image-1" alt="">
                                                                                 <img src="../assets/media/icons_and_Illustrations/Avatars/Avatars_Frog.png" class="step-unit-image-2" alt="">
@@ -460,118 +680,391 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                             </div>
                                                                         </div>
                                                                         <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
-                                                                            <span class="steps-tags-text steps-success-tag p-1 custom-position-relative">Completed</span>
+                                                                            <span class="steps-tags-text steps-success-tag p-1 custom-position-relative d-flex align-items-center h-100">
+                                                                                Completed
+                                                                            </span>
                                                                         </div>
                                                                         <div class="col-lg-1 col-md-1 col-sm-12 col-xs-12">
-                                                                            <span class=" p-1"><img src="../assets/media/Vector_arrow_down.png" alt=""></span>
+                                                                            <span class="d-flex align-items-center h-100 p-1"><img src="../assets/media/Vector_arrow_down.png" alt=""></span>
                                                                         </div>
                                                                     </div>
                                                                 </div>
                                                             </div>
                                                             <div id="collapseTwo-0" class="collapse" aria-labelledby="headingTwo-0">
-                                                                <div class="mx-5 custom-border-color-pale mb-5 indicator-responsive-collapse">
-                                                                    <table class="table table-vertical-center indicator-table">
-                                                                        <thead class="steps-table-header-color">
-                                                                            <tr>
-                                                                                <th class="custom-font-style-sub-text" scope="col">Include</th>
-                                                                                <th class="custom-font-style-sub-text" scope="col">Metric</th>
-                                                                                <th class="custom-font-style-sub-text w-125px" scope="col">Target</th>
-                                                                                <th class="custom-font-style-sub-text" scope="col">Milestone</th>
-                                                                                <th class="custom-font-style-sub-text" scope="col">Type</th>
-                                                                                <th class="custom-font-style-sub-text" scope="col">Actions</th>
-                                                                            </tr>
-                                                                        </thead>
-                                                                        <tbody class="bg-white">
-                                                                            <tr>
-                                                                                <td>
-                                                                                    <label class="container-chkbox">
-                                                                                        <input type="checkbox" checked="checked">
-                                                                                        <span class="checkmark"></span>
-                                                                                    </label>
-                                                                                </td>
-                                                                                <td>
-                                                                                    1.1.2.1 Total area (ha) & percentage (%) of area of natural ecosystems in the landscape that has been recently converted
-                                                                                </td>
-                                                                                <td>
-                                                                                    <a href="#" class="custom-bg-warning custom-border-radius-35 px-3 py-2 align-items-center">
-                                                                                        <span><img src="../assets/media/dark_edit.png" style="width: 10%;" alt=""></span>
-                                                                                        <span class="custom-font-style-xs custom-text-primary">Add/Edit</span>
-                                                                                    </a>
-                                                                                </td>
-                                                                                <td></td>
-                                                                                <td>
-                                                                                    <span class="custom-bg-primary custom-text-light-pale custom-font-style-xs custom-border-radius-3 p-1">Required</span>
-                                                                                </td>
-                                                                                <td>
-                                                                                    <span class="custom-bg-primary custom-text-light-pale custom-font-style-xs custom-border-radius-3 p-1">Modify</span>
-                                                                                </td>
-                                                                            </tr>
-                                                                            <tr>
-                                                                                <td>
-                                                                                    <label class="container-chkbox">
-                                                                                        <input type="checkbox" checked="checked">
-                                                                                        <span class="checkmark"></span>
-                                                                                    </label>
-                                                                                </td>
-                                                                                <td>
-                                                                                    1.1.2.2 Natural ecosystem conversion rate (average area [ha] & percentage [%] conversion per yr)
-                                                                                </td>
-                                                                                <td>
-                                                                                    <a href="#" class="custom-bg-warning custom-border-radius-35 px-3 py-2 align-items-center">
-                                                                                        <span><img src="../assets/media/dark_edit.png" style="width: 10%;" alt=""></span>
-                                                                                        <span class="custom-font-style-xs custom-text-primary">Add/Edit</span>
-                                                                                    </a>
-                                                                                </td>
-                                                                                <td></td>
-                                                                                <td>
-                                                                                    <span class="custom-bg-primary custom-text-light-pale custom-font-style-xs custom-border-radius-3 p-1">Required</span>
-                                                                                </td>
-                                                                                <td>
-                                                                                    <span class="custom-bg-primary custom-text-light-pale custom-font-style-xs custom-border-radius-3 p-1">Modify</span>
-                                                                                </td>
-                                                                            </tr>
-                                                                            <tr>
-                                                                                <td>
-                                                                                    <label class="container-chkbox">
-                                                                                        <input type="checkbox" checked="checked">
-                                                                                        <span class="checkmark"></span>
-                                                                                    </label>
-                                                                                </td>
-                                                                                <td>
-                                                                                    1.1.2.3 User-defined metric for ecosystem category (e.g., forest ecosystem types) of area (ha) & percentage (%) of area in the landscape that has been recently converted
-                                                                                </td>
-                                                                                <td>
-                                                                                    <a href="#" class="custom-bg-warning custom-border-radius-35 px-3 py-2 align-items-center">
-                                                                                        <span><img src="../assets/media/dark_edit.png" style="width: 10%;" alt=""></span>
-                                                                                        <span class="custom-font-style-xs custom-text-primary">Add/Edit</span>
-                                                                                    </a>
-                                                                                </td>
-                                                                                <td></td>
-                                                                                <td>
-                                                                                    <span class="custom-bg-primary custom-text-light-pale custom-font-style-xs custom-border-radius-3 p-1">Required</span>
-                                                                                </td>
-                                                                                <td>
-                                                                                    <span class="custom-bg-primary custom-text-light-pale custom-font-style-xs custom-border-radius-3 p-1">Modify</span>
-                                                                                </td>
-                                                                            </tr>
+                                                                <div class="card">
+                                                                    <div class="pl-17 py-4 d-flex justify-content-between align-items-center custom-cursor-pointer" data-toggle="collapse" data-target="#collapseTwoA">
+                                                                        <span class="custom-text-primary">1.2.1 Threats to species</span>
+                                                                        <span class="pr-20"><img src="../assets/media/Vector_arrow_down.png" alt=""></span>
+                                                                    </div>
+                                                                    <div class="collapse custom-border-bottom-pale" id="collapseTwoA">
+                                                                        <div class="mx-10 mt-5">
+                                                                            <table class="table table-vertical-center indicator-table">
+                                                                                <thead class="steps-table-header-color">
+                                                                                    <tr>
+                                                                                        <th class="custom-font-style-sub-text" scope="col">Include</th>
+                                                                                        <th class="custom-font-style-sub-text" scope="col">Metric</th>
+                                                                                        <th class="custom-font-style-sub-text w-125px" scope="col">Target</th>
+                                                                                        <th class="custom-font-style-sub-text" scope="col">Milestone</th>
+                                                                                        <th class="custom-font-style-sub-text" scope="col">Type</th>
+                                                                                        <th class="custom-font-style-sub-text" scope="col">Actions</th>
+                                                                                    </tr>
+                                                                                </thead>
+                                                                                <tbody class="bg-white">
+                                                                                    <tr>
+                                                                                        <td>
+                                                                                            <label class="container-chkbox">
+                                                                                                <input type="checkbox" checked="checked">
+                                                                                                <span class="checkmark"></span>
+                                                                                            </label>
+                                                                                        </td>
+                                                                                        <td>
+                                                                                            1.2.1.1 Changes in threats to threatened species
+                                                                                        </td>
+                                                                                        <td>
+                                                                                            <a href="#" class="custom-bg-warning custom-border-radius-35 px-3 py-2 align-items-center">
+                                                                                                <span><img src="../assets/media/dark_edit.png" style="width: 10%;" alt=""></span>
+                                                                                                <span class="custom-font-style-xs custom-text-primary">Add/Edit</span>
+                                                                                            </a>
+                                                                                        </td>
+                                                                                        <td></td>
+                                                                                        <td>
+                                                                                            <span class="custom-bg-primary custom-text-light-pale custom-font-style-xs custom-border-radius-3 p-1">Required</span>
+                                                                                        </td>
+                                                                                        <td>
+                                                                                            <span class="custom-bg-primary custom-text-light-pale custom-font-style-xs custom-border-radius-3 p-1">Modify</span>
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td>
+                                                                                            <label class="container-chkbox">
+                                                                                                <input type="checkbox" checked="checked">
+                                                                                                <span class="checkmark"></span>
+                                                                                            </label>
+                                                                                        </td>
+                                                                                        <td>
+                                                                                            1.2.1.2 Changes in threats to populations of indicator species or other species identified as important in the landscape
+                                                                                        </td>
+                                                                                        <td>
+                                                                                            <a href="#" class="custom-bg-warning custom-border-radius-35 px-3 py-2 align-items-center">
+                                                                                                <span><img src="../assets/media/dark_edit.png" style="width: 10%;" alt=""></span>
+                                                                                                <span class="custom-font-style-xs custom-text-primary">Add/Edit</span>
+                                                                                            </a>
+                                                                                        </td>
+                                                                                        <td></td>
+                                                                                        <td>
+                                                                                            <span class="custom-bg-primary custom-text-light-pale custom-font-style-xs custom-border-radius-3 p-1">Required</span>
+                                                                                        </td>
+                                                                                        <td>
+                                                                                            <span class="custom-bg-primary custom-text-light-pale custom-font-style-xs custom-border-radius-3 p-1">Modify</span>
+                                                                                        </td>
+                                                                                    </tr>
 
-                                                                        </tbody>
-                                                                    </table>
+
+                                                                                </tbody>
+                                                                            </table>
+                                                                        </div>
+                                                                    </div>
                                                                 </div>
                                                             </div>
                                                         </div>
                                                     </div>
                                                 </div>
                                                 <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
-                                                    <div class="mt-5 px-5">
-                                                        <div class="select-wrapper">
-                                                            <select name="indicator_filter" class="form-control custom-bg-primary text-light custom-select-arrow">
-                                                                <option value="1">2.1 Improve standard of living, especially for vulnerable and/or marginalized groups</option>
-                                                                <option value="1">2.2 Respect, protect, and fulfill human rights</option>
-                                                            </select>
+
+                                                    <div class="accordion m-5" id="accordionExample-0">
+                                                        <div class="card indicator-accordian-card">
+                                                            <div class="card-header bg-white indicator-accordian-card-header" id="headingOne-0">
+                                                                <div class="btn btn-block text-left indicator-accordian-responsive" role="region" data-toggle="collapse" data-target="#collapseOne-0" aria-expanded="true" aria-controls="collapseOne-0">
+                                                                    <div class="row">
+                                                                        <div class="col-lg-1 col-md-1 col-sm-12 col-xs-12 pr-0 max-w-6-percent">
+                                                                            <div class="d-flex align-items-center h-100">
+                                                                                <img src="../assets/media/icons_and_Illustrations/Icons/PNGs/Human_Wellbeing/Sub icons/Icons_Tier 2_Human Wellbeing_A_Pale Green.png" style="width: 30px;" alt="">
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12 pl-0">
+                                                                            <span class="d-flex align-items-center h-100">
+                                                                                2.1 Improve standard of living, especially for vulnerable and/or marginalized groups
+                                                                            </span>
+                                                                        </div>
+                                                                        <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                                                                            <div class="steps-image-container indicator-image-container-responsive mr-5">
+                                                                                <img src="../assets/media/icons_and_Illustrations/Avatars/Avatars_Baboon.png" class="step-unit-image-1" alt="">
+                                                                                <img src="../assets/media/icons_and_Illustrations/Avatars/Avatars_Frog.png" class="step-unit-image-2" alt="">
+                                                                                <img src="../assets/media/icons_and_Illustrations/Avatars/Avatars_Parrot.png" class="step-unit-image-3" alt="">
+                                                                                <span class="step-unit-counter d-inline-block">6+</span>
+                                                                                <img src="../assets/media/add_person.png" class="step-unit-image-4" alt="">
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
+                                                                            <span class="steps-tags-text steps-success-tag p-1 custom-position-relative d-flex align-items-center h-100">
+                                                                                Completed
+                                                                            </span>
+                                                                        </div>
+                                                                        <div class="col-lg-1 col-md-1 col-sm-12 col-xs-12">
+                                                                            <span class="d-flex align-items-center h-100 p-1"><img src="../assets/media/Vector_arrow_down.png" alt=""></span>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+
+                                                            <div id="collapseOne-0" class="collapse show custom-cursor-pointer custom-text-primary" aria-labelledby="headingOne-0">
+                                                                <div class="card">
+                                                                    <div class="pl-17 py-4 d-flex justify-content-between align-items-center" data-toggle="collapse" data-target="#collapseOneA">
+                                                                        <span>2.1.1 Household income & assets</span>
+                                                                        <span class="pr-20"><img src="../assets/media/Vector_arrow_down.png" alt=""></span>
+                                                                    </div>
+                                                                    <div class="collapse custom-border-bottom-pale" id="collapseOneA">
+                                                                        <div class="mx-10 mt-5">
+                                                                            <table class="table table-vertical-center indicator-table">
+                                                                                <thead class="steps-table-header-color">
+                                                                                    <tr>
+                                                                                        <th class="custom-font-style-sub-text" scope="col">Include</th>
+                                                                                        <th class="custom-font-style-sub-text" scope="col">Metric</th>
+                                                                                        <th class="custom-font-style-sub-text w-125px" scope="col">Target</th>
+                                                                                        <th class="custom-font-style-sub-text" scope="col">Milestone</th>
+                                                                                        <th class="custom-font-style-sub-text" scope="col">Type</th>
+                                                                                        <th class="custom-font-style-sub-text" scope="col">Actions</th>
+                                                                                    </tr>
+                                                                                </thead>
+                                                                                <tbody class="bg-white">
+                                                                                    <tr>
+                                                                                        <td>
+                                                                                            <label class="container-chkbox">
+                                                                                                <input type="checkbox" checked="checked">
+                                                                                                <span class="checkmark"></span>
+                                                                                            </label>
+                                                                                        </td>
+                                                                                        <td>
+                                                                                            2.1.1.1 Percentage (%) of female and male population living below the local poverty line (or, if this is not specified, earning <$1.90 /day) </td>
+                                                                                        <td>
+                                                                                            <a href="#" class="custom-bg-warning custom-border-radius-35 px-3 py-2 align-items-center">
+                                                                                                <span><img src="../assets/media/dark_edit.png" style="width: 10%;" alt=""></span>
+                                                                                                <span class="custom-font-style-xs custom-text-primary">Add/Edit</span>
+                                                                                            </a>
+                                                                                        </td>
+                                                                                        <td></td>
+                                                                                        <td>
+                                                                                            <span class="custom-bg-primary custom-text-light-pale custom-font-style-xs custom-border-radius-3 p-1">Required</span>
+                                                                                        </td>
+                                                                                        <td>
+                                                                                            <span class="custom-bg-primary custom-text-light-pale custom-font-style-xs custom-border-radius-3 p-1">Modify</span>
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td>
+                                                                                            <label class="container-chkbox">
+                                                                                                <input type="checkbox" checked="checked">
+                                                                                                <span class="checkmark"></span>
+                                                                                            </label>
+                                                                                        </td>
+                                                                                        <td>
+                                                                                            2.1.1.2 Percentage (%) of households owning or lacking context-appropriate asset(s). Examples include radio, TV, telephone, computer, animal cart, bicycle, motorbike, refrigerator, car, or truck
+                                                                                        </td>
+                                                                                        <td>
+                                                                                            <a href="#" class="custom-bg-warning custom-border-radius-35 px-3 py-2 align-items-center">
+                                                                                                <span><img src="../assets/media/dark_edit.png" style="width: 10%;" alt=""></span>
+                                                                                                <span class="custom-font-style-xs custom-text-primary">Add/Edit</span>
+                                                                                            </a>
+                                                                                        </td>
+                                                                                        <td></td>
+                                                                                        <td>
+                                                                                            <span class="custom-bg-primary custom-text-light-pale custom-font-style-xs custom-border-radius-3 p-1">Required</span>
+                                                                                        </td>
+                                                                                        <td>
+                                                                                            <span class="custom-bg-primary custom-text-light-pale custom-font-style-xs custom-border-radius-3 p-1">Modify</span>
+                                                                                        </td>
+                                                                                    </tr>
+
+                                                                                </tbody>
+                                                                            </table>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="card">
+                                                                    <div class="pl-17 py-4 d-flex justify-content-between align-items-center" data-toggle="collapse" data-target="#collapseOneB">
+                                                                        <span>2.1.2 Health & nutrition</span>
+                                                                        <span class="pr-20"><img src="../assets/media/Vector_arrow_down.png" alt=""></span>
+                                                                    </div>
+                                                                    <div class="collapse custom-border-bottom-pale" id="collapseOneB">
+                                                                        <div class="mx-10 mt-5">
+                                                                            <table class="table table-vertical-center indicator-table">
+                                                                                <thead class="steps-table-header-color">
+                                                                                    <tr>
+                                                                                        <th class="custom-font-style-sub-text" scope="col">Include</th>
+                                                                                        <th class="custom-font-style-sub-text" scope="col">Metric</th>
+                                                                                        <th class="custom-font-style-sub-text w-125px" scope="col">Target</th>
+                                                                                        <th class="custom-font-style-sub-text" scope="col">Milestone</th>
+                                                                                        <th class="custom-font-style-sub-text" scope="col">Type</th>
+                                                                                        <th class="custom-font-style-sub-text" scope="col">Actions</th>
+                                                                                    </tr>
+                                                                                </thead>
+                                                                                <tbody class="bg-white">
+                                                                                    <tr>
+                                                                                        <td>
+                                                                                            <label class="container-chkbox">
+                                                                                                <input type="checkbox" checked="checked">
+                                                                                                <span class="checkmark"></span>
+                                                                                            </label>
+                                                                                        </td>
+                                                                                        <td>
+                                                                                            2.1.2.1 Percentage (%) of girls and boys that are undernourished (required)
+                                                                                        </td>
+                                                                                        <td>
+                                                                                            <a href="#" class="custom-bg-warning custom-border-radius-35 px-3 py-2 align-items-center">
+                                                                                                <span><img src="../assets/media/dark_edit.png" style="width: 10%;" alt=""></span>
+                                                                                                <span class="custom-font-style-xs custom-text-primary">Add/Edit</span>
+                                                                                            </a>
+                                                                                        </td>
+                                                                                        <td></td>
+                                                                                        <td>
+                                                                                            <span class="custom-bg-primary custom-text-light-pale custom-font-style-xs custom-border-radius-3 p-1">Required</span>
+                                                                                        </td>
+                                                                                        <td>
+                                                                                            <span class="custom-bg-primary custom-text-light-pale custom-font-style-xs custom-border-radius-3 p-1">Modify</span>
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td>
+                                                                                            <label class="container-chkbox">
+                                                                                                <input type="checkbox" checked="checked">
+                                                                                                <span class="checkmark"></span>
+                                                                                            </label>
+                                                                                        </td>
+                                                                                        <td>
+                                                                                            2.1.2.2 Percentage (%) of female and male population without access to health services
+                                                                                        </td>
+                                                                                        <td>
+                                                                                            <a href="#" class="custom-bg-warning custom-border-radius-35 px-3 py-2 align-items-center">
+                                                                                                <span><img src="../assets/media/dark_edit.png" style="width: 10%;" alt=""></span>
+                                                                                                <span class="custom-font-style-xs custom-text-primary">Add/Edit</span>
+                                                                                            </a>
+                                                                                        </td>
+                                                                                        <td></td>
+                                                                                        <td>
+                                                                                            <span class="custom-bg-primary custom-text-light-pale custom-font-style-xs custom-border-radius-3 p-1">Required</span>
+                                                                                        </td>
+                                                                                        <td>
+                                                                                            <span class="custom-bg-primary custom-text-light-pale custom-font-style-xs custom-border-radius-3 p-1">Modify</span>
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td>
+                                                                                            <label class="container-chkbox">
+                                                                                                <input type="checkbox" checked="checked">
+                                                                                                <span class="checkmark"></span>
+                                                                                            </label>
+                                                                                        </td>
+                                                                                        <td>
+                                                                                            2.1.2.3 Mortality rate of girls and boys under 18 years (averaged over the past five years)
+                                                                                        </td>
+                                                                                        <td>
+                                                                                            <a href="#" class="custom-bg-warning custom-border-radius-35 px-3 py-2 align-items-center">
+                                                                                                <span><img src="../assets/media/dark_edit.png" style="width: 10%;" alt=""></span>
+                                                                                                <span class="custom-font-style-xs custom-text-primary">Add/Edit</span>
+                                                                                            </a>
+                                                                                        </td>
+                                                                                        <td></td>
+                                                                                        <td>
+                                                                                            <span class="custom-bg-primary custom-text-light-pale custom-font-style-xs custom-border-radius-3 p-1">Required</span>
+                                                                                        </td>
+                                                                                        <td>
+                                                                                            <span class="custom-bg-primary custom-text-light-pale custom-font-style-xs custom-border-radius-3 p-1">Modify</span>
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                </tbody>
+                                                                            </table>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="card indicator-accordian-card">
+                                                            <div class="card-header bg-white indicator-accordian-card-header" id="headingTwo-0">
+                                                                <div class="btn btn-block text-left collapsed indicator-accordian-responsive" role="region" data-toggle="collapse" data-target="#collapseTwo-0" aria-expanded="false" aria-controls="collapseTwo-0">
+                                                                    <div class="row">
+                                                                        <div class="col-lg-1 col-md-1 col-sm-12 col-xs-12 pr-0 max-w-6-percent">
+                                                                            <div class="d-flex align-items-center h-100">
+                                                                                <img src="../assets/media/icons_and_Illustrations/Icons/PNGs/Human_Wellbeing/Sub icons/Icons_Tier 2_Human Wellbeing_B_Pale Green.png" style="width: 30px;" alt="">
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12 pl-0">
+                                                                            <span class="d-flex align-items-center h-100">
+                                                                                2.2 Respect, protect, and fulfill human rights
+                                                                            </span>
+                                                                        </div>
+                                                                        <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                                                                            <div class="steps-image-container indicator-image-container-responsive mr-5">
+                                                                                <img src="../assets/media/icons_and_Illustrations/Avatars/Avatars_Baboon.png" class="step-unit-image-1" alt="">
+                                                                                <img src="../assets/media/icons_and_Illustrations/Avatars/Avatars_Frog.png" class="step-unit-image-2" alt="">
+                                                                                <img src="../assets/media/icons_and_Illustrations/Avatars/Avatars_Parrot.png" class="step-unit-image-3" alt="">
+                                                                                <span class="step-unit-counter d-inline-block">6+</span>
+                                                                                <img src="../assets/media/add_person.png" class="step-unit-image-4" alt="">
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
+                                                                            <span class="steps-tags-text steps-success-tag p-1 custom-position-relative d-flex align-items-center h-100">
+                                                                                Completed
+                                                                            </span>
+                                                                        </div>
+                                                                        <div class="col-lg-1 col-md-1 col-sm-12 col-xs-12">
+                                                                            <span class="d-flex align-items-center h-100 p-1"><img src="../assets/media/Vector_arrow_down.png" alt=""></span>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div id="collapseTwo-0" class="collapse custom-text-primary custom-cursor-pointer" aria-labelledby="headingTwo-0">
+                                                                <div class="card">
+                                                                    <div class="pl-17 py-4 d-flex justify-content-between align-items-center" data-toggle="collapse" data-target="#collapseTwoA">
+                                                                        <span>2.2.1 Child labor</span>
+                                                                        <span class="pr-20"><img src="../assets/media/Vector_arrow_down.png" alt=""></span>
+                                                                    </div>
+                                                                    <div class="collapse custom-border-bottom-pale" id="collapseTwoA">
+                                                                        <div class="mx-10 mt-5">
+                                                                            <table class="table table-vertical-center indicator-table">
+                                                                                <thead class="steps-table-header-color">
+                                                                                    <tr>
+                                                                                        <th class="custom-font-style-sub-text" scope="col">Include</th>
+                                                                                        <th class="custom-font-style-sub-text" scope="col">Metric</th>
+                                                                                        <th class="custom-font-style-sub-text w-125px" scope="col">Target</th>
+                                                                                        <th class="custom-font-style-sub-text" scope="col">Milestone</th>
+                                                                                        <th class="custom-font-style-sub-text" scope="col">Type</th>
+                                                                                        <th class="custom-font-style-sub-text" scope="col">Actions</th>
+                                                                                    </tr>
+                                                                                </thead>
+                                                                                <tbody class="bg-white">
+                                                                                    <tr>
+                                                                                        <td>
+                                                                                            <label class="container-chkbox">
+                                                                                                <input type="checkbox" checked="checked">
+                                                                                                <span class="checkmark"></span>
+                                                                                            </label>
+                                                                                        </td>
+                                                                                        <td>
+                                                                                            2.2.1 Changes in species
+                                                                                        </td>
+                                                                                        <td>
+                                                                                            <a href="#" class="custom-bg-warning custom-border-radius-35 px-3 py-2 align-items-center">
+                                                                                                <span><img src="../assets/media/dark_edit.png" style="width: 10%;" alt=""></span>
+                                                                                                <span class="custom-font-style-xs custom-text-primary">Add/Edit</span>
+                                                                                            </a>
+                                                                                        </td>
+                                                                                        <td></td>
+                                                                                        <td>
+                                                                                            <span class="custom-bg-primary custom-text-light-pale custom-font-style-xs custom-border-radius-3 p-1">Required</span>
+                                                                                        </td>
+                                                                                        <td>
+                                                                                            <span class="custom-bg-primary custom-text-light-pale custom-font-style-xs custom-border-radius-3 p-1">Modify</span>
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                </tbody>
+                                                                            </table>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
                                                         </div>
                                                     </div>
-                                                    <div class="accordion m-5" id="accordionExample-1">
+                                                    <!-- <div class="accordion m-5" id="accordionExample-1">
                                                         <div class="card indicator-accordian-card">
                                                             <div class="card-header bg-white indicator-accordian-card-header" id="headingOne-0">
                                                                 <div class="btn btn-block text-left indicator-accordian-responsive" role="region" data-toggle="collapse" data-target="#collapseOne-0" aria-expanded="true" aria-controls="collapseOne-0">
@@ -763,28 +1256,25 @@ License: You must have a valid license purchased only from themeforest(the above
                                                             </div>
                                                         </div>
 
-                                                    </div>
+                                                    </div> -->
                                                 </div>
                                                 <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
-                                                    <div class="mt-5 px-5">
-                                                        <div class="select-wrapper">
-                                                            <select name="indicator_filter" class="form-control custom-bg-primary text-light custom-select-arrow">
-                                                                <option value="1">3.1 Recognize and protect rights to land and resources, and reduce related conflicts</option>
-                                                                <option value="1">3.2 Promote transparency, participation, inclusion, and coordination in landscape policy, planning, and management</option>
-                                                            </select>
-                                                        </div>
-                                                    </div>
-                                                    <div class="accordion m-5" id="accordionExample-1">
+                                                    <div class="accordion m-5" id="accordionExample-0">
                                                         <div class="card indicator-accordian-card">
                                                             <div class="card-header bg-white indicator-accordian-card-header" id="headingOne-0">
                                                                 <div class="btn btn-block text-left indicator-accordian-responsive" role="region" data-toggle="collapse" data-target="#collapseOne-0" aria-expanded="true" aria-controls="collapseOne-0">
                                                                     <div class="row">
-                                                                        <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
-                                                                            <span>
-                                                                                3.1.1 Land tenure
+                                                                        <div class="col-lg-1 col-md-1 col-sm-12 col-xs-12 pr-0 max-w-6-percent">
+                                                                            <div class="d-flex align-items-center h-100">
+                                                                                <img src="../assets/media/icons_and_Illustrations/Icons/PNGs/Governance/Sub icons/Icons_Tier 2_Governance_A_Pale Green.png" style="width: 30px;" alt="">
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12 pl-0">
+                                                                            <span class="d-flex align-items-center h-100">
+                                                                                3.1 Recognize and protect rights to land and resources, and reduce related conflicts
                                                                             </span>
                                                                         </div>
-                                                                        <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                                                                        <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
                                                                             <div class="steps-image-container indicator-image-container-responsive mr-5">
                                                                                 <img src="../assets/media/icons_and_Illustrations/Avatars/Avatars_Baboon.png" class="step-unit-image-1" alt="">
                                                                                 <img src="../assets/media/icons_and_Illustrations/Avatars/Avatars_Frog.png" class="step-unit-image-2" alt="">
@@ -794,80 +1284,162 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                             </div>
                                                                         </div>
                                                                         <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
-                                                                            <span class="steps-tags-text steps-success-tag p-1 custom-position-relative">Completed</span>
+                                                                            <span class="steps-tags-text steps-success-tag p-1 custom-position-relative d-flex align-items-center h-100">
+                                                                                Completed
+                                                                            </span>
                                                                         </div>
                                                                         <div class="col-lg-1 col-md-1 col-sm-12 col-xs-12">
-                                                                            <span class=" p-1"><img src="../assets/media/Vector_arrow_down.png" alt=""></span>
+                                                                            <span class="d-flex align-items-center h-100 p-1"><img src="../assets/media/Vector_arrow_down.png" alt=""></span>
                                                                         </div>
                                                                     </div>
                                                                 </div>
                                                             </div>
 
-                                                            <div id="collapseOne-0" class="collapse show" aria-labelledby="headingOne-0">
-                                                                <div class="mx-5 custom-border-color-pale mb-5 indicator-responsive-collapse">
-                                                                    <table class="table table-vertical-center indicator-table">
-                                                                        <thead class="steps-table-header-color">
-                                                                            <tr>
-                                                                                <th class="custom-font-style-sub-text" scope="col">Include</th>
-                                                                                <th class="custom-font-style-sub-text" scope="col">Metric</th>
-                                                                                <th class="custom-font-style-sub-text w-125px" scope="col">Target</th>
-                                                                                <th class="custom-font-style-sub-text" scope="col">Milestone</th>
-                                                                                <th class="custom-font-style-sub-text" scope="col">Type</th>
-                                                                                <th class="custom-font-style-sub-text" scope="col">Actions</th>
-                                                                            </tr>
-                                                                        </thead>
-                                                                        <tbody class="bg-white">
-                                                                            <tr>
-                                                                                <td>
-                                                                                    <label class="container-chkbox">
-                                                                                        <input type="checkbox" checked="checked">
-                                                                                        <span class="checkmark"></span>
-                                                                                    </label>
-                                                                                </td>
-                                                                                <td>
-                                                                                    3.1.1.1 Percentage (%) of the landscape with formalized land tenure rights
-                                                                                </td>
-                                                                                <td>
-                                                                                    <a href="#" class="custom-bg-warning custom-border-radius-35 px-3 py-2 align-items-center">
-                                                                                        <span><img src="../assets/media/dark_edit.png" style="width: 10%;" alt=""></span>
-                                                                                        <span class="custom-font-style-xs custom-text-primary">Add/Edit</span>
-                                                                                    </a>
-                                                                                </td>
-                                                                                <td></td>
-                                                                                <td>
-                                                                                    <span class="custom-bg-primary custom-text-light-pale custom-font-style-xs custom-border-radius-3 p-1">Required</span>
-                                                                                </td>
-                                                                                <td>
-                                                                                    <span class="custom-bg-primary custom-text-light-pale custom-font-style-xs custom-border-radius-3 p-1">Modify</span>
-                                                                                </td>
-                                                                            </tr>
-                                                                            <tr>
-                                                                                <td>
-                                                                                    <label class="container-chkbox">
-                                                                                        <input type="checkbox" checked="checked">
-                                                                                        <span class="checkmark"></span>
-                                                                                    </label>
-                                                                                </td>
-                                                                                <td>
-                                                                                    3.1.1.1 Percentage (%) of the landscape with formalized land tenure rights
-                                                                                </td>
-                                                                                <td>
-                                                                                    <a href="#" class="custom-bg-warning custom-border-radius-35 px-3 py-2 align-items-center">
-                                                                                        <span><img src="../assets/media/dark_edit.png" style="width: 10%;" alt=""></span>
-                                                                                        <span class="custom-font-style-xs custom-text-primary">Add/Edit</span>
-                                                                                    </a>
-                                                                                </td>
-                                                                                <td></td>
-                                                                                <td>
-                                                                                    <span class="custom-bg-primary custom-text-light-pale custom-font-style-xs custom-border-radius-3 p-1">Required</span>
-                                                                                </td>
-                                                                                <td>
-                                                                                    <span class="custom-bg-primary custom-text-light-pale custom-font-style-xs custom-border-radius-3 p-1">Modify</span>
-                                                                                </td>
-                                                                            </tr>
+                                                            <div id="collapseOne-0" class="collapse custom-text-primary custom-cursor-pointer show" aria-labelledby="headingOne-0">
+                                                                <div class="card">
+                                                                    <div class="pl-17 py-4 d-flex justify-content-between align-items-center" data-toggle="collapse" data-target="#collapseOneA">
+                                                                        <span>3.1.1 Land tenure</span>
+                                                                        <span class="pr-20"><img src="../assets/media/Vector_arrow_down.png" alt=""></span>
+                                                                    </div>
+                                                                    <div class="collapse custom-border-bottom-pale" id="collapseOneA">
+                                                                        <div class="mx-10 mt-5">
+                                                                            <table class="table table-vertical-center indicator-table">
+                                                                                <thead class="steps-table-header-color">
+                                                                                    <tr>
+                                                                                        <th class="custom-font-style-sub-text" scope="col">Include</th>
+                                                                                        <th class="custom-font-style-sub-text" scope="col">Metric</th>
+                                                                                        <th class="custom-font-style-sub-text w-125px" scope="col">Target</th>
+                                                                                        <th class="custom-font-style-sub-text" scope="col">Milestone</th>
+                                                                                        <th class="custom-font-style-sub-text" scope="col">Type</th>
+                                                                                        <th class="custom-font-style-sub-text" scope="col">Actions</th>
+                                                                                    </tr>
+                                                                                </thead>
+                                                                                <tbody class="bg-white">
+                                                                                    <tr>
+                                                                                        <td>
+                                                                                            <label class="container-chkbox">
+                                                                                                <input type="checkbox" checked="checked">
+                                                                                                <span class="checkmark"></span>
+                                                                                            </label>
+                                                                                        </td>
+                                                                                        <td>
+                                                                                            3.1.1.1 Percentage (%) of the landscape with formalized land tenure rights
+                                                                                        </td>
+                                                                                        <td>
+                                                                                            <a href="#" class="custom-bg-warning custom-border-radius-35 px-3 py-2 align-items-center">
+                                                                                                <span><img src="../assets/media/dark_edit.png" style="width: 10%;" alt=""></span>
+                                                                                                <span class="custom-font-style-xs custom-text-primary">Add/Edit</span>
+                                                                                            </a>
+                                                                                        </td>
+                                                                                        <td></td>
+                                                                                        <td>
+                                                                                            <span class="custom-bg-primary custom-text-light-pale custom-font-style-xs custom-border-radius-3 p-1">Required</span>
+                                                                                        </td>
+                                                                                        <td>
+                                                                                            <span class="custom-bg-primary custom-text-light-pale custom-font-style-xs custom-border-radius-3 p-1">Modify</span>
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td>
+                                                                                            <label class="container-chkbox">
+                                                                                                <input type="checkbox" checked="checked">
+                                                                                                <span class="checkmark"></span>
+                                                                                            </label>
+                                                                                        </td>
+                                                                                        <td>
+                                                                                            3.1.1.2 User-defined metric(s) for gender dimension of land tenure rights
+                                                                                        </td>
+                                                                                        <td>
+                                                                                            <a href="#" class="custom-bg-warning custom-border-radius-35 px-3 py-2 align-items-center">
+                                                                                                <span><img src="../assets/media/dark_edit.png" style="width: 10%;" alt=""></span>
+                                                                                                <span class="custom-font-style-xs custom-text-primary">Add/Edit</span>
+                                                                                            </a>
+                                                                                        </td>
+                                                                                        <td></td>
+                                                                                        <td>
+                                                                                            <span class="custom-bg-primary custom-text-light-pale custom-font-style-xs custom-border-radius-3 p-1">Required</span>
+                                                                                        </td>
+                                                                                        <td>
+                                                                                            <span class="custom-bg-primary custom-text-light-pale custom-font-style-xs custom-border-radius-3 p-1">Modify</span>
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                </tbody>
+                                                                            </table>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="card">
+                                                                    <div class="pl-17 py-4 d-flex justify-content-between align-items-center" data-toggle="collapse" data-target="#collapseOneB">
+                                                                        <span>3.1.2 Land conflicts</span>
+                                                                        <span class="pr-20"><img src="../assets/media/Vector_arrow_down.png" alt=""></span>
+                                                                    </div>
+                                                                    <div class="collapse custom-border-bottom-pale" id="collapseOneB">
+                                                                        <div class="mx-10 mt-5">
+                                                                            <table class="table table-vertical-center indicator-table">
+                                                                                <thead class="steps-table-header-color">
+                                                                                    <tr>
+                                                                                        <th class="custom-font-style-sub-text" scope="col">Include</th>
+                                                                                        <th class="custom-font-style-sub-text" scope="col">Metric</th>
+                                                                                        <th class="custom-font-style-sub-text w-125px" scope="col">Target</th>
+                                                                                        <th class="custom-font-style-sub-text" scope="col">Milestone</th>
+                                                                                        <th class="custom-font-style-sub-text" scope="col">Type</th>
+                                                                                        <th class="custom-font-style-sub-text" scope="col">Actions</th>
+                                                                                    </tr>
+                                                                                </thead>
+                                                                                <tbody class="bg-white">
+                                                                                    <tr>
+                                                                                        <td>
+                                                                                            <label class="container-chkbox">
+                                                                                                <input type="checkbox" checked="checked">
+                                                                                                <span class="checkmark"></span>
+                                                                                            </label>
+                                                                                        </td>
+                                                                                        <td>
+                                                                                            3.1.2.1 Number of unresolved land and resource conflicts or grievances, and the area of land (ha) subject to such conflicts
+                                                                                        </td>
+                                                                                        <td>
+                                                                                            <a href="#" class="custom-bg-warning custom-border-radius-35 px-3 py-2 align-items-center">
+                                                                                                <span><img src="../assets/media/dark_edit.png" style="width: 10%;" alt=""></span>
+                                                                                                <span class="custom-font-style-xs custom-text-primary">Add/Edit</span>
+                                                                                            </a>
+                                                                                        </td>
+                                                                                        <td></td>
+                                                                                        <td>
+                                                                                            <span class="custom-bg-primary custom-text-light-pale custom-font-style-xs custom-border-radius-3 p-1">Required</span>
+                                                                                        </td>
+                                                                                        <td>
+                                                                                            <span class="custom-bg-primary custom-text-light-pale custom-font-style-xs custom-border-radius-3 p-1">Modify</span>
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td>
+                                                                                            <label class="container-chkbox">
+                                                                                                <input type="checkbox" checked="checked">
+                                                                                                <span class="checkmark"></span>
+                                                                                            </label>
+                                                                                        </td>
+                                                                                        <td>
+                                                                                            3.1.2.2 Number of women and men, young and adult (e.g., environmental and human rights defenders) subject to violence or receiving threats of violence as a result of conflicts over land & resources
+                                                                                        </td>
+                                                                                        <td>
+                                                                                            <a href="#" class="custom-bg-warning custom-border-radius-35 px-3 py-2 align-items-center">
+                                                                                                <span><img src="../assets/media/dark_edit.png" style="width: 10%;" alt=""></span>
+                                                                                                <span class="custom-font-style-xs custom-text-primary">Add/Edit</span>
+                                                                                            </a>
+                                                                                        </td>
+                                                                                        <td></td>
+                                                                                        <td>
+                                                                                            <span class="custom-bg-primary custom-text-light-pale custom-font-style-xs custom-border-radius-3 p-1">Required</span>
+                                                                                        </td>
+                                                                                        <td>
+                                                                                            <span class="custom-bg-primary custom-text-light-pale custom-font-style-xs custom-border-radius-3 p-1">Modify</span>
+                                                                                        </td>
+                                                                                    </tr>
 
-                                                                        </tbody>
-                                                                    </table>
+                                                                                </tbody>
+                                                                            </table>
+                                                                        </div>
+                                                                    </div>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -875,12 +1447,17 @@ License: You must have a valid license purchased only from themeforest(the above
                                                             <div class="card-header bg-white indicator-accordian-card-header" id="headingTwo-0">
                                                                 <div class="btn btn-block text-left collapsed indicator-accordian-responsive" role="region" data-toggle="collapse" data-target="#collapseTwo-0" aria-expanded="false" aria-controls="collapseTwo-0">
                                                                     <div class="row">
-                                                                        <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
-                                                                            <span>
-                                                                                3.1.2 Land conflicts
+                                                                        <div class="col-lg-1 col-md-1 col-sm-12 col-xs-12 pr-0 max-w-6-percent">
+                                                                            <div class="d-flex align-items-center h-100">
+                                                                                <img src="../assets/media/icons_and_Illustrations/Icons/PNGs/Governance/Sub icons/Icons_Tier 2_Governance_B_Pale Green.png" style="width: 30px;" alt="">
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12 pl-0">
+                                                                            <span class="d-flex align-items-center h-100">
+                                                                                3.2 Promote transparency, participation, inclusion, and coordination in landscape policy, planning, and management
                                                                             </span>
                                                                         </div>
-                                                                        <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                                                                        <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
                                                                             <div class="steps-image-container indicator-image-container-responsive mr-5">
                                                                                 <img src="../assets/media/icons_and_Illustrations/Avatars/Avatars_Baboon.png" class="step-unit-image-1" alt="">
                                                                                 <img src="../assets/media/icons_and_Illustrations/Avatars/Avatars_Frog.png" class="step-unit-image-2" alt="">
@@ -890,105 +1467,112 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                             </div>
                                                                         </div>
                                                                         <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
-                                                                            <span class="steps-tags-text steps-success-tag p-1 custom-position-relative">Completed</span>
+                                                                            <span class="steps-tags-text steps-success-tag p-1 custom-position-relative d-flex align-items-center h-100">
+                                                                                Completed
+                                                                            </span>
                                                                         </div>
                                                                         <div class="col-lg-1 col-md-1 col-sm-12 col-xs-12">
-                                                                            <span class=" p-1"><img src="../assets/media/Vector_arrow_down.png" alt=""></span>
+                                                                            <span class="d-flex align-items-center h-100 p-1"><img src="../assets/media/Vector_arrow_down.png" alt=""></span>
                                                                         </div>
                                                                     </div>
                                                                 </div>
                                                             </div>
-                                                            <div id="collapseTwo-0" class="collapse" aria-labelledby="headingTwo-0">
-                                                                <div class="mx-5 custom-border-color-pale mb-5 indicator-responsive-collapse">
-                                                                    <table class="table table-vertical-center indicator-table">
-                                                                        <thead class="steps-table-header-color">
-                                                                            <tr>
-                                                                                <th class="custom-font-style-sub-text" scope="col">Include</th>
-                                                                                <th class="custom-font-style-sub-text" scope="col">Metric</th>
-                                                                                <th class="custom-font-style-sub-text w-125px" scope="col">Target</th>
-                                                                                <th class="custom-font-style-sub-text" scope="col">Milestone</th>
-                                                                                <th class="custom-font-style-sub-text" scope="col">Type</th>
-                                                                                <th class="custom-font-style-sub-text" scope="col">Actions</th>
-                                                                            </tr>
-                                                                        </thead>
-                                                                        <tbody class="bg-white">
-                                                                            <tr>
-                                                                                <td>
-                                                                                    <label class="container-chkbox">
-                                                                                        <input type="checkbox" checked="checked">
-                                                                                        <span class="checkmark"></span>
-                                                                                    </label>
-                                                                                </td>
-                                                                                <td>
-                                                                                    3.1.2.1 Number of unresolved land and resource conflicts or grievances, and the area of land (ha) subject to such conflicts
-                                                                                </td>
-                                                                                <td>
-                                                                                    <a href="#" class="custom-bg-warning custom-border-radius-35 px-3 py-2 align-items-center">
-                                                                                        <span><img src="../assets/media/dark_edit.png" style="width: 10%;" alt=""></span>
-                                                                                        <span class="custom-font-style-xs custom-text-primary">Add/Edit</span>
-                                                                                    </a>
-                                                                                </td>
-                                                                                <td></td>
-                                                                                <td>
-                                                                                    <span class="custom-bg-primary custom-text-light-pale custom-font-style-xs custom-border-radius-3 p-1">Required</span>
-                                                                                </td>
-                                                                                <td>
-                                                                                    <span class="custom-bg-primary custom-text-light-pale custom-font-style-xs custom-border-radius-3 p-1">Modify</span>
-                                                                                </td>
-                                                                            </tr>
-                                                                            <tr>
-                                                                                <td>
-                                                                                    <label class="container-chkbox">
-                                                                                        <input type="checkbox" checked="checked">
-                                                                                        <span class="checkmark"></span>
-                                                                                    </label>
-                                                                                </td>
-                                                                                <td>
-                                                                                    3.1.2.2 Number of women and men, young and adult (e.g., environmental and human rights defenders) subject to violence or receiving threats of violence as a result of conflicts over land & resources
-                                                                                </td>
-                                                                                <td>
-                                                                                    <a href="#" class="custom-bg-warning custom-border-radius-35 px-3 py-2 align-items-center">
-                                                                                        <span><img src="../assets/media/dark_edit.png" style="width: 10%;" alt=""></span>
-                                                                                        <span class="custom-font-style-xs custom-text-primary">Add/Edit</span>
-                                                                                    </a>
-                                                                                </td>
-                                                                                <td></td>
-                                                                                <td>
-                                                                                    <span class="custom-bg-primary custom-text-light-pale custom-font-style-xs custom-border-radius-3 p-1">Required</span>
-                                                                                </td>
-                                                                                <td>
-                                                                                    <span class="custom-bg-primary custom-text-light-pale custom-font-style-xs custom-border-radius-3 p-1">Modify</span>
-                                                                                </td>
-                                                                            </tr>
+                                                            <div id="collapseTwo-0" class="collapse custom-text-primary custom-cursor-pointer" aria-labelledby="headingTwo-0">
+                                                                <div class="card">
+                                                                    <div class="pl-17 py-4 d-flex justify-content-between align-items-center" data-toggle="collapse" data-target="#collapseTwoA">
+                                                                        <span>3.2.1 Land-use plan adoption & enforcement</span>
+                                                                        <span class="pr-20"><img src="../assets/media/Vector_arrow_down.png" alt=""></span>
+                                                                    </div>
+                                                                    <div class="collapse custom-border-bottom-pale" id="collapseTwoA">
+                                                                        <div class="mx-10 mt-5">
+                                                                            <table class="table table-vertical-center indicator-table">
+                                                                                <thead class="steps-table-header-color">
+                                                                                    <tr>
+                                                                                        <th class="custom-font-style-sub-text" scope="col">Include</th>
+                                                                                        <th class="custom-font-style-sub-text" scope="col">Metric</th>
+                                                                                        <th class="custom-font-style-sub-text w-125px" scope="col">Target</th>
+                                                                                        <th class="custom-font-style-sub-text" scope="col">Milestone</th>
+                                                                                        <th class="custom-font-style-sub-text" scope="col">Type</th>
+                                                                                        <th class="custom-font-style-sub-text" scope="col">Actions</th>
+                                                                                    </tr>
+                                                                                </thead>
+                                                                                <tbody class="bg-white">
+                                                                                    <tr>
+                                                                                        <td>
+                                                                                            <label class="container-chkbox">
+                                                                                                <input type="checkbox" checked="checked">
+                                                                                                <span class="checkmark"></span>
+                                                                                            </label>
+                                                                                        </td>
+                                                                                        <td>
+                                                                                            3.2.1.1 Quality and status of land-use and/or zoning plans (based on Sustainable Landscapes Rating Tool [SLRT] indicators 1.1.1, 1.1.2 and 1.1.3)
+                                                                                        </td>
+                                                                                        <td>
+                                                                                            <a href="#" class="custom-bg-warning custom-border-radius-35 px-3 py-2 align-items-center">
+                                                                                                <span><img src="../assets/media/dark_edit.png" style="width: 10%;" alt=""></span>
+                                                                                                <span class="custom-font-style-xs custom-text-primary">Add/Edit</span>
+                                                                                            </a>
+                                                                                        </td>
+                                                                                        <td></td>
+                                                                                        <td>
+                                                                                            <span class="custom-bg-primary custom-text-light-pale custom-font-style-xs custom-border-radius-3 p-1">Required</span>
+                                                                                        </td>
+                                                                                        <td>
+                                                                                            <span class="custom-bg-primary custom-text-light-pale custom-font-style-xs custom-border-radius-3 p-1">Modify</span>
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td>
+                                                                                            <label class="container-chkbox">
+                                                                                                <input type="checkbox" checked="checked">
+                                                                                                <span class="checkmark"></span>
+                                                                                            </label>
+                                                                                        </td>
+                                                                                        <td>
+                                                                                            3.2.1.2 Percentage (%) of landscape covered by land-use or zoning plans that are formally adopted and enforceable
+                                                                                        </td>
+                                                                                        <td>
+                                                                                            <a href="#" class="custom-bg-warning custom-border-radius-35 px-3 py-2 align-items-center">
+                                                                                                <span><img src="../assets/media/dark_edit.png" style="width: 10%;" alt=""></span>
+                                                                                                <span class="custom-font-style-xs custom-text-primary">Add/Edit</span>
+                                                                                            </a>
+                                                                                        </td>
+                                                                                        <td></td>
+                                                                                        <td>
+                                                                                            <span class="custom-bg-primary custom-text-light-pale custom-font-style-xs custom-border-radius-3 p-1">Required</span>
+                                                                                        </td>
+                                                                                        <td>
+                                                                                            <span class="custom-bg-primary custom-text-light-pale custom-font-style-xs custom-border-radius-3 p-1">Modify</span>
+                                                                                        </td>
+                                                                                    </tr>
 
-                                                                        </tbody>
-                                                                    </table>
+
+                                                                                </tbody>
+                                                                            </table>
+                                                                        </div>
+                                                                    </div>
                                                                 </div>
                                                             </div>
                                                         </div>
-
                                                     </div>
                                                 </div>
                                                 <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">
-                                                    <div class="mt-5 px-5">
-                                                        <div class="select-wrapper">
-                                                            <select name="indicator_filter" class="form-control custom-bg-primary text-light custom-select-arrow">
-                                                                <option value="1">4.1 Promote regenerative, agricultural, agroforestry, and tree production systems</option>
-                                                                <option value="1">4.2 Promote sustainability of other natural resource-based production sectors</option>
-                                                            </select>
-                                                        </div>
-                                                    </div>
-                                                    <div class="accordion m-5" id="accordionExample-1">
+                                                    <div class="accordion m-5" id="accordionExample-0">
                                                         <div class="card indicator-accordian-card">
                                                             <div class="card-header bg-white indicator-accordian-card-header" id="headingOne-0">
                                                                 <div class="btn btn-block text-left indicator-accordian-responsive" role="region" data-toggle="collapse" data-target="#collapseOne-0" aria-expanded="true" aria-controls="collapseOne-0">
                                                                     <div class="row">
-                                                                        <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
-                                                                            <span>
-                                                                                4.1.1 Agricultural, agroforestry & tree plantation productivity
+                                                                        <div class="col-lg-1 col-md-1 col-sm-12 col-xs-12 pr-0 max-w-6-percent">
+                                                                            <div class="d-flex align-items-center h-100">
+                                                                                <img src="../assets/media/icons_and_Illustrations/Icons/PNGs/Production/Sub icons/Icons_Tier 2_Production_A_Pale Green.png" style="width: 30px;" alt="">
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12 pl-0">
+                                                                            <span class="d-flex align-items-center h-100">
+                                                                                4.1 Promote regenerative, agricultural, agroforestry, and tree production systems
                                                                             </span>
                                                                         </div>
-                                                                        <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                                                                        <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
                                                                             <div class="steps-image-container indicator-image-container-responsive mr-5">
                                                                                 <img src="../assets/media/icons_and_Illustrations/Avatars/Avatars_Baboon.png" class="step-unit-image-1" alt="">
                                                                                 <img src="../assets/media/icons_and_Illustrations/Avatars/Avatars_Frog.png" class="step-unit-image-2" alt="">
@@ -998,156 +1582,117 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                             </div>
                                                                         </div>
                                                                         <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
-                                                                            <span class="steps-tags-text steps-success-tag p-1 custom-position-relative">Completed</span>
-                                                                        </div>
-                                                                        <div class="col-lg-1 col-md-1 col-sm-12 col-xs-12">
-                                                                            <span class=" p-1"><img src="../assets/media/Vector_arrow_down.png" alt=""></span>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-
-                                                            <div id="collapseOne-0" class="collapse show" aria-labelledby="headingOne-0">
-                                                                <div class="mx-5 custom-border-color-pale mb-5 indicator-responsive-collapse">
-                                                                    <table class="table table-vertical-center indicator-table">
-                                                                        <thead class="steps-table-header-color">
-                                                                            <tr>
-                                                                                <th class="custom-font-style-sub-text" scope="col">Include</th>
-                                                                                <th class="custom-font-style-sub-text" scope="col">Metric</th>
-                                                                                <th class="custom-font-style-sub-text w-125px" scope="col">Target</th>
-                                                                                <th class="custom-font-style-sub-text" scope="col">Milestone</th>
-                                                                                <th class="custom-font-style-sub-text" scope="col">Type</th>
-                                                                                <th class="custom-font-style-sub-text" scope="col">Actions</th>
-                                                                            </tr>
-                                                                        </thead>
-                                                                        <tbody class="bg-white">
-                                                                            <tr>
-                                                                                <td>
-                                                                                    <label class="container-chkbox">
-                                                                                        <input type="checkbox" checked="checked">
-                                                                                        <span class="checkmark"></span>
-                                                                                    </label>
-                                                                                </td>
-                                                                                <td>
-                                                                                    4.1.1.1 Average crop productivity (yield/ha) disaggregated by crop
-                                                                                </td>
-                                                                                <td>
-                                                                                    <a href="#" class="custom-bg-warning custom-border-radius-35 px-3 py-2 align-items-center">
-                                                                                        <span><img src="../assets/media/dark_edit.png" style="width: 10%;" alt=""></span>
-                                                                                        <span class="custom-font-style-xs custom-text-primary">Add/Edit</span>
-                                                                                    </a>
-                                                                                </td>
-                                                                                <td></td>
-                                                                                <td>
-                                                                                    <span class="custom-bg-primary custom-text-light-pale custom-font-style-xs custom-border-radius-3 p-1">Required</span>
-                                                                                </td>
-                                                                                <td>
-                                                                                    <span class="custom-bg-primary custom-text-light-pale custom-font-style-xs custom-border-radius-3 p-1">Modify</span>
-                                                                                </td>
-                                                                            </tr>
-                                                                            <tr>
-                                                                                <td>
-                                                                                    <label class="container-chkbox">
-                                                                                        <input type="checkbox" checked="checked">
-                                                                                        <span class="checkmark"></span>
-                                                                                    </label>
-                                                                                </td>
-                                                                                <td>
-                                                                                    4.1.1.2 Average productivity of pasture-raised animals (livestock units/ha or meat or dairy production/ha) disaggregated by animal type
-                                                                                </td>
-                                                                                <td>
-                                                                                    <a href="#" class="custom-bg-warning custom-border-radius-35 px-3 py-2 align-items-center">
-                                                                                        <span><img src="../assets/media/dark_edit.png" style="width: 10%;" alt=""></span>
-                                                                                        <span class="custom-font-style-xs custom-text-primary">Add/Edit</span>
-                                                                                    </a>
-                                                                                </td>
-                                                                                <td></td>
-                                                                                <td>
-                                                                                    <span class="custom-bg-primary custom-text-light-pale custom-font-style-xs custom-border-radius-3 p-1">Required</span>
-                                                                                </td>
-                                                                                <td>
-                                                                                    <span class="custom-bg-primary custom-text-light-pale custom-font-style-xs custom-border-radius-3 p-1">Modify</span>
-                                                                                </td>
-                                                                            </tr>
-
-                                                                        </tbody>
-                                                                    </table>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div class="card indicator-accordian-card">
-                                                            <div class="card-header bg-white indicator-accordian-card-header" id="headingTwo-0">
-                                                                <div class="btn btn-block text-left collapsed indicator-accordian-responsive" role="region" data-toggle="collapse" data-target="#collapseTwo-0" aria-expanded="false" aria-controls="collapseTwo-0">
-                                                                    <div class="row">
-                                                                        <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
-                                                                            <span>
-                                                                                4.2.1 User-defined indicator(s)
+                                                                            <span class="steps-tags-text steps-success-tag p-1 custom-position-relative d-flex align-items-center h-100">
+                                                                                Completed
                                                                             </span>
                                                                         </div>
-                                                                        <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-                                                                            <div class="steps-image-container indicator-image-container-responsive mr-5">
-                                                                                <img src="../assets/media/icons_and_Illustrations/Avatars/Avatars_Baboon.png" class="step-unit-image-1" alt="">
-                                                                                <img src="../assets/media/icons_and_Illustrations/Avatars/Avatars_Frog.png" class="step-unit-image-2" alt="">
-                                                                                <img src="../assets/media/icons_and_Illustrations/Avatars/Avatars_Parrot.png" class="step-unit-image-3" alt="">
-                                                                                <span class="step-unit-counter d-inline-block">6+</span>
-                                                                                <img src="../assets/media/add_person.png" class="step-unit-image-4" alt="">
-                                                                            </div>
-                                                                        </div>
-                                                                        <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
-                                                                            <span class="steps-tags-text steps-success-tag p-1 custom-position-relative">Completed</span>
-                                                                        </div>
                                                                         <div class="col-lg-1 col-md-1 col-sm-12 col-xs-12">
-                                                                            <span class=" p-1"><img src="../assets/media/Vector_arrow_down.png" alt=""></span>
+                                                                            <span class="d-flex align-items-center h-100 p-1"><img src="../assets/media/Vector_arrow_down.png" alt=""></span>
                                                                         </div>
                                                                     </div>
                                                                 </div>
                                                             </div>
-                                                            <!-- place data-parent here if need to collapse previous accordians while clicking on other -->
-                                                            <div id="collapseTwo-0" class="collapse" aria-labelledby="headingTwo-0">
-                                                                <div class="mx-5 custom-border-color-pale mb-5 indicator-responsive-collapse">
-                                                                    <table class="table table-vertical-center indicator-table">
-                                                                        <thead class="steps-table-header-color">
-                                                                            <tr>
-                                                                                <th class="custom-font-style-sub-text" scope="col">Include</th>
-                                                                                <th class="custom-font-style-sub-text" scope="col">Metric</th>
-                                                                                <th class="custom-font-style-sub-text w-125px" scope="col">Target</th>
-                                                                                <th class="custom-font-style-sub-text" scope="col">Milestone</th>
-                                                                                <th class="custom-font-style-sub-text" scope="col">Type</th>
-                                                                                <th class="custom-font-style-sub-text" scope="col">Actions</th>
-                                                                            </tr>
-                                                                        </thead>
-                                                                        <tbody class="bg-white">
-                                                                            <tr>
-                                                                                <td>
-                                                                                    <label class="container-chkbox">
-                                                                                        <input type="checkbox" checked="checked">
-                                                                                        <span class="checkmark"></span>
-                                                                                    </label>
-                                                                                </td>
-                                                                                <td>
-                                                                                    4.2.1.1 Average forest plantation productivity (timber volume/ha) disaggregated by plantation type
-                                                                                </td>
-                                                                                <td>
-                                                                                    <a href="#" class="custom-bg-warning custom-border-radius-35 px-3 py-2 align-items-center">
-                                                                                        <span><img src="../assets/media/dark_edit.png" style="width: 10%;" alt=""></span>
-                                                                                        <span class="custom-font-style-xs custom-text-primary">Add/Edit</span>
-                                                                                    </a>
-                                                                                </td>
-                                                                                <td></td>
-                                                                                <td>
-                                                                                    <span class="custom-bg-primary custom-text-light-pale custom-font-style-xs custom-border-radius-3 p-1">Required</span>
-                                                                                </td>
-                                                                                <td>
-                                                                                    <span class="custom-bg-primary custom-text-light-pale custom-font-style-xs custom-border-radius-3 p-1">Modify</span>
-                                                                                </td>
-                                                                            </tr>
 
-                                                                        </tbody>
-                                                                    </table>
+                                                            <div id="collapseOne-0" class="collapse show custom-text-primary custom-cursor-pointer" aria-labelledby="headingOne-0">
+                                                                <div class="card">
+                                                                    <div class="pl-17 py-4 d-flex justify-content-between align-items-center" data-toggle="collapse" data-target="#collapseOneA">
+                                                                        <span>4.1.1 Agricultural, agroforestry & tree plantation productivity</span>
+                                                                        <span class="pr-20"><img src="../assets/media/Vector_arrow_down.png" alt=""></span>
+                                                                    </div>
+                                                                    <div class="collapse custom-border-bottom-pale" id="collapseOneA">
+                                                                        <div class="mx-10 mt-5">
+                                                                            <table class="table table-vertical-center indicator-table">
+                                                                                <thead class="steps-table-header-color">
+                                                                                    <tr>
+                                                                                        <th class="custom-font-style-sub-text" scope="col">Include</th>
+                                                                                        <th class="custom-font-style-sub-text" scope="col">Metric</th>
+                                                                                        <th class="custom-font-style-sub-text w-125px" scope="col">Target</th>
+                                                                                        <th class="custom-font-style-sub-text" scope="col">Milestone</th>
+                                                                                        <th class="custom-font-style-sub-text" scope="col">Type</th>
+                                                                                        <th class="custom-font-style-sub-text" scope="col">Actions</th>
+                                                                                    </tr>
+                                                                                </thead>
+                                                                                <tbody class="bg-white">
+                                                                                    <tr>
+                                                                                        <td>
+                                                                                            <label class="container-chkbox">
+                                                                                                <input type="checkbox" checked="checked">
+                                                                                                <span class="checkmark"></span>
+                                                                                            </label>
+                                                                                        </td>
+                                                                                        <td>
+                                                                                            4.1.1.1 Average crop productivity (yield/ha) disaggregated by crop
+                                                                                        </td>
+                                                                                        <td>
+                                                                                            <a href="#" class="custom-bg-warning custom-border-radius-35 px-3 py-2 align-items-center">
+                                                                                                <span><img src="../assets/media/dark_edit.png" style="width: 10%;" alt=""></span>
+                                                                                                <span class="custom-font-style-xs custom-text-primary">Add/Edit</span>
+                                                                                            </a>
+                                                                                        </td>
+                                                                                        <td></td>
+                                                                                        <td>
+                                                                                            <span class="custom-bg-primary custom-text-light-pale custom-font-style-xs custom-border-radius-3 p-1">Required</span>
+                                                                                        </td>
+                                                                                        <td>
+                                                                                            <span class="custom-bg-primary custom-text-light-pale custom-font-style-xs custom-border-radius-3 p-1">Modify</span>
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td>
+                                                                                            <label class="container-chkbox">
+                                                                                                <input type="checkbox" checked="checked">
+                                                                                                <span class="checkmark"></span>
+                                                                                            </label>
+                                                                                        </td>
+                                                                                        <td>
+                                                                                            4.1.1.2 Average productivity of pasture-raised animals (livestock units/ha or meat or dairy production/ha) disaggregated by animal type
+                                                                                        </td>
+                                                                                        <td>
+                                                                                            <a href="#" class="custom-bg-warning custom-border-radius-35 px-3 py-2 align-items-center">
+                                                                                                <span><img src="../assets/media/dark_edit.png" style="width: 10%;" alt=""></span>
+                                                                                                <span class="custom-font-style-xs custom-text-primary">Add/Edit</span>
+                                                                                            </a>
+                                                                                        </td>
+                                                                                        <td></td>
+                                                                                        <td>
+                                                                                            <span class="custom-bg-primary custom-text-light-pale custom-font-style-xs custom-border-radius-3 p-1">Required</span>
+                                                                                        </td>
+                                                                                        <td>
+                                                                                            <span class="custom-bg-primary custom-text-light-pale custom-font-style-xs custom-border-radius-3 p-1">Modify</span>
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td>
+                                                                                            <label class="container-chkbox">
+                                                                                                <input type="checkbox" checked="checked">
+                                                                                                <span class="checkmark"></span>
+                                                                                            </label>
+                                                                                        </td>
+                                                                                        <td>
+                                                                                            4.1.1.3 Average forest plantation productivity (timber volume/ha) disaggregated by plantation type
+                                                                                        </td>
+                                                                                        <td>
+                                                                                            <a href="#" class="custom-bg-warning custom-border-radius-35 px-3 py-2 align-items-center">
+                                                                                                <span><img src="../assets/media/dark_edit.png" style="width: 10%;" alt=""></span>
+                                                                                                <span class="custom-font-style-xs custom-text-primary">Add/Edit</span>
+                                                                                            </a>
+                                                                                        </td>
+                                                                                        <td></td>
+                                                                                        <td>
+                                                                                            <span class="custom-bg-primary custom-text-light-pale custom-font-style-xs custom-border-radius-3 p-1">Required</span>
+                                                                                        </td>
+                                                                                        <td>
+                                                                                            <span class="custom-bg-primary custom-text-light-pale custom-font-style-xs custom-border-radius-3 p-1">Modify</span>
+                                                                                        </td>
+                                                                                    </tr>
+
+                                                                                </tbody>
+                                                                            </table>
+                                                                        </div>
+                                                                    </div>
                                                                 </div>
                                                             </div>
                                                         </div>
-
                                                     </div>
                                                 </div>
                                             </div>

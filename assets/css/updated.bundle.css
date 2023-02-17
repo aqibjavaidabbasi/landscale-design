@@ -101085,6 +101085,10 @@ select {
     color: #074A37 !important;
 }
 
+.max-w-6-percent {
+    max-width: 6% !important;
+}
+
 
 /* switch btn end */
 
