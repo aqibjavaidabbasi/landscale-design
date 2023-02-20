@@ -101093,8 +101093,20 @@ select {
     max-width: 32% !important;
 }
 
-
 /* switch btn end */
+.dataTables_wrapper .dataTables_paginate .paginate_button {
+    border: none !important;
+    margin-left: 0px !important;
+    border-radius: 3px !important;
+    background-color: #EBF2E4 !important;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button.current {
+    background-color: #337ab7 !important;
+    color: #fff !important;
+    border: none !important;
+}
+
 
 /* end utilities */
 
@@ -101439,6 +101451,40 @@ table#kt_datatable tbody tr:nth-child(odd) {
 
     .custom-display-none {
         display: none !important;
+    }
+
+    .my-5-res {
+        margin-top: 5px !important;
+        margin-bottom: 5px !important;
+    }
+
+    .mx-5-res {
+        margin-left: 5px !important;
+        margin-right: 5px !important;
+    }
+
+    .mt-5-res {
+        margin-top: 5px !important;
+    }
+    
+    .mb-5-res {
+        margin-bottom: 5px !important;
+    }
+    
+    .mr-5-res {
+        margin-right: 5px !important;
+    }
+    
+    .ml-5-res {
+        margin-left: 5px !important;
+    }
+
+    .mb-100-res {
+        margin-bottom: 100px !important;
+    }
+
+    .mb-160-res {
+        margin-bottom: 160px !important;
     }
 
     /* .responsive-width-auto {

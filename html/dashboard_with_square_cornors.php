@@ -157,7 +157,7 @@ License: You must have a valid license purchased only from themeforest(the above
                             </div>
 
                             <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                                <div class="card w-100 h-100 d-flex justify-content-center">
+                                <div class="card w-100 h-100 d-flex justify-content-center mt-5-res">
                                     <div class="card-wrapper p-5">
                                         <div class="row">
                                             <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 responsive-margin-card">
@@ -170,7 +170,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                     </span>
                                                 </div>
                                             </div>
-                                            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 responsive-margin-card">
+                                            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 my-5-res">
                                                 <div class="p-5 custom-bg-light-pale text-center custom-border-radius-15 h-100 custom-cursor-pointer">
                                                     <div class="mb-3 mt-2">
                                                         <svg width="33" height="27" viewBox="0 0 33 27" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -196,7 +196,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="row" style="margin-top: 20px;">
+                                        <div class="row my-5-res" style="margin-top: 20px;">
                                             <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 responsive-margin-card">
                                                 <div class="p-5 custom-bg-light-pale text-center custom-border-radius-15 h-100 custom-cursor-pointer">
                                                     <div class="mb-3 mt-2">
@@ -219,7 +219,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                     </span>
                                                 </div>
                                             </div>
-                                            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 responsive-margin-card">
+                                            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 responsive-margin-card my-5-res">
                                                 <div class="p-5 custom-bg-light-pale text-center custom-border-radius-15 h-100 custom-cursor-pointer">
                                                     <div class="mb-3 mt-2">
                                                         <img src="../assets/media/Community_of_practice.png" alt="">

@@ -5,6 +5,7 @@
         <!--begin::Logo-->
         <a href="/metronic/demo1/index.html" class="brand-logo">
             <img alt="Logo" src="../assets/media/landscale_icon.svg">
+            <!-- assets/media/logo/FullColour/Landscale Logo_Full Colour.png -->
         </a>
         <!--end::Logo-->
     </div>

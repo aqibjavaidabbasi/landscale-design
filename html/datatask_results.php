@@ -142,7 +142,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                             <span class="custom-font-style-headings">Steps</span>
                                         </div>
                                         <div class="col-md-12 text-center">
-                                            <div class="wizard wizard-3" id="kt_wizard_v3" data-wizard-state="step-first" data-wizard-clickable="true" style="position: relative;">
+                                            <div class="wizard wizard-3 mb-100-res" id="kt_wizard_v3" data-wizard-state="step-first" data-wizard-clickable="true" style="position: relative;">
                                                 <div class="wizard-nav responsive-mobile step-nav-width">
                                                     <div class="wizard-steps metrices-step custom-steps-title px-8 py-8 px-lg-15 py-lg-3 margin-align responsive-nav-progress">
                                                         <!--begin::Wizard Step 1 Nav-->
@@ -222,7 +222,7 @@ License: You must have a valid license purchased only from themeforest(the above
 
                                     <div class="row mt-35">
                                         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                                            <div class="custom-bg-light-pale custom-border-radius-15 custom-border-color-pale h-100 p-10">
+                                            <div class="custom-bg-light-pale custom-border-radius-15 custom-border-color-pale h-100 p-5">
                                                 <span class="custom-font-style-headings custom-text-primary d-block mb-1">Step 4: Data Tasks & Results</span>
                                                 <!-- <span class="steps-default-text steps-small-text d-block my-5">View Instructions</span> -->
                                                 <span data-toggle="collapse" data-target="#demo" class="custom-font-style-text custom-text-primary d-block my-5 custom-cursor-pointer">View Instructions <img src="../assets/media/arrow_down.png" alt=""></span>
@@ -249,7 +249,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                             </span>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 responsive-margin-card">
+                                                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 my-5-res">
                                                         <div class="p-5 custom-bg-light-pale text-center custom-border-radius-15 h-100 custom-cursor-pointer">
                                                             <div class="mb-3 mt-2">
                                                                 <svg width="33" height="27" viewBox="0 0 33 27" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -275,7 +275,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="row" style="margin-top: 20px;">
+                                                <div class="row my-5-res" style="margin-top: 20px;">
                                                     <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 responsive-margin-card">
                                                         <div class="p-5 custom-bg-light-pale text-center custom-border-radius-15 h-100 custom-cursor-pointer">
                                                             <div class="mb-3 mt-2">
@@ -298,7 +298,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                             </span>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 responsive-margin-card">
+                                                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 my-5-res">
                                                         <div class="p-5 custom-bg-light-pale text-center custom-border-radius-15 h-100 custom-cursor-pointer">
                                                             <div class="mb-3 mt-2">
                                                                 <img src="../assets/media/Community_of_practice.png" alt="">

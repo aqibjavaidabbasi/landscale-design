@@ -140,7 +140,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                     <div class="row">
                                         <div class="col-md-12">
                                             <div class="col-md-12 text-center">
-                                                <div class="wizard wizard-3" id="kt_wizard_v3" data-wizard-state="step-first" data-wizard-clickable="true" style="position: relative;">
+                                                <div class="wizard wizard-3 mb-160-res" id="kt_wizard_v3" data-wizard-state="step-first" data-wizard-clickable="true" style="position: relative;">
                                                     <div class="wizard-nav responsive-mobile step-nav-width">
                                                         <div class="wizard-steps metrices-step custom-steps-title px-8 py-8 px-lg-15 py-lg-3 margin-align responsive-nav-progress">
                                                             <!--begin::Wizard Step 1 Nav-->
@@ -357,7 +357,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                             </span>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 responsive-margin-card">
+                                                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 my-5-res">
                                                         <div class="p-5 custom-bg-light-pale text-center custom-border-radius-15 h-100 custom-cursor-pointer">
                                                             <div class="mb-3 mt-2">
                                                                 <svg width="33" height="27" viewBox="0 0 33 27" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -383,7 +383,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="row" style="margin-top: 20px;">
+                                                <div class="row my-5-res" style="margin-top: 20px;">
                                                     <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 responsive-margin-card">
                                                         <div class="p-5 custom-bg-light-pale text-center custom-border-radius-15 h-100 custom-cursor-pointer">
                                                             <div class="mb-3 mt-2">
@@ -406,7 +406,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                             </span>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 responsive-margin-card">
+                                                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 my-5-res">
                                                         <div class="p-5 custom-bg-light-pale text-center custom-border-radius-15 h-100 custom-cursor-pointer">
                                                             <div class="mb-3 mt-2">
                                                                 <img src="../assets/media/Community_of_practice.png" alt="">
@@ -431,7 +431,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="row" style="margin-top: 20px;">
+                                                <div class="row my-5-res" style="margin-top: 20px;">
                                                     <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 responsive-margin-card">
                                                         <div class="p-5 custom-bg-light-pale text-center custom-border-radius-15 h-100 custom-cursor-pointer">
                                                             <div class="mb-3 mt-2">
@@ -454,7 +454,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                             </span>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 responsive-margin-card">
+                                                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 my-5-res">
                                                         <div class="p-5 custom-bg-light-pale text-center custom-border-radius-15 h-100 custom-cursor-pointer">
                                                             <div class="mb-3 mt-2">
                                                                 <img src="../assets/media/Community_of_practice.png" alt="">
@@ -480,10 +480,10 @@ License: You must have a valid license purchased only from themeforest(the above
                                         </div>
                                     </div>
                                     <div class="row custom-border-color-pale custom-border-radius-15 mx-0 mt-5">
-                                        <div class="col-md-3 col-sm-12 col-xs-12 pr-0">
-                                            <div class="custom-font-style-subheadings custom-text-primary p-5">
+                                        <div class="col-md-3 col-sm-12 col-xs-12 pr-0 mt-7">
+                                            <!-- <div class="custom-font-style-subheadings custom-text-primary p-5">
                                                 Custom Pillars
-                                            </div>
+                                            </div> -->
                                             <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
                                                 <a class="nav-link indicator-tab-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">
                                                     <!-- <span class="indicator-nav-icon active">
@@ -557,9 +557,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                         </div>
                                                                     </div>
                                                                     <div class="col-lg-1 col-md-1 col-sm-12 col-xs-12 pr-0">
-                                                                        <div class="d-flex align-items-center h-100">
-                                                                            <img src="../assets/media/Vector_arrow_down.png" alt="">
-                                                                        </div>
+                                                                        <span class="d-flex align-items-center h-100 p-1"><i class="fas fa-chevron-down"></i></span>
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -568,17 +566,17 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                     <div class="custom-text-primary">
                                                                         <div class="card-header pl-12 pr-22 py-5 d-flex justify-content-between align-items-center" data-toggle="collapse" data-target="#collapseOneA">
                                                                             <span>1.1.1 Effective conservation and protection of natural ecosystems</span>
-                                                                            <img src="../assets/media/Vector_arrow_down.png" alt="">
+                                                                            <i class="fas fa-chevron-down"></i>
                                                                         </div>
                                                                         <div class="collapse" id="collapseOneA">
                                                                             <div class="card-header pl-14 py-4 pr-22 d-flex justify-content-between align-items-center" data-toggle="collapse" data-target="#collapseOneB">
                                                                                 <span>1.1.1.1 Total area (ha) & percentage (%) of the landscape in designated protected areas disaggregated by natural ecosystem type</span>
-                                                                                <img src="../assets/media/Vector_arrow_down.png" alt="">
+                                                                                <i class="fas fa-chevron-down"></i>
                                                                             </div>
                                                                             <div class="collapse" id="collapseOneB">
                                                                                 <div class="card-header pl-16 py-4 pr-22 d-flex justify-content-between align-items-center" data-toggle="collapse" data-target="#collapseOneC">
                                                                                     <span>Demo_LR</span>
-                                                                                    <img src="../assets/media/Vector_arrow_down.png" alt="">
+                                                                                    <i class="fas fa-chevron-down"></i>
                                                                                 </div>
                                                                                 <div class="collapse pl-18 p-4" id="collapseOneC">
                                                                                     Another flipp runch wolf moon tempor, sunt aliqua put a bird.
@@ -587,19 +585,19 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                         </div>
                                                                     </div>
                                                                     <div class="custom-text-primary">
-                                                                        <div class="card-header pl-12 py-5 pr-22 d-flex justify-content-between align-items-center">
-                                                                            <span href="#" data-toggle="collapse" data-target="#collapseOne2">1.1.2 Natural ecosystem conversion</span>
-                                                                            <img src="../assets/media/Vector_arrow_down.png" alt="">
+                                                                        <div class="card-header pl-12 py-5 pr-22 d-flex justify-content-between align-items-center" data-toggle="collapse" data-target="#collapseOne2">
+                                                                            <span>1.1.2 Natural ecosystem conversion</span>
+                                                                            <i class="fas fa-chevron-down"></i>
                                                                         </div>
                                                                         <div class="collapse" id="collapseOne2">
                                                                             <div class="card-header pl-14 py-4 pr-22 d-flex justify-content-between align-items-center" data-toggle="collapse" data-target="#collapseOneD">
                                                                                 <span href="#">1.1.2.1 Total area (ha) & percentage (%) of area of natural ecosystems in the landscape that has been recently converted</span>
-                                                                                <img src="../assets/media/Vector_arrow_down.png" alt="">
+                                                                                <i class="fas fa-chevron-down"></i>
                                                                             </div>
                                                                             <div class="collapse" id="collapseOneD">
                                                                                 <div class="card-header pl-16 py-4 pr-22 d-flex justify-content-between align-items-center" data-toggle="collapse" data-target="#collapseOneE">
                                                                                     <span href="#">Demo_LR</span>
-                                                                                    <img src="../assets/media/Vector_arrow_down.png" alt="">
+                                                                                    <i class="fas fa-chevron-down"></i>
                                                                                 </div>
                                                                                 <div class="collapse pl-18 p-4" id="collapseOneE">
                                                                                     Another flipp runch wolf moon tempor, sunt aliqua put a bird.
@@ -840,6 +838,10 @@ License: You must have a valid license purchased only from themeforest(the above
                 $(".tab-content").find('.tab-pane.show.active').removeClass('show active')
                 $(strHash).addClass('show active')
             }
+
+            $('[data-toggle="collapse"]').click(function() {
+                $(this).find('.fas').toggleClass('fa-chevron-down fa-chevron-up');
+            });
 
         });
 
