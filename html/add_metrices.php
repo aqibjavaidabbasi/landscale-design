@@ -226,7 +226,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                                             <div class="custom-bg-light-pale custom-border-radius-15 custom-border-color-pale h-100 p-5">
                                                 <div class="d-flex justify-content-between align-items-center">
-                                                    <span class="custom-font-style-headings custom-text-primary d-block mb-1">Select Metrics tasks</span>
+                                                    <span class="custom-font-style-subheadings custom-text-primary d-block mb-1">Select Metrics tasks</span>
                                                     <a href="./add_indicator.php" class="custom-bg-warning custom-border-radius-35 custom-text-primary custom-font-style-small p-2">Select Indicator</a>
                                                 </div>
                                                 <!-- <span class="steps-default-text steps-small-text d-block my-5">View Instructions</span> -->
@@ -331,7 +331,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                         </div>
                                     </div>
                                     <div class="row custom-border-color-pale custom-border-radius-15 mx-0 mt-5">
-                                        <div class="col-md-3 col-sm-12 col-xs-12 pr-0 mt-7">
+                                        <div class="col-md-3 col-sm-12 col-xs-12 pr-0 mt-7 max-w-20-percent" id="inner-side-nav">
                                             <!-- <div class="custom-font-style-subheadings custom-text-primary p-5">
                                                 Custom Pillars
                                             </div> -->
@@ -344,7 +344,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                     </span> -->
                                                     <img src="../assets/media/icons_and_Illustrations/Icons/PNGs/Ecosystems/Main_icon/Icons_Tier_1_Ecosystems_Pale_Green.png" class="deactive d-none" style="width: 30px;" alt="">
                                                     <img src="../assets/media/icons_and_Illustrations/Icons/PNGs/Ecosystems/Main_icon/Icons_Tier_1_Ecosystems_Dark_Green.png" class="active" style="width: 30px;" alt="">
-                                                    <span class="ml-2">
+                                                    <span class="inner-nav-text ml-2">
                                                         Ecosystems
                                                     </span>
                                                 </a>
@@ -356,7 +356,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                     </span> -->
                                                     <img src="../assets/media/icons_and_Illustrations/Icons/PNGs/Human_Wellbeing/Main_icon/Icons_Tier_1_Human_Wellbeing_Pale_Green.png" style="width: 30px;" alt="">
                                                     <img src="../assets/media/icons_and_Illustrations/Icons/PNGs/Human_Wellbeing/Main_icon/Icons_Tier_1_Human_Wellbeing_Dark_Green.png" class="d-none" style="width: 30px;" alt="">
-                                                    <span class="ml-2">
+                                                    <span class="inner-nav-text ml-2">
                                                         Human Well-being
                                                     </span>
                                                 </a>
@@ -368,7 +368,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                     </span> -->
                                                     <img src="../assets/media/icons_and_Illustrations/Icons/PNGs/Governance/Main_icon/Icons_Tier_1_Governance_Pale_Green.png" style="width: 30px;" alt="">
                                                     <img src="../assets/media/icons_and_Illustrations/Icons/PNGs/Governance/Main_icon/Icons_Tier_1_Governance_Dark_Green.png" class="d-none" style="width: 30px;" alt="">
-                                                    <span class="ml-2">
+                                                    <span class="inner-nav-text ml-2">
                                                         Governance
                                                     </span>
                                                 </a>
@@ -381,14 +381,24 @@ License: You must have a valid license purchased only from themeforest(the above
                                                     </span> -->
                                                     <img src="../assets/media/icons_and_Illustrations/Icons/PNGs/Production/Main_icon/Icons_Tier_1_Production_Pale_Green.png" style="width: 30px;" alt="">
                                                     <img src="../assets/media/icons_and_Illustrations/Icons/PNGs/Production/Main_icon/Icons_Tier_1_Production_Dark_Green.png" class="d-none" style="width: 30px;" alt="">
-                                                    <span class="ml-2">
+                                                    <span class="inner-nav-text ml-2">
                                                         Production
                                                     </span>
                                                 </a>
                                             </div>
                                         </div>
-                                        <div class="col-md-9 col-sm-12 col-xs-12 custom-bg-light-pale custom-btrr-15 custom-bbrr-15">
-
+                                        <div class="col-md-12 col-sm-12 col-xs-12 custom-bg-light-pale custom-btrr-15 custom-bbrr-15 max-w-80-percent custom-btlr-15-res custom-bblr-15-res" id="inner-side-main">
+                                            <button class="ml-5 bg-transparent border-0 custom-border-radius-15 mt-5 p-2" onclick="toggleAside()">
+                                                <span class="svg-icon-2x">
+                                                    <svg width="20" height="20" viewBox="0 0 35 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M1.58338 11.7313C0.674149 11.6539 -0.0142253 11.013 0.000223303 10.176C0.00847967 9.6971 0.243786 9.19139 0.620483 8.8921C1.24074 8.40085 2.20158 8.60519 2.93433 8.60519C3.9509 8.60519 4.96746 8.60622 5.98403 8.60726C9.96979 8.60726 13.9555 8.60829 17.9413 8.60726C21.1293 8.60622 24.3163 8.60622 27.5042 8.60519C29.0977 8.60519 30.6922 8.60416 32.2857 8.60416C33.0123 8.60416 33.7234 8.47309 34.3354 8.92409C34.7884 9.25848 35 9.67336 35 10.2286C34.902 11.0656 34.2869 11.6508 33.485 11.7313C33.4457 11.7323 33.4065 11.7323 33.3673 11.7333C29.7747 11.7302 26.1812 11.724 22.5886 11.724C15.6264 11.7251 8.66425 11.7302 1.70207 11.7333C1.66182 11.7333 1.6226 11.7323 1.58338 11.7313Z" fill="#4C94A0"></path>
+                                                        <path d="M5.61455 3.17457C4.80337 3.06827 4.41016 2.67506 4.2409 1.79782C4.2409 1.65953 4.23987 1.52227 4.23987 1.38397C4.40706 0.54492 4.84774 0.13107 5.71879 0C5.87256 0.00722432 6.02634 0.021673 6.18011 0.021673C15.1249 0.022705 24.0686 0.022705 33.0133 0.021673C33.1671 0.021673 33.3209 0.00825637 33.4746 0.00103205C34.3385 0.124878 34.7719 0.528408 34.9711 1.3912C34.9711 1.52433 34.9701 1.65747 34.9701 1.7906C34.8318 2.57805 34.3147 2.98674 33.5789 3.17457C31.8275 3.17148 30.0771 3.16529 28.3258 3.16529C20.7567 3.16838 13.1856 3.17148 5.61455 3.17457Z" fill="#4C94A0"></path>
+                                                        <path d="M23.9428 20.2746C20.8487 20.2746 17.7546 20.2539 14.6606 20.288C13.8143 20.2973 13.2972 19.675 13.1465 18.838C13.0175 18.1186 13.7647 17.3508 14.3045 17.1908C14.545 17.1196 14.8092 17.1031 15.062 17.1031C21.0778 17.099 27.0947 17.099 33.1104 17.1C34.385 17.1 35.0951 17.8699 34.9217 19.0495C34.8267 19.6966 34.2189 20.256 33.5315 20.2684C32.3808 20.2901 31.228 20.2808 30.0773 20.2818C28.0317 20.2828 25.9862 20.2818 23.9407 20.2818C23.9428 20.2797 23.9428 20.2777 23.9428 20.2746Z" fill="#4C94A0"></path>
+                                                        <path d="M33.3663 11.7333C33.4056 11.7323 33.4448 11.7323 33.484 11.7313C33.4458 11.8025 33.4066 11.8035 33.3663 11.7333Z" fill="#B5B5B5"></path>
+                                                        <path d="M1.58337 11.7313C1.62259 11.7323 1.66181 11.7323 1.70103 11.7333C1.65975 11.8045 1.62053 11.8025 1.58337 11.7313Z" fill="#B5B5B5"></path>
+                                                    </svg>
+                                                </span>
+                                            </button>
                                             <div class="tab-content" id="v-pills-tabContent">
                                                 <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
                                                     <!-- <div class="mt-5 px-5">
@@ -1588,7 +1598,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                         </div>
                                                                         <div class="col-lg-1 col-md-1 col-sm-12 col-xs-12">
                                                                             <span class="d-flex align-items-center h-100 p-1"><i class="fas fa-chevron-down"></i></span>
-                                                                            
+
                                                                         </div>
                                                                     </div>
                                                                 </div>
@@ -1888,7 +1898,24 @@ License: You must have a valid license purchased only from themeforest(the above
             } else {
                 $(this).parent().addClass('indicator-border-top-15');
             }
-        })
+        });
+
+        function toggleAside() {
+            if ($('#inner-side-nav').hasClass('max-w-5-percent')) {
+                $('#inner-side-nav').removeClass('max-w-5-percent');
+                $('#inner-side-nav').addClass('max-w-20-percent');
+                $('#inner-side-nav').find('.inner-nav-text').toggle('d-none')
+                $('#inner-side-main').removeClass('max-w-95-percent');
+                $('#inner-side-main').addClass('max-w-80-percent');
+            } else {
+                $('#inner-side-nav').addClass('max-w-5-percent')
+                $('#inner-side-nav').removeClass('max-w-20-percent')
+                $('#inner-side-nav').find('.inner-nav-text').toggle('d-none')
+                $('#inner-side-main').addClass('max-w-95-percent');
+                $('#inner-side-main').removeClass('max-w-80-percent');
+            }
+
+        }
     </script>
 </body>
 <!--end::Body-->

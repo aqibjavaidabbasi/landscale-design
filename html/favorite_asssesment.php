@@ -138,66 +138,66 @@ License: You must have a valid license purchased only from themeforest(the above
                                 <div class="card w-100 p-10">
                                     <div class="row">
                                         <div class="col-xl-4 col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                            <span class="custom-font-style-headings custom-text-primary d-inline-block mb-5">Find assessments by location</span>
+                                            <span class="custom-font-style-subheadings custom-text-primary d-inline-block mb-5">Find assessments by location</span>
                                             <div class="row">
                                                 <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
                                                     <input type="radio" class="btn-check filter_div" value="0" name="steps" id="step-0" autocomplete="off">
-                                                    <label class="btn-outline-primary custom-bg-light-pale custom-font-style-text custom-text-grey custom-border-radius-15 px-5 py-2 d-inline-block text-center w-100 custom-cursor-pointer" for="step-0">Ghana</label>
+                                                    <label class="btn-outline-primary custom-bg-light-pale custom-font-style-subtext custom-text-grey custom-border-radius-15 px-5 py-2 d-inline-block text-center w-100 custom-cursor-pointer" for="step-0">Ghana</label>
                                                 </div>
 
                                                 <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
                                                     <input type="radio" class="btn-check filter_div" value="9" name="steps" id="step-9" autocomplete="off">
-                                                    <label class="btn-outline-primary custom-bg-light-pale custom-font-style-text custom-text-grey custom-border-radius-15 px-5 py-2 d-inline-block text-center w-100 custom-cursor-pointer" for="step-9">Pakistan</label>
+                                                    <label class="btn-outline-primary custom-bg-light-pale custom-font-style-subtext custom-text-grey custom-border-radius-15 px-5 py-2 d-inline-block text-center w-100 custom-cursor-pointer" for="step-9">Pakistan</label>
                                                 </div>
 
                                                 <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
                                                     <input type="radio" class="btn-check filter_div" value="1" name="steps" id="step-1" autocomplete="off">
-                                                    <label class="btn-outline-primary custom-bg-light-pale custom-font-style-text custom-text-grey custom-border-radius-15 px-5 py-2 d-inline-block text-center w-100 custom-cursor-pointer" for="step-1">Thiland</label>
+                                                    <label class="btn-outline-primary custom-bg-light-pale custom-font-style-subtext custom-text-grey custom-border-radius-15 px-5 py-2 d-inline-block text-center w-100 custom-cursor-pointer" for="step-1">Thiland</label>
                                                 </div>
 
                                                 <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
                                                     <input type="radio" class="btn-check filter_div" value="2" name="steps" id="step-2" autocomplete="off">
-                                                    <label class="btn-outline-primary custom-bg-light-pale custom-font-style-text custom-text-grey custom-border-radius-15 px-5 py-2 d-inline-block text-center w-100 custom-cursor-pointer" for="step-2">India</label>
+                                                    <label class="btn-outline-primary custom-bg-light-pale custom-font-style-subtext custom-text-grey custom-border-radius-15 px-5 py-2 d-inline-block text-center w-100 custom-cursor-pointer" for="step-2">India</label>
                                                 </div>
 
                                                 <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
                                                     <input type="radio" class="btn-check filter_div" value="3" name="steps" id="step-3" autocomplete="off">
-                                                    <label class="btn-outline-primary custom-bg-light-pale custom-font-style-text custom-text-grey custom-border-radius-15 px-5 py-2 d-inline-block text-center w-100 custom-cursor-pointer" for="step-3">Mali</label>
+                                                    <label class="btn-outline-primary custom-bg-light-pale custom-font-style-subtext custom-text-grey custom-border-radius-15 px-5 py-2 d-inline-block text-center w-100 custom-cursor-pointer" for="step-3">Mali</label>
                                                 </div>
 
                                                 <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
                                                     <input type="radio" class="btn-check filter_div" value="4" name="steps" id="step-4" autocomplete="off">
-                                                    <label class="btn-outline-primary custom-bg-light-pale custom-font-style-text custom-text-grey custom-border-radius-15 px-5 py-2 d-inline-block text-center w-100 custom-cursor-pointer" for="step-4">Peru</label>
+                                                    <label class="btn-outline-primary custom-bg-light-pale custom-font-style-subtext custom-text-grey custom-border-radius-15 px-5 py-2 d-inline-block text-center w-100 custom-cursor-pointer" for="step-4">Peru</label>
                                                 </div>
 
                                                 <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
                                                     <input type="radio" class="btn-check filter_div" value="5" name="steps" id="step-5" autocomplete="off">
-                                                    <label class="btn-outline-primary custom-bg-light-pale custom-font-style-text custom-text-grey custom-border-radius-15 px-5 py-2 d-inline-block text-center w-100 custom-cursor-pointer" for="step-5">Colombia</label>
+                                                    <label class="btn-outline-primary custom-bg-light-pale custom-font-style-subtext custom-text-grey custom-border-radius-15 px-5 py-2 d-inline-block text-center w-100 custom-cursor-pointer" for="step-5">Colombia</label>
                                                 </div>
 
                                                 <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
                                                     <input type="radio" class="btn-check filter_div" value="7" name="steps" id="step-7" autocomplete="off">
-                                                    <label class="btn-outline-primary custom-bg-light-pale custom-font-style-text custom-text-grey custom-border-radius-15 px-5 py-2 d-inline-block text-center w-100 custom-cursor-pointer" for="step-7">America</label>
+                                                    <label class="btn-outline-primary custom-bg-light-pale custom-font-style-subtext custom-text-grey custom-border-radius-15 px-5 py-2 d-inline-block text-center w-100 custom-cursor-pointer" for="step-7">America</label>
                                                 </div>
 
                                                 <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
                                                     <input type="radio" class="btn-check filter_div" value="8" name="steps" id="step-8" autocomplete="off">
-                                                    <label class="btn-outline-primary custom-bg-light-pale custom-font-style-text custom-text-grey custom-border-radius-15 px-5 py-2 d-inline-block text-center w-100 custom-cursor-pointer" for="step-8">Turkey</label>
+                                                    <label class="btn-outline-primary custom-bg-light-pale custom-font-style-subtext custom-text-grey custom-border-radius-15 px-5 py-2 d-inline-block text-center w-100 custom-cursor-pointer" for="step-8">Turkey</label>
                                                 </div>
 
                                                 <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
                                                     <input type="radio" class="btn-check filter_div" value="8" name="steps" id="step-10" autocomplete="off">
-                                                    <label class="btn-outline-primary custom-bg-light-pale custom-font-style-text custom-text-grey custom-border-radius-15 px-5 py-2 d-inline-block text-center w-100 custom-cursor-pointer" for="step-10">Dubai</label>
+                                                    <label class="btn-outline-primary custom-bg-light-pale custom-font-style-subtext custom-text-grey custom-border-radius-15 px-5 py-2 d-inline-block text-center w-100 custom-cursor-pointer" for="step-10">Dubai</label>
                                                 </div>
 
                                                 <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
                                                     <input type="radio" class="btn-check filter_div" value="12" name="steps" id="step-12" autocomplete="off">
-                                                    <label class="btn-outline-primary custom-bg-light-pale custom-font-style-text custom-text-grey custom-border-radius-15 px-5 py-2 d-inline-block text-center w-100 custom-cursor-pointer" for="step-12">Mexico</label>
+                                                    <label class="btn-outline-primary custom-bg-light-pale custom-font-style-subtext custom-text-grey custom-border-radius-15 px-5 py-2 d-inline-block text-center w-100 custom-cursor-pointer" for="step-12">Mexico</label>
                                                 </div>
 
                                                 <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
                                                     <input type="radio" class="btn-check filter_div" value="13" name="steps" id="step-13" autocomplete="off">
-                                                    <label class="btn-outline-primary custom-bg-light-pale custom-font-style-text custom-text-grey custom-border-radius-15 px-5 py-2 d-inline-block text-center w-100 custom-cursor-pointer" for="step-13">Kenya</label>
+                                                    <label class="btn-outline-primary custom-bg-light-pale custom-font-style-subtext custom-text-grey custom-border-radius-15 px-5 py-2 d-inline-block text-center w-100 custom-cursor-pointer" for="step-13">Kenya</label>
                                                 </div>
 
                                             </div>
@@ -216,10 +216,10 @@ License: You must have a valid license purchased only from themeforest(the above
                                     <div class="row mb-5">
                                         <div class="col-md-12">
                                             <div class="d-flex justify-content-between align-items-center w-100 responsive-block">
-                                                <span class="custom-font-style-headings custom-text-primary d-inline-block">Featured assessments</span>
+                                                <span class="custom-font-style-subheadings custom-text-primary d-inline-block">Featured assessments</span>
                                                 <div class="pr-5">
-                                                    <button type="button" class="custom-bg-light-pale custom-text-grey custom-border-radius-35 border-0 w-176px h-40px mr-5">Profile Not Available</button>
-                                                    <button type="button" class="custom-bg-primary custom-text-light-pale custom-border-radius-35 border-0 w-176px h-40px">Profile Available</button>
+                                                    <button type="button" class="custom-bg-light-pale custom-text-grey custom-border-radius-35 custom-font-style-subtext border-0 w-176px h-40px mr-5">Profile Not Available</button>
+                                                    <button type="button" class="custom-bg-primary custom-text-light-pale custom-border-radius-35 custom-font-style-subtext border-0 w-176px h-40px">Profile Available</button>
                                                 </div>
                                             </div>
                                         </div>
@@ -230,9 +230,9 @@ License: You must have a valid license purchased only from themeforest(the above
                                             <div class="custom-border-color-pale custom-border-radius-15 h-350px">
                                                 <img src="../assets/media/map_img1.png" class="p-3 custom-border-radius-15" style="width: 100%; height: 70%;" alt="">
                                                 <div class="mt-3 px-6">
-                                                    <div class="custom-font-style-subheadings">Alicante River Canyon</div>
-                                                    <div class="custom-font-style-small mt-2 my-1"><span class="font-weight-bold">Country: </span>Colombia</div>
-                                                    <div class="custom-font-style-small"><span class="font-weight-bold">Organization: </span> XYZ</div>
+                                                    <div class="custom-font-style-text custom-text-primary">Alicante River Canyon</div>
+                                                    <div class="custom-font-style-small custom-text-primary mt-2 my-1"><span class="font-weight-bold">Country: </span>Colombia</div>
+                                                    <div class="custom-font-style-small custom-text-primary"><span class="font-weight-bold">Organization: </span> XYZ</div>
                                                 </div>
                                             </div>
                                         </div>
@@ -240,9 +240,9 @@ License: You must have a valid license purchased only from themeforest(the above
                                             <div class="custom-border-color-pale custom-border-radius-15 h-350px">
                                                 <img src="../assets/media/map_img1.png" class="p-3 custom-border-radius-15" style="width: 100%; height: 70%;" alt="">
                                                 <div class="mt-3 px-6">
-                                                    <div class="custom-font-style-subheadings">San José Northern</div>
-                                                    <div class="custom-font-style-small mt-2 my-1"><span class="font-weight-bold">Country: </span>Costa Rica</div>
-                                                    <div class="custom-font-style-small"><span class="font-weight-bold">Organization: </span> IUCN</div>
+                                                    <div class="custom-font-style-text custom-text-primary">San José Northern</div>
+                                                    <div class="custom-font-style-small custom-text-primary mt-2 my-1"><span class="font-weight-bold">Country: </span>Costa Rica</div>
+                                                    <div class="custom-font-style-small custom-text-primary"><span class="font-weight-bold">Organization: </span> IUCN</div>
                                                 </div>
                                             </div>
                                         </div>
@@ -250,9 +250,9 @@ License: You must have a valid license purchased only from themeforest(the above
                                             <div class="custom-border-color-pale custom-border-radius-15 h-350px">
                                                 <img src="../assets/media/map_img1.png" class="p-3 custom-border-radius-15" style="width: 100%; height: 70%;" alt="">
                                                 <div class="mt-3 px-6">
-                                                    <div class="custom-font-style-subheadings">Lamas Landscape</div>
-                                                    <div class="custom-font-style-small mt-2 my-1"><span class="font-weight-bold">Country: </span>Peru</div>
-                                                    <div class="custom-font-style-small"><span class="font-weight-bold">Organization: </span>Rainforest Alliance </div>
+                                                    <div class="custom-font-style-text custom-text-primary">Lamas Landscape</div>
+                                                    <div class="custom-font-style-small custom-text-primary mt-2 my-1"><span class="font-weight-bold">Country: </span>Peru</div>
+                                                    <div class="custom-font-style-small custom-text-primary"><span class="font-weight-bold">Organization: </span>Rainforest Alliance </div>
                                                 </div>
                                             </div>
                                         </div>
@@ -288,10 +288,10 @@ License: You must have a valid license purchased only from themeforest(the above
                                     <div class="row mb-5">
                                         <div class="col-md-12">
                                             <div class="d-flex justify-content-between align-items-center w-100 responsive-block">
-                                                <span class="custom-font-style-headings custom-text-primary d-inline-block">Assessments in progress</span>
+                                                <span class="custom-font-style-subheadings custom-text-primary d-inline-block">Assessments in progress</span>
                                                 <div class="pr-5">
-                                                    <button type="button" class="custom-bg-light-pale custom-text-grey custom-border-radius-35 border-0 w-176px h-40px mr-5">Profile Not Available</button>
-                                                    <button type="button" class="custom-bg-primary custom-text-light-pale custom-border-radius-35 border-0 w-176px h-40px">Profile Available</button>
+                                                    <button type="button" class="custom-bg-light-pale custom-text-grey custom-border-radius-35 custom-font-style-subtext border-0 w-176px h-40px mr-5">Profile Not Available</button>
+                                                    <button type="button" class="custom-bg-primary custom-text-light-pale custom-border-radius-35 custom-font-style-subtext border-0 w-176px h-40px">Profile Available</button>
                                                 </div>
                                             </div>
                                         </div>
@@ -302,9 +302,9 @@ License: You must have a valid license purchased only from themeforest(the above
                                             <div class="custom-border-color-pale custom-border-radius-15 h-350px">
                                                 <img src="../assets/media/map_img1.png" class="p-3 custom-border-radius-15" style="width: 100%; height: 70%;" alt="">
                                                 <div class="mt-3 px-6">
-                                                    <div class="custom-font-style-subheadings">Alicante River Canyon</div>
-                                                    <div class="custom-font-style-small mt-2 my-1"><span class="font-weight-bold">Country: </span>Colombia</div>
-                                                    <div class="custom-font-style-small"><span class="font-weight-bold">Organization: </span> XYZ</div>
+                                                    <div class="custom-font-style-text custom-text-primary">Alicante River Canyon</div>
+                                                    <div class="custom-font-style-small custom-text-primary mt-2 my-1"><span class="font-weight-bold">Country: </span>Colombia</div>
+                                                    <div class="custom-font-style-small custom-text-primary"><span class="font-weight-bold">Organization: </span> XYZ</div>
                                                 </div>
                                             </div>
                                         </div>
@@ -312,9 +312,9 @@ License: You must have a valid license purchased only from themeforest(the above
                                             <div class="custom-border-color-pale custom-border-radius-15 h-350px">
                                                 <img src="../assets/media/map_img1.png" class="p-3 custom-border-radius-15" style="width: 100%; height: 70%;" alt="">
                                                 <div class="mt-3 px-6">
-                                                    <div class="custom-font-style-subheadings">San José Northern</div>
-                                                    <div class="custom-font-style-small mt-2 my-1"><span class="font-weight-bold">Country: </span>Costa Rica</div>
-                                                    <div class="custom-font-style-small"><span class="font-weight-bold">Organization: </span> IUCN</div>
+                                                    <div class="custom-font-style-text custom-text-primary">San José Northern</div>
+                                                    <div class="custom-font-style-small custom-text-primary mt-2 my-1"><span class="font-weight-bold">Country: </span>Costa Rica</div>
+                                                    <div class="custom-font-style-small custom-text-primary"><span class="font-weight-bold">Organization: </span> IUCN</div>
                                                 </div>
                                             </div>
                                         </div>
@@ -322,9 +322,9 @@ License: You must have a valid license purchased only from themeforest(the above
                                             <div class="custom-border-color-pale custom-border-radius-15 h-350px">
                                                 <img src="../assets/media/map_img1.png" class="p-3 custom-border-radius-15" style="width: 100%; height: 70%;" alt="">
                                                 <div class="mt-3 px-6">
-                                                    <div class="custom-font-style-subheadings">Lamas Landscape</div>
-                                                    <div class="custom-font-style-small mt-2 my-1"><span class="font-weight-bold">Country: </span>Peru</div>
-                                                    <div class="custom-font-style-small"><span class="font-weight-bold">Organization: </span>Rainforest Alliance </div>
+                                                    <div class="custom-font-style-text custom-text-primary">Lamas Landscape</div>
+                                                    <div class="custom-font-style-small custom-text-primary mt-2 my-1"><span class="font-weight-bold">Country: </span>Peru</div>
+                                                    <div class="custom-font-style-small custom-text-primary"><span class="font-weight-bold">Organization: </span>Rainforest Alliance </div>
                                                 </div>
                                             </div>
                                         </div>
@@ -362,10 +362,10 @@ License: You must have a valid license purchased only from themeforest(the above
                                             <div class="d-flex justify-content-center">
                                                 <img src="../assets/media/heart_icon.png" alt="" class="mb-5">
                                             </div>
-                                            <div class="custom-font-style-headings custom-text-primary mb-3 mt-5 text-center">You don’t have any favorite Assessments</div>
-                                            <div class="custom-font-style-text">Like any profile you see? Save them here to your favorite assessments</div>
+                                            <div class="custom-font-style-subheadings custom-text-primary mb-3 mt-5 text-center">You don’t have any favorite Assessments</div>
+                                            <div class="custom-font-style-subtext custom-text-primary">Like any profile you see? Save them here to your favorite assessments</div>
                                             <div class="d-flex justify-content-center">
-                                                <a href="#" class="custom-bg-primary custom-text-light-pale px-5 py-3 custom-border-radius-35 custom-font-style-text d-inline-block mt-5">Start Exploring</a>
+                                                <a href="#" class="custom-bg-primary custom-text-light-pale px-5 py-3 custom-border-radius-35 custom-font-style-subtext d-inline-block mt-5">Start Exploring</a>
                                             </div>
                                         </div>
                                     </div>

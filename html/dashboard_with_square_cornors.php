@@ -137,11 +137,11 @@ License: You must have a valid license purchased only from themeforest(the above
                             <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                                 <div class="card w-100 card w-100 h-100 p-8">
                                     <div class="custom-font-style-headings custom-text-primary">Demo-LR Shayan</div>
-                                    <p class="custom-font-style-text my-5">This is your landscape dashboard. From here you can access your profile, the steps to conduct or update an assessment, the people involved in your assessment, and guidance.</p>
-                                    <div class="custom-font-style-subheadings my-5">
+                                    <p class="custom-font-style-sub-text custom-text-primary my-5">This is your landscape dashboard. From here you can access your profile, the steps to conduct or update an assessment, the people involved in your assessment, and guidance.</p>
+                                    <div class="custom-font-style-subheadings custom-text-primary my-5">
                                         Showcase Your Landscape
                                     </div>
-                                    <p class="custom-font-style-text">Create, manage, and publish your landscape profile.</p>
+                                    <p class="custom-font-style-sub-text custom-text-primary">Create, manage, and publish your landscape profile.</p>
                                     <a href="#" class="custom-bg-warning d-flex justify-content-center align-items-center mt-2 custom-w-35 custom-border-radius-3 px-5 py-2">
                                         <span class="mr-3">
                                             <svg width="15" height="17" viewBox="0 0 15 17" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -252,7 +252,7 @@ License: You must have a valid license purchased only from themeforest(the above
                         <div class="row mt-5">
                             <div class="col-md-12">
                                 <div class="card w-100 p-8">
-                                    <div class="custom-font-style-headings custom-text-primary">Steps</div>
+                                    <div class="custom-font-style-subheadings custom-text-primary">Steps</div>
                                     <div class="row p-8">
                                         <div class="col-12 col-sm-6 col-md mb-2 h-150px">
                                             <div class="p-5 custom-bg-light-pale custom-border-color-pale custom-border-radius-15 text-center h-100">

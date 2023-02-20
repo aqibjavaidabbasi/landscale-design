@@ -142,7 +142,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                 <div class="row mb-5 ml-5">
                                                     <div class="col-md-12 mt-5">
                                                         <h2 class="custom-font-family custom-font-style-headings custom-text-primary mt-4">Welcome to the LandScale</h2>
-                                                        <p class="custom-font-family custom-font-style-text custom-text-grey pb-3">Select an assessment or create a new assessment
+                                                        <p class="custom-font-family custom-font-style-sub-text custom-text-grey pb-3">Select an assessment or create a new assessment
                                                         </p>
                                                         <a href="./overview.php" class="custom-btn-grey d-flex justify-content-center w-75 my-5 align-items-center">
                                                             <span class="pr-2">
@@ -371,7 +371,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                         <div class="grid-card">
                                                                             <img src="../assets/media/map_img1.png" class="w-100 p-1" alt="">
                                                                             <div class="p-4">
-                                                                                <h6 class="custom-font-style-subheadings">Jacob Michael</h6>
+                                                                                <h6 class="custom-font-style-text custom-text-primary">Jacob Michael</h6>
                                                                                 <span class="custom-font-style-small">Not Plan yet!</span>
                                                                             </div>
                                                                             <div class="d-flex px-4">
@@ -400,7 +400,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                         <div class="grid-card my-5-res">
                                                                             <img src="../assets/media/map_img1.png" class="w-100 p-1" alt="">
                                                                             <div class="p-4">
-                                                                                <h6 class="custom-font-style-subheadings">Jacob Michael</h6>
+                                                                                <h6 class="custom-font-style-text custom-text-primary">Jacob Michael</h6>
                                                                                 <span class="custom-font-style-small">Not Plan yet!</span>
                                                                             </div>
                                                                             <div class="d-flex px-4">
@@ -429,7 +429,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                         <div class="grid-card m-1">
                                                                             <img src="../assets/media/map_img1.png" class="w-100 p-1" alt="">
                                                                             <div class="p-4">
-                                                                                <h6 class="custom-font-style-subheadings">Jacob Michael</h6>
+                                                                                <h6 class="custom-font-style-text custom-text-primary">Jacob Michael</h6>
                                                                                 <span class="custom-font-style-small">Not Plan yet!</span>
                                                                             </div>
                                                                             <div class="d-flex px-4">
@@ -461,7 +461,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                         <div class="grid-card">
                                                                             <img src="../assets/media/map_img1.png" class="w-100 p-1" alt="">
                                                                             <div class="p-4">
-                                                                                <h6 class="custom-font-style-subheadings">Jacob Michael</h6>
+                                                                                <h6 class="custom-font-style-text custom-text-primary">Jacob Michael</h6>
                                                                                 <span class="custom-font-style-small">Not Plan yet!</span>
                                                                             </div>
                                                                             <div class="d-flex px-4">
@@ -490,7 +490,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                         <div class="grid-card my-5-res">
                                                                             <img src="../assets/media/map_img1.png" class="w-100 p-1" alt="">
                                                                             <div class="p-4">
-                                                                                <h6 class="custom-font-style-subheadings">Jacob Michael</h6>
+                                                                                <h6 class="custom-font-style-text custom-text-primary">Jacob Michael</h6>
                                                                                 <span class="custom-font-style-small">Not Plan yet!</span>
                                                                             </div>
                                                                             <div class="d-flex px-4">
@@ -519,7 +519,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                         <div class="grid-card m-1">
                                                                             <img src="../assets/media/map_img1.png" class="w-100 p-1" alt="">
                                                                             <div class="p-4">
-                                                                                <h6 class="custom-font-style-subheadings">Jacob Michael</h6>
+                                                                                <h6 class="custom-font-style-text custom-text-primary">Jacob Michael</h6>
                                                                                 <span class="custom-font-style-small">Not Plan yet!</span>
                                                                             </div>
                                                                             <div class="d-flex px-4">
@@ -551,7 +551,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                         <div class="grid-card">
                                                                             <img src="../assets/media/map_img1.png" class="w-100 p-1" alt="">
                                                                             <div class="p-4">
-                                                                                <h6 class="custom-font-style-subheadings">Jacob Michael</h6>
+                                                                                <h6 class="custom-font-style-text custom-text-primary">Jacob Michael</h6>
                                                                                 <span class="custom-font-style-small">Not Plan yet!</span>
                                                                             </div>
                                                                             <div class="d-flex px-4">
@@ -580,7 +580,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                         <div class="grid-card my-5-res">
                                                                             <img src="../assets/media/map_img1.png" class="w-100 p-1" alt="">
                                                                             <div class="p-4">
-                                                                                <h6 class="custom-font-style-subheadings">Jacob Michael</h6>
+                                                                                <h6 class="custom-font-style-text custom-text-primary">Jacob Michael</h6>
                                                                                 <span class="custom-font-style-small">Not Plan yet!</span>
                                                                             </div>
                                                                             <div class="d-flex px-4">
@@ -609,7 +609,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                         <div class="grid-card m-1">
                                                                             <img src="../assets/media/map_img1.png" class="w-100 p-1" alt="">
                                                                             <div class="p-4">
-                                                                                <h6 class="custom-font-style-subheadings">Jacob Michael</h6>
+                                                                                <h6 class="custom-font-style-text custom-text-primary">Jacob Michael</h6>
                                                                                 <span class="custom-font-style-small">Not Plan yet!</span>
                                                                             </div>
                                                                             <div class="d-flex px-4">

@@ -246,7 +246,7 @@
                         </span>
                         <span class="menu-text menu-text-opened">Help Center</span>
                     </a>
-                    <div class="menu-submenu bg-light-primary brt-50 brb-50">
+                    <div class="menu-submenu custom-bg-primary pb-0 mb-0 brt-50 brb-50">
                         <i class="menu-arrow"></i>
                         <ul class="menu-subnav py-0  brt-50">
                             <li class="menu-item menu-item-parent brt-50 brb-50 bg-primary custom-height-59" aria-haspopup="true">

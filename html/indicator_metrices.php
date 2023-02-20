@@ -139,7 +139,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                 <div class="card w-100 p-5">
                                     <div class="row">
                                         <div class="col-md-12 text-center">
-                                            <span class="custom-font-style-headings">Steps</span>
+                                            <span class="custom-font-style-headings custom-text-primary">Steps</span>
                                         </div>
                                         <div class="col-md-12 text-center">
                                             <div class="wizard wizard-3 mb-100-res" id="kt_wizard_v3" data-wizard-state="step-first" data-wizard-clickable="true" style="position: relative;">
@@ -223,20 +223,22 @@ License: You must have a valid license purchased only from themeforest(the above
                                     <div class="row mt-35">
                                         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                                             <div class="custom-bg-light-pale custom-border-radius-15 custom-border-color-pale h-100 p-5">
-                                                <span class="custom-font-style-headings custom-text-primary d-block mb-1">Step 3: Indicator & Metrics</span>
+                                                <span class="custom-font-style-subheadings custom-text-primary d-block mb-1">Step 3: Indicator & Metrics</span>
                                                 <!-- <span class="steps-default-text steps-small-text d-block my-5">View Instructions</span> -->
-                                                <span data-toggle="collapse" data-target="#demo" class="custom-font-style-text custom-text-primary d-block my-5 custom-cursor-pointer">View Instructions <img src="../assets/media/arrow_down.png" alt=""></span>
+                                                <span data-toggle="collapse" data-target="#demo" class="custom-font-style-subtext custom-text-primary d-block my-5 custom-cursor-pointer">View Instructions <img src="../assets/media/arrow_down.png" alt=""></span>
 
                                                 <div id="demo" class="collapse mb-2">
-                                                    Select applicable and optional indicators. Then, select applicable and optional metrics that provide the measurement of the indicators. Optionally, create custom indicators and metrics.
-
-                                                    LandScale guidance provides directions for determining which indicators are required and which are optional. This step may be revisited after data screening and evaluation in step 4 if certain metrics and indicators have been determined to be data deficient and, therefore, deferred to a later assessment when data may become available.
-
-                                                    You may assign indicators and metrics tasks to team members below as overall leads for these tasks but to assign leads to specific areas of the framework you must first navigate to the appropriate pillar and goal on the following screens.
+                                                    <p class="custom-font-style-subtext custom-text-primary">
+                                                        Select applicable and optional indicators. Then, select applicable and optional metrics that provide the measurement of the indicators. Optionally, create custom indicators and metrics.
+    
+                                                        LandScale guidance provides directions for determining which indicators are required and which are optional. This step may be revisited after data screening and evaluation in step 4 if certain metrics and indicators have been determined to be data deficient and, therefore, deferred to a later assessment when data may become available.
+    
+                                                        You may assign indicators and metrics tasks to team members below as overall leads for these tasks but to assign leads to specific areas of the framework you must first navigate to the appropriate pillar and goal on the following screens.
+                                                    </p>
                                                 </div>
                                                 <span class="custom-bg-primary p-2 custom-border-radius-4 d-inline-block mt-1">
-                                                    <span class="custom-text-light-pale">Pillars Completed</span>
-                                                    <span class="custom-bg-warning custom-text-primary p-1 custom-border-radius-4">2/4</span>
+                                                    <span class="custom-font-style-small custom-text-light-pale">Pillars Completed</span>
+                                                    <span class="custom-font-style-small custom-bg-warning custom-text-primary p-1 custom-border-radius-4">2/4</span>
                                                 </span>
                                             </div>
                                         </div>
@@ -334,8 +336,8 @@ License: You must have a valid license purchased only from themeforest(the above
                                     <div class="row mt-15">
                                         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                                             <div class="custom-bg-light-pale p-10">
-                                                <span class="custom-font-style-headings custom-text-primary d-block mb-1">Progress report</span>
-                                                <p class="custom-font-style-text custom-text-primary d-block my-5">You are encouraged to submit your indicators & metrics once the 4 pillars are completed. Select the completed pillars and send them for approval.</p>
+                                                <span class="custom-font-style-subheadings custom-text-primary d-block mb-1">Progress report</span>
+                                                <p class="custom-font-style-subtext custom-text-primary d-block my-5">You are encouraged to submit your indicators & metrics once the 4 pillars are completed. Select the completed pillars and send them for approval.</p>
                                                 <table class="table table-vertical-center steps-table-radius custom-step-table-radius steps-custom-margin-top border-custom">
                                                     <thead class="steps-table-header-color">
                                                         <tr>
