@@ -222,39 +222,121 @@ License: You must have a valid license purchased only from themeforest(the above
                                         </div>
                                     </div>
 
-                                    <div class="row mt-7">
+                                    <div class="row mt-3">
                                         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                                             <div class="custom-bg-light-pale custom-border-radius-15 custom-border-color-pale h-100 p-5">
                                                 <span class="custom-font-style-subheadings custom-text-primary d-block mb-1">Overall progress</span>
                                                 <div class="row mt-5">
                                                     <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-                                                        <div class="custom-bg-primary p-4 w-100 custom-text-light-pale">
+                                                        <span class="custom-bg-primary p-2 custom-border-radius-4 d-inline-block mt-1 w-100 text-center">
+                                                            <span class="custom-font-style-small custom-text-light-pale">Applicable metrics</span>
+                                                            <span class="custom-font-style-small custom-bg-warning custom-text-primary p-1 custom-border-radius-4">26</span>
+                                                        </span>
+                                                        <!-- <div class="custom-bg-primary p-4 w-100 custom-text-light-pale">
                                                             <div class="d-flex flex-column">
                                                                 <span class="custom-font-style-headings">26</span>
                                                                 <span class="custom-font-style-small-text">Applicable metrics</span>
                                                             </div>
 
-                                                        </div>
+                                                        </div> -->
                                                     </div>
                                                     <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-                                                        <div class="custom-bg-light-yellow p-4 w-100 custom-text-primary">
+                                                        <span class="custom-bg-primary p-2 custom-border-radius-4 d-inline-block mt-1 w-100 text-center">
+                                                            <span class="custom-font-style-small custom-text-light-pale">Metrics in validation</span>
+                                                            <span class="custom-font-style-small custom-bg-warning custom-text-primary p-1 custom-border-radius-4">16</span>
+                                                        </span>
+                                                        <!-- <div class="custom-bg-light-yellow p-4 w-100 custom-text-primary">
                                                             <div class="d-flex flex-column">
                                                                 <span class="custom-font-style-headings">9</span>
                                                                 <span class="custom-font-style-small-text">Metrics in validation</span>
                                                             </div>
 
-                                                        </div>
+                                                        </div> -->
                                                     </div>
                                                     <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-                                                        <div class="custom-bg-cyan p-4 text-light w-100">
+                                                        <span class="custom-bg-primary p-2 custom-border-radius-4 d-inline-block mt-1 w-100 text-center">
+                                                            <span class="custom-font-style-small custom-text-light-pale">Metrics Published</span>
+                                                            <span class="custom-font-style-small custom-bg-warning custom-text-primary p-1 custom-border-radius-4">10</span>
+                                                        </span>
+                                                        <!-- <div class="custom-bg-cyan p-4 text-light w-100">
                                                             <div class="d-flex flex-column">
                                                                 <span class="custom-font-style-headings">0</span>
                                                                 <span class="custom-font-style-small-text">Metrics Published</span>
                                                             </div>
 
-                                                        </div>
+                                                        </div> -->
                                                     </div>
 
+                                                </div>
+                                                <div class="row mt-2">
+                                                    <div class="col-md-12">
+                                                        <table class="table table-vertical-center steps-table-radius custom-step-table-radius steps-custom-margin-top border-custom">
+                                                            <thead class="steps-table-header-color">
+                                                                <tr>
+                                                                    <th class="custom-font-style-subheadings custom-text-primary" scope="col">Pillars</th>
+                                                                    <th class="custom-font-style-subheadings custom-text-primary" scope="col">Metrics</th>
+                                                                    <th class="custom-font-style-subheadings custom-text-primary" scope="col">Metrics in validation</th>
+                                                                    <th class="custom-font-style-subheadings custom-text-primary" scope="col">Pending to submit</th>
+                                                                    <th class="custom-font-style-subheadings custom-text-primary" scope="col">Submit</th>
+                                                                </tr>
+                                                            </thead>
+                                                            <tbody class="bg-white">
+                                                                <tr>
+                                                                    <td>Ecosystems</td>
+                                                                    <td>6</td>
+                                                                    <td>6</td>
+                                                                    <td>6</td>
+                                                                    <td>
+                                                                        <label class="container-chkbox">
+                                                                            <input type="checkbox" checked="checked">
+                                                                            <span class="checkmark"></span>
+                                                                        </label>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>Human Well-Being</td>
+                                                                    <td>3</td>
+                                                                    <td>3</td>
+                                                                    <td>3</td>
+                                                                    <td>
+                                                                        <label class="container-chkbox">
+                                                                            <input type="checkbox" checked="checked">
+                                                                            <span class="checkmark"></span>
+                                                                        </label>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>Governance</td>
+                                                                    <td>4</td>
+                                                                    <td>4</td>
+                                                                    <td>4</td>
+                                                                    <td>
+                                                                        <label class="container-chkbox">
+                                                                            <input type="checkbox" checked="checked">
+                                                                            <span class="checkmark"></span>
+                                                                        </label>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>Production</td>
+                                                                    <td>0</td>
+                                                                    <td>0</td>
+                                                                    <td>0</td>
+                                                                    <td>
+                                                                        <label class="container-chkbox">
+                                                                            <input type="checkbox" checked="checked">
+                                                                            <span class="checkmark"></span>
+                                                                        </label>
+                                                                    </td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+                                                        <div class="d-flex justify-content-end mt-2">
+                                                            <button class="custom-bg-warning custom-text-primary border-0 custom-border-radius-35 px-4 py-2">
+                                                                Submit for Approval
+                                                            </button>
+                                                        </div>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
@@ -383,7 +465,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                         </div>
                                     </div>
 
-                                    <div class="row mt-7">
+                                    <!-- <div class="row mt-7">
                                         <div class="col-md-12">
                                             <div class="custom-border-color-pale custom-border-radius-15 p-10">
                                                 <span class="custom-font-style-subheadings custom-text-primary d-block mb-1">Progress report</span>
@@ -456,7 +538,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>
+                                    </div> -->
 
                                     <div class="row mt-7 mx-1 custom-border-color-pale custom-border-radius-15">
                                         <div class="col-md-3 col-sm-12 col-xs-12 pr-0 mt-7 max-w-20-percent" id="inner-side-nav">

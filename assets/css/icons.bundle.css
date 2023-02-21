@@ -1,0 +1,69 @@
+/* icons */
+.icn-add-folder {
+    display: inline-block;
+    background-image: url('../media/svg_icons/folder-plus.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 16px;
+    height: 16px;
+}
+
+.icn-list {
+    display: inline-block;
+    background-image: url('../media/svg_icons/list-view.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 16px;
+    height: 16px;
+}
+
+.icn-grid {
+    display: inline-block;
+    background-image: url('../media/svg_icons/grid-view.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 16px;
+    height: 16px;
+}
+
+.icn-search {
+    display: inline-block;
+    background-image: url('../media/svg_icons/search.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 16px;
+    height: 16px;
+}
+
+.icn-question {
+    display: inline-block;
+    background-image: url('../media/svg_icons/question.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 16px;
+    height: 16px;
+}
+
+.icn-menu {
+    display: inline-block;
+    background-image: url('../media/svg_icons/menu.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 16px;
+    height: 16px;
+}
+
+/* end icons */
+
+
+/* icon sizes */
+
+.icn-2x {
+    width: 21px !important;
+    height: 21px !important;
+}
+
+.icn-3x {
+    width: 26px !important;
+    height: 26px !important;
+}

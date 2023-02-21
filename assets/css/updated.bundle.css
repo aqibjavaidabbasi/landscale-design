@@ -100560,15 +100560,13 @@ body {
     opacity: 0.3;
     background-color: #074A37;
     border-radius: 25px 0px 0px 25px;
-    padding: 4px;
+    padding: 9px;
 }
 
-.btn-help-icon img {
+/* .btn-help-icon img {
     width: 100%;
     padding: 9px;
-    /* margin-left: 10px;
-    margin-top: 5px; */
-}
+} */
 
 .help-center-ul {
     list-style: none !important;
@@ -101506,15 +101504,15 @@ table#kt_datatable tbody tr:nth-child(odd) {
     .custom-btrr-15-res {
         border-top-right-radius: 15px !important;
     }
-    
+
     .custom-bbrr-15-res {
         border-bottom-right-radius: 15px !important;
     }
-    
+
     .custom-btlr-15-res {
         border-top-left-radius: 15px !important;
     }
-    
+
     .custom-bblr-15-res {
         border-bottom-left-radius: 15px !important;
     }
