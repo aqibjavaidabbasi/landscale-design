@@ -4,9 +4,8 @@
     <div class="brand flex-column-auto primary-border-right primary-border-bottom" id="kt_brand">
         <!--begin::Logo-->
         <a href="/metronic/demo1/index.html" class="brand-logo">
-            <img alt="Logo" class="active" src="../assets/media/landscale_icon.svg">
-            <img alt="Logo" class="d-none" src="../assets/media/logo/FullColour/Landscale Logo_Full_Colour.png" width="100px">
-            <!-- assets/media/logo/FullColour/Landscale Logo_Full_Colour.png -->
+            <img alt="Logo" id="menu_close_img" src="../assets/media/landscale_icon.svg">
+            <img alt="Logo" id="menu_open_img" class="d-none" src="../assets/media/logo/FullColour/Landscale Logo_Full_Colour.png" width="220px">
         </a>
         <!--end::Logo-->
     </div>

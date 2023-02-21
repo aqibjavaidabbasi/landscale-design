@@ -46,6 +46,7 @@ License: You must have a valid license purchased only from themeforest(the above
     <link rel="stylesheet" href="../assets/plugins/custom/prismjs/prismjs.bundle.css">
     <!-- <link rel="stylesheet" href="../assets/css/style.bundle.css"> -->
     <link rel="stylesheet" href="../assets/css/updated.bundle.css">
+    <link rel="stylesheet" href="../assets/css/icons.bundle.css">
     <link rel="stylesheet" href="../assets/css/form-wizard.css">
     <link rel="stylesheet" href="../assets/plugins/custom/datatables/datatables.bundle.css">
 
@@ -238,9 +239,9 @@ License: You must have a valid license purchased only from themeforest(the above
                                                 <div id="demo" class="collapse mb-2">
                                                     <p class="custom-font-style-subtext custom-text-primary">
                                                         Below, you may begin with either specifying a data theme or a dataset. Data themes are descriptions of data requirements for measuring metrics and so are a logical starting point. datasets are specific datasets that fuflill the requirements of one or more data themes. Every metric will require at least one data theme and source, many require multiples of these.
-    
+
                                                         If you already have known datasets and simply wish to begin inventorying them, you may select "Add dataset" which will prompt you for the level of the framework you wish to associate it to and provide basic information about it. The dataset will then remain in your inventory for you to later associate it with a data theme.
-    
+
                                                         The main task is to define all data themes needed to measure the metrics. For example, measuring area and proportion of ecosystem types within protected areas requires an ecosystem map and a protected area map. Because those particular data themes are used in multiple metrics, you can choose which level of the framework to associate them to, in this case, they could be associated to all of pillar 1 or to goals 1.1. and 1.2 within that pillar. Finally you will associate the theme to each relevant metric which will automatically populate the selected dataset.
                                                     </p>
                                                 </div>
@@ -1399,13 +1400,13 @@ License: You must have a valid license purchased only from themeforest(the above
     <script src="../assets/plugins/custom/datatables/datatables.bundle.js"></script>
     <script>
         $(document).on('click', '#kt_aside_toggle', function() {
-            var src = $('.brand-logo').find('img').attr('src');
-            if (src.indexOf('landscale_icon.svg') != -1) {
-                src = src.replace('landscale_icon.svg', 'landscale_logo.png');
+            if (!$('#kt_body').hasClass('aside-minimize')) {
+                $('#menu_open_img').removeClass('d-none');
+                $('#menu_close_img').addClass('d-none');
             } else {
-                src = src.replace('landscale_logo.png', 'landscale_icon.svg');
+                $('#menu_open_img').addClass('d-none');
+                $('#menu_close_img').removeClass('d-none');
             }
-            $('.brand-logo').find('img').attr('src', src);
         });
         $(document).on('mouseenter', '#kt_aside_menu .hover-menu', function() {
             if ($(this).find('.menu-text').css('display') != 'none') {

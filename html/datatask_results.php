@@ -46,6 +46,7 @@ License: You must have a valid license purchased only from themeforest(the above
     <link rel="stylesheet" href="../assets/plugins/custom/prismjs/prismjs.bundle.css">
     <!-- <link rel="stylesheet" href="../assets/css/style.bundle.css"> -->
     <link rel="stylesheet" href="../assets/css/updated.bundle.css">
+    <link rel="stylesheet" href="../assets/css/icons.bundle.css">
     <link rel="stylesheet" href="../assets/css/form-wizard.css">
     <link rel="stylesheet" href="../assets/plugins/custom/datatables/datatables.bundle.css">
 
@@ -571,13 +572,13 @@ License: You must have a valid license purchased only from themeforest(the above
     <script src="../assets/plugins/custom/datatables/datatables.bundle.js"></script>
     <script>
         $(document).on('click', '#kt_aside_toggle', function() {
-            var src = $('.brand-logo').find('img').attr('src');
-            if (src.indexOf('landscale_icon.svg') != -1) {
-                src = src.replace('landscale_icon.svg', 'landscale_logo.png');
+            if (!$('#kt_body').hasClass('aside-minimize')) {
+                $('#menu_open_img').removeClass('d-none');
+                $('#menu_close_img').addClass('d-none');
             } else {
-                src = src.replace('landscale_logo.png', 'landscale_icon.svg');
+                $('#menu_open_img').addClass('d-none');
+                $('#menu_close_img').removeClass('d-none');
             }
-            $('.brand-logo').find('img').attr('src', src);
         });
         $(document).on('mouseenter', '#kt_aside_menu .hover-menu', function() {
             if ($(this).find('.menu-text').css('display') != 'none') {
