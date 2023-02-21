@@ -226,7 +226,10 @@ License: You must have a valid license purchased only from themeforest(the above
                                         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                                             <div class="custom-bg-light-pale custom-border-radius-15 custom-border-color-pale h-100 p-5">
                                                 <div class="d-flex justify-content-between align-items-center">
-                                                    <span class="custom-font-style-subheadings custom-text-primary d-block mb-1">Indicator selection</span>
+                                                    <div class="d-flex align-items-center">
+                                                        <span class="custom-font-style-subheadings custom-text-primary d-inline-block mr-2">Indicator selection</span>
+                                                        <span class="custom-bg-primary custom-font-style-xs custom-text-light-pale custom-border-radius-4 p-1">Approved</span>
+                                                    </div>
                                                     <a href="./add_metrices.php" class="custom-bg-warning custom-border-radius-35 custom-text-primary custom-font-style-small p-2">Select Metrics</a>
                                                 </div>
                                                 <!-- <span class="steps-default-text steps-small-text d-block my-5">View Instructions</span> -->
@@ -237,9 +240,13 @@ License: You must have a valid license purchased only from themeforest(the above
                                                         Below you will find the indicators of Ecosystems pillar of the LandScale framework. The Applicability indicates whether the indicator is required to meet the full LandScale requirements or is optional (see guidance for a complete description and explanation of each indicator). Action is required for each indicator. For Landscape-dependent indicators you must determine applicability to your landscape (see guidance). For Core indicators these are required in all landscapes but you may defer these due to data deficiency (as determined in Step 4) or for other reasons that you document. Optional indicators should be marked as included or excluded. Actions to defer, include, or not include are done using the toggle in the Select column below.
                                                     </p>
                                                 </div>
-                                                <span class="custom-bg-primary p-2 custom-border-radius-4 d-inline-block mt-1">
-                                                    <span class="custom-font-style-small custom-text-light-pale">Approved</span>
+                                                <span class="custom-font-style-text custom-text-primary d-inline-block">
+                                                    Notice
                                                 </span>
+                                                <p class="custom-font-style-subtext custom-text-primary">
+                                                    the LandScale team
+                                                    are validating your step. Please wait
+                                                </p>
                                             </div>
                                         </div>
                                         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 custom-padding-0 pl-0 pr-0">

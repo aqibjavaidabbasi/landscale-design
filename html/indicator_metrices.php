@@ -348,15 +348,15 @@ License: You must have a valid license purchased only from themeforest(the above
                                                     <tbody class="bg-white">
                                                         <tr>
                                                             <td>Ecosystems</td>
-                                                            <td><span class="custom-bg-light-pale custom-text-primary p-1">Completed</span></td>
+                                                            <td><span class="custom-bg-light-pale custom-font-style-xs custom-text-primary p-1">Completed</span></td>
                                                         </tr>
                                                         <tr>
                                                             <td>Human Well-Being</td>
-                                                            <td><span class="custom-bg-light-blue custom-text-primary p-1">Pending</span></td>
+                                                            <td><span class="custom-bg-light-blue custom-font-style-xs custom-text-primary p-1">Pending</span></td>
                                                         </tr>
                                                         <tr>
                                                             <td>Governance</td>
-                                                            <td><span class="custom-bg-light-yellow custom-text-primary p-1">Under review</span></td>
+                                                            <td><span class="custom-bg-light-yellow custom-font-style-xs custom-text-primary p-1">Under review</span></td>
                                                         </tr>
                                                     </tbody>
                                                 </table>
@@ -384,8 +384,8 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                 <img src="../assets/media/add_person.png" class="step-unit-image-4" alt="">
                                                             </div>
                                                         </td>
-                                                        <td><span class="custom-bg-cyan text-light p-1">Required</span></td>
-                                                        <td><span class="custom-bg-light-pale custom-text-primary p-1">Completed</span></td>
+                                                        <td><span class="custom-bg-cyan custom-font-style-xs text-light p-1">Required</span></td>
+                                                        <td><span class="custom-bg-light-pale custom-font-style-xs custom-text-primary p-1">Completed</span></td>
                                                     </tr>
                                                     <tr>
                                                         <td><a href="./add_metrices.php">Add Metrics</a></td>
@@ -398,8 +398,8 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                 <img src="../assets/media/add_person.png" class="step-unit-image-4" alt="">
                                                             </div>
                                                         </td>
-                                                        <td><span class="custom-bg-cyan text-light p-1">Required</span></td>
-                                                        <td><span class="custom-bg-light-pale custom-text-primary p-1">Completed</span></td>
+                                                        <td><span class="custom-bg-cyan custom-font-style-xs text-light p-1">Required</span></td>
+                                                        <td><span class="custom-bg-light-pale custom-font-style-xs custom-text-primary p-1">Completed</span></td>
                                                     </tr>
                                                 </tbody>
                                             </table>

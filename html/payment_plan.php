@@ -161,8 +161,8 @@ License: You must have a valid license purchased only from themeforest(the above
                                                         <!--begin: Wizard Step 1-->
                                                         <div class="p-10 custom-border-color-pale custom-border-radius-15">
                                                             <div class="d-flex justify-content-between align-items-center">
-                                                                <span class="custom-font-style-headings custom-text-primary">Select pricing & plans</span>
-                                                                <button class="custom-bg-warning custom-font-style-sub-text custom-border-radius-35 border-0 p-2">
+                                                                <span class="custom-font-style-subheadings custom-text-primary">Select pricing & plans</span>
+                                                                <button class="custom-bg-warning  custom-font-style-small custom-border-radius-35 border-0 p-2">
                                                                     <span class="d-inline-block ml-2 mr-3">
                                                                         <svg width="20" height="23" viewBox="0 0 28 23" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                                             <path d="M27.9994 10.5537C27.9994 13.2391 27.9988 15.925 28 18.6104C28 18.9246 27.9883 19.237 27.8938 19.5387C27.6438 20.3366 26.9698 20.7845 25.9983 20.7857C23.5916 20.7889 21.185 20.7851 18.7783 20.7876C17.9043 20.7883 17.0303 20.8008 16.1563 20.8014C15.9371 20.8014 15.7273 20.8441 15.5199 20.8999C14.9637 21.0486 14.7582 21.2976 14.6934 21.8847C14.6502 22.2793 14.373 22.5703 14.0286 22.5829C13.6743 22.5954 13.3274 22.3433 13.3126 21.9468C13.2799 21.0542 12.6731 20.8855 11.9966 20.8108C11.6806 20.7763 11.3596 20.7807 11.0411 20.7801C8.0586 20.7782 5.07607 20.7751 2.09292 20.7814C1.44666 20.7826 0.875705 20.6339 0.429436 20.1227C0.0924191 19.7369 0.00291836 19.2759 0.00291836 18.7854C0.00106662 13.2999 -0.00201962 7.81319 0.00415285 2.32709C0.00538734 1.16288 0.792994 0.417053 1.98922 0.417053C4.01502 0.417053 6.04144 0.423326 8.06725 0.42709C9.0857 0.428971 10.1035 0.420817 11.122 0.434617C12.2003 0.449044 13.1768 0.726297 13.8792 1.63646C13.9731 1.75815 14.0292 1.72616 14.1138 1.62768C14.873 0.746997 15.8594 0.428971 16.9797 0.430853C19.9832 0.434617 22.9861 0.430853 25.9896 0.432735C27.2729 0.433362 27.9981 1.16915 27.9988 2.46634C28 5.16172 27.9994 7.85772 27.9994 10.5537ZM26.639 10.5826C26.639 7.8458 26.639 5.10903 26.6383 2.37225C26.6383 1.95951 26.5075 1.81524 26.1149 1.81524C22.9892 1.81335 19.8641 1.80708 16.7383 1.819C15.4995 1.82402 14.6854 2.68526 14.6847 3.94482C14.6835 9.06333 14.6841 14.1819 14.6841 19.3004C14.6841 19.3631 14.6885 19.4258 14.6841 19.4886C14.673 19.6447 14.7193 19.6899 14.8786 19.6328C15.4575 19.4239 16.0643 19.3819 16.6698 19.3807C19.7955 19.3725 22.9207 19.3744 26.0464 19.3725C26.5254 19.3725 26.6383 19.2565 26.6383 18.7628C26.6383 16.0354 26.6383 13.3087 26.639 10.5826ZM1.37814 10.5832C1.37814 13.3206 1.37753 16.058 1.37876 18.7954C1.37876 19.2671 1.4874 19.3913 1.92749 19.3913C4.83719 19.3907 7.74751 19.3819 10.6572 19.3869C11.4467 19.3882 12.2448 19.3625 13.0083 19.6178C13.2614 19.7024 13.2922 19.6309 13.291 19.3938C13.283 17.576 13.2873 15.7582 13.2867 13.9404C13.2848 10.5449 13.2904 7.14953 13.2756 3.75413C13.2713 2.76931 12.6503 2.04419 11.7096 1.8604C11.4899 1.81775 11.2596 1.81649 11.0344 1.81586C8.02157 1.81335 5.00879 1.81398 1.99539 1.81398C1.48616 1.81398 1.37876 1.9225 1.37876 2.43372C1.37814 5.15043 1.37814 7.86713 1.37814 10.5832Z" fill="#074A37"></path>
@@ -184,20 +184,20 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                 <div class="col-md-12 mb-5">
                                                                     <div class="row mt-5">
                                                                         <div class="col-md-12">
-                                                                            <div class="custom-font-style-subheadings custom-text-primary d-inline">
+                                                                            <div class="custom-font-style-text custom-text-primary d-inline">
                                                                                 Which plan should I select?
                                                                             </div>
                                                                         </div>
                                                                     </div>
                                                                     <div class="row mt-5">
                                                                         <div class="col-md-12">
-                                                                            <p class="custom-font-style-text custom-text-primary">
+                                                                            <p class="custom-font-style-sub-text custom-text-primary">
                                                                                 The Validated by LandScale package is for those that plan to follow the LandScale framework and guidelines; obtain LandScale and local review of their work, and optionally publish their results on the platform. Selecting this package now will save you considerable money over switching later and will help ensure that no work will need to be redone to meet LandScale requirements.
                                                                             </p>
-                                                                            <p class="custom-font-style-text custom-text-primary">
+                                                                            <p class="custom-font-style-sub-text custom-text-primary">
                                                                                 The Powered by LandScale package is for those that are not yet sure what their ultimate goal is for using the platform but want to get started with the option to switch later and publish their results (if requirements are met). If you are still not sure which package is best for you, then please contact us to discuss your needs.
                                                                             </p>
-                                                                            <p class="custom-font-style-text custom-text-primary">
+                                                                            <p class="custom-font-style-sub-text custom-text-primary">
                                                                                 We also offer multi-landscape packages and welcome discussions with any organization or partnership that would like a customized package, including customizing the functions of the platform.
                                                                             </p>
                                                                         </div>
@@ -205,7 +205,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                     <div class="d-flex justify-content-center align-items-center mt-5 w-100">
                                                                         <div>
                                                                             <div class="p-5 mr-4 payment-plan-card">
-                                                                                <span class="w-100 custom-font-style-text custom-text-primary d-inline-block text-center">
+                                                                                <span class="w-100 custom-font-style-sub-text custom-text-primary d-inline-block text-center">
                                                                                     <span class="font-weight-bold">Powered</span> By LandScale
                                                                                 </span>
                                                                                 <div class="text-center my-3">
@@ -251,7 +251,7 @@ License: You must have a valid license purchased only from themeforest(the above
 
                                                                         <div>
                                                                             <div class="card p-5 mr-4 payment-plan-card">
-                                                                                <span class="custom-font-style-text custom-text-primary d-inline-block text-center">
+                                                                                <span class="custom-font-style-sub-text custom-text-primary d-inline-block text-center">
                                                                                     <span class="font-weight-bold">Validated</span> By LandScale
                                                                                 </span>
                                                                                 <div class="text-center my-3">
