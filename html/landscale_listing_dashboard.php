@@ -604,6 +604,21 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                     </div>
 
                                                                 </div>
+                                                                <div class="row mt-5">
+                                                                    <div class="col-sm-12 col-md-7">
+                                                                        <div class="dataTables_paginate paging_simple_numbers" id="kt_datatable_paginate">
+                                                                            <ul class="pagination">
+                                                                                <li class="paginate_button page-item previous disabled" id="kt_datatable_previous"><a href="#" aria-controls="kt_datatable" data-dt-idx="0" tabindex="0" class="page-link"><i class="ki ki-arrow-back"></i></a></li>
+                                                                                <li class="paginate_button page-item active"><a href="#" aria-controls="kt_datatable" data-dt-idx="1" tabindex="0" class="page-link">1</a></li>
+                                                                                <li class="paginate_button page-item"><a href="#" aria-controls="kt_datatable" data-dt-idx="1" tabindex="0" class="page-link">2</a></li>
+                                                                                <li class="paginate_button page-item"><a href="#" aria-controls="kt_datatable" data-dt-idx="1" tabindex="0" class="page-link">3</a></li>
+                                                                                <li class="paginate_button page-item"><a href="#" aria-controls="kt_datatable" data-dt-idx="1" tabindex="0" class="page-link">4</a></li>
+                                                                                <li class="paginate_button page-item"><a href="#" aria-controls="kt_datatable" data-dt-idx="1" tabindex="0" class="page-link">5</a></li>
+                                                                                <li class="paginate_button page-item next disabled" id="kt_datatable_next"><a href="#" aria-controls="kt_datatable" data-dt-idx="2" tabindex="0" class="page-link"><i class="ki ki-arrow-next"></i></a></li>
+                                                                            </ul>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -925,9 +940,11 @@ License: You must have a valid license purchased only from themeforest(the above
         });
 
         $('#kt_datatable').DataTable({
-            paginate: true,
-            searching: false,
-            lengthChange: false
+            "paginate": true,
+            "searching": false,
+            "lengthChange": false,
+            "pagingType": "simple_numbers",
+            "pageLength": 5,
         });
 
         function openCity(evt, cityName) {
