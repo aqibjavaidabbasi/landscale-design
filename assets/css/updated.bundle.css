@@ -100856,6 +100856,17 @@ body {
     cursor: pointer;
 }
 
+#v-pills-home-tab {
+    position: relative;
+}
+
+.inner-side-submenu {
+    position: absolute;
+    top: 0px;    
+    right: -99px;
+    z-index: 3;
+}
+
 /* switch btn */
 /* CSS rules are kept repetitive so that you can get CSS rules for each button easily :) */
 .button-cover,

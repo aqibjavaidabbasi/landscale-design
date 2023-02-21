@@ -335,7 +335,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                             <div class="row"></div>
                                                             <div id="grid_view" class="tabcontent">
                                                                 <div class="row">
-                                                                    <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12">
+                                                                    <div class="col-lg-3 col-md-12 col-sm-12 col-xs-12">
                                                                         <div class="grid-card">
                                                                             <img src="../assets/media/map_img1.png" class="w-100 p-1" alt="">
                                                                             <div class="p-4">
@@ -364,7 +364,36 @@ License: You must have a valid license purchased only from themeforest(the above
 
                                                                         </div>
                                                                     </div>
-                                                                    <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12">
+                                                                    <div class="col-lg-3 col-md-12 col-sm-12 col-xs-12">
+                                                                        <div class="grid-card">
+                                                                            <img src="../assets/media/map_img1.png" class="w-100 p-1" alt="">
+                                                                            <div class="p-4">
+                                                                                <h6 class="custom-font-style-text custom-text-primary">Jacob Michael</h6>
+                                                                                <span class="custom-font-style-small">Not Plan yet!</span>
+                                                                            </div>
+                                                                            <div class="d-flex px-4">
+                                                                                <span class="custom-sm-icon custom-bg-light-pale">
+                                                                                    <img src="../assets/media/world-grid.png" class="custom-vertical-align-unset" alt="">
+                                                                                </span>
+                                                                                <span class="custom-font-style-small">Country: Florida</span>
+                                                                            </div>
+                                                                            <div class="d-flex px-4 mt-3">
+                                                                                <span class="custom-sm-icon custom-bg-light-pale">
+                                                                                    <img src="../assets/media/phone.png" class="custom-vertical-align-unset" alt="">
+                                                                                </span>
+                                                                                <span class="custom-font-style-small">Assessment Contact: +1 202 555 0156</span>
+                                                                            </div>
+
+                                                                            <div class="d-flex justify-content-between align-items-center my-5 px-4">
+                                                                                <span class="custom-font-style-small custom-bg-light-grey px-5 py-2">
+                                                                                    2022-12-07
+                                                                                </span>
+                                                                                <span class="custom-bg-light-pale custom-font-style-small custom-bg-light-grey px-5 py-2">Completed</span>
+                                                                            </div>
+
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-lg-3 col-md-12 col-sm-12 col-xs-12">
                                                                         <div class="grid-card my-5-res">
                                                                             <img src="../assets/media/map_img1.png" class="w-100 p-1" alt="">
                                                                             <div class="p-4">
@@ -393,7 +422,7 @@ License: You must have a valid license purchased only from themeforest(the above
 
                                                                         </div>
                                                                     </div>
-                                                                    <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12">
+                                                                    <div class="col-lg-3 col-md-12 col-sm-12 col-xs-12">
                                                                         <div class="grid-card m-1">
                                                                             <img src="../assets/media/map_img1.png" class="w-100 p-1" alt="">
                                                                             <div class="p-4">
@@ -425,7 +454,7 @@ License: You must have a valid license purchased only from themeforest(the above
 
                                                                 </div>
                                                                 <div class="row my-5 my-5-res">
-                                                                    <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12">
+                                                                    <div class="col-lg-3 col-md-12 col-sm-12 col-xs-12">
                                                                         <div class="grid-card">
                                                                             <img src="../assets/media/map_img1.png" class="w-100 p-1" alt="">
                                                                             <div class="p-4">
@@ -454,7 +483,7 @@ License: You must have a valid license purchased only from themeforest(the above
 
                                                                         </div>
                                                                     </div>
-                                                                    <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12">
+                                                                    <div class="col-lg-3 col-md-12 col-sm-12 col-xs-12">
                                                                         <div class="grid-card my-5-res">
                                                                             <img src="../assets/media/map_img1.png" class="w-100 p-1" alt="">
                                                                             <div class="p-4">
@@ -483,7 +512,36 @@ License: You must have a valid license purchased only from themeforest(the above
 
                                                                         </div>
                                                                     </div>
-                                                                    <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12">
+                                                                    <div class="col-lg-3 col-md-12 col-sm-12 col-xs-12">
+                                                                        <div class="grid-card m-1">
+                                                                            <img src="../assets/media/map_img1.png" class="w-100 p-1" alt="">
+                                                                            <div class="p-4">
+                                                                                <h6 class="custom-font-style-text custom-text-primary">Jacob Michael</h6>
+                                                                                <span class="custom-font-style-small">Not Plan yet!</span>
+                                                                            </div>
+                                                                            <div class="d-flex px-4">
+                                                                                <span class="custom-sm-icon custom-bg-light-pale">
+                                                                                    <img src="../assets/media/world-grid.png" class="custom-vertical-align-unset" alt="">
+                                                                                </span>
+                                                                                <span class="custom-font-style-small">Country: Florida</span>
+                                                                            </div>
+                                                                            <div class="d-flex px-4 mt-3">
+                                                                                <span class="custom-sm-icon custom-bg-light-pale">
+                                                                                    <img src="../assets/media/phone.png" class="custom-vertical-align-unset" alt="">
+                                                                                </span>
+                                                                                <span class="custom-font-style-small">Assessment Contact: +1 202 555 0156</span>
+                                                                            </div>
+
+                                                                            <div class="d-flex justify-content-between align-items-center my-5 px-4">
+                                                                                <span class="custom-font-style-small custom-bg-light-grey px-5 py-2">
+                                                                                    2022-12-07
+                                                                                </span>
+                                                                                <span class="custom-bg-light-pale custom-font-style-small custom-bg-light-grey px-5 py-2">Completed</span>
+                                                                            </div>
+
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-lg-3 col-md-12 col-sm-12 col-xs-12">
                                                                         <div class="grid-card m-1">
                                                                             <img src="../assets/media/map_img1.png" class="w-100 p-1" alt="">
                                                                             <div class="p-4">
@@ -515,7 +573,7 @@ License: You must have a valid license purchased only from themeforest(the above
 
                                                                 </div>
                                                                 <div class="row ">
-                                                                    <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12">
+                                                                    <div class="col-lg-3 col-md-12 col-sm-12 col-xs-12">
                                                                         <div class="grid-card">
                                                                             <img src="../assets/media/map_img1.png" class="w-100 p-1" alt="">
                                                                             <div class="p-4">
@@ -544,7 +602,7 @@ License: You must have a valid license purchased only from themeforest(the above
 
                                                                         </div>
                                                                     </div>
-                                                                    <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12">
+                                                                    <div class="col-lg-3 col-md-12 col-sm-12 col-xs-12">
                                                                         <div class="grid-card my-5-res">
                                                                             <img src="../assets/media/map_img1.png" class="w-100 p-1" alt="">
                                                                             <div class="p-4">
@@ -573,7 +631,36 @@ License: You must have a valid license purchased only from themeforest(the above
 
                                                                         </div>
                                                                     </div>
-                                                                    <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12">
+                                                                    <div class="col-lg-3 col-md-12 col-sm-12 col-xs-12">
+                                                                        <div class="grid-card m-1">
+                                                                            <img src="../assets/media/map_img1.png" class="w-100 p-1" alt="">
+                                                                            <div class="p-4">
+                                                                                <h6 class="custom-font-style-text custom-text-primary">Jacob Michael</h6>
+                                                                                <span class="custom-font-style-small">Not Plan yet!</span>
+                                                                            </div>
+                                                                            <div class="d-flex px-4">
+                                                                                <span class="custom-sm-icon custom-bg-light-pale">
+                                                                                    <img src="../assets/media/world-grid.png" class="custom-vertical-align-unset" alt="">
+                                                                                </span>
+                                                                                <span class="custom-font-style-small">Country: Florida</span>
+                                                                            </div>
+                                                                            <div class="d-flex px-4 mt-3">
+                                                                                <span class="custom-sm-icon custom-bg-light-pale">
+                                                                                    <img src="../assets/media/phone.png" class="custom-vertical-align-unset" alt="">
+                                                                                </span>
+                                                                                <span class="custom-font-style-small">Assessment Contact: +1 202 555 0156</span>
+                                                                            </div>
+
+                                                                            <div class="d-flex justify-content-between align-items-center my-5 px-4">
+                                                                                <span class="custom-font-style-small custom-bg-light-grey px-5 py-2">
+                                                                                    2022-12-07
+                                                                                </span>
+                                                                                <span class="custom-bg-light-pale custom-font-style-small custom-bg-light-grey px-5 py-2">Completed</span>
+                                                                            </div>
+
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-lg-3 col-md-12 col-sm-12 col-xs-12">
                                                                         <div class="grid-card m-1">
                                                                             <img src="../assets/media/map_img1.png" class="w-100 p-1" alt="">
                                                                             <div class="p-4">
