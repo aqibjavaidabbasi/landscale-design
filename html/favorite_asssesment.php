@@ -361,7 +361,9 @@ License: You must have a valid license purchased only from themeforest(the above
                                     <div class="d-flex justify-content-center align-items-center">
                                         <div style="padding: 50px;">
                                             <div class="d-flex justify-content-center">
-                                                <img src="../assets/media/heart_icon.png" alt="" class="mb-5">
+                                                <span class="custom-bg-primary p-2 custom-border-radius-50">
+                                                    <i class="icn-heart icn-3x mx-2 mt-2"></i>
+                                                </span>
                                             </div>
                                             <div class="custom-font-style-subheadings custom-text-primary mb-3 mt-5 text-center">You don’t have any favorite Assessments</div>
                                             <div class="custom-font-style-subtext custom-text-primary">Like any profile you see? Save them here to your favorite assessments</div>

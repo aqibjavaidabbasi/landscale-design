@@ -473,13 +473,13 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                             </div>
                                                                             <div class="d-flex px-4">
                                                                                 <span class="custom-sm-icon custom-bg-light-pale">
-                                                                                    <img src="../assets/media/world-grid.png" class="custom-vertical-align-unset" alt="">
+                                                                                    <i class="icn-world"></i>
                                                                                 </span>
                                                                                 <span class="custom-font-style-small">Country: Florida</span>
                                                                             </div>
                                                                             <div class="d-flex px-4 mt-3">
                                                                                 <span class="custom-sm-icon custom-bg-light-pale">
-                                                                                    <img src="../assets/media/phone.png" class="custom-vertical-align-unset" alt="">
+                                                                                    <i class="icn-phone"></i>
                                                                                 </span>
                                                                                 <span class="custom-font-style-small">Assessment Contact: +1 202 555 0156</span>
                                                                             </div>
@@ -502,13 +502,13 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                             </div>
                                                                             <div class="d-flex px-4">
                                                                                 <span class="custom-sm-icon custom-bg-light-pale">
-                                                                                    <img src="../assets/media/world-grid.png" class="custom-vertical-align-unset" alt="">
+                                                                                    <i class="icn-world"></i>
                                                                                 </span>
                                                                                 <span class="custom-font-style-small">Country: Florida</span>
                                                                             </div>
                                                                             <div class="d-flex px-4 mt-3">
                                                                                 <span class="custom-sm-icon custom-bg-light-pale">
-                                                                                    <img src="../assets/media/phone.png" class="custom-vertical-align-unset" alt="">
+                                                                                    <i class="icn-phone"></i>
                                                                                 </span>
                                                                                 <span class="custom-font-style-small">Assessment Contact: +1 202 555 0156</span>
                                                                             </div>
@@ -531,13 +531,13 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                             </div>
                                                                             <div class="d-flex px-4">
                                                                                 <span class="custom-sm-icon custom-bg-light-pale">
-                                                                                    <img src="../assets/media/world-grid.png" class="custom-vertical-align-unset" alt="">
+                                                                                    <i class="icn-world"></i>
                                                                                 </span>
                                                                                 <span class="custom-font-style-small">Country: Florida</span>
                                                                             </div>
                                                                             <div class="d-flex px-4 mt-3">
                                                                                 <span class="custom-sm-icon custom-bg-light-pale">
-                                                                                    <img src="../assets/media/phone.png" class="custom-vertical-align-unset" alt="">
+                                                                                    <i class="icn-phone"></i>
                                                                                 </span>
                                                                                 <span class="custom-font-style-small">Assessment Contact: +1 202 555 0156</span>
                                                                             </div>
@@ -563,13 +563,13 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                             </div>
                                                                             <div class="d-flex px-4">
                                                                                 <span class="custom-sm-icon custom-bg-light-pale">
-                                                                                    <img src="../assets/media/world-grid.png" class="custom-vertical-align-unset" alt="">
+                                                                                    <i class="icn-world"></i>
                                                                                 </span>
                                                                                 <span class="custom-font-style-small">Country: Florida</span>
                                                                             </div>
                                                                             <div class="d-flex px-4 mt-3">
                                                                                 <span class="custom-sm-icon custom-bg-light-pale">
-                                                                                    <img src="../assets/media/phone.png" class="custom-vertical-align-unset" alt="">
+                                                                                    <i class="icn-phone"></i>
                                                                                 </span>
                                                                                 <span class="custom-font-style-small">Assessment Contact: +1 202 555 0156</span>
                                                                             </div>
@@ -592,13 +592,13 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                             </div>
                                                                             <div class="d-flex px-4">
                                                                                 <span class="custom-sm-icon custom-bg-light-pale">
-                                                                                    <img src="../assets/media/world-grid.png" class="custom-vertical-align-unset" alt="">
+                                                                                    <i class="icn-world"></i>
                                                                                 </span>
                                                                                 <span class="custom-font-style-small">Country: Florida</span>
                                                                             </div>
                                                                             <div class="d-flex px-4 mt-3">
                                                                                 <span class="custom-sm-icon custom-bg-light-pale">
-                                                                                    <img src="../assets/media/phone.png" class="custom-vertical-align-unset" alt="">
+                                                                                    <i class="icn-phone"></i>
                                                                                 </span>
                                                                                 <span class="custom-font-style-small">Assessment Contact: +1 202 555 0156</span>
                                                                             </div>
@@ -621,13 +621,13 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                             </div>
                                                                             <div class="d-flex px-4">
                                                                                 <span class="custom-sm-icon custom-bg-light-pale">
-                                                                                    <img src="../assets/media/world-grid.png" class="custom-vertical-align-unset" alt="">
+                                                                                    <i class="icn-world"></i>
                                                                                 </span>
                                                                                 <span class="custom-font-style-small">Country: Florida</span>
                                                                             </div>
                                                                             <div class="d-flex px-4 mt-3">
                                                                                 <span class="custom-sm-icon custom-bg-light-pale">
-                                                                                    <img src="../assets/media/phone.png" class="custom-vertical-align-unset" alt="">
+                                                                                    <i class="icn-phone"></i>
                                                                                 </span>
                                                                                 <span class="custom-font-style-small">Assessment Contact: +1 202 555 0156</span>
                                                                             </div>
@@ -653,13 +653,13 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                             </div>
                                                                             <div class="d-flex px-4">
                                                                                 <span class="custom-sm-icon custom-bg-light-pale">
-                                                                                    <img src="../assets/media/world-grid.png" class="custom-vertical-align-unset" alt="">
+                                                                                    <i class="icn-world"></i>
                                                                                 </span>
                                                                                 <span class="custom-font-style-small">Country: Florida</span>
                                                                             </div>
                                                                             <div class="d-flex px-4 mt-3">
                                                                                 <span class="custom-sm-icon custom-bg-light-pale">
-                                                                                    <img src="../assets/media/phone.png" class="custom-vertical-align-unset" alt="">
+                                                                                    <i class="icn-phone"></i>
                                                                                 </span>
                                                                                 <span class="custom-font-style-small">Assessment Contact: +1 202 555 0156</span>
                                                                             </div>
@@ -682,13 +682,13 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                             </div>
                                                                             <div class="d-flex px-4">
                                                                                 <span class="custom-sm-icon custom-bg-light-pale">
-                                                                                    <img src="../assets/media/world-grid.png" class="custom-vertical-align-unset" alt="">
+                                                                                    <i class="icn-world"></i>
                                                                                 </span>
                                                                                 <span class="custom-font-style-small">Country: Florida</span>
                                                                             </div>
                                                                             <div class="d-flex px-4 mt-3">
                                                                                 <span class="custom-sm-icon custom-bg-light-pale">
-                                                                                    <img src="../assets/media/phone.png" class="custom-vertical-align-unset" alt="">
+                                                                                    <i class="icn-phone"></i>
                                                                                 </span>
                                                                                 <span class="custom-font-style-small">Assessment Contact: +1 202 555 0156</span>
                                                                             </div>
@@ -711,13 +711,13 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                             </div>
                                                                             <div class="d-flex px-4">
                                                                                 <span class="custom-sm-icon custom-bg-light-pale">
-                                                                                    <img src="../assets/media/world-grid.png" class="custom-vertical-align-unset" alt="">
+                                                                                    <i class="icn-world"></i>
                                                                                 </span>
                                                                                 <span class="custom-font-style-small">Country: Florida</span>
                                                                             </div>
                                                                             <div class="d-flex px-4 mt-3">
                                                                                 <span class="custom-sm-icon custom-bg-light-pale">
-                                                                                    <img src="../assets/media/phone.png" class="custom-vertical-align-unset" alt="">
+                                                                                    <i class="icn-phone"></i>
                                                                                 </span>
                                                                                 <span class="custom-font-style-small">Assessment Contact: +1 202 555 0156</span>
                                                                             </div>

@@ -53,6 +53,267 @@
     height: 16px;
 }
 
+.icn-world {
+    display: inline-block;
+    background-image: url('../media/svg_icons/world.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 12px;
+    height: 12px;
+}
+
+.icn-stack {
+    display: inline-block;
+    background-image: url('../media/svg_icons/stack.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 12px;
+    height: 12px;
+}
+
+.icn-phone {
+    display: inline-block;
+    background-image: url('../media/svg_icons/phone.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 12px;
+    height: 12px;
+}
+
+.icn-person {
+    display: inline-block;
+    background-image: url('../media/svg_icons/person.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 16px;
+    height: 16px;
+}
+
+.icn-reference-library {
+    display: inline-block;
+    background-image: url('../media/svg_icons/reference-library.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 16px;
+    height: 16px;
+}
+
+.icn-file {
+    display: inline-block;
+    background-image: url('../media/svg_icons/file.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 16px;
+    height: 16px;
+}
+
+.icn-globe {
+    display: inline-block;
+    background-image: url('../media/svg_icons/globe.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 12px;
+    height: 12px;
+}
+
+.icn-marker {
+    display: inline-block;
+    background-image: url('../media/svg_icons/marker.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 16px;
+    height: 16px;
+}
+
+.icn-circut {
+    display: inline-block;
+    background-image: url('../media/svg_icons/circut.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 16px;
+    height: 16px;
+}
+
+.icn-chart {
+    display: inline-block;
+    background-image: url('../media/svg_icons/chart.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 16px;
+    height: 16px;
+}
+
+.icn-notepad {
+    display: inline-block;
+    background-image: url('../media/svg_icons/notepad.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 16px;
+    height: 16px;
+}
+
+.icn-heart {
+    display: inline-block;
+    background-image: url('../media/svg_icons/heart.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 16px;
+    height: 16px;
+}
+
+.icn-image-gallery {
+    display: inline-block;
+    background-image: url('../media/svg_icons/image-gallery.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 16px;
+    height: 16px;
+}
+
+.icn-phone-book {
+    display: inline-block;
+    background-image: url('../media/svg_icons/phone-book.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 16px;
+    height: 16px;
+}
+
+.icn-team {
+    display: inline-block;
+    background-image: url('../media/svg_icons/team.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 16px;
+    height: 16px;
+}
+
+.icn-hand-shake {
+    display: inline-block;
+    background-image: url('../media/svg_icons/hand-shake.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 16px;
+    height: 16px;
+}
+
+.icn-file-search {
+    display: inline-block;
+    background-image: url('../media/svg_icons/file-search.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 16px;
+    height: 16px;
+}
+
+.icn-help {
+    display: inline-block;
+    background-image: url('../media/svg_icons/help.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 16px;
+    height: 16px;
+}
+
+.icn-edit {
+    display: inline-block;
+    background-image: url('../media/svg_icons/edit.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 11px;
+    height: 11px;
+}
+
+.icn-circle-plus {
+    display: inline-block;
+    background-image: url('../media/svg_icons/circle-plus.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 16px;
+    height: 16px;
+}
+
+.icn-ecosystem-goal-one {
+    display: inline-block;
+    background-image: url('../media/icons_and_Illustrations/Icons/PNGs/Ecosystems/Sub icons/Icons_Tier 2_Ecosystems_B_Pale Green.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 16px;
+    height: 16px;
+}
+
+.icn-ecosystem-goal-two {
+    display: inline-block;
+    background-image: url('../media/icons_and_Illustrations/Icons/PNGs/Ecosystems/Sub icons/Icons_Tier 2_Ecosystems_A_Pale Green.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 16px;
+    height: 16px;
+}
+
+.icn-ecosystem-goal-three {
+    display: inline-block;
+    background-image: url('../media/icons_and_Illustrations/Icons/PNGs/Ecosystems/Sub icons/Icons_Tier 2_Ecosystems_C_Pale Green.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 16px;
+    height: 16px;
+}
+
+.icn-wellbeing-goal-one {
+    display: inline-block;
+    background-image: url('../media/icons_and_Illustrations/Icons/PNGs/Human_Wellbeing/Sub icons/Icons_Tier 2_Human Wellbeing_A_Pale Green.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 16px;
+    height: 16px;
+}
+
+.icn-wellbeing-goal-two {
+    display: inline-block;
+    background-image: url('../media/icons_and_Illustrations/Icons/PNGs/Human_Wellbeing/Sub icons/Icons_Tier 2_Human Wellbeing_B_Pale Green.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 16px;
+    height: 16px;
+}
+
+.icn-governance-goal-one {
+    display: inline-block;
+    background-image: url('../media/icons_and_Illustrations/Icons/PNGs/Governance/Sub icons/Icons_Tier 2_Governance_A_Pale Green.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 16px;
+    height: 16px;
+}
+
+.icn-governance-goal-two {
+    display: inline-block;
+    background-image: url('../media/icons_and_Illustrations/Icons/PNGs/Governance/Sub icons/Icons_Tier 2_Governance_B_Pale Green.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 16px;
+    height: 16px;
+}
+
+.icn-production-goal-one {
+    display: inline-block;
+    background-image: url('../media/icons_and_Illustrations/Icons/PNGs/Production/Sub icons/Icons_Tier 2_Production_A_Pale Green.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 16px;
+    height: 16px;
+}
+
+.icn-production-goal-two {
+    display: inline-block;
+    background-image: url('../media/icons_and_Illustrations/Icons/PNGs/Production/Sub icons/Icons_Tier 2_Production_B_Pale Green.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 16px;
+    height: 16px;
+}
+
 /* end icons */
 
 
@@ -66,4 +327,17 @@
 .icn-3x {
     width: 26px !important;
     height: 26px !important;
+}
+
+.icn-4x {
+    width: 30px !important;
+    height: 30px !important;
+}
+
+/* sizes end */
+
+/* color */
+
+.icn-primary {
+    fill: #074A37 !important;
 }
