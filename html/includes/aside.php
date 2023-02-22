@@ -123,7 +123,7 @@
                                 </a>
                             </li>
                             <li class="menu-item" aria-haspopup="true">
-                                <a href="./admin_dashboard.php" class="menu-link">
+                                <a href="./icons.php" class="menu-link">
                                     <i class="menu-bullet-dot mr-3">
                                         <span>
                                             <svg width="7" height="9" viewBox="0 0 7 9" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -132,7 +132,7 @@
 
                                         </span>
                                     </i>
-                                    <span class="menu-text">Admin Dashboard</span>
+                                    <span class="menu-text">Icons</span>
                                 </a>
                             </li>
                             <li class="menu-item" aria-haspopup="true">

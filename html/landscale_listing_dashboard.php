@@ -146,7 +146,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                         <p class="custom-font-family custom-font-style-sub-text custom-text-grey pb-3">Select an assessment or create a new assessment
                                                         </p>
                                                         <a href="./overview.php" class="custom-btn-grey d-flex justify-content-center w-75 my-5 align-items-center">
-                                                            <i class="icn-add-folder icn-2x"></i>
+                                                            <i class="icn-add-folder icn-2x icn-white"></i>
                                                             <span class="text-light pl-2">
                                                                 create a new assessment
                                                             </span>

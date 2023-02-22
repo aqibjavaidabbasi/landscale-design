@@ -780,7 +780,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                                     <label class="indicator-small-text">Total percent converted (%)</label>
                                                                                                     <div class="d-flex align-items-center">
                                                                                                         <input class="p-2 custom-bg-light-pale custom-bordor-color-pale custom-btlr-50 custom-bblr-50 border-0 w-100" type="text">
-                                                                                                        <span class="p-2 px-3 custom-bg-primary custom-btrr-50 custom-bbrr-50 custom-border-color-pale"><img src="../assets/media/icon_edit.png" alt=""></span>
+                                                                                                        <span class="d-flex align-items-center p-3 custom-bg-primary custom-btrr-50 custom-bbrr-50 custom-border-color-pale"><i class="icn-edit icn-pale icn-13px"></i></span>
                                                                                                     </div>
                                                                                                 </div>
 
@@ -788,7 +788,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                                     <label class="indicator-small-text">Total area converted (ha)</label>
                                                                                                     <div class="d-flex align-items-center">
                                                                                                         <input class="p-2 custom-bg-light-pale custom-bordor-color-pale custom-btlr-50 custom-bblr-50 border-0 w-100" type="text">
-                                                                                                        <span class="p-2 px-3 custom-bg-primary custom-btrr-50 custom-bbrr-50 custom-border-color-pale"><img src="../assets/media/icon_edit.png" alt=""></span>
+                                                                                                        <span class="d-flex align-items-center p-3 custom-bg-primary custom-btrr-50 custom-bbrr-50 custom-border-color-pale"><i class="icn-edit icn-pale icn-13px"></i></span>
                                                                                                     </div>
                                                                                                 </div>
 
@@ -804,7 +804,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                                     <label class="custom-font-style-small custom-text-primary">Total percent converted (%)</label>
                                                                                                     <div class="d-flex align-items-center">
                                                                                                         <input class="p-2 custom-bg-light-pale custom-bordor-color-pale custom-btlr-50 custom-bblr-50 border-0 w-100" type="text">
-                                                                                                        <span class="p-2 px-3 custom-bg-primary custom-btrr-50 custom-bbrr-50 custom-border-color-pale"><img src="../assets/media/icon_edit.png" alt=""></span>
+                                                                                                        <span class="d-flex align-items-center p-3 custom-bg-primary custom-btrr-50 custom-bbrr-50 custom-border-color-pale"><i class="icn-edit icn-pale icn-13px"></i></span>
                                                                                                     </div>
                                                                                                 </div>
 
@@ -812,7 +812,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                                     <label class="custom-font-style-small custom-text-primary">Total area converted (ha)</label>
                                                                                                     <div class="d-flex align-items-center">
                                                                                                         <input class="p-2 custom-bg-light-pale custom-bordor-color-pale custom-btlr-50 custom-bblr-50 border-0 w-100" type="text">
-                                                                                                        <span class="p-2 px-3 custom-bg-primary custom-btrr-50 custom-bbrr-50 custom-border-color-pale"><img src="../assets/media/icon_edit.png" alt=""></span>
+                                                                                                        <span class="d-flex align-items-center p-3 custom-bg-primary custom-btrr-50 custom-bbrr-50 custom-border-color-pale"><i class="icn-edit icn-pale icn-13px"></i></span>
                                                                                                     </div>
                                                                                                 </div>
 
@@ -828,7 +828,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                                     <label class="custom-font-style-small custom-text-primary">Total percent converted (%)</label>
                                                                                                     <div class="d-flex align-items-center">
                                                                                                         <input class="p-2 custom-bg-light-pale custom-bordor-color-pale custom-btlr-50 custom-bblr-50 border-0 w-100" type="text">
-                                                                                                        <span class="p-2 px-3 custom-bg-primary custom-btrr-50 custom-bbrr-50 custom-border-color-pale"><img src="../assets/media/icon_edit.png" alt=""></span>
+                                                                                                        <span class="d-flex align-items-center p-3 custom-bg-primary custom-btrr-50 custom-bbrr-50 custom-border-color-pale"><i class="icn-edit icn-pale icn-13px"></i></span>
                                                                                                     </div>
                                                                                                 </div>
 
@@ -836,7 +836,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                                     <label class="custom-font-style-small custom-text-primary">Total area converted (ha)</label>
                                                                                                     <div class="d-flex align-items-center">
                                                                                                         <input class="p-2 custom-bg-light-pale custom-bordor-color-pale custom-btlr-50 custom-bblr-50 border-0 w-100" type="text">
-                                                                                                        <span class="p-2 px-3 custom-bg-primary custom-btrr-50 custom-bbrr-50 custom-border-color-pale"><img src="../assets/media/icon_edit.png" alt=""></span>
+                                                                                                        <span class="d-flex align-items-center p-3 custom-bg-primary custom-btrr-50 custom-bbrr-50 custom-border-color-pale"><i class="icn-edit icn-pale icn-13px"></i></span>
                                                                                                     </div>
                                                                                                 </div>
 
@@ -855,7 +855,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                                 <label class="custom-font-style-small custom-text-primary">Result year*</label>
                                                                                                 <div class="d-flex align-items-center">
                                                                                                     <input class="p-2 custom-bg-light-pale custom-bordor-color-pale custom-btlr-50 custom-bblr-50 border-0 w-100 ml-5" type="text">
-                                                                                                    <span class="p-2 px-3 custom-bg-primary custom-btrr-50 custom-bbrr-50 custom-border-color-pale"><img src="../assets/media/icon_edit.png" alt=""></span>
+                                                                                                    <span class="d-flex align-items-center p-3 custom-bg-primary custom-btrr-50 custom-bbrr-50 custom-border-color-pale"><i class="icn-edit icn-pale icn-13px"></i></span>
                                                                                                 </div>
                                                                                             </div>
                                                                                         </div>
@@ -962,7 +962,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                                     <label class="indicator-small-text">Total percent converted (%)</label>
                                                                                                     <div class="d-flex align-items-center">
                                                                                                         <input class="p-2 custom-bg-light-pale custom-bordor-color-pale custom-btlr-50 custom-bblr-50 border-0 w-100" type="text">
-                                                                                                        <span class="p-2 px-3 custom-bg-primary custom-btrr-50 custom-bbrr-50 custom-border-color-pale"><img src="../assets/media/icon_edit.png" alt=""></span>
+                                                                                                        <span class="d-flex align-items-center p-3 custom-bg-primary custom-btrr-50 custom-bbrr-50 custom-border-color-pale"><i class="icn-edit icn-pale icn-13px"></i></span>
                                                                                                     </div>
                                                                                                 </div>
 
@@ -970,7 +970,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                                     <label class="indicator-small-text">Total area converted (ha)</label>
                                                                                                     <div class="d-flex align-items-center">
                                                                                                         <input class="p-2 custom-bg-light-pale custom-bordor-color-pale custom-btlr-50 custom-bblr-50 border-0 w-100" type="text">
-                                                                                                        <span class="p-2 px-3 custom-bg-primary custom-btrr-50 custom-bbrr-50 custom-border-color-pale"><img src="../assets/media/icon_edit.png" alt=""></span>
+                                                                                                        <span class="d-flex align-items-center p-3 custom-bg-primary custom-btrr-50 custom-bbrr-50 custom-border-color-pale"><i class="icn-edit icn-pale icn-13px"></i></span>
                                                                                                     </div>
                                                                                                 </div>
 
@@ -986,7 +986,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                                     <label class="custom-font-style-small custom-text-primary">Total percent converted (%)</label>
                                                                                                     <div class="d-flex align-items-center">
                                                                                                         <input class="p-2 custom-bg-light-pale custom-bordor-color-pale custom-btlr-50 custom-bblr-50 border-0 w-100" type="text">
-                                                                                                        <span class="p-2 px-3 custom-bg-primary custom-btrr-50 custom-bbrr-50 custom-border-color-pale"><img src="../assets/media/icon_edit.png" alt=""></span>
+                                                                                                        <span class="d-flex align-items-center p-3 custom-bg-primary custom-btrr-50 custom-bbrr-50 custom-border-color-pale"><i class="icn-edit icn-pale icn-13px"></i></span>
                                                                                                     </div>
                                                                                                 </div>
 
@@ -994,7 +994,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                                     <label class="custom-font-style-small custom-text-primary">Total area converted (ha)</label>
                                                                                                     <div class="d-flex align-items-center">
                                                                                                         <input class="p-2 custom-bg-light-pale custom-bordor-color-pale custom-btlr-50 custom-bblr-50 border-0 w-100" type="text">
-                                                                                                        <span class="p-2 px-3 custom-bg-primary custom-btrr-50 custom-bbrr-50 custom-border-color-pale"><img src="../assets/media/icon_edit.png" alt=""></span>
+                                                                                                        <span class="d-flex align-items-center p-3 custom-bg-primary custom-btrr-50 custom-bbrr-50 custom-border-color-pale"><i class="icn-edit icn-pale icn-13px"></i></span>
                                                                                                     </div>
                                                                                                 </div>
 
@@ -1010,7 +1010,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                                     <label class="custom-font-style-small custom-text-primary">Total percent converted (%)</label>
                                                                                                     <div class="d-flex align-items-center">
                                                                                                         <input class="p-2 custom-bg-light-pale custom-bordor-color-pale custom-btlr-50 custom-bblr-50 border-0 w-100" type="text">
-                                                                                                        <span class="p-2 px-3 custom-bg-primary custom-btrr-50 custom-bbrr-50 custom-border-color-pale"><img src="../assets/media/icon_edit.png" alt=""></span>
+                                                                                                        <span class="d-flex align-items-center p-3 custom-bg-primary custom-btrr-50 custom-bbrr-50 custom-border-color-pale"><i class="icn-edit icn-pale icn-13px"></i></span>
                                                                                                     </div>
                                                                                                 </div>
 
@@ -1018,7 +1018,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                                     <label class="custom-font-style-small custom-text-primary">Total area converted (ha)</label>
                                                                                                     <div class="d-flex align-items-center">
                                                                                                         <input class="p-2 custom-bg-light-pale custom-bordor-color-pale custom-btlr-50 custom-bblr-50 border-0 w-100" type="text">
-                                                                                                        <span class="p-2 px-3 custom-bg-primary custom-btrr-50 custom-bbrr-50 custom-border-color-pale"><img src="../assets/media/icon_edit.png" alt=""></span>
+                                                                                                        <span class="d-flex align-items-center p-3 custom-bg-primary custom-btrr-50 custom-bbrr-50 custom-border-color-pale"><i class="icn-edit icn-pale icn-13px"></i></span>
                                                                                                     </div>
                                                                                                 </div>
 
@@ -1037,7 +1037,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                                 <label class="custom-font-style-small custom-text-primary">Result year*</label>
                                                                                                 <div class="d-flex align-items-center">
                                                                                                     <input class="p-2 custom-bg-light-pale custom-bordor-color-pale custom-btlr-50 custom-bblr-50 border-0 w-100 ml-5" type="text">
-                                                                                                    <span class="p-2 px-3 custom-bg-primary custom-btrr-50 custom-bbrr-50 custom-border-color-pale"><img src="../assets/media/icon_edit.png" alt=""></span>
+                                                                                                    <span class="d-flex align-items-center p-3 custom-bg-primary custom-btrr-50 custom-bbrr-50 custom-border-color-pale"><i class="icn-edit icn-pale icn-13px"></i></span>
                                                                                                 </div>
                                                                                             </div>
                                                                                         </div>
@@ -1137,7 +1137,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                         <label class="indicator-small-text">Total percent converted (%)</label>
                                                                                         <div class="d-flex align-items-center">
                                                                                             <input class="p-2 custom-bg-light-pale custom-bordor-color-pale custom-btlr-50 custom-bblr-50 border-0 w-100" type="text">
-                                                                                            <span class="p-2 px-3 custom-bg-primary custom-btrr-50 custom-bbrr-50 custom-border-color-pale"><img src="../assets/media/icon_edit.png" alt=""></span>
+                                                                                            <span class="d-flex align-items-center p-3 custom-bg-primary custom-btrr-50 custom-bbrr-50 custom-border-color-pale"><i class="icn-edit icn-pale icn-13px"></i></span>
                                                                                         </div>
                                                                                     </div>
 
@@ -1145,7 +1145,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                         <label class="indicator-small-text">Total area converted (ha)</label>
                                                                                         <div class="d-flex align-items-center">
                                                                                             <input class="p-2 custom-bg-light-pale custom-bordor-color-pale custom-btlr-50 custom-bblr-50 border-0 w-100" type="text">
-                                                                                            <span class="p-2 px-3 custom-bg-primary custom-btrr-50 custom-bbrr-50 custom-border-color-pale"><img src="../assets/media/icon_edit.png" alt=""></span>
+                                                                                            <span class="d-flex align-items-center p-3 custom-bg-primary custom-btrr-50 custom-bbrr-50 custom-border-color-pale"><i class="icn-edit icn-pale icn-13px"></i></span>
                                                                                         </div>
                                                                                     </div>
 
@@ -1161,7 +1161,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                         <label class="custom-font-style-small custom-text-primary">Total percent converted (%)</label>
                                                                                         <div class="d-flex align-items-center">
                                                                                             <input class="p-2 custom-bg-light-pale custom-bordor-color-pale custom-btlr-50 custom-bblr-50 border-0 w-100" type="text">
-                                                                                            <span class="p-2 px-3 custom-bg-primary custom-btrr-50 custom-bbrr-50 custom-border-color-pale"><img src="../assets/media/icon_edit.png" alt=""></span>
+                                                                                            <span class="d-flex align-items-center p-3 custom-bg-primary custom-btrr-50 custom-bbrr-50 custom-border-color-pale"><i class="icn-edit icn-pale icn-13px"></i></span>
                                                                                         </div>
                                                                                     </div>
 
@@ -1169,7 +1169,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                         <label class="custom-font-style-small custom-text-primary">Total area converted (ha)</label>
                                                                                         <div class="d-flex align-items-center">
                                                                                             <input class="p-2 custom-bg-light-pale custom-bordor-color-pale custom-btlr-50 custom-bblr-50 border-0 w-100" type="text">
-                                                                                            <span class="p-2 px-3 custom-bg-primary custom-btrr-50 custom-bbrr-50 custom-border-color-pale"><img src="../assets/media/icon_edit.png" alt=""></span>
+                                                                                            <span class="d-flex align-items-center p-3 custom-bg-primary custom-btrr-50 custom-bbrr-50 custom-border-color-pale"><i class="icn-edit icn-pale icn-13px"></i></span>
                                                                                         </div>
                                                                                     </div>
 
@@ -1185,7 +1185,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                         <label class="custom-font-style-small custom-text-primary">Total percent converted (%)</label>
                                                                                         <div class="d-flex align-items-center">
                                                                                             <input class="p-2 custom-bg-light-pale custom-bordor-color-pale custom-btlr-50 custom-bblr-50 border-0 w-100" type="text">
-                                                                                            <span class="p-2 px-3 custom-bg-primary custom-btrr-50 custom-bbrr-50 custom-border-color-pale"><img src="../assets/media/icon_edit.png" alt=""></span>
+                                                                                            <span class="d-flex align-items-center p-3 custom-bg-primary custom-btrr-50 custom-bbrr-50 custom-border-color-pale"><i class="icn-edit icn-pale icn-13px"></i></span>
                                                                                         </div>
                                                                                     </div>
 
@@ -1193,7 +1193,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                         <label class="custom-font-style-small custom-text-primary">Total area converted (ha)</label>
                                                                                         <div class="d-flex align-items-center">
                                                                                             <input class="p-2 custom-bg-light-pale custom-bordor-color-pale custom-btlr-50 custom-bblr-50 border-0 w-100" type="text">
-                                                                                            <span class="p-2 px-3 custom-bg-primary custom-btrr-50 custom-bbrr-50 custom-border-color-pale"><img src="../assets/media/icon_edit.png" alt=""></span>
+                                                                                            <span class="d-flex align-items-center p-3 custom-bg-primary custom-btrr-50 custom-bbrr-50 custom-border-color-pale"><i class="icn-edit icn-pale icn-13px"></i></span>
                                                                                         </div>
                                                                                     </div>
 
@@ -1212,7 +1212,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                     <label class="custom-font-style-small custom-text-primary">Result year*</label>
                                                                                     <div class="d-flex align-items-center">
                                                                                         <input class="p-2 custom-bg-light-pale custom-bordor-color-pale custom-btlr-50 custom-bblr-50 border-0 w-100 ml-5" type="text">
-                                                                                        <span class="p-2 px-3 custom-bg-primary custom-btrr-50 custom-bbrr-50 custom-border-color-pale"><img src="../assets/media/icon_edit.png" alt=""></span>
+                                                                                        <span class="d-flex align-items-center p-3 custom-bg-primary custom-btrr-50 custom-bbrr-50 custom-border-color-pale"><i class="icn-edit icn-pale icn-13px"></i></span>
                                                                                     </div>
                                                                                 </div>
                                                                             </div>
