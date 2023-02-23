@@ -101253,6 +101253,10 @@ select {
     font-family: 'Roboto';
 }
 
+.lh-20 {
+    line-height: 20px !important;
+}
+
 .lh-25 {
     line-height: 25px !important;
 }

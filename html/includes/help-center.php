@@ -45,85 +45,105 @@
     </div>
     <ul class="help-center-ul">
         <li class="d-flex align-items-center">
-            <span class="help-center-link-icon">
-                <i class="icn-file-double icn-2x"></i>
-                <!-- <img src="../assets/media/guideline.png" style="width: 50%;" alt=""> -->
-            </span>
-            <span class="help-link-text">
-                Guidelines Library
-            </span>
+            <a href="#">
+                <span class="help-center-link-icon">
+                    <i class="icn-file-double icn-2x"></i>
+                    <!-- <img src="../assets/media/guideline.png" style="width: 50%;" alt=""> -->
+                </span>
+                <span class="help-link-text">
+                    Guidelines Library
+                </span>
+            </a>
         </li>
         <li class="d-flex align-items-center">
-            <span class="help-center-link-icon">
-                <i class="icn-youtube icn-2x"></i>
-            </span>
-            <span class="help-link-text">
-                Video Library
-            </span>
+            <a href="#">
+                <span class="help-center-link-icon">
+                    <i class="icn-youtube icn-2x"></i>
+                </span>
+                <span class="help-link-text">
+                    Video Library
+                </span>
+            </a>
         </li>
         <li class="d-flex align-items-center">
-            <span class="help-center-link-icon">
-                <i class="icn-horizontal-stack icn-2x"></i>
-            </span>
-            <span class="help-link-text">
-                Data Resource Library
-            </span>
+            <a href="#">
+                <span class="help-center-link-icon">
+                    <i class="icn-horizontal-stack icn-2x"></i>
+                </span>
+                <span class="help-link-text">
+                    Data Resource Library
+                </span>
+            </a>
         </li>
         <li class="d-flex align-items-center custom-border-bottom-pale">
-            <span class="help-center-link-icon">
-                <i class="icn-loop icn-2x"></i>
-                <!-- <img src="../assets/media/icon_feedback.png" style="width: 50%;" alt=""> -->
-            </span>
-            <span class="help-link-text">
-                Platform Updates
-            </span>
+            <a href="#">
+                <span class="help-center-link-icon">
+                    <i class="icn-loop icn-2x"></i>
+                    <!-- <img src="../assets/media/icon_feedback.png" style="width: 50%;" alt=""> -->
+                </span>
+                <span class="help-link-text">
+                    Platform Updates
+                </span>
+            </a>
         </li>
         <li class="d-flex align-items-center custom-border-bottom-pale">
-            <span class="help-center-link-icon">
-                <i class="icn-persons icn-2x"></i>
-                <!-- <img src="../assets/media/icon_feedback.png" style="width: 50%;" alt=""> -->
-            </span>
-            <span class="help-link-text">
-                Community Of Practices
-            </span>
+            <a href="#">
+                <span class="help-center-link-icon">
+                    <i class="icn-persons icn-2x"></i>
+                    <!-- <img src="../assets/media/icon_feedback.png" style="width: 50%;" alt=""> -->
+                </span>
+                <span class="help-link-text">
+                    Community Of Practices
+                </span>
+            </a>
         </li>
     </ul>
 
     <h6 class="custom-font-style-text custom-text-primary py-4 px-7">Can't find what you're looking for?</h6>
     <ul class="help-center-ul">
         <li class="d-flex align-items-center">
-            <span class="help-center-link-icon">
-                <i class="icn-faq icn-2x"></i>
-                <!-- <img src="../assets/media/help_icon.png" style="width: 50%;" alt=""> -->
-            </span>
-            <span class="help-link-text">FAQs</span>
+            <a href="#">
+                <span class="help-center-link-icon">
+                    <i class="icn-faq icn-2x"></i>
+                    <!-- <img src="../assets/media/help_icon.png" style="width: 50%;" alt=""> -->
+                </span>
+                <span class="help-link-text">FAQs</span>
+            </a>
         </li>
         <li class="d-flex align-items-center">
-            <span class="help-center-link-icon">
-                <i class="icn-message-question icn-2x"></i>
-                <!-- <img src="../assets/media/info.png" style="width: 50%;" alt=""> -->
-            </span>
-            <span class="help-link-text">Help Desk</span>
+            <a href="#">
+                <span class="help-center-link-icon">
+                    <i class="icn-message-question icn-2x"></i>
+                    <!-- <img src="../assets/media/info.png" style="width: 50%;" alt=""> -->
+                </span>
+                <span class="help-link-text">Help Desk</span>
+            </a>
         </li>
         <li class="d-flex align-items-center">
-            <span class="help-center-link-icon">
-                <i class="icn-play icn-2x"></i>
-                <!-- <img src="../assets/media/tuts.png" style="width: 30%;" alt=""> -->
-            </span>
-            <span class="help-link-text">Interactive Tutorials</span>
+            <a href="#">
+                <span class="help-center-link-icon">
+                    <i class="icn-play icn-2x"></i>
+                    <!-- <img src="../assets/media/tuts.png" style="width: 30%;" alt=""> -->
+                </span>
+                <span class="help-link-text">Interactive Tutorials</span>
+            </a>
         </li>
         <li class="d-flex align-items-center">
-            <span class="help-center-link-icon">
-                <i class="icn-board icn-2x"></i>
-            </span>
-            <span class="help-link-text">Tell Us About Your Experience</span>
+            <a href="#">
+                <span class="help-center-link-icon">
+                    <i class="icn-board icn-2x"></i>
+                </span>
+                <span class="help-link-text">Tell Us About Your Experience</span>
+            </a>
         </li>
         <li class="d-flex align-items-center">
-            <span class="help-center-link-icon">
-                <i class="icn-person"></i>
-                <!-- <img src="../assets/media/vector_profile.png" style="width: 50%;" alt=""> -->
-            </span>
-            <span class="help-link-text">About</span>
+            <a href="./about.php">
+                <span class="help-center-link-icon">
+                    <i class="icn-person"></i>
+                    <!-- <img src="../assets/media/vector_profile.png" style="width: 50%;" alt=""> -->
+                </span>
+                <span class="help-link-text">About</span>
+            </a>
         </li>
     </ul>
 
