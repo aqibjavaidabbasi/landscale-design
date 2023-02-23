@@ -146,7 +146,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                         together their reports. It is also the best place to browse and find results from assessments across the world.
                                     </p>
                                     <p class="custom-text-primary custom-font-style-sub-text lh-20 text-center">
-                                        To keep up with the latest updates to the LandScale platform, visit <a href="https://platform.landscale.org/landscaleplatform"  style="text-decoration: underline; color: blue;">https://platform.landscale.org/landscaleplatform </a>.
+                                        To keep up with the latest updates to the LandScale platform, visit <a href="https://platform.landscale.org/landscaleplatform" style="text-decoration: underline; color: blue;">https://platform.landscale.org/landscaleplatform </a>.
                                         If you have any questions for the LandScale team, browse our Help Center or contact us using the form below.
                                     </p>
                                 </div>
@@ -179,8 +179,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                 <h3 class="custom-text-primary custom-font-style-heading font-weight-bolder text-center">Contact us</h3>
                                 <div class="px-15 mt-7">
                                     <p class="custom-text-primary custom-font-style-sub-text lh-20 text-center">
-                                        LandScale is a collaborative effort to drive improvements at scale by making reliable information about landscape sustainability widely available to decision-makers.
-                                        We envision a future where people, nature, and business prosper through sustainable landscape management.
+                                        Please create a new issue below to open a conversation with us. You can submit an issue about any technical challenges, problems or questions about the system and guidelines and all suggestions or ideas you want to share with us.
                                     </p>
                                     <div class="mt-15">
                                         <form action="">
