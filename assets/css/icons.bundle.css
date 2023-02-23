@@ -573,6 +573,17 @@
     height: 16px;
 }
 
+.icn-person-plus {
+    display: inline-block;
+    -webkit-mask: url('../media/svg_icons/add-person.svg') no-repeat center;
+    mask: url('../media/svg_icons/add-person.svg') no-repeat center;
+    -webkit-mask-size: contain;
+    mask-size: contain;
+    background-color: #fff;
+    width: 16px;
+    height: 16px;
+}
+
 .icn-ecosystem-main {
     display: inline-block;
     -webkit-mask: url('../media/svg_icons/ecosystem.svg') no-repeat center;

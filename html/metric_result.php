@@ -247,13 +247,13 @@ License: You must have a valid license purchased only from themeforest(the above
 
                                                             <!-- Modal Header -->
                                                             <div class="modal-header steps-table-header-color">
-                                                                <h4 class="modal-title indicator-tab-link">Metric Tasks</h4>
+                                                                <h4 class="modal-title indicator-tab-link">Header</h4>
                                                                 <button type="button" class="close text-dark" data-dismiss="modal">&times;</button>
                                                             </div>
 
                                                             <!-- Modal body -->
                                                             <div class="modal-body">
-                                                                In this task you will enter the results for each metric. You may not enter results until you have conducted the prior tasks to define your data themes and datasets and screened and evaluated dataset quality.
+                                                                body
                                                             </div>
 
                                                             <!-- Modal footer -->
@@ -630,13 +630,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                         </div>
                                                                         <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
                                                                             <div class="d-flex justify-content-center">
-                                                                                <div class="steps-image-container indicator-image-container-responsive">
-                                                                                    <img src="../assets/media/icons_and_Illustrations/Avatars/Avatars_Baboon.png" class="accordian-unit-image-1" alt="">
-                                                                                    <img src="../assets/media/icons_and_Illustrations/Avatars/Avatars_Frog.png" class="accordian-unit-image-2" alt="">
-                                                                                    <img src="../assets/media/icons_and_Illustrations/Avatars/Avatars_Parrot.png" class="accordian-unit-image-3" alt="">
-                                                                                    <span class="step-unit-counter d-inline-block">6+</span>
-                                                                                    <img src="../assets/media/add_person.png" class="step-unit-image-4" alt="">
-                                                                                </div>
+                                                                                <?php include './includes/assign-person.php' ?>
                                                                             </div>
                                                                         </div>
                                                                         <div class="col-lg-1 col-md-1 col-sm-12 col-xs-12">
@@ -1229,6 +1223,7 @@ License: You must have a valid license purchased only from themeforest(the above
 
             </div>
             <!--end::Wrapper-->
+
         </div>
         <!--end::Page-->
     </div>

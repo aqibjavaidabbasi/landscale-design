@@ -283,13 +283,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                     <tr>
                                                         <td><a href="./add_indicator.php">Add Indicators</a></td>
                                                         <td>
-                                                            <div class="steps-image-container">
-                                                                <img src="../assets/media/icons_and_Illustrations/Avatars/Avatars_Baboon.png" class="accordian-unit-image-1" alt="">
-                                                                <img src="../assets/media/icons_and_Illustrations/Avatars/Avatars_Frog.png" class="accordian-unit-image-2" alt="">
-                                                                <img src="../assets/media/icons_and_Illustrations/Avatars/Avatars_Parrot.png" class="accordian-unit-image-3" alt="">
-                                                                <span class="step-unit-counter d-inline-block">6+</span>
-                                                                <img src="../assets/media/add_person.png" class="step-unit-image-4" alt="">
-                                                            </div>
+                                                            <?php include './includes/assign-person.php' ?>
                                                         </td>
                                                         <td><span class="custom-bg-cyan custom-font-style-xs text-light p-1">Required</span></td>
                                                         <td><span class="custom-bg-light-pale custom-font-style-xs custom-text-primary p-1">Completed</span></td>
@@ -297,13 +291,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                     <tr>
                                                         <td><a href="./add_metrices.php">Add Metrics</a></td>
                                                         <td>
-                                                            <div class="steps-image-container">
-                                                                <img src="../assets/media/icons_and_Illustrations/Avatars/Avatars_Baboon.png" class="accordian-unit-image-1" alt="">
-                                                                <img src="../assets/media/icons_and_Illustrations/Avatars/Avatars_Frog.png" class="accordian-unit-image-2" alt="">
-                                                                <img src="../assets/media/icons_and_Illustrations/Avatars/Avatars_Parrot.png" class="accordian-unit-image-3" alt="">
-                                                                <span class="step-unit-counter d-inline-block">6+</span>
-                                                                <img src="../assets/media/add_person.png" class="step-unit-image-4" alt="">
-                                                            </div>
+                                                            <?php include './includes/assign-person.php' ?>
                                                         </td>
                                                         <td><span class="custom-bg-cyan custom-font-style-xs text-light p-1">Required</span></td>
                                                         <td><span class="custom-bg-light-pale custom-font-style-xs custom-text-primary p-1">Completed</span></td>
@@ -318,13 +306,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                             <div class="custom-bg-light-pale custom-border-color-pale custom-border-radius-15 my-2 py-2 text-center custom-padding-40">
                                                 <span class="steps-default-text steps-heading d-block mb-1"><a href="./add_indicator.php">Add Indicators</a></span>
                                                 <div class="d-flex justify-content-center">
-                                                    <div class="steps-image-container" style="margin-right: 100px;">
-                                                        <img src="../assets/media/icons_and_Illustrations/Avatars/Avatars_Baboon.png" class="accordian-unit-image-1" alt="">
-                                                        <img src="../assets/media/icons_and_Illustrations/Avatars/Avatars_Frog.png" class="accordian-unit-image-2" alt="">
-                                                        <img src="../assets/media/icons_and_Illustrations/Avatars/Avatars_Parrot.png" class="accordian-unit-image-3" alt="">
-                                                        <span class="step-unit-counter d-inline-block">6+</span>
-                                                        <img src="../assets/media/add_person.png" class="step-unit-image-4" alt="">
-                                                    </div>
+                                                    <?php include './includes/assign-person.php' ?>
                                                 </div>
                                                 <div class="d-flex justify-content-center flex-column align-items-center">
                                                     <span class="custom-bg-cyan text-light px-3 py-2 custom-font-style-xs p-1 w-25 custom-border-radius-4 mt-2">Required</span>
@@ -337,13 +319,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                             <div class="custom-bg-light-pale custom-border-color-pale custom-border-radius-15 my-2 py-2 text-center custom-padding-40">
                                                 <span class="steps-default-text steps-heading d-block mb-1"><a href="./add_metrices.php">Add Metrics</a></span>
                                                 <div class="d-flex justify-content-center">
-                                                    <div class="steps-image-container" style="margin-right: 100px;">
-                                                        <img src="../assets/media/icons_and_Illustrations/Avatars/Avatars_Baboon.png" class="accordian-unit-image-1" alt="">
-                                                        <img src="../assets/media/icons_and_Illustrations/Avatars/Avatars_Frog.png" class="accordian-unit-image-2" alt="">
-                                                        <img src="../assets/media/icons_and_Illustrations/Avatars/Avatars_Parrot.png" class="accordian-unit-image-3" alt="">
-                                                        <span class="step-unit-counter d-inline-block">6+</span>
-                                                        <img src="../assets/media/add_person.png" class="step-unit-image-4" alt="">
-                                                    </div>
+                                                    <?php include './includes/assign-person.php' ?>
                                                 </div>
                                                 <div class="d-flex justify-content-center flex-column align-items-center">
                                                     <span class="custom-bg-cyan text-light px-3 py-2 custom-font-style-xs p-1 w-25 custom-border-radius-4 mt-2">Required</span>
@@ -363,6 +339,29 @@ License: You must have a valid license purchased only from themeforest(the above
 
             </div>
             <!--end::Wrapper-->
+            <div class="modal fade" id="myModal">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+
+                        <!-- Modal Header -->
+                        <div class="modal-header steps-table-header-color">
+                            <h4 class="modal-title indicator-tab-link">Modal Heading</h4>
+                            <button type="button" class="close text-dark" data-dismiss="modal">&times;</button>
+                        </div>
+
+                        <!-- Modal body -->
+                        <div class="modal-body">
+                            Modal body..
+                        </div>
+
+                        <!-- Modal footer -->
+                        <div class="modal-footer p-2">
+                            <button type="button" class="btn indicator-btn-dark text-light" data-dismiss="modal">Close</button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
         </div>
         <!--end::Page-->
     </div>

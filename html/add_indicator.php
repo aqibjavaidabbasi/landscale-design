@@ -141,7 +141,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                     <div class="row">
                                         <div class="col-md-12">
                                             <div class="col-md-12 text-center">
-                                                <?php include './includes/progress-bar.php'?>
+                                                <?php include './includes/progress-bar.php' ?>
                                             </div>
                                         </div>
                                         <div class="col-md-12 mt-17">
@@ -391,13 +391,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                             </span>
                                                                         </div>
                                                                         <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
-                                                                            <div class="steps-image-container indicator-image-container-responsive mr-5">
-                                                                                <img src="../assets/media/icons_and_Illustrations/Avatars/Avatars_Baboon.png" class="step-unit-image-1" alt="">
-                                                                                <img src="../assets/media/icons_and_Illustrations/Avatars/Avatars_Frog.png" class="step-unit-image-2" alt="">
-                                                                                <img src="../assets/media/icons_and_Illustrations/Avatars/Avatars_Parrot.png" class="step-unit-image-3" alt="">
-                                                                                <span class="step-unit-counter d-inline-block">6+</span>
-                                                                                <img src="../assets/media/add_person.png" class="step-unit-image-4" alt="">
-                                                                            </div>
+                                                                            <?php include './includes/assign-person.php' ?>
                                                                         </div>
                                                                         <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
                                                                             <span class="steps-tags-text steps-success-tag p-1 custom-position-relative d-flex align-items-center h-100">
@@ -518,13 +512,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                             </span>
                                                                         </div>
                                                                         <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
-                                                                            <div class="steps-image-container indicator-image-container-responsive mr-5">
-                                                                                <img src="../assets/media/icons_and_Illustrations/Avatars/Avatars_Baboon.png" class="step-unit-image-1" alt="">
-                                                                                <img src="../assets/media/icons_and_Illustrations/Avatars/Avatars_Frog.png" class="step-unit-image-2" alt="">
-                                                                                <img src="../assets/media/icons_and_Illustrations/Avatars/Avatars_Parrot.png" class="step-unit-image-3" alt="">
-                                                                                <span class="step-unit-counter d-inline-block">6+</span>
-                                                                                <img src="../assets/media/add_person.png" class="step-unit-image-4" alt="">
-                                                                            </div>
+                                                                            <?php include './includes/assign-person.php' ?>
                                                                         </div>
                                                                         <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
                                                                             <span class="steps-tags-text steps-success-tag p-1 custom-position-relative d-flex align-items-center h-100">
@@ -635,13 +623,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                             </span>
                                                                         </div>
                                                                         <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
-                                                                            <div class="steps-image-container indicator-image-container-responsive mr-5">
-                                                                                <img src="../assets/media/icons_and_Illustrations/Avatars/Avatars_Baboon.png" class="step-unit-image-1" alt="">
-                                                                                <img src="../assets/media/icons_and_Illustrations/Avatars/Avatars_Frog.png" class="step-unit-image-2" alt="">
-                                                                                <img src="../assets/media/icons_and_Illustrations/Avatars/Avatars_Parrot.png" class="step-unit-image-3" alt="">
-                                                                                <span class="step-unit-counter d-inline-block">6+</span>
-                                                                                <img src="../assets/media/add_person.png" class="step-unit-image-4" alt="">
-                                                                            </div>
+                                                                            <?php include './includes/assign-person.php' ?>
                                                                         </div>
                                                                         <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
                                                                             <span class="steps-tags-text steps-success-tag p-1 custom-position-relative d-flex align-items-center h-100">
@@ -757,13 +739,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                             </span>
                                                                         </div>
                                                                         <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
-                                                                            <div class="steps-image-container indicator-image-container-responsive mr-5">
-                                                                                <img src="../assets/media/icons_and_Illustrations/Avatars/Avatars_Baboon.png" class="step-unit-image-1" alt="">
-                                                                                <img src="../assets/media/icons_and_Illustrations/Avatars/Avatars_Frog.png" class="step-unit-image-2" alt="">
-                                                                                <img src="../assets/media/icons_and_Illustrations/Avatars/Avatars_Parrot.png" class="step-unit-image-3" alt="">
-                                                                                <span class="step-unit-counter d-inline-block">6+</span>
-                                                                                <img src="../assets/media/add_person.png" class="step-unit-image-4" alt="">
-                                                                            </div>
+                                                                            <?php include './includes/assign-person.php' ?>
                                                                         </div>
                                                                         <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
                                                                             <span class="steps-tags-text steps-success-tag p-1 custom-position-relative d-flex align-items-center h-100">
@@ -884,13 +860,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                             </span>
                                                                         </div>
                                                                         <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
-                                                                            <div class="steps-image-container indicator-image-container-responsive mr-5">
-                                                                                <img src="../assets/media/icons_and_Illustrations/Avatars/Avatars_Baboon.png" class="step-unit-image-1" alt="">
-                                                                                <img src="../assets/media/icons_and_Illustrations/Avatars/Avatars_Frog.png" class="step-unit-image-2" alt="">
-                                                                                <img src="../assets/media/icons_and_Illustrations/Avatars/Avatars_Parrot.png" class="step-unit-image-3" alt="">
-                                                                                <span class="step-unit-counter d-inline-block">6+</span>
-                                                                                <img src="../assets/media/add_person.png" class="step-unit-image-4" alt="">
-                                                                            </div>
+                                                                            <?php include './includes/assign-person.php' ?>
                                                                         </div>
                                                                         <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
                                                                             <span class="steps-tags-text steps-success-tag p-1 custom-position-relative d-flex align-items-center h-100">
@@ -1006,13 +976,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                             </span>
                                                                         </div>
                                                                         <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
-                                                                            <div class="steps-image-container indicator-image-container-responsive mr-5">
-                                                                                <img src="../assets/media/icons_and_Illustrations/Avatars/Avatars_Baboon.png" class="step-unit-image-1" alt="">
-                                                                                <img src="../assets/media/icons_and_Illustrations/Avatars/Avatars_Frog.png" class="step-unit-image-2" alt="">
-                                                                                <img src="../assets/media/icons_and_Illustrations/Avatars/Avatars_Parrot.png" class="step-unit-image-3" alt="">
-                                                                                <span class="step-unit-counter d-inline-block">6+</span>
-                                                                                <img src="../assets/media/add_person.png" class="step-unit-image-4" alt="">
-                                                                            </div>
+                                                                            <?php include './includes/assign-person.php' ?>
                                                                         </div>
                                                                         <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
                                                                             <span class="steps-tags-text steps-success-tag p-1 custom-position-relative d-flex align-items-center h-100">
@@ -1133,13 +1097,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                             </span>
                                                                         </div>
                                                                         <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
-                                                                            <div class="steps-image-container indicator-image-container-responsive mr-5">
-                                                                                <img src="../assets/media/icons_and_Illustrations/Avatars/Avatars_Baboon.png" class="step-unit-image-1" alt="">
-                                                                                <img src="../assets/media/icons_and_Illustrations/Avatars/Avatars_Frog.png" class="step-unit-image-2" alt="">
-                                                                                <img src="../assets/media/icons_and_Illustrations/Avatars/Avatars_Parrot.png" class="step-unit-image-3" alt="">
-                                                                                <span class="step-unit-counter d-inline-block">6+</span>
-                                                                                <img src="../assets/media/add_person.png" class="step-unit-image-4" alt="">
-                                                                            </div>
+                                                                            <?php include './includes/assign-person.php' ?>
                                                                         </div>
                                                                         <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
                                                                             <span class="steps-tags-text steps-success-tag p-1 custom-position-relative d-flex align-items-center h-100">
@@ -1255,13 +1213,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                             </span>
                                                                         </div>
                                                                         <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
-                                                                            <div class="steps-image-container indicator-image-container-responsive mr-5">
-                                                                                <img src="../assets/media/icons_and_Illustrations/Avatars/Avatars_Baboon.png" class="step-unit-image-1" alt="">
-                                                                                <img src="../assets/media/icons_and_Illustrations/Avatars/Avatars_Frog.png" class="step-unit-image-2" alt="">
-                                                                                <img src="../assets/media/icons_and_Illustrations/Avatars/Avatars_Parrot.png" class="step-unit-image-3" alt="">
-                                                                                <span class="step-unit-counter d-inline-block">6+</span>
-                                                                                <img src="../assets/media/add_person.png" class="step-unit-image-4" alt="">
-                                                                            </div>
+                                                                            <?php include './includes/assign-person.php' ?>
                                                                         </div>
                                                                         <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
                                                                             <span class="steps-tags-text steps-success-tag p-1 custom-position-relative d-flex align-items-center h-100">
@@ -1382,13 +1334,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                             </span>
                                                                         </div>
                                                                         <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
-                                                                            <div class="steps-image-container indicator-image-container-responsive mr-5">
-                                                                                <img src="../assets/media/icons_and_Illustrations/Avatars/Avatars_Baboon.png" class="step-unit-image-1" alt="">
-                                                                                <img src="../assets/media/icons_and_Illustrations/Avatars/Avatars_Frog.png" class="step-unit-image-2" alt="">
-                                                                                <img src="../assets/media/icons_and_Illustrations/Avatars/Avatars_Parrot.png" class="step-unit-image-3" alt="">
-                                                                                <span class="step-unit-counter d-inline-block">6+</span>
-                                                                                <img src="../assets/media/add_person.png" class="step-unit-image-4" alt="">
-                                                                            </div>
+                                                                            <?php include './includes/assign-person.php' ?>
                                                                         </div>
                                                                         <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
                                                                             <span class="steps-tags-text steps-success-tag p-1 custom-position-relative d-flex align-items-center h-100">
