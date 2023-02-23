@@ -101132,6 +101132,37 @@ select {
     border: none !important;
 }
 
+.main-menu {
+    position: relative;
+}
+
+.sub-menu-hover {
+    position: absolute;
+    top: 0;
+    right: -150px;
+    z-index: 1;
+    background-color: var(--primary);
+    color: #EBF2E4;
+    width: 150px;
+    height: 47.5px;
+    vertical-align: middle;
+    padding-left: 10px;
+    display: none;
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+#inner-side-nav.max-w-5-percent .main-menu:hover .sub-menu-hover {
+    display: block !important;
+}
+
+#inner-side-nav.max-w-5-percent .main-menu:hover {
+    background-color: var(--primary) !important;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
 
 /* end utilities */
 
