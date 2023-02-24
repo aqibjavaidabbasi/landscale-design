@@ -132,15 +132,15 @@ License: You must have a valid license purchased only from themeforest(the above
                     <!--begin::Subheader-->
                     <div class="container">
                         <div class="py-5">
-                            <a href="#" class="custom-font-style-text custom-text-grey">Assessments /</a>
-                            <span class="custom-font-style-text custom-text-primary">Demo-LR Shayan</span>
+                            <a href="#" class="font-text text-secondary">Assessments /</a>
+                            <span class="font-text text-primary">Demo-LR Shayan</span>
                         </div>
                         <div class="row">
                             <div class="col-md-12">
                                 <div class="card w-100 p-5">
                                     <div class="row">
                                         <div class="col-md-12 text-center">
-                                            <span class="custom-font-style-headings custom-text-primary">Steps</span>
+                                            <span class="font-heading text-primary">Steps</span>
                                         </div>
                                         <div class="col-md-12 text-center">
                                             <?php include './includes/progress-bar.php' ?>
@@ -149,18 +149,18 @@ License: You must have a valid license purchased only from themeforest(the above
 
                                     <div class="row mt-35">
                                         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                                            <div class="custom-bg-light-pale custom-border-radius-15 custom-border-color-pale h-100 p-5">
-                                                <span class="custom-font-style-subheadings custom-text-primary d-block mb-1">Step 4: Data Tasks & Results</span>
+                                            <div class="bg-light-primary br-15 border-color-pale h-100 p-5">
+                                                <span class="font-subheading text-primary d-block mb-1">Step 4: Data Tasks & Results</span>
                                                 <!-- <span class="steps-default-text steps-small-text d-block my-5">View Instructions</span> -->
-                                                <span data-toggle="collapse" data-target="#demo" class="custom-font-style-subtext custom-text-primary d-block my-5 custom-cursor-pointer">View Instructions <img src="../assets/media/arrow_down.png" alt=""></span>
+                                                <span data-toggle="collapse" data-target="#demo" class="custom-font-style-subtext text-primary d-block my-5 cursor-pointer">View Instructions <img src="../assets/media/arrow_down.png" alt=""></span>
 
                                                 <div id="demo" class="collapse mb-2">
-                                                    <p class="custom-font-style-subtext custom-text-primary"></p>
+                                                    <p class="custom-font-style-subtext text-primary"></p>
                                                     Identify, screen, and evaluate data suitable to measure the metrics from step 3. Start either with individual metrics or with candidate datasets. Thoroughly read the step 4 guidance before beginning these tasks.
                                                 </div>
-                                                <span class="custom-bg-primary p-2 custom-border-radius-4 d-inline-block mt-1">
-                                                    <span class="custom-font-style-small custom-text-light-pale">Pillars Completed</span>
-                                                    <span class="custom-font-style-small custom-bg-warning custom-text-primary p-1 custom-border-radius-4">2/4</span>
+                                                <span class="bg-primary p-2 br-4 d-inline-block mt-1">
+                                                    <span class="font-small text-light-primary">Pillars Completed</span>
+                                                    <span class="font-small bg-success text-primary p-1 br-4">2/4</span>
                                                 </span>
                                             </div>
                                         </div>
@@ -168,31 +168,31 @@ License: You must have a valid license purchased only from themeforest(the above
                                             <div class="card-wrapper h-100 p-5">
                                                 <div class="row">
                                                     <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 responsive-margin-card">
-                                                        <div class="p-5 custom-bg-light-pale custom-border-radius-15 text-center h-100 custom-cursor-pointer">
+                                                        <div class="p-5 bg-light-primary br-15 text-center h-100 cursor-pointer">
                                                             <div class="my-2">
                                                                 <i class="icn-reference-library icn-3x"></i>
                                                             </div>
-                                                            <span class="custom-font-style-sub-text mb-2">
+                                                            <span class="font-subtext mb-2">
                                                                 Reference Library
                                                             </span>
                                                         </div>
                                                     </div>
                                                     <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 my-5-res">
-                                                        <div class="p-5 custom-bg-light-pale text-center custom-border-radius-15 h-100 custom-cursor-pointer">
+                                                        <div class="p-5 bg-light-primary text-center br-15 h-100 cursor-pointer">
                                                             <div class="my-2">
                                                                 <i class="icn-image-gallery icn-3x"></i>
                                                             </div>
-                                                            <span class="custom-font-style-sub-text mb-2">
+                                                            <span class="font-subtext mb-2">
                                                                 Image Galary
                                                             </span>
                                                         </div>
                                                     </div>
                                                     <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 responsive-margin-card">
-                                                        <div class="p-5 custom-bg-light-pale text-center custom-border-radius-15 h-100 custom-cursor-pointer">
+                                                        <div class="p-5 bg-light-primary text-center br-15 h-100 cursor-pointer">
                                                             <div class="my-2">
                                                                 <i class="icn-help icn-3x"></i>
                                                             </div>
-                                                            <span class="custom-font-style-sub-text mb-2">
+                                                            <span class="font-subtext mb-2">
                                                                 Need Help
                                                             </span>
                                                         </div>
@@ -200,32 +200,32 @@ License: You must have a valid license purchased only from themeforest(the above
                                                 </div>
                                                 <div class="row my-5-res" style="margin-top: 20px;">
                                                     <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 responsive-margin-card">
-                                                        <div class="p-5 custom-bg-light-pale text-center custom-border-radius-15 h-100 custom-cursor-pointer">
+                                                        <div class="p-5 bg-light-primary text-center br-15 h-100 cursor-pointer">
                                                             <div class="my-2">
                                                                 <i class="icn-phone-book icn-3x"></i>
 
                                                             </div>
-                                                            <span class="custom-font-style-sub-text mb-2">
+                                                            <span class="font-subtext mb-2">
                                                                 Current Plan
                                                             </span>
                                                         </div>
                                                     </div>
                                                     <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 my-5-res">
-                                                        <div class="p-5 custom-bg-light-pale text-center custom-border-radius-15 h-100 custom-cursor-pointer">
+                                                        <div class="p-5 bg-light-primary text-center br-15 h-100 cursor-pointer">
                                                             <div class="my-2">
                                                                 <i class="icn-team icn-3x"></i>
                                                             </div>
-                                                            <span class="custom-font-style-sub-text mb-2">
+                                                            <span class="font-subtext mb-2">
                                                                 Our Team
                                                             </span>
                                                         </div>
                                                     </div>
                                                     <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 responsive-margin-card">
-                                                        <div class="p-5 custom-bg-light-pale text-center custom-border-radius-15 h-100 custom-cursor-pointer">
+                                                        <div class="p-5 bg-light-primary text-center br-15 h-100 cursor-pointer">
                                                             <div class="my-2">
                                                                 <i class="icn-hand-shake icn-3x"></i>
                                                             </div>
-                                                            <span class="custom-font-style-sub-text mb-2">
+                                                            <span class="font-subtext mb-2">
                                                                 Partners
                                                             </span>
                                                         </div>
@@ -237,41 +237,41 @@ License: You must have a valid license purchased only from themeforest(the above
 
                                     <div class="row mt-15">
                                         <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
-                                            <div class="custom-bg-light-pale p-10">
-                                                <span class="custom-font-style-subheadings custom-text-primary d-block mb-1">Progress report</span>
-                                                <p class="custom-font-style-subtext custom-text-primary d-block my-5">You are encouraged to submit your indicators & metrics once the 4 pillars are completed. Select the completed pillars and send them for approval.</p>
-                                                <table class="table steps-table-radius custom-step-table-radius steps-custom-margin-top border-custom">
+                                            <div class="bg-light-primary p-10">
+                                                <span class="font-subheading text-primary d-block mb-1">Progress report</span>
+                                                <p class="custom-font-style-subtext text-primary d-block my-5">You are encouraged to submit your indicators & metrics once the 4 pillars are completed. Select the completed pillars and send them for approval.</p>
+                                                <table class="table table-vertical-center table-dark-pale border-light-primary">
                                                     <thead class="steps-table-header-color">
                                                         <tr>
-                                                            <th class="custom-font-style-subheadings custom-text-primary" scope="col">Pillars</th>
-                                                            <th class="custom-font-style-subheadings custom-text-primary" scope="col">Indicators & Metrics</th>
+                                                            <th class="font-subheading text-primary" scope="col">Pillars</th>
+                                                            <th class="font-subheading text-primary" scope="col">Indicators & Metrics</th>
                                                         </tr>
                                                     </thead>
                                                     <tbody class="bg-white">
                                                         <tr>
                                                             <td>Ecosystems</td>
-                                                            <td><span class="custom-bg-light-pale custom-font-style-xs custom-text-primary p-1">Completed</span></td>
+                                                            <td><span class="bg-light-primary font-xs text-primary p-1">Completed</span></td>
                                                         </tr>
                                                         <tr>
                                                             <td>Human Well-Being</td>
-                                                            <td><span class="custom-bg-light-blue custom-font-style-xs custom-text-primary p-1">Pending</span></td>
+                                                            <td><span class="bg-light-blue font-xs text-primary p-1">Pending</span></td>
                                                         </tr>
                                                         <tr>
                                                             <td>Governance</td>
-                                                            <td><span class="custom-bg-light-yellow custom-font-style-xs custom-text-primary p-1">Under review</span></td>
+                                                            <td><span class="bg-light-yellow font-xs text-primary p-1">Under review</span></td>
                                                         </tr>
                                                     </tbody>
                                                 </table>
                                             </div>
                                         </div>
                                         <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 custom-display-none">
-                                            <table class="table table-vertical-center steps-task steps-table-radius custom-step-table-radius border-custom">
+                                            <table class="table table-vertical-center table-dark-pale border-light-primary">
                                                 <thead class="steps-table-header-color">
                                                     <tr>
-                                                        <th class="custom-font-style-subheadings custom-text-primary" scope="col">Tasks</th>
-                                                        <th class="custom-font-style-subheadings custom-text-primary w-200px">Assigned To</th>
-                                                        <th class="custom-font-style-subheadings custom-text-primary" scope="col">Tasks Type</th>
-                                                        <th class="custom-font-style-subheadings custom-text-primary" scope="col">Status</th>
+                                                        <th class="font-subheading text-primary" scope="col">Tasks</th>
+                                                        <th class="font-subheading text-primary w-200px">Assigned To</th>
+                                                        <th class="font-subheading text-primary" scope="col">Tasks Type</th>
+                                                        <th class="font-subheading text-primary" scope="col">Status</th>
                                                     </tr>
                                                 </thead>
                                                 <tbody class="bg-white">
@@ -280,24 +280,24 @@ License: You must have a valid license purchased only from themeforest(the above
                                                         <td>
                                                             <?php include './includes/assign-person.php' ?>
                                                         </td>
-                                                        <td><span class="custom-bg-cyan custom-font-style-xs text-light p-1">Required</span></td>
-                                                        <td><span class="custom-bg-light-pale custom-font-style-xs custom-text-primary p-1">Completed</span></td>
+                                                        <td><span class="bg-secondary font-xs text-light p-1">Required</span></td>
+                                                        <td><span class="bg-light-primary font-xs text-primary p-1">Completed</span></td>
                                                     </tr>
                                                     <tr>
                                                         <td><a href="./metric_result.php">Enter Metric Results</a></td>
                                                         <td>
                                                             <?php include './includes/assign-person.php' ?>
                                                         </td>
-                                                        <td><span class="custom-bg-cyan custom-font-style-xs text-light p-1">Required</span></td>
-                                                        <td><span class="custom-bg-light-pale custom-font-style-xs custom-text-primary p-1">Completed</span></td>
+                                                        <td><span class="bg-secondary font-xs text-light p-1">Required</span></td>
+                                                        <td><span class="bg-light-primary font-xs text-primary p-1">Completed</span></td>
                                                     </tr>
                                                     <tr>
                                                         <td><a href="./validation_results.php">Validation of results</a></td>
                                                         <td>
                                                             <?php include './includes/assign-person.php' ?>
                                                         </td>
-                                                        <td><span class="custom-bg-cyan custom-font-style-xs text-light p-1">Required</span></td>
-                                                        <td><span class="custom-bg-light-pale custom-font-style-xs custom-text-primary p-1">Completed</span></td>
+                                                        <td><span class="bg-secondary font-xs text-light p-1">Required</span></td>
+                                                        <td><span class="bg-light-primary font-xs text-primary p-1">Completed</span></td>
                                                     </tr>
                                                 </tbody>
                                             </table>
@@ -306,57 +306,39 @@ License: You must have a valid license purchased only from themeforest(the above
 
                                     <div class="row steps-custom-margin-top custom-lg-display-block">
                                         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                                            <div class="custom-bg-light-pale custom-border-color-pale custom-border-radius-15 my-2 py-2 text-center custom-padding-40">
+                                            <div class="bg-light-primary border-color-pale br-15 my-2 py-2 text-center custom-padding-40">
                                                 <span class="steps-default-text steps-heading d-block mb-1"><a href="./themes&datasets.php">Data Themes & Datasets</a></span>
                                                 <div class="d-flex justify-content-center">
-                                                    <div class="steps-image-container" style="margin-right: 100px;">
-                                                        <img src="../assets/media/icons_and_Illustrations/Avatars/Avatars_Baboon.png" class="accordian-unit-image-1" alt="">
-                                                        <img src="../assets/media/icons_and_Illustrations/Avatars/Avatars_Frog.png" class="accordian-unit-image-2" alt="">
-                                                        <img src="../assets/media/icons_and_Illustrations/Avatars/Avatars_Parrot.png" class="accordian-unit-image-3" alt="">
-                                                        <span class="step-unit-counter d-inline-block">6+</span>
-                                                        <img src="../assets/media/add_person.png" class="step-unit-image-4" alt="">
-                                                    </div>
+                                                    <?php include './includes/assign-person.php' ?>
                                                 </div>
                                                 <div class="d-flex justify-content-center flex-column align-items-center">
-                                                    <span class="custom-bg-cyan text-light px-3 py-2 custom-font-style-xs p-1 w-25 custom-border-radius-4 mt-2">Required</span>
-                                                    <span class="custom-bg-light-yellow custom-text-primary custom-font-style-xs custom-border-radius-4 px-3 py-2 p-1 w-25 mt-2">Completed</span>
+                                                    <span class="bg-secondary text-light px-3 py-2 font-xs p-1 w-25 br-4 mt-2">Required</span>
+                                                    <span class="bg-light-yellow text-primary font-xs br-4 px-3 py-2 p-1 w-25 mt-2">Completed</span>
                                                 </div>
                                             </div>
                                         </div>
 
                                         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 steps-custom-margin-top">
-                                            <div class="custom-bg-light-pale custom-border-color-pale custom-border-radius-15 my-2 py-2 text-center custom-padding-40">
+                                            <div class="bg-light-primary border-color-pale br-15 my-2 py-2 text-center custom-padding-40">
                                                 <span class="steps-default-text steps-heading d-block mb-1"><a href="./metric_result.php">Enter Metric Results</a></span>
                                                 <div class="d-flex justify-content-center">
-                                                    <div class="steps-image-container" style="margin-right: 100px;">
-                                                        <img src="../assets/media/icons_and_Illustrations/Avatars/Avatars_Baboon.png" class="accordian-unit-image-1" alt="">
-                                                        <img src="../assets/media/icons_and_Illustrations/Avatars/Avatars_Frog.png" class="accordian-unit-image-2" alt="">
-                                                        <img src="../assets/media/icons_and_Illustrations/Avatars/Avatars_Parrot.png" class="accordian-unit-image-3" alt="">
-                                                        <span class="step-unit-counter d-inline-block">6+</span>
-                                                        <img src="../assets/media/add_person.png" class="step-unit-image-4" alt="">
-                                                    </div>
+                                                    <?php include './includes/assign-person.php' ?>
                                                 </div>
                                                 <div class="d-flex justify-content-center flex-column align-items-center">
-                                                    <span class="custom-bg-cyan text-light px-3 py-2 custom-font-style-xs p-1 w-25 custom-border-radius-4 mt-2">Required</span>
-                                                    <span class="custom-bg-light-yellow custom-text-primary custom-font-style-xs custom-border-radius-4 px-3 py-2 p-1 w-25 mt-2">Completed</span>
+                                                    <span class="bg-secondary text-light px-3 py-2 font-xs p-1 w-25 br-4 mt-2">Required</span>
+                                                    <span class="bg-light-yellow text-primary font-xs br-4 px-3 py-2 p-1 w-25 mt-2">Completed</span>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 steps-custom-margin-top">
-                                            <div class="custom-bg-light-pale custom-border-color-pale custom-border-radius-15 my-2 py-2 text-center custom-padding-40">
+                                            <div class="bg-light-primary border-color-pale br-15 my-2 py-2 text-center custom-padding-40">
                                                 <span class="steps-default-text steps-heading d-block mb-1"><a href="./validation_results.php">Validation of results</a></span>
                                                 <div class="d-flex justify-content-center">
-                                                    <div class="steps-image-container" style="margin-right: 100px;">
-                                                        <img src="../assets/media/icons_and_Illustrations/Avatars/Avatars_Baboon.png" class="accordian-unit-image-1" alt="">
-                                                        <img src="../assets/media/icons_and_Illustrations/Avatars/Avatars_Frog.png" class="accordian-unit-image-2" alt="">
-                                                        <img src="../assets/media/icons_and_Illustrations/Avatars/Avatars_Parrot.png" class="accordian-unit-image-3" alt="">
-                                                        <span class="step-unit-counter d-inline-block">6+</span>
-                                                        <img src="../assets/media/add_person.png" class="step-unit-image-4" alt="">
-                                                    </div>
+                                                    <?php include './includes/assign-person.php' ?>
                                                 </div>
                                                 <div class="d-flex justify-content-center flex-column align-items-center">
-                                                    <span class="custom-bg-cyan text-light px-3 py-2 custom-font-style-xs p-1 w-25 custom-border-radius-4 mt-2">Required</span>
-                                                    <span class="custom-bg-light-yellow custom-text-primary custom-font-style-xs custom-border-radius-4 px-3 py-2 p-1 w-25 mt-2">Completed</span>
+                                                    <span class="bg-secondary text-light px-3 py-2 font-xs p-1 w-25 br-4 mt-2">Required</span>
+                                                    <span class="bg-light-yellow text-primary font-xs br-4 px-3 py-2 p-1 w-25 mt-2">Completed</span>
                                                 </div>
                                             </div>
                                         </div>
@@ -401,12 +383,12 @@ License: You must have a valid license purchased only from themeforest(the above
     </div>
     <!--end::Main-->
     <!-- begin help center btn-->
-    <div class="btn-help-center-wrapper custom-cursor-pointer">
+    <div class="btn-help-center-wrapper cursor-pointer">
         <div class="btn-dropdown btn-lg mr-1 d-flex align-items-center" id="kt_quick_cart_toggle">
             <span class="btn-help-icon">
                 <i class="icn-question icn-3x mt-2 mx-2"></i>
             </span>
-            <span class="btn-help-toggle custom-font-style-sub-text p-6 bg-light d-none">
+            <span class="btn-help-toggle font-text p-6 bg-light d-none">
                 Help Center
             </span>
         </div>

@@ -130,15 +130,15 @@ License: You must have a valid license purchased only from themeforest(the above
                     <!--begin::Subheader-->
                     <div class="container">
                         <div class="py-5">
-                            <a href="#" class="custom-font-style-text custom-text-grey">Assessment /</a>
-                            <span class="custom-font-style-text custom-text-primary">New Assessment</span>
+                            <a href="#" class="font-text text-secondary">Assessment /</a>
+                            <span class="font-text text-primary">New Assessment</span>
                         </div>
                         <div class="row">
                             <div class="col-md-12">
                                 <div class="card w-100">
                                     <div class="row mt-9">
                                         <div class="col-md-12 text-center">
-                                            <h4 class="custom-font-style-headings custom-text-primary">Assessment registration of New assessment</h4>
+                                            <h4 class="font-heading text-primary">Assessment registration of New assessment</h4>
                                         </div>
                                     </div>
 
@@ -160,10 +160,10 @@ License: You must have a valid license purchased only from themeforest(the above
                                                     <!--begin: Wizard Form-->
                                                     <form class="form m-5">
                                                         <!--begin: Wizard Step 1-->
-                                                        <div class="p-10 custom-border-color-pale custom-border-radius-15">
+                                                        <div class="p-10 border-color-pale br-15">
                                                             <div class="d-flex justify-content-between align-items-center">
-                                                                <span class="custom-font-style-subheadings custom-text-primary">Overview</span>
-                                                                <button class="custom-bg-warning custom-font-style-small custom-border-radius-35 d-flex align-items-center border-0 p-2">
+                                                                <span class="font-subheading text-primary">Overview</span>
+                                                                <button class="c-btn-success c-btn-md d-flex align-items-center justify-content-center">
                                                                     <span class="d-inline-block mx-2 mt-1">
                                                                         <i class="icn-book icn-2x"></i>
                                                                     </span>
@@ -174,26 +174,26 @@ License: You must have a valid license purchased only from themeforest(the above
                                                             </div>
                                                             <div class="row mt-5">
                                                                 <div class="col-md-12">
-                                                                    <div class="custom-border-color-pale custom-border-radius-15 p-5">
+                                                                    <div class="border-color-pale br-15 p-5">
                                                                         <div class="row">
                                                                             <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                                                                                 <div class="ml-1 p-5">
-                                                                                    <label for="landscape_name" class="custom-font-style-text custom-text-primary d-inline">Landscape name*</label>
-                                                                                    <input type="text" id="landscape_name" class="form-control custom-bg-light-pale outline-0 border-0 w-100 mt-4 mb-2" placeholder="Enter Name">
-                                                                                    <span class="custom-font-style-small custom-text-primary">This can either be the official name of the jurisdiction, catchment area, or region, or also the name of the initiative behind the assessment.</span>
+                                                                                    <label for="landscape_name" class="font-text text-primary d-inline">Landscape name*</label>
+                                                                                    <input type="text" id="landscape_name" class="form-control bg-light-primary outline-0 border-0 w-100 mt-4 mb-2" placeholder="Enter Name">
+                                                                                    <span class="font-small text-primary">This can either be the official name of the jurisdiction, catchment area, or region, or also the name of the initiative behind the assessment.</span>
                                                                                 </div>
                                                                             </div>
                                                                             <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
 
                                                                                 <div class="ml-1 p-5">
-                                                                                    <label for="exampleFormControlSelect1" class="custom-font-style-text custom-text-primary d-inline">Country*</label>
+                                                                                    <label for="exampleFormControlSelect1" class="font-text text-primary d-inline">Country*</label>
                                                                                     <div class="select-wrapper mt-4 mb-2">
                                                                                         <select class="form-control bg-primary text-light" id="exampleFormControlSelect1">
                                                                                             <option>None Selected</option>
                                                                                             <option>Selected</option>
                                                                                         </select>
                                                                                     </div>
-                                                                                    <span class="custom-font-style-small custom-text-primary">Country where the landscape is located.</span>
+                                                                                    <span class="font-small text-primary">Country where the landscape is located.</span>
                                                                                 </div>
                                                                             </div>
                                                                         </div>
@@ -203,23 +203,23 @@ License: You must have a valid license purchased only from themeforest(the above
 
                                                             <div class="row mt-5">
                                                                 <div class="col-md-12">
-                                                                    <div class="custom-border-color-pale custom-border-radius-15 p-5">
+                                                                    <div class="border-color-pale br-15 p-5">
                                                                         <div class="row">
                                                                             <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                                                                                 <div class="ml-1 px-5 d-flex justify-content-between align-items-center">
-                                                                                    <div class="custom-font-style-subheadings custom-text-primary">
+                                                                                    <div class="font-subheading text-primary">
                                                                                         <span>
                                                                                             Add Municipalities Of Your Landscape
                                                                                         </span>
                                                                                     </div>
-                                                                                    <button class="custom-bg-primary custom-text-light-pale custom-border-radius-35 border-0 p-2">
+                                                                                    <button class="c-btn-primary c-btn-sm d-flex align-items-center justify-content-center">
                                                                                         <span class="d-inline-block">
                                                                                             <svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                                                                 <path d="M1.07324 8.44254C1.07775 4.32039 4.40376 1.0079 8.53324 1.00001C12.5889 0.992122 16 4.24883 16 8.47128C16 12.5901 12.6345 16.0186 8.31462 15.8868C4.11978 15.7583 1.07324 12.4278 1.07324 8.44254ZM8.52197 15.0557C12.1968 15.0591 15.1419 12.1787 15.1672 8.49551C15.192 4.83819 12.2244 1.87673 8.57437 1.85645C4.9441 1.8356 1.94207 4.78748 1.93193 8.44592C1.92235 11.9748 4.72605 15.0934 8.52197 15.0557Z" fill="white" stroke="white" stroke-width="0.2"></path>
                                                                                                 <path d="M8.10782 10.8524C8.10782 10.2985 8.09599 9.74466 8.11345 9.19192C8.12078 8.95415 8.07232 8.87245 7.81145 8.87639C6.71386 8.8933 5.61514 8.88372 4.51699 8.88372C4.43247 8.88372 4.34739 8.88766 4.264 8.88034C3.99073 8.85611 3.84086 8.70004 3.8448 8.45099C3.84875 8.21548 3.99524 8.06616 4.2533 8.03968C4.33725 8.03123 4.42177 8.03461 4.50629 8.03461C5.61402 8.03461 6.72118 8.02898 7.82891 8.03912C8.04302 8.04081 8.11571 7.99517 8.11345 7.76528C8.10049 6.64854 8.10782 5.53179 8.10782 4.41561C8.10782 4.33109 8.105 4.24601 8.11514 4.16262C8.14557 3.91076 8.30502 3.76596 8.54392 3.77385C8.78846 3.7823 8.92087 3.91809 8.94904 4.15586C8.95975 4.24883 8.95749 4.34293 8.95749 4.43702C8.95806 5.54419 8.96369 6.65135 8.95299 7.75852C8.95073 7.97657 9.0037 8.0425 9.22964 8.04024C10.3368 8.02785 11.4445 8.03461 12.5523 8.03461C12.6368 8.03461 12.7219 8.03066 12.8053 8.03855C13.0785 8.06334 13.2261 8.21886 13.2216 8.47015C13.2171 8.70962 13.0757 8.85386 12.8126 8.87921C12.7286 8.8871 12.6435 8.88372 12.5596 8.88372C11.4614 8.88372 10.3633 8.89104 9.26513 8.87809C9.02623 8.87527 8.94735 8.92147 8.95073 9.18065C8.96707 10.325 8.95749 11.4699 8.95806 12.6148C8.95806 12.8549 8.9158 13.0718 8.63689 13.1343C8.32475 13.2048 8.11458 13.0177 8.11064 12.6537C8.10331 12.0537 8.10782 11.453 8.10782 10.8524Z" fill="white" stroke="white" stroke-width="0.2"></path>
                                                                                             </svg>
                                                                                         </span>
-                                                                                        <span class="d-inline-block custom-font-style-small" style="vertical-align: middle;">Add More</span>
+                                                                                        <span class="ml-1">Add More</span>
                                                                                     </button>
                                                                                 </div>
                                                                             </div>
@@ -228,23 +228,23 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                         <div class="row mt-5">
                                                                             <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                                                                                 <div class="custom-search-bar ml-1 px-5 mt-3">
-                                                                                    <label for="landscape_municipality" class="custom-font-style-text custom-text-primary d-inline">Municipality*</label>
-                                                                                    <input type="text" id="landscape_municipality" class="form-control custom-bg-light-pale outline-0 border-0 w-100 mt-4 mb-2" placeholder="Enter Municipality">
-                                                                                    <span class="custom-font-style-small custom-text-primary">Sub-national jurisdiction(s) (i.e: State, Department, Municipality).</span>
+                                                                                    <label for="landscape_municipality" class="font-text text-primary d-inline">Municipality*</label>
+                                                                                    <input type="text" id="landscape_municipality" class="form-control bg-light-primary outline-0 border-0 w-100 mt-4 mb-2" placeholder="Enter Municipality">
+                                                                                    <span class="font-small text-primary">Sub-national jurisdiction(s) (i.e: State, Department, Municipality).</span>
                                                                                 </div>
                                                                             </div>
                                                                             <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                                                                                 <div class="custom-search-bar ml-1 px-5 mt-3">
-                                                                                    <label for="landscape_org" class="custom-font-style-text custom-text-primary d-inline">What is the name of the lead organization?*</label>
-                                                                                    <input type="text" id="landscape_org" class="form-control custom-bg-light-pale outline-0 border-0 w-100 mt-4 mb-2" placeholder="Enter Name of Organization">
-                                                                                    <span class="custom-font-style-small custom-text-primary">Name of organizations responsible for LandScale design and assessment</span>
+                                                                                    <label for="landscape_org" class="font-text text-primary d-inline">What is the name of the lead organization?*</label>
+                                                                                    <input type="text" id="landscape_org" class="form-control bg-light-primary outline-0 border-0 w-100 mt-4 mb-2" placeholder="Enter Name of Organization">
+                                                                                    <span class="font-small text-primary">Name of organizations responsible for LandScale design and assessment</span>
                                                                                 </div>
                                                                             </div>
                                                                         </div>
                                                                         <div class="row mt-5">
                                                                             <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                                                                                 <div class="custom-search-bar ml-1 px-5 mt-3">
-                                                                                    <label class="custom-font-style-text custom-text-primary d-inline">Is this a partnership?*</label>
+                                                                                    <label class="font-text text-primary d-inline">Is this a partnership?*</label>
                                                                                     <div>
                                                                                         <div class="custom-control custom-radio mt-3">
                                                                                             <input type="radio" id="rd_1" name="rd" class="custom-control-input" value="Yes">
@@ -255,15 +255,15 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                             <input type="radio" id="rd_2" name="rd" class="custom-control-input" value="No">
                                                                                             <label class="custom-control-label red" for="rd_2">No</label>
                                                                                         </div>
-                                                                                        <div class="custom-font-style-small custom-text-primary mt-4">Please indicate if at this time the assessment will be carried out by a single entity or multi-partner initiative.</div>
+                                                                                        <div class="font-small text-primary mt-4">Please indicate if at this time the assessment will be carried out by a single entity or multi-partner initiative.</div>
                                                                                     </div>
                                                                                 </div>
                                                                             </div>
                                                                             <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                                                                                 <div class="custom-search-bar ml-1 px-5 mt-3">
-                                                                                    <label for="landscape_colead_org" class="custom-font-style-text custom-text-primary d-inline">Please name any co-lead organizations*</label>
-                                                                                    <input type="text" id="landscape_colead_org" class="form-control custom-bg-light-pale outline-0 border-0 w-100 mt-4 mb-2" placeholder="Enter Name of Co-Lead Organization">
-                                                                                    <div class="custom-font-style-small custom-text-primary mt-5">Name of the co-lead organization responsible for LandScale design and assessment</div>
+                                                                                    <label for="landscape_colead_org" class="font-text text-primary d-inline">Please name any co-lead organizations*</label>
+                                                                                    <input type="text" id="landscape_colead_org" class="form-control bg-light-primary outline-0 border-0 w-100 mt-4 mb-2" placeholder="Enter Name of Co-Lead Organization">
+                                                                                    <div class="font-small text-primary mt-5">Name of the co-lead organization responsible for LandScale design and assessment</div>
                                                                                 </div>
                                                                             </div>
                                                                         </div>
@@ -272,13 +272,13 @@ License: You must have a valid license purchased only from themeforest(the above
 
                                                                     <div class="mt-10 d-flex justify-content-end align-items-center custom-margin">
                                                                         <!-- <div class="assesment-responsive">
-                                                                            <button type="button" id="back-btn" class="custom-bg-grey d-inline-block custom-border-radius-35 border-0 px-8 py-2" data-wizard-type="action-prev">
+                                                                            <button type="button" id="back-btn" class="btn-grey c-btn-sm d-flex align-items-center justify-content-center" data-wizard-type="action-prev">
                                                                                 Back
                                                                             </button>
                                                                         </div> -->
-                                                                        <div class="assesment-responsive-btn-block">
-                                                                            <a href="./objectives.php" id="next-btn" class="custom-bg-primary custom-font-style-small custom-text-light-pale d-inline-block custom-border-radius-35 border-0 px-8 py-2 mr-2">Next</a>
-                                                                            <button type="submit" id="save-btn" class="custom-bg-warning custom-font-style-small custom-text-primary d-inline-block custom-border-radius-35 border-0 px-8 py-2">
+                                                                        <div class="d-flex align-items-center">
+                                                                            <a href="./objectives.php" id="next-btn" class="c-btn-primary c-btn-sm d-flex align-items-center justify-content-center">Next</a>
+                                                                            <button type="submit" id="save-btn" class="c-btn-success c-btn-sm d-flex align-items-center justify-content-center ml-1">
                                                                                 Save
                                                                             </button>
                                                                         </div>
@@ -309,12 +309,12 @@ License: You must have a valid license purchased only from themeforest(the above
     </div>
     <!--end::Main-->
     <!-- begin help center btn-->
-    <div class="btn-help-center-wrapper custom-cursor-pointer">
+    <div class="btn-help-center-wrapper cursor-pointer">
         <div class="btn-dropdown btn-lg mr-1 d-flex align-items-center" id="kt_quick_cart_toggle">
             <span class="btn-help-icon">
                 <i class="icn-question icn-3x mt-2 mx-2"></i>
             </span>
-            <span class="btn-help-toggle custom-font-style-sub-text p-6 bg-light d-none">
+            <span class="btn-help-toggle font-text p-6 bg-light d-none">
                 Help Center
             </span>
         </div>

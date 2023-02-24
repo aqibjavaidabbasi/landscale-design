@@ -132,8 +132,8 @@ License: You must have a valid license purchased only from themeforest(the above
                     <!--begin::Subheader-->
                     <div class="container">
                         <div class="py-5">
-                            <a href="#" class="custom-font-style-text custom-text-grey">Assessments /</a>
-                            <span class="custom-font-style-text custom-text-primary">Demo-LR Shayan</span>
+                            <a href="#" class="font-text text-secondary">Assessments /</a>
+                            <span class="font-text text-primary">Demo-LR Shayan</span>
                         </div>
                         <div class="row">
                             <div class="col-md-12">
@@ -145,50 +145,50 @@ License: You must have a valid license purchased only from themeforest(the above
                                             </div>
                                         </div>
                                         <div class="col-md-12 mt-17">
-                                            <span class="custom-font-style-headings custom-text-primary">Step 4: Data Tasks & Results</span>
+                                            <span class="font-heading text-primary">Step 4: Data Tasks & Results</span>
                                         </div>
                                     </div>
 
                                     <div class="row mt-3">
                                         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                                            <div class="custom-bg-light-pale custom-border-radius-15 custom-border-color-pale h-100 p-5">
-                                                <span class="custom-font-style-subheadings custom-text-primary d-block mb-1">Overall progress</span>
+                                            <div class="bg-light-primary br-15 border-color-pale h-100 p-5">
+                                                <span class="font-subheading text-primary d-block mb-1">Overall progress</span>
                                                 <div class="row mt-5">
                                                     <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-                                                        <span class="custom-bg-primary p-2 custom-border-radius-4 d-inline-block mt-1 w-100 text-center">
-                                                            <span class="custom-font-style-small custom-text-light-pale">Applicable metrics</span>
-                                                            <span class="custom-font-style-small custom-bg-warning custom-text-primary p-1 custom-border-radius-4">26</span>
+                                                        <span class="bg-primary p-2 br-4 d-inline-block mt-1 w-100 text-center">
+                                                            <span class="font-small text-light-primary">Applicable metrics</span>
+                                                            <span class="font-small bg-success text-primary p-1 br-4">26</span>
                                                         </span>
-                                                        <!-- <div class="custom-bg-primary p-4 w-100 custom-text-light-pale">
+                                                        <!-- <div class="bg-primary p-4 w-100 text-light-primary">
                                                             <div class="d-flex flex-column">
-                                                                <span class="custom-font-style-headings">26</span>
-                                                                <span class="custom-font-style-small-text">Applicable metrics</span>
+                                                                <span class="font-heading">26</span>
+                                                                <span class="font-small-text">Applicable metrics</span>
                                                             </div>
 
                                                         </div> -->
                                                     </div>
                                                     <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-                                                        <span class="custom-bg-primary p-2 custom-border-radius-4 d-inline-block mt-1 w-100 text-center">
-                                                            <span class="custom-font-style-small custom-text-light-pale">Metrics in validation</span>
-                                                            <span class="custom-font-style-small custom-bg-warning custom-text-primary p-1 custom-border-radius-4">16</span>
+                                                        <span class="bg-primary p-2 br-4 d-inline-block mt-1 w-100 text-center">
+                                                            <span class="font-small text-light-primary">Metrics in validation</span>
+                                                            <span class="font-small bg-success text-primary p-1 br-4">16</span>
                                                         </span>
-                                                        <!-- <div class="custom-bg-light-yellow p-4 w-100 custom-text-primary">
+                                                        <!-- <div class="bg-light-yellow p-4 w-100 text-primary">
                                                             <div class="d-flex flex-column">
-                                                                <span class="custom-font-style-headings">9</span>
-                                                                <span class="custom-font-style-small-text">Metrics in validation</span>
+                                                                <span class="font-heading">9</span>
+                                                                <span class="font-small-text">Metrics in validation</span>
                                                             </div>
 
                                                         </div> -->
                                                     </div>
                                                     <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-                                                        <span class="custom-bg-primary p-2 custom-border-radius-4 d-inline-block mt-1 w-100 text-center">
-                                                            <span class="custom-font-style-small custom-text-light-pale">Metrics Published</span>
-                                                            <span class="custom-font-style-small custom-bg-warning custom-text-primary p-1 custom-border-radius-4">10</span>
+                                                        <span class="bg-primary p-2 br-4 d-inline-block mt-1 w-100 text-center">
+                                                            <span class="font-small text-light-primary">Metrics Published</span>
+                                                            <span class="font-small bg-success text-primary p-1 br-4">10</span>
                                                         </span>
-                                                        <!-- <div class="custom-bg-cyan p-4 text-light w-100">
+                                                        <!-- <div class="bg-secondary p-4 text-light w-100">
                                                             <div class="d-flex flex-column">
-                                                                <span class="custom-font-style-headings">0</span>
-                                                                <span class="custom-font-style-small-text">Metrics Published</span>
+                                                                <span class="font-heading">0</span>
+                                                                <span class="font-small-text">Metrics Published</span>
                                                             </div>
 
                                                         </div> -->
@@ -197,14 +197,14 @@ License: You must have a valid license purchased only from themeforest(the above
                                                 </div>
                                                 <div class="row mt-2">
                                                     <div class="col-md-12">
-                                                        <table class="table table-vertical-center steps-table-radius custom-step-table-radius steps-custom-margin-top border-custom">
-                                                            <thead class="steps-table-header-color">
+                                                        <table class="table table-vertical-center table-dark-pale ">
+                                                            <thead>
                                                                 <tr>
-                                                                    <th class="custom-font-style-subheadings custom-text-primary" scope="col">Pillars</th>
-                                                                    <th class="custom-font-style-subheadings custom-text-primary" scope="col">Metrics</th>
-                                                                    <th class="custom-font-style-subheadings custom-text-primary" scope="col">Metrics in validation</th>
-                                                                    <th class="custom-font-style-subheadings custom-text-primary" scope="col">Pending to submit</th>
-                                                                    <th class="custom-font-style-subheadings custom-text-primary" scope="col">Submit</th>
+                                                                    <th class="font-subheading text-primary" scope="col">Pillars</th>
+                                                                    <th class="font-subheading text-primary" scope="col">Metrics</th>
+                                                                    <th class="font-subheading text-primary" scope="col">Metrics in validation</th>
+                                                                    <th class="font-subheading text-primary" scope="col">Pending to submit</th>
+                                                                    <th class="font-subheading text-primary" scope="col">Submit</th>
                                                                 </tr>
                                                             </thead>
                                                             <tbody class="bg-white">
@@ -258,8 +258,8 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                 </tr>
                                                             </tbody>
                                                         </table>
-                                                        <div class="d-flex justify-content-end mt-2">
-                                                            <button class="custom-bg-warning custom-text-primary border-0 custom-border-radius-35 px-4 py-2">
+                                                        <div class="d-flex justify-content-end mt-7">
+                                                            <button class="c-btn-success c-btn-xs d-flex align-items-center justify-content-center">
                                                                 Submit for Approval
                                                             </button>
                                                         </div>
@@ -271,31 +271,31 @@ License: You must have a valid license purchased only from themeforest(the above
                                             <div class="card-wrapper h-100 p-5">
                                                 <div class="row">
                                                     <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 responsive-margin-card">
-                                                        <div class="p-5 custom-bg-light-pale custom-border-radius-15 text-center h-100 custom-cursor-pointer">
+                                                        <div class="p-5 bg-light-primary br-15 text-center h-100 cursor-pointer">
                                                             <div class="my-2">
                                                                 <i class="icn-reference-library icn-3x"></i>
                                                             </div>
-                                                            <span class="custom-font-style-sub-text mb-2">
+                                                            <span class="font-subtext mb-2">
                                                                 Reference Library
                                                             </span>
                                                         </div>
                                                     </div>
                                                     <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 my-5-res">
-                                                        <div class="p-5 custom-bg-light-pale text-center custom-border-radius-15 h-100 custom-cursor-pointer">
+                                                        <div class="p-5 bg-light-primary text-center br-15 h-100 cursor-pointer">
                                                             <div class="my-2">
                                                                 <i class="icn-image-gallery icn-3x"></i>
                                                             </div>
-                                                            <span class="custom-font-style-sub-text mb-2">
+                                                            <span class="font-subtext mb-2">
                                                                 Image Galary
                                                             </span>
                                                         </div>
                                                     </div>
                                                     <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 responsive-margin-card">
-                                                        <div class="p-5 custom-bg-light-pale text-center custom-border-radius-15 h-100 custom-cursor-pointer">
+                                                        <div class="p-5 bg-light-primary text-center br-15 h-100 cursor-pointer">
                                                             <div class="my-2">
                                                                 <i class="icn-help icn-3x"></i>
                                                             </div>
-                                                            <span class="custom-font-style-sub-text mb-2">
+                                                            <span class="font-subtext mb-2">
                                                                 Need Help
                                                             </span>
                                                         </div>
@@ -303,32 +303,32 @@ License: You must have a valid license purchased only from themeforest(the above
                                                 </div>
                                                 <div class="row my-5-res" style="margin-top: 20px;">
                                                     <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 responsive-margin-card">
-                                                        <div class="p-5 custom-bg-light-pale text-center custom-border-radius-15 h-100 custom-cursor-pointer">
+                                                        <div class="p-5 bg-light-primary text-center br-15 h-100 cursor-pointer">
                                                             <div class="my-2">
                                                                 <i class="icn-phone-book icn-3x"></i>
 
                                                             </div>
-                                                            <span class="custom-font-style-sub-text mb-2">
+                                                            <span class="font-subtext mb-2">
                                                                 Current Plan
                                                             </span>
                                                         </div>
                                                     </div>
                                                     <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 my-5-res">
-                                                        <div class="p-5 custom-bg-light-pale text-center custom-border-radius-15 h-100 custom-cursor-pointer">
+                                                        <div class="p-5 bg-light-primary text-center br-15 h-100 cursor-pointer">
                                                             <div class="my-2">
                                                                 <i class="icn-team icn-3x"></i>
                                                             </div>
-                                                            <span class="custom-font-style-sub-text mb-2">
+                                                            <span class="font-subtext mb-2">
                                                                 Our Team
                                                             </span>
                                                         </div>
                                                     </div>
                                                     <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 responsive-margin-card">
-                                                        <div class="p-5 custom-bg-light-pale text-center custom-border-radius-15 h-100 custom-cursor-pointer">
+                                                        <div class="p-5 bg-light-primary text-center br-15 h-100 cursor-pointer">
                                                             <div class="my-2">
                                                                 <i class="icn-hand-shake icn-3x"></i>
                                                             </div>
-                                                            <span class="custom-font-style-sub-text mb-2">
+                                                            <span class="font-subtext mb-2">
                                                                 Partners
                                                             </span>
                                                         </div>
@@ -336,23 +336,23 @@ License: You must have a valid license purchased only from themeforest(the above
                                                 </div>
                                                 <div class="row my-5-res" style="margin-top: 20px;">
                                                     <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 responsive-margin-card">
-                                                        <div class="p-5 custom-bg-light-pale text-center custom-border-radius-15 h-100 custom-cursor-pointer">
+                                                        <div class="p-5 bg-light-primary text-center br-15 h-100 cursor-pointer">
                                                             <div class="my-2">
                                                                 <i class="icn-hand-shake icn-3x"></i>
 
                                                             </div>
-                                                            <span class="custom-font-style-sub-text mb-2">
-                                                                <a href="./metric_result.php" class="custom-text-primary custom-font-style-small p-2">Metrics Result</a>
+                                                            <span class="font-subtext mb-2">
+                                                                <a href="./metric_result.php" class="text-primary font-small p-2">Metrics Result</a>
                                                             </span>
                                                         </div>
                                                     </div>
                                                     <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 my-5-res">
-                                                        <div class="p-5 custom-bg-light-pale text-center custom-border-radius-15 h-100 custom-cursor-pointer">
+                                                        <div class="p-5 bg-light-primary text-center br-15 h-100 cursor-pointer">
                                                             <div class="my-2">
                                                                 <i class="icn-reference-library icn-3x"></i>
                                                             </div>
-                                                            <span class="custom-font-style-sub-text mb-2">
-                                                                <a href="./validation_results.php" class="custom-text-primary custom-font-style-small p-2">Result validation</a>
+                                                            <span class="font-subtext mb-2">
+                                                                <a href="./validation_results.php" class="text-primary font-small p-2">Result validation</a>
                                                             </span>
                                                         </div>
                                                     </div>
@@ -363,17 +363,17 @@ License: You must have a valid license purchased only from themeforest(the above
 
                                     <!-- <div class="row mt-7">
                                         <div class="col-md-12">
-                                            <div class="custom-border-color-pale custom-border-radius-15 p-10">
-                                                <span class="custom-font-style-subheadings custom-text-primary d-block mb-1">Progress report</span>
-                                                <p class="custom-font-style-subtext custom-text-primary d-block my-5">Metrics are considered complete when the result value, result year, methods, and limitations are provided.</p>
-                                                <table class="table table-vertical-center steps-table-radius custom-step-table-radius steps-custom-margin-top border-custom">
-                                                    <thead class="steps-table-header-color">
+                                            <div class="border-color-pale br-15 p-10">
+                                                <span class="font-subheading text-primary d-block mb-1">Progress report</span>
+                                                <p class="custom-font-style-subtext text-primary d-block my-5">Metrics are considered complete when the result value, result year, methods, and limitations are provided.</p>
+                                                <table class="table table-vertical-center table-dark-pale ">
+                                                    <thead>
                                                         <tr>
-                                                            <th class="custom-font-style-subheadings custom-text-primary" scope="col">Pillars</th>
-                                                            <th class="custom-font-style-subheadings custom-text-primary" scope="col">Metrics</th>
-                                                            <th class="custom-font-style-subheadings custom-text-primary" scope="col">Metrics in validation</th>
-                                                            <th class="custom-font-style-subheadings custom-text-primary" scope="col">Pending to submit</th>
-                                                            <th class="custom-font-style-subheadings custom-text-primary" scope="col">Submit</th>
+                                                            <th class="font-subheading text-primary" scope="col">Pillars</th>
+                                                            <th class="font-subheading text-primary" scope="col">Metrics</th>
+                                                            <th class="font-subheading text-primary" scope="col">Metrics in validation</th>
+                                                            <th class="font-subheading text-primary" scope="col">Pending to submit</th>
+                                                            <th class="font-subheading text-primary" scope="col">Submit</th>
                                                         </tr>
                                                     </thead>
                                                     <tbody class="bg-white">
@@ -428,7 +428,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                     </tbody>
                                                 </table>
                                                 <div class="d-flex justify-content-end mt-10">
-                                                    <button class="custom-bg-warning custom-text-primary border-0 custom-border-radius-35 px-4 py-2">
+                                                    <button class="bg-success text-primary border-0 br-35 px-4 py-2">
                                                         Submit for Approval
                                                     </button>
                                                 </div>
@@ -436,9 +436,9 @@ License: You must have a valid license purchased only from themeforest(the above
                                         </div>
                                     </div> -->
 
-                                    <div class="row mt-7 mx-1 custom-border-color-pale custom-border-radius-15">
+                                    <div class="row mt-7 mx-1 border-color-pale br-15">
                                         <div class="col-md-3 col-sm-12 col-xs-12 pr-0 mt-7 max-w-20-percent" id="inner-side-nav">
-                                            <!-- <div class="custom-font-style-subheadings custom-text-primary p-5">
+                                            <!-- <div class="font-subheading text-primary p-5">
                                                 Custom Pillars
                                             </div> -->
                                             <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
@@ -509,8 +509,8 @@ License: You must have a valid license purchased only from themeforest(the above
                                                 </a>
                                             </div>
                                         </div>
-                                        <div class="col-md-12 col-sm-12 col-xs-12 custom-bg-light-pale custom-text-primary custom-btrr-15 custom-bbrr-15 max-w-80-percent custom-btlr-15-res custom-bblr-15-res" id="inner-side-main">
-                                            <button class="ml-5 bg-transparent border-0 custom-border-radius-15 mt-5 p-2" onclick="toggleAside()">
+                                        <div class="col-md-12 col-sm-12 col-xs-12 bg-light-primary text-primary btrr-15 bbrr-15 max-w-80-percent btlr-15-res bblr-15-res" id="inner-side-main">
+                                            <button class="ml-5 bg-transparent border-0 br-15 mt-5 p-2" onclick="toggleAside()">
                                                 <span class="svg-icon-2x">
                                                     <svg width="20" height="20" viewBox="0 0 35 21" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                         <path d="M1.58338 11.7313C0.674149 11.6539 -0.0142253 11.013 0.000223303 10.176C0.00847967 9.6971 0.243786 9.19139 0.620483 8.8921C1.24074 8.40085 2.20158 8.60519 2.93433 8.60519C3.9509 8.60519 4.96746 8.60622 5.98403 8.60726C9.96979 8.60726 13.9555 8.60829 17.9413 8.60726C21.1293 8.60622 24.3163 8.60622 27.5042 8.60519C29.0977 8.60519 30.6922 8.60416 32.2857 8.60416C33.0123 8.60416 33.7234 8.47309 34.3354 8.92409C34.7884 9.25848 35 9.67336 35 10.2286C34.902 11.0656 34.2869 11.6508 33.485 11.7313C33.4457 11.7323 33.4065 11.7323 33.3673 11.7333C29.7747 11.7302 26.1812 11.724 22.5886 11.724C15.6264 11.7251 8.66425 11.7302 1.70207 11.7333C1.66182 11.7333 1.6226 11.7323 1.58338 11.7313Z" fill="#4C94A0"></path>
@@ -553,19 +553,19 @@ License: You must have a valid license purchased only from themeforest(the above
                                                             <div id="collapseOne-0" class="collapse show" aria-labelledby="headingOne-0">
                                                                 <div class="card">
                                                                     <div class="pl-17 py-4 d-flex justify-content-between align-items-center" data-toggle="collapse" data-target="#collapseOneA">
-                                                                        <span class="custom-text-primary">1.1.1 Effective conservation and protection of natural ecosystems</span>
+                                                                        <span class="text-primary">1.1.1 Effective conservation and protection of natural ecosystems</span>
                                                                         <span class="pr-20"><i class="fas fa-chevron-down"></i></span>
                                                                     </div>
                                                                     <div class="collapse" id="collapseOneA">
-                                                                        <div class="mx-5 custom-border-color-pale mb-5 indicator-responsive-collapse">
-                                                                            <table class="table table-vertical-center indicator-table">
-                                                                                <thead class="steps-table-header-color">
+                                                                        <div class="mx-5 border-color-pale mb-5 indicator-responsive-collapse">
+                                                                            <table class="table table-vertical-center table-dark-pale ">
+                                                                                <thead>
                                                                                     <tr>
-                                                                                        <th class="custom-font-style-sub-text" scope="col">Metrics</th>
-                                                                                        <th class="custom-font-style-sub-text" scope="col">First Review</th>
-                                                                                        <th class="custom-font-style-sub-text w-125px" scope="col">Local Review</th>
-                                                                                        <th class="custom-font-style-sub-text" scope="col">Second Review</th>
-                                                                                        <th class="custom-font-style-sub-text" scope="col">Publication status</th>
+                                                                                        <th class="font-text" scope="col">Metrics</th>
+                                                                                        <th class="font-text" scope="col">First Review</th>
+                                                                                        <th class="font-text w-125px" scope="col">Local Review</th>
+                                                                                        <th class="font-text" scope="col">Second Review</th>
+                                                                                        <th class="font-text" scope="col">Publication status</th>
                                                                                     </tr>
                                                                                 </thead>
                                                                                 <tbody class="bg-white">
@@ -627,19 +627,19 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                 </div>
                                                                 <div class="card">
                                                                     <div class="pl-17 py-4 d-flex justify-content-between align-items-center" data-toggle="collapse" data-target="#collapseOneB">
-                                                                        <span class="custom-text-primary">1.1.2 Natural ecosystem conversion</span>
+                                                                        <span class="text-primary">1.1.2 Natural ecosystem conversion</span>
                                                                         <span class="pr-20"><i class="fas fa-chevron-down"></i></span>
                                                                     </div>
-                                                                    <div class="collapse custom-border-bottom-pale" id="collapseOneB">
-                                                                        <div class="mx-5 custom-border-color-pale mb-5 indicator-responsive-collapse">
-                                                                            <table class="table table-vertical-center indicator-table">
-                                                                                <thead class="steps-table-header-color">
+                                                                    <div class="collapse border-bottom-secondary" id="collapseOneB">
+                                                                        <div class="mx-5 border-color-pale mb-5 indicator-responsive-collapse">
+                                                                            <table class="table table-vertical-center table-dark-pale ">
+                                                                                <thead>
                                                                                     <tr>
-                                                                                        <th class="custom-font-style-sub-text" scope="col">Metrics</th>
-                                                                                        <th class="custom-font-style-sub-text" scope="col">First Review</th>
-                                                                                        <th class="custom-font-style-sub-text w-125px" scope="col">Local Review</th>
-                                                                                        <th class="custom-font-style-sub-text" scope="col">Second Review</th>
-                                                                                        <th class="custom-font-style-sub-text" scope="col">Publication status</th>
+                                                                                        <th class="font-text" scope="col">Metrics</th>
+                                                                                        <th class="font-text" scope="col">First Review</th>
+                                                                                        <th class="font-text w-125px" scope="col">Local Review</th>
+                                                                                        <th class="font-text" scope="col">Second Review</th>
+                                                                                        <th class="font-text" scope="col">Publication status</th>
                                                                                     </tr>
                                                                                 </thead>
                                                                                 <tbody class="bg-white">
@@ -699,15 +699,15 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                         </div>
                                                                     </div>
                                                                 </div>
-                                                                <!-- <div class="mx-5 custom-border-color-pale mb-5 indicator-responsive-collapse">
-                                                                    <table class="table table-vertical-center indicator-table">
-                                                                        <thead class="steps-table-header-color">
+                                                                <!-- <div class="mx-5 border-color-pale mb-5 indicator-responsive-collapse">
+                                                                    <table class="table table-vertical-center table-dark-pale ">
+                                                                        <thead>
                                                                             <tr>
-                                                                                <th class="custom-font-style-sub-text" scope="col">Metrics</th>
-                                                                                <th class="custom-font-style-sub-text" scope="col">First Review</th>
-                                                                                <th class="custom-font-style-sub-text w-125px" scope="col">Local Review</th>
-                                                                                <th class="custom-font-style-sub-text" scope="col">Second Review</th>
-                                                                                <th class="custom-font-style-sub-text" scope="col">Publication status</th>
+                                                                                <th class="font-text" scope="col">Metrics</th>
+                                                                                <th class="font-text" scope="col">First Review</th>
+                                                                                <th class="font-text w-125px" scope="col">Local Review</th>
+                                                                                <th class="font-text" scope="col">Second Review</th>
+                                                                                <th class="font-text" scope="col">Publication status</th>
                                                                             </tr>
                                                                         </thead>
                                                                         <tbody class="bg-white">
@@ -796,19 +796,19 @@ License: You must have a valid license purchased only from themeforest(the above
                                                             <div id="collapseTwo-0" class="collapse" aria-labelledby="headingTwo-0">
                                                                 <div class="card">
                                                                     <div class="pl-17 py-4 d-flex justify-content-between align-items-center" data-toggle="collapse" data-target="#collapseTwoA">
-                                                                        <span class="custom-text-primary">1.2.1 Threats to species</span>
+                                                                        <span class="text-primary">1.2.1 Threats to species</span>
                                                                         <span class="pr-20"><i class="fas fa-chevron-down"></i></span>
                                                                     </div>
                                                                     <div class="collapse" id="collapseTwoA">
-                                                                        <div class="mx-5 custom-border-color-pale mb-5 indicator-responsive-collapse">
-                                                                            <table class="table table-vertical-center indicator-table">
-                                                                                <thead class="steps-table-header-color">
+                                                                        <div class="mx-5 border-color-pale mb-5 indicator-responsive-collapse">
+                                                                            <table class="table table-vertical-center table-dark-pale ">
+                                                                                <thead>
                                                                                     <tr>
-                                                                                        <th class="custom-font-style-sub-text" scope="col">Metrics</th>
-                                                                                        <th class="custom-font-style-sub-text" scope="col">First Review</th>
-                                                                                        <th class="custom-font-style-sub-text w-125px" scope="col">Local Review</th>
-                                                                                        <th class="custom-font-style-sub-text" scope="col">Second Review</th>
-                                                                                        <th class="custom-font-style-sub-text" scope="col">Publication status</th>
+                                                                                        <th class="font-text" scope="col">Metrics</th>
+                                                                                        <th class="font-text" scope="col">First Review</th>
+                                                                                        <th class="font-text w-125px" scope="col">Local Review</th>
+                                                                                        <th class="font-text" scope="col">Second Review</th>
+                                                                                        <th class="font-text" scope="col">Publication status</th>
                                                                                     </tr>
                                                                                 </thead>
                                                                                 <tbody class="bg-white">
@@ -870,19 +870,19 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                 </div>
                                                                 <div class="card">
                                                                     <div class="pl-17 py-4 d-flex justify-content-between align-items-center" data-toggle="collapse" data-target="#collapseTwoB">
-                                                                        <span class="custom-text-primary">1.2.2 Biodiversity habitat conversion</span>
+                                                                        <span class="text-primary">1.2.2 Biodiversity habitat conversion</span>
                                                                         <span class="pr-20"><i class="fas fa-chevron-down"></i></span>
                                                                     </div>
-                                                                    <div class="collapse custom-border-bottom-pale" id="collapseTwoB">
-                                                                        <div class="mx-5 custom-border-color-pale mb-5 indicator-responsive-collapse">
-                                                                            <table class="table table-vertical-center indicator-table">
-                                                                                <thead class="steps-table-header-color">
+                                                                    <div class="collapse border-bottom-secondary" id="collapseTwoB">
+                                                                        <div class="mx-5 border-color-pale mb-5 indicator-responsive-collapse">
+                                                                            <table class="table table-vertical-center table-dark-pale ">
+                                                                                <thead>
                                                                                     <tr>
-                                                                                        <th class="custom-font-style-sub-text" scope="col">Metrics</th>
-                                                                                        <th class="custom-font-style-sub-text" scope="col">First Review</th>
-                                                                                        <th class="custom-font-style-sub-text w-125px" scope="col">Local Review</th>
-                                                                                        <th class="custom-font-style-sub-text" scope="col">Second Review</th>
-                                                                                        <th class="custom-font-style-sub-text" scope="col">Publication status</th>
+                                                                                        <th class="font-text" scope="col">Metrics</th>
+                                                                                        <th class="font-text" scope="col">First Review</th>
+                                                                                        <th class="font-text w-125px" scope="col">Local Review</th>
+                                                                                        <th class="font-text" scope="col">Second Review</th>
+                                                                                        <th class="font-text" scope="col">Publication status</th>
                                                                                     </tr>
                                                                                 </thead>
                                                                                 <tbody class="bg-white">
@@ -949,8 +949,8 @@ License: You must have a valid license purchased only from themeforest(the above
                                                 </div>
                                                 <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
                                                     <div class="d-flex flex-column justify-content-center align-items-center p-5" style="height: 20rem;">
-                                                        <h6 class="custom-text-primary">Pillar not ready yet</h6>
-                                                        <p class="custom-text-primary">
+                                                        <h6 class="text-primary">Pillar not ready yet</h6>
+                                                        <p class="text-primary">
                                                             You may not enter metric result for this pillar untill the pillar is completed and validated in step 3
                                                             and you have a suitable dataset associated
                                                         </p>
@@ -958,8 +958,8 @@ License: You must have a valid license purchased only from themeforest(the above
                                                 </div>
                                                 <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
                                                     <div class="d-flex flex-column justify-content-center align-items-center p-5" style="height: 20rem;">
-                                                        <h6 class="custom-text-primary">Pillar not ready yet</h6>
-                                                        <p class="custom-text-primary">
+                                                        <h6 class="text-primary">Pillar not ready yet</h6>
+                                                        <p class="text-primary">
                                                             You may not enter metric result for this pillar untill the pillar is completed and validated in step 3
                                                             and you have a suitable dataset associated
                                                         </p>
@@ -967,8 +967,8 @@ License: You must have a valid license purchased only from themeforest(the above
                                                 </div>
                                                 <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">
                                                     <div class="d-flex flex-column justify-content-center align-items-center p-5" style="height: 20rem;">
-                                                        <h6 class="custom-text-primary">Pillar not ready yet</h6>
-                                                        <p class="custom-text-primary">
+                                                        <h6 class="text-primary">Pillar not ready yet</h6>
+                                                        <p class="text-primary">
                                                             You may not enter metric result for this pillar untill the pillar is completed and validated in step 3
                                                             and you have a suitable dataset associated
                                                         </p>
@@ -993,12 +993,12 @@ License: You must have a valid license purchased only from themeforest(the above
     </div>
     <!--end::Main-->
     <!-- begin help center btn-->
-    <div class="btn-help-center-wrapper custom-cursor-pointer">
+    <div class="btn-help-center-wrapper cursor-pointer">
         <div class="btn-dropdown btn-lg mr-1 d-flex align-items-center" id="kt_quick_cart_toggle">
             <span class="btn-help-icon">
                 <i class="icn-question icn-3x mt-2 mx-2"></i>
             </span>
-            <span class="btn-help-toggle custom-font-style-sub-text p-6 bg-light d-none">
+            <span class="btn-help-toggle font-text p-6 bg-light d-none">
                 Help Center
             </span>
         </div>
@@ -1183,11 +1183,11 @@ License: You must have a valid license purchased only from themeforest(the above
             // if ($('#inner-side-nav').hasClass('d-none')) {
             //     $('#inner-side-nav').removeClass('d-none');
             //     $('#inner-side-main').addClass('col-md-9');
-            //     $('#inner-side-main').removeClass('custom-btlr-15 custom-bblr-15');
+            //     $('#inner-side-main').removeClass('btlr-15 bblr-15');
             // } else {
             //     $('#inner-side-nav').addClass('d-none')
             //     $('#inner-side-main').removeClass('col-md-9');
-            //     $('#inner-side-main').addClass('custom-btlr-15 custom-bblr-15');
+            //     $('#inner-side-main').addClass('btlr-15 bblr-15');
             // }
         }
     </script>

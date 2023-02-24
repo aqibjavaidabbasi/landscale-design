@@ -157,7 +157,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                         <span class="font-subheading text-primary d-inline-block mr-2">Indicator selection</span>
                                                         <span class="bg-primary font-xs text-light-primary br-4 p-1">Approved</span>
                                                     </div>
-                                                    <a href="./add_metrices.php" class="c-btn-success c-btn-sm d-flex align-items-center justify-content-center">Select Metrics</a>
+                                                    <a href="./add_metrices.php" class="c-btn-success c-btn-xs d-flex align-items-center justify-content-center">Select Metrics</a>
                                                     <!-- <a href="./add_metrices.php" class="bg-success br-35 text-primary font-small p-2">Select Metrics</a> -->
                                                 </div>
                                                 <!-- <span class="steps-default-text steps-small-text d-block my-5">View Instructions</span> -->
@@ -168,11 +168,11 @@ License: You must have a valid license purchased only from themeforest(the above
                                                         Below you will find the indicators of Ecosystems pillar of the LandScale framework. The Applicability indicates whether the indicator is required to meet the full LandScale requirements or is optional (see guidance for a complete description and explanation of each indicator). Action is required for each indicator. For Landscape-dependent indicators you must determine applicability to your landscape (see guidance). For Core indicators these are required in all landscapes but you may defer these due to data deficiency (as determined in Step 4) or for other reasons that you document. Optional indicators should be marked as included or excluded. Actions to defer, include, or not include are done using the toggle in the Select column below.
                                                     </p>
                                                 </div>
-                                                <span class="font-text text-primary d-inline-block">
+                                                <span class="font-text font-weight-bold text-primary d-inline-block">
                                                     Notice
                                                 </span>
-                                                <p class="custom-font-style-subtext text-primary">
-                                                    the LandScale team
+                                                <p class="font-subtext text-primary">
+                                                    The LandScale team
                                                     are validating your step. Please wait
                                                 </p>
                                             </div>
@@ -185,7 +185,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                             <div class="my-2">
                                                                 <i class="icn-reference-library icn-3x"></i>
                                                             </div>
-                                                            <span class="font-text mb-2">
+                                                            <span class="font-subtext mb-2">
                                                                 Reference Library
                                                             </span>
                                                         </div>
@@ -195,7 +195,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                             <div class="my-2">
                                                                 <i class="icn-image-gallery icn-3x"></i>
                                                             </div>
-                                                            <span class="font-text mb-2">
+                                                            <span class="font-subtext mb-2">
                                                                 Image Galary
                                                             </span>
                                                         </div>
@@ -205,7 +205,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                             <div class="my-2">
                                                                 <i class="icn-help icn-3x"></i>
                                                             </div>
-                                                            <span class="font-text mb-2">
+                                                            <span class="font-subtext mb-2">
                                                                 Need Help
                                                             </span>
                                                         </div>
@@ -218,7 +218,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                 <i class="icn-phone-book icn-3x"></i>
 
                                                             </div>
-                                                            <span class="font-text mb-2">
+                                                            <span class="font-subtext mb-2">
                                                                 Current Plan
                                                             </span>
                                                         </div>
@@ -228,7 +228,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                             <div class="my-2">
                                                                 <i class="icn-team icn-3x"></i>
                                                             </div>
-                                                            <span class="font-text mb-2">
+                                                            <span class="font-subtext mb-2">
                                                                 Our Team
                                                             </span>
                                                         </div>
@@ -238,7 +238,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                             <div class="my-2">
                                                                 <i class="icn-hand-shake icn-3x"></i>
                                                             </div>
-                                                            <span class="font-text mb-2">
+                                                            <span class="font-subtext mb-2">
                                                                 Partners
                                                             </span>
                                                         </div>
@@ -435,7 +435,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                     </div> -->
                                                                                 </td>
                                                                                 <td>
-                                                                                    <a href="#" class="c-btn-success c-btn-sm d-flex align-items-center justify-content-center">
+                                                                                    <a href="#" class="c-btn-success c-btn-xs d-flex align-items-center justify-content-center">
                                                                                         <i class="icn-edit"></i>
                                                                                         <span class="font-weight-bolder pl-1">Not Applicable</span>
                                                                                     </a>
@@ -459,7 +459,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                     </div>
                                                                                 </td>
                                                                                 <td>
-                                                                                    <a href="#" class="c-btn-success c-btn-sm d-flex align-items-center justify-content-center">
+                                                                                    <a href="#" class="c-btn-success c-btn-xs d-flex align-items-center justify-content-center">
                                                                                         <i class="icn-edit"></i>
                                                                                         <span class="font-weight-bolder pl-1">Not Applicable</span>
                                                                                     </a>
@@ -478,7 +478,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                     </div>
                                                                                 </td>
                                                                                 <td>
-                                                                                    <a href="#" class="c-btn-success c-btn-sm d-flex align-items-center justify-content-center">
+                                                                                    <a href="#" class="c-btn-success c-btn-xs d-flex align-items-center justify-content-center">
                                                                                         <i class="icn-edit"></i>
                                                                                         <span class="font-weight-bolder pl-1">Not Applicable</span>
                                                                                     </a>
@@ -551,7 +551,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                     </div>
                                                                                 </td>
                                                                                 <td>
-                                                                                    <a href="#" class="c-btn-success c-btn-sm d-flex align-items-center justify-content-center">
+                                                                                    <a href="#" class="c-btn-success c-btn-xs d-flex align-items-center justify-content-center">
                                                                                         <i class="icn-edit"></i>
                                                                                         <span class="font-weight-bolder pl-1">Not Applicable</span>
                                                                                     </a>
@@ -570,7 +570,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                     </div>
                                                                                 </td>
                                                                                 <td>
-                                                                                    <a href="#" class="c-btn-success c-btn-sm d-flex align-items-center justify-content-center">
+                                                                                    <a href="#" class="c-btn-success c-btn-xs d-flex align-items-center justify-content-center">
                                                                                         <i class="icn-edit"></i>
                                                                                         <span class="font-weight-bolder pl-1">Not Applicable</span>
                                                                                     </a>
@@ -589,7 +589,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                     </div>
                                                                                 </td>
                                                                                 <td>
-                                                                                    <a href="#" class="c-btn-success c-btn-sm d-flex align-items-center justify-content-center">
+                                                                                    <a href="#" class="c-btn-success c-btn-xs d-flex align-items-center justify-content-center">
                                                                                         <i class="icn-edit"></i>
                                                                                         <span class="font-weight-bolder pl-1">Not Applicable</span>
                                                                                     </a>
@@ -662,7 +662,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                     </div>
                                                                                 </td>
                                                                                 <td>
-                                                                                    <a href="#" class="c-btn-success c-btn-sm d-flex align-items-center justify-content-center">
+                                                                                    <a href="#" class="c-btn-success c-btn-xs d-flex align-items-center justify-content-center">
                                                                                         <i class="icn-edit"></i>
                                                                                         <span class="font-weight-bolder pl-1">Not Applicable</span>
                                                                                     </a>
@@ -681,7 +681,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                     </div>
                                                                                 </td>
                                                                                 <td>
-                                                                                    <a href="#" class="c-btn-success c-btn-sm d-flex align-items-center justify-content-center">
+                                                                                    <a href="#" class="c-btn-success c-btn-xs d-flex align-items-center justify-content-center">
                                                                                         <i class="icn-edit"></i>
                                                                                         <span class="font-weight-bolder pl-1">Not Applicable</span>
                                                                                     </a>
@@ -700,7 +700,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                     </div>
                                                                                 </td>
                                                                                 <td>
-                                                                                    <a href="#" class="c-btn-success c-btn-sm d-flex align-items-center justify-content-center">
+                                                                                    <a href="#" class="c-btn-success c-btn-xs d-flex align-items-center justify-content-center">
                                                                                         <i class="icn-edit"></i>
                                                                                         <span class="font-weight-bolder pl-1">Not Applicable</span>
                                                                                     </a>
@@ -783,7 +783,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                     </div> -->
                                                                                 </td>
                                                                                 <td>
-                                                                                    <a href="#" class="c-btn-success c-btn-sm d-flex align-items-center justify-content-center">
+                                                                                    <a href="#" class="c-btn-success c-btn-xs d-flex align-items-center justify-content-center">
                                                                                         <i class="icn-edit"></i>
                                                                                         <span class="font-weight-bolder pl-1">Not Applicable</span>
                                                                                     </a>
@@ -807,7 +807,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                     </div>
                                                                                 </td>
                                                                                 <td>
-                                                                                    <a href="#" class="c-btn-success c-btn-sm d-flex align-items-center justify-content-center">
+                                                                                    <a href="#" class="c-btn-success c-btn-xs d-flex align-items-center justify-content-center">
                                                                                         <i class="icn-edit"></i>
                                                                                         <span class="font-weight-bolder pl-1">Not Applicable</span>
                                                                                     </a>
@@ -826,7 +826,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                     </div>
                                                                                 </td>
                                                                                 <td>
-                                                                                    <a href="#" class="c-btn-success c-btn-sm d-flex align-items-center justify-content-center">
+                                                                                    <a href="#" class="c-btn-success c-btn-xs d-flex align-items-center justify-content-center">
                                                                                         <i class="icn-edit"></i>
                                                                                         <span class="font-weight-bolder pl-1">Not Applicable</span>
                                                                                     </a>
@@ -899,7 +899,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                     </div>
                                                                                 </td>
                                                                                 <td>
-                                                                                    <a href="#" class="c-btn-success c-btn-sm d-flex align-items-center justify-content-center">
+                                                                                    <a href="#" class="c-btn-success c-btn-xs d-flex align-items-center justify-content-center">
                                                                                         <i class="icn-edit"></i>
                                                                                         <span class="font-weight-bolder pl-1">Not Applicable</span>
                                                                                     </a>
@@ -918,7 +918,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                     </div>
                                                                                 </td>
                                                                                 <td>
-                                                                                    <a href="#" class="c-btn-success c-btn-sm d-flex align-items-center justify-content-center">
+                                                                                    <a href="#" class="c-btn-success c-btn-xs d-flex align-items-center justify-content-center">
                                                                                         <i class="icn-edit"></i>
                                                                                         <span class="font-weight-bolder pl-1">Not Applicable</span>
                                                                                     </a>
@@ -937,7 +937,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                     </div>
                                                                                 </td>
                                                                                 <td>
-                                                                                    <a href="#" class="c-btn-success c-btn-sm d-flex align-items-center justify-content-center">
+                                                                                    <a href="#" class="c-btn-success c-btn-xs d-flex align-items-center justify-content-center">
                                                                                         <i class="icn-edit"></i>
                                                                                         <span class="font-weight-bolder pl-1">Not Applicable</span>
                                                                                     </a>
@@ -1020,7 +1020,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                     </div> -->
                                                                                 </td>
                                                                                 <td>
-                                                                                    <a href="#" class="c-btn-success c-btn-sm d-flex align-items-center justify-content-center">
+                                                                                    <a href="#" class="c-btn-success c-btn-xs d-flex align-items-center justify-content-center">
                                                                                         <i class="icn-edit"></i>
                                                                                         <span class="font-weight-bolder pl-1">Not Applicable</span>
                                                                                     </a>
@@ -1044,7 +1044,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                     </div>
                                                                                 </td>
                                                                                 <td>
-                                                                                    <a href="#" class="c-btn-success c-btn-sm d-flex align-items-center justify-content-center">
+                                                                                    <a href="#" class="c-btn-success c-btn-xs d-flex align-items-center justify-content-center">
                                                                                         <i class="icn-edit"></i>
                                                                                         <span class="font-weight-bolder pl-1">Not Applicable</span>
                                                                                     </a>
@@ -1063,7 +1063,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                     </div>
                                                                                 </td>
                                                                                 <td>
-                                                                                    <a href="#" class="c-btn-success c-btn-sm d-flex align-items-center justify-content-center">
+                                                                                    <a href="#" class="c-btn-success c-btn-xs d-flex align-items-center justify-content-center">
                                                                                         <i class="icn-edit"></i>
                                                                                         <span class="font-weight-bolder pl-1">Not Applicable</span>
                                                                                     </a>
@@ -1136,7 +1136,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                     </div>
                                                                                 </td>
                                                                                 <td>
-                                                                                    <a href="#" class="c-btn-success c-btn-sm d-flex align-items-center justify-content-center">
+                                                                                    <a href="#" class="c-btn-success c-btn-xs d-flex align-items-center justify-content-center">
                                                                                         <i class="icn-edit"></i>
                                                                                         <span class="font-weight-bolder pl-1">Not Applicable</span>
                                                                                     </a>
@@ -1155,7 +1155,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                     </div>
                                                                                 </td>
                                                                                 <td>
-                                                                                    <a href="#" class="c-btn-success c-btn-sm d-flex align-items-center justify-content-center">
+                                                                                    <a href="#" class="c-btn-success c-btn-xs d-flex align-items-center justify-content-center">
                                                                                         <i class="icn-edit"></i>
                                                                                         <span class="font-weight-bolder pl-1">Not Applicable</span>
                                                                                     </a>
@@ -1174,7 +1174,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                     </div>
                                                                                 </td>
                                                                                 <td>
-                                                                                    <a href="#" class="c-btn-success c-btn-sm d-flex align-items-center justify-content-center">
+                                                                                    <a href="#" class="c-btn-success c-btn-xs d-flex align-items-center justify-content-center">
                                                                                         <i class="icn-edit"></i>
                                                                                         <span class="font-weight-bolder pl-1">Not Applicable</span>
                                                                                     </a>
@@ -1257,7 +1257,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                     </div> -->
                                                                                 </td>
                                                                                 <td>
-                                                                                    <a href="#" class="c-btn-success c-btn-sm d-flex align-items-center justify-content-center">
+                                                                                    <a href="#" class="c-btn-success c-btn-xs d-flex align-items-center justify-content-center">
                                                                                         <i class="icn-edit"></i>
                                                                                         <span class="font-weight-bolder pl-1">Not Applicable</span>
                                                                                     </a>
@@ -1281,7 +1281,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                     </div>
                                                                                 </td>
                                                                                 <td>
-                                                                                    <a href="#" class="c-btn-success c-btn-sm d-flex align-items-center justify-content-center">
+                                                                                    <a href="#" class="c-btn-success c-btn-xs d-flex align-items-center justify-content-center">
                                                                                         <i class="icn-edit"></i>
                                                                                         <span class="font-weight-bolder pl-1">Not Applicable</span>
                                                                                     </a>
@@ -1300,7 +1300,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                     </div>
                                                                                 </td>
                                                                                 <td>
-                                                                                    <a href="#" class="c-btn-success c-btn-sm d-flex align-items-center justify-content-center">
+                                                                                    <a href="#" class="c-btn-success c-btn-xs d-flex align-items-center justify-content-center">
                                                                                         <i class="icn-edit"></i>
                                                                                         <span class="font-weight-bolder pl-1">Not Applicable</span>
                                                                                     </a>
@@ -1373,7 +1373,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                     </div>
                                                                                 </td>
                                                                                 <td>
-                                                                                    <a href="#" class="c-btn-success c-btn-sm d-flex align-items-center justify-content-center">
+                                                                                    <a href="#" class="c-btn-success c-btn-xs d-flex align-items-center justify-content-center">
                                                                                         <i class="icn-edit"></i>
                                                                                         <span class="font-weight-bolder pl-1">Not Applicable</span>
                                                                                     </a>

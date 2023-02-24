@@ -131,21 +131,21 @@ License: You must have a valid license purchased only from themeforest(the above
                     <!--begin::Subheader-->
                     <div class="container">
                         <div class="py-5">
-                            <a href="#" class="custom-font-style-text custom-text-grey">Main /</a>
-                            <span class="custom-font-style-text custom-text-primary">Assessments</span>
+                            <a href="#" class="font-text text-secondary">Main /</a>
+                            <span class="font-text text-primary">Assessments</span>
                         </div>
                         <div class="row">
                             <div class="col-md-12">
                                 <div class="card w-100 p-5">
                                     <div class="row p-5">
                                         <div class="col-lg-5 col-md-12 col-sm-12 col-xs-12">
-                                            <div class="card w-100 h-100 p-5 custom-bg-grey">
+                                            <div class="card w-100 h-100 p-5 bg-grey">
                                                 <div class="row mb-5 ml-5">
                                                     <div class="col-md-12 mt-5">
-                                                        <h2 class="custom-font-family custom-font-style-headings custom-text-primary mt-4">Welcome to the LandScale</h2>
-                                                        <p class="custom-font-family custom-font-style-sub-text custom-text-grey pb-3">Select an assessment or create a new assessment
+                                                        <h2 class="font-family-roboto font-heading text-primary mt-4">Welcome to the LandScale</h2>
+                                                        <p class="font-family-roboto font-subtext text-secondary pb-3">Select an assessment or create a new assessment
                                                         </p>
-                                                        <a href="./overview.php" class="custom-btn-grey d-flex justify-content-center w-75 my-5 align-items-center">
+                                                        <a href="./overview.php" class="btn-grey c-btn-lg d-flex justify-content-center align-items-center">
                                                             <i class="icn-add-folder icn-2x icn-white"></i>
                                                             <span class="text-light pl-2">
                                                                 create a new assessment
@@ -156,7 +156,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                             </div>
                                         </div>
                                         <div class="col-lg-7 col-md-12 col-sm-12 col-xs-12">
-                                            <div class="card w-100 h-100 p-5 custom-bg-pale mt-5-res">
+                                            <div class="card w-100 h-100 p-5 bg-pale mt-5-res">
                                                 <div class="row d-flex align-items-center">
                                                     <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
                                                         <div class="box-colors">
@@ -187,7 +187,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                     <div class="row p-5">
                                         <div class="col-md-12">
                                             <!-- <div class="d-flex justify-content-between py-5">
-                                                <h3 class="custom-font-style-headings custom-text-primary">
+                                                <h3 class="font-heading text-primary">
                                                     Assessments
                                                 </h3>
 
@@ -200,23 +200,23 @@ License: You must have a valid license purchased only from themeforest(the above
                                                         <div class="col-lg-8 col-md-12 col-sm-12 col-xs-12">
                                                             <!-- <div class="dataTables_length" id="kt_datatable_length">
                                                                 <label class="entries-label">Show
-                                                                    <select name="kt_datatable_length" aria-controls="kt_datatable" class="custom-select custom-select-sm custom-bg-light-pale custom-border-radius-0">
+                                                                    <select name="kt_datatable_length" aria-controls="kt_datatable" class="custom-select custom-select-sm bg-light-primary br-0">
                                                                         <option value="10">10</option>
                                                                         <option value="25">25</option>
                                                                         <option value="50">50</option>
                                                                         <option value="100">100</option>
                                                                     </select> entries</label>
                                                             </div> -->
-                                                            <h3 class="custom-font-style-subheadings custom-text-primary mt-4">
+                                                            <h3 class="font-subheading text-primary mt-4">
                                                                 Assessments
                                                             </h3>
                                                         </div>
                                                         <div class="col-lg-3 col-md-12 col-sm-12 col-xs-12">
                                                             <div id="kt_datatable_filter" class="dataTables_filter mr-5">
                                                                 <div class="input-group custom-search-bar table-searchbar">
-                                                                    <input type="text" class="form-control custom-btlr-50 custom-bblr-50 custom-bg-light-grey outline-0 border-0 w-50" placeholder="search for anything">
+                                                                    <input type="text" class="form-control btlr-50 bblr-50 bg-light-grey outline-0 border-0 w-50" placeholder="search for anything">
                                                                     <div class="input-group-append">
-                                                                        <span class="input-group-text custom-btrr-50 custom-bbrr-50 custom-bg-light-grey">
+                                                                        <span class="input-group-text btrr-50 bbrr-50 bg-light-grey">
                                                                             <i class="icn-search"></i>
                                                                         </span>
                                                                     </div>
@@ -226,14 +226,14 @@ License: You must have a valid license purchased only from themeforest(the above
                                                         <div class="col-lg-1 col-md-12 col-sm-12 col-xs-12">
                                                             <div class="d-flex justify-content-end">
                                                                 <!--begin::Dropdown-->
-                                                                <button type="button" class="btn btn-light-primary font-weight-bolder custom-btlr-11 custom-bblr-11 tablinks active" onclick="openCity(event, 'table_view')">
+                                                                <button type="button" class="btn btn-light-primary font-weight-bolder btlr-11 bblr-11 tablinks active" onclick="openCity(event, 'table_view')">
                                                                     <i class="icn-list"></i>
                                                                 </button>
                                                                 <!--end::Dropdown-->
 
                                                                 <!--begin::Button-->
 
-                                                                <button type="button" class="btn btn-light-primary font-weight-bolder custom-btrr-11 custom-bbrr-11 tablinks" onclick="openCity(event, 'grid_view')">
+                                                                <button type="button" class="btn btn-light-primary font-weight-bolder btrr-11 bbrr-11 tablinks" onclick="openCity(event, 'grid_view')">
                                                                     <i class="icn-grid"></i>
                                                                 </button>
                                                                 <!--end::Button-->
@@ -243,11 +243,11 @@ License: You must have a valid license purchased only from themeforest(the above
                                                     <div class="row">
                                                         <div class="col-lg-3 col-md-12 col-sm-12 col-xs-12 pr-1">
                                                             <div class="card card-custom card-border gutter-b card-shadowless" id="sub_menu_wizard">
-                                                                <div class="custom-bg-light-pale custom-padding-15" style="position: -webkit-sticky;position: sticky; top: 0px;">
+                                                                <div class="bg-light-primary pxy-15-30" style="position: -webkit-sticky;position: sticky; top: 0px;">
                                                                     <div class="row justify-content-between">
                                                                         <div class="col-md-6">
                                                                             <div class="d-flex align-items-center h-100">
-                                                                                <span class="custom-font-family custom-text-primary custom-font-style-text p-1">Filters</span>
+                                                                                <span class="font-family-roboto text-primary font-text p-1">Filters</span>
                                                                             </div>
                                                                         </div>
                                                                         <div class="col-md-6" style="text-align: right;"><a class="btn btn-secondary btn-sm btn-text-white btn-hover-primary" id="btn_clear_all" style="display:none">{!!trans('data_resources.label_clear_filter')!!}</a></div>
@@ -279,12 +279,12 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                         <div id="test_filters_map">
                                                                             <div class="d-inline">
                                                                                 <input type="checkbox" class="btn-check filter_test_map" value="{!!trans('general.filter_test_val')!!}" name="test_filter_map" id="test_map" autocomplete="off">
-                                                                                <label class="mr-1 btn btn-outline-primary btn-sm custom-border-radius-0" for="test_map">Test</label>
+                                                                                <label class="mr-1 btn btn-outline-primary btn-sm br-0" for="test_map">Test</label>
                                                                             </div>
 
                                                                             <div class="d-inline">
                                                                                 <input type="checkbox" class="btn-check filter_test_map" value="{!!trans('general.filter_test_val2')!!}" name="test_filter_map" id="official_map" autocomplete="off">
-                                                                                <label class="mr-1 btn btn-outline-primary btn-sm custom-border-radius-0" for="official_map">Official</label>
+                                                                                <label class="mr-1 btn btn-outline-primary btn-sm br-0" for="official_map">Official</label>
                                                                             </div>
 
                                                                         </div>
@@ -325,42 +325,42 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                         <div id="filter_steps_map">
                                                                             <div class="step-custom-filter d-inline">
                                                                                 <input type="radio" class="btn-check filter_div_map" value="0" name="steps_map" id="step-map-0" autocomplete="off">
-                                                                                <label class="mr-1 btn btn-outline-primary btn-sm custom-border-radius-0" for="step-map-0">Step 0 (in process)</label>
+                                                                                <label class="mr-1 btn btn-outline-primary btn-sm br-0" for="step-map-0">Step 0 (in process)</label>
                                                                             </div>
 
                                                                             <div class="step-custom-filter d-inline">
                                                                                 <input type="radio" class="btn-check filter_div_map" value="9" name="steps_map" id="step-map-9" autocomplete="off">
-                                                                                <label class="mr-1 btn btn-outline-primary btn-sm custom-border-radius-0" for="step-map-9">Plan change (pending)</label>
+                                                                                <label class="mr-1 btn btn-outline-primary btn-sm br-0" for="step-map-9">Plan change (pending)</label>
                                                                             </div>
 
                                                                             <div class="step-custom-filter d-inline">
                                                                                 <input type="radio" class="btn-check filter_div_map" value="1" name="steps_map" id="step-map-1" autocomplete="off">
-                                                                                <label class="mr-1 btn btn-outline-primary btn-sm custom-border-radius-0" for="step-map-1">Step 1</label>
+                                                                                <label class="mr-1 btn btn-outline-primary btn-sm br-0" for="step-map-1">Step 1</label>
                                                                             </div>
 
                                                                             <div class="step-custom-filter d-inline">
                                                                                 <input type="radio" class="btn-check filter_div_map" value="2" name="steps_map" id="step-map-2" autocomplete="off">
-                                                                                <label class="mr-1 btn btn-outline-primary btn-sm custom-border-radius-0" for="step-map-2">Step 2</label>
+                                                                                <label class="mr-1 btn btn-outline-primary btn-sm br-0" for="step-map-2">Step 2</label>
                                                                             </div>
 
                                                                             <div class="step-custom-filter d-inline">
                                                                                 <input type="radio" class="btn-check filter_div_map" value="3" name="steps_map" id="step-map-3" autocomplete="off">
-                                                                                <label class="mr-1 btn btn-outline-primary btn-sm custom-border-radius-0" for="step-map-3">Step 3</label>
+                                                                                <label class="mr-1 btn btn-outline-primary btn-sm br-0" for="step-map-3">Step 3</label>
                                                                             </div>
 
                                                                             <div class="step-custom-filter d-inline">
                                                                                 <input type="radio" class="btn-check filter_div_map" value="4" name="steps_map" id="step-map-4" autocomplete="off">
-                                                                                <label class="mr-1 btn btn-outline-primary btn-sm custom-border-radius-0" for="step-map-4">Step 4</label>
+                                                                                <label class="mr-1 btn btn-outline-primary btn-sm br-0" for="step-map-4">Step 4</label>
                                                                             </div>
 
                                                                             <div class="step-custom-filter d-inline">
                                                                                 <input type="radio" class="btn-check filter_div_map" value="5" name="steps_map" id="step-map-5" autocomplete="off">
-                                                                                <label class="mr-1 btn btn-outline-primary btn-sm custom-border-radius-0" for="step-map-5">Step 5</label>
+                                                                                <label class="mr-1 btn btn-outline-primary btn-sm br-0" for="step-map-5">Step 5</label>
                                                                             </div>
 
                                                                             <div class="step-custom-filter d-inline">
                                                                                 <input type="radio" class="btn-check filter_div_map" value="7" name="steps_map" id="step-map-7" autocomplete="off">
-                                                                                <label class="mr-1 btn btn-outline-primary btn-sm custom-border-radius-0" for="step-map-7">Assessment Expired</label>
+                                                                                <label class="mr-1 btn btn-outline-primary btn-sm br-0" for="step-map-7">Assessment Expired</label>
                                                                             </div>
 
                                                                         </div>
@@ -381,11 +381,11 @@ License: You must have a valid license purchased only from themeforest(the above
                                                         <div class="col-lg-9 col-md-12 col-sm-12 col-xs-12 pl-1">
                                                             <div id="table_view" class="tabcontent">
                                                                 <div class="row">
-                                                                    <div class="col-sm-12 table-margin custom-responsive-overflow-scroll">
-                                                                        <table class="table table-separate table-head-custom table-checkable dataTable no-footer dtr-inline custom-border-radius-0" id="kt_datatable" role="grid" style="width: 1151px; margin-top: 0px !important;">
-                                                                            <thead class="custom-bg-light-pale">
+                                                                    <div class="col-sm-12 table-margin responsive-overflow-scroll">
+                                                                        <table class="table table-light-pale border-grey text-primary text-dark-grey p-table-10 stripped dataTable br-0" id="kt_datatable" role="grid" style="width: 1151px; margin-top: 0px !important;">
+                                                                            <thead>
                                                                                 <tr>
-                                                                                    <th class="sorting sorting_asc" tabindex="0" aria-controls="kt_datatable" rowspan="1" colspan="1" style="width: 56px;" aria-sort="ascending">
+                                                                                    <th class="sorting" tabindex="0" aria-controls="kt_datatable" rowspan="1" colspan="1" style="width: 56px;">
                                                                                         Record ID</th>
                                                                                     <th class="sorting" tabindex="0" aria-controls="kt_datatable" rowspan="1" colspan="1" style="width: 45px;">
                                                                                         Order ID</th>
@@ -468,27 +468,27 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                         <div class="grid-card">
                                                                             <img src="../assets/media/map_img1.png" class="w-100 p-1" alt="">
                                                                             <div class="p-4">
-                                                                                <h6 class="custom-font-style-text custom-text-primary">Jacob Michael</h6>
-                                                                                <span class="custom-font-style-small">Not Plan yet!</span>
+                                                                                <h6 class="font-text text-primary">Jacob Michael</h6>
+                                                                                <span class="font-small">Not Plan yet!</span>
                                                                             </div>
                                                                             <div class="d-flex px-4">
-                                                                                <span class="custom-sm-icon custom-bg-light-pale">
+                                                                                <span class="sm-icon bg-light-primary">
                                                                                     <i class="icn-world"></i>
                                                                                 </span>
-                                                                                <span class="custom-font-style-small">Country: Florida</span>
+                                                                                <span class="font-small">Country: Florida</span>
                                                                             </div>
                                                                             <div class="d-flex px-4 mt-3">
-                                                                                <span class="custom-sm-icon custom-bg-light-pale">
+                                                                                <span class="sm-icon bg-light-primary">
                                                                                     <i class="icn-phone"></i>
                                                                                 </span>
-                                                                                <span class="custom-font-style-small">Assessment Contact: +1 202 555 0156</span>
+                                                                                <span class="font-small">Assessment Contact: +1 202 555 0156</span>
                                                                             </div>
 
                                                                             <div class="d-flex justify-content-between align-items-center my-5 px-4">
-                                                                                <span class="custom-font-style-small custom-bg-light-grey px-5 py-2">
+                                                                                <span class="font-small bg-light-grey px-5 py-2">
                                                                                     2022-12-07
                                                                                 </span>
-                                                                                <span class="custom-bg-light-pale custom-font-style-small custom-bg-light-grey px-5 py-2">Completed</span>
+                                                                                <span class="bg-light-primary font-small bg-light-grey px-5 py-2">Completed</span>
                                                                             </div>
 
                                                                         </div>
@@ -497,27 +497,27 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                         <div class="grid-card my-5-res">
                                                                             <img src="../assets/media/map_img1.png" class="w-100 p-1" alt="">
                                                                             <div class="p-4">
-                                                                                <h6 class="custom-font-style-text custom-text-primary">Jacob Michael</h6>
-                                                                                <span class="custom-font-style-small">Not Plan yet!</span>
+                                                                                <h6 class="font-text text-primary">Jacob Michael</h6>
+                                                                                <span class="font-small">Not Plan yet!</span>
                                                                             </div>
                                                                             <div class="d-flex px-4">
-                                                                                <span class="custom-sm-icon custom-bg-light-pale">
+                                                                                <span class="sm-icon bg-light-primary">
                                                                                     <i class="icn-world"></i>
                                                                                 </span>
-                                                                                <span class="custom-font-style-small">Country: Florida</span>
+                                                                                <span class="font-small">Country: Florida</span>
                                                                             </div>
                                                                             <div class="d-flex px-4 mt-3">
-                                                                                <span class="custom-sm-icon custom-bg-light-pale">
+                                                                                <span class="sm-icon bg-light-primary">
                                                                                     <i class="icn-phone"></i>
                                                                                 </span>
-                                                                                <span class="custom-font-style-small">Assessment Contact: +1 202 555 0156</span>
+                                                                                <span class="font-small">Assessment Contact: +1 202 555 0156</span>
                                                                             </div>
 
                                                                             <div class="d-flex justify-content-between align-items-center my-5 px-4">
-                                                                                <span class="custom-font-style-small custom-bg-light-grey px-5 py-2">
+                                                                                <span class="font-small bg-light-grey px-5 py-2">
                                                                                     2022-12-07
                                                                                 </span>
-                                                                                <span class="custom-bg-light-pale custom-font-style-small custom-bg-light-grey px-5 py-2">Completed</span>
+                                                                                <span class="bg-light-primary font-small bg-light-grey px-5 py-2">Completed</span>
                                                                             </div>
 
                                                                         </div>
@@ -526,27 +526,27 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                         <div class="grid-card m-1">
                                                                             <img src="../assets/media/map_img1.png" class="w-100 p-1" alt="">
                                                                             <div class="p-4">
-                                                                                <h6 class="custom-font-style-text custom-text-primary">Jacob Michael</h6>
-                                                                                <span class="custom-font-style-small">Not Plan yet!</span>
+                                                                                <h6 class="font-text text-primary">Jacob Michael</h6>
+                                                                                <span class="font-small">Not Plan yet!</span>
                                                                             </div>
                                                                             <div class="d-flex px-4">
-                                                                                <span class="custom-sm-icon custom-bg-light-pale">
+                                                                                <span class="sm-icon bg-light-primary">
                                                                                     <i class="icn-world"></i>
                                                                                 </span>
-                                                                                <span class="custom-font-style-small">Country: Florida</span>
+                                                                                <span class="font-small">Country: Florida</span>
                                                                             </div>
                                                                             <div class="d-flex px-4 mt-3">
-                                                                                <span class="custom-sm-icon custom-bg-light-pale">
+                                                                                <span class="sm-icon bg-light-primary">
                                                                                     <i class="icn-phone"></i>
                                                                                 </span>
-                                                                                <span class="custom-font-style-small">Assessment Contact: +1 202 555 0156</span>
+                                                                                <span class="font-small">Assessment Contact: +1 202 555 0156</span>
                                                                             </div>
 
                                                                             <div class="d-flex justify-content-between align-items-center my-5 px-4">
-                                                                                <span class="custom-font-style-small custom-bg-light-grey px-5 py-2">
+                                                                                <span class="font-small bg-light-grey px-5 py-2">
                                                                                     2022-12-07
                                                                                 </span>
-                                                                                <span class="custom-bg-light-pale custom-font-style-small custom-bg-light-grey px-5 py-2">Completed</span>
+                                                                                <span class="bg-light-primary font-small bg-light-grey px-5 py-2">Completed</span>
                                                                             </div>
 
                                                                         </div>
@@ -558,27 +558,27 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                         <div class="grid-card">
                                                                             <img src="../assets/media/map_img1.png" class="w-100 p-1" alt="">
                                                                             <div class="p-4">
-                                                                                <h6 class="custom-font-style-text custom-text-primary">Jacob Michael</h6>
-                                                                                <span class="custom-font-style-small">Not Plan yet!</span>
+                                                                                <h6 class="font-text text-primary">Jacob Michael</h6>
+                                                                                <span class="font-small">Not Plan yet!</span>
                                                                             </div>
                                                                             <div class="d-flex px-4">
-                                                                                <span class="custom-sm-icon custom-bg-light-pale">
+                                                                                <span class="sm-icon bg-light-primary">
                                                                                     <i class="icn-world"></i>
                                                                                 </span>
-                                                                                <span class="custom-font-style-small">Country: Florida</span>
+                                                                                <span class="font-small">Country: Florida</span>
                                                                             </div>
                                                                             <div class="d-flex px-4 mt-3">
-                                                                                <span class="custom-sm-icon custom-bg-light-pale">
+                                                                                <span class="sm-icon bg-light-primary">
                                                                                     <i class="icn-phone"></i>
                                                                                 </span>
-                                                                                <span class="custom-font-style-small">Assessment Contact: +1 202 555 0156</span>
+                                                                                <span class="font-small">Assessment Contact: +1 202 555 0156</span>
                                                                             </div>
 
                                                                             <div class="d-flex justify-content-between align-items-center my-5 px-4">
-                                                                                <span class="custom-font-style-small custom-bg-light-grey px-5 py-2">
+                                                                                <span class="font-small bg-light-grey px-5 py-2">
                                                                                     2022-12-07
                                                                                 </span>
-                                                                                <span class="custom-bg-light-pale custom-font-style-small custom-bg-light-grey px-5 py-2">Completed</span>
+                                                                                <span class="bg-light-primary font-small bg-light-grey px-5 py-2">Completed</span>
                                                                             </div>
 
                                                                         </div>
@@ -587,27 +587,27 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                         <div class="grid-card my-5-res">
                                                                             <img src="../assets/media/map_img1.png" class="w-100 p-1" alt="">
                                                                             <div class="p-4">
-                                                                                <h6 class="custom-font-style-text custom-text-primary">Jacob Michael</h6>
-                                                                                <span class="custom-font-style-small">Not Plan yet!</span>
+                                                                                <h6 class="font-text text-primary">Jacob Michael</h6>
+                                                                                <span class="font-small">Not Plan yet!</span>
                                                                             </div>
                                                                             <div class="d-flex px-4">
-                                                                                <span class="custom-sm-icon custom-bg-light-pale">
+                                                                                <span class="sm-icon bg-light-primary">
                                                                                     <i class="icn-world"></i>
                                                                                 </span>
-                                                                                <span class="custom-font-style-small">Country: Florida</span>
+                                                                                <span class="font-small">Country: Florida</span>
                                                                             </div>
                                                                             <div class="d-flex px-4 mt-3">
-                                                                                <span class="custom-sm-icon custom-bg-light-pale">
+                                                                                <span class="sm-icon bg-light-primary">
                                                                                     <i class="icn-phone"></i>
                                                                                 </span>
-                                                                                <span class="custom-font-style-small">Assessment Contact: +1 202 555 0156</span>
+                                                                                <span class="font-small">Assessment Contact: +1 202 555 0156</span>
                                                                             </div>
 
                                                                             <div class="d-flex justify-content-between align-items-center my-5 px-4">
-                                                                                <span class="custom-font-style-small custom-bg-light-grey px-5 py-2">
+                                                                                <span class="font-small bg-light-grey px-5 py-2">
                                                                                     2022-12-07
                                                                                 </span>
-                                                                                <span class="custom-bg-light-pale custom-font-style-small custom-bg-light-grey px-5 py-2">Completed</span>
+                                                                                <span class="bg-light-primary font-small bg-light-grey px-5 py-2">Completed</span>
                                                                             </div>
 
                                                                         </div>
@@ -616,27 +616,27 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                         <div class="grid-card m-1">
                                                                             <img src="../assets/media/map_img1.png" class="w-100 p-1" alt="">
                                                                             <div class="p-4">
-                                                                                <h6 class="custom-font-style-text custom-text-primary">Jacob Michael</h6>
-                                                                                <span class="custom-font-style-small">Not Plan yet!</span>
+                                                                                <h6 class="font-text text-primary">Jacob Michael</h6>
+                                                                                <span class="font-small">Not Plan yet!</span>
                                                                             </div>
                                                                             <div class="d-flex px-4">
-                                                                                <span class="custom-sm-icon custom-bg-light-pale">
+                                                                                <span class="sm-icon bg-light-primary">
                                                                                     <i class="icn-world"></i>
                                                                                 </span>
-                                                                                <span class="custom-font-style-small">Country: Florida</span>
+                                                                                <span class="font-small">Country: Florida</span>
                                                                             </div>
                                                                             <div class="d-flex px-4 mt-3">
-                                                                                <span class="custom-sm-icon custom-bg-light-pale">
+                                                                                <span class="sm-icon bg-light-primary">
                                                                                     <i class="icn-phone"></i>
                                                                                 </span>
-                                                                                <span class="custom-font-style-small">Assessment Contact: +1 202 555 0156</span>
+                                                                                <span class="font-small">Assessment Contact: +1 202 555 0156</span>
                                                                             </div>
 
                                                                             <div class="d-flex justify-content-between align-items-center my-5 px-4">
-                                                                                <span class="custom-font-style-small custom-bg-light-grey px-5 py-2">
+                                                                                <span class="font-small bg-light-grey px-5 py-2">
                                                                                     2022-12-07
                                                                                 </span>
-                                                                                <span class="custom-bg-light-pale custom-font-style-small custom-bg-light-grey px-5 py-2">Completed</span>
+                                                                                <span class="bg-light-primary font-small bg-light-grey px-5 py-2">Completed</span>
                                                                             </div>
 
                                                                         </div>
@@ -648,27 +648,27 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                         <div class="grid-card">
                                                                             <img src="../assets/media/map_img1.png" class="w-100 p-1" alt="">
                                                                             <div class="p-4">
-                                                                                <h6 class="custom-font-style-text custom-text-primary">Jacob Michael</h6>
-                                                                                <span class="custom-font-style-small">Not Plan yet!</span>
+                                                                                <h6 class="font-text text-primary">Jacob Michael</h6>
+                                                                                <span class="font-small">Not Plan yet!</span>
                                                                             </div>
                                                                             <div class="d-flex px-4">
-                                                                                <span class="custom-sm-icon custom-bg-light-pale">
+                                                                                <span class="sm-icon bg-light-primary">
                                                                                     <i class="icn-world"></i>
                                                                                 </span>
-                                                                                <span class="custom-font-style-small">Country: Florida</span>
+                                                                                <span class="font-small">Country: Florida</span>
                                                                             </div>
                                                                             <div class="d-flex px-4 mt-3">
-                                                                                <span class="custom-sm-icon custom-bg-light-pale">
+                                                                                <span class="sm-icon bg-light-primary">
                                                                                     <i class="icn-phone"></i>
                                                                                 </span>
-                                                                                <span class="custom-font-style-small">Assessment Contact: +1 202 555 0156</span>
+                                                                                <span class="font-small">Assessment Contact: +1 202 555 0156</span>
                                                                             </div>
 
                                                                             <div class="d-flex justify-content-between align-items-center my-5 px-4">
-                                                                                <span class="custom-font-style-small custom-bg-light-grey px-5 py-2">
+                                                                                <span class="font-small bg-light-grey px-5 py-2">
                                                                                     2022-12-07
                                                                                 </span>
-                                                                                <span class="custom-bg-light-pale custom-font-style-small custom-bg-light-grey px-5 py-2">Completed</span>
+                                                                                <span class="bg-light-primary font-small bg-light-grey px-5 py-2">Completed</span>
                                                                             </div>
 
                                                                         </div>
@@ -677,27 +677,27 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                         <div class="grid-card my-5-res">
                                                                             <img src="../assets/media/map_img1.png" class="w-100 p-1" alt="">
                                                                             <div class="p-4">
-                                                                                <h6 class="custom-font-style-text custom-text-primary">Jacob Michael</h6>
-                                                                                <span class="custom-font-style-small">Not Plan yet!</span>
+                                                                                <h6 class="font-text text-primary">Jacob Michael</h6>
+                                                                                <span class="font-small">Not Plan yet!</span>
                                                                             </div>
                                                                             <div class="d-flex px-4">
-                                                                                <span class="custom-sm-icon custom-bg-light-pale">
+                                                                                <span class="sm-icon bg-light-primary">
                                                                                     <i class="icn-world"></i>
                                                                                 </span>
-                                                                                <span class="custom-font-style-small">Country: Florida</span>
+                                                                                <span class="font-small">Country: Florida</span>
                                                                             </div>
                                                                             <div class="d-flex px-4 mt-3">
-                                                                                <span class="custom-sm-icon custom-bg-light-pale">
+                                                                                <span class="sm-icon bg-light-primary">
                                                                                     <i class="icn-phone"></i>
                                                                                 </span>
-                                                                                <span class="custom-font-style-small">Assessment Contact: +1 202 555 0156</span>
+                                                                                <span class="font-small">Assessment Contact: +1 202 555 0156</span>
                                                                             </div>
 
                                                                             <div class="d-flex justify-content-between align-items-center my-5 px-4">
-                                                                                <span class="custom-font-style-small custom-bg-light-grey px-5 py-2">
+                                                                                <span class="font-small bg-light-grey px-5 py-2">
                                                                                     2022-12-07
                                                                                 </span>
-                                                                                <span class="custom-bg-light-pale custom-font-style-small custom-bg-light-grey px-5 py-2">Completed</span>
+                                                                                <span class="bg-light-primary font-small bg-light-grey px-5 py-2">Completed</span>
                                                                             </div>
 
                                                                         </div>
@@ -706,27 +706,27 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                         <div class="grid-card m-1">
                                                                             <img src="../assets/media/map_img1.png" class="w-100 p-1" alt="">
                                                                             <div class="p-4">
-                                                                                <h6 class="custom-font-style-text custom-text-primary">Jacob Michael</h6>
-                                                                                <span class="custom-font-style-small">Not Plan yet!</span>
+                                                                                <h6 class="font-text text-primary">Jacob Michael</h6>
+                                                                                <span class="font-small">Not Plan yet!</span>
                                                                             </div>
                                                                             <div class="d-flex px-4">
-                                                                                <span class="custom-sm-icon custom-bg-light-pale">
+                                                                                <span class="sm-icon bg-light-primary">
                                                                                     <i class="icn-world"></i>
                                                                                 </span>
-                                                                                <span class="custom-font-style-small">Country: Florida</span>
+                                                                                <span class="font-small">Country: Florida</span>
                                                                             </div>
                                                                             <div class="d-flex px-4 mt-3">
-                                                                                <span class="custom-sm-icon custom-bg-light-pale">
+                                                                                <span class="sm-icon bg-light-primary">
                                                                                     <i class="icn-phone"></i>
                                                                                 </span>
-                                                                                <span class="custom-font-style-small">Assessment Contact: +1 202 555 0156</span>
+                                                                                <span class="font-small">Assessment Contact: +1 202 555 0156</span>
                                                                             </div>
 
                                                                             <div class="d-flex justify-content-between align-items-center my-5 px-4">
-                                                                                <span class="custom-font-style-small custom-bg-light-grey px-5 py-2">
+                                                                                <span class="font-small bg-light-grey px-5 py-2">
                                                                                     2022-12-07
                                                                                 </span>
-                                                                                <span class="custom-bg-light-pale custom-font-style-small custom-bg-light-grey px-5 py-2">Completed</span>
+                                                                                <span class="bg-light-primary font-small bg-light-grey px-5 py-2">Completed</span>
                                                                             </div>
 
                                                                         </div>
@@ -824,12 +824,12 @@ License: You must have a valid license purchased only from themeforest(the above
     </div>
     <!--end::Main-->
     <!-- begin help center btn-->
-    <div class="btn-help-center-wrapper custom-cursor-pointer">
+    <div class="btn-help-center-wrapper cursor-pointer">
         <div class="btn-dropdown btn-lg mr-1 d-flex align-items-center" id="kt_quick_cart_toggle">
             <span class="btn-help-icon">
                 <i class="icn-question icn-3x mt-2 mx-2"></i>
             </span>
-            <span class="btn-help-toggle custom-font-style-sub-text p-6 bg-light d-none">
+            <span class="btn-help-toggle font-text p-6 bg-light d-none">
                 Help Center
             </span>
         </div>

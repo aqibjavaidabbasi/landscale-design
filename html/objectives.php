@@ -130,15 +130,15 @@ License: You must have a valid license purchased only from themeforest(the above
                     <!--begin::Subheader-->
                     <div class="container">
                         <div class="py-5">
-                            <a href="#" class="custom-font-style-text custom-text-grey">Assessment /</a>
-                            <span class="custom-font-style-text custom-text-primary">New Assessment</span>
+                            <a href="#" class="font-text text-secondary">Assessment /</a>
+                            <span class="font-text text-primary">New Assessment</span>
                         </div>
                         <div class="row">
                             <div class="col-md-12">
                                 <div class="card w-100">
                                     <div class="row mt-9">
                                         <div class="col-md-12 text-center">
-                                            <h4 class="custom-font-style-headings custom-text-primary">Assessment registration of New assessment</h4>
+                                            <h4 class="font-heading text-primary">Assessment registration of New assessment</h4>
                                         </div>
                                     </div>
 
@@ -160,15 +160,15 @@ License: You must have a valid license purchased only from themeforest(the above
                                                     <!--begin: Wizard Form-->
                                                     <form class="form m-5">
                                                         <!--begin: Wizard Step 1-->
-                                                        <div class="p-10 custom-border-color-pale custom-border-radius-15">
+                                                        <div class="p-10 border-color-pale br-15">
                                                             <div class="d-flex justify-content-between align-items-center">
                                                                 <div>
-                                                                    <span class="custom-font-style-subheadings custom-text-primary">Objectives</span>
-                                                                    <div class="custom-font-style-small custom-text-primary pt-5 w-75">
+                                                                    <span class="font-subheading text-primary">Objectives</span>
+                                                                    <div class="font-small text-primary pt-5 w-75">
                                                                         Please enter up to three key objectives for conducting a LandScale assessment (you will be able to add more in Step 1)
                                                                     </div>
                                                                 </div>
-                                                                <button class="custom-bg-warning custom-font-style-small custom-border-radius-35 d-flex align-items-center border-0 p-2">
+                                                                <button class="c-btn-success c-btn-md d-flex align-items-center justify-content-center">
                                                                     <span class="d-inline-block mx-2 mt-1">
                                                                         <i class="icn-book icn-2x"></i>
                                                                     </span>
@@ -182,38 +182,38 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                     <div class="row mt-5">
                                                                         <div class="col-md-6">
                                                                             <div class="ml-1 p-5">
-                                                                                <label for="landscape_obj_1" class="custom-font-style-text custom-text-primary d-inline">Objective 1*</label>
-                                                                                <input type="text" id="landscape_obj_1" class="form-control custom-bg-light-pale outline-0 border-0 w-100 mt-4 mb-2" placeholder="Enter Name">
-                                                                                <span class="custom-font-style-small custom-text-primary">(0/500)</span>
+                                                                                <label for="landscape_obj_1" class="font-text text-primary d-inline">Objective 1*</label>
+                                                                                <input type="text" id="landscape_obj_1" class="form-control bg-light-primary outline-0 border-0 w-100 mt-4 mb-2" placeholder="Enter Name">
+                                                                                <span class="font-small text-primary">(0/500)</span>
                                                                             </div>
                                                                         </div>
                                                                         <div class="col-md-6">
 
                                                                             <div class="ml-1 p-5">
-                                                                                <label for="landscape_obj_2" class="custom-font-style-text custom-text-primary d-inline">Objective 2</label>
-                                                                                <input type="text" id="landscape_obj_2" class="form-control custom-bg-light-pale outline-0 border-0 w-100 mt-4 mb-2" placeholder="Enter Name">
-                                                                                <span class="custom-font-style-small custom-text-primary">(0/500)</span>
+                                                                                <label for="landscape_obj_2" class="font-text text-primary d-inline">Objective 2</label>
+                                                                                <input type="text" id="landscape_obj_2" class="form-control bg-light-primary outline-0 border-0 w-100 mt-4 mb-2" placeholder="Enter Name">
+                                                                                <span class="font-small text-primary">(0/500)</span>
                                                                             </div>
                                                                         </div>
 
                                                                         <div class="col-md-6">
 
                                                                             <div class="ml-1 p-5">
-                                                                                <label for="landscape_obj_3" class="custom-font-style-text custom-text-primary d-inline">Objective 3</label>
-                                                                                <input type="text" id="landscape_obj_3" class="form-control custom-bg-light-pale outline-0 border-0 w-100 mt-4 mb-2" placeholder="Enter Name">
-                                                                                <span class="custom-font-style-small custom-text-primary">(0/500)</span>
+                                                                                <label for="landscape_obj_3" class="font-text text-primary d-inline">Objective 3</label>
+                                                                                <input type="text" id="landscape_obj_3" class="form-control bg-light-primary outline-0 border-0 w-100 mt-4 mb-2" placeholder="Enter Name">
+                                                                                <span class="font-small text-primary">(0/500)</span>
                                                                             </div>
                                                                         </div>
                                                                     </div>
                                                                     <div class="mt-10 d-flex justify-content-between align-items-center custom-margin">
                                                                         <div class="assesment-responsive">
-                                                                            <a href="./overview.php" id="back-btn" class="custom-bg-grey custom-font-style-small custom-text-primary d-inline-block custom-border-radius-35 border-0 px-8 py-2" data-wizard-type="action-prev">
+                                                                            <a href="./overview.php" id="back-btn" class="btn-grey c-btn-sm d-flex align-items-center justify-content-center" data-wizard-type="action-prev">
                                                                                 Back
                                                                             </a>
                                                                         </div>
-                                                                        <div class="assesment-responsive-btn-block">
-                                                                            <a href="./boundary.php" id="next-btn" class="custom-bg-primary custom-font-style-small custom-text-light-pale d-inline-block custom-border-radius-35 border-0 px-8 py-2 mr-2" data-wizard-type="action-next">Next</a>
-                                                                            <button type="button" id="save-btn" class="custom-bg-warning custom-font-style-small custom-text-primary custom-text-primary d-inline-block custom-border-radius-35 border-0 px-8 py-2">
+                                                                        <div class="d-flex align-items-center">
+                                                                            <a href="./boundary.php" id="next-btn" class="c-btn-primary c-btn-sm d-flex align-items-center justify-content-center" data-wizard-type="action-next">Next</a>
+                                                                            <button type="button" id="save-btn" class="c-btn-success c-btn-sm d-flex align-items-center justify-content-center ml-1">
                                                                                 Save
                                                                             </button>
                                                                         </div>
@@ -244,12 +244,12 @@ License: You must have a valid license purchased only from themeforest(the above
     </div>
     <!--end::Main-->
     <!-- begin help center btn-->
-    <div class="btn-help-center-wrapper custom-cursor-pointer">
+    <div class="btn-help-center-wrapper cursor-pointer">
         <div class="btn-dropdown btn-lg mr-1 d-flex align-items-center" id="kt_quick_cart_toggle">
             <span class="btn-help-icon">
                 <i class="icn-question icn-3x mt-2 mx-2"></i>
             </span>
-            <span class="btn-help-toggle custom-font-style-sub-text p-6 bg-light d-none">
+            <span class="btn-help-toggle font-text p-6 bg-light d-none">
                 Help Center
             </span>
         </div>

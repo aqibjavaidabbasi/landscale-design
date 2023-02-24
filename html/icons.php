@@ -132,8 +132,8 @@ License: You must have a valid license purchased only from themeforest(the above
                     <!--begin::Subheader-->
                     <div class="container">
                         <div class="py-5">
-                            <a href="#" class="custom-font-style-text custom-text-grey">Main /</a>
-                            <span class="custom-font-style-text custom-text-primary">Icons</span>
+                            <a href="#" class="font-text text-secondary">Main /</a>
+                            <span class="font-text text-primary">Icons</span>
                         </div>
                         <div class="row">
                             <div class="col-md-12">
@@ -141,13 +141,13 @@ License: You must have a valid license purchased only from themeforest(the above
                                     <div class="row">
                                         <div class="col-md-12">
                                             <div class="d-flex align-items-center justify-content-between mb-5">
-                                                <h3 class="custom-text-primary custom-font-style-subheading">
+                                                <h3 class="text-primary custom-font-style-subheading">
                                                     Icons
                                                 </h3>
                                                 <div class="input-group custom-search-bar table-searchbar w-25">
-                                                    <input type="text" id="search-input" class="form-control custom-btlr-50 custom-bblr-50 custom-bg-light-grey outline-0 border-0 w-50" placeholder="search for icons">
+                                                    <input type="text" id="search-input" class="form-control btlr-50 bblr-50 bg-light-grey outline-0 border-0 w-50" placeholder="search for icons">
                                                     <div class="input-group-append">
-                                                        <button id="search-button" class="input-group-text custom-btrr-50 custom-bbrr-50 custom-bg-light-grey">
+                                                        <button id="search-button" class="input-group-text btrr-50 bbrr-50 bg-light-grey">
                                                             <i class="icn-search"></i>
                                                         </button>
                                                     </div>
@@ -160,137 +160,137 @@ License: You must have a valid license purchased only from themeforest(the above
                                             <div id="search-results">
                                                 <div class="row">
                                                     <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
-                                                        <a href="#" class="custom-bg-cyan w-100 h-100 d-flex flex-column justify-content-center align-items-center p-7 copy-link">
+                                                        <a href="#" class="bg-secondary w-100 h-100 d-flex flex-column justify-content-center align-items-center p-7 copy-link">
                                                             <i class="icn-add-folder icn-4x icn-white"></i>
-                                                            <span class="custom-text-light-pale font-weight-bold custom-font-style-small mt-5 mb-0 search-term">Folder</span>
+                                                            <span class="text-light-primary font-weight-bold font-small mt-5 mb-0 search-term">Folder</span>
                                                             <div class="text-to-copy d-none">icn-add-folder</div>
                                                         </a>
                                                     </div>
                                                     <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
-                                                        <a href="#" class="custom-bg-cyan w-100 h-100 d-flex flex-column justify-content-center align-items-center p-7 copy-link">
+                                                        <a href="#" class="bg-secondary w-100 h-100 d-flex flex-column justify-content-center align-items-center p-7 copy-link">
                                                             <i class="icn-list icn-4x icn-white"></i>
-                                                            <span class="custom-text-light-pale font-weight-bold custom-font-style-small mt-5 mb-0 search-term">List</span>
+                                                            <span class="text-light-primary font-weight-bold font-small mt-5 mb-0 search-term">List</span>
                                                             <div class="text-to-copy d-none">icn-list</div>
                                                         </a>
                                                     </div>
                                                     <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
-                                                        <a href="#" class="custom-bg-cyan w-100 h-100 d-flex flex-column justify-content-center align-items-center p-7 copy-link">
+                                                        <a href="#" class="bg-secondary w-100 h-100 d-flex flex-column justify-content-center align-items-center p-7 copy-link">
                                                             <i class="icn-grid icn-4x icn-white"></i>
-                                                            <span class="custom-text-light-pale font-weight-bold custom-font-style-small mt-5 mb-0 search-term">Grid</span>
+                                                            <span class="text-light-primary font-weight-bold font-small mt-5 mb-0 search-term">Grid</span>
                                                             <div class="text-to-copy d-none">icn-grid</div>
                                                         </a>
                                                     </div>
                                                     <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
-                                                        <a href="#" class="custom-bg-cyan w-100 h-100 d-flex flex-column justify-content-center align-items-center p-7 copy-link">
+                                                        <a href="#" class="bg-secondary w-100 h-100 d-flex flex-column justify-content-center align-items-center p-7 copy-link">
                                                             <i class="icn-search icn-4x icn-white"></i>
-                                                            <span class="custom-text-light-pale font-weight-bold custom-font-style-small mt-5 mb-0 search-term">Search</span>
+                                                            <span class="text-light-primary font-weight-bold font-small mt-5 mb-0 search-term">Search</span>
                                                             <div class="text-to-copy d-none">icn-search</div>
                                                         </a>
                                                     </div>
                                                     <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
-                                                        <a href="#" class="custom-bg-cyan w-100 h-100 d-flex flex-column justify-content-center align-items-center p-7 copy-link">
+                                                        <a href="#" class="bg-secondary w-100 h-100 d-flex flex-column justify-content-center align-items-center p-7 copy-link">
                                                             <i class="icn-question icn-4x icn-white"></i>
-                                                            <span class="custom-text-light-pale font-weight-bold custom-font-style-small mt-5 mb-0 search-term">Question Mark</span>
+                                                            <span class="text-light-primary font-weight-bold font-small mt-5 mb-0 search-term">Question Mark</span>
                                                             <div class="text-to-copy d-none">icn-question</div>
                                                         </a>
                                                     </div>
                                                     <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
-                                                        <a href="#" class="custom-bg-cyan w-100 h-100 d-flex flex-column justify-content-center align-items-center p-7 copy-link">
+                                                        <a href="#" class="bg-secondary w-100 h-100 d-flex flex-column justify-content-center align-items-center p-7 copy-link">
                                                             <i class="icn-menu icn-4x icn-white"></i>
-                                                            <span class="custom-text-light-pale font-weight-bold custom-font-style-small mt-5 mb-0 search-term">Menu</span>
+                                                            <span class="text-light-primary font-weight-bold font-small mt-5 mb-0 search-term">Menu</span>
                                                             <div class="text-to-copy d-none">icn-menu</div>
                                                         </a>
                                                     </div>
                                                 </div>
                                                 <div class="row mt-5">
                                                     <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
-                                                        <a href="#" class="custom-bg-cyan w-100 h-100 d-flex flex-column justify-content-center align-items-center p-7 copy-link">
+                                                        <a href="#" class="bg-secondary w-100 h-100 d-flex flex-column justify-content-center align-items-center p-7 copy-link">
                                                             <i class="icn-world icn-4x icn-white"></i>
-                                                            <span class="custom-text-light-pale font-weight-bold custom-font-style-small mt-5 mb-0 search-term">World</span>
+                                                            <span class="text-light-primary font-weight-bold font-small mt-5 mb-0 search-term">World</span>
                                                             <div class="text-to-copy d-none">icn-world</div>
                                                         </a>
                                                     </div>
 
                                                     <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
-                                                        <a href="#" class="custom-bg-cyan w-100 h-100 d-flex flex-column justify-content-center align-items-center p-7 copy-link">
+                                                        <a href="#" class="bg-secondary w-100 h-100 d-flex flex-column justify-content-center align-items-center p-7 copy-link">
                                                             <i class="icn-stack icn-4x icn-white"></i>
-                                                            <span class="custom-text-light-pale font-weight-bold custom-font-style-small mt-5 mb-0 search-term">Stack</span>
+                                                            <span class="text-light-primary font-weight-bold font-small mt-5 mb-0 search-term">Stack</span>
                                                             <div class="text-to-copy d-none">icn-stack</div>
                                                         </a>
                                                     </div>
 
                                                     <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
-                                                        <a href="#" class="custom-bg-cyan w-100 h-100 d-flex flex-column justify-content-center align-items-center p-7 copy-link">
+                                                        <a href="#" class="bg-secondary w-100 h-100 d-flex flex-column justify-content-center align-items-center p-7 copy-link">
                                                             <i class="icn-phone icn-4x icn-white"></i>
-                                                            <span class="custom-text-light-pale font-weight-bold custom-font-style-small mt-5 mb-0 search-term">Phone</span>
+                                                            <span class="text-light-primary font-weight-bold font-small mt-5 mb-0 search-term">Phone</span>
                                                             <div class="text-to-copy d-none">icn-phone</div>
                                                         </a>
                                                     </div>
 
                                                     <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
-                                                        <a href="#" class="custom-bg-cyan w-100 h-100 d-flex flex-column justify-content-center align-items-center p-7 copy-link">
+                                                        <a href="#" class="bg-secondary w-100 h-100 d-flex flex-column justify-content-center align-items-center p-7 copy-link">
                                                             <i class="icn-person icn-4x icn-white"></i>
-                                                            <span class="custom-text-light-pale font-weight-bold custom-font-style-small mt-5 mb-0 search-term">Person</span>
+                                                            <span class="text-light-primary font-weight-bold font-small mt-5 mb-0 search-term">Person</span>
                                                             <div class="text-to-copy d-none">icn-person</div>
                                                         </a>
                                                     </div>
 
                                                     <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
-                                                        <a href="#" class="custom-bg-cyan w-100 h-100 d-flex flex-column justify-content-center align-items-center p-7 copy-link">
+                                                        <a href="#" class="bg-secondary w-100 h-100 d-flex flex-column justify-content-center align-items-center p-7 copy-link">
                                                             <i class="icn-reference-library icn-4x icn-white"></i>
-                                                            <span class="custom-text-light-pale font-weight-bold custom-font-style-small mt-5 mb-0 search-term">Book</span>
+                                                            <span class="text-light-primary font-weight-bold font-small mt-5 mb-0 search-term">Book</span>
                                                             <div class="text-to-copy d-none">icn-reference-library</div>
                                                         </a>
                                                     </div>
 
                                                     <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
-                                                        <a href="#" class="custom-bg-cyan w-100 h-100 d-flex flex-column justify-content-center align-items-center p-7 copy-link">
+                                                        <a href="#" class="bg-secondary w-100 h-100 d-flex flex-column justify-content-center align-items-center p-7 copy-link">
                                                             <i class="icn-file icn-4x icn-white"></i>
-                                                            <span class="custom-text-light-pale font-weight-bold custom-font-style-small mt-5 mb-0 search-term">File</span>
+                                                            <span class="text-light-primary font-weight-bold font-small mt-5 mb-0 search-term">File</span>
                                                             <div class="text-to-copy d-none">icn-file</div>
                                                         </a>
                                                     </div>
                                                 </div>
                                                 <div class="row mt-5">
                                                     <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
-                                                        <a href="#" class="custom-bg-cyan w-100 h-100 d-flex flex-column justify-content-center align-items-center p-7 copy-link">
+                                                        <a href="#" class="bg-secondary w-100 h-100 d-flex flex-column justify-content-center align-items-center p-7 copy-link">
                                                             <i class="icn-message icn-4x icn-white"></i>
-                                                            <span class="custom-text-light-pale font-weight-bold custom-font-style-small mt-5 mb-0 search-term">Message</span>
+                                                            <span class="text-light-primary font-weight-bold font-small mt-5 mb-0 search-term">Message</span>
                                                             <div class="text-to-copy d-none">icn-message</div>
                                                         </a>
                                                     </div>
                                                     <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
-                                                        <a href="#" class="custom-bg-cyan w-100 h-100 d-flex flex-column justify-content-center align-items-center p-7 copy-link">
+                                                        <a href="#" class="bg-secondary w-100 h-100 d-flex flex-column justify-content-center align-items-center p-7 copy-link">
                                                             <i class="icn-conversation icn-4x icn-white"></i>
-                                                            <span class="custom-text-light-pale font-weight-bold custom-font-style-small mt-5 mb-0 search-term">Conversation</span>
+                                                            <span class="text-light-primary font-weight-bold font-small mt-5 mb-0 search-term">Conversation</span>
                                                             <div class="text-to-copy d-none">icn-conversation</div>
                                                         </a>
                                                     </div>
                                                     <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
-                                                        <a href="#" class="custom-bg-cyan w-100 h-100 d-flex flex-column justify-content-center align-items-center p-7 copy-link">
+                                                        <a href="#" class="bg-secondary w-100 h-100 d-flex flex-column justify-content-center align-items-center p-7 copy-link">
                                                             <i class="icn-file-double icn-4x icn-white"></i>
-                                                            <span class="custom-text-light-pale font-weight-bold custom-font-style-small mt-5 mb-0 search-term">Multiple File</span>
+                                                            <span class="text-light-primary font-weight-bold font-small mt-5 mb-0 search-term">Multiple File</span>
                                                             <div class="text-to-copy d-none">icn-file-double</div>
                                                         </a>
                                                     </div>
                                                     <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
-                                                        <a href="#" class="custom-bg-cyan w-100 h-100 d-flex flex-column justify-content-center align-items-center p-7 copy-link">
+                                                        <a href="#" class="bg-secondary w-100 h-100 d-flex flex-column justify-content-center align-items-center p-7 copy-link">
                                                             <i class="icn-youtube icn-4x icn-white"></i>
-                                                            <span class="custom-text-light-pale font-weight-bold custom-font-style-small mt-5 mb-0 search-term">Youtube</span>
+                                                            <span class="text-light-primary font-weight-bold font-small mt-5 mb-0 search-term">Youtube</span>
                                                             <div class="text-to-copy d-none">icn-youtube</div>
                                                         </a>
                                                     </div>
                                                     <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
-                                                        <a href="#" class="custom-bg-cyan w-100 h-100 d-flex flex-column justify-content-center align-items-center p-7 copy-link">
+                                                        <a href="#" class="bg-secondary w-100 h-100 d-flex flex-column justify-content-center align-items-center p-7 copy-link">
                                                             <i class="icn-horizontal-stack icn-4x icn-white"></i>
-                                                            <span class="custom-text-light-pale font-weight-bold custom-font-style-small mt-5 mb-0 search-term">Horizontal Stack</span>
+                                                            <span class="text-light-primary font-weight-bold font-small mt-5 mb-0 search-term">Horizontal Stack</span>
                                                             <div class="text-to-copy d-none">icn-horizontal-stack</div>
                                                         </a>
                                                     </div>
                                                     <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
-                                                        <a href="#" class="custom-bg-cyan w-100 h-100 d-flex flex-column justify-content-center align-items-center p-7 copy-link">
+                                                        <a href="#" class="bg-secondary w-100 h-100 d-flex flex-column justify-content-center align-items-center p-7 copy-link">
                                                             <i class="icn-board icn-4x icn-white"></i>
-                                                            <span class="custom-text-light-pale font-weight-bold custom-font-style-small mt-5 mb-0 search-term">Board</span>
+                                                            <span class="text-light-primary font-weight-bold font-small mt-5 mb-0 search-term">Board</span>
                                                             <div class="text-to-copy d-none">icn-board</div>
                                                         </a>
                                                     </div>
@@ -298,44 +298,44 @@ License: You must have a valid license purchased only from themeforest(the above
 
                                                 <div class="row mt-5">
                                                     <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
-                                                        <a href="#" class="custom-bg-cyan w-100 h-100 d-flex flex-column justify-content-center align-items-center p-7 copy-link">
+                                                        <a href="#" class="bg-secondary w-100 h-100 d-flex flex-column justify-content-center align-items-center p-7 copy-link">
                                                             <i class="icn-play icn-4x icn-white"></i>
-                                                            <span class="custom-text-light-pale font-weight-bold custom-font-style-small mt-5 mb-0 search-term">Play</span>
+                                                            <span class="text-light-primary font-weight-bold font-small mt-5 mb-0 search-term">Play</span>
                                                             <div class="text-to-copy d-none">icn-play</div>
                                                         </a>
                                                     </div>
                                                     <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
-                                                        <a href="#" class="custom-bg-cyan w-100 h-100 d-flex flex-column justify-content-center align-items-center p-7 copy-link">
+                                                        <a href="#" class="bg-secondary w-100 h-100 d-flex flex-column justify-content-center align-items-center p-7 copy-link">
                                                             <i class="icn-message-question icn-4x icn-white"></i>
-                                                            <span class="custom-text-light-pale font-weight-bold custom-font-style-small mt-5 mb-0 search-term">Chat</span>
+                                                            <span class="text-light-primary font-weight-bold font-small mt-5 mb-0 search-term">Chat</span>
                                                             <div class="text-to-copy d-none">icn-message-question</div>
                                                         </a>
                                                     </div>
                                                     <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
-                                                        <a href="#" class="custom-bg-cyan w-100 h-100 d-flex flex-column justify-content-center align-items-center p-7 copy-link">
+                                                        <a href="#" class="bg-secondary w-100 h-100 d-flex flex-column justify-content-center align-items-center p-7 copy-link">
                                                             <i class="icn-faq icn-4x icn-white"></i>
-                                                            <span class="custom-text-light-pale font-weight-bold custom-font-style-small mt-5 mb-0 search-term">FAQ</span>
+                                                            <span class="text-light-primary font-weight-bold font-small mt-5 mb-0 search-term">FAQ</span>
                                                             <div class="text-to-copy d-none">icn-faq</div>
                                                         </a>
                                                     </div>
                                                     <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
-                                                        <a href="#" class="custom-bg-cyan w-100 h-100 d-flex flex-column justify-content-center align-items-center p-7 copy-link">
+                                                        <a href="#" class="bg-secondary w-100 h-100 d-flex flex-column justify-content-center align-items-center p-7 copy-link">
                                                             <i class="icn-persons icn-4x icn-white"></i>
-                                                            <span class="custom-text-light-pale font-weight-bold custom-font-style-small mt-5 mb-0 search-term">Persons</span>
+                                                            <span class="text-light-primary font-weight-bold font-small mt-5 mb-0 search-term">Persons</span>
                                                             <div class="text-to-copy d-none">icn-persons</div>
                                                         </a>
                                                     </div>
                                                     <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
-                                                        <a href="#" class="custom-bg-cyan w-100 h-100 d-flex flex-column justify-content-center align-items-center p-7 copy-link">
+                                                        <a href="#" class="bg-secondary w-100 h-100 d-flex flex-column justify-content-center align-items-center p-7 copy-link">
                                                             <i class="icn-loop icn-4x icn-white"></i>
-                                                            <span class="custom-text-light-pale font-weight-bold custom-font-style-small mt-5 mb-0 search-term">Loop</span>
+                                                            <span class="text-light-primary font-weight-bold font-small mt-5 mb-0 search-term">Loop</span>
                                                             <div class="text-to-copy d-none">icn-loop</div>
                                                         </a>
                                                     </div>
                                                     <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
-                                                        <a href="#" class="custom-bg-cyan w-100 h-100 d-flex flex-column justify-content-center align-items-center p-7 copy-link">
+                                                        <a href="#" class="bg-secondary w-100 h-100 d-flex flex-column justify-content-center align-items-center p-7 copy-link">
                                                             <i class="icn-file-fold icn-4x icn-white"></i>
-                                                            <span class="custom-text-light-pale font-weight-bold custom-font-style-small mt-5 mb-0 search-term">Files</span>
+                                                            <span class="text-light-primary font-weight-bold font-small mt-5 mb-0 search-term">Files</span>
                                                             <div class="text-to-copy d-none">icn-file-fold</div>
                                                         </a>
                                                     </div>
@@ -343,88 +343,88 @@ License: You must have a valid license purchased only from themeforest(the above
 
                                                 <div class="row mt-5">
                                                     <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
-                                                        <a href="#" class="custom-bg-cyan w-100 h-100 d-flex flex-column justify-content-center align-items-center p-7 copy-link">
+                                                        <a href="#" class="bg-secondary w-100 h-100 d-flex flex-column justify-content-center align-items-center p-7 copy-link">
                                                             <i class="icn-marker icn-4x icn-white"></i>
-                                                            <span class="custom-text-light-pale font-weight-bold custom-font-style-small mt-5 mb-0 search-term">Pencil</span>
+                                                            <span class="text-light-primary font-weight-bold font-small mt-5 mb-0 search-term">Pencil</span>
                                                             <div class="text-to-copy d-none">icn-marker</div>
                                                         </a>
                                                     </div>
                                                     <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
-                                                        <a href="#" class="custom-bg-cyan w-100 h-100 d-flex flex-column justify-content-center align-items-center p-7 copy-link">
+                                                        <a href="#" class="bg-secondary w-100 h-100 d-flex flex-column justify-content-center align-items-center p-7 copy-link">
                                                             <i class="icn-circut icn-4x icn-white"></i>
-                                                            <span class="custom-text-light-pale font-weight-bold custom-font-style-small mt-5 mb-0 search-term">Indicator</span>
+                                                            <span class="text-light-primary font-weight-bold font-small mt-5 mb-0 search-term">Indicator</span>
                                                             <div class="text-to-copy d-none">icn-circut</div>
                                                         </a>
                                                     </div>
                                                     <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
-                                                        <a href="#" class="custom-bg-cyan w-100 h-100 d-flex flex-column justify-content-center align-items-center p-7 copy-link">
+                                                        <a href="#" class="bg-secondary w-100 h-100 d-flex flex-column justify-content-center align-items-center p-7 copy-link">
                                                             <i class="icn-chart icn-4x icn-white"></i>
-                                                            <span class="custom-text-light-pale font-weight-bold custom-font-style-small mt-5 mb-0 search-term">Chart</span>
+                                                            <span class="text-light-primary font-weight-bold font-small mt-5 mb-0 search-term">Chart</span>
                                                             <div class="text-to-copy d-none">icn-chart</div>
                                                         </a>
                                                     </div>
                                                     <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
-                                                        <a href="#" class="custom-bg-cyan w-100 h-100 d-flex flex-column justify-content-center align-items-center p-7 copy-link">
+                                                        <a href="#" class="bg-secondary w-100 h-100 d-flex flex-column justify-content-center align-items-center p-7 copy-link">
                                                             <i class="icn-notepad icn-4x icn-white"></i>
-                                                            <span class="custom-text-light-pale font-weight-bold custom-font-style-small mt-5 mb-0 search-term">Notepad</span>
+                                                            <span class="text-light-primary font-weight-bold font-small mt-5 mb-0 search-term">Notepad</span>
                                                             <div class="text-to-copy d-none">icn-notepad</div>
                                                         </a>
                                                     </div>
                                                     <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
-                                                        <a href="#" class="custom-bg-cyan w-100 h-100 d-flex flex-column justify-content-center align-items-center p-7 copy-link">
+                                                        <a href="#" class="bg-secondary w-100 h-100 d-flex flex-column justify-content-center align-items-center p-7 copy-link">
                                                             <i class="icn-heart icn-4x icn-white"></i>
-                                                            <span class="custom-text-light-pale font-weight-bold custom-font-style-small mt-5 mb-0 search-term">Heart</span>
+                                                            <span class="text-light-primary font-weight-bold font-small mt-5 mb-0 search-term">Heart</span>
                                                             <div class="text-to-copy d-none">icn-heart</div>
                                                         </a>
                                                     </div>
                                                     <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
-                                                        <a href="#" class="custom-bg-cyan w-100 h-100 d-flex flex-column justify-content-center align-items-center p-7 copy-link">
+                                                        <a href="#" class="bg-secondary w-100 h-100 d-flex flex-column justify-content-center align-items-center p-7 copy-link">
                                                             <i class="icn-phone-book icn-4x icn-white"></i>
-                                                            <span class="custom-text-light-pale font-weight-bold custom-font-style-small mt-5 mb-0 search-term">Book</span>
+                                                            <span class="text-light-primary font-weight-bold font-small mt-5 mb-0 search-term">Book</span>
                                                             <div class="text-to-copy d-none">icn-phone-book</div>
                                                         </a>
                                                     </div>
                                                 </div>
                                                 <div class="row mt-5">
                                                     <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
-                                                        <a href="#" class="custom-bg-cyan w-100 h-100 d-flex flex-column justify-content-center align-items-center p-7 copy-link">
+                                                        <a href="#" class="bg-secondary w-100 h-100 d-flex flex-column justify-content-center align-items-center p-7 copy-link">
                                                             <i class="icn-image-gallery icn-4x icn-white"></i>
-                                                            <span class="custom-text-light-pale font-weight-bold custom-font-style-small mt-5 mb-0 search-term">Gallery</span>
+                                                            <span class="text-light-primary font-weight-bold font-small mt-5 mb-0 search-term">Gallery</span>
                                                             <div class="text-to-copy d-none">icn-image-gallery</div>
                                                         </a>
                                                     </div>
                                                     <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
-                                                        <a href="#" class="custom-bg-cyan w-100 h-100 d-flex flex-column justify-content-center align-items-center p-7 copy-link">
+                                                        <a href="#" class="bg-secondary w-100 h-100 d-flex flex-column justify-content-center align-items-center p-7 copy-link">
                                                             <i class="icn-team icn-4x icn-white"></i>
-                                                            <span class="custom-text-light-pale font-weight-bold custom-font-style-small mt-5 mb-0 search-term">Persons</span>
+                                                            <span class="text-light-primary font-weight-bold font-small mt-5 mb-0 search-term">Persons</span>
                                                             <div class="text-to-copy d-none">icn-team</div>
                                                         </a>
                                                     </div>
                                                     <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
-                                                        <a href="#" class="custom-bg-cyan w-100 h-100 d-flex flex-column justify-content-center align-items-center p-7 copy-link">
+                                                        <a href="#" class="bg-secondary w-100 h-100 d-flex flex-column justify-content-center align-items-center p-7 copy-link">
                                                             <i class="icn-hand-shake icn-4x icn-white"></i>
-                                                            <span class="custom-text-light-pale font-weight-bold custom-font-style-small mt-5 mb-0 search-term">Hands</span>
+                                                            <span class="text-light-primary font-weight-bold font-small mt-5 mb-0 search-term">Hands</span>
                                                             <div class="text-to-copy d-none">icn-hand-shake</div>
                                                         </a>
                                                     </div>
                                                     <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
-                                                        <a href="#" class="custom-bg-cyan w-100 h-100 d-flex flex-column justify-content-center align-items-center p-7 copy-link">
+                                                        <a href="#" class="bg-secondary w-100 h-100 d-flex flex-column justify-content-center align-items-center p-7 copy-link">
                                                             <i class="icn-file-search icn-4x icn-white"></i>
-                                                            <span class="custom-text-light-pale font-weight-bold custom-font-style-small mt-5 mb-0 search-term">Search</span>
+                                                            <span class="text-light-primary font-weight-bold font-small mt-5 mb-0 search-term">Search</span>
                                                             <div class="text-to-copy d-none">icn-file-search</div>
                                                         </a>
                                                     </div>
                                                     <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
-                                                        <a href="#" class="custom-bg-cyan w-100 h-100 d-flex flex-column justify-content-center align-items-center p-7 copy-link">
+                                                        <a href="#" class="bg-secondary w-100 h-100 d-flex flex-column justify-content-center align-items-center p-7 copy-link">
                                                             <i class="icn-edit icn-4x icn-white"></i>
-                                                            <span class="custom-text-light-pale font-weight-bold custom-font-style-small mt-5 mb-0 search-term">Edit</span>
+                                                            <span class="text-light-primary font-weight-bold font-small mt-5 mb-0 search-term">Edit</span>
                                                             <div class="text-to-copy d-none">icn-edit</div>
                                                         </a>
                                                     </div>
                                                     <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
-                                                        <a href="#" class="custom-bg-cyan w-100 h-100 d-flex flex-column justify-content-center align-items-center p-7 copy-link">
+                                                        <a href="#" class="bg-secondary w-100 h-100 d-flex flex-column justify-content-center align-items-center p-7 copy-link">
                                                             <i class="icn-circle-plus icn-4x icn-white"></i>
-                                                            <span class="custom-text-light-pale font-weight-bold custom-font-style-small mt-5 mb-0 search-term">Add</span>
+                                                            <span class="text-light-primary font-weight-bold font-small mt-5 mb-0 search-term">Add</span>
                                                             <div class="text-to-copy d-none">icn-circle-plus</div>
                                                         </a>
                                                     </div>
@@ -432,88 +432,88 @@ License: You must have a valid license purchased only from themeforest(the above
                                                 <div class="row mt-5">
 
                                                     <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
-                                                        <a href="#" class="custom-bg-cyan w-100 h-100 d-flex flex-column justify-content-center align-items-center p-7 copy-link">
+                                                        <a href="#" class="bg-secondary w-100 h-100 d-flex flex-column justify-content-center align-items-center p-7 copy-link">
                                                             <i class="icn-ecosystem-goal-one icn-4x"></i>
-                                                            <span class="custom-text-light-pale font-weight-bold custom-font-style-small mt-5 mb-0 search-term">Ecosystem Goal 1</span>
+                                                            <span class="text-light-primary font-weight-bold font-small mt-5 mb-0 search-term">Ecosystem Goal 1</span>
                                                             <div class="text-to-copy d-none">icn-ecosystem-goal-one</div>
                                                         </a>
                                                     </div>
                                                     <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
-                                                        <a href="#" class="custom-bg-cyan w-100 h-100 d-flex flex-column justify-content-center align-items-center p-7 copy-link">
+                                                        <a href="#" class="bg-secondary w-100 h-100 d-flex flex-column justify-content-center align-items-center p-7 copy-link">
                                                             <i class="icn-ecosystem-goal-two icn-4x"></i>
-                                                            <span class="custom-text-light-pale font-weight-bold custom-font-style-small mt-5 mb-0 search-term">Ecosystem Goal 2</span>
+                                                            <span class="text-light-primary font-weight-bold font-small mt-5 mb-0 search-term">Ecosystem Goal 2</span>
                                                             <div class="text-to-copy d-none">icn-ecosystem-goal-two</div>
                                                         </a>
                                                     </div>
                                                     <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
-                                                        <a href="#" class="custom-bg-cyan w-100 h-100 d-flex flex-column justify-content-center align-items-center p-7 copy-link">
+                                                        <a href="#" class="bg-secondary w-100 h-100 d-flex flex-column justify-content-center align-items-center p-7 copy-link">
                                                             <i class="icn-ecosystem-goal-three icn-4x"></i>
-                                                            <span class="custom-text-light-pale font-weight-bold custom-font-style-small mt-5 mb-0 search-term">Ecosystem Goal 3</span>
+                                                            <span class="text-light-primary font-weight-bold font-small mt-5 mb-0 search-term">Ecosystem Goal 3</span>
                                                             <div class="text-to-copy d-none">icn-ecosystem-goal-three</div>
                                                         </a>
                                                     </div>
                                                     <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
-                                                        <a href="#" class="custom-bg-cyan w-100 h-100 d-flex flex-column justify-content-center align-items-center p-7 copy-link">
+                                                        <a href="#" class="bg-secondary w-100 h-100 d-flex flex-column justify-content-center align-items-center p-7 copy-link">
                                                             <i class="icn-wellbeing-goal-one icn-4x"></i>
-                                                            <span class="custom-text-light-pale font-weight-bold custom-font-style-small mt-5 mb-0 search-term">Wellbeing Goal 1</span>
+                                                            <span class="text-light-primary font-weight-bold font-small mt-5 mb-0 search-term">Wellbeing Goal 1</span>
                                                             <div class="text-to-copy d-none">icn-wellbeing-goal-one</div>
                                                         </a>
                                                     </div>
                                                     <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
-                                                        <a href="#" class="custom-bg-cyan w-100 h-100 d-flex flex-column justify-content-center align-items-center p-7 copy-link">
+                                                        <a href="#" class="bg-secondary w-100 h-100 d-flex flex-column justify-content-center align-items-center p-7 copy-link">
                                                             <i class="icn-wellbeing-goal-two icn-4x"></i>
-                                                            <span class="custom-text-light-pale font-weight-bold custom-font-style-small mt-5 mb-0 search-term">Wellbeing Goal 2</span>
+                                                            <span class="text-light-primary font-weight-bold font-small mt-5 mb-0 search-term">Wellbeing Goal 2</span>
                                                             <div class="text-to-copy d-none">icn-wellbeing-goal-two</div>
                                                         </a>
                                                     </div>
                                                     <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
-                                                        <a href="#" class="custom-bg-cyan w-100 h-100 d-flex flex-column justify-content-center align-items-center p-7 copy-link">
+                                                        <a href="#" class="bg-secondary w-100 h-100 d-flex flex-column justify-content-center align-items-center p-7 copy-link">
                                                             <i class="icn-governance-goal-one icn-4x"></i>
-                                                            <span class="custom-text-light-pale font-weight-bold custom-font-style-small mt-5 mb-0 search-term">Governance Goal 1</span>
+                                                            <span class="text-light-primary font-weight-bold font-small mt-5 mb-0 search-term">Governance Goal 1</span>
                                                             <div class="text-to-copy d-none">icn-governance-goal-one</div>
                                                         </a>
                                                     </div>
                                                 </div>
                                                 <div class="row mt-5">
                                                     <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
-                                                        <a href="#" class="custom-bg-cyan w-100 h-100 d-flex flex-column justify-content-center align-items-center p-7 copy-link">
+                                                        <a href="#" class="bg-secondary w-100 h-100 d-flex flex-column justify-content-center align-items-center p-7 copy-link">
                                                             <i class="icn-governance-goal-two icn-4x"></i>
-                                                            <span class="custom-text-light-pale font-weight-bold custom-font-style-small mt-5 mb-0 search-term">Governance Goal 2</span>
+                                                            <span class="text-light-primary font-weight-bold font-small mt-5 mb-0 search-term">Governance Goal 2</span>
                                                             <div class="text-to-copy d-none">icn-governance-goal-two</div>
                                                         </a>
                                                     </div>
                                                     <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
-                                                        <a href="#" class="custom-bg-cyan w-100 h-100 d-flex flex-column justify-content-center align-items-center p-7 copy-link">
+                                                        <a href="#" class="bg-secondary w-100 h-100 d-flex flex-column justify-content-center align-items-center p-7 copy-link">
                                                             <i class="icn-production-goal-one icn-4x"></i>
-                                                            <span class="custom-text-light-pale font-weight-bold custom-font-style-small mt-5 mb-0 search-term">Production Goal 1</span>
+                                                            <span class="text-light-primary font-weight-bold font-small mt-5 mb-0 search-term">Production Goal 1</span>
                                                             <div class="text-to-copy d-none">icn-production-goal-one</div>
                                                         </a>
                                                     </div>
                                                     <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
-                                                        <a href="#" class="custom-bg-cyan w-100 h-100 d-flex flex-column justify-content-center align-items-center p-7 copy-link">
+                                                        <a href="#" class="bg-secondary w-100 h-100 d-flex flex-column justify-content-center align-items-center p-7 copy-link">
                                                             <i class="icn-production-goal-two icn-4x"></i>
-                                                            <span class="custom-text-light-pale font-weight-bold custom-font-style-small mt-5 mb-0 search-term">Production Goal 2</span>
+                                                            <span class="text-light-primary font-weight-bold font-small mt-5 mb-0 search-term">Production Goal 2</span>
                                                             <div class="text-to-copy d-none">icn-production-goal-two</div>
                                                         </a>
                                                     </div>
                                                     <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
-                                                        <a href="#" class="custom-bg-cyan w-100 h-100 d-flex flex-column justify-content-center align-items-center p-7 copy-link">
+                                                        <a href="#" class="bg-secondary w-100 h-100 d-flex flex-column justify-content-center align-items-center p-7 copy-link">
                                                             <i class="icn-assessment icn-4x icn-white"></i>
-                                                            <span class="custom-text-light-pale font-weight-bold custom-font-style-small mt-5 mb-0 search-term">Assessment</span>
+                                                            <span class="text-light-primary font-weight-bold font-small mt-5 mb-0 search-term">Assessment</span>
                                                             <div class="text-to-copy d-none">icn-assessment</div>
                                                         </a>
                                                     </div>
                                                     <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
-                                                        <a href="#" class="custom-bg-cyan w-100 h-100 d-flex flex-column justify-content-center align-items-center p-7 copy-link">
+                                                        <a href="#" class="bg-secondary w-100 h-100 d-flex flex-column justify-content-center align-items-center p-7 copy-link">
                                                             <i class="icn-book icn-4x icn-white"></i>
-                                                            <span class="custom-text-light-pale font-weight-bold custom-font-style-small mt-5 mb-0 search-term">Book</span>
+                                                            <span class="text-light-primary font-weight-bold font-small mt-5 mb-0 search-term">Book</span>
                                                             <div class="text-to-copy d-none">icn-book</div>
                                                         </a>
                                                     </div>
                                                     <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
-                                                        <a href="#" class="custom-bg-cyan w-100 h-100 d-flex flex-column justify-content-center align-items-center p-7 copy-link">
+                                                        <a href="#" class="bg-secondary w-100 h-100 d-flex flex-column justify-content-center align-items-center p-7 copy-link">
                                                             <i class="icn-location icn-4x icn-white"></i>
-                                                            <span class="custom-text-light-pale font-weight-bold custom-font-style-small mt-5 mb-0 search-term">Location</span>
+                                                            <span class="text-light-primary font-weight-bold font-small mt-5 mb-0 search-term">Location</span>
                                                             <div class="text-to-copy d-none">icn-location</div>
                                                         </a>
                                                     </div>
@@ -537,12 +537,12 @@ License: You must have a valid license purchased only from themeforest(the above
     </div>
     <!--end::Main-->
     <!-- begin help center btn-->
-    <div class="btn-help-center-wrapper custom-cursor-pointer">
+    <div class="btn-help-center-wrapper cursor-pointer">
         <div class="btn-dropdown btn-lg mr-1 d-flex align-items-center" id="kt_quick_cart_toggle">
             <span class="btn-help-icon">
                 <i class="icn-question icn-3x mt-2 mx-2"></i>
             </span>
-            <span class="btn-help-toggle custom-font-style-sub-text p-6 bg-light d-none">
+            <span class="btn-help-toggle font-text p-6 bg-light d-none">
                 Help Center
             </span>
         </div>

@@ -61,10 +61,10 @@
             <a href="#" class="wizard-step custom-width-steps custom-metrices-step" data-wizard-type="step" data-wizard-state="current">
                 <div class="wizard-label">
                     <div class="label-wrapper text-center">
-                        <h3 class="wizard-title wizard-nav-title-step wizard-nav-title-responsive step-title custom-text-light-grey">
+                        <h3 class="wizard-title wizard-nav-title-step wizard-nav-title-responsive step-title text-light-cyan">
                             Report &amp; Publish
                         </h3>
-                        <span class="steps-tags-text step-pending-tag p-1 custom-text-light-grey">Pending Review</span>
+                        <span class="steps-tags-text step-pending-tag p-1 text-light-cyan">Pending Review</span>
                     </div>
                     <div class="wizard-bar-5" id="step5" style="--border-clr:#074A37;"></div>
                 </div>

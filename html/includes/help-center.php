@@ -1,11 +1,11 @@
 <div id="kt_quick_cart" class="offcanvas offcanvas-right help-panal-border" style="overflow-x: hidden; overflow-y: scroll;">
     <!--begin::Header-->
     <!--  kt-hidden-height="47" -->
-    <div class="d-flex align-items-center justify-content-between p-7 custom-border-bottom-pale">
-        <h4 class="custom-font-style-headings custom-text-primary font-weight-bold m-0">
+    <div class="d-flex align-items-center justify-content-between p-7 border-bottom-secondary">
+        <h4 class="font-heading text-primary font-weight-bold m-0">
             Help Center
         </h4>
-        <a href="#" class="btn btn-xs btn-icon btn-hover-primary custom-border-radius-50 help-center-header-close" id="kt_quick_cart_close">
+        <a href="#" class="btn btn-xs btn-icon btn-hover-primary br-50 help-center-header-close" id="kt_quick_cart_close">
             <i class="ki ki-close icon-xs text-muted"></i>
         </a>
     </div>
@@ -14,31 +14,31 @@
     <!--begin::Content-->
     <div class="row py-7 px-10">
         <div class="col-md-12 pl-0">
-            <h6 class="custom-font-style-text custom-text-primary">Quick Access</h6>
+            <h6 class="font-text text-primary">Quick Access</h6>
         </div>
-        <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12 custom-bg-light-pale custom-border-radius-4 p-5 max-w-32-percent">
+        <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12 bg-light-primary br-4 p-5 max-w-32-percent">
             <div class="d-flex flex-column align-items-center justify-content-center w-100 h-100">
                 <!-- <img src="../assets/media/feedback-icon.svg" alt=""> -->
                 <i class="icn-message icn-3x"></i>
-                <span class="custom-font-style-small custom-text-primary text-center mt-1">Assessment
+                <span class="font-small text-primary text-center mt-1">Assessment
                     Feedback</span>
             </div>
         </div>
-        <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12 custom-bg-light-pale custom-border-radius-4 p-5 max-w-32-percent mx-1 responsive-margin-help">
+        <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12 bg-light-primary br-4 p-5 max-w-32-percent mx-1 responsive-margin-help">
             <div class="d-flex flex-column align-items-center justify-content-center w-100 h-100">
                 <i class="icn-file-fold icn-3x"></i>
 
                 <!-- <img src="../assets/media/guideline.png" alt=""> -->
-                <span class="custom-font-style-small custom-text-primary text-center mt-1">View
+                <span class="font-small text-primary text-center mt-1">View
                     Guidelines</span>
             </div>
         </div>
-        <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12 custom-bg-light-pale custom-border-radius-4 p-5 max-w-32-percent">
+        <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12 bg-light-primary br-4 p-5 max-w-32-percent">
             <div class="d-flex flex-column align-items-center justify-content-center w-100 h-100">
                 <!-- <img src="../assets/media/report.png" alt=""> -->
                 <i class="icn-conversation icn-4x"></i>
 
-                <span class="custom-font-style-small custom-text-primary text-center mt-1">Report
+                <span class="font-small text-primary text-center mt-1">Report
                     Issue</span>
             </div>
         </div>
@@ -75,7 +75,7 @@
                 </span>
             </a>
         </li>
-        <li class="d-flex align-items-center custom-border-bottom-pale">
+        <li class="d-flex align-items-center border-bottom-secondary">
             <a href="#">
                 <span class="help-center-link-icon">
                     <i class="icn-loop icn-2x"></i>
@@ -86,7 +86,7 @@
                 </span>
             </a>
         </li>
-        <li class="d-flex align-items-center custom-border-bottom-pale">
+        <li class="d-flex align-items-center border-bottom-secondary">
             <a href="#">
                 <span class="help-center-link-icon">
                     <i class="icn-persons icn-2x"></i>
@@ -99,7 +99,7 @@
         </li>
     </ul>
 
-    <h6 class="custom-font-style-text custom-text-primary py-4 px-7">Can't find what you're looking for?</h6>
+    <h6 class="font-text text-primary py-4 px-7">Can't find what you're looking for?</h6>
     <ul class="help-center-ul">
         <li class="d-flex align-items-center">
             <a href="#">

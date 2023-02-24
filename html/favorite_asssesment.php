@@ -131,80 +131,80 @@ License: You must have a valid license purchased only from themeforest(the above
                     <!--begin::Subheader-->
                     <div class="container">
                         <div class="py-5">
-                            <a href="#" class="custom-font-style-text custom-text-grey">Explore Landscapes /</a>
-                            <span class="custom-font-style-text custom-text-primary">Assessments</span>
+                            <a href="#" class="font-text text-secondary">Explore Landscapes /</a>
+                            <span class="font-text text-primary">Assessments</span>
                         </div>
                         <div class="row">
                             <div class="col-md-12">
                                 <div class="card w-100 p-10">
                                     <div class="row">
                                         <div class="col-xl-4 col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                            <span class="custom-font-style-subheadings custom-text-primary d-inline-block mb-5">Find assessments by location</span>
+                                            <span class="font-subheading text-primary d-inline-block mb-5">Find assessments by location</span>
                                             <div class="row">
                                                 <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
                                                     <input type="radio" class="btn-check filter_div" value="0" name="steps" id="step-0" autocomplete="off">
-                                                    <label class="btn-outline-primary custom-bg-light-pale custom-font-style-subtext custom-text-grey custom-border-radius-15 px-5 py-2 d-inline-block text-center w-100 custom-cursor-pointer" for="step-0">Ghana</label>
+                                                    <label class="btn-outline-primary bg-light-primary custom-font-style-subtext text-secondary br-15 px-5 py-2 d-inline-block text-center w-100 cursor-pointer" for="step-0">Ghana</label>
                                                 </div>
 
                                                 <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
                                                     <input type="radio" class="btn-check filter_div" value="9" name="steps" id="step-9" autocomplete="off">
-                                                    <label class="btn-outline-primary custom-bg-light-pale custom-font-style-subtext custom-text-grey custom-border-radius-15 px-5 py-2 d-inline-block text-center w-100 custom-cursor-pointer" for="step-9">Pakistan</label>
+                                                    <label class="btn-outline-primary bg-light-primary custom-font-style-subtext text-secondary br-15 px-5 py-2 d-inline-block text-center w-100 cursor-pointer" for="step-9">Pakistan</label>
                                                 </div>
 
                                                 <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
                                                     <input type="radio" class="btn-check filter_div" value="1" name="steps" id="step-1" autocomplete="off">
-                                                    <label class="btn-outline-primary custom-bg-light-pale custom-font-style-subtext custom-text-grey custom-border-radius-15 px-5 py-2 d-inline-block text-center w-100 custom-cursor-pointer" for="step-1">Thiland</label>
+                                                    <label class="btn-outline-primary bg-light-primary custom-font-style-subtext text-secondary br-15 px-5 py-2 d-inline-block text-center w-100 cursor-pointer" for="step-1">Thiland</label>
                                                 </div>
 
                                                 <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
                                                     <input type="radio" class="btn-check filter_div" value="2" name="steps" id="step-2" autocomplete="off">
-                                                    <label class="btn-outline-primary custom-bg-light-pale custom-font-style-subtext custom-text-grey custom-border-radius-15 px-5 py-2 d-inline-block text-center w-100 custom-cursor-pointer" for="step-2">India</label>
+                                                    <label class="btn-outline-primary bg-light-primary custom-font-style-subtext text-secondary br-15 px-5 py-2 d-inline-block text-center w-100 cursor-pointer" for="step-2">India</label>
                                                 </div>
 
                                                 <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
                                                     <input type="radio" class="btn-check filter_div" value="3" name="steps" id="step-3" autocomplete="off">
-                                                    <label class="btn-outline-primary custom-bg-light-pale custom-font-style-subtext custom-text-grey custom-border-radius-15 px-5 py-2 d-inline-block text-center w-100 custom-cursor-pointer" for="step-3">Mali</label>
+                                                    <label class="btn-outline-primary bg-light-primary custom-font-style-subtext text-secondary br-15 px-5 py-2 d-inline-block text-center w-100 cursor-pointer" for="step-3">Mali</label>
                                                 </div>
 
                                                 <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
                                                     <input type="radio" class="btn-check filter_div" value="4" name="steps" id="step-4" autocomplete="off">
-                                                    <label class="btn-outline-primary custom-bg-light-pale custom-font-style-subtext custom-text-grey custom-border-radius-15 px-5 py-2 d-inline-block text-center w-100 custom-cursor-pointer" for="step-4">Peru</label>
+                                                    <label class="btn-outline-primary bg-light-primary custom-font-style-subtext text-secondary br-15 px-5 py-2 d-inline-block text-center w-100 cursor-pointer" for="step-4">Peru</label>
                                                 </div>
 
                                                 <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
                                                     <input type="radio" class="btn-check filter_div" value="5" name="steps" id="step-5" autocomplete="off">
-                                                    <label class="btn-outline-primary custom-bg-light-pale custom-font-style-subtext custom-text-grey custom-border-radius-15 px-5 py-2 d-inline-block text-center w-100 custom-cursor-pointer" for="step-5">Colombia</label>
+                                                    <label class="btn-outline-primary bg-light-primary custom-font-style-subtext text-secondary br-15 px-5 py-2 d-inline-block text-center w-100 cursor-pointer" for="step-5">Colombia</label>
                                                 </div>
 
                                                 <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
                                                     <input type="radio" class="btn-check filter_div" value="7" name="steps" id="step-7" autocomplete="off">
-                                                    <label class="btn-outline-primary custom-bg-light-pale custom-font-style-subtext custom-text-grey custom-border-radius-15 px-5 py-2 d-inline-block text-center w-100 custom-cursor-pointer" for="step-7">America</label>
+                                                    <label class="btn-outline-primary bg-light-primary custom-font-style-subtext text-secondary br-15 px-5 py-2 d-inline-block text-center w-100 cursor-pointer" for="step-7">America</label>
                                                 </div>
 
                                                 <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
                                                     <input type="radio" class="btn-check filter_div" value="8" name="steps" id="step-8" autocomplete="off">
-                                                    <label class="btn-outline-primary custom-bg-light-pale custom-font-style-subtext custom-text-grey custom-border-radius-15 px-5 py-2 d-inline-block text-center w-100 custom-cursor-pointer" for="step-8">Turkey</label>
+                                                    <label class="btn-outline-primary bg-light-primary custom-font-style-subtext text-secondary br-15 px-5 py-2 d-inline-block text-center w-100 cursor-pointer" for="step-8">Turkey</label>
                                                 </div>
 
                                                 <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
                                                     <input type="radio" class="btn-check filter_div" value="8" name="steps" id="step-10" autocomplete="off">
-                                                    <label class="btn-outline-primary custom-bg-light-pale custom-font-style-subtext custom-text-grey custom-border-radius-15 px-5 py-2 d-inline-block text-center w-100 custom-cursor-pointer" for="step-10">Dubai</label>
+                                                    <label class="btn-outline-primary bg-light-primary custom-font-style-subtext text-secondary br-15 px-5 py-2 d-inline-block text-center w-100 cursor-pointer" for="step-10">Dubai</label>
                                                 </div>
 
                                                 <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
                                                     <input type="radio" class="btn-check filter_div" value="12" name="steps" id="step-12" autocomplete="off">
-                                                    <label class="btn-outline-primary custom-bg-light-pale custom-font-style-subtext custom-text-grey custom-border-radius-15 px-5 py-2 d-inline-block text-center w-100 custom-cursor-pointer" for="step-12">Mexico</label>
+                                                    <label class="btn-outline-primary bg-light-primary custom-font-style-subtext text-secondary br-15 px-5 py-2 d-inline-block text-center w-100 cursor-pointer" for="step-12">Mexico</label>
                                                 </div>
 
                                                 <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
                                                     <input type="radio" class="btn-check filter_div" value="13" name="steps" id="step-13" autocomplete="off">
-                                                    <label class="btn-outline-primary custom-bg-light-pale custom-font-style-subtext custom-text-grey custom-border-radius-15 px-5 py-2 d-inline-block text-center w-100 custom-cursor-pointer" for="step-13">Kenya</label>
+                                                    <label class="btn-outline-primary bg-light-primary custom-font-style-subtext text-secondary br-15 px-5 py-2 d-inline-block text-center w-100 cursor-pointer" for="step-13">Kenya</label>
                                                 </div>
 
                                             </div>
                                         </div>
                                         <div class="col-xl-8 col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                            <img src="../assets/media/favourite-map-img.png" class="custom-border-radius-35" style="width: 100%; height: 320px;" alt="">
+                                            <img src="../assets/media/favourite-map-img.png" class="br-35" style="width: 100%; height: 320px;" alt="">
                                         </div>
                                     </div>
                                 </div>
@@ -217,10 +217,10 @@ License: You must have a valid license purchased only from themeforest(the above
                                     <div class="row mb-5">
                                         <div class="col-md-12">
                                             <div class="d-flex justify-content-between align-items-center w-100 responsive-block">
-                                                <span class="custom-font-style-subheadings custom-text-primary d-inline-block">Featured assessments</span>
+                                                <span class="font-subheading text-primary d-inline-block">Featured assessments</span>
                                                 <div class="pr-5">
-                                                    <button type="button" class="custom-bg-light-pale custom-text-grey custom-border-radius-35 custom-font-style-subtext border-0 w-176px h-40px mr-5">Profile Not Available</button>
-                                                    <button type="button" class="custom-bg-primary custom-text-light-pale custom-border-radius-35 custom-font-style-subtext border-0 w-176px h-40px">Profile Available</button>
+                                                    <a href="#" class="c-btn-light-primary c-btn-md">Profile Not Available</a>
+                                                    <a href="#" class="c-btn-primary c-btn-md">Profile Available</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -228,32 +228,32 @@ License: You must have a valid license purchased only from themeforest(the above
 
                                     <div class="row mt-5">
                                         <div class="col-xl-4 col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                            <div class="custom-border-color-pale custom-border-radius-15 h-350px">
-                                                <img src="../assets/media/map_img1.png" class="p-3 custom-border-radius-15" style="width: 100%; height: 70%;" alt="">
+                                            <div class="border-color-pale br-15 h-350px">
+                                                <img src="../assets/media/map_img1.png" class="p-3 br-15" style="width: 100%; height: 70%;" alt="">
                                                 <div class="mt-3 px-6">
-                                                    <div class="custom-font-style-text custom-text-primary">Alicante River Canyon</div>
-                                                    <div class="custom-font-style-small custom-text-primary mt-2 my-1"><span class="font-weight-bold">Country: </span>Colombia</div>
-                                                    <div class="custom-font-style-small custom-text-primary"><span class="font-weight-bold">Organization: </span> XYZ</div>
+                                                    <div class="font-text text-primary">Alicante River Canyon</div>
+                                                    <div class="font-small text-primary mt-2 my-1"><span class="font-weight-bold">Country: </span>Colombia</div>
+                                                    <div class="font-small text-primary"><span class="font-weight-bold">Organization: </span> XYZ</div>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="responsive-margin-grid col-xl-4 col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                            <div class="custom-border-color-pale custom-border-radius-15 h-350px">
-                                                <img src="../assets/media/map_img1.png" class="p-3 custom-border-radius-15" style="width: 100%; height: 70%;" alt="">
+                                            <div class="border-color-pale br-15 h-350px">
+                                                <img src="../assets/media/map_img1.png" class="p-3 br-15" style="width: 100%; height: 70%;" alt="">
                                                 <div class="mt-3 px-6">
-                                                    <div class="custom-font-style-text custom-text-primary">San José Northern</div>
-                                                    <div class="custom-font-style-small custom-text-primary mt-2 my-1"><span class="font-weight-bold">Country: </span>Costa Rica</div>
-                                                    <div class="custom-font-style-small custom-text-primary"><span class="font-weight-bold">Organization: </span> IUCN</div>
+                                                    <div class="font-text text-primary">San José Northern</div>
+                                                    <div class="font-small text-primary mt-2 my-1"><span class="font-weight-bold">Country: </span>Costa Rica</div>
+                                                    <div class="font-small text-primary"><span class="font-weight-bold">Organization: </span> IUCN</div>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="col-xl-4 col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                            <div class="custom-border-color-pale custom-border-radius-15 h-350px">
-                                                <img src="../assets/media/map_img1.png" class="p-3 custom-border-radius-15" style="width: 100%; height: 70%;" alt="">
+                                            <div class="border-color-pale br-15 h-350px">
+                                                <img src="../assets/media/map_img1.png" class="p-3 br-15" style="width: 100%; height: 70%;" alt="">
                                                 <div class="mt-3 px-6">
-                                                    <div class="custom-font-style-text custom-text-primary">Lamas Landscape</div>
-                                                    <div class="custom-font-style-small custom-text-primary mt-2 my-1"><span class="font-weight-bold">Country: </span>Peru</div>
-                                                    <div class="custom-font-style-small custom-text-primary"><span class="font-weight-bold">Organization: </span>Rainforest Alliance </div>
+                                                    <div class="font-text text-primary">Lamas Landscape</div>
+                                                    <div class="font-small text-primary mt-2 my-1"><span class="font-weight-bold">Country: </span>Peru</div>
+                                                    <div class="font-small text-primary"><span class="font-weight-bold">Organization: </span>Rainforest Alliance </div>
                                                 </div>
                                             </div>
                                         </div>
@@ -261,17 +261,17 @@ License: You must have a valid license purchased only from themeforest(the above
 
                                     <div class="d-flex justify-content-center w-100">
                                         <div class="mt-10">
-                                            <a href="#" class="single-paginate-item custom-border-color-pale custom-btlr-50 custom-bblr-50 custom-bg-light-pale p-4 m-0">
+                                            <a href="#" class="single-paginate-item border-color-pale btlr-50 bblr-50 bg-light-primary p-4 m-0">
                                                 <svg width="15" height="16" viewBox="0 0 15 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                     <path d="M5.71777 8.01932C8.27768 10.6813 10.8415 13.3474 13.3923 16C13.9112 15.4644 14.4478 14.9098 14.9996 14.3401C12.984 12.2474 10.9642 10.1502 8.89984 8.00719C9.20487 7.70567 9.49564 7.42976 9.77431 7.14127C11.4662 5.38696 13.1534 3.6277 14.8475 1.87564C14.9913 1.7269 15.003 1.64287 14.8475 1.48694C14.361 0.999382 13.8935 0.491603 13.4265 0C10.8445 2.68629 8.28114 5.35281 5.71777 8.01932Z" fill="#4C94A0" />
                                                     <path d="M7.65165 15.9681C8.14678 15.4522 8.67778 14.8986 9.23253 14.3203C7.23256 12.2469 5.20753 10.1479 3.1717 8.03773C5.21703 5.91494 7.23688 3.81867 9.23988 1.73991C8.68253 1.16024 8.1511 0.607521 7.63566 0.0714312C5.10211 2.70874 2.5409 5.37481 0 8.01931C2.53528 10.6535 5.10254 13.3204 7.65165 15.9681Z" fill="#4C94A0" />
                                                 </svg>
                                             </a>
-                                            <a href="#" class="custom-border-color-pale custom-bg-light-pale custom-text-light-grey p-4 m-0">1</a>
-                                            <a href="#" class="custom-border-color-pale p-4 custom-bg-primary custom-text-light-pale" style="margin: -3px !important;">2</a>
-                                            <a href="#" class="custom-border-color-pale custom-bg-light-pale custom-text-light-grey p-4 m-0">3</a>
-                                            <a href="#" class="custom-border-color-pale custom-bg-light-pale custom-text-light-grey p-4" style="margin: -3px !important;">4</a>
-                                            <a href="#" class="custom-border-color-pale custom-bg-light-pale p-4 m-0 custom-btrr-50 custom-bbrr-50">
+                                            <a href="#" class="border-color-pale bg-light-primary text-light-cyan p-4 m-0">1</a>
+                                            <a href="#" class="border-color-pale p-4 bg-primary text-light-primary" style="margin: -3px !important;">2</a>
+                                            <a href="#" class="border-color-pale bg-light-primary text-light-cyan p-4 m-0">3</a>
+                                            <a href="#" class="border-color-pale bg-light-primary text-light-cyan p-4" style="margin: -3px !important;">4</a>
+                                            <a href="#" class="border-color-pale bg-light-primary p-4 m-0 btrr-50 bbrr-50">
                                                 <svg width="15" height="16" viewBox="0 0 15 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                     <path d="M9.28223 8.01932C6.72232 10.6813 4.15852 13.3474 1.60768 16C1.08878 15.4644 0.552174 14.9098 0.000442505 14.3401C2.01597 12.2474 4.03581 10.1502 6.10016 8.00719C5.79513 7.70567 5.50436 7.42976 5.22569 7.14127C3.53377 5.38696 1.8466 3.6277 0.152525 1.87564C0.00865078 1.7269 -0.00301456 1.64287 0.152525 1.48694C0.639015 0.999382 1.1065 0.491603 1.57355 0C4.15549 2.68629 6.71886 5.35281 9.28223 8.01932Z" fill="#4C94A0" />
                                                     <path d="M7.34835 15.9681C6.85322 15.4522 6.32222 14.8986 5.76747 14.3203C7.76744 12.2469 9.79247 10.1479 11.8283 8.03773C9.78297 5.91494 7.76312 3.81867 5.76012 1.73991C6.31747 1.16024 6.8489 0.607521 7.36434 0.0714312C9.89789 2.70874 12.4591 5.37481 15 8.01931C12.4647 10.6535 9.89746 13.3204 7.34835 15.9681Z" fill="#4C94A0" />
@@ -289,10 +289,10 @@ License: You must have a valid license purchased only from themeforest(the above
                                     <div class="row mb-5">
                                         <div class="col-md-12">
                                             <div class="d-flex justify-content-between align-items-center w-100 responsive-block">
-                                                <span class="custom-font-style-subheadings custom-text-primary d-inline-block">Assessments in progress</span>
+                                                <span class="font-subheading text-primary d-inline-block">Assessments in progress</span>
                                                 <div class="pr-5">
-                                                    <button type="button" class="custom-bg-light-pale custom-text-grey custom-border-radius-35 custom-font-style-subtext border-0 w-176px h-40px mr-5">Profile Not Available</button>
-                                                    <button type="button" class="custom-bg-primary custom-text-light-pale custom-border-radius-35 custom-font-style-subtext border-0 w-176px h-40px">Profile Available</button>
+                                                    <a href="#" class="c-btn-light-primary c-btn-md">Profile Not Available</a>
+                                                    <a href="#" class="c-btn-primary c-btn-md">Profile Available</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -300,32 +300,32 @@ License: You must have a valid license purchased only from themeforest(the above
 
                                     <div class="row mt-5">
                                         <div class="col-xl-4 col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                            <div class="custom-border-color-pale custom-border-radius-15 h-350px">
-                                                <img src="../assets/media/map_img1.png" class="p-3 custom-border-radius-15" style="width: 100%; height: 70%;" alt="">
+                                            <div class="border-color-pale br-15 h-350px">
+                                                <img src="../assets/media/map_img1.png" class="p-3 br-15" style="width: 100%; height: 70%;" alt="">
                                                 <div class="mt-3 px-6">
-                                                    <div class="custom-font-style-text custom-text-primary">Alicante River Canyon</div>
-                                                    <div class="custom-font-style-small custom-text-primary mt-2 my-1"><span class="font-weight-bold">Country: </span>Colombia</div>
-                                                    <div class="custom-font-style-small custom-text-primary"><span class="font-weight-bold">Organization: </span> XYZ</div>
+                                                    <div class="font-text text-primary">Alicante River Canyon</div>
+                                                    <div class="font-small text-primary mt-2 my-1"><span class="font-weight-bold">Country: </span>Colombia</div>
+                                                    <div class="font-small text-primary"><span class="font-weight-bold">Organization: </span> XYZ</div>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="responsive-margin-grid col-xl-4 col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                            <div class="custom-border-color-pale custom-border-radius-15 h-350px">
-                                                <img src="../assets/media/map_img1.png" class="p-3 custom-border-radius-15" style="width: 100%; height: 70%;" alt="">
+                                            <div class="border-color-pale br-15 h-350px">
+                                                <img src="../assets/media/map_img1.png" class="p-3 br-15" style="width: 100%; height: 70%;" alt="">
                                                 <div class="mt-3 px-6">
-                                                    <div class="custom-font-style-text custom-text-primary">San José Northern</div>
-                                                    <div class="custom-font-style-small custom-text-primary mt-2 my-1"><span class="font-weight-bold">Country: </span>Costa Rica</div>
-                                                    <div class="custom-font-style-small custom-text-primary"><span class="font-weight-bold">Organization: </span> IUCN</div>
+                                                    <div class="font-text text-primary">San José Northern</div>
+                                                    <div class="font-small text-primary mt-2 my-1"><span class="font-weight-bold">Country: </span>Costa Rica</div>
+                                                    <div class="font-small text-primary"><span class="font-weight-bold">Organization: </span> IUCN</div>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="col-xl-4 col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                            <div class="custom-border-color-pale custom-border-radius-15 h-350px">
-                                                <img src="../assets/media/map_img1.png" class="p-3 custom-border-radius-15" style="width: 100%; height: 70%;" alt="">
+                                            <div class="border-color-pale br-15 h-350px">
+                                                <img src="../assets/media/map_img1.png" class="p-3 br-15" style="width: 100%; height: 70%;" alt="">
                                                 <div class="mt-3 px-6">
-                                                    <div class="custom-font-style-text custom-text-primary">Lamas Landscape</div>
-                                                    <div class="custom-font-style-small custom-text-primary mt-2 my-1"><span class="font-weight-bold">Country: </span>Peru</div>
-                                                    <div class="custom-font-style-small custom-text-primary"><span class="font-weight-bold">Organization: </span>Rainforest Alliance </div>
+                                                    <div class="font-text text-primary">Lamas Landscape</div>
+                                                    <div class="font-small text-primary mt-2 my-1"><span class="font-weight-bold">Country: </span>Peru</div>
+                                                    <div class="font-small text-primary"><span class="font-weight-bold">Organization: </span>Rainforest Alliance </div>
                                                 </div>
                                             </div>
                                         </div>
@@ -333,17 +333,17 @@ License: You must have a valid license purchased only from themeforest(the above
 
                                     <div class="d-flex justify-content-center w-100">
                                         <div class="mt-10">
-                                            <a href="#" class="single-paginate-item custom-border-color-pale custom-btlr-50 custom-bblr-50 custom-bg-light-pale p-4 m-0">
+                                            <a href="#" class="single-paginate-item border-color-pale btlr-50 bblr-50 bg-light-primary p-4 m-0">
                                                 <svg width="15" height="16" viewBox="0 0 15 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                     <path d="M5.71777 8.01932C8.27768 10.6813 10.8415 13.3474 13.3923 16C13.9112 15.4644 14.4478 14.9098 14.9996 14.3401C12.984 12.2474 10.9642 10.1502 8.89984 8.00719C9.20487 7.70567 9.49564 7.42976 9.77431 7.14127C11.4662 5.38696 13.1534 3.6277 14.8475 1.87564C14.9913 1.7269 15.003 1.64287 14.8475 1.48694C14.361 0.999382 13.8935 0.491603 13.4265 0C10.8445 2.68629 8.28114 5.35281 5.71777 8.01932Z" fill="#4C94A0" />
                                                     <path d="M7.65165 15.9681C8.14678 15.4522 8.67778 14.8986 9.23253 14.3203C7.23256 12.2469 5.20753 10.1479 3.1717 8.03773C5.21703 5.91494 7.23688 3.81867 9.23988 1.73991C8.68253 1.16024 8.1511 0.607521 7.63566 0.0714312C5.10211 2.70874 2.5409 5.37481 0 8.01931C2.53528 10.6535 5.10254 13.3204 7.65165 15.9681Z" fill="#4C94A0" />
                                                 </svg>
                                             </a>
-                                            <a href="#" class="custom-border-color-pale custom-bg-light-pale custom-text-light-grey p-4 m-0">1</a>
-                                            <a href="#" class="custom-border-color-pale p-4 custom-bg-primary custom-text-light-pale" style="margin: -3px !important;">2</a>
-                                            <a href="#" class="custom-border-color-pale custom-bg-light-pale custom-text-light-grey p-4 m-0">3</a>
-                                            <a href="#" class="custom-border-color-pale custom-bg-light-pale custom-text-light-grey p-4" style="margin: -3px !important;">4</a>
-                                            <a href="#" class="custom-border-color-pale custom-bg-light-pale p-4 m-0 custom-btrr-50 custom-bbrr-50">
+                                            <a href="#" class="border-color-pale bg-light-primary text-light-cyan p-4 m-0">1</a>
+                                            <a href="#" class="border-color-pale p-4 bg-primary text-light-primary" style="margin: -3px !important;">2</a>
+                                            <a href="#" class="border-color-pale bg-light-primary text-light-cyan p-4 m-0">3</a>
+                                            <a href="#" class="border-color-pale bg-light-primary text-light-cyan p-4" style="margin: -3px !important;">4</a>
+                                            <a href="#" class="border-color-pale bg-light-primary p-4 m-0 btrr-50 bbrr-50">
                                                 <svg width="15" height="16" viewBox="0 0 15 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                     <path d="M9.28223 8.01932C6.72232 10.6813 4.15852 13.3474 1.60768 16C1.08878 15.4644 0.552174 14.9098 0.000442505 14.3401C2.01597 12.2474 4.03581 10.1502 6.10016 8.00719C5.79513 7.70567 5.50436 7.42976 5.22569 7.14127C3.53377 5.38696 1.8466 3.6277 0.152525 1.87564C0.00865078 1.7269 -0.00301456 1.64287 0.152525 1.48694C0.639015 0.999382 1.1065 0.491603 1.57355 0C4.15549 2.68629 6.71886 5.35281 9.28223 8.01932Z" fill="#4C94A0" />
                                                     <path d="M7.34835 15.9681C6.85322 15.4522 6.32222 14.8986 5.76747 14.3203C7.76744 12.2469 9.79247 10.1479 11.8283 8.03773C9.78297 5.91494 7.76312 3.81867 5.76012 1.73991C6.31747 1.16024 6.8489 0.607521 7.36434 0.0714312C9.89789 2.70874 12.4591 5.37481 15 8.01931C12.4647 10.6535 9.89746 13.3204 7.34835 15.9681Z" fill="#4C94A0" />
@@ -361,14 +361,14 @@ License: You must have a valid license purchased only from themeforest(the above
                                     <div class="d-flex justify-content-center align-items-center">
                                         <div style="padding: 50px;">
                                             <div class="d-flex justify-content-center">
-                                                <span class="custom-bg-primary p-2 custom-border-radius-50">
+                                                <span class="bg-primary p-2 br-50">
                                                     <i class="icn-heart icn-3x mx-2 mt-2"></i>
                                                 </span>
                                             </div>
-                                            <div class="custom-font-style-subheadings custom-text-primary mb-3 mt-5 text-center">You don’t have any favorite Assessments</div>
-                                            <div class="custom-font-style-subtext custom-text-primary">Like any profile you see? Save them here to your favorite assessments</div>
+                                            <div class="font-subheading text-primary mb-3 mt-5 text-center">You don’t have any favorite Assessments</div>
+                                            <div class="custom-font-style-subtext text-primary">Like any profile you see? Save them here to your favorite assessments</div>
                                             <div class="d-flex justify-content-center">
-                                                <a href="#" class="custom-bg-primary custom-text-light-pale px-5 py-3 custom-border-radius-35 custom-font-style-subtext d-inline-block mt-5">Start Exploring</a>
+                                                <a href="#" class="bg-primary text-light-primary px-5 py-3 br-35 custom-font-style-subtext d-inline-block mt-5">Start Exploring</a>
                                             </div>
                                         </div>
                                     </div>
@@ -389,12 +389,12 @@ License: You must have a valid license purchased only from themeforest(the above
     <!--end::Main-->
 
     <!-- begin help center btn-->
-    <div class="btn-help-center-wrapper custom-cursor-pointer">
+    <div class="btn-help-center-wrapper cursor-pointer">
         <div class="btn-dropdown btn-lg mr-1 d-flex align-items-center" id="kt_quick_cart_toggle">
             <span class="btn-help-icon">
                 <i class="icn-question icn-3x mt-2 mx-2"></i>
             </span>
-            <span class="btn-help-toggle custom-font-style-sub-text p-6 bg-light d-none">
+            <span class="btn-help-toggle font-text p-6 bg-light d-none">
                 Help Center
             </span>
         </div>

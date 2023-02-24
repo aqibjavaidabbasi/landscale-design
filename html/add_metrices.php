@@ -132,8 +132,8 @@ License: You must have a valid license purchased only from themeforest(the above
                     <!--begin::Subheader-->
                     <div class="container">
                         <div class="py-5">
-                            <a href="#" class="custom-font-style-text custom-text-grey">Assessments /</a>
-                            <span class="custom-font-style-text custom-text-primary">Demo-LR Shayan</span>
+                            <a href="#" class="font-text text-secondary">Assessments /</a>
+                            <span class="font-text text-primary">Demo-LR Shayan</span>
                         </div>
                         <div class="row">
                             <div class="col-md-12">
@@ -145,33 +145,33 @@ License: You must have a valid license purchased only from themeforest(the above
                                             </div>
                                         </div>
                                         <div class="col-md-12 mt-17">
-                                            <span class="custom-font-style-headings custom-text-primary">Step 3: Indicator & Metrics</span>
+                                            <span class="font-heading text-primary">Step 3: Indicator & Metrics</span>
                                         </div>
                                     </div>
 
                                     <div class="row mt-7">
                                         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                                            <div class="custom-bg-light-pale custom-border-radius-15 custom-border-color-pale h-100 p-5">
+                                            <div class="bg-light-primary br-15 border-color-pale h-100 p-5">
                                                 <div class="d-flex justify-content-between align-items-center">
                                                     <div class="d-flex align-items-center">
-                                                        <span class="custom-font-style-subheadings custom-text-primary d-inline-block mr-2">Select Metrics tasks</span>
-                                                        <span class="custom-bg-primary custom-font-style-xs custom-text-light-pale custom-border-radius-4 p-1">Approved</span>
+                                                        <span class="font-subheading text-primary d-inline-block mr-2">Select Metrics tasks</span>
+                                                        <span class="bg-primary font-xs text-light-primary br-4 p-1">Approved</span>
                                                     </div>
-                                                    <a href="./add_indicator.php" class="custom-bg-warning custom-border-radius-35 custom-text-primary custom-font-style-small p-2">Select Metrics tasks</a>
+                                                    <a href="./add_indicator.php" class="c-btn-success c-btn-xs d-flex justify-content-center align-items-center">Select Metrics tasks</a>
                                                 </div>
                                                 <!-- <span class="steps-default-text steps-small-text d-block my-5">View Instructions</span> -->
-                                                <span data-toggle="collapse" data-target="#demo" class="custom-font-style-subtext custom-text-primary d-block my-5 custom-cursor-pointer">View Instructions <img src="../assets/media/arrow_down.png" alt=""></span>
+                                                <span data-toggle="collapse" data-target="#demo" class="custom-font-style-subtext text-primary d-block my-5 cursor-pointer">View Instructions <img src="../assets/media/arrow_down.png" alt=""></span>
 
                                                 <div id="demo" class="collapse mb-2">
-                                                    <p class="custom-font-style-subtext custom-text-primary">
+                                                    <p class="custom-font-style-subtext text-primary">
                                                         Below you may select the metrics applicable to your assessment. You may also Modify a metric to propose an alternative and set Targets and Milestones for any metric. Setting user-defined or creating custom metrics is also supported below. Please read the Step 4 guidelines before engaging in the several functions provided in this interface.
                                                     </p>
                                                 </div>
-                                                <span class="custom-font-style-text custom-text-primary d-inline-block">
+                                                <span class="font-text font-weight-bold text-primary d-inline-block">
                                                     Notice
                                                 </span>
-                                                <p class="custom-font-style-subtext custom-text-primary">
-                                                    the LandScale team
+                                                <p class="font-subtext text-primary">
+                                                    The LandScale team
                                                     are validating your step. Please wait
                                                 </p>
 
@@ -181,31 +181,31 @@ License: You must have a valid license purchased only from themeforest(the above
                                             <div class="card-wrapper h-100 p-5">
                                                 <div class="row">
                                                     <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 responsive-margin-card">
-                                                        <div class="p-5 custom-bg-light-pale custom-border-radius-15 text-center h-100 custom-cursor-pointer">
+                                                        <div class="p-5 bg-light-primary br-15 text-center h-100 cursor-pointer">
                                                             <div class="my-2">
                                                                 <i class="icn-reference-library icn-3x"></i>
                                                             </div>
-                                                            <span class="custom-font-style-sub-text mb-2">
+                                                            <span class="font-subtext mb-2">
                                                                 Reference Library
                                                             </span>
                                                         </div>
                                                     </div>
                                                     <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 my-5-res">
-                                                        <div class="p-5 custom-bg-light-pale text-center custom-border-radius-15 h-100 custom-cursor-pointer">
+                                                        <div class="p-5 bg-light-primary text-center br-15 h-100 cursor-pointer">
                                                             <div class="my-2">
                                                                 <i class="icn-image-gallery icn-3x"></i>
                                                             </div>
-                                                            <span class="custom-font-style-sub-text mb-2">
+                                                            <span class="font-subtext mb-2">
                                                                 Image Galary
                                                             </span>
                                                         </div>
                                                     </div>
                                                     <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 responsive-margin-card">
-                                                        <div class="p-5 custom-bg-light-pale text-center custom-border-radius-15 h-100 custom-cursor-pointer">
+                                                        <div class="p-5 bg-light-primary text-center br-15 h-100 cursor-pointer">
                                                             <div class="my-2">
                                                                 <i class="icn-help icn-3x"></i>
                                                             </div>
-                                                            <span class="custom-font-style-sub-text mb-2">
+                                                            <span class="font-subtext mb-2">
                                                                 Need Help
                                                             </span>
                                                         </div>
@@ -213,32 +213,32 @@ License: You must have a valid license purchased only from themeforest(the above
                                                 </div>
                                                 <div class="row my-5-res" style="margin-top: 20px;">
                                                     <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 responsive-margin-card">
-                                                        <div class="p-5 custom-bg-light-pale text-center custom-border-radius-15 h-100 custom-cursor-pointer">
+                                                        <div class="p-5 bg-light-primary text-center br-15 h-100 cursor-pointer">
                                                             <div class="my-2">
                                                                 <i class="icn-phone-book icn-3x"></i>
 
                                                             </div>
-                                                            <span class="custom-font-style-sub-text mb-2">
+                                                            <span class="font-subtext mb-2">
                                                                 Current Plan
                                                             </span>
                                                         </div>
                                                     </div>
                                                     <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 my-5-res">
-                                                        <div class="p-5 custom-bg-light-pale text-center custom-border-radius-15 h-100 custom-cursor-pointer">
+                                                        <div class="p-5 bg-light-primary text-center br-15 h-100 cursor-pointer">
                                                             <div class="my-2">
                                                                 <i class="icn-team icn-3x"></i>
                                                             </div>
-                                                            <span class="custom-font-style-sub-text mb-2">
+                                                            <span class="font-subtext mb-2">
                                                                 Our Team
                                                             </span>
                                                         </div>
                                                     </div>
                                                     <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 responsive-margin-card">
-                                                        <div class="p-5 custom-bg-light-pale text-center custom-border-radius-15 h-100 custom-cursor-pointer">
+                                                        <div class="p-5 bg-light-primary text-center br-15 h-100 cursor-pointer">
                                                             <div class="my-2">
                                                                 <i class="icn-hand-shake icn-3x"></i>
                                                             </div>
-                                                            <span class="custom-font-style-sub-text mb-2">
+                                                            <span class="font-subtext mb-2">
                                                                 Partners
                                                             </span>
                                                         </div>
@@ -247,9 +247,9 @@ License: You must have a valid license purchased only from themeforest(the above
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="row custom-border-color-pale custom-border-radius-15 mx-0 mt-5">
+                                    <div class="row border-color-pale br-15 mx-0 mt-5">
                                         <div class="col-md-3 col-sm-12 col-xs-12 pr-0 mt-7 max-w-20-percent" id="inner-side-nav">
-                                            <!-- <div class="custom-font-style-subheadings custom-text-primary p-5">
+                                            <!-- <div class="font-subheading text-primary p-5">
                                                 Custom Pillars
                                             </div> -->
                                             <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
@@ -320,8 +320,8 @@ License: You must have a valid license purchased only from themeforest(the above
                                                 </a>
                                             </div>
                                         </div>
-                                        <div class="col-md-12 col-sm-12 col-xs-12 custom-bg-light-pale custom-btrr-15 custom-bbrr-15 max-w-80-percent custom-btlr-15-res custom-bblr-15-res" id="inner-side-main">
-                                            <button class="ml-5 bg-transparent border-0 custom-border-radius-15 mt-5 p-2" onclick="toggleAside()">
+                                        <div class="col-md-12 col-sm-12 col-xs-12 bg-light-primary btrr-15 bbrr-15 max-w-80-percent btlr-15-res bblr-15-res" id="inner-side-main">
+                                            <button class="ml-5 bg-transparent border-0 br-15 mt-5 p-2" onclick="toggleAside()">
                                                 <span class="svg-icon-2x">
                                                     <svg width="20" height="20" viewBox="0 0 35 21" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                         <path d="M1.58338 11.7313C0.674149 11.6539 -0.0142253 11.013 0.000223303 10.176C0.00847967 9.6971 0.243786 9.19139 0.620483 8.8921C1.24074 8.40085 2.20158 8.60519 2.93433 8.60519C3.9509 8.60519 4.96746 8.60622 5.98403 8.60726C9.96979 8.60726 13.9555 8.60829 17.9413 8.60726C21.1293 8.60622 24.3163 8.60622 27.5042 8.60519C29.0977 8.60519 30.6922 8.60416 32.2857 8.60416C33.0123 8.60416 33.7234 8.47309 34.3354 8.92409C34.7884 9.25848 35 9.67336 35 10.2286C34.902 11.0656 34.2869 11.6508 33.485 11.7313C33.4457 11.7323 33.4065 11.7323 33.3673 11.7333C29.7747 11.7302 26.1812 11.724 22.5886 11.724C15.6264 11.7251 8.66425 11.7302 1.70207 11.7333C1.66182 11.7333 1.6226 11.7323 1.58338 11.7313Z" fill="#4C94A0"></path>
@@ -336,7 +336,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                 <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
                                                     <!-- <div class="mt-5 px-5">
                                                         <div class="select-wrapper">
-                                                            <select name="indicator_filter" class="form-control custom-bg-primary text-light custom-select-arrow">
+                                                            <select name="indicator_filter" class="form-control bg-primary text-light custom-select-arrow">
                                                                 <option value="1">1.1 Conserve and restore natural ecosystems</option>
                                                                 <option value="1">1.2 Protect and restore biodiversity</option>
                                                             </select>
@@ -375,20 +375,20 @@ License: You must have a valid license purchased only from themeforest(the above
                                                             <div id="collapseOne-0" class="collapse show" aria-labelledby="headingOne-0">
                                                                 <div class="card">
                                                                     <div class="pl-17 py-4 d-flex justify-content-between align-items-center" data-toggle="collapse" data-target="#collapseOneA">
-                                                                        <span class="custom-text-primary">1.1.1 Effective conservation and protection of natural ecosystems</span>
+                                                                        <span class="text-primary">1.1.1 Effective conservation and protection of natural ecosystems</span>
                                                                         <span class="d-flex align-items-center h-100 pr-20"><i class="fas fa-chevron-down"></i></span>
                                                                     </div>
-                                                                    <div class="collapse custom-border-bottom-pale" id="collapseOneA">
+                                                                    <div class="collapse border-bottom-secondary" id="collapseOneA">
                                                                         <div class="mx-10 mt-5">
-                                                                            <table class="table table-vertical-center indicator-table">
-                                                                                <thead class="steps-table-header-color">
+                                                                            <table class="table table-vertical-center table-dark-pale p-table-15 border-light-primary">
+                                                                                <thead>
                                                                                     <tr>
-                                                                                        <th class="custom-font-style-sub-text custom-text-primary" scope="col">Include</th>
-                                                                                        <th class="custom-font-style-sub-text custom-text-primary" scope="col">Metric</th>
-                                                                                        <th class="custom-font-style-sub-text custom-text-primary w-125px" scope="col">Target</th>
-                                                                                        <th class="custom-font-style-sub-text custom-text-primary" scope="col">Milestone</th>
-                                                                                        <th class="custom-font-style-sub-text custom-text-primary" scope="col">Type</th>
-                                                                                        <th class="custom-font-style-sub-text custom-text-primary" scope="col">Actions</th>
+                                                                                        <th class="font-text text-primary" scope="col">Include</th>
+                                                                                        <th class="font-text text-primary" scope="col">Metric</th>
+                                                                                        <th class="font-text text-primary w-125px" scope="col">Target</th>
+                                                                                        <th class="font-text text-primary" scope="col">Milestone</th>
+                                                                                        <th class="font-text text-primary" scope="col">Type</th>
+                                                                                        <th class="font-text text-primary" scope="col">Actions</th>
                                                                                     </tr>
                                                                                 </thead>
                                                                                 <tbody class="bg-white">
@@ -403,17 +403,17 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                             1.1.1.1 Total area (ha) & percentage (%) of the landscape in designated protected areas disaggregated by natural ecosystem type
                                                                                         </td>
                                                                                         <td>
-                                                                                            <a href="#" class="custom-bg-warning custom-border-radius-35 px-3 py-2 w-65px d-flex align-items-center">
+                                                                                            <a href="#" class="c-btn-success c-btn-xs d-flex align-items-center justify-content-center">
                                                                                                 <i class="icn-edit"></i>
-                                                                                                <span class="custom-font-style-xs custom-text-primary pl-1">Add/Edit</span>
+                                                                                                <span class="font-weight-bolder pl-1">Add/Edit</span>
                                                                                             </a>
                                                                                         </td>
                                                                                         <td></td>
                                                                                         <td>
-                                                                                            <span class="custom-bg-primary custom-text-light-pale custom-font-style-xs custom-border-radius-3 p-1">Required</span>
+                                                                                            <span class="bg-primary text-light-primary font-xs br-3 p-1">Required</span>
                                                                                         </td>
                                                                                         <td>
-                                                                                            <span class="custom-bg-primary custom-text-light-pale custom-font-style-xs custom-border-radius-3 p-1">Modify</span>
+                                                                                            <span class="bg-primary text-light-primary font-xs br-3 p-1">Modify</span>
                                                                                         </td>
                                                                                     </tr>
                                                                                     <tr>
@@ -427,17 +427,17 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                             1.1.1.2 Percentage (%) of the total area of designated protected areas with effective management disaggregated by IUCN category
                                                                                         </td>
                                                                                         <td>
-                                                                                            <a href="#" class="custom-bg-warning custom-border-radius-35 px-3 py-2 w-65px d-flex align-items-center">
+                                                                                            <a href="#" class="c-btn-success c-btn-xs d-flex align-items-center justify-content-center">
                                                                                                 <i class="icn-edit"></i>
-                                                                                                <span class="custom-font-style-xs custom-text-primary pl-1">Add/Edit</span>
+                                                                                                <span class="font-weight-bolder pl-1">Add/Edit</span>
                                                                                             </a>
                                                                                         </td>
                                                                                         <td></td>
                                                                                         <td>
-                                                                                            <span class="custom-bg-primary custom-text-light-pale custom-font-style-xs custom-border-radius-3 p-1">Required</span>
+                                                                                            <span class="bg-primary text-light-primary font-xs br-3 p-1">Required</span>
                                                                                         </td>
                                                                                         <td>
-                                                                                            <span class="custom-bg-primary custom-text-light-pale custom-font-style-xs custom-border-radius-3 p-1">Modify</span>
+                                                                                            <span class="bg-primary text-light-primary font-xs br-3 p-1">Modify</span>
                                                                                         </td>
                                                                                     </tr>
                                                                                     <tr>
@@ -451,17 +451,17 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                             1.1.1.3 Total area (ha) & percentage (%) of the landscape that is effectively conserved in other ways disaggregated by natural ecosystem type
                                                                                         </td>
                                                                                         <td>
-                                                                                            <a href="#" class="custom-bg-warning custom-border-radius-35 px-3 py-2 w-65px d-flex align-items-center">
+                                                                                            <a href="#" class="c-btn-success c-btn-xs d-flex align-items-center justify-content-center">
                                                                                                 <i class="icn-edit"></i>
-                                                                                                <span class="custom-font-style-xs custom-text-primary pl-1">Add/Edit</span>
+                                                                                                <span class="font-weight-bolder pl-1">Add/Edit</span>
                                                                                             </a>
                                                                                         </td>
                                                                                         <td></td>
                                                                                         <td>
-                                                                                            <span class="custom-bg-primary custom-text-light-pale custom-font-style-xs custom-border-radius-3 p-1">Required</span>
+                                                                                            <span class="bg-primary text-light-primary font-xs br-3 p-1">Required</span>
                                                                                         </td>
                                                                                         <td>
-                                                                                            <span class="custom-bg-primary custom-text-light-pale custom-font-style-xs custom-border-radius-3 p-1">Modify</span>
+                                                                                            <span class="bg-primary text-light-primary font-xs br-3 p-1">Modify</span>
                                                                                         </td>
                                                                                     </tr>
 
@@ -472,20 +472,20 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                 </div>
                                                                 <div class="card">
                                                                     <div class="pl-17 py-4 d-flex justify-content-between align-items-center" data-toggle="collapse" data-target="#collapseOneB">
-                                                                        <span class="custom-text-primary">1.1.2 Natural ecosystem conversion</span>
+                                                                        <span class="text-primary">1.1.2 Natural ecosystem conversion</span>
                                                                         <span class="d-flex align-items-center h-100 pr-20"><i class="fas fa-chevron-down"></i></span>
                                                                     </div>
-                                                                    <div class="collapse custom-border-bottom-pale" id="collapseOneB">
+                                                                    <div class="collapse border-bottom-secondary" id="collapseOneB">
                                                                         <div class="mx-10 mt-5">
-                                                                            <table class="table table-vertical-center indicator-table">
-                                                                                <thead class="steps-table-header-color">
+                                                                            <table class="table table-vertical-center table-dark-pale p-table-15 border-light-primary">
+                                                                                <thead>
                                                                                     <tr>
-                                                                                        <th class="custom-font-style-sub-text" scope="col">Include</th>
-                                                                                        <th class="custom-font-style-sub-text" scope="col">Metric</th>
-                                                                                        <th class="custom-font-style-sub-text w-125px" scope="col">Target</th>
-                                                                                        <th class="custom-font-style-sub-text" scope="col">Milestone</th>
-                                                                                        <th class="custom-font-style-sub-text" scope="col">Type</th>
-                                                                                        <th class="custom-font-style-sub-text" scope="col">Actions</th>
+                                                                                        <th class="font-text" scope="col">Include</th>
+                                                                                        <th class="font-text" scope="col">Metric</th>
+                                                                                        <th class="font-text w-125px" scope="col">Target</th>
+                                                                                        <th class="font-text" scope="col">Milestone</th>
+                                                                                        <th class="font-text" scope="col">Type</th>
+                                                                                        <th class="font-text" scope="col">Actions</th>
                                                                                     </tr>
                                                                                 </thead>
                                                                                 <tbody class="bg-white">
@@ -500,17 +500,17 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                             1.1.2.1 Total area (ha) & percentage (%) of area of natural ecosystems in the landscape that has been recently converted
                                                                                         </td>
                                                                                         <td>
-                                                                                            <a href="#" class="custom-bg-warning custom-border-radius-35 px-3 py-2 w-65px d-flex align-items-center">
+                                                                                            <a href="#" class="c-btn-success c-btn-xs d-flex align-items-center justify-content-center">
                                                                                                 <i class="icn-edit"></i>
-                                                                                                <span class="custom-font-style-xs custom-text-primary pl-1">Add/Edit</span>
+                                                                                                <span class="font-weight-bolder pl-1">Add/Edit</span>
                                                                                             </a>
                                                                                         </td>
                                                                                         <td></td>
                                                                                         <td>
-                                                                                            <span class="custom-bg-primary custom-text-light-pale custom-font-style-xs custom-border-radius-3 p-1">Required</span>
+                                                                                            <span class="bg-primary text-light-primary font-xs br-3 p-1">Required</span>
                                                                                         </td>
                                                                                         <td>
-                                                                                            <span class="custom-bg-primary custom-text-light-pale custom-font-style-xs custom-border-radius-3 p-1">Modify</span>
+                                                                                            <span class="bg-primary text-light-primary font-xs br-3 p-1">Modify</span>
                                                                                         </td>
                                                                                     </tr>
                                                                                     <tr>
@@ -524,17 +524,17 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                             1.1.2.2 Natural ecosystem conversion rate (average area [ha] & percentage [%] conversion per yr)
                                                                                         </td>
                                                                                         <td>
-                                                                                            <a href="#" class="custom-bg-warning custom-border-radius-35 px-3 py-2 w-65px d-flex align-items-center">
+                                                                                            <a href="#" class="c-btn-success c-btn-xs d-flex align-items-center justify-content-center">
                                                                                                 <i class="icn-edit"></i>
-                                                                                                <span class="custom-font-style-xs custom-text-primary pl-1">Add/Edit</span>
+                                                                                                <span class="font-weight-bolder pl-1">Add/Edit</span>
                                                                                             </a>
                                                                                         </td>
                                                                                         <td></td>
                                                                                         <td>
-                                                                                            <span class="custom-bg-primary custom-text-light-pale custom-font-style-xs custom-border-radius-3 p-1">Required</span>
+                                                                                            <span class="bg-primary text-light-primary font-xs br-3 p-1">Required</span>
                                                                                         </td>
                                                                                         <td>
-                                                                                            <span class="custom-bg-primary custom-text-light-pale custom-font-style-xs custom-border-radius-3 p-1">Modify</span>
+                                                                                            <span class="bg-primary text-light-primary font-xs br-3 p-1">Modify</span>
                                                                                         </td>
                                                                                     </tr>
                                                                                     <tr>
@@ -548,17 +548,17 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                             1.1.2.3 User-defined metric for ecosystem category (e.g., forest ecosystem types) of area (ha) & percentage (%) of area in the landscape that has been recently converted
                                                                                         </td>
                                                                                         <td>
-                                                                                            <a href="#" class="custom-bg-warning custom-border-radius-35 px-3 py-2 w-65px d-flex align-items-center">
+                                                                                            <a href="#" class="c-btn-success c-btn-xs d-flex align-items-center justify-content-center">
                                                                                                 <i class="icn-edit"></i>
-                                                                                                <span class="custom-font-style-xs custom-text-primary pl-1">Add/Edit</span>
+                                                                                                <span class="font-weight-bolder pl-1">Add/Edit</span>
                                                                                             </a>
                                                                                         </td>
                                                                                         <td></td>
                                                                                         <td>
-                                                                                            <span class="custom-bg-primary custom-text-light-pale custom-font-style-xs custom-border-radius-3 p-1">Required</span>
+                                                                                            <span class="bg-primary text-light-primary font-xs br-3 p-1">Required</span>
                                                                                         </td>
                                                                                         <td>
-                                                                                            <span class="custom-bg-primary custom-text-light-pale custom-font-style-xs custom-border-radius-3 p-1">Modify</span>
+                                                                                            <span class="bg-primary text-light-primary font-xs br-3 p-1">Modify</span>
                                                                                         </td>
                                                                                     </tr>
                                                                                     <tr>
@@ -572,17 +572,17 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                             1.1.2.4 User-defined metric for ecosystem category (e.g., forest ecosystem types) of conversion rate (average area [ha] & percentage [%] conversion per yr)
                                                                                         </td>
                                                                                         <td>
-                                                                                            <a href="#" class="custom-bg-warning custom-border-radius-35 px-3 py-2 w-65px d-flex align-items-center">
+                                                                                            <a href="#" class="c-btn-success c-btn-xs d-flex align-items-center justify-content-center">
                                                                                                 <i class="icn-edit"></i>
-                                                                                                <span class="custom-font-style-xs custom-text-primary pl-1">Add/Edit</span>
+                                                                                                <span class="font-weight-bolder pl-1">Add/Edit</span>
                                                                                             </a>
                                                                                         </td>
                                                                                         <td></td>
                                                                                         <td>
-                                                                                            <span class="custom-bg-primary custom-text-light-pale custom-font-style-xs custom-border-radius-3 p-1">Required</span>
+                                                                                            <span class="bg-primary text-light-primary font-xs br-3 p-1">Required</span>
                                                                                         </td>
                                                                                         <td>
-                                                                                            <span class="custom-bg-primary custom-text-light-pale custom-font-style-xs custom-border-radius-3 p-1">Modify</span>
+                                                                                            <span class="bg-primary text-light-primary font-xs br-3 p-1">Modify</span>
                                                                                         </td>
                                                                                     </tr>
 
@@ -623,21 +623,21 @@ License: You must have a valid license purchased only from themeforest(the above
                                                             </div>
                                                             <div id="collapseTwo-0" class="collapse" aria-labelledby="headingTwo-0">
                                                                 <div class="card">
-                                                                    <div class="pl-17 py-4 d-flex justify-content-between align-items-center custom-cursor-pointer" data-toggle="collapse" data-target="#collapseTwoA">
-                                                                        <span class="custom-text-primary">1.2.1 Threats to species</span>
+                                                                    <div class="pl-17 py-4 d-flex justify-content-between align-items-center cursor-pointer" data-toggle="collapse" data-target="#collapseTwoA">
+                                                                        <span class="text-primary">1.2.1 Threats to species</span>
                                                                         <span class="d-flex align-items-center h-100 pr-20"><i class="fas fa-chevron-down"></i></span>
                                                                     </div>
-                                                                    <div class="collapse custom-border-bottom-pale" id="collapseTwoA">
+                                                                    <div class="collapse border-bottom-secondary" id="collapseTwoA">
                                                                         <div class="mx-10 mt-5">
-                                                                            <table class="table table-vertical-center indicator-table">
-                                                                                <thead class="steps-table-header-color">
+                                                                            <table class="table table-vertical-center table-dark-pale p-table-15 border-light-primary">
+                                                                                <thead>
                                                                                     <tr>
-                                                                                        <th class="custom-font-style-sub-text" scope="col">Include</th>
-                                                                                        <th class="custom-font-style-sub-text" scope="col">Metric</th>
-                                                                                        <th class="custom-font-style-sub-text w-125px" scope="col">Target</th>
-                                                                                        <th class="custom-font-style-sub-text" scope="col">Milestone</th>
-                                                                                        <th class="custom-font-style-sub-text" scope="col">Type</th>
-                                                                                        <th class="custom-font-style-sub-text" scope="col">Actions</th>
+                                                                                        <th class="font-text" scope="col">Include</th>
+                                                                                        <th class="font-text" scope="col">Metric</th>
+                                                                                        <th class="font-text w-125px" scope="col">Target</th>
+                                                                                        <th class="font-text" scope="col">Milestone</th>
+                                                                                        <th class="font-text" scope="col">Type</th>
+                                                                                        <th class="font-text" scope="col">Actions</th>
                                                                                     </tr>
                                                                                 </thead>
                                                                                 <tbody class="bg-white">
@@ -652,17 +652,17 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                             1.2.1.1 Changes in threats to threatened species
                                                                                         </td>
                                                                                         <td>
-                                                                                            <a href="#" class="custom-bg-warning custom-border-radius-35 px-3 py-2 w-65px d-flex align-items-center">
+                                                                                            <a href="#" class="c-btn-success c-btn-xs d-flex align-items-center justify-content-center">
                                                                                                 <i class="icn-edit"></i>
-                                                                                                <span class="custom-font-style-xs custom-text-primary pl-1">Add/Edit</span>
+                                                                                                <span class="font-weight-bolder pl-1">Add/Edit</span>
                                                                                             </a>
                                                                                         </td>
                                                                                         <td></td>
                                                                                         <td>
-                                                                                            <span class="custom-bg-primary custom-text-light-pale custom-font-style-xs custom-border-radius-3 p-1">Required</span>
+                                                                                            <span class="bg-primary text-light-primary font-xs br-3 p-1">Required</span>
                                                                                         </td>
                                                                                         <td>
-                                                                                            <span class="custom-bg-primary custom-text-light-pale custom-font-style-xs custom-border-radius-3 p-1">Modify</span>
+                                                                                            <span class="bg-primary text-light-primary font-xs br-3 p-1">Modify</span>
                                                                                         </td>
                                                                                     </tr>
                                                                                     <tr>
@@ -676,17 +676,17 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                             1.2.1.2 Changes in threats to populations of indicator species or other species identified as important in the landscape
                                                                                         </td>
                                                                                         <td>
-                                                                                            <a href="#" class="custom-bg-warning custom-border-radius-35 px-3 py-2 w-65px d-flex align-items-center">
+                                                                                            <a href="#" class="c-btn-success c-btn-xs d-flex align-items-center justify-content-center">
                                                                                                 <i class="icn-edit"></i>
-                                                                                                <span class="custom-font-style-xs custom-text-primary pl-1">Add/Edit</span>
+                                                                                                <span class="font-weight-bolder pl-1">Add/Edit</span>
                                                                                             </a>
                                                                                         </td>
                                                                                         <td></td>
                                                                                         <td>
-                                                                                            <span class="custom-bg-primary custom-text-light-pale custom-font-style-xs custom-border-radius-3 p-1">Required</span>
+                                                                                            <span class="bg-primary text-light-primary font-xs br-3 p-1">Required</span>
                                                                                         </td>
                                                                                         <td>
-                                                                                            <span class="custom-bg-primary custom-text-light-pale custom-font-style-xs custom-border-radius-3 p-1">Modify</span>
+                                                                                            <span class="bg-primary text-light-primary font-xs br-3 p-1">Modify</span>
                                                                                         </td>
                                                                                     </tr>
 
@@ -732,23 +732,23 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                 </div>
                                                             </div>
 
-                                                            <div id="collapseOne-0" class="collapse show custom-cursor-pointer custom-text-primary" aria-labelledby="headingOne-0">
+                                                            <div id="collapseOne-0" class="collapse show cursor-pointer text-primary" aria-labelledby="headingOne-0">
                                                                 <div class="card">
                                                                     <div class="pl-17 py-4 d-flex justify-content-between align-items-center" data-toggle="collapse" data-target="#collapseOneA">
                                                                         <span>2.1.1 Household income & assets</span>
                                                                         <span class="d-flex align-items-center h-100 pr-20"><i class="fas fa-chevron-down"></i></span>
                                                                     </div>
-                                                                    <div class="collapse custom-border-bottom-pale" id="collapseOneA">
+                                                                    <div class="collapse border-bottom-secondary" id="collapseOneA">
                                                                         <div class="mx-10 mt-5">
-                                                                            <table class="table table-vertical-center indicator-table">
-                                                                                <thead class="steps-table-header-color">
+                                                                            <table class="table table-vertical-center table-dark-pale p-table-15 border-light-primary">
+                                                                                <thead>
                                                                                     <tr>
-                                                                                        <th class="custom-font-style-sub-text" scope="col">Include</th>
-                                                                                        <th class="custom-font-style-sub-text" scope="col">Metric</th>
-                                                                                        <th class="custom-font-style-sub-text w-125px" scope="col">Target</th>
-                                                                                        <th class="custom-font-style-sub-text" scope="col">Milestone</th>
-                                                                                        <th class="custom-font-style-sub-text" scope="col">Type</th>
-                                                                                        <th class="custom-font-style-sub-text" scope="col">Actions</th>
+                                                                                        <th class="font-text" scope="col">Include</th>
+                                                                                        <th class="font-text" scope="col">Metric</th>
+                                                                                        <th class="font-text w-125px" scope="col">Target</th>
+                                                                                        <th class="font-text" scope="col">Milestone</th>
+                                                                                        <th class="font-text" scope="col">Type</th>
+                                                                                        <th class="font-text" scope="col">Actions</th>
                                                                                     </tr>
                                                                                 </thead>
                                                                                 <tbody class="bg-white">
@@ -762,17 +762,17 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                         <td>
                                                                                             2.1.1.1 Percentage (%) of female and male population living below the local poverty line (or, if this is not specified, earning <$1.90 /day) </td>
                                                                                         <td>
-                                                                                            <a href="#" class="custom-bg-warning custom-border-radius-35 px-3 py-2 w-65px d-flex align-items-center">
+                                                                                            <a href="#" class="c-btn-success c-btn-xs d-flex align-items-center justify-content-center">
                                                                                                 <i class="icn-edit"></i>
-                                                                                                <span class="custom-font-style-xs custom-text-primary pl-1">Add/Edit</span>
+                                                                                                <span class="font-weight-bolder pl-1">Add/Edit</span>
                                                                                             </a>
                                                                                         </td>
                                                                                         <td></td>
                                                                                         <td>
-                                                                                            <span class="custom-bg-primary custom-text-light-pale custom-font-style-xs custom-border-radius-3 p-1">Required</span>
+                                                                                            <span class="bg-primary text-light-primary font-xs br-3 p-1">Required</span>
                                                                                         </td>
                                                                                         <td>
-                                                                                            <span class="custom-bg-primary custom-text-light-pale custom-font-style-xs custom-border-radius-3 p-1">Modify</span>
+                                                                                            <span class="bg-primary text-light-primary font-xs br-3 p-1">Modify</span>
                                                                                         </td>
                                                                                     </tr>
                                                                                     <tr>
@@ -786,17 +786,17 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                             2.1.1.2 Percentage (%) of households owning or lacking context-appropriate asset(s). Examples include radio, TV, telephone, computer, animal cart, bicycle, motorbike, refrigerator, car, or truck
                                                                                         </td>
                                                                                         <td>
-                                                                                            <a href="#" class="custom-bg-warning custom-border-radius-35 px-3 py-2 w-65px d-flex align-items-center">
+                                                                                            <a href="#" class="c-btn-success c-btn-xs d-flex align-items-center justify-content-center">
                                                                                                 <i class="icn-edit"></i>
-                                                                                                <span class="custom-font-style-xs custom-text-primary pl-1">Add/Edit</span>
+                                                                                                <span class="font-weight-bolder pl-1">Add/Edit</span>
                                                                                             </a>
                                                                                         </td>
                                                                                         <td></td>
                                                                                         <td>
-                                                                                            <span class="custom-bg-primary custom-text-light-pale custom-font-style-xs custom-border-radius-3 p-1">Required</span>
+                                                                                            <span class="bg-primary text-light-primary font-xs br-3 p-1">Required</span>
                                                                                         </td>
                                                                                         <td>
-                                                                                            <span class="custom-bg-primary custom-text-light-pale custom-font-style-xs custom-border-radius-3 p-1">Modify</span>
+                                                                                            <span class="bg-primary text-light-primary font-xs br-3 p-1">Modify</span>
                                                                                         </td>
                                                                                     </tr>
 
@@ -810,17 +810,17 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                         <span>2.1.2 Health & nutrition</span>
                                                                         <span class="d-flex align-items-center h-100 pr-20"><i class="fas fa-chevron-down"></i></span>
                                                                     </div>
-                                                                    <div class="collapse custom-border-bottom-pale" id="collapseOneB">
+                                                                    <div class="collapse border-bottom-secondary" id="collapseOneB">
                                                                         <div class="mx-10 mt-5">
-                                                                            <table class="table table-vertical-center indicator-table">
-                                                                                <thead class="steps-table-header-color">
+                                                                            <table class="table table-vertical-center table-dark-pale p-table-15 border-light-primary">
+                                                                                <thead>
                                                                                     <tr>
-                                                                                        <th class="custom-font-style-sub-text" scope="col">Include</th>
-                                                                                        <th class="custom-font-style-sub-text" scope="col">Metric</th>
-                                                                                        <th class="custom-font-style-sub-text w-125px" scope="col">Target</th>
-                                                                                        <th class="custom-font-style-sub-text" scope="col">Milestone</th>
-                                                                                        <th class="custom-font-style-sub-text" scope="col">Type</th>
-                                                                                        <th class="custom-font-style-sub-text" scope="col">Actions</th>
+                                                                                        <th class="font-text" scope="col">Include</th>
+                                                                                        <th class="font-text" scope="col">Metric</th>
+                                                                                        <th class="font-text w-125px" scope="col">Target</th>
+                                                                                        <th class="font-text" scope="col">Milestone</th>
+                                                                                        <th class="font-text" scope="col">Type</th>
+                                                                                        <th class="font-text" scope="col">Actions</th>
                                                                                     </tr>
                                                                                 </thead>
                                                                                 <tbody class="bg-white">
@@ -835,17 +835,17 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                             2.1.2.1 Percentage (%) of girls and boys that are undernourished (required)
                                                                                         </td>
                                                                                         <td>
-                                                                                            <a href="#" class="custom-bg-warning custom-border-radius-35 px-3 py-2 w-65px d-flex align-items-center">
+                                                                                            <a href="#" class="c-btn-success c-btn-xs d-flex align-items-center justify-content-center">
                                                                                                 <i class="icn-edit"></i>
-                                                                                                <span class="custom-font-style-xs custom-text-primary pl-1">Add/Edit</span>
+                                                                                                <span class="font-weight-bolder pl-1">Add/Edit</span>
                                                                                             </a>
                                                                                         </td>
                                                                                         <td></td>
                                                                                         <td>
-                                                                                            <span class="custom-bg-primary custom-text-light-pale custom-font-style-xs custom-border-radius-3 p-1">Required</span>
+                                                                                            <span class="bg-primary text-light-primary font-xs br-3 p-1">Required</span>
                                                                                         </td>
                                                                                         <td>
-                                                                                            <span class="custom-bg-primary custom-text-light-pale custom-font-style-xs custom-border-radius-3 p-1">Modify</span>
+                                                                                            <span class="bg-primary text-light-primary font-xs br-3 p-1">Modify</span>
                                                                                         </td>
                                                                                     </tr>
                                                                                     <tr>
@@ -859,17 +859,17 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                             2.1.2.2 Percentage (%) of female and male population without access to health services
                                                                                         </td>
                                                                                         <td>
-                                                                                            <a href="#" class="custom-bg-warning custom-border-radius-35 px-3 py-2 w-65px d-flex align-items-center">
+                                                                                            <a href="#" class="c-btn-success c-btn-xs d-flex align-items-center justify-content-center">
                                                                                                 <i class="icn-edit"></i>
-                                                                                                <span class="custom-font-style-xs custom-text-primary pl-1">Add/Edit</span>
+                                                                                                <span class="font-weight-bolder pl-1">Add/Edit</span>
                                                                                             </a>
                                                                                         </td>
                                                                                         <td></td>
                                                                                         <td>
-                                                                                            <span class="custom-bg-primary custom-text-light-pale custom-font-style-xs custom-border-radius-3 p-1">Required</span>
+                                                                                            <span class="bg-primary text-light-primary font-xs br-3 p-1">Required</span>
                                                                                         </td>
                                                                                         <td>
-                                                                                            <span class="custom-bg-primary custom-text-light-pale custom-font-style-xs custom-border-radius-3 p-1">Modify</span>
+                                                                                            <span class="bg-primary text-light-primary font-xs br-3 p-1">Modify</span>
                                                                                         </td>
                                                                                     </tr>
                                                                                     <tr>
@@ -883,17 +883,17 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                             2.1.2.3 Mortality rate of girls and boys under 18 years (averaged over the past five years)
                                                                                         </td>
                                                                                         <td>
-                                                                                            <a href="#" class="custom-bg-warning custom-border-radius-35 px-3 py-2 w-65px d-flex align-items-center">
+                                                                                            <a href="#" class="c-btn-success c-btn-xs d-flex align-items-center justify-content-center">
                                                                                                 <i class="icn-edit"></i>
-                                                                                                <span class="custom-font-style-xs custom-text-primary pl-1">Add/Edit</span>
+                                                                                                <span class="font-weight-bolder pl-1">Add/Edit</span>
                                                                                             </a>
                                                                                         </td>
                                                                                         <td></td>
                                                                                         <td>
-                                                                                            <span class="custom-bg-primary custom-text-light-pale custom-font-style-xs custom-border-radius-3 p-1">Required</span>
+                                                                                            <span class="bg-primary text-light-primary font-xs br-3 p-1">Required</span>
                                                                                         </td>
                                                                                         <td>
-                                                                                            <span class="custom-bg-primary custom-text-light-pale custom-font-style-xs custom-border-radius-3 p-1">Modify</span>
+                                                                                            <span class="bg-primary text-light-primary font-xs br-3 p-1">Modify</span>
                                                                                         </td>
                                                                                     </tr>
                                                                                 </tbody>
@@ -931,23 +931,23 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                     </div>
                                                                 </div>
                                                             </div>
-                                                            <div id="collapseTwo-0" class="collapse custom-text-primary custom-cursor-pointer" aria-labelledby="headingTwo-0">
+                                                            <div id="collapseTwo-0" class="collapse text-primary cursor-pointer" aria-labelledby="headingTwo-0">
                                                                 <div class="card">
                                                                     <div class="pl-17 py-4 d-flex justify-content-between align-items-center" data-toggle="collapse" data-target="#collapseTwoA">
                                                                         <span>2.2.1 Child labor</span>
                                                                         <span class="d-flex align-items-center h-100 pr-20"><i class="fas fa-chevron-down"></i></span>
                                                                     </div>
-                                                                    <div class="collapse custom-border-bottom-pale" id="collapseTwoA">
+                                                                    <div class="collapse border-bottom-secondary" id="collapseTwoA">
                                                                         <div class="mx-10 mt-5">
-                                                                            <table class="table table-vertical-center indicator-table">
-                                                                                <thead class="steps-table-header-color">
+                                                                            <table class="table table-vertical-center table-dark-pale p-table-15 border-light-primary">
+                                                                                <thead>
                                                                                     <tr>
-                                                                                        <th class="custom-font-style-sub-text" scope="col">Include</th>
-                                                                                        <th class="custom-font-style-sub-text" scope="col">Metric</th>
-                                                                                        <th class="custom-font-style-sub-text w-125px" scope="col">Target</th>
-                                                                                        <th class="custom-font-style-sub-text" scope="col">Milestone</th>
-                                                                                        <th class="custom-font-style-sub-text" scope="col">Type</th>
-                                                                                        <th class="custom-font-style-sub-text" scope="col">Actions</th>
+                                                                                        <th class="font-text" scope="col">Include</th>
+                                                                                        <th class="font-text" scope="col">Metric</th>
+                                                                                        <th class="font-text w-125px" scope="col">Target</th>
+                                                                                        <th class="font-text" scope="col">Milestone</th>
+                                                                                        <th class="font-text" scope="col">Type</th>
+                                                                                        <th class="font-text" scope="col">Actions</th>
                                                                                     </tr>
                                                                                 </thead>
                                                                                 <tbody class="bg-white">
@@ -962,17 +962,17 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                             2.2.1 Changes in species
                                                                                         </td>
                                                                                         <td>
-                                                                                            <a href="#" class="custom-bg-warning custom-border-radius-35 px-3 py-2 w-65px d-flex align-items-center">
+                                                                                            <a href="#" class="c-btn-success c-btn-xs d-flex align-items-center justify-content-center">
                                                                                                 <i class="icn-edit"></i>
-                                                                                                <span class="custom-font-style-xs custom-text-primary pl-1">Add/Edit</span>
+                                                                                                <span class="font-weight-bolder pl-1">Add/Edit</span>
                                                                                             </a>
                                                                                         </td>
                                                                                         <td></td>
                                                                                         <td>
-                                                                                            <span class="custom-bg-primary custom-text-light-pale custom-font-style-xs custom-border-radius-3 p-1">Required</span>
+                                                                                            <span class="bg-primary text-light-primary font-xs br-3 p-1">Required</span>
                                                                                         </td>
                                                                                         <td>
-                                                                                            <span class="custom-bg-primary custom-text-light-pale custom-font-style-xs custom-border-radius-3 p-1">Modify</span>
+                                                                                            <span class="bg-primary text-light-primary font-xs br-3 p-1">Modify</span>
                                                                                         </td>
                                                                                     </tr>
                                                                                 </tbody>
@@ -1007,16 +1007,16 @@ License: You must have a valid license purchased only from themeforest(the above
                                                             </div>
 
                                                             <div id="collapseOne-0" class="collapse show" aria-labelledby="headingOne-0">
-                                                                <div class="mx-5 custom-border-color-pale mb-5 indicator-responsive-collapse">
-                                                                    <table class="table table-vertical-center indicator-table">
-                                                                        <thead class="steps-table-header-color">
+                                                                <div class="mx-5 border-color-pale mb-5 indicator-responsive-collapse">
+                                                                    <table class="table table-vertical-center table-dark-pale p-table-15 border-light-primary">
+                                                                        <thead>
                                                                             <tr>
-                                                                                <th class="custom-font-style-sub-text" scope="col">Include</th>
-                                                                                <th class="custom-font-style-sub-text" scope="col">Metric</th>
-                                                                                <th class="custom-font-style-sub-text w-125px" scope="col">Target</th>
-                                                                                <th class="custom-font-style-sub-text" scope="col">Milestone</th>
-                                                                                <th class="custom-font-style-sub-text" scope="col">Type</th>
-                                                                                <th class="custom-font-style-sub-text" scope="col">Actions</th>
+                                                                                <th class="font-text" scope="col">Include</th>
+                                                                                <th class="font-text" scope="col">Metric</th>
+                                                                                <th class="font-text w-125px" scope="col">Target</th>
+                                                                                <th class="font-text" scope="col">Milestone</th>
+                                                                                <th class="font-text" scope="col">Type</th>
+                                                                                <th class="font-text" scope="col">Actions</th>
                                                                             </tr>
                                                                         </thead>
                                                                         <tbody class="bg-white">
@@ -1030,17 +1030,17 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                 <td>
                                                                                     2.1.1.1 Percentage (%) of female and male population living below the local poverty line (or, if this is not specified, earning <$1.90 /day) </td>
                                                                                 <td>
-                                                                                    <a href="#" class="custom-bg-warning custom-border-radius-35 px-3 py-2 w-65px d-flex align-items-center">
+                                                                                    <a href="#" class="c-btn-success c-btn-xs d-flex align-items-center justify-content-center">
                                                                                         <i class="icn-edit"></i>
-                                                                                        <span class="custom-font-style-xs custom-text-primary pl-1">Add/Edit</span>
+                                                                                        <span class="font-weight-bolder pl-1">Add/Edit</span>
                                                                                     </a>
                                                                                 </td>
                                                                                 <td></td>
                                                                                 <td>
-                                                                                    <span class="custom-bg-primary custom-text-light-pale custom-font-style-xs custom-border-radius-3 p-1">Required</span>
+                                                                                    <span class="bg-primary text-light-primary font-xs br-3 p-1">Required</span>
                                                                                 </td>
                                                                                 <td>
-                                                                                    <span class="custom-bg-primary custom-text-light-pale custom-font-style-xs custom-border-radius-3 p-1">Modify</span>
+                                                                                    <span class="bg-primary text-light-primary font-xs br-3 p-1">Modify</span>
                                                                                 </td>
                                                                             </tr>
                                                                             <tr>
@@ -1054,17 +1054,17 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                     2.1.1.2 Percentage (%) of households owning or lacking context-appropriate asset(s). Examples include radio, TV, telephone, computer, animal cart, bicycle, motorbike, refrigerator, car, or truck
                                                                                 </td>
                                                                                 <td>
-                                                                                    <a href="#" class="custom-bg-warning custom-border-radius-35 px-3 py-2 w-65px d-flex align-items-center">
+                                                                                    <a href="#" class="c-btn-success c-btn-xs d-flex align-items-center justify-content-center">
                                                                                         <i class="icn-edit"></i>
-                                                                                        <span class="custom-font-style-xs custom-text-primary pl-1">Add/Edit</span>
+                                                                                        <span class="font-weight-bolder pl-1">Add/Edit</span>
                                                                                     </a>
                                                                                 </td>
                                                                                 <td></td>
                                                                                 <td>
-                                                                                    <span class="custom-bg-primary custom-text-light-pale custom-font-style-xs custom-border-radius-3 p-1">Required</span>
+                                                                                    <span class="bg-primary text-light-primary font-xs br-3 p-1">Required</span>
                                                                                 </td>
                                                                                 <td>
-                                                                                    <span class="custom-bg-primary custom-text-light-pale custom-font-style-xs custom-border-radius-3 p-1">Modify</span>
+                                                                                    <span class="bg-primary text-light-primary font-xs br-3 p-1">Modify</span>
                                                                                 </td>
                                                                             </tr>
 
@@ -1095,16 +1095,16 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                 </div>
                                                             </div>
                                                             <div id="collapseTwo-0" class="collapse" aria-labelledby="headingTwo-0">
-                                                                <div class="mx-5 custom-border-color-pale mb-5 indicator-responsive-collapse">
-                                                                    <table class="table table-vertical-center indicator-table">
-                                                                        <thead class="steps-table-header-color">
+                                                                <div class="mx-5 border-color-pale mb-5 indicator-responsive-collapse">
+                                                                    <table class="table table-vertical-center table-dark-pale p-table-15 border-light-primary">
+                                                                        <thead>
                                                                             <tr>
-                                                                                <th class="custom-font-style-sub-text" scope="col">Include</th>
-                                                                                <th class="custom-font-style-sub-text" scope="col">Metric</th>
-                                                                                <th class="custom-font-style-sub-text w-125px" scope="col">Target</th>
-                                                                                <th class="custom-font-style-sub-text" scope="col">Milestone</th>
-                                                                                <th class="custom-font-style-sub-text" scope="col">Type</th>
-                                                                                <th class="custom-font-style-sub-text" scope="col">Actions</th>
+                                                                                <th class="font-text" scope="col">Include</th>
+                                                                                <th class="font-text" scope="col">Metric</th>
+                                                                                <th class="font-text w-125px" scope="col">Target</th>
+                                                                                <th class="font-text" scope="col">Milestone</th>
+                                                                                <th class="font-text" scope="col">Type</th>
+                                                                                <th class="font-text" scope="col">Actions</th>
                                                                             </tr>
                                                                         </thead>
                                                                         <tbody class="bg-white">
@@ -1119,17 +1119,17 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                     2.1.2.1 Percentage (%) of girls and boys that are undernourished (required)
                                                                                 </td>
                                                                                 <td>
-                                                                                    <a href="#" class="custom-bg-warning custom-border-radius-35 px-3 py-2 w-65px d-flex align-items-center">
+                                                                                    <a href="#" class="c-btn-success c-btn-xs d-flex align-items-center justify-content-center">
                                                                                         <i class="icn-edit"></i>
-                                                                                        <span class="custom-font-style-xs custom-text-primary pl-1">Add/Edit</span>
+                                                                                        <span class="font-weight-bolder pl-1">Add/Edit</span>
                                                                                     </a>
                                                                                 </td>
                                                                                 <td></td>
                                                                                 <td>
-                                                                                    <span class="custom-bg-primary custom-text-light-pale custom-font-style-xs custom-border-radius-3 p-1">Required</span>
+                                                                                    <span class="bg-primary text-light-primary font-xs br-3 p-1">Required</span>
                                                                                 </td>
                                                                                 <td>
-                                                                                    <span class="custom-bg-primary custom-text-light-pale custom-font-style-xs custom-border-radius-3 p-1">Modify</span>
+                                                                                    <span class="bg-primary text-light-primary font-xs br-3 p-1">Modify</span>
                                                                                 </td>
                                                                             </tr>
                                                                             <tr>
@@ -1143,17 +1143,17 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                     2.1.2.2 Percentage (%) of female and male population without access to health services
                                                                                 </td>
                                                                                 <td>
-                                                                                    <a href="#" class="custom-bg-warning custom-border-radius-35 px-3 py-2 w-65px d-flex align-items-center">
+                                                                                    <a href="#" class="c-btn-success c-btn-xs d-flex align-items-center justify-content-center">
                                                                                         <i class="icn-edit"></i>
-                                                                                        <span class="custom-font-style-xs custom-text-primary pl-1">Add/Edit</span>
+                                                                                        <span class="font-weight-bolder pl-1">Add/Edit</span>
                                                                                     </a>
                                                                                 </td>
                                                                                 <td></td>
                                                                                 <td>
-                                                                                    <span class="custom-bg-primary custom-text-light-pale custom-font-style-xs custom-border-radius-3 p-1">Required</span>
+                                                                                    <span class="bg-primary text-light-primary font-xs br-3 p-1">Required</span>
                                                                                 </td>
                                                                                 <td>
-                                                                                    <span class="custom-bg-primary custom-text-light-pale custom-font-style-xs custom-border-radius-3 p-1">Modify</span>
+                                                                                    <span class="bg-primary text-light-primary font-xs br-3 p-1">Modify</span>
                                                                                 </td>
                                                                             </tr>
 
@@ -1196,23 +1196,23 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                 </div>
                                                             </div>
 
-                                                            <div id="collapseOne-0" class="collapse custom-text-primary custom-cursor-pointer show" aria-labelledby="headingOne-0">
+                                                            <div id="collapseOne-0" class="collapse text-primary cursor-pointer show" aria-labelledby="headingOne-0">
                                                                 <div class="card">
                                                                     <div class="pl-17 py-4 d-flex justify-content-between align-items-center" data-toggle="collapse" data-target="#collapseOneA">
                                                                         <span>3.1.1 Land tenure</span>
                                                                         <span class="d-flex align-items-center h-100 pr-20"><i class="fas fa-chevron-down"></i></span>
                                                                     </div>
-                                                                    <div class="collapse custom-border-bottom-pale" id="collapseOneA">
+                                                                    <div class="collapse border-bottom-secondary" id="collapseOneA">
                                                                         <div class="mx-10 mt-5">
-                                                                            <table class="table table-vertical-center indicator-table">
-                                                                                <thead class="steps-table-header-color">
+                                                                            <table class="table table-vertical-center table-dark-pale p-table-15 border-light-primary">
+                                                                                <thead>
                                                                                     <tr>
-                                                                                        <th class="custom-font-style-sub-text" scope="col">Include</th>
-                                                                                        <th class="custom-font-style-sub-text" scope="col">Metric</th>
-                                                                                        <th class="custom-font-style-sub-text w-125px" scope="col">Target</th>
-                                                                                        <th class="custom-font-style-sub-text" scope="col">Milestone</th>
-                                                                                        <th class="custom-font-style-sub-text" scope="col">Type</th>
-                                                                                        <th class="custom-font-style-sub-text" scope="col">Actions</th>
+                                                                                        <th class="font-text" scope="col">Include</th>
+                                                                                        <th class="font-text" scope="col">Metric</th>
+                                                                                        <th class="font-text w-125px" scope="col">Target</th>
+                                                                                        <th class="font-text" scope="col">Milestone</th>
+                                                                                        <th class="font-text" scope="col">Type</th>
+                                                                                        <th class="font-text" scope="col">Actions</th>
                                                                                     </tr>
                                                                                 </thead>
                                                                                 <tbody class="bg-white">
@@ -1227,17 +1227,17 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                             3.1.1.1 Percentage (%) of the landscape with formalized land tenure rights
                                                                                         </td>
                                                                                         <td>
-                                                                                            <a href="#" class="custom-bg-warning custom-border-radius-35 px-3 py-2 w-65px d-flex align-items-center">
+                                                                                            <a href="#" class="c-btn-success c-btn-xs d-flex align-items-center justify-content-center">
                                                                                                 <i class="icn-edit"></i>
-                                                                                                <span class="custom-font-style-xs custom-text-primary pl-1">Add/Edit</span>
+                                                                                                <span class="font-weight-bolder pl-1">Add/Edit</span>
                                                                                             </a>
                                                                                         </td>
                                                                                         <td></td>
                                                                                         <td>
-                                                                                            <span class="custom-bg-primary custom-text-light-pale custom-font-style-xs custom-border-radius-3 p-1">Required</span>
+                                                                                            <span class="bg-primary text-light-primary font-xs br-3 p-1">Required</span>
                                                                                         </td>
                                                                                         <td>
-                                                                                            <span class="custom-bg-primary custom-text-light-pale custom-font-style-xs custom-border-radius-3 p-1">Modify</span>
+                                                                                            <span class="bg-primary text-light-primary font-xs br-3 p-1">Modify</span>
                                                                                         </td>
                                                                                     </tr>
                                                                                     <tr>
@@ -1251,17 +1251,17 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                             3.1.1.2 User-defined metric(s) for gender dimension of land tenure rights
                                                                                         </td>
                                                                                         <td>
-                                                                                            <a href="#" class="custom-bg-warning custom-border-radius-35 px-3 py-2 w-65px d-flex align-items-center">
+                                                                                            <a href="#" class="c-btn-success c-btn-xs d-flex align-items-center justify-content-center">
                                                                                                 <i class="icn-edit"></i>
-                                                                                                <span class="custom-font-style-xs custom-text-primary pl-1">Add/Edit</span>
+                                                                                                <span class="font-weight-bolder pl-1">Add/Edit</span>
                                                                                             </a>
                                                                                         </td>
                                                                                         <td></td>
                                                                                         <td>
-                                                                                            <span class="custom-bg-primary custom-text-light-pale custom-font-style-xs custom-border-radius-3 p-1">Required</span>
+                                                                                            <span class="bg-primary text-light-primary font-xs br-3 p-1">Required</span>
                                                                                         </td>
                                                                                         <td>
-                                                                                            <span class="custom-bg-primary custom-text-light-pale custom-font-style-xs custom-border-radius-3 p-1">Modify</span>
+                                                                                            <span class="bg-primary text-light-primary font-xs br-3 p-1">Modify</span>
                                                                                         </td>
                                                                                     </tr>
                                                                                 </tbody>
@@ -1274,17 +1274,17 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                         <span>3.1.2 Land conflicts</span>
                                                                         <span class="d-flex align-items-center h-100 pr-20"><i class="fas fa-chevron-down"></i></span>
                                                                     </div>
-                                                                    <div class="collapse custom-border-bottom-pale" id="collapseOneB">
+                                                                    <div class="collapse border-bottom-secondary" id="collapseOneB">
                                                                         <div class="mx-10 mt-5">
-                                                                            <table class="table table-vertical-center indicator-table">
-                                                                                <thead class="steps-table-header-color">
+                                                                            <table class="table table-vertical-center table-dark-pale p-table-15 border-light-primary">
+                                                                                <thead>
                                                                                     <tr>
-                                                                                        <th class="custom-font-style-sub-text" scope="col">Include</th>
-                                                                                        <th class="custom-font-style-sub-text" scope="col">Metric</th>
-                                                                                        <th class="custom-font-style-sub-text w-125px" scope="col">Target</th>
-                                                                                        <th class="custom-font-style-sub-text" scope="col">Milestone</th>
-                                                                                        <th class="custom-font-style-sub-text" scope="col">Type</th>
-                                                                                        <th class="custom-font-style-sub-text" scope="col">Actions</th>
+                                                                                        <th class="font-text" scope="col">Include</th>
+                                                                                        <th class="font-text" scope="col">Metric</th>
+                                                                                        <th class="font-text w-125px" scope="col">Target</th>
+                                                                                        <th class="font-text" scope="col">Milestone</th>
+                                                                                        <th class="font-text" scope="col">Type</th>
+                                                                                        <th class="font-text" scope="col">Actions</th>
                                                                                     </tr>
                                                                                 </thead>
                                                                                 <tbody class="bg-white">
@@ -1299,17 +1299,17 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                             3.1.2.1 Number of unresolved land and resource conflicts or grievances, and the area of land (ha) subject to such conflicts
                                                                                         </td>
                                                                                         <td>
-                                                                                            <a href="#" class="custom-bg-warning custom-border-radius-35 px-3 py-2 w-65px d-flex align-items-center">
+                                                                                            <a href="#" class="c-btn-success c-btn-xs d-flex align-items-center justify-content-center">
                                                                                                 <i class="icn-edit"></i>
-                                                                                                <span class="custom-font-style-xs custom-text-primary pl-1">Add/Edit</span>
+                                                                                                <span class="font-weight-bolder pl-1">Add/Edit</span>
                                                                                             </a>
                                                                                         </td>
                                                                                         <td></td>
                                                                                         <td>
-                                                                                            <span class="custom-bg-primary custom-text-light-pale custom-font-style-xs custom-border-radius-3 p-1">Required</span>
+                                                                                            <span class="bg-primary text-light-primary font-xs br-3 p-1">Required</span>
                                                                                         </td>
                                                                                         <td>
-                                                                                            <span class="custom-bg-primary custom-text-light-pale custom-font-style-xs custom-border-radius-3 p-1">Modify</span>
+                                                                                            <span class="bg-primary text-light-primary font-xs br-3 p-1">Modify</span>
                                                                                         </td>
                                                                                     </tr>
                                                                                     <tr>
@@ -1323,17 +1323,17 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                             3.1.2.2 Number of women and men, young and adult (e.g., environmental and human rights defenders) subject to violence or receiving threats of violence as a result of conflicts over land & resources
                                                                                         </td>
                                                                                         <td>
-                                                                                            <a href="#" class="custom-bg-warning custom-border-radius-35 px-3 py-2 w-65px d-flex align-items-center">
+                                                                                            <a href="#" class="c-btn-success c-btn-xs d-flex align-items-center justify-content-center">
                                                                                                 <i class="icn-edit"></i>
-                                                                                                <span class="custom-font-style-xs custom-text-primary pl-1">Add/Edit</span>
+                                                                                                <span class="font-weight-bolder pl-1">Add/Edit</span>
                                                                                             </a>
                                                                                         </td>
                                                                                         <td></td>
                                                                                         <td>
-                                                                                            <span class="custom-bg-primary custom-text-light-pale custom-font-style-xs custom-border-radius-3 p-1">Required</span>
+                                                                                            <span class="bg-primary text-light-primary font-xs br-3 p-1">Required</span>
                                                                                         </td>
                                                                                         <td>
-                                                                                            <span class="custom-bg-primary custom-text-light-pale custom-font-style-xs custom-border-radius-3 p-1">Modify</span>
+                                                                                            <span class="bg-primary text-light-primary font-xs br-3 p-1">Modify</span>
                                                                                         </td>
                                                                                     </tr>
 
@@ -1372,23 +1372,23 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                     </div>
                                                                 </div>
                                                             </div>
-                                                            <div id="collapseTwo-0" class="collapse custom-text-primary custom-cursor-pointer" aria-labelledby="headingTwo-0">
+                                                            <div id="collapseTwo-0" class="collapse text-primary cursor-pointer" aria-labelledby="headingTwo-0">
                                                                 <div class="card">
                                                                     <div class="pl-17 py-4 d-flex justify-content-between align-items-center" data-toggle="collapse" data-target="#collapseTwoA">
                                                                         <span>3.2.1 Land-use plan adoption & enforcement</span>
                                                                         <span class="d-flex align-items-center h-100 pr-20"><i class="fas fa-chevron-down"></i></span>
                                                                     </div>
-                                                                    <div class="collapse custom-border-bottom-pale" id="collapseTwoA">
+                                                                    <div class="collapse border-bottom-secondary" id="collapseTwoA">
                                                                         <div class="mx-10 mt-5">
-                                                                            <table class="table table-vertical-center indicator-table">
-                                                                                <thead class="steps-table-header-color">
+                                                                            <table class="table table-vertical-center table-dark-pale p-table-15 border-light-primary">
+                                                                                <thead>
                                                                                     <tr>
-                                                                                        <th class="custom-font-style-sub-text" scope="col">Include</th>
-                                                                                        <th class="custom-font-style-sub-text" scope="col">Metric</th>
-                                                                                        <th class="custom-font-style-sub-text w-125px" scope="col">Target</th>
-                                                                                        <th class="custom-font-style-sub-text" scope="col">Milestone</th>
-                                                                                        <th class="custom-font-style-sub-text" scope="col">Type</th>
-                                                                                        <th class="custom-font-style-sub-text" scope="col">Actions</th>
+                                                                                        <th class="font-text" scope="col">Include</th>
+                                                                                        <th class="font-text" scope="col">Metric</th>
+                                                                                        <th class="font-text w-125px" scope="col">Target</th>
+                                                                                        <th class="font-text" scope="col">Milestone</th>
+                                                                                        <th class="font-text" scope="col">Type</th>
+                                                                                        <th class="font-text" scope="col">Actions</th>
                                                                                     </tr>
                                                                                 </thead>
                                                                                 <tbody class="bg-white">
@@ -1403,17 +1403,17 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                             3.2.1.1 Quality and status of land-use and/or zoning plans (based on Sustainable Landscapes Rating Tool [SLRT] indicators 1.1.1, 1.1.2 and 1.1.3)
                                                                                         </td>
                                                                                         <td>
-                                                                                            <a href="#" class="custom-bg-warning custom-border-radius-35 px-3 py-2 w-65px d-flex align-items-center">
+                                                                                            <a href="#" class="c-btn-success c-btn-xs d-flex align-items-center justify-content-center">
                                                                                                 <i class="icn-edit"></i>
-                                                                                                <span class="custom-font-style-xs custom-text-primary pl-1">Add/Edit</span>
+                                                                                                <span class="font-weight-bolder pl-1">Add/Edit</span>
                                                                                             </a>
                                                                                         </td>
                                                                                         <td></td>
                                                                                         <td>
-                                                                                            <span class="custom-bg-primary custom-text-light-pale custom-font-style-xs custom-border-radius-3 p-1">Required</span>
+                                                                                            <span class="bg-primary text-light-primary font-xs br-3 p-1">Required</span>
                                                                                         </td>
                                                                                         <td>
-                                                                                            <span class="custom-bg-primary custom-text-light-pale custom-font-style-xs custom-border-radius-3 p-1">Modify</span>
+                                                                                            <span class="bg-primary text-light-primary font-xs br-3 p-1">Modify</span>
                                                                                         </td>
                                                                                     </tr>
                                                                                     <tr>
@@ -1427,17 +1427,17 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                             3.2.1.2 Percentage (%) of landscape covered by land-use or zoning plans that are formally adopted and enforceable
                                                                                         </td>
                                                                                         <td>
-                                                                                            <a href="#" class="custom-bg-warning custom-border-radius-35 px-3 py-2 w-65px d-flex align-items-center">
+                                                                                            <a href="#" class="c-btn-success c-btn-xs d-flex align-items-center justify-content-center">
                                                                                                 <i class="icn-edit"></i>
-                                                                                                <span class="custom-font-style-xs custom-text-primary pl-1">Add/Edit</span>
+                                                                                                <span class="font-weight-bolder pl-1">Add/Edit</span>
                                                                                             </a>
                                                                                         </td>
                                                                                         <td></td>
                                                                                         <td>
-                                                                                            <span class="custom-bg-primary custom-text-light-pale custom-font-style-xs custom-border-radius-3 p-1">Required</span>
+                                                                                            <span class="bg-primary text-light-primary font-xs br-3 p-1">Required</span>
                                                                                         </td>
                                                                                         <td>
-                                                                                            <span class="custom-bg-primary custom-text-light-pale custom-font-style-xs custom-border-radius-3 p-1">Modify</span>
+                                                                                            <span class="bg-primary text-light-primary font-xs br-3 p-1">Modify</span>
                                                                                         </td>
                                                                                     </tr>
 
@@ -1483,23 +1483,23 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                 </div>
                                                             </div>
 
-                                                            <div id="collapseOne-0" class="collapse show custom-text-primary custom-cursor-pointer" aria-labelledby="headingOne-0">
+                                                            <div id="collapseOne-0" class="collapse show text-primary cursor-pointer" aria-labelledby="headingOne-0">
                                                                 <div class="card">
                                                                     <div class="pl-17 py-4 d-flex justify-content-between align-items-center" data-toggle="collapse" data-target="#collapseOneA">
                                                                         <span>4.1.1 Agricultural, agroforestry & tree plantation productivity</span>
                                                                         <span class="d-flex align-items-center h-100 pr-20"><i class="fas fa-chevron-down"></i></span>
                                                                     </div>
-                                                                    <div class="collapse custom-border-bottom-pale" id="collapseOneA">
+                                                                    <div class="collapse border-bottom-secondary" id="collapseOneA">
                                                                         <div class="mx-10 mt-5">
-                                                                            <table class="table table-vertical-center indicator-table">
-                                                                                <thead class="steps-table-header-color">
+                                                                            <table class="table table-vertical-center table-dark-pale p-table-15 border-light-primary">
+                                                                                <thead>
                                                                                     <tr>
-                                                                                        <th class="custom-font-style-sub-text" scope="col">Include</th>
-                                                                                        <th class="custom-font-style-sub-text" scope="col">Metric</th>
-                                                                                        <th class="custom-font-style-sub-text w-125px" scope="col">Target</th>
-                                                                                        <th class="custom-font-style-sub-text" scope="col">Milestone</th>
-                                                                                        <th class="custom-font-style-sub-text" scope="col">Type</th>
-                                                                                        <th class="custom-font-style-sub-text" scope="col">Actions</th>
+                                                                                        <th class="font-text" scope="col">Include</th>
+                                                                                        <th class="font-text" scope="col">Metric</th>
+                                                                                        <th class="font-text w-125px" scope="col">Target</th>
+                                                                                        <th class="font-text" scope="col">Milestone</th>
+                                                                                        <th class="font-text" scope="col">Type</th>
+                                                                                        <th class="font-text" scope="col">Actions</th>
                                                                                     </tr>
                                                                                 </thead>
                                                                                 <tbody class="bg-white">
@@ -1514,17 +1514,17 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                             4.1.1.1 Average crop productivity (yield/ha) disaggregated by crop
                                                                                         </td>
                                                                                         <td>
-                                                                                            <a href="#" class="custom-bg-warning custom-border-radius-35 px-3 py-2 w-65px d-flex align-items-center">
+                                                                                            <a href="#" class="c-btn-success c-btn-xs d-flex align-items-center justify-content-center">
                                                                                                 <i class="icn-edit"></i>
-                                                                                                <span class="custom-font-style-xs custom-text-primary pl-1">Add/Edit</span>
+                                                                                                <span class="font-weight-bolder pl-1">Add/Edit</span>
                                                                                             </a>
                                                                                         </td>
                                                                                         <td></td>
                                                                                         <td>
-                                                                                            <span class="custom-bg-primary custom-text-light-pale custom-font-style-xs custom-border-radius-3 p-1">Required</span>
+                                                                                            <span class="bg-primary text-light-primary font-xs br-3 p-1">Required</span>
                                                                                         </td>
                                                                                         <td>
-                                                                                            <span class="custom-bg-primary custom-text-light-pale custom-font-style-xs custom-border-radius-3 p-1">Modify</span>
+                                                                                            <span class="bg-primary text-light-primary font-xs br-3 p-1">Modify</span>
                                                                                         </td>
                                                                                     </tr>
                                                                                     <tr>
@@ -1538,17 +1538,17 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                             4.1.1.2 Average productivity of pasture-raised animals (livestock units/ha or meat or dairy production/ha) disaggregated by animal type
                                                                                         </td>
                                                                                         <td>
-                                                                                            <a href="#" class="custom-bg-warning custom-border-radius-35 px-3 py-2 w-65px d-flex align-items-center">
+                                                                                            <a href="#" class="c-btn-success c-btn-xs d-flex align-items-center justify-content-center">
                                                                                                 <i class="icn-edit"></i>
-                                                                                                <span class="custom-font-style-xs custom-text-primary pl-1">Add/Edit</span>
+                                                                                                <span class="font-weight-bolder pl-1">Add/Edit</span>
                                                                                             </a>
                                                                                         </td>
                                                                                         <td></td>
                                                                                         <td>
-                                                                                            <span class="custom-bg-primary custom-text-light-pale custom-font-style-xs custom-border-radius-3 p-1">Required</span>
+                                                                                            <span class="bg-primary text-light-primary font-xs br-3 p-1">Required</span>
                                                                                         </td>
                                                                                         <td>
-                                                                                            <span class="custom-bg-primary custom-text-light-pale custom-font-style-xs custom-border-radius-3 p-1">Modify</span>
+                                                                                            <span class="bg-primary text-light-primary font-xs br-3 p-1">Modify</span>
                                                                                         </td>
                                                                                     </tr>
                                                                                     <tr>
@@ -1562,17 +1562,17 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                             4.1.1.3 Average forest plantation productivity (timber volume/ha) disaggregated by plantation type
                                                                                         </td>
                                                                                         <td>
-                                                                                            <a href="#" class="custom-bg-warning custom-border-radius-35 px-3 py-2 w-65px d-flex align-items-center">
+                                                                                            <a href="#" class="c-btn-success c-btn-xs d-flex align-items-center justify-content-center">
                                                                                                 <i class="icn-edit"></i>
-                                                                                                <span class="custom-font-style-xs custom-text-primary pl-1">Add/Edit</span>
+                                                                                                <span class="font-weight-bolder pl-1">Add/Edit</span>
                                                                                             </a>
                                                                                         </td>
                                                                                         <td></td>
                                                                                         <td>
-                                                                                            <span class="custom-bg-primary custom-text-light-pale custom-font-style-xs custom-border-radius-3 p-1">Required</span>
+                                                                                            <span class="bg-primary text-light-primary font-xs br-3 p-1">Required</span>
                                                                                         </td>
                                                                                         <td>
-                                                                                            <span class="custom-bg-primary custom-text-light-pale custom-font-style-xs custom-border-radius-3 p-1">Modify</span>
+                                                                                            <span class="bg-primary text-light-primary font-xs br-3 p-1">Modify</span>
                                                                                         </td>
                                                                                     </tr>
 
@@ -1628,12 +1628,12 @@ License: You must have a valid license purchased only from themeforest(the above
     </div>
     <!--end::Main-->
     <!-- begin help center btn-->
-    <div class="btn-help-center-wrapper custom-cursor-pointer">
+    <div class="btn-help-center-wrapper cursor-pointer">
         <div class="btn-dropdown btn-lg mr-1 d-flex align-items-center" id="kt_quick_cart_toggle">
             <span class="btn-help-icon">
                 <i class="icn-question icn-3x mt-2 mx-2"></i>
             </span>
-            <span class="btn-help-toggle custom-font-style-sub-text p-6 bg-light d-none">
+            <span class="btn-help-toggle font-text p-6 bg-light d-none">
                 Help Center
             </span>
         </div>

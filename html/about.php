@@ -200,12 +200,12 @@ License: You must have a valid license purchased only from themeforest(the above
                                                     <textarea class="form-control bg-light-primary" name="message" id="message" placeholder="Write message here" cols="30" rows="10"></textarea>
                                                     <div class="mt-10 d-flex justify-content-between align-items-center custom-margin">
                                                         <div class="assesment-responsive">
-                                                            <a href="#" id="back-btn" class="bg-grey text-primary d-inline-block br-35 border-0 px-8 py-2" data-wizard-type="action-prev">
+                                                            <a href="#" id="back-btn" class="btn-grey c-btn-sm d-flex align-items-center justify-content-center" data-wizard-type="action-prev">
                                                                 Back
                                                             </a>
                                                         </div>
                                                         <div class="assesment-responsive-btn-block">
-                                                            <button type="button" id="save-btn" class="bg-success text-primary text-primary d-inline-block br-35 border-0 px-8 py-2">
+                                                            <button type="button" id="save-btn" class="c-btn-success c-btn-sm d-flex align-items-center justify-content-center">
                                                                 Save
                                                             </button>
                                                         </div>

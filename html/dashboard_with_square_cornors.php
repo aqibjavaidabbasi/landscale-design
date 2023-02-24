@@ -131,24 +131,30 @@ License: You must have a valid license purchased only from themeforest(the above
                     <!--begin::Subheader-->
                     <div class="container">
                         <div class="py-5">
-                            <a href="#" class="custom-font-style-text custom-text-grey">Explore Landscapes /</a>
-                            <span class="custom-font-style-text custom-text-primary">Assessments</span>
+                            <a href="#" class="font-text text-secondary">Explore Landscapes /</a>
+                            <span class="font-text text-primary">Assessments</span>
                         </div>
                         <div class="row">
                             <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                                 <div class="card w-100 card w-100 h-100 p-8">
-                                    <div class="custom-font-style-headings custom-text-primary">Demo-LR Shayan</div>
-                                    <p class="custom-font-style-sub-text custom-text-primary my-5">This is your landscape dashboard. From here you can access your profile, the steps to conduct or update an assessment, the people involved in your assessment, and guidance.</p>
-                                    <div class="custom-font-style-subheadings custom-text-primary my-5">
+                                    <div class="font-heading text-primary">Demo-LR Shayan</div>
+                                    <p class="font-text text-primary my-5">This is your landscape dashboard. From here you can access your profile, the steps to conduct or update an assessment, the people involved in your assessment, and guidance.</p>
+                                    <div class="font-subheading text-primary my-5">
                                         Showcase Your Landscape
                                     </div>
-                                    <p class="custom-font-style-sub-text custom-text-primary">Create, manage, and publish your landscape profile.</p>
-                                    <a href="#" class="custom-bg-warning d-flex justify-content-center align-items-center mt-2 custom-w-35 custom-border-radius-3 px-5 py-2">
+                                    <p class="font-text text-primary">Create, manage, and publish your landscape profile.</p>
+                                    <a href="#" class="c-btn-success c-btn-md d-flex justify-content-center align-items-center br-3">
                                         <i class="icn-person"></i>
-                                        <span class="custom-font-style-small font-weight-bold ml-3">
+                                        <span class="font-small font-weight-bold ml-3">
                                             Landscape Profile
                                         </span>
                                     </a>
+                                    <!-- <a href="#" class="bg-success d-flex justify-content-center align-items-center mt-2 w-35-percent br-3 px-5 py-2">
+                                        <i class="icn-person"></i>
+                                        <span class="font-small font-weight-bold ml-3">
+                                            Landscape Profile
+                                        </span>
+                                    </a> -->
                                 </div>
                             </div>
 
@@ -157,31 +163,31 @@ License: You must have a valid license purchased only from themeforest(the above
                                     <div class="card-wrapper p-5">
                                         <div class="row">
                                             <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 responsive-margin-card">
-                                                <div class="p-5 custom-bg-light-pale custom-border-radius-15 text-center h-100 custom-cursor-pointer">
+                                                <div class="p-5 bg-light-primary br-15 text-center h-100 cursor-pointer">
                                                     <div class="my-2">
                                                         <i class="icn-reference-library icn-3x"></i>
                                                     </div>
-                                                    <span class="custom-font-style-sub-text mb-2">
+                                                    <span class="font-subtext mb-2">
                                                         Reference Library
                                                     </span>
                                                 </div>
                                             </div>
                                             <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 my-5-res">
-                                                <div class="p-5 custom-bg-light-pale text-center custom-border-radius-15 h-100 custom-cursor-pointer">
+                                                <div class="p-5 bg-light-primary text-center br-15 h-100 cursor-pointer">
                                                     <div class="my-2">
                                                         <i class="icn-image-gallery icn-3x"></i>
                                                     </div>
-                                                    <span class="custom-font-style-sub-text mb-2">
+                                                    <span class="font-subtext mb-2">
                                                         Image Galary
                                                     </span>
                                                 </div>
                                             </div>
                                             <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 responsive-margin-card">
-                                                <div class="p-5 custom-bg-light-pale text-center custom-border-radius-15 h-100 custom-cursor-pointer">
+                                                <div class="p-5 bg-light-primary text-center br-15 h-100 cursor-pointer">
                                                     <div class="my-2">
                                                         <i class="icn-help icn-3x"></i>
                                                     </div>
-                                                    <span class="custom-font-style-sub-text mb-2">
+                                                    <span class="font-subtext mb-2">
                                                         Need Help
                                                     </span>
                                                 </div>
@@ -189,32 +195,32 @@ License: You must have a valid license purchased only from themeforest(the above
                                         </div>
                                         <div class="row my-5-res" style="margin-top: 20px;">
                                             <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 responsive-margin-card">
-                                                <div class="p-5 custom-bg-light-pale text-center custom-border-radius-15 h-100 custom-cursor-pointer">
+                                                <div class="p-5 bg-light-primary text-center br-15 h-100 cursor-pointer">
                                                     <div class="my-2">
                                                         <i class="icn-phone-book icn-3x"></i>
 
                                                     </div>
-                                                    <span class="custom-font-style-sub-text mb-2">
+                                                    <span class="font-subtext mb-2">
                                                         Current Plan
                                                     </span>
                                                 </div>
                                             </div>
                                             <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 my-5-res">
-                                                <div class="p-5 custom-bg-light-pale text-center custom-border-radius-15 h-100 custom-cursor-pointer">
+                                                <div class="p-5 bg-light-primary text-center br-15 h-100 cursor-pointer">
                                                     <div class="my-2">
                                                         <i class="icn-team icn-3x"></i>
                                                     </div>
-                                                    <span class="custom-font-style-sub-text mb-2">
+                                                    <span class="font-subtext mb-2">
                                                         Our Team
                                                     </span>
                                                 </div>
                                             </div>
                                             <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 responsive-margin-card">
-                                                <div class="p-5 custom-bg-light-pale text-center custom-border-radius-15 h-100 custom-cursor-pointer">
+                                                <div class="p-5 bg-light-primary text-center br-15 h-100 cursor-pointer">
                                                     <div class="my-2">
                                                         <i class="icn-hand-shake icn-3x"></i>
                                                     </div>
-                                                    <span class="custom-font-style-sub-text mb-2">
+                                                    <span class="font-subtext mb-2">
                                                         Partners
                                                     </span>
                                                 </div>
@@ -228,10 +234,10 @@ License: You must have a valid license purchased only from themeforest(the above
                         <div class="row mt-5">
                             <div class="col-md-12">
                                 <div class="card w-100 p-8">
-                                    <div class="custom-font-style-subheadings custom-text-primary">Steps</div>
+                                    <div class="font-subheading text-primary">Steps</div>
                                     <div class="row p-8">
                                         <div class="col-12 col-sm-6 col-md mb-2 h-150px">
-                                            <div class="p-5 custom-bg-light-pale custom-border-color-pale custom-border-radius-15 text-center h-100">
+                                            <div class="p-5 bg-light-primary border-color-pale br-15 text-center h-100">
                                                 <div class="mb-3 mt-3">
                                                     <i class="icn-file icn-3x"></i>
                                                 </div>
@@ -243,20 +249,20 @@ License: You must have a valid license purchased only from themeforest(the above
                                                         <div class="progress-line"></div>
                                                     </div>
                                                     <div>
-                                                        <span class="custom-bg-warning custom-text-primary custom-border-radius-4 step-counter px-2 py-1">
+                                                        <span class="bg-success text-primary br-4 step-counter px-2 py-1">
                                                             6/6
                                                         </span>
-                                                        <span class="custom-bg-primary custom-text-light-pale custom-font-style-sub-text custom-btrr-4 custom-bbrr-4 pr-4 pl-2 py-1">TASKS</span>
+                                                        <span class="bg-primary text-light-primary font-subtext btrr-4 bbrr-4 pr-4 pl-2 py-1">TASKS</span>
                                                     </div>
                                                 </div>
 
-                                                <div class="step-number custom-font-style-text-bolder">
+                                                <div class="step-number font-text-bolder">
                                                     1
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="col-12 col-sm-6 col-md mb-2 h-150px">
-                                            <div class="p-5 custom-bg-light-pale custom-border-color-pale custom-border-radius-15 text-center h-100">
+                                            <div class="p-5 bg-light-primary border-color-pale br-15 text-center h-100">
                                                 <div class="mb-3 mt-3">
                                                     <i class="icn-marker icn-3x"></i>
                                                 </div>
@@ -268,21 +274,21 @@ License: You must have a valid license purchased only from themeforest(the above
                                                         <div class="progress-line"></div>
                                                     </div>
                                                     <div>
-                                                        <span class="custom-bg-warning custom-text-primary custom-border-radius-4 step-counter px-2 py-1">
+                                                        <span class="bg-success text-primary br-4 step-counter px-2 py-1">
                                                             6/6
                                                         </span>
-                                                        <span class="custom-bg-primary custom-text-light-pale custom-font-style-sub-text custom-btrr-4 custom-bbrr-4 pr-4 pl-2 py-1">TASKS</span>
+                                                        <span class="bg-primary text-light-primary font-subtext btrr-4 bbrr-4 pr-4 pl-2 py-1">TASKS</span>
                                                     </div>
 
                                                 </div>
 
-                                                <div class="step-number custom-font-style-text-bolder">
+                                                <div class="step-number font-text-bolder">
                                                     2
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="col-12 col-sm-6 col-md mb-2 h-150px">
-                                            <div class="p-5 custom-bg-light-pale custom-border-color-pale custom-border-radius-15 text-center h-100">
+                                            <div class="p-5 bg-light-primary border-color-pale br-15 text-center h-100">
                                                 <div class="mb-3 mt-3">
                                                     <i class="icn-circut icn-3x"></i>
                                                 </div>
@@ -294,20 +300,20 @@ License: You must have a valid license purchased only from themeforest(the above
                                                         <div class="progress-line"></div>
                                                     </div>
                                                     <div>
-                                                        <span class="custom-bg-warning custom-text-primary custom-border-radius-4 step-counter px-2 py-1">
+                                                        <span class="bg-success text-primary br-4 step-counter px-2 py-1">
                                                             6/6
                                                         </span>
-                                                        <span class="custom-bg-primary custom-text-light-pale custom-font-style-sub-text custom-btrr-4 custom-bbrr-4 pr-4 pl-2 py-1">TASKS</span>
+                                                        <span class="bg-primary text-light-primary font-subtext btrr-4 bbrr-4 pr-4 pl-2 py-1">TASKS</span>
                                                     </div>
                                                 </div>
 
-                                                <div class="step-number custom-font-style-text-bolder">
+                                                <div class="step-number font-text-bolder">
                                                     3
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="col-12 col-sm-6 col-md mb-2 h-150px">
-                                            <div class="p-5 custom-bg-light-pale custom-border-color-pale custom-border-radius-15 text-center h-100">
+                                            <div class="p-5 bg-light-primary border-color-pale br-15 text-center h-100">
                                                 <div class="mb-3 mt-3">
                                                     <i class="icn-chart icn-3x"></i>
                                                 </div>
@@ -319,24 +325,24 @@ License: You must have a valid license purchased only from themeforest(the above
                                                         <div class="progress-line"></div>
                                                     </div>
                                                     <div>
-                                                        <span class="custom-bg-warning custom-text-primary custom-border-radius-4 step-counter px-2 py-1">
+                                                        <span class="bg-success text-primary br-4 step-counter px-2 py-1">
                                                             6/6
                                                         </span>
-                                                        <span class="custom-bg-primary custom-text-light-pale custom-font-style-sub-text custom-btrr-4 custom-bbrr-4 pr-4 pl-2 py-1">TASKS</span>
+                                                        <span class="bg-primary text-light-primary font-subtext btrr-4 bbrr-4 pr-4 pl-2 py-1">TASKS</span>
                                                     </div>
                                                 </div>
 
-                                                <div class="step-number custom-font-style-text-bolder">
+                                                <div class="step-number font-text-bolder">
                                                     4
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="col-12 col-sm-6 col-md mb-2 h-150px">
-                                            <div class="p-5 custom-bg-dark-grey custom-border-color-pale custom-border-radius-15 text-center h-100 locked-background">
+                                            <div class="p-5 bg-dark-grey border-color-pale br-15 text-center h-100 locked-background">
                                                 <div class="mb-3 mt-3">
                                                     <i class="icn-notepad icn-3x"></i>
                                                 </div>
-                                                <span class="py-5 custom-text-light-grey">
+                                                <span class="py-5 text-light-cyan">
                                                     Report & Publish
                                                 </span>
                                                 <div class="child-bottom">
@@ -344,18 +350,18 @@ License: You must have a valid license purchased only from themeforest(the above
                                                         <div class="progress-line progress-line-locked"></div>
                                                     </div>
                                                     <div>
-                                                        <span class="custom-bg-dusty-grey custom-border-radius-4 step-counter px-2 py-1">
+                                                        <span class="bg-dusty-grey br-4 step-counter px-2 py-1">
                                                             <svg width="13" height="14" viewBox="0 0 13 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                                 <path d="M6.11447 13.9984C4.67472 13.9984 3.2353 14.0008 1.79555 13.9973C0.899112 13.9953 0.164208 13.3884 0.0306823 12.5453C0.0122413 12.4282 0.00916786 12.3073 0.00882637 12.1881C0.00746037 10.4929 0.0296578 8.797 0.000288908 7.10249C-0.017469 6.07219 0.785394 5.20922 1.8577 5.25396C2.19271 5.26796 2.52943 5.24542 2.86444 5.26079C3.03723 5.26864 3.06797 5.20922 3.06558 5.05111C3.05636 4.40841 3.05123 3.76537 3.06387 3.12267C3.0888 1.82942 3.67071 0.872537 4.83454 0.293698C6.36104 -0.465453 8.33524 0.309748 8.95608 1.8984C9.11556 2.30615 9.19376 2.72619 9.1924 3.16331C9.19069 3.80601 9.19615 4.44905 9.18864 5.09175C9.18693 5.2304 9.23065 5.26216 9.36144 5.25942C9.73094 5.25123 10.1011 5.25396 10.471 5.25703C11.4914 5.26557 12.2392 6.00355 12.243 7.02463C12.2495 8.75978 12.2485 10.4949 12.243 12.2301C12.2399 13.2419 11.4835 13.9939 10.4676 13.9977C9.01653 14.0025 7.5655 13.9984 6.11447 13.9984ZM6.11789 13.1228C7.54638 13.1228 8.97486 13.1088 10.403 13.1293C11.0297 13.1381 11.392 12.6734 11.3872 12.1382C11.3729 10.4601 11.3821 8.78164 11.3817 7.10317C11.3817 6.47994 11.0225 6.12 10.3948 6.11966C7.54945 6.11863 4.70409 6.11863 1.85872 6.11966C1.23071 6.12 0.872134 6.47755 0.871451 7.10249C0.870427 8.79222 0.870427 10.482 0.87111 12.172C0.871451 12.7574 1.23378 13.1221 1.81569 13.1224C3.24965 13.1228 4.68394 13.1224 6.11789 13.1228ZM6.10867 5.25601C6.79098 5.25601 7.4733 5.25225 8.15561 5.25942C8.2864 5.26079 8.31509 5.22357 8.31406 5.0979C8.30792 4.41012 8.31338 3.722 8.31065 3.03422C8.30587 1.83898 7.33192 0.88005 6.12711 0.88005C4.92299 0.88005 3.9463 1.84103 3.94152 3.03388C3.93879 3.72166 3.94425 4.40978 3.93811 5.09755C3.93708 5.2222 3.9644 5.26113 4.09588 5.25977C4.76658 5.25225 5.43762 5.25601 6.10867 5.25601Z" fill="#C3C8BD" />
                                                                 <path d="M5.68513 11.115C5.68513 10.933 5.67933 10.751 5.68752 10.5696C5.6923 10.4661 5.66362 10.4105 5.56356 10.363C4.96798 10.0803 4.67532 9.40033 4.87783 8.78973C5.09161 8.14498 5.73055 7.77411 6.39886 7.90696C6.91384 8.00906 7.34823 8.46291 7.41858 8.97277C7.49951 9.55673 7.22461 10.1134 6.71987 10.3473C6.59249 10.4064 6.56312 10.4754 6.56586 10.6031C6.57405 10.9552 6.56176 11.3079 6.572 11.66C6.5761 11.7939 6.53136 11.8229 6.40842 11.8161C6.22709 11.8058 6.04405 11.8048 5.86305 11.8164C5.72611 11.8253 5.66942 11.7925 5.68138 11.6429C5.69606 11.4684 5.68513 11.2912 5.68513 11.115ZM6.12908 9.62913C6.3712 9.62811 6.57439 9.4215 6.56961 9.18143C6.56483 8.94306 6.3531 8.73919 6.1161 8.74465C5.88627 8.75011 5.68513 8.95536 5.68411 9.18587C5.6824 9.42662 5.8873 9.63016 6.12908 9.62913Z" fill="#C3C8BD" />
                                                             </svg>
 
                                                         </span>
-                                                        <span class="custom-bg-grey custom-text-light-grey custom-btrr-4 custom-bbrr-4 pr-4 pl-2 py-1">Locked</span>
+                                                        <span class="bg-grey text-light-cyan btrr-4 bbrr-4 pr-4 pl-2 py-1">Locked</span>
                                                     </div>
                                                 </div>
 
-                                                <div class="step-number custom-font-style-text-bolder">
+                                                <div class="step-number font-text-bolder">
                                                     5
                                                 </div>
                                             </div>
@@ -379,12 +385,12 @@ License: You must have a valid license purchased only from themeforest(the above
     <!--end::Main-->
 
     <!-- begin help center btn-->
-    <div class="btn-help-center-wrapper custom-cursor-pointer">
+    <div class="btn-help-center-wrapper cursor-pointer">
         <div class="btn-dropdown btn-lg mr-1 d-flex align-items-center" id="kt_quick_cart_toggle">
             <span class="btn-help-icon">
                 <i class="icn-question icn-3x mt-2 mx-2"></i>
             </span>
-            <span class="btn-help-toggle custom-font-style-sub-text p-6 bg-light d-none">
+            <span class="btn-help-toggle font-text p-6 bg-light d-none">
                 Help Center
             </span>
         </div>

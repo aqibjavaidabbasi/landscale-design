@@ -130,15 +130,15 @@ License: You must have a valid license purchased only from themeforest(the above
                     <!--begin::Subheader-->
                     <div class="container">
                         <div class="py-5">
-                            <a href="#" class="custom-font-style-text custom-text-grey">Assessment /</a>
-                            <span class="custom-font-style-text custom-text-primary">New Assessment</span>
+                            <a href="#" class="font-text text-secondary">Assessment /</a>
+                            <span class="font-text text-primary">New Assessment</span>
                         </div>
                         <div class="row">
                             <div class="col-md-12">
                                 <div class="card w-100">
                                     <div class="row">
                                         <div class="col-md-12 text-center">
-                                            <h4 class="custom-font-style-headings">Assessment registration of New assessment</h4>
+                                            <h4 class="font-heading">Assessment registration of New assessment</h4>
                                         </div>
                                     </div>
 
@@ -709,12 +709,12 @@ License: You must have a valid license purchased only from themeforest(the above
     </div>
     <!--end::Main-->
     <!-- begin help center btn-->
-    <div class="btn-help-center-wrapper custom-cursor-pointer">
+    <div class="btn-help-center-wrapper cursor-pointer">
         <div class="btn-dropdown btn-lg mr-1 d-flex align-items-center" id="kt_quick_cart_toggle">
             <span class="btn-help-icon">
                 <i class="icn-question icn-3x mt-2 mx-2"></i>
             </span>
-            <span class="btn-help-toggle custom-font-style-sub-text p-6 bg-light d-none">
+            <span class="btn-help-toggle font-text p-6 bg-light d-none">
                 Help Center
             </span>
         </div>

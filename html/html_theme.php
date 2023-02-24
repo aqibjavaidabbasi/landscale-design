@@ -18,8 +18,8 @@
         <div class="row mt-5">
             <div class="col-lg-12">
                 <h3>Tables</h3>
-                <table class="table table-separate table-head-custom table-checkable dataTable no-footer dtr-inline custom-border-radius-0" id="kt_datatable" role="grid" style="width: 1151px; margin-top: 0px !important;">
-                    <thead class="custom-bg-light-pale">
+                <table class="table table-separate table-head-custom table-checkable dataTable no-footer dtr-inline br-0" id="kt_datatable" role="grid" style="width: 1151px; margin-top: 0px !important;">
+                    <thead class="bg-light-primary">
                         <tr>
                             <th class="sorting sorting_asc" tabindex="0" aria-controls="kt_datatable" rowspan="1" colspan="1" style="width: 56px;" aria-sort="ascending">
                                 Record ID</th>

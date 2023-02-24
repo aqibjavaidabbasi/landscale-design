@@ -130,15 +130,15 @@ License: You must have a valid license purchased only from themeforest(the above
                     <!--begin::Subheader-->
                     <div class="container">
                         <div class="py-5">
-                            <a href="#" class="custom-font-style-text custom-text-grey">Assessment /</a>
-                            <span class="custom-font-style-text custom-text-primary">New Assessment</span>
+                            <a href="#" class="font-text text-secondary">Assessment /</a>
+                            <span class="font-text text-primary">New Assessment</span>
                         </div>
                         <div class="row">
                             <div class="col-md-12">
                                 <div class="card w-100">
                                     <div class="row mt-9 mb-3">
                                         <div class="col-md-12 text-center">
-                                            <h4 class="custom-font-style-headings custom-text-primary">Assessment registration of New assessment</h4>
+                                            <h4 class="font-heading text-primary">Assessment registration of New assessment</h4>
                                         </div>
                                     </div>
 
@@ -160,10 +160,10 @@ License: You must have a valid license purchased only from themeforest(the above
                                                     <!--begin: Wizard Form-->
                                                     <form class="form m-5">
                                                         <!--begin: Wizard Step 1-->
-                                                        <div class="p-10 custom-border-color-pale custom-border-radius-15">
+                                                        <div class="p-10 border-color-pale br-15">
                                                             <div class="d-flex justify-content-between align-items-center">
-                                                                <span class="custom-font-style-subheadings custom-text-primary">Select pricing & plans</span>
-                                                                <button class="custom-bg-warning custom-font-style-small custom-border-radius-35 d-flex align-items-center border-0 p-2">
+                                                                <span class="font-subheading text-primary">Select pricing & plans</span>
+                                                                <button class="c-btn-success c-btn-md d-flex align-items-center justify-content-center">
                                                                     <span class="d-inline-block mx-2 mt-1">
                                                                         <i class="icn-book icn-2x"></i>
                                                                     </span>
@@ -176,20 +176,20 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                 <div class="col-md-12 mb-5">
                                                                     <div class="row mt-5">
                                                                         <div class="col-md-12">
-                                                                            <div class="custom-font-style-text custom-text-primary d-inline">
+                                                                            <div class="font-text text-primary d-inline">
                                                                                 Which plan should I select?
                                                                             </div>
                                                                         </div>
                                                                     </div>
                                                                     <div class="row mt-5">
                                                                         <div class="col-md-12">
-                                                                            <p class="custom-font-style-sub-text custom-text-primary">
+                                                                            <p class="font-text text-primary">
                                                                                 The Validated by LandScale package is for those that plan to follow the LandScale framework and guidelines; obtain LandScale and local review of their work, and optionally publish their results on the platform. Selecting this package now will save you considerable money over switching later and will help ensure that no work will need to be redone to meet LandScale requirements.
                                                                             </p>
-                                                                            <p class="custom-font-style-sub-text custom-text-primary">
+                                                                            <p class="font-text text-primary">
                                                                                 The Powered by LandScale package is for those that are not yet sure what their ultimate goal is for using the platform but want to get started with the option to switch later and publish their results (if requirements are met). If you are still not sure which package is best for you, then please contact us to discuss your needs.
                                                                             </p>
-                                                                            <p class="custom-font-style-sub-text custom-text-primary">
+                                                                            <p class="font-text text-primary">
                                                                                 We also offer multi-landscape packages and welcome discussions with any organization or partnership that would like a customized package, including customizing the functions of the platform.
                                                                             </p>
                                                                         </div>
@@ -197,19 +197,19 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                     <div class="d-flex justify-content-center align-items-center mt-5 w-100">
                                                                         <div>
                                                                             <div class="p-5 mr-4 payment-plan-card">
-                                                                                <span class="w-100 custom-font-style-sub-text custom-text-primary d-inline-block text-center">
+                                                                                <span class="w-100 font-text text-primary d-inline-block text-center">
                                                                                     <span class="font-weight-bold">Powered</span> By LandScale
                                                                                 </span>
                                                                                 <div class="text-center my-3">
-                                                                                    <span class="custom-bg-cyan custom-text-light-pale w-135px py-3 custom-border-radius-50 custom-font-style-large d-inline-block">
+                                                                                    <span class="bg-secondary text-light-primary w-135px py-3 br-50 font-lg d-inline-block">
                                                                                         $7.5K
                                                                                     </span>
                                                                                 </div>
-                                                                                <span class="w-100 d-inline-block text-center custom-font-style-sub-text custom-text-primary">
+                                                                                <span class="w-100 d-inline-block text-center font-text text-primary">
                                                                                     per assessment, per landscape
                                                                                 </span>
                                                                                 <div class="mt-5">
-                                                                                    <ul class="listings custom-font-style-sub-text custom-text-primary lh-25">
+                                                                                    <ul class="listings font-text text-primary lh-25">
                                                                                         <li>
                                                                                             Access to LandScale’s online platform.
                                                                                         </li>
@@ -233,7 +233,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                 </div>
                                                                             </div>
 
-                                                                            <div class="plan-note custom-font-family custom-text-primary custom-font-style-sub-text">
+                                                                            <div class="plan-note font-family-roboto text-primary font-text">
                                                                                 <span class="d-block mb-2">
                                                                                     Note:
                                                                                 </span>
@@ -243,19 +243,19 @@ License: You must have a valid license purchased only from themeforest(the above
 
                                                                         <div>
                                                                             <div class="card p-5 mr-4 payment-plan-card">
-                                                                                <span class="custom-font-style-sub-text custom-text-primary d-inline-block text-center">
+                                                                                <span class="font-text text-primary d-inline-block text-center">
                                                                                     <span class="font-weight-bold">Validated</span> By LandScale
                                                                                 </span>
                                                                                 <div class="text-center my-3">
-                                                                                    <span class="custom-bg-cyan custom-text-light-pale w-135px py-3 custom-border-radius-50 custom-font-style-large d-inline-block">
+                                                                                    <span class="bg-secondary text-light-primary w-135px py-3 br-50 font-lg d-inline-block">
                                                                                         $15K
                                                                                     </span>
                                                                                 </div>
-                                                                                <span class="d-inline-block text-center custom-font-style-sub-text custom-text-primary">
+                                                                                <span class="d-inline-block text-center font-text text-primary">
                                                                                     per assessment, per landscape
                                                                                 </span>
                                                                                 <div class="mt-5">
-                                                                                    <ul class="listings custom-font-style-sub-text custom-text-primary lh-25">
+                                                                                    <ul class="listings font-text text-primary lh-25">
                                                                                         <li>
                                                                                             Access to LandScale’s online platform
                                                                                         </li>
@@ -293,7 +293,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                     </ul>
                                                                                 </div>
                                                                             </div>
-                                                                            <div class="plan-note custom-font-family custom-text-primary custom-font-style-sub-text">
+                                                                            <div class="plan-note font-family-roboto text-primary font-text">
                                                                                 <span class="d-block mb-2">
                                                                                     Note:
                                                                                 </span>
@@ -305,13 +305,13 @@ License: You must have a valid license purchased only from themeforest(the above
 
                                                                     <div class="mt-10 d-flex justify-content-between align-items-center custom-margin">
                                                                         <div class="assesment-responsive">
-                                                                            <a href="./boundary.php" id="back-btn" class="custom-bg-grey custom-text-primary d-inline-block custom-border-radius-35 border-0 px-8 py-2" data-wizard-type="action-prev">
+                                                                            <a href="./boundary.php" id="back-btn" class="btn-grey c-btn-sm d-flex align-items-center justify-content-center" data-wizard-type="action-prev">
                                                                                 Back
                                                                             </a>
                                                                         </div>
                                                                         <div class="assesment-responsive-btn-block">
-                                                                            <!-- <a href="./payment_plan.php" id="next-btn" class="custom-bg-primary custom-text-light-pale d-inline-block custom-border-radius-35 border-0 px-8 py-2 mr-2" data-wizard-type="action-next">Next</a> -->
-                                                                            <button type="button" id="save-btn" class="custom-bg-warning custom-text-primary custom-text-primary d-inline-block custom-border-radius-35 border-0 px-8 py-2">
+                                                                            <!-- <a href="./payment_plan.php" id="next-btn" class="bg-primary text-light-primary d-inline-block br-35 border-0 px-8 py-2 mr-2" data-wizard-type="action-next">Next</a> -->
+                                                                            <button type="button" id="save-btn" class="c-btn-success c-btn-sm d-flex align-items-center justify-content-center">
                                                                                 Save
                                                                             </button>
                                                                         </div>
@@ -343,12 +343,12 @@ License: You must have a valid license purchased only from themeforest(the above
     </div>
     <!--end::Main-->
     <!-- begin help center btn-->
-    <div class="btn-help-center-wrapper custom-cursor-pointer">
+    <div class="btn-help-center-wrapper cursor-pointer">
         <div class="btn-dropdown btn-lg mr-1 d-flex align-items-center" id="kt_quick_cart_toggle">
             <span class="btn-help-icon">
                 <i class="icn-question icn-3x mt-2 mx-2"></i>
             </span>
-            <span class="btn-help-toggle custom-font-style-sub-text p-6 bg-light d-none">
+            <span class="btn-help-toggle font-text p-6 bg-light d-none">
                 Help Center
             </span>
         </div>

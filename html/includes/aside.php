@@ -48,7 +48,7 @@
                         <i class="menu-arrow"></i>
                         <!-- menu-subnav py-0  brt-50 -->
                         <ul class="menu-subnav pt-0  brt-50">
-                            <li class="menu-item menu-item-parent brt-50 brb-50 bg-primary custom-height-58" aria-haspopup="true">
+                            <li class="menu-item menu-item-parent brt-50 brb-50 bg-primary h-58px" aria-haspopup="true">
                                 <span class="menu-link p-5" style="height: auto!important;">
                                     <span class="menu-text m-1 text-light"><a href="./index.php" class="text-light">Assesments Dashboard</a></span>
                                 </span>
@@ -104,7 +104,7 @@
                     <div class="menu-submenu bg-light-primary brt-50">
                         <i class="menu-arrow"></i>
                         <ul class="menu-subnav pt-0  brt-50">
-                            <li class="menu-item menu-item-parent brt-50 brb-50  bg-primary custom-height-59" aria-haspopup="true">
+                            <li class="menu-item menu-item-parent brt-50 brb-50  bg-primary h-59px" aria-haspopup="true">
                                 <span class="menu-link p-5" style="height: auto!important;">
                                     <span class="menu-text m-1 text-light"><a href="./dashboard_with_square_cornors.php" class="text-light">Assesments</a></span>
                                 </span>
@@ -197,7 +197,7 @@
                         <i class="menu-arrow"></i>
                         
                         <ul class="menu-subnav pt-0  brt-50">
-                            <li class="menu-item menu-item-parent brt-50 brb-50  bg-primary custom-height-59" aria-haspopup="true">
+                            <li class="menu-item menu-item-parent brt-50 brb-50  bg-primary h-59px" aria-haspopup="true">
                                 <span class="menu-link p-5" style="height: auto!important;">
                                     <span class="menu-text m-1 text-light"><a href="./favorite_asssesment.php" class="text-light">Explore Landscapes</a></span>
                                 </span>
@@ -246,10 +246,10 @@
                         </span>
                         <span class="menu-text menu-text-opened">Help Center</span>
                     </a>
-                    <div class="menu-submenu custom-bg-primary pb-0 mb-0 brt-50 brb-50">
+                    <div class="menu-submenu bg-primary pb-0 mb-0 brt-50 brb-50">
                         <i class="menu-arrow"></i>
                         <ul class="menu-subnav py-0  brt-50">
-                            <li class="menu-item menu-item-parent brt-50 brb-50 bg-primary custom-height-59" aria-haspopup="true">
+                            <li class="menu-item menu-item-parent brt-50 brb-50 bg-primary h-59px" aria-haspopup="true">
                                 <span class="menu-link p-5" style="height: auto!important;">
                                     <span class="menu-text m-1 text-light" id="kt_quick_cart_toggle_span"><a href="#" class="text-light">Help Center</a></span>
                                 </span>

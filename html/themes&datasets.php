@@ -132,8 +132,8 @@ License: You must have a valid license purchased only from themeforest(the above
                     <!--begin::Subheader-->
                     <div class="container">
                         <div class="py-5">
-                            <a href="#" class="custom-font-style-text custom-text-grey">Assessments /</a>
-                            <span class="custom-font-style-text custom-text-primary">Demo-LR Shayan</span>
+                            <a href="#" class="font-text text-secondary">Assessments /</a>
+                            <span class="font-text text-primary">Demo-LR Shayan</span>
                         </div>
                         <div class="row">
                             <div class="col-md-12">
@@ -145,11 +145,11 @@ License: You must have a valid license purchased only from themeforest(the above
                                             </div>
                                         </div>
                                         <div class="col-md-12 mt-17">
-                                            <span class="custom-font-style-headings custom-text-primary">Step 4: Data Tasks & Results</span>
+                                            <span class="font-heading text-primary">Step 4: Data Tasks & Results</span>
                                             <!-- <div class="d-flex justify-content-between align-items-center">
                                                 <span>
-                                                    <a href="./metric_result.php" class="custom-bg-warning custom-border-radius-35 custom-text-primary custom-font-style-small p-2">Metrics Result</a>
-                                                    <a href="./validation_results.php" class="custom-bg-warning custom-border-radius-35 custom-text-primary custom-font-style-small p-2">Result validation</a>
+                                                    <a href="./metric_result.php" class="bg-success br-35 text-primary font-small p-2">Metrics Result</a>
+                                                    <a href="./validation_results.php" class="bg-success br-35 text-primary font-small p-2">Result validation</a>
                                                 </span>
                                             </div> -->
                                         </div>
@@ -157,17 +157,17 @@ License: You must have a valid license purchased only from themeforest(the above
 
                                     <div class="row mt-7">
                                         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                                            <div class="custom-bg-light-pale custom-border-radius-15 custom-border-color-pale h-100 p-6">
+                                            <div class="bg-light-primary br-15 border-color-pale h-100 p-6">
                                                 <div class="d-flex justify-content-between">
-                                                    <span class="custom-font-style-subheadings custom-text-primary d-block mb-1">Data Themes & Datasets</span>
-                                                    <!-- <a class="custom-bg-warning custom-border-radius-35 text-center px-5 py-2 align-items-center custom-cursor-pointer" data-toggle="modal" data-target="#myModal">
-                                                        <span class="custom-text-primary">View Instructions</span>
+                                                    <span class="font-subheading text-primary d-block mb-1">Data Themes & Datasets</span>
+                                                    <!-- <a class="bg-success br-35 text-center px-5 py-2 align-items-center cursor-pointer" data-toggle="modal" data-target="#myModal">
+                                                        <span class="text-primary">View Instructions</span>
                                                     </a> -->
                                                 </div>
-                                                <span data-toggle="collapse" data-target="#demo" class="custom-font-style-subtext custom-text-primary d-block my-5 custom-cursor-pointer">View Instructions <img src="../assets/media/arrow_down.png" alt=""></span>
+                                                <span data-toggle="collapse" data-target="#demo" class="custom-font-style-subtext text-primary d-block my-5 cursor-pointer">View Instructions <img src="../assets/media/arrow_down.png" alt=""></span>
 
                                                 <div id="demo" class="collapse mb-2">
-                                                    <p class="custom-font-style-subtext custom-text-primary">
+                                                    <p class="custom-font-style-subtext text-primary">
                                                         Below, you may begin with either specifying a data theme or a dataset. Data themes are descriptions of data requirements for measuring metrics and so are a logical starting point. datasets are specific datasets that fuflill the requirements of one or more data themes. Every metric will require at least one data theme and source, many require multiples of these.
 
                                                         If you already have known datasets and simply wish to begin inventorying them, you may select "Add dataset" which will prompt you for the level of the framework you wish to associate it to and provide basic information about it. The dataset will then remain in your inventory for you to later associate it with a data theme.
@@ -175,12 +175,12 @@ License: You must have a valid license purchased only from themeforest(the above
                                                         The main task is to define all data themes needed to measure the metrics. For example, measuring area and proportion of ecosystem types within protected areas requires an ecosystem map and a protected area map. Because those particular data themes are used in multiple metrics, you can choose which level of the framework to associate them to, in this case, they could be associated to all of pillar 1 or to goals 1.1. and 1.2 within that pillar. Finally you will associate the theme to each relevant metric which will automatically populate the selected dataset.
                                                     </p>
                                                 </div>
-                                                <table class="table steps-table-radius custom-step-table-radius steps-custom-margin-top border-custom mt-5">
-                                                    <thead class="steps-table-header-color">
+                                                <table class="table table-vertical-center table-dark-pale border-light-primary">
+                                                    <thead>
                                                         <tr>
-                                                            <th class="custom-font-style-subheadings custom-text-primary" scope="col">Pillars</th>
-                                                            <th class="custom-font-style-subheadings custom-text-primary" scope="col">Metrics with suitable dataset</th>
-                                                            <th class="custom-font-style-subheadings custom-text-primary" scope="col">Metrics without suitable dataset</th>
+                                                            <th class="font-subheading text-primary" scope="col">Pillars</th>
+                                                            <th class="font-subheading text-primary" scope="col">Metrics with suitable dataset</th>
+                                                            <th class="font-subheading text-primary" scope="col">Metrics without suitable dataset</th>
                                                         </tr>
                                                     </thead>
                                                     <tbody class="bg-white">
@@ -227,21 +227,21 @@ License: You must have a valid license purchased only from themeforest(the above
 
                                                             <!-- Modal footer -->
                                                             <div class="modal-footer p-2">
-                                                                <button type="button" class="custom-bg-primary px-3 py-2 custom-border-radius-35 custom-text-light-pale border-0" data-dismiss="modal">Close</button>
+                                                                <button type="button" class="bg-primary px-3 py-2 br-35 text-light-primary border-0" data-dismiss="modal">Close</button>
                                                             </div>
 
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <!-- <span data-toggle="collapse" data-target="#demo" class="custom-font-style-text custom-text-primary d-block my-5 custom-cursor-pointer">Progress Report <img src="../assets/media/arrow_down.png" alt=""></span>
+                                                <!-- <span data-toggle="collapse" data-target="#demo" class="font-text text-primary d-block my-5 cursor-pointer">Progress Report <img src="../assets/media/arrow_down.png" alt=""></span>
 
                                                 <div id="demo" class="collapse mb-2">
-                                                    <table class="table steps-table-radius custom-step-table-radius steps-custom-margin-top border-custom">
-                                                        <thead class="steps-table-header-color">
+                                                    <table class="table table-vertical-center table-dark-pale border-light-primary">
+                                                        <thead>
                                                             <tr>
-                                                                <th class="custom-font-style-subheadings custom-text-primary" scope="col">Pillars</th>
-                                                                <th class="custom-font-style-subheadings custom-text-primary" scope="col">Metrics with suitable dataset</th>
-                                                                <th class="custom-font-style-subheadings custom-text-primary" scope="col">Metrics without suitable dataset</th>
+                                                                <th class="font-subheading text-primary" scope="col">Pillars</th>
+                                                                <th class="font-subheading text-primary" scope="col">Metrics with suitable dataset</th>
+                                                                <th class="font-subheading text-primary" scope="col">Metrics without suitable dataset</th>
                                                             </tr>
                                                         </thead>
                                                         <tbody class="bg-white">
@@ -268,8 +268,8 @@ License: You must have a valid license purchased only from themeforest(the above
                                                         </tbody>
                                                     </table>
                                                 </div> -->
-                                                <!-- <span class="custom-bg-primary p-2 custom-border-radius-4 d-inline-block mt-1">
-                                                    <span class="custom-text-light-pale">Approved</span>
+                                                <!-- <span class="bg-primary p-2 br-4 d-inline-block mt-1">
+                                                    <span class="text-light-primary">Approved</span>
                                                 </span> -->
                                             </div>
                                         </div>
@@ -277,31 +277,31 @@ License: You must have a valid license purchased only from themeforest(the above
                                             <div class="card-wrapper h-100 p-5">
                                                 <div class="row">
                                                     <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 responsive-margin-card">
-                                                        <div class="p-5 custom-bg-light-pale custom-border-radius-15 text-center h-100 custom-cursor-pointer">
+                                                        <div class="p-5 bg-light-primary br-15 text-center h-100 cursor-pointer">
                                                             <div class="my-2">
                                                                 <i class="icn-reference-library icn-3x"></i>
                                                             </div>
-                                                            <span class="custom-font-style-sub-text mb-2">
+                                                            <span class="font-subtext mb-2">
                                                                 Reference Library
                                                             </span>
                                                         </div>
                                                     </div>
                                                     <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 my-5-res">
-                                                        <div class="p-5 custom-bg-light-pale text-center custom-border-radius-15 h-100 custom-cursor-pointer">
+                                                        <div class="p-5 bg-light-primary text-center br-15 h-100 cursor-pointer">
                                                             <div class="my-2">
                                                                 <i class="icn-image-gallery icn-3x"></i>
                                                             </div>
-                                                            <span class="custom-font-style-sub-text mb-2">
+                                                            <span class="font-subtext mb-2">
                                                                 Image Galary
                                                             </span>
                                                         </div>
                                                     </div>
                                                     <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 responsive-margin-card">
-                                                        <div class="p-5 custom-bg-light-pale text-center custom-border-radius-15 h-100 custom-cursor-pointer">
+                                                        <div class="p-5 bg-light-primary text-center br-15 h-100 cursor-pointer">
                                                             <div class="my-2">
                                                                 <i class="icn-help icn-3x"></i>
                                                             </div>
-                                                            <span class="custom-font-style-sub-text mb-2">
+                                                            <span class="font-subtext mb-2">
                                                                 Need Help
                                                             </span>
                                                         </div>
@@ -309,32 +309,32 @@ License: You must have a valid license purchased only from themeforest(the above
                                                 </div>
                                                 <div class="row my-5-res" style="margin-top: 20px;">
                                                     <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 responsive-margin-card">
-                                                        <div class="p-5 custom-bg-light-pale text-center custom-border-radius-15 h-100 custom-cursor-pointer">
+                                                        <div class="p-5 bg-light-primary text-center br-15 h-100 cursor-pointer">
                                                             <div class="my-2">
                                                                 <i class="icn-phone-book icn-3x"></i>
 
                                                             </div>
-                                                            <span class="custom-font-style-sub-text mb-2">
+                                                            <span class="font-subtext mb-2">
                                                                 Current Plan
                                                             </span>
                                                         </div>
                                                     </div>
                                                     <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 my-5-res">
-                                                        <div class="p-5 custom-bg-light-pale text-center custom-border-radius-15 h-100 custom-cursor-pointer">
+                                                        <div class="p-5 bg-light-primary text-center br-15 h-100 cursor-pointer">
                                                             <div class="my-2">
                                                                 <i class="icn-team icn-3x"></i>
                                                             </div>
-                                                            <span class="custom-font-style-sub-text mb-2">
+                                                            <span class="font-subtext mb-2">
                                                                 Our Team
                                                             </span>
                                                         </div>
                                                     </div>
                                                     <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 responsive-margin-card">
-                                                        <div class="p-5 custom-bg-light-pale text-center custom-border-radius-15 h-100 custom-cursor-pointer">
+                                                        <div class="p-5 bg-light-primary text-center br-15 h-100 cursor-pointer">
                                                             <div class="my-2">
                                                                 <i class="icn-hand-shake icn-3x"></i>
                                                             </div>
-                                                            <span class="custom-font-style-sub-text mb-2">
+                                                            <span class="font-subtext mb-2">
                                                                 Partners
                                                             </span>
                                                         </div>
@@ -342,23 +342,23 @@ License: You must have a valid license purchased only from themeforest(the above
                                                 </div>
                                                 <div class="row my-5-res" style="margin-top: 20px;">
                                                     <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 responsive-margin-card">
-                                                        <div class="p-5 custom-bg-light-pale text-center custom-border-radius-15 h-100 custom-cursor-pointer">
+                                                        <div class="p-5 bg-light-primary text-center br-15 h-100 cursor-pointer">
                                                             <div class="my-2">
                                                                 <i class="icn-hand-shake icn-3x"></i>
 
                                                             </div>
-                                                            <span class="custom-font-style-sub-text mb-2">
-                                                                <a href="./metric_result.php" class="custom-text-primary custom-font-style-small p-2">Metrics Result</a>
+                                                            <span class="font-subtext mb-2">
+                                                                <a href="./metric_result.php" class="text-primary font-small p-2">Metrics Result</a>
                                                             </span>
                                                         </div>
                                                     </div>
                                                     <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 my-5-res">
-                                                        <div class="p-5 custom-bg-light-pale text-center custom-border-radius-15 h-100 custom-cursor-pointer">
+                                                        <div class="p-5 bg-light-primary text-center br-15 h-100 cursor-pointer">
                                                             <div class="my-2">
                                                                 <i class="icn-reference-library icn-3x"></i>
                                                             </div>
-                                                            <span class="custom-font-style-sub-text mb-2">
-                                                                <a href="./validation_results.php" class="custom-text-primary custom-font-style-small p-2">Result validation</a>
+                                                            <span class="font-subtext mb-2">
+                                                                <a href="./validation_results.php" class="text-primary font-small p-2">Result validation</a>
                                                             </span>
                                                         </div>
                                                     </div>
@@ -368,19 +368,19 @@ License: You must have a valid license purchased only from themeforest(the above
                                     </div>
                                     <div class="row mt-7">
                                         <div class="col-md-12">
-                                            <div class="custom-border-color-pale custom-border-radius-15 p-10">
+                                            <div class="border-color-pale br-15 p-10">
                                                 <div class="d-flex justify-content-center align-items-center">
-                                                    <a href="#" class="custom-bg-warning custom-text-primary custom-border-radius-35 d-inline-block w-200px text-center p-4 w-50 mr-1">Data themes manager</a>
-                                                    <a href="#" class="custom-bg-warning custom-text-primary custom-border-radius-35 d-inline-block w-200px text-center p-4 w-50">Dataset manager</a>
+                                                    <a href="#" class="c-btn-success c-btn-lg mr-1">Data themes manager</a>
+                                                    <a href="#" class="c-btn-success c-btn-lg">Dataset manager</a>
 
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="row custom-border-color-pale custom-border-radius-15 mx-0 mt-5">
+                                    <div class="row border-color-pale br-15 mx-0 mt-5">
                                         <div class="col-md-3 col-sm-12 col-xs-12 pr-0 mt-7 max-w-20-percent" id="inner-side-nav">
 
-                                            <!-- <div class="custom-font-style-subheadings custom-text-primary p-5">
+                                            <!-- <div class="font-subheading text-primary p-5">
                                                 Custom Pillars
                                             </div> -->
                                             <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
@@ -451,8 +451,8 @@ License: You must have a valid license purchased only from themeforest(the above
                                                 </a>
                                             </div>
                                         </div>
-                                        <div class="col-md-12 col-sm-12 col-xs-12 custom-bg-light-pale custom-btrr-15 custom-bbrr-15 max-w-80-percent" id="inner-side-main">
-                                            <button class="ml-5 bg-transparent border-0 custom-border-radius-15 mt-5 p-2" onclick="toggleAside()">
+                                        <div class="col-md-12 col-sm-12 col-xs-12 bg-light-primary btrr-15 bbrr-15 max-w-80-percent" id="inner-side-main">
+                                            <button class="ml-5 bg-transparent border-0 br-15 mt-5 p-2" onclick="toggleAside()">
                                                 <span class="svg-icon-2x">
                                                     <svg width="20" height="20" viewBox="0 0 35 21" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                         <path d="M1.58338 11.7313C0.674149 11.6539 -0.0142253 11.013 0.000223303 10.176C0.00847967 9.6971 0.243786 9.19139 0.620483 8.8921C1.24074 8.40085 2.20158 8.60519 2.93433 8.60519C3.9509 8.60519 4.96746 8.60622 5.98403 8.60726C9.96979 8.60726 13.9555 8.60829 17.9413 8.60726C21.1293 8.60622 24.3163 8.60622 27.5042 8.60519C29.0977 8.60519 30.6922 8.60416 32.2857 8.60416C33.0123 8.60416 33.7234 8.47309 34.3354 8.92409C34.7884 9.25848 35 9.67336 35 10.2286C34.902 11.0656 34.2869 11.6508 33.485 11.7313C33.4457 11.7323 33.4065 11.7323 33.3673 11.7333C29.7747 11.7302 26.1812 11.724 22.5886 11.724C15.6264 11.7251 8.66425 11.7302 1.70207 11.7333C1.66182 11.7333 1.6226 11.7323 1.58338 11.7313Z" fill="#4C94A0"></path>
@@ -476,7 +476,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                     </div>
                                                                     <div class="col-lg-10 col-md-10 col-sm-12 col-xs-12 pl-0">
                                                                         <div class="d-flex align-items-center h-100">
-                                                                            <h5 class="mb-0 d-inline custom-text-primary">
+                                                                            <h5 class="mb-0 d-inline text-primary">
                                                                                 1.1 Conserve and restore natural ecosystems
                                                                             </h5>
                                                                         </div>
@@ -488,7 +488,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                             </div>
                                                             <div id="collapseOne" class="collapse" aria-labelledby="headingOne">
                                                                 <div id="child1">
-                                                                    <div class="custom-text-primary">
+                                                                    <div class="text-primary">
                                                                         <div class="card-header pl-12 pr-22 py-5 d-flex justify-content-between align-items-center" data-toggle="collapse" data-target="#collapseOneA">
                                                                             <span>1.1.1 Effective conservation and protection of natural ecosystems</span>
                                                                             <i class="fas fa-chevron-down"></i>
@@ -509,7 +509,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                             </div>
                                                                         </div>
                                                                     </div>
-                                                                    <div class="custom-text-primary">
+                                                                    <div class="text-primary">
                                                                         <div class="card-header pl-12 py-5 pr-22 d-flex justify-content-between align-items-center" data-toggle="collapse" data-target="#collapseOne2">
                                                                             <span>1.1.2 Natural ecosystem conversion</span>
                                                                             <i class="fas fa-chevron-down"></i>
@@ -535,7 +535,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                         </div>
                                                     </div>
                                                     <!-- <div id="accordion" class="mt-7">
-                                                        <div class="custom-bg-white p-5">
+                                                        <div class="bg-white p-5">
                                                             <div id="headingOne" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                                                                 <h5 class="mb-0 d-inline">
                                                                     1.1 Conserve and restore natural ecosystems
@@ -586,8 +586,8 @@ License: You must have a valid license purchased only from themeforest(the above
                                                 </div>
                                                 <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
                                                     <div class="d-flex flex-column justify-content-center align-items-center p-5" style="height: 20rem;">
-                                                        <h6 class="custom-text-primary">Pillar not ready yet</h6>
-                                                        <p class="custom-text-primary">
+                                                        <h6 class="text-primary">Pillar not ready yet</h6>
+                                                        <p class="text-primary">
                                                             You may not enter metric result for this pillar untill the pillar is completed and validated in step 3
                                                             and you have a suitable dataset associated
                                                         </p>
@@ -595,8 +595,8 @@ License: You must have a valid license purchased only from themeforest(the above
                                                 </div>
                                                 <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
                                                     <div class="d-flex flex-column justify-content-center align-items-center p-5" style="height: 20rem;">
-                                                        <h6 class="custom-text-primary">Pillar not ready yet</h6>
-                                                        <p class="custom-text-primary">
+                                                        <h6 class="text-primary">Pillar not ready yet</h6>
+                                                        <p class="text-primary">
                                                             You may not enter metric result for this pillar untill the pillar is completed and validated in step 3
                                                             and you have a suitable dataset associated
                                                         </p>
@@ -604,8 +604,8 @@ License: You must have a valid license purchased only from themeforest(the above
                                                 </div>
                                                 <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">
                                                     <div class="d-flex flex-column justify-content-center align-items-center p-5" style="height: 20rem;">
-                                                        <h6 class="custom-text-primary">Pillar not ready yet</h6>
-                                                        <p class="custom-text-primary">
+                                                        <h6 class="text-primary">Pillar not ready yet</h6>
+                                                        <p class="text-primary">
                                                             You may not enter metric result for this pillar untill the pillar is completed and validated in step 3
                                                             and you have a suitable dataset associated
                                                         </p>
@@ -630,12 +630,12 @@ License: You must have a valid license purchased only from themeforest(the above
     </div>
     <!--end::Main-->
     <!-- begin help center btn-->
-    <div class="btn-help-center-wrapper custom-cursor-pointer">
+    <div class="btn-help-center-wrapper cursor-pointer">
         <div class="btn-dropdown btn-lg mr-1 d-flex align-items-center" id="kt_quick_cart_toggle">
             <span class="btn-help-icon">
                 <i class="icn-question icn-3x mt-2 mx-2"></i>
             </span>
-            <span class="btn-help-toggle custom-font-style-sub-text p-6 bg-light d-none">
+            <span class="btn-help-toggle font-text p-6 bg-light d-none">
                 Help Center
             </span>
         </div>
