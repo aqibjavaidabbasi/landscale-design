@@ -132,76 +132,282 @@ License: You must have a valid license purchased only from themeforest(the above
                     <!--begin::Subheader-->
                     <div class="container w-75">
 
-                        <div class="row mt-5">
-                            <div class="col-md-12">
-                                <h3 class="custom-text-primary custom-font-style-heading font-weight-bolder text-center">ABOUT</h3>
-                                <div class="px-15 mt-7">
-                                    <p class="custom-text-primary custom-font-style-sub-text lh-20 text-center">
-                                        LandScale is a collaborative effort to drive improvements at scale by making reliable information about landscape
-                                        sustainability widely available to decision-makers. To find out more about the initiative, visit
-                                        <a href="https://www.landscale.org/initiative/" style="text-decoration: underline; color: blue;">https://www.landscale.org/initiative/</a>.
-                                    </p>
-                                    <p class="custom-text-primary custom-font-style-sub-text lh-20 text-center">
-                                        The LandScale platform is the collaborative workspace the teams conducting LandScale assessments use to put
-                                        together their reports. It is also the best place to browse and find results from assessments across the world.
-                                    </p>
-                                    <p class="custom-text-primary custom-font-style-sub-text lh-20 text-center">
-                                        To keep up with the latest updates to the LandScale platform, visit <a href="https://platform.landscale.org/landscaleplatform" style="text-decoration: underline; color: blue;">https://platform.landscale.org/landscaleplatform </a>.
-                                        If you have any questions for the LandScale team, browse our Help Center or contact us using the form below.
-                                    </p>
+                        <div class="row">
+                            <div class="col-lg-9 col-md-12 col-sm-12 col-xs-12">
+                                <div class="row mt-5">
+                                    <div class="col-md-12">
+                                        <h3 class="custom-text-primary custom-font-style-heading font-weight-bolder text-center">ABOUT</h3>
+                                        <div class="px-15 mt-10">
+                                            <p class="custom-text-primary custom-font-style-sub-text lh-20 text-center">
+                                                LandScale is a collaborative effort to drive improvements at scale by making reliable information about landscape
+                                                sustainability widely available to decision-makers. To find out more about the initiative, visit
+                                                <a href="https://www.landscale.org/initiative/" style="text-decoration: underline; color: blue;">https://www.landscale.org/initiative/</a>.
+                                            </p>
+                                            <p class="custom-text-primary custom-font-style-sub-text lh-20 text-center">
+                                                The LandScale platform is the collaborative workspace the teams conducting LandScale assessments use to put
+                                                together their reports. It is also the best place to browse and find results from assessments across the world.
+                                            </p>
+                                            <p class="custom-text-primary custom-font-style-sub-text lh-20 text-center">
+                                                To keep up with the latest updates to the LandScale platform, visit <a href="https://platform.landscale.org/landscaleplatform" style="text-decoration: underline; color: blue;">https://platform.landscale.org/landscaleplatform </a>.
+                                                If you have any questions for the LandScale team, browse our Help Center or contact us using the form below.
+                                            </p>
+                                        </div>
+                                    </div>
                                 </div>
-                            </div>
-                        </div>
 
-                        <div class="row mt-7">
-                            <div class="col-md-12">
-                                <div class="d-flex justify-content-center">
-                                    <img alt="Logo" id="menu_open_img" class="w-25" src="../assets/media/logo/FullColour/Landscale Logo_Full_Colour.png">
+                                <div class="row mt-7">
+                                    <div class="col-md-12">
+                                        <div class="d-flex justify-content-center">
+                                            <img alt="Logo" id="menu_open_img" class="w-25" src="../assets/media/logo/FullColour/Landscale Logo_Full_Colour.png">
+                                        </div>
+                                        <span class="custom-font-style-text custom-text-primary text-center d-inline-block w-100 my-10">
+                                            A initiative by
+                                        </span>
+                                        <div class="d-flex justify-content-center align-items-center px-10">
+                                            <img alt="Logo" id="menu_open_img" height="50px" class="mr-5" src="../assets/media/logo/rainforest-logo.png">
+                                            <img alt="Logo" id="menu_open_img" height="50px" class="ml-5" src="../assets/media/logo/conservation-logo.png">
+                                        </div>
+                                        <span class="custom-font-style-text custom-text-primary text-center d-inline-block w-100 my-10">
+                                            Built by
+                                        </span>
+                                        <div class="d-flex justify-content-center mt-2">
+                                            <img alt="Logo" id="menu_open_img" height="50px" src="../assets/media/logo/EII-logo.png">
+                                        </div>
+                                    </div>
                                 </div>
-                                <span class="custom-font-style-text custom-text-primary text-center d-inline-block w-100">
-                                    A initiative by
-                                </span>
-                                <div class="d-flex justify-content-center align-items-center my-5 px-10">
-                                    <img alt="Logo" id="menu_open_img" height="50px" class="mr-5" src="../assets/media/logo/rainforest-logo.png">
-                                    <img alt="Logo" id="menu_open_img" height="50px" class="ml-5" src="../assets/media/logo/conservation-logo.png">
-                                </div>
-                                <span class="custom-font-style-text custom-text-primary text-center d-inline-block w-100">
-                                    Built by
-                                </span>
-                                <div class="d-flex justify-content-center mt-2">
-                                    <img alt="Logo" id="menu_open_img" height="50px" src="../assets/media/logo/EII-logo.png">
-                                </div>
-                            </div>
-                        </div>
 
-                        <div class="row mt-10 mb-10 ">
-                            <div class="col-md-12">
-                                <h3 class="custom-text-primary custom-font-style-heading font-weight-bolder text-center">Contact us</h3>
-                                <div class="px-15 mt-7">
-                                    <p class="custom-text-primary custom-font-style-sub-text lh-20 text-center">
-                                        Please create a new issue below to open a conversation with us. You can submit an issue about any technical challenges, problems or questions about the system and guidelines and all suggestions or ideas you want to share with us.
-                                    </p>
-                                    <div class="mt-15">
-                                        <form action="">
-                                            <label class="custom-text-primary custom-font-style-small font-weight-bold" for="inquiry">Please select the nature of inquiry*</label>
-                                            <div class="select-wrapper">
-                                                <select name="indicator_filter" id="inquiry" class="form-control custom-bg-primary text-light custom-select-arrow">
-                                                    <option value="1">Platform Change</option>
-                                                    <option value="2">Technical Difficulties</option>
-                                                    <option value="3">Problem With Assessments</option>
-                                                    <option value="4">Ideas And Suggestion</option>
-                                                </select>
+                                <div class="row mt-10 mb-10 ">
+                                    <div class="col-md-12">
+                                        <h3 class="custom-text-primary custom-font-style-heading font-weight-bolder text-center my-10">Contact us</h3>
+                                        <p class="custom-text-primary custom-font-style-sub-text lh-20 text-center">
+                                            Please create a new issue below to open a conversation with us. You can submit an issue about any technical challenges, problems or questions about the system and guidelines and all suggestions or ideas you want to share with us.
+                                        </p>
+                                        <div class="d-flex justify-content-center mt-7">
+                                            <div class="mt-15 w-75">
+                                                <form action="">
+                                                    <label class="custom-text-primary custom-font-style-small font-weight-bold" for="inquiry">Please select the nature of inquiry*</label>
+                                                    <div class="select-wrapper">
+                                                        <select name="indicator_filter" id="inquiry" class="form-control custom-bg-primary text-light custom-select-arrow">
+                                                            <option value="">Select inquiry</option>
+                                                            <option value="1">Platform Change</option>
+                                                            <option value="2">Technical Difficulties</option>
+                                                            <option value="3">Problem With Assessments</option>
+                                                            <option value="4">Ideas And Suggestion</option>
+                                                        </select>
+                                                    </div>
+
+                                                    <label class="custom-text-primary custom-font-style-small font-weight-bold mt-5" for="inquiry">Message*</label>
+                                                    <textarea class="form-control custom-bg-light-pale" name="message" id="message" placeholder="Write message here" cols="30" rows="10"></textarea>
+                                                    <div class="mt-10 d-flex justify-content-between align-items-center custom-margin">
+                                                        <div class="assesment-responsive">
+                                                            <a href="#" id="back-btn" class="custom-bg-grey custom-text-primary d-inline-block br-35 border-0 px-8 py-2" data-wizard-type="action-prev">
+                                                                Back
+                                                            </a>
+                                                        </div>
+                                                        <div class="assesment-responsive-btn-block">
+                                                            <button type="button" id="save-btn" class="custom-bg-warning custom-text-primary custom-text-primary d-inline-block br-35 border-0 px-8 py-2">
+                                                                Save
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                </form>
                                             </div>
 
-                                            <label class="custom-text-primary custom-font-style-small font-weight-bold mt-5" for="inquiry">Message*</label>
-                                            <textarea class="form-control custom-bg-light-pale" name="message" id="message" placeholder="Write message here" cols="30" rows="10"></textarea>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-12 col-sm-12 col-xs-12" style="border-left: 1px solid #EBF2E4;">
+                                <div class="mt-10">
+                                    <h3 class="custom-text-primary custom-font-style-text font-weight-bolder pl-12">Important Links</h3>
+                                    <ul class="lh-25" style="list-style: none;">
+                                        <li><a href="#" class="custom-text-primary custom-font-style-sub-text" data-toggle="modal" data-target="#privacy-modal">Privacy Policy</a></li>
+                                        <li><a href="#" class="custom-text-primary custom-font-style-sub-text" data-toggle="modal" data-target="#terms-modal">Terms of Use</a></li>
+                                        <li><a href="#" class="custom-text-primary custom-font-style-sub-text" data-toggle="modal" data-target="#cookie-modal">Cookie Notice</a></li>
+                                        <li><a href="#" class="custom-text-primary custom-font-style-sub-text" data-toggle="modal" data-target="#contact-modal">Contact us</a></li>
 
-                                        </form>
+                                    </ul>
+
+                                </div>
+                            </div>
+                        </div>
+                        <!-- privacy modal -->
+                        <div class="modal fade" id="privacy-modal">
+                            <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-content">
+
+                                    <!-- Modal Header -->
+                                    <div class="modal-header steps-table-header-color">
+                                        <h4 class="modal-title indicator-tab-link custom-text-primary">Privacy Policy</h4>
+                                        <button type="button" class="close text-dark" data-dismiss="modal">&times;</button>
+                                    </div>
+
+                                    <!-- Modal body -->
+                                    <div class="modal-body  custom-text-primary">
+                                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum consequatur beatae sapiente delectus quaerat autem fugiat. Reprehenderit tempore sapiente, voluptate, obcaecati assumenda esse consectetur quibusdam, nesciunt ratione hic vel voluptas!
+                                    </div>
+
+                                    <!-- Modal footer -->
+                                    <div class="modal-footer p-2">
+                                        <button type="button" class="btn custom-bg-primary br-35 text-light" data-dismiss="modal">Close</button>
                                     </div>
 
                                 </div>
                             </div>
                         </div>
+                        <!-- end -->
+
+                        <!-- privacy modal -->
+                        <div class="modal fade" id="terms-modal">
+                            <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-content">
+
+                                    <!-- Modal Header -->
+                                    <div class="modal-header steps-table-header-color">
+                                        <h4 class="modal-title indicator-tab-link custom-text-primary">Terms of Use</h4>
+                                        <button type="button" class="close text-dark" data-dismiss="modal">&times;</button>
+                                    </div>
+
+                                    <!-- Modal body -->
+                                    <div class="modal-body  custom-text-primary">
+                                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum consequatur beatae sapiente delectus quaerat autem fugiat. Reprehenderit tempore sapiente, voluptate, obcaecati assumenda esse consectetur quibusdam, nesciunt ratione hic vel voluptas!
+                                    </div>
+
+                                    <!-- Modal footer -->
+                                    <div class="modal-footer p-2">
+                                        <button type="button" class="btn custom-bg-primary br-35 text-light" data-dismiss="modal">Close</button>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end -->
+
+                        <!-- Terms modal -->
+                        <div class="modal fade" id="terms-modal">
+                            <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-content">
+
+                                    <!-- Modal Header -->
+                                    <div class="modal-header steps-table-header-color">
+                                        <h4 class="modal-title indicator-tab-link custom-text-primary">Terms of Use</h4>
+                                        <button type="button" class="close text-dark" data-dismiss="modal">&times;</button>
+                                    </div>
+
+                                    <!-- Modal body -->
+                                    <div class="modal-body  custom-text-primary">
+                                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum consequatur beatae sapiente delectus quaerat autem fugiat. Reprehenderit tempore sapiente, voluptate, obcaecati assumenda esse consectetur quibusdam, nesciunt ratione hic vel voluptas!
+                                    </div>
+
+                                    <!-- Modal footer -->
+                                    <div class="modal-footer p-2">
+                                        <button type="button" class="btn custom-bg-primary br-35 text-light" data-dismiss="modal">Close</button>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end -->
+
+                        <!-- Cookie modal -->
+                        <div class="modal fade" id="cookie-modal">
+                            <div class="modal-dialog modal-xl modal-dialog-centered">
+                                <div class="modal-content">
+
+                                    <!-- Modal Header -->
+                                    <div class="modal-header steps-table-header-color">
+                                        <h4 class="modal-title indicator-tab-link custom-text-primary">Cookie Notice</h4>
+                                        <button type="button" class="close text-dark" data-dismiss="modal">&times;</button>
+                                    </div>
+
+                                    <!-- Modal body -->
+                                    <div class="modal-body  custom-text-primary px-18">
+                                        <p class="custom-font-style-sub-text custom-text-primary lh-20">
+                                            What are cookies?
+                                        </p>
+                                        <p class="custom-font-style-sub-text custom-text-primary lh-20">
+
+                                            A cookie is a small amount of data generated by a website and saved by your web browser. When you visit or log into a LandScale Site, we may collect information from you automatically through cookies.
+
+                                        </p>
+                                        <p class="custom-font-style-sub-text custom-text-primary lh-20">
+                                            When you visit a LandScale Site, you will receive a one-time cookie pop up consent wherein you are given the opportunity to consent to the use of cookies. Should you decide not to consent to the use of cookies, some functionality and Services related to your use of the site you visit may not work properly.
+                                        </p>
+                                        <p class="custom-font-style-sub-text custom-text-primary lh-20">
+                                            What do we use cookies for?
+                                        </p>
+                                        <p class="custom-font-style-sub-text custom-text-primary lh-20">
+                                            We use cookies in a range of ways to improve your experience on the LandScale Sites, including:
+                                        <ul>
+                                            <li>Understanding how you use the site, and</li>
+                                            <li>To make the site easier to use and to better tailor your experience to your interests and needs.</li>
+                                        </ul>
+                                        </p>
+                                        <p class="custom-font-style-sub-text custom-text-primary lh-20">
+                                            What types of cookies do we use?
+                                        </p>
+                                        <p class="custom-font-style-sub-text custom-text-primary lh-20">
+                                            We use on the LandScale Sites the following types of cookies:
+                                        <ul>
+                                            <li><span class="font-weight-bolder">Technically necessary.</span> These cookies are essential to ensure that our website functions properly. They allow you to navigate through the website and use our functionality.</li>
+                                            <li><span class="font-weight-bolder">Analytics.</span> These cookies help us understand, in the aggregate, how visitors interact with our website by providing information about the pages visited, the time spent on the website, and any problems encountered, such as error messages. This helps us improve website performance. We use Google Analytics to collect analytics information; visitors can opt-out of Google Analytics using the Ads Settings and by using the Google Analytics Opt-out Browser Add-on.</li>
+                                        </ul>
+                                        </p>
+                                    </div>
+
+                                    <!-- Modal footer -->
+                                    <div class="modal-footer p-2">
+                                        <button type="button" class="btn custom-bg-primary br-35 text-light" data-dismiss="modal">Close</button>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Cookie modal -->
+                        <div class="modal fade" id="contact-modal">
+                            <div class="modal-dialog modal-xl modal-dialog-centered">
+                                <div class="modal-content">
+
+                                    <!-- Modal Header -->
+                                    <div class="modal-header steps-table-header-color">
+                                        <h4 class="modal-title indicator-tab-link custom-text-primary">Need Help?</h4>
+                                        <button type="button" class="close text-dark" data-dismiss="modal">&times;</button>
+                                    </div>
+
+                                    <!-- Modal body -->
+                                    <div class="modal-body  custom-text-primary px-18">
+                                        <h6 class="custom-font-style-subheading custom-text-primary lh-20">
+                                            Please try these support options first
+                                        </h6>
+                                        <p class="custom-font-style-sub-text custom-text-primary lh-20">
+                                            LandScale is here to help! If you are experiencing technical problems, need assistance with your assessement or would like to drop a suggestion, why not open an issue via the Help Desk?. You can also check out some of the resources available to you:
+                                        </p>
+                                        <h6 class="custom-font-style-subheading custom-text-primary lh-20">
+                                            Guidelines
+                                        </h6>
+                                        <p class="custom-font-style-sub-text custom-text-primary lh-20">
+                                            The extensive set of guidelines provided detailed instructions and useful tips for each of the five LandScale steps plus several supporting documents and resources. This should be your primary resource for conducting LandScale.
+                                        </p>
+                                        <h6 class="custom-font-style-subheading custom-text-primary lh-20">
+                                            Community of Practice
+                                        </h6>
+                                        <p class="custom-font-style-sub-text custom-text-primary lh-20">
+                                            This Google Group for LandScale users is a great way to ask questions, get input, or offer your own experience. The LandScale team also participates in the group.
+                                        </p>
+
+                                    </div>
+
+                                    <!-- Modal footer -->
+                                    <div class="modal-footer p-2">
+                                        <button type="button" class="btn custom-bg-primary br-35 text-light" data-dismiss="modal">Close</button>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end -->
+
 
                     </div>
                     <!--end::Subheader-->
@@ -210,6 +416,7 @@ License: You must have a valid license purchased only from themeforest(the above
 
             </div>
             <!--end::Wrapper-->
+
         </div>
         <!--end::Page-->
     </div>
@@ -342,6 +549,7 @@ License: You must have a valid license purchased only from themeforest(the above
             element.removeClass('side-icon-bg-dark');
         });
     </script>
+    
     <!-- <script src="https://keenthemes.com/metronic/assets/js/engage_code.js"></script> -->
     <!--end::Global Theme Bundle-->
     <!--begin::Page Scripts(used by this page)-->
