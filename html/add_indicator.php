@@ -132,8 +132,8 @@ License: You must have a valid license purchased only from themeforest(the above
                     <!--begin::Subheader-->
                     <div class="container">
                         <div class="py-5">
-                            <a href="#" class="custom-font-style-text custom-text-grey">Assessments /</a>
-                            <span class="custom-font-style-text custom-text-primary">Demo-LR Shayan</span>
+                            <a href="#" class="font-text text-secondary">Assessments /</a>
+                            <span class="font-text text-primary">Demo-LR Shayan</span>
                         </div>
                         <div class="row">
                             <div class="col-md-12">
@@ -145,32 +145,33 @@ License: You must have a valid license purchased only from themeforest(the above
                                             </div>
                                         </div>
                                         <div class="col-md-12 mt-17">
-                                            <span class="custom-font-style-headings custom-text-primary">Step 3: Indicator & Metrics</span>
+                                            <span class="font-heading text-primary">Step 3: Indicator & Metrics</span>
                                         </div>
                                     </div>
 
                                     <div class="row mt-7 mb-7">
                                         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                                            <div class="custom-bg-light-pale custom-border-radius-15 custom-border-color-pale h-100 p-5">
+                                            <div class="bg-light-primary br-15 border-color-pale h-100 p-5">
                                                 <div class="d-flex justify-content-between align-items-center">
                                                     <div class="d-flex align-items-center">
-                                                        <span class="custom-font-style-subheadings custom-text-primary d-inline-block mr-2">Indicator selection</span>
-                                                        <span class="custom-bg-primary custom-font-style-xs custom-text-light-pale custom-border-radius-4 p-1">Approved</span>
+                                                        <span class="font-subheading text-primary d-inline-block mr-2">Indicator selection</span>
+                                                        <span class="bg-primary font-xs text-light-primary br-4 p-1">Approved</span>
                                                     </div>
-                                                    <a href="./add_metrices.php" class="custom-bg-warning custom-border-radius-35 custom-text-primary custom-font-style-small p-2">Select Metrics</a>
+                                                    <a href="./add_metrices.php" class="c-btn-success c-btn-sm d-flex align-items-center justify-content-center">Select Metrics</a>
+                                                    <!-- <a href="./add_metrices.php" class="bg-success br-35 text-primary font-small p-2">Select Metrics</a> -->
                                                 </div>
                                                 <!-- <span class="steps-default-text steps-small-text d-block my-5">View Instructions</span> -->
-                                                <span data-toggle="collapse" data-target="#demo" class="custom-font-style-subtext custom-text-primary d-block my-5 custom-cursor-pointer">View Instructions <img src="../assets/media/arrow_down.png" alt=""></span>
+                                                <span data-toggle="collapse" data-target="#demo" class="custom-font-style-subtext text-primary d-block my-5 cursor-pointer">View Instructions <img src="../assets/media/arrow_down.png" alt=""></span>
 
                                                 <div id="demo" class="collapse mb-2">
-                                                    <p class="custom-font-style-subtext custom-text-primary">
+                                                    <p class="custom-font-style-subtext text-primary">
                                                         Below you will find the indicators of Ecosystems pillar of the LandScale framework. The Applicability indicates whether the indicator is required to meet the full LandScale requirements or is optional (see guidance for a complete description and explanation of each indicator). Action is required for each indicator. For Landscape-dependent indicators you must determine applicability to your landscape (see guidance). For Core indicators these are required in all landscapes but you may defer these due to data deficiency (as determined in Step 4) or for other reasons that you document. Optional indicators should be marked as included or excluded. Actions to defer, include, or not include are done using the toggle in the Select column below.
                                                     </p>
                                                 </div>
-                                                <span class="custom-font-style-text custom-text-primary d-inline-block">
+                                                <span class="font-text text-primary d-inline-block">
                                                     Notice
                                                 </span>
-                                                <p class="custom-font-style-subtext custom-text-primary">
+                                                <p class="custom-font-style-subtext text-primary">
                                                     the LandScale team
                                                     are validating your step. Please wait
                                                 </p>
@@ -180,31 +181,31 @@ License: You must have a valid license purchased only from themeforest(the above
                                             <div class="card-wrapper h-100 p-5">
                                                 <div class="row">
                                                     <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 responsive-margin-card">
-                                                        <div class="p-5 custom-bg-light-pale custom-border-radius-15 text-center h-100 custom-cursor-pointer">
+                                                        <div class="p-5 bg-light-primary br-15 text-center h-100 cursor-pointer">
                                                             <div class="my-2">
                                                                 <i class="icn-reference-library icn-3x"></i>
                                                             </div>
-                                                            <span class="custom-font-style-sub-text mb-2">
+                                                            <span class="font-text mb-2">
                                                                 Reference Library
                                                             </span>
                                                         </div>
                                                     </div>
                                                     <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 my-5-res">
-                                                        <div class="p-5 custom-bg-light-pale text-center custom-border-radius-15 h-100 custom-cursor-pointer">
+                                                        <div class="p-5 bg-light-primary text-center br-15 h-100 cursor-pointer">
                                                             <div class="my-2">
                                                                 <i class="icn-image-gallery icn-3x"></i>
                                                             </div>
-                                                            <span class="custom-font-style-sub-text mb-2">
+                                                            <span class="font-text mb-2">
                                                                 Image Galary
                                                             </span>
                                                         </div>
                                                     </div>
                                                     <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 responsive-margin-card">
-                                                        <div class="p-5 custom-bg-light-pale text-center custom-border-radius-15 h-100 custom-cursor-pointer">
+                                                        <div class="p-5 bg-light-primary text-center br-15 h-100 cursor-pointer">
                                                             <div class="my-2">
                                                                 <i class="icn-help icn-3x"></i>
                                                             </div>
-                                                            <span class="custom-font-style-sub-text mb-2">
+                                                            <span class="font-text mb-2">
                                                                 Need Help
                                                             </span>
                                                         </div>
@@ -212,32 +213,32 @@ License: You must have a valid license purchased only from themeforest(the above
                                                 </div>
                                                 <div class="row my-5-res" style="margin-top: 20px;">
                                                     <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 responsive-margin-card">
-                                                        <div class="p-5 custom-bg-light-pale text-center custom-border-radius-15 h-100 custom-cursor-pointer">
+                                                        <div class="p-5 bg-light-primary text-center br-15 h-100 cursor-pointer">
                                                             <div class="my-2">
                                                                 <i class="icn-phone-book icn-3x"></i>
 
                                                             </div>
-                                                            <span class="custom-font-style-sub-text mb-2">
+                                                            <span class="font-text mb-2">
                                                                 Current Plan
                                                             </span>
                                                         </div>
                                                     </div>
                                                     <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 my-5-res">
-                                                        <div class="p-5 custom-bg-light-pale text-center custom-border-radius-15 h-100 custom-cursor-pointer">
+                                                        <div class="p-5 bg-light-primary text-center br-15 h-100 cursor-pointer">
                                                             <div class="my-2">
                                                                 <i class="icn-team icn-3x"></i>
                                                             </div>
-                                                            <span class="custom-font-style-sub-text mb-2">
+                                                            <span class="font-text mb-2">
                                                                 Our Team
                                                             </span>
                                                         </div>
                                                     </div>
                                                     <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 responsive-margin-card">
-                                                        <div class="p-5 custom-bg-light-pale text-center custom-border-radius-15 h-100 custom-cursor-pointer">
+                                                        <div class="p-5 bg-light-primary text-center br-15 h-100 cursor-pointer">
                                                             <div class="my-2">
                                                                 <i class="icn-hand-shake icn-3x"></i>
                                                             </div>
-                                                            <span class="custom-font-style-sub-text mb-2">
+                                                            <span class="font-text mb-2">
                                                                 Partners
                                                             </span>
                                                         </div>
@@ -250,7 +251,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                     <!-- <div class="row mt-7">
                                         <div class="col-md-12 pl-0 pl-sm-4 pb-sm-4">
                                             <div class="d-flex justify-content-between">
-                                                <a class="custom-bg-primary custom-border-radius-35 px-5 py-2 align-items-center" data-toggle="modal" data-target="#myModal">
+                                                <a class="bg-primary br-35 px-5 py-2 align-items-center" data-toggle="modal" data-target="#myModal">
                                                     <span><img src="../assets/media/circle_add_icon.png" alt=""></span>
                                                     <span class="text-light">Create Custom Pillar</span>
                                                 </a>
@@ -284,9 +285,9 @@ License: You must have a valid license purchased only from themeforest(the above
                                         </div>
                                     </div>
 
-                                    <div class="row custom-border-color-pale custom-border-radius-15 m-sm-0">
+                                    <div class="row border-color-pale br-15 m-sm-0">
                                         <div class="col-md-3 col-sm-12 col-xs-12 pr-0 mt-7 max-w-20-percent" id="inner-side-nav">
-                                            <!-- <div class="custom-font-style-subheadings custom-text-primary p-5">
+                                            <!-- <div class="font-subheading text-primary p-5">
                                                 Custom Pillars
                                             </div> -->
                                             <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
@@ -357,20 +358,20 @@ License: You must have a valid license purchased only from themeforest(the above
                                                 </a>
                                             </div>
                                             <div class="d-flex justify-content-center mt-5 mb-5">
-                                                <a class="custom-bg-primary custom-border-radius-50 text-center p-2 d-flex align-items-center custom-cursor-pointer" data-toggle="modal" data-target="#myModal">
+                                                <a class="c-btn-primary c-btn-md d-flex justify-content-center align-items-center cursor-pointer" data-toggle="modal" data-target="#myModal">
                                                     <i class="icn-circle-plus"></i>
-                                                    <span class="custom-font-style-small text-light ml-1" id="piller-create">Create Custom Pillar</span>
+                                                    <span class="text-light ml-1" id="piller-create">Create Custom Pillar</span>
                                                 </a>
                                             </div>
                                         </div>
-                                        <div class="col-md-12 col-sm-12 col-xs-12 custom-bg-light-pale custom-btrr-15 custom-bbrr-15 max-w-80-percent custom-btlr-15-res custom-bblr-15-res" id="inner-side-main">
+                                        <div class="col-md-12 col-sm-12 col-xs-12 bg-light-primary btrr-15 bbrr-15 max-w-80-percent btlr-15-res bblr-15-res" id="inner-side-main">
                                             <div class="d-flex justify-content-between mt-5 mr-5">
-                                                <button class="ml-5 bg-transparent border-0 custom-border-radius-15  p-2" onclick="toggleAside()">
+                                                <button class="ml-5 bg-transparent border-0 br-15  p-2" onclick="toggleAside()">
                                                     <i class="icn-menu icn-2x mt-3"></i>
                                                 </button>
-                                                <a class="custom-bg-primary custom-border-radius-35 px-5 py-3 d-flex align-items-center custom-cursor-pointer">
+                                                <a class="c-btn-primary c-btn-md d-flex justify-content-center align-items-center cursor-pointer">
                                                     <i class="icn-circle-plus"></i>
-                                                    <span class="custom-font-style-small text-light pl-1">Add Custom Goal</span>
+                                                    <span class="text-light pl-1">Add Custom Goal</span>
                                                 </a>
                                             </div>
                                             <div class="tab-content" id="v-pills-tabContent">
@@ -406,20 +407,20 @@ License: You must have a valid license purchased only from themeforest(the above
                                                             </div>
 
                                                             <div id="collapseOne-0" class="collapse show" aria-labelledby="headingOne-0">
-                                                                <div class="mx-5 custom-border-color-pale mb-5 indicator-responsive-collapse">
-                                                                    <table class="table table-vertical-center indicator-table">
-                                                                        <thead class="steps-table-header-color">
+                                                                <div class="mx-5 border-color-pale mb-5 indicator-responsive-collapse">
+                                                                    <table class="table table-vertical-center table-dark-pale p-table-15">
+                                                                        <thead>
                                                                             <tr>
-                                                                                <th class="custom-font-style-sub-text" scope="col">Indicator</th>
-                                                                                <th class="custom-font-style-sub-text" scope="col">Applicability</th>
-                                                                                <th class="custom-font-style-sub-text w-125px" scope="col">Select</th>
-                                                                                <th class="custom-font-style-sub-text" scope="col">Actions</th>
+                                                                                <th class="font-text" scope="col">Indicator</th>
+                                                                                <th class="font-text" scope="col">Applicability</th>
+                                                                                <th class="font-text w-125px" scope="col">Select</th>
+                                                                                <th class="font-text" scope="col">Actions</th>
                                                                             </tr>
                                                                         </thead>
                                                                         <tbody class="bg-white">
                                                                             <tr>
                                                                                 <td>1.1.1 Effective conservation and protection of natural ecosystems</td>
-                                                                                <td><span class="custom-bg-primary custom-text-light-pale custom-font-style-xs custom-border-radius-3 p-1">Core</span></td>
+                                                                                <td><span class="bg-primary text-light-primary font-xs br-3 p-1">Core</span></td>
                                                                                 <td>
                                                                                     <div class="button b2 button-10" id="button-10">
                                                                                         <input type="checkbox" class="switch-checkbox" />
@@ -434,9 +435,9 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                     </div> -->
                                                                                 </td>
                                                                                 <td>
-                                                                                    <a href="#" class="custom-bg-warning custom-border-radius-35 px-2 py-1 w-85px d-flex align-items-center">
+                                                                                    <a href="#" class="c-btn-success c-btn-sm d-flex align-items-center justify-content-center">
                                                                                         <i class="icn-edit"></i>
-                                                                                        <span class="custom-font-style-xs custom-text-primary pl-1">Not Applicable</span>
+                                                                                        <span class="font-weight-bolder pl-1">Not Applicable</span>
                                                                                     </a>
                                                                                 </td>
                                                                             </tr>
@@ -458,15 +459,15 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                     </div>
                                                                                 </td>
                                                                                 <td>
-                                                                                    <a href="#" class="custom-bg-warning custom-border-radius-35 px-2 py-1 w-85px d-flex align-items-center">
+                                                                                    <a href="#" class="c-btn-success c-btn-sm d-flex align-items-center justify-content-center">
                                                                                         <i class="icn-edit"></i>
-                                                                                        <span class="custom-font-style-xs custom-text-primary pl-1">Not Applicable</span>
+                                                                                        <span class="font-weight-bolder pl-1">Not Applicable</span>
                                                                                     </a>
                                                                                 </td>
                                                                             </tr>
                                                                             <tr>
                                                                                 <td>1.1.4 Ecosystem restoration</td>
-                                                                                <td><span class="custom-bg-cyan text-light custom-font-style-xs p-1">Optional</span></td>
+                                                                                <td><span class="bg-secondary text-light font-xs p-1">Optional</span></td>
                                                                                 <td>
                                                                                     <div class="button b2 button-10" id="button-10">
                                                                                         <input type="checkbox" class="switch-checkbox" />
@@ -477,17 +478,17 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                     </div>
                                                                                 </td>
                                                                                 <td>
-                                                                                    <a href="#" class="custom-bg-warning custom-border-radius-35 px-2 py-1 w-85px d-flex align-items-center">
+                                                                                    <a href="#" class="c-btn-success c-btn-sm d-flex align-items-center justify-content-center">
                                                                                         <i class="icn-edit"></i>
-                                                                                        <span class="custom-font-style-xs custom-text-primary pl-1">Not Applicable</span>
+                                                                                        <span class="font-weight-bolder pl-1">Not Applicable</span>
                                                                                     </a>
                                                                                 </td>
                                                                             </tr>
                                                                             <tr>
                                                                                 <td colspan="4">
-                                                                                    <a class="custom-bg-primary custom-border-radius-35 px-5 py-3 w-160px d-flex align-items-center custom-cursor-pointer">
+                                                                                    <a class="c-btn-primary c-btn-md justify-content-center d-flex align-items-center cursor-pointer">
                                                                                         <i class="icn-circle-plus"></i>
-                                                                                        <span class="custom-font-style-small text-light pl-1">Add Custom Indicator</span>
+                                                                                        <span class="text-light pl-1">Add Custom Indicator</span>
                                                                                     </a>
                                                                                 </td>
                                                                             </tr>
@@ -526,20 +527,20 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                 </div>
                                                             </div>
                                                             <div id="collapseTwo-0" class="collapse" aria-labelledby="headingTwo-0">
-                                                                <div class="mx-5 custom-border-color-pale mb-5 indicator-responsive-collapse">
-                                                                    <table class="table table-vertical-center indicator-table">
-                                                                        <thead class="steps-table-header-color">
+                                                                <div class="mx-5 border-color-pale mb-5 indicator-responsive-collapse">
+                                                                    <table class="table table-vertical-center table-dark-pale p-table-15">
+                                                                        <thead>
                                                                             <tr>
-                                                                                <th class="custom-font-style-sub-text" scope="col">Indicator</th>
-                                                                                <th class="custom-font-style-sub-text" scope="col">Applicability</th>
-                                                                                <th class="custom-font-style-sub-text w-125px" scope="col">Select</th>
-                                                                                <th class="custom-font-style-sub-text" scope="col">Actions</th>
+                                                                                <th class="font-text" scope="col">Indicator</th>
+                                                                                <th class="font-text" scope="col">Applicability</th>
+                                                                                <th class="font-text w-125px" scope="col">Select</th>
+                                                                                <th class="font-text" scope="col">Actions</th>
                                                                             </tr>
                                                                         </thead>
                                                                         <tbody class="bg-white">
                                                                             <tr>
                                                                                 <td>1.2.1 Threats to species</td>
-                                                                                <td><span class="custom-bg-primary custom-text-light-pale custom-font-style-xs custom-border-radius-3 p-1">Core</span></td>
+                                                                                <td><span class="bg-primary text-light-primary font-xs br-3 p-1">Core</span></td>
                                                                                 <td>
                                                                                     <div class="button b2 button-10" id="button-10">
                                                                                         <input type="checkbox" class="switch-checkbox" />
@@ -550,15 +551,15 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                     </div>
                                                                                 </td>
                                                                                 <td>
-                                                                                    <a href="#" class="custom-bg-warning custom-border-radius-35 px-2 py-1 w-85px d-flex align-items-center">
+                                                                                    <a href="#" class="c-btn-success c-btn-sm d-flex align-items-center justify-content-center">
                                                                                         <i class="icn-edit"></i>
-                                                                                        <span class="custom-font-style-xs custom-text-primary pl-1">Not Applicable</span>
+                                                                                        <span class="font-weight-bolder pl-1">Not Applicable</span>
                                                                                     </a>
                                                                                 </td>
                                                                             </tr>
                                                                             <tr>
                                                                                 <td>1.2.2 Biodiversity habitat conversion</td>
-                                                                                <td><span class="custom-bg-primary custom-text-light-pale custom-font-style-xs custom-border-radius-3 p-1">Core</span></td>
+                                                                                <td><span class="bg-primary text-light-primary font-xs br-3 p-1">Core</span></td>
                                                                                 <td>
                                                                                     <div class="button b2 button-10" id="button-10">
                                                                                         <input type="checkbox" class="switch-checkbox" />
@@ -569,15 +570,15 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                     </div>
                                                                                 </td>
                                                                                 <td>
-                                                                                    <a href="#" class="custom-bg-warning custom-border-radius-35 px-2 py-1 w-85px d-flex align-items-center">
+                                                                                    <a href="#" class="c-btn-success c-btn-sm d-flex align-items-center justify-content-center">
                                                                                         <i class="icn-edit"></i>
-                                                                                        <span class="custom-font-style-xs custom-text-primary pl-1">Not Applicable</span>
+                                                                                        <span class="font-weight-bolder pl-1">Not Applicable</span>
                                                                                     </a>
                                                                                 </td>
                                                                             </tr>
                                                                             <tr>
                                                                                 <td>1.2.3 Biodiversity habitat degradation</td>
-                                                                                <td><span class="custom-bg-primary custom-text-light-pale custom-font-style-xs custom-border-radius-3 p-1">Core</span></td>
+                                                                                <td><span class="bg-primary text-light-primary font-xs br-3 p-1">Core</span></td>
                                                                                 <td>
                                                                                     <div class="button b2 button-10" id="button-10">
                                                                                         <input type="checkbox" class="switch-checkbox" />
@@ -588,17 +589,17 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                     </div>
                                                                                 </td>
                                                                                 <td>
-                                                                                    <a href="#" class="custom-bg-warning custom-border-radius-35 px-2 py-1 w-85px d-flex align-items-center">
+                                                                                    <a href="#" class="c-btn-success c-btn-sm d-flex align-items-center justify-content-center">
                                                                                         <i class="icn-edit"></i>
-                                                                                        <span class="custom-font-style-xs custom-text-primary pl-1">Not Applicable</span>
+                                                                                        <span class="font-weight-bolder pl-1">Not Applicable</span>
                                                                                     </a>
                                                                                 </td>
                                                                             </tr>
                                                                             <tr>
                                                                                 <td colspan="4">
-                                                                                    <a class="custom-bg-primary custom-border-radius-35 px-5 py-3 w-160px d-flex align-items-center custom-cursor-pointer">
+                                                                                    <a class="c-btn-primary c-btn-md justify-content-center d-flex align-items-center cursor-pointer">
                                                                                         <i class="icn-circle-plus"></i>
-                                                                                        <span class="custom-font-style-small text-light pl-1">Add Custom Indicator</span>
+                                                                                        <span class="text-light pl-1">Add Custom Indicator</span>
                                                                                     </a>
                                                                                 </td>
                                                                             </tr>
@@ -637,20 +638,20 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                 </div>
                                                             </div>
                                                             <div id="collapseTwo-3" class="collapse" aria-labelledby="headingTwo-3">
-                                                                <div class="mx-5 custom-border-color-pale mb-5 indicator-responsive-collapse">
-                                                                    <table class="table table-vertical-center indicator-table">
-                                                                        <thead class="steps-table-header-color">
+                                                                <div class="mx-5 border-color-pale mb-5 indicator-responsive-collapse">
+                                                                    <table class="table table-vertical-center table-dark-pale p-table-15">
+                                                                        <thead>
                                                                             <tr>
-                                                                                <th class="custom-font-style-sub-text" scope="col">Indicator</th>
-                                                                                <th class="custom-font-style-sub-text" scope="col">Applicability</th>
-                                                                                <th class="custom-font-style-sub-text w-125px" scope="col">Select</th>
-                                                                                <th class="custom-font-style-sub-text" scope="col">Actions</th>
+                                                                                <th class="font-text" scope="col">Indicator</th>
+                                                                                <th class="font-text" scope="col">Applicability</th>
+                                                                                <th class="font-text w-125px" scope="col">Select</th>
+                                                                                <th class="font-text" scope="col">Actions</th>
                                                                             </tr>
                                                                         </thead>
                                                                         <tbody class="bg-white">
                                                                             <tr>
                                                                                 <td>1.2.1 Threats to species</td>
-                                                                                <td><span class="custom-bg-primary custom-text-light-pale custom-font-style-xs custom-border-radius-3 p-1">Core</span></td>
+                                                                                <td><span class="bg-primary text-light-primary font-xs br-3 p-1">Core</span></td>
                                                                                 <td>
                                                                                     <div class="button b2 button-10" id="button-10">
                                                                                         <input type="checkbox" class="switch-checkbox" />
@@ -661,15 +662,15 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                     </div>
                                                                                 </td>
                                                                                 <td>
-                                                                                    <a href="#" class="custom-bg-warning custom-border-radius-35 px-2 py-1 w-85px d-flex align-items-center">
+                                                                                    <a href="#" class="c-btn-success c-btn-sm d-flex align-items-center justify-content-center">
                                                                                         <i class="icn-edit"></i>
-                                                                                        <span class="custom-font-style-xs custom-text-primary pl-1">Not Applicable</span>
+                                                                                        <span class="font-weight-bolder pl-1">Not Applicable</span>
                                                                                     </a>
                                                                                 </td>
                                                                             </tr>
                                                                             <tr>
                                                                                 <td>1.2.2 Biodiversity habitat conversion</td>
-                                                                                <td><span class="custom-bg-primary custom-text-light-pale custom-font-style-xs custom-border-radius-3 p-1">Core</span></td>
+                                                                                <td><span class="bg-primary text-light-primary font-xs br-3 p-1">Core</span></td>
                                                                                 <td>
                                                                                     <div class="button b2 button-10" id="button-10">
                                                                                         <input type="checkbox" class="switch-checkbox" />
@@ -680,15 +681,15 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                     </div>
                                                                                 </td>
                                                                                 <td>
-                                                                                    <a href="#" class="custom-bg-warning custom-border-radius-35 px-2 py-1 w-85px d-flex align-items-center">
+                                                                                    <a href="#" class="c-btn-success c-btn-sm d-flex align-items-center justify-content-center">
                                                                                         <i class="icn-edit"></i>
-                                                                                        <span class="custom-font-style-xs custom-text-primary pl-1">Not Applicable</span>
+                                                                                        <span class="font-weight-bolder pl-1">Not Applicable</span>
                                                                                     </a>
                                                                                 </td>
                                                                             </tr>
                                                                             <tr>
                                                                                 <td>1.2.3 Biodiversity habitat degradation</td>
-                                                                                <td><span class="custom-bg-primary custom-text-light-pale custom-font-style-xs custom-border-radius-3 p-1">Core</span></td>
+                                                                                <td><span class="bg-primary text-light-primary font-xs br-3 p-1">Core</span></td>
                                                                                 <td>
                                                                                     <div class="button b2 button-10" id="button-10">
                                                                                         <input type="checkbox" class="switch-checkbox" />
@@ -699,17 +700,17 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                     </div>
                                                                                 </td>
                                                                                 <td>
-                                                                                    <a href="#" class="custom-bg-warning custom-border-radius-35 px-2 py-1 w-85px d-flex align-items-center">
+                                                                                    <a href="#" class="c-btn-success c-btn-sm d-flex align-items-center justify-content-center">
                                                                                         <i class="icn-edit"></i>
-                                                                                        <span class="custom-font-style-xs custom-text-primary pl-1">Not Applicable</span>
+                                                                                        <span class="font-weight-bolder pl-1">Not Applicable</span>
                                                                                     </a>
                                                                                 </td>
                                                                             </tr>
                                                                             <tr>
                                                                                 <td colspan="4">
-                                                                                    <a class="custom-bg-primary custom-border-radius-35 px-5 py-3 w-160px d-flex align-items-center custom-cursor-pointer">
+                                                                                    <a class="c-btn-primary c-btn-md justify-content-center d-flex align-items-center cursor-pointer">
                                                                                         <i class="icn-circle-plus"></i>
-                                                                                        <span class="custom-font-style-small text-light pl-1">Add Custom Indicator</span>
+                                                                                        <span class="text-light pl-1">Add Custom Indicator</span>
                                                                                     </a>
                                                                                 </td>
                                                                             </tr>
@@ -754,20 +755,20 @@ License: You must have a valid license purchased only from themeforest(the above
                                                             </div>
 
                                                             <div id="collapseOne-0" class="collapse show" aria-labelledby="headingOne-0">
-                                                                <div class="mx-5 custom-border-color-pale mb-5 indicator-responsive-collapse">
-                                                                    <table class="table table-vertical-center indicator-table">
-                                                                        <thead class="steps-table-header-color">
+                                                                <div class="mx-5 border-color-pale mb-5 indicator-responsive-collapse">
+                                                                    <table class="table table-vertical-center table-dark-pale p-table-15">
+                                                                        <thead>
                                                                             <tr>
-                                                                                <th class="custom-font-style-sub-text" scope="col">Indicator</th>
-                                                                                <th class="custom-font-style-sub-text" scope="col">Applicability</th>
-                                                                                <th class="custom-font-style-sub-text w-125px" scope="col">Select</th>
-                                                                                <th class="custom-font-style-sub-text" scope="col">Actions</th>
+                                                                                <th class="font-text" scope="col">Indicator</th>
+                                                                                <th class="font-text" scope="col">Applicability</th>
+                                                                                <th class="font-text w-125px" scope="col">Select</th>
+                                                                                <th class="font-text" scope="col">Actions</th>
                                                                             </tr>
                                                                         </thead>
                                                                         <tbody class="bg-white">
                                                                             <tr>
                                                                                 <td>2.1.1 Household income & assets</td>
-                                                                                <td><span class="custom-bg-primary custom-text-light-pale custom-font-style-xs custom-border-radius-3 p-1">Core</span></td>
+                                                                                <td><span class="bg-primary text-light-primary font-xs br-3 p-1">Core</span></td>
                                                                                 <td>
                                                                                     <div class="button b2 button-10" id="button-10">
                                                                                         <input type="checkbox" class="switch-checkbox" />
@@ -782,9 +783,9 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                     </div> -->
                                                                                 </td>
                                                                                 <td>
-                                                                                    <a href="#" class="custom-bg-warning custom-border-radius-35 px-2 py-1 w-85px d-flex align-items-center">
+                                                                                    <a href="#" class="c-btn-success c-btn-sm d-flex align-items-center justify-content-center">
                                                                                         <i class="icn-edit"></i>
-                                                                                        <span class="custom-font-style-xs custom-text-primary pl-1">Not Applicable</span>
+                                                                                        <span class="font-weight-bolder pl-1">Not Applicable</span>
                                                                                     </a>
                                                                                 </td>
                                                                             </tr>
@@ -806,15 +807,15 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                     </div>
                                                                                 </td>
                                                                                 <td>
-                                                                                    <a href="#" class="custom-bg-warning custom-border-radius-35 px-2 py-1 w-85px d-flex align-items-center">
+                                                                                    <a href="#" class="c-btn-success c-btn-sm d-flex align-items-center justify-content-center">
                                                                                         <i class="icn-edit"></i>
-                                                                                        <span class="custom-font-style-xs custom-text-primary pl-1">Not Applicable</span>
+                                                                                        <span class="font-weight-bolder pl-1">Not Applicable</span>
                                                                                     </a>
                                                                                 </td>
                                                                             </tr>
                                                                             <tr>
                                                                                 <td>2.1.3 Education</td>
-                                                                                <td><span class="custom-bg-cyan text-light custom-font-style-xs p-1">Optional</span></td>
+                                                                                <td><span class="bg-secondary text-light font-xs p-1">Optional</span></td>
                                                                                 <td>
                                                                                     <div class="button b2 button-10" id="button-10">
                                                                                         <input type="checkbox" class="switch-checkbox" />
@@ -825,17 +826,17 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                     </div>
                                                                                 </td>
                                                                                 <td>
-                                                                                    <a href="#" class="custom-bg-warning custom-border-radius-35 px-2 py-1 w-85px d-flex align-items-center">
+                                                                                    <a href="#" class="c-btn-success c-btn-sm d-flex align-items-center justify-content-center">
                                                                                         <i class="icn-edit"></i>
-                                                                                        <span class="custom-font-style-xs custom-text-primary pl-1">Not Applicable</span>
+                                                                                        <span class="font-weight-bolder pl-1">Not Applicable</span>
                                                                                     </a>
                                                                                 </td>
                                                                             </tr>
                                                                             <tr>
                                                                                 <td colspan="4">
-                                                                                    <a class="custom-bg-primary custom-border-radius-35 px-5 py-3 w-160px d-flex align-items-center custom-cursor-pointer">
+                                                                                    <a class="c-btn-primary c-btn-md justify-content-center d-flex align-items-center cursor-pointer">
                                                                                         <i class="icn-circle-plus"></i>
-                                                                                        <span class="custom-font-style-small text-light pl-1">Add Custom Indicator</span>
+                                                                                        <span class="text-light pl-1">Add Custom Indicator</span>
                                                                                     </a>
                                                                                 </td>
                                                                             </tr>
@@ -874,20 +875,20 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                 </div>
                                                             </div>
                                                             <div id="collapseTwo-0" class="collapse" aria-labelledby="headingTwo-0">
-                                                                <div class="mx-5 custom-border-color-pale mb-5 indicator-responsive-collapse">
-                                                                    <table class="table table-vertical-center indicator-table">
-                                                                        <thead class="steps-table-header-color">
+                                                                <div class="mx-5 border-color-pale mb-5 indicator-responsive-collapse">
+                                                                    <table class="table table-vertical-center table-dark-pale p-table-15">
+                                                                        <thead>
                                                                             <tr>
-                                                                                <th class="custom-font-style-sub-text" scope="col">Indicator</th>
-                                                                                <th class="custom-font-style-sub-text" scope="col">Applicability</th>
-                                                                                <th class="custom-font-style-sub-text w-125px" scope="col">Select</th>
-                                                                                <th class="custom-font-style-sub-text" scope="col">Actions</th>
+                                                                                <th class="font-text" scope="col">Indicator</th>
+                                                                                <th class="font-text" scope="col">Applicability</th>
+                                                                                <th class="font-text w-125px" scope="col">Select</th>
+                                                                                <th class="font-text" scope="col">Actions</th>
                                                                             </tr>
                                                                         </thead>
                                                                         <tbody class="bg-white">
                                                                             <tr>
                                                                                 <td>2.2.1 Child labor</td>
-                                                                                <td><span class="custom-bg-primary custom-text-light-pale custom-font-style-xs custom-border-radius-3 p-1">Core</span></td>
+                                                                                <td><span class="bg-primary text-light-primary font-xs br-3 p-1">Core</span></td>
                                                                                 <td>
                                                                                     <div class="button b2 button-10" id="button-10">
                                                                                         <input type="checkbox" class="switch-checkbox" />
@@ -898,15 +899,15 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                     </div>
                                                                                 </td>
                                                                                 <td>
-                                                                                    <a href="#" class="custom-bg-warning custom-border-radius-35 px-2 py-1 w-85px d-flex align-items-center">
+                                                                                    <a href="#" class="c-btn-success c-btn-sm d-flex align-items-center justify-content-center">
                                                                                         <i class="icn-edit"></i>
-                                                                                        <span class="custom-font-style-xs custom-text-primary pl-1">Not Applicable</span>
+                                                                                        <span class="font-weight-bolder pl-1">Not Applicable</span>
                                                                                     </a>
                                                                                 </td>
                                                                             </tr>
                                                                             <tr>
                                                                                 <td>2.2.2 Women’s rights</td>
-                                                                                <td><span class="custom-bg-primary custom-text-light-pale custom-font-style-xs custom-border-radius-3 p-1">Core</span></td>
+                                                                                <td><span class="bg-primary text-light-primary font-xs br-3 p-1">Core</span></td>
                                                                                 <td>
                                                                                     <div class="button b2 button-10" id="button-10">
                                                                                         <input type="checkbox" class="switch-checkbox" />
@@ -917,15 +918,15 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                     </div>
                                                                                 </td>
                                                                                 <td>
-                                                                                    <a href="#" class="custom-bg-warning custom-border-radius-35 px-2 py-1 w-85px d-flex align-items-center">
+                                                                                    <a href="#" class="c-btn-success c-btn-sm d-flex align-items-center justify-content-center">
                                                                                         <i class="icn-edit"></i>
-                                                                                        <span class="custom-font-style-xs custom-text-primary pl-1">Not Applicable</span>
+                                                                                        <span class="font-weight-bolder pl-1">Not Applicable</span>
                                                                                     </a>
                                                                                 </td>
                                                                             </tr>
                                                                             <tr>
                                                                                 <td>2.2.3 Indigenous peoples’ and other marginalized groups’ right</td>
-                                                                                <td><span class="custom-bg-primary custom-text-light-pale custom-font-style-xs custom-border-radius-3 p-1">Core</span></td>
+                                                                                <td><span class="bg-primary text-light-primary font-xs br-3 p-1">Core</span></td>
                                                                                 <td>
                                                                                     <div class="button b2 button-10" id="button-10">
                                                                                         <input type="checkbox" class="switch-checkbox" />
@@ -936,17 +937,17 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                     </div>
                                                                                 </td>
                                                                                 <td>
-                                                                                    <a href="#" class="custom-bg-warning custom-border-radius-35 px-2 py-1 w-85px d-flex align-items-center">
+                                                                                    <a href="#" class="c-btn-success c-btn-sm d-flex align-items-center justify-content-center">
                                                                                         <i class="icn-edit"></i>
-                                                                                        <span class="custom-font-style-xs custom-text-primary pl-1">Not Applicable</span>
+                                                                                        <span class="font-weight-bolder pl-1">Not Applicable</span>
                                                                                     </a>
                                                                                 </td>
                                                                             </tr>
                                                                             <tr>
                                                                                 <td colspan="4">
-                                                                                    <a class="custom-bg-primary custom-border-radius-35 px-5 py-3 w-160px d-flex align-items-center custom-cursor-pointer">
+                                                                                    <a class="c-btn-primary c-btn-md justify-content-center d-flex align-items-center cursor-pointer">
                                                                                         <i class="icn-circle-plus"></i>
-                                                                                        <span class="custom-font-style-small text-light pl-1">Add Custom Indicator</span>
+                                                                                        <span class="text-light pl-1">Add Custom Indicator</span>
                                                                                     </a>
                                                                                 </td>
                                                                             </tr>
@@ -991,20 +992,20 @@ License: You must have a valid license purchased only from themeforest(the above
                                                             </div>
 
                                                             <div id="collapseOne-0" class="collapse show" aria-labelledby="headingOne-0">
-                                                                <div class="mx-5 custom-border-color-pale mb-5 indicator-responsive-collapse">
-                                                                    <table class="table table-vertical-center indicator-table">
-                                                                        <thead class="steps-table-header-color">
+                                                                <div class="mx-5 border-color-pale mb-5 indicator-responsive-collapse">
+                                                                    <table class="table table-vertical-center table-dark-pale p-table-15">
+                                                                        <thead>
                                                                             <tr>
-                                                                                <th class="custom-font-style-sub-text" scope="col">Indicator</th>
-                                                                                <th class="custom-font-style-sub-text" scope="col">Applicability</th>
-                                                                                <th class="custom-font-style-sub-text w-125px" scope="col">Select</th>
-                                                                                <th class="custom-font-style-sub-text" scope="col">Actions</th>
+                                                                                <th class="font-text" scope="col">Indicator</th>
+                                                                                <th class="font-text" scope="col">Applicability</th>
+                                                                                <th class="font-text w-125px" scope="col">Select</th>
+                                                                                <th class="font-text" scope="col">Actions</th>
                                                                             </tr>
                                                                         </thead>
                                                                         <tbody class="bg-white">
                                                                             <tr>
                                                                                 <td>3.1.1 Land tenure</td>
-                                                                                <td><span class="custom-bg-primary custom-text-light-pale custom-font-style-xs custom-border-radius-3 p-1">Core</span></td>
+                                                                                <td><span class="bg-primary text-light-primary font-xs br-3 p-1">Core</span></td>
                                                                                 <td>
                                                                                     <div class="button b2 button-10" id="button-10">
                                                                                         <input type="checkbox" class="switch-checkbox" />
@@ -1019,9 +1020,9 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                     </div> -->
                                                                                 </td>
                                                                                 <td>
-                                                                                    <a href="#" class="custom-bg-warning custom-border-radius-35 px-2 py-1 w-85px d-flex align-items-center">
+                                                                                    <a href="#" class="c-btn-success c-btn-sm d-flex align-items-center justify-content-center">
                                                                                         <i class="icn-edit"></i>
-                                                                                        <span class="custom-font-style-xs custom-text-primary pl-1">Not Applicable</span>
+                                                                                        <span class="font-weight-bolder pl-1">Not Applicable</span>
                                                                                     </a>
                                                                                 </td>
                                                                             </tr>
@@ -1043,15 +1044,15 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                     </div>
                                                                                 </td>
                                                                                 <td>
-                                                                                    <a href="#" class="custom-bg-warning custom-border-radius-35 px-2 py-1 w-85px d-flex align-items-center">
+                                                                                    <a href="#" class="c-btn-success c-btn-sm d-flex align-items-center justify-content-center">
                                                                                         <i class="icn-edit"></i>
-                                                                                        <span class="custom-font-style-xs custom-text-primary pl-1">Not Applicable</span>
+                                                                                        <span class="font-weight-bolder pl-1">Not Applicable</span>
                                                                                     </a>
                                                                                 </td>
                                                                             </tr>
                                                                             <tr>
                                                                                 <td>3.1.3 Resource tenure</td>
-                                                                                <td><span class="custom-bg-cyan text-light custom-font-style-xs p-1">Optional</span></td>
+                                                                                <td><span class="bg-secondary text-light font-xs p-1">Optional</span></td>
                                                                                 <td>
                                                                                     <div class="button b2 button-10" id="button-10">
                                                                                         <input type="checkbox" class="switch-checkbox" />
@@ -1062,17 +1063,17 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                     </div>
                                                                                 </td>
                                                                                 <td>
-                                                                                    <a href="#" class="custom-bg-warning custom-border-radius-35 px-2 py-1 w-85px d-flex align-items-center">
+                                                                                    <a href="#" class="c-btn-success c-btn-sm d-flex align-items-center justify-content-center">
                                                                                         <i class="icn-edit"></i>
-                                                                                        <span class="custom-font-style-xs custom-text-primary pl-1">Not Applicable</span>
+                                                                                        <span class="font-weight-bolder pl-1">Not Applicable</span>
                                                                                     </a>
                                                                                 </td>
                                                                             </tr>
                                                                             <tr>
                                                                                 <td colspan="4">
-                                                                                    <a class="custom-bg-primary custom-border-radius-35 px-5 py-3 w-160px d-flex align-items-center custom-cursor-pointer">
+                                                                                    <a class="c-btn-primary c-btn-md justify-content-center d-flex align-items-center cursor-pointer">
                                                                                         <i class="icn-circle-plus"></i>
-                                                                                        <span class="custom-font-style-small text-light pl-1">Add Custom Indicator</span>
+                                                                                        <span class="text-light pl-1">Add Custom Indicator</span>
                                                                                     </a>
                                                                                 </td>
                                                                             </tr>
@@ -1111,20 +1112,20 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                 </div>
                                                             </div>
                                                             <div id="collapseTwo-0" class="collapse" aria-labelledby="headingTwo-0">
-                                                                <div class="mx-5 custom-border-color-pale mb-5 indicator-responsive-collapse">
-                                                                    <table class="table table-vertical-center indicator-table">
-                                                                        <thead class="steps-table-header-color">
+                                                                <div class="mx-5 border-color-pale mb-5 indicator-responsive-collapse">
+                                                                    <table class="table table-vertical-center table-dark-pale p-table-15">
+                                                                        <thead>
                                                                             <tr>
-                                                                                <th class="custom-font-style-sub-text" scope="col">Indicator</th>
-                                                                                <th class="custom-font-style-sub-text" scope="col">Applicability</th>
-                                                                                <th class="custom-font-style-sub-text w-125px" scope="col">Select</th>
-                                                                                <th class="custom-font-style-sub-text" scope="col">Actions</th>
+                                                                                <th class="font-text" scope="col">Indicator</th>
+                                                                                <th class="font-text" scope="col">Applicability</th>
+                                                                                <th class="font-text w-125px" scope="col">Select</th>
+                                                                                <th class="font-text" scope="col">Actions</th>
                                                                             </tr>
                                                                         </thead>
                                                                         <tbody class="bg-white">
                                                                             <tr>
                                                                                 <td>3.2.1 Land-use plan adoption & enforcement</td>
-                                                                                <td><span class="custom-bg-primary custom-text-light-pale custom-font-style-xs custom-border-radius-3 p-1">Core</span></td>
+                                                                                <td><span class="bg-primary text-light-primary font-xs br-3 p-1">Core</span></td>
                                                                                 <td>
                                                                                     <div class="button b2 button-10" id="button-10">
                                                                                         <input type="checkbox" class="switch-checkbox" />
@@ -1135,15 +1136,15 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                     </div>
                                                                                 </td>
                                                                                 <td>
-                                                                                    <a href="#" class="custom-bg-warning custom-border-radius-35 px-2 py-1 w-85px d-flex align-items-center">
+                                                                                    <a href="#" class="c-btn-success c-btn-sm d-flex align-items-center justify-content-center">
                                                                                         <i class="icn-edit"></i>
-                                                                                        <span class="custom-font-style-xs custom-text-primary pl-1">Not Applicable</span>
+                                                                                        <span class="font-weight-bolder pl-1">Not Applicable</span>
                                                                                     </a>
                                                                                 </td>
                                                                             </tr>
                                                                             <tr>
                                                                                 <td>3.2.2 Coordination of government agencies in land-use policy</td>
-                                                                                <td><span class="custom-bg-primary custom-text-light-pale custom-font-style-xs custom-border-radius-3 p-1">Core</span></td>
+                                                                                <td><span class="bg-primary text-light-primary font-xs br-3 p-1">Core</span></td>
                                                                                 <td>
                                                                                     <div class="button b2 button-10" id="button-10">
                                                                                         <input type="checkbox" class="switch-checkbox" />
@@ -1154,15 +1155,15 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                     </div>
                                                                                 </td>
                                                                                 <td>
-                                                                                    <a href="#" class="custom-bg-warning custom-border-radius-35 px-2 py-1 w-85px d-flex align-items-center">
+                                                                                    <a href="#" class="c-btn-success c-btn-sm d-flex align-items-center justify-content-center">
                                                                                         <i class="icn-edit"></i>
-                                                                                        <span class="custom-font-style-xs custom-text-primary pl-1">Not Applicable</span>
+                                                                                        <span class="font-weight-bolder pl-1">Not Applicable</span>
                                                                                     </a>
                                                                                 </td>
                                                                             </tr>
                                                                             <tr>
                                                                                 <td>3.2.3 Stakeholder participation and inclusion in land-use policy</td>
-                                                                                <td><span class="custom-bg-primary custom-text-light-pale custom-font-style-xs custom-border-radius-3 p-1">Core</span></td>
+                                                                                <td><span class="bg-primary text-light-primary font-xs br-3 p-1">Core</span></td>
                                                                                 <td>
                                                                                     <div class="button b2 button-10" id="button-10">
                                                                                         <input type="checkbox" class="switch-checkbox" />
@@ -1173,17 +1174,17 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                     </div>
                                                                                 </td>
                                                                                 <td>
-                                                                                    <a href="#" class="custom-bg-warning custom-border-radius-35 px-2 py-1 w-85px d-flex align-items-center">
+                                                                                    <a href="#" class="c-btn-success c-btn-sm d-flex align-items-center justify-content-center">
                                                                                         <i class="icn-edit"></i>
-                                                                                        <span class="custom-font-style-xs custom-text-primary pl-1">Not Applicable</span>
+                                                                                        <span class="font-weight-bolder pl-1">Not Applicable</span>
                                                                                     </a>
                                                                                 </td>
                                                                             </tr>
                                                                             <tr>
                                                                                 <td colspan="4">
-                                                                                    <a class="custom-bg-primary custom-border-radius-35 px-5 py-3 w-160px d-flex align-items-center custom-cursor-pointer">
+                                                                                    <a class="c-btn-primary c-btn-md justify-content-center d-flex align-items-center cursor-pointer">
                                                                                         <i class="icn-circle-plus"></i>
-                                                                                        <span class="custom-font-style-small text-light pl-1">Add Custom Indicator</span>
+                                                                                        <span class="text-light pl-1">Add Custom Indicator</span>
                                                                                     </a>
                                                                                 </td>
                                                                             </tr>
@@ -1228,20 +1229,20 @@ License: You must have a valid license purchased only from themeforest(the above
                                                             </div>
 
                                                             <div id="collapseOne-0" class="collapse show" aria-labelledby="headingOne-0">
-                                                                <div class="mx-5 custom-border-color-pale mb-5 indicator-responsive-collapse">
-                                                                    <table class="table table-vertical-center indicator-table">
-                                                                        <thead class="steps-table-header-color">
+                                                                <div class="mx-5 border-color-pale mb-5 indicator-responsive-collapse">
+                                                                    <table class="table table-vertical-center table-dark-pale p-table-15">
+                                                                        <thead>
                                                                             <tr>
-                                                                                <th class="custom-font-style-sub-text" scope="col">Indicator</th>
-                                                                                <th class="custom-font-style-sub-text" scope="col">Applicability</th>
-                                                                                <th class="custom-font-style-sub-text w-125px" scope="col">Select</th>
-                                                                                <th class="custom-font-style-sub-text" scope="col">Actions</th>
+                                                                                <th class="font-text" scope="col">Indicator</th>
+                                                                                <th class="font-text" scope="col">Applicability</th>
+                                                                                <th class="font-text w-125px" scope="col">Select</th>
+                                                                                <th class="font-text" scope="col">Actions</th>
                                                                             </tr>
                                                                         </thead>
                                                                         <tbody class="bg-white">
                                                                             <tr>
                                                                                 <td>4.1.1 Agricultural, agroforestry & tree plantation productivity</td>
-                                                                                <td><span class="custom-bg-primary custom-text-light-pale custom-font-style-xs custom-border-radius-3 p-1">Core</span></td>
+                                                                                <td><span class="bg-primary text-light-primary font-xs br-3 p-1">Core</span></td>
                                                                                 <td>
                                                                                     <div class="button b2 button-10" id="button-10">
                                                                                         <input type="checkbox" class="switch-checkbox" />
@@ -1256,9 +1257,9 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                     </div> -->
                                                                                 </td>
                                                                                 <td>
-                                                                                    <a href="#" class="custom-bg-warning custom-border-radius-35 px-2 py-1 w-85px d-flex align-items-center">
+                                                                                    <a href="#" class="c-btn-success c-btn-sm d-flex align-items-center justify-content-center">
                                                                                         <i class="icn-edit"></i>
-                                                                                        <span class="custom-font-style-xs custom-text-primary pl-1">Not Applicable</span>
+                                                                                        <span class="font-weight-bolder pl-1">Not Applicable</span>
                                                                                     </a>
                                                                                 </td>
                                                                             </tr>
@@ -1280,15 +1281,15 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                     </div>
                                                                                 </td>
                                                                                 <td>
-                                                                                    <a href="#" class="custom-bg-warning custom-border-radius-35 px-2 py-1 w-85px d-flex align-items-center">
+                                                                                    <a href="#" class="c-btn-success c-btn-sm d-flex align-items-center justify-content-center">
                                                                                         <i class="icn-edit"></i>
-                                                                                        <span class="custom-font-style-xs custom-text-primary pl-1">Not Applicable</span>
+                                                                                        <span class="font-weight-bolder pl-1">Not Applicable</span>
                                                                                     </a>
                                                                                 </td>
                                                                             </tr>
                                                                             <tr>
                                                                                 <td>4.1.3 Adoption of sustainable land management practices</td>
-                                                                                <td><span class="custom-bg-cyan text-light custom-font-style-xs p-1">Optional</span></td>
+                                                                                <td><span class="bg-secondary text-light font-xs p-1">Optional</span></td>
                                                                                 <td>
                                                                                     <div class="button b2 button-10" id="button-10">
                                                                                         <input type="checkbox" class="switch-checkbox" />
@@ -1299,17 +1300,17 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                     </div>
                                                                                 </td>
                                                                                 <td>
-                                                                                    <a href="#" class="custom-bg-warning custom-border-radius-35 px-2 py-1 w-85px d-flex align-items-center">
+                                                                                    <a href="#" class="c-btn-success c-btn-sm d-flex align-items-center justify-content-center">
                                                                                         <i class="icn-edit"></i>
-                                                                                        <span class="custom-font-style-xs custom-text-primary pl-1">Not Applicable</span>
+                                                                                        <span class="font-weight-bolder pl-1">Not Applicable</span>
                                                                                     </a>
                                                                                 </td>
                                                                             </tr>
                                                                             <tr>
                                                                                 <td colspan="4">
-                                                                                    <a class="custom-bg-primary custom-border-radius-35 px-5 py-3 w-160px d-flex align-items-center custom-cursor-pointer">
+                                                                                    <a class="c-btn-primary c-btn-md justify-content-center d-flex align-items-center cursor-pointer">
                                                                                         <i class="icn-circle-plus"></i>
-                                                                                        <span class="custom-font-style-small text-light pl-1">Add Custom Indicator</span>
+                                                                                        <span class="text-light pl-1">Add Custom Indicator</span>
                                                                                     </a>
                                                                                 </td>
                                                                             </tr>
@@ -1348,20 +1349,20 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                 </div>
                                                             </div>
                                                             <div id="collapseTwo-0" class="collapse" aria-labelledby="headingTwo-0">
-                                                                <div class="mx-5 custom-border-color-pale mb-5 indicator-responsive-collapse">
-                                                                    <table class="table table-vertical-center indicator-table">
-                                                                        <thead class="steps-table-header-color">
+                                                                <div class="mx-5 border-color-pale mb-5 indicator-responsive-collapse">
+                                                                    <table class="table table-vertical-center table-dark-pale p-table-15">
+                                                                        <thead>
                                                                             <tr>
-                                                                                <th class="custom-font-style-sub-text" scope="col">Indicator</th>
-                                                                                <th class="custom-font-style-sub-text" scope="col">Applicability</th>
-                                                                                <th class="custom-font-style-sub-text w-125px" scope="col">Select</th>
-                                                                                <th class="custom-font-style-sub-text" scope="col">Actions</th>
+                                                                                <th class="font-text" scope="col">Indicator</th>
+                                                                                <th class="font-text" scope="col">Applicability</th>
+                                                                                <th class="font-text w-125px" scope="col">Select</th>
+                                                                                <th class="font-text" scope="col">Actions</th>
                                                                             </tr>
                                                                         </thead>
                                                                         <tbody class="bg-white">
                                                                             <tr>
                                                                                 <td>4.2.1 User-defined indicator(s)</td>
-                                                                                <td><span class="custom-bg-primary custom-text-light-pale custom-font-style-xs custom-border-radius-3 p-1">Core</span></td>
+                                                                                <td><span class="bg-primary text-light-primary font-xs br-3 p-1">Core</span></td>
                                                                                 <td>
                                                                                     <div class="button b2 button-10" id="button-10">
                                                                                         <input type="checkbox" class="switch-checkbox" />
@@ -1372,17 +1373,17 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                     </div>
                                                                                 </td>
                                                                                 <td>
-                                                                                    <a href="#" class="custom-bg-warning custom-border-radius-35 px-2 py-1 w-85px d-flex align-items-center">
+                                                                                    <a href="#" class="c-btn-success c-btn-sm d-flex align-items-center justify-content-center">
                                                                                         <i class="icn-edit"></i>
-                                                                                        <span class="custom-font-style-xs custom-text-primary pl-1">Not Applicable</span>
+                                                                                        <span class="font-weight-bolder pl-1">Not Applicable</span>
                                                                                     </a>
                                                                                 </td>
                                                                             </tr>
                                                                             <tr>
                                                                                 <td colspan="4">
-                                                                                    <a class="custom-bg-primary custom-border-radius-35 px-5 py-3 w-160px d-flex align-items-center custom-cursor-pointer">
+                                                                                    <a class="c-btn-primary c-btn-md justify-content-center d-flex align-items-center cursor-pointer">
                                                                                         <i class="icn-circle-plus"></i>
-                                                                                        <span class="custom-font-style-small text-light pl-1">Add Custom Indicator</span>
+                                                                                        <span class="text-light pl-1">Add Custom Indicator</span>
                                                                                     </a>
                                                                                 </td>
                                                                             </tr>
@@ -1414,12 +1415,12 @@ License: You must have a valid license purchased only from themeforest(the above
     </div>
     <!--end::Main-->
     <!-- begin help center btn-->
-    <div class="btn-help-center-wrapper custom-cursor-pointer">
+    <div class="btn-help-center-wrapper cursor-pointer">
         <div class="btn-dropdown btn-lg mr-1 d-flex align-items-center" id="kt_quick_cart_toggle">
             <span class="btn-help-icon">
                 <i class="icn-question icn-3x mt-2 mx-2"></i>
             </span>
-            <span class="btn-help-toggle custom-font-style-sub-text p-6 bg-light d-none">
+            <span class="btn-help-toggle font-text p-6 bg-light d-none">
                 Help Center
             </span>
         </div>
