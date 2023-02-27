@@ -245,7 +245,7 @@
 
                                         </span>
                                     </i>
-                                    <span class="menu-text">Theme Docs</span>
+                                    <span class="menu-text">Components</span>
                                 </a>
                             </li>
                         </ul>

@@ -101230,7 +101230,47 @@ select {
 
 /* end font styles */
 
+/* badges start */
+.light-primary-badge {
+    background-color: #EBF2E4;
+    color: #074A37;
+    font-size: 8px;
+    font-weight: 700;
+    padding: 3.25px;
+}
 
+.light-blue-badge {
+    background-color: #D6E7FF;
+    color: #074A37;
+    font-size: 8px;
+    font-weight: 700;
+    padding: 3.25px;
+}
+
+.light-yellow-badge {
+    background-color: rgba(214, 208, 33, 0.15);
+    color: #074A37;
+    font-size: 8px;
+    font-weight: 700;
+    padding: 3.25px;
+}
+
+.cyan-badge {
+    background-color: #4C94A0;
+    color: #fff;
+    font-size: 8px;
+    font-weight: 700;
+    padding: 3.25px;
+}
+
+.primary-badge {
+    background-color: #074A37;
+    color: #fff;
+    font-size: 8px;
+    font-weight: 700;
+    padding: 3.25px;
+}
+/* badges end */
 
 /* custom icon bg  */
 .sm-icon {

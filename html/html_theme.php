@@ -51,6 +51,9 @@ License: You must have a valid license purchased only from themeforest(the above
     <!-- scripts mark js -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/mark.min.js" integrity="sha512-5CYOlHXGh6QpOFA/TeTylKLWfB3ftPsde7AnmhuitiTX4K5SqCLBeKro6sPS8ilsz1Q4NRx3v8Ko2IBiszzdww==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <!-- Hotjar Tracking Code for keenthemes.com -->
+
+    <link href="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/themes/prism.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/prism.min.js"></script>
     <script>
         (function(h, o, t, j, a, r) {
             h.hj = h.hj || function() {
@@ -137,46 +140,12 @@ License: You must have a valid license purchased only from themeforest(the above
                         </div>
                         <div class="row">
                             <div class="col-md-12">
-                                <div class="card w-100 p-5">
+                                <div class="card w-100 p-5 mb-7">
                                     <div class="row">
                                         <div class="col-lg-12">
                                             <h3 class="text-primary">Tables</h3>
                                             <h6 class="text-primary mt-5">Table With Light Header</h6>
-                                            <table class="table table-light-pale border-grey text-primary text-dark-grey p-table-10 stripped dataTable br-0" id="kt_datatable" role="grid" style="width: 1151px; margin-top: 0px !important;">
-                                                <thead>
-                                                    <tr>
-                                                        <th class="sorting" tabindex="0" aria-controls="kt_datatable" rowspan="1" colspan="1" style="width: 56px;">
-                                                            Record ID</th>
-                                                        <th class="sorting" tabindex="0" aria-controls="kt_datatable" rowspan="1" colspan="1" style="width: 45px;">
-                                                            Order ID</th>
-                                                        <th class="sorting" tabindex="0" aria-controls="kt_datatable" rowspan="1" colspan="1" style="width: 65px;">
-                                                            Country
-                                                        </th>
-                                                    </tr>
-                                                </thead>
 
-                                                <tbody>
-                                                    <tr>
-                                                        <td class="dtr-control sorting_1" tabindex="0">6
-                                                        </td>
-                                                        <td>53499-0393</td>
-                                                        <td>Ukraine</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td class="dtr-control sorting_1" tabindex="0">6
-                                                        </td>
-                                                        <td>53499-0393</td>
-                                                        <td>Ukraine</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td class="dtr-control sorting_1" tabindex="0">6
-                                                        </td>
-                                                        <td>53499-0393</td>
-                                                        <td>Ukraine</td>
-                                                    </tr>
-                                                </tbody>
-
-                                            </table>
                                             <p class="text-primary my-7">
                                                 Use class <span class="font-weight-bold"><code>.stripped</code></span> for stripes table. For giving table header a light pale color
                                                 use class <span class="font-weight-bold"><code>.table-light-pale</code></span>. Use class <span class="font-weight-bold"><code>.p-table-10</code></span>
@@ -187,7 +156,10 @@ License: You must have a valid license purchased only from themeforest(the above
 
                                             <ul class="nav nav-tabs" id="myTab" role="tablist">
                                                 <li class="nav-item" role="presentation">
-                                                    <button class="nav-link active" id="home-tab" data-toggle="tab" data-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">HTML</button>
+                                                    <button class="nav-link active" id="home-tab" data-toggle="tab" data-target="#preview" type="button" role="tab" aria-controls="preview" aria-selected="true">Preview</button>
+                                                </li>
+                                                <li class="nav-item" role="presentation">
+                                                    <button class="nav-link" id="home-tab" data-toggle="tab" data-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">HTML</button>
                                                 </li>
                                                 <li class="nav-item" role="presentation">
                                                     <button class="nav-link" id="profile-tab" data-toggle="tab" data-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">CSS</button>
@@ -197,7 +169,44 @@ License: You must have a valid license purchased only from themeforest(the above
                                                 </li>
                                             </ul>
                                             <div class="tab-content" id="myTabContent">
-                                                <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                                                <div class="tab-pane p-5 fade show active" id="preview" role="tabpanel" aria-labelledby="contact-tab">
+                                                    <table class="table table-light-pale border-grey text-primary text-dark-grey p-table-10 stripped dataTable br-0" id="kt_datatable" role="grid" style="width: 1151px; margin-top: 0px !important;">
+                                                        <thead>
+                                                            <tr>
+                                                                <th class="sorting" tabindex="0" aria-controls="kt_datatable" rowspan="1" colspan="1" style="width: 56px;">
+                                                                    Record ID</th>
+                                                                <th class="sorting" tabindex="0" aria-controls="kt_datatable" rowspan="1" colspan="1" style="width: 45px;">
+                                                                    Order ID</th>
+                                                                <th class="sorting" tabindex="0" aria-controls="kt_datatable" rowspan="1" colspan="1" style="width: 65px;">
+                                                                    Country
+                                                                </th>
+                                                            </tr>
+                                                        </thead>
+
+                                                        <tbody>
+                                                            <tr>
+                                                                <td class="dtr-control sorting_1" tabindex="0">6
+                                                                </td>
+                                                                <td>53499-0393</td>
+                                                                <td>Ukraine</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td class="dtr-control sorting_1" tabindex="0">6
+                                                                </td>
+                                                                <td>53499-0393</td>
+                                                                <td>Ukraine</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td class="dtr-control sorting_1" tabindex="0">6
+                                                                </td>
+                                                                <td>53499-0393</td>
+                                                                <td>Ukraine</td>
+                                                            </tr>
+                                                        </tbody>
+
+                                                    </table>
+                                                </div>
+                                                <div class="tab-pane fade" id="home" role="tabpanel" aria-labelledby="home-tab">
                                                     <?php $html_code = '
 
 <table class="table table-light-pale border-grey text-primary text-dark-grey p-table-10 stripped dataTable br-0" id="kt_datatable" role="grid" style="width: 1151px; margin-top: 0px !important;">
@@ -282,41 +291,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                         <div class="row mt-7 p-5">
                                             <div class="col-lg-12">
                                                 <h6 class="text-primary mt-5">Table With Dark Header</h6>
-                                                <table class="table table-dark-pale border-grey text-primary text-dark-grey p-table-10 dataTable br-0" id="kt_datatable" role="grid" style="width: 1151px; margin-top: 0px !important;">
-                                                    <thead>
-                                                        <tr>
-                                                            <th class="sorting" tabindex="0" aria-controls="kt_datatable" rowspan="1" colspan="1" style="width: 56px;">
-                                                                Record ID</th>
-                                                            <th class="sorting" tabindex="0" aria-controls="kt_datatable" rowspan="1" colspan="1" style="width: 45px;">
-                                                                Order ID</th>
-                                                            <th class="sorting" tabindex="0" aria-controls="kt_datatable" rowspan="1" colspan="1" style="width: 65px;">
-                                                                Country
-                                                            </th>
-                                                        </tr>
-                                                    </thead>
 
-                                                    <tbody>
-                                                        <tr>
-                                                            <td class="dtr-control sorting_1" tabindex="0">6
-                                                            </td>
-                                                            <td>53499-0393</td>
-                                                            <td>Ukraine</td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td class="dtr-control sorting_1" tabindex="0">6
-                                                            </td>
-                                                            <td>53499-0393</td>
-                                                            <td>Ukraine</td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td class="dtr-control sorting_1" tabindex="0">6
-                                                            </td>
-                                                            <td>53499-0393</td>
-                                                            <td>Ukraine</td>
-                                                        </tr>
-                                                    </tbody>
-
-                                                </table>
                                                 <p class="text-primary my-7">
                                                     For giving table header a dark pale color
                                                     use class <span class="font-weight-bold"><code>.table-dark-pale</code></span>.
@@ -324,7 +299,10 @@ License: You must have a valid license purchased only from themeforest(the above
 
                                                 <ul class="nav nav-tabs" id="myTab" role="tablist">
                                                     <li class="nav-item" role="presentation">
-                                                        <button class="nav-link active" id="home-tab" data-toggle="tab" data-target="#table-dark-html" type="button" role="tab" aria-controls="home" aria-selected="true">HTML</button>
+                                                        <button class="nav-link active" id="home-tab" data-toggle="tab" data-target="#table-dark-preview" type="button" role="tab" aria-controls="table-dark-preview" aria-selected="true">Preview</button>
+                                                    </li>
+                                                    <li class="nav-item" role="presentation">
+                                                        <button class="nav-link" id="home-tab" data-toggle="tab" data-target="#table-dark-html" type="button" role="tab" aria-controls="home" aria-selected="true">HTML</button>
                                                     </li>
                                                     <li class="nav-item" role="presentation">
                                                         <button class="nav-link" id="profile-tab" data-toggle="tab" data-target="#table-dark-css" type="button" role="tab" aria-controls="profile" aria-selected="false">CSS</button>
@@ -334,7 +312,44 @@ License: You must have a valid license purchased only from themeforest(the above
                                                     </li>
                                                 </ul>
                                                 <div class="tab-content" id="myTabContent">
-                                                    <div class="tab-pane fade show active" id="table-dark-html" role="tabpanel" aria-labelledby="table-dark-html-tab">
+                                                    <div class="tab-pane p-5 fade show active" id="table-dark-preview" role="tabpanel" aria-labelledby="table-dark-preview-tab">
+                                                        <table class="table table-dark-pale border-grey text-primary text-dark-grey p-table-10 dataTable br-0" id="kt_datatable" role="grid" style="width: 1151px; margin-top: 0px !important;">
+                                                            <thead>
+                                                                <tr>
+                                                                    <th class="sorting" tabindex="0" aria-controls="kt_datatable" rowspan="1" colspan="1" style="width: 56px;">
+                                                                        Record ID</th>
+                                                                    <th class="sorting" tabindex="0" aria-controls="kt_datatable" rowspan="1" colspan="1" style="width: 45px;">
+                                                                        Order ID</th>
+                                                                    <th class="sorting" tabindex="0" aria-controls="kt_datatable" rowspan="1" colspan="1" style="width: 65px;">
+                                                                        Country
+                                                                    </th>
+                                                                </tr>
+                                                            </thead>
+
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td class="dtr-control sorting_1" tabindex="0">6
+                                                                    </td>
+                                                                    <td>53499-0393</td>
+                                                                    <td>Ukraine</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td class="dtr-control sorting_1" tabindex="0">6
+                                                                    </td>
+                                                                    <td>53499-0393</td>
+                                                                    <td>Ukraine</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td class="dtr-control sorting_1" tabindex="0">6
+                                                                    </td>
+                                                                    <td>53499-0393</td>
+                                                                    <td>Ukraine</td>
+                                                                </tr>
+                                                            </tbody>
+
+                                                        </table>
+                                                    </div>
+                                                    <div class="tab-pane fade" id="table-dark-html" role="tabpanel" aria-labelledby="table-dark-html-tab">
                                                         <?php $html_code = '
 
 <table class="table table-dark-pale border-grey text-primary text-dark-grey p-table-10 dataTable br-0" id="kt_datatable" role="grid" style="width: 1151px; margin-top: 0px !important;">
@@ -395,12 +410,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                 <div class="col-lg-12">
                                                     <h3 class="text-primary">Buttons</h3>
                                                     <h6 class="text-primary mt-5">Colors</h6>
-                                                    <div class="d-flex flex-wrap">
-                                                        <button class="btn btn-grey">Grey Button</button>
-                                                        <button class="btn c-btn-success ml-2">Success Button</button>
-                                                        <button class="btn c-btn-primary ml-2">Primary Button</button>
-                                                        <button class="btn c-btn-light-primary ml-2">Light Button</button>
-                                                    </div>
+
                                                     <p class="text-primary my-7">
                                                         Use class <span class="font-weight-bold"><code>.btn-grey</code></span> for grey button. For giving a warning color
                                                         use class <span class="font-weight-bold"><code>.c-btn-success</code></span>. Use class <span class="font-weight-bold"><code>.c-btn-primary</code></span>
@@ -410,7 +420,10 @@ License: You must have a valid license purchased only from themeforest(the above
 
                                                     <ul class="nav nav-tabs" id="myTab" role="tablist">
                                                         <li class="nav-item" role="presentation">
-                                                            <button class="nav-link active" id="home-tab" data-toggle="tab" data-target="#button-html" type="button" role="tab" aria-controls="button-html" aria-selected="true">HTML</button>
+                                                            <button class="nav-link active" id="home-tab" data-toggle="tab" data-target="#button-preview" type="button" role="tab" aria-controls="button-preview" aria-selected="true">Preview</button>
+                                                        </li>
+                                                        <li class="nav-item" role="presentation">
+                                                            <button class="nav-link" id="home-tab" data-toggle="tab" data-target="#button-html" type="button" role="tab" aria-controls="button-html" aria-selected="true">HTML</button>
                                                         </li>
                                                         <li class="nav-item" role="presentation">
                                                             <button class="nav-link" id="profile-tab" data-toggle="tab" data-target="#button-css" type="button" role="tab" aria-controls="button-css" aria-selected="false">CSS</button>
@@ -420,7 +433,15 @@ License: You must have a valid license purchased only from themeforest(the above
                                                         </li>
                                                     </ul>
                                                     <div class="tab-content" id="myTabContent">
-                                                        <div class="tab-pane fade show active" id="button-html" role="tabpanel" aria-labelledby="button-html-tab">
+                                                        <div class="tab-pane p-5 fade show active" id="button-preview" role="tabpanel" aria-labelledby="button-preview-tab">
+                                                            <div class="d-flex flex-wrap">
+                                                                <button class="btn btn-grey">Grey Button</button>
+                                                                <button class="btn c-btn-success ml-2">Success Button</button>
+                                                                <button class="btn c-btn-primary ml-2">Primary Button</button>
+                                                                <button class="btn c-btn-light-primary ml-2">Light Button</button>
+                                                            </div>
+                                                        </div>
+                                                        <div class="tab-pane fade" id="button-html" role="tabpanel" aria-labelledby="button-html-tab">
                                                             <?php $html_code = '
 
 
@@ -492,12 +513,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                             <div class="row p-5 mt-7">
                                                 <div class="col-lg-12">
                                                     <h6 class="text-primary mt-5">Sizes</h6>
-                                                    <div class="d-flex align-items-center flex-wrap">
-                                                        <button class="btn c-btn-light-primary c-btn-xs">Grey Button</button>
-                                                        <button class="btn btn-grey c-btn-sm ml-2">Grey Button</button>
-                                                        <button class="btn c-btn-success c-btn-md ml-2">Success Button</button>
-                                                        <button class="btn c-btn-primary c-btn-lg ml-2">Primary Button</button>
-                                                    </div>
+
                                                     <p class="text-primary my-7">
                                                         Use class <span class="font-weight-bold"><code>.c-btn-xs</code></span> for extra small button. For small button size
                                                         use class <span class="font-weight-bold"><code>.c-btn-sm</code></span>. Use class <span class="font-weight-bold"><code>.c-btn-md</code></span>
@@ -507,7 +523,10 @@ License: You must have a valid license purchased only from themeforest(the above
 
                                                     <ul class="nav nav-tabs" id="myTab" role="tablist">
                                                         <li class="nav-item" role="presentation">
-                                                            <button class="nav-link active" id="home-tab" data-toggle="tab" data-target="#btn-size-html" type="button" role="tab" aria-controls="btn-size-html" aria-selected="true">HTML</button>
+                                                            <button class="nav-link active" id="home-tab" data-toggle="tab" data-target="#btn-size-preview" type="button" role="tab" aria-controls="btn-size-preview" aria-selected="true">Preview</button>
+                                                        </li>
+                                                        <li class="nav-item" role="presentation">
+                                                            <button class="nav-link" id="home-tab" data-toggle="tab" data-target="#btn-size-html" type="button" role="tab" aria-controls="btn-size-html" aria-selected="true">HTML</button>
                                                         </li>
                                                         <li class="nav-item" role="presentation">
                                                             <button class="nav-link" id="profile-tab" data-toggle="tab" data-target="#btn-size-css" type="button" role="tab" aria-controls="btn-size-css" aria-selected="false">CSS</button>
@@ -517,7 +536,15 @@ License: You must have a valid license purchased only from themeforest(the above
                                                         </li>
                                                     </ul>
                                                     <div class="tab-content" id="myTabContent">
-                                                        <div class="tab-pane fade show active" id="btn-size-html" role="tabpanel" aria-labelledby="btn-size-html-tab">
+                                                        <div class="tab-pane p-5 fade show active" id="btn-size-preview" role="tabpanel" aria-labelledby="btn-size-preview-tab">
+                                                            <div class="d-flex align-items-center flex-wrap">
+                                                                <button class="btn c-btn-light-primary c-btn-xs">Grey Button</button>
+                                                                <button class="btn btn-grey c-btn-sm ml-2">Grey Button</button>
+                                                                <button class="btn c-btn-success c-btn-md ml-2">Success Button</button>
+                                                                <button class="btn c-btn-primary c-btn-lg ml-2">Primary Button</button>
+                                                            </div>
+                                                        </div>
+                                                        <div class="tab-pane fade" id="btn-size-html" role="tabpanel" aria-labelledby="btn-size-html-tab">
                                                             <?php $html_code = '
 
 
@@ -576,41 +603,6 @@ License: You must have a valid license purchased only from themeforest(the above
                                                 <div class="col-lg-12">
                                                     <h3 class="text-primary">Inputs</h3>
                                                     <h6 class="text-primary mt-5">Types</h6>
-                                                    <div class="card bg-light p-5 br-15">
-                                                        <form action="">
-                                                            <div class="row">
-                                                                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                                                                    <div class="form-group">
-                                                                        <label for="text-input" class="font-text text-primary d-inline">Text</label>
-                                                                        <input type="text" id="text-input" class="form-control bg-light-primary outline-0 border-0 mt-4 mb-2" placeholder="Enter Name" fdprocessedid="qi3pz">
-
-                                                                    </div>
-                                                                </div>
-                                                                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                                                                    <div class="form-group">
-                                                                        <label for="exampleFormControlSelect1" class="font-text text-primary d-inline">Select</label>
-                                                                        <div class="select-wrapper mt-4 mb-2">
-                                                                            <select class="form-control bg-primary text-light" id="exampleFormControlSelect1" fdprocessedid="e7dmnh">
-                                                                                <option>None Selected</option>
-                                                                                <option>Selected</option>
-                                                                            </select>
-                                                                        </div>
-
-                                                                    </div>
-                                                                </div>
-                                                                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                                                                    <div class="form-group">
-                                                                        <label class="indicator-small-text">Input with icon</label>
-                                                                        <div class="d-flex align-items-center">
-                                                                            <input class="p-2 bg-light-primary btlr-50 bblr-50 border-0 w-100" type="text">
-                                                                            <span class="d-flex align-items-center p-3 bg-primary btrr-50 bbrr-50 border-color-pale"><i class="icn-edit icn-pale icn-13px"></i></span>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </form>
-                                                    </div>
-
 
                                                     <p class="text-primary my-7">
                                                         Use class <span class="font-weight-bold"><code>.form-control .bg-light-primary</code></span> for light pale input field.
@@ -620,7 +612,10 @@ License: You must have a valid license purchased only from themeforest(the above
 
                                                     <ul class="nav nav-tabs" id="myTab" role="tablist">
                                                         <li class="nav-item" role="presentation">
-                                                            <button class="nav-link active" id="home-tab" data-toggle="tab" data-target="#input-home" type="button" role="tab" aria-controls="input-home" aria-selected="true">HTML</button>
+                                                            <button class="nav-link active" id="home-tab" data-toggle="tab" data-target="#input-preview" type="button" role="tab" aria-controls="input-preview" aria-selected="true">Preview</button>
+                                                        </li>
+                                                        <li class="nav-item" role="presentation">
+                                                            <button class="nav-link" id="home-tab" data-toggle="tab" data-target="#input-home" type="button" role="tab" aria-controls="input-home" aria-selected="true">HTML</button>
                                                         </li>
                                                         <li class="nav-item" role="presentation">
                                                             <button class="nav-link" id="profile-tab" data-toggle="tab" data-target="#input-css" type="button" role="tab" aria-controls="input-css" aria-selected="false">CSS</button>
@@ -630,7 +625,43 @@ License: You must have a valid license purchased only from themeforest(the above
                                                         </li>
                                                     </ul>
                                                     <div class="tab-content" id="myTabContent">
-                                                        <div class="tab-pane fade show active" id="input-home" role="tabpanel" aria-labelledby="input-home-tab">
+                                                        <div class="tab-pane p-5 fade show active" id="input-preview" role="tabpanel" aria-labelledby="input-preview-tab">
+                                                            <div class="card bg-light p-5 br-15">
+                                                                <form action="">
+                                                                    <div class="row">
+                                                                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                                                                            <div class="form-group">
+                                                                                <label for="text-input" class="font-text text-primary d-inline">Text</label>
+                                                                                <input type="text" id="text-input" class="form-control bg-light-primary outline-0 border-0 mt-4 mb-2" placeholder="Enter Name" fdprocessedid="qi3pz">
+
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                                                                            <div class="form-group">
+                                                                                <label for="exampleFormControlSelect1" class="font-text text-primary d-inline">Select</label>
+                                                                                <div class="select-wrapper mt-4 mb-2">
+                                                                                    <select class="form-control bg-primary text-light" id="exampleFormControlSelect1" fdprocessedid="e7dmnh">
+                                                                                        <option>None Selected</option>
+                                                                                        <option>Selected</option>
+                                                                                    </select>
+                                                                                </div>
+
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                                                                            <div class="form-group">
+                                                                                <label class="indicator-small-text">Input with icon</label>
+                                                                                <div class="d-flex align-items-center">
+                                                                                    <input class="p-2 bg-light-primary btlr-50 bblr-50 border-0 w-100" type="text">
+                                                                                    <span class="d-flex align-items-center p-3 bg-primary btrr-50 bbrr-50 border-color-pale"><i class="icn-edit icn-pale icn-13px"></i></span>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </form>
+                                                            </div>
+                                                        </div>
+                                                        <div class="tab-pane fade" id="input-home" role="tabpanel" aria-labelledby="input-home-tab">
                                                             <?php $html_code = '
 
 
@@ -702,18 +733,22 @@ License: You must have a valid license purchased only from themeforest(the above
                                             <div class="row p-5 mt-7">
                                                 <div class="col-lg-12">
                                                     <h3 class="text-primary">Typography</h3>
-                                                    
+                                                    <h6 class="text-primary">Types</h6>
+
                                                     <p class="text-primary my-7">
-                                                        Use class <span class="font-weight-bold"><code>.stripped</code></span> for stripes table. For giving table header a light pale color
-                                                        use class <span class="font-weight-bold"><code>.table-light-pale</code></span>. Use class <span class="font-weight-bold"><code>.p-table-10</code></span>
-                                                        to give 10px padding to table rows. Use class <span class="font-weight-bold"><code>.p-table-15</code></span>
-                                                        to give 15px padding to table rows. <span class="font-weight-bold"><code>.br-0</code></span>
-                                                        is used to remove border radius. To give table a grey border use class <span class="font-weight-bold"><code>.border-grey</code></span>.
+                                                        Use class <span class="font-weight-bold"><code>.font-lg</code></span> for large text. For headings
+                                                        use class <span class="font-weight-bold"><code>.font-heading</code></span>. Use class <span class="font-weight-bold"><code>.font-subheading</code></span>
+                                                        for subheading. Use class <span class="font-weight-bold"><code>.font-text</code></span>
+                                                        for normal. <span class="font-weight-bold"><code>.font-subtext</code></span>
+                                                        is used for subtext. For small text use class <span class="font-weight-bold"><code>.font-small</code></span>.
                                                     </p>
 
                                                     <ul class="nav nav-tabs" id="myTab" role="tablist">
                                                         <li class="nav-item" role="presentation">
-                                                            <button class="nav-link active" id="home-tab" data-toggle="tab" data-target="#typography-html" type="button" role="tab" aria-controls="typography-html" aria-selected="true">HTML</button>
+                                                            <button class="nav-link active" id="home-tab" data-toggle="tab" data-target="#typography-preview" type="button" role="tab" aria-controls="typography-preview" aria-selected="true">Preview</button>
+                                                        </li>
+                                                        <li class="nav-item" role="presentation">
+                                                            <button class="nav-link" id="home-tab" data-toggle="tab" data-target="#typography-html" type="button" role="tab" aria-controls="typography-html" aria-selected="true">HTML</button>
                                                         </li>
                                                         <li class="nav-item" role="presentation">
                                                             <button class="nav-link" id="profile-tab" data-toggle="tab" data-target="#typography-css" type="button" role="tab" aria-controls="typography-css" aria-selected="false">CSS</button>
@@ -723,13 +758,89 @@ License: You must have a valid license purchased only from themeforest(the above
                                                         </li>
                                                     </ul>
                                                     <div class="tab-content" id="myTabContent">
-                                                        <div class="tab-pane fade show active" id="typography-html" role="tabpanel" aria-labelledby="typography-html-tab">
+                                                        <div class="tab-pane p-5 fade show active" id="typography-preview" role="tabpanel" aria-labelledby="typography-preview-tab">
+                                                            <h1>Heading 1</h1>
+                                                            <h2>Heading 2</h2>
+                                                            <h3>Heading 3</h3>
+                                                            <h4>Heading 4</h4>
+                                                            <h5>Heading 5</h5>
+                                                            <h6>Heading 6</h6>
+                                                            <span class="font-lg d-block">Large font</span>
+                                                            <div class="font-heading">Headings</div>
+                                                            <div class="font-subheading">Subheadings</div>
+                                                            <p class="font-text">Text</p>
+                                                            <p class="font-subtext">Subtext</p>
+                                                            <span class="font-small d-block">Small text</span>
+                                                        </div>
+                                                        <div class="tab-pane fade" id="typography-html" role="tabpanel" aria-labelledby="typography-html-tab">
+                                                            <?php $html_code = '
+
+    <span class="font-lg d-block">Large font</span>
+    <h1 class="font-heading">Headings</h1>
+    <h3 class="font-subheading">Subheadings</h3>
+    <p class="font-text">Text</p>
+    <p class="font-subtext">Subtext</p>
+    <span class="font-small d-block">Small text</span>
+                                                            ';
+
+                                                            echo "
+                                                <pre>" . htmlentities($html_code) . "</pre>";
+                                                            ?>
                                                         </div>
                                                         <div class="tab-pane fade" id="typography-css" role="tabpanel" aria-labelledby="typography-css-tab">
                                                             <pre>
                                                                 <code>
-                                                                    
 
+                                                                
+.font-heading {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    text-transform: capitalize;
+}
+
+.font-lg {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 136.69%;
+    text-transform: capitalize
+}
+
+.font-subheading {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
+
+    text-transform: capitalize;
+}
+
+.font-small {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 142.19%;
+    /* identical to box height, or 23px */
+
+    text-transform: capitalize;
+}
+
+.font-text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+}
+
+.font-subtext {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18px;
+}
                                                                 </code>
                                                             </pre>
                                                         </div>
@@ -737,42 +848,177 @@ License: You must have a valid license purchased only from themeforest(the above
                                                     </div>
                                                 </div>
                                             </div>
-                                            
+
                                             <div class="row p-5 mt-7">
                                                 <div class="col-lg-12">
-                                                    <h3 class="text-primary">Typography</h3>
-                                                    
+                                                    <h3 class="text-primary mb-7">Text color</h3>
+
+
                                                     <p class="text-primary my-7">
-                                                        Use class <span class="font-weight-bold"><code>.stripped</code></span> for stripes table. For giving table header a light pale color
-                                                        use class <span class="font-weight-bold"><code>.table-light-pale</code></span>. Use class <span class="font-weight-bold"><code>.p-table-10</code></span>
-                                                        to give 10px padding to table rows. Use class <span class="font-weight-bold"><code>.p-table-15</code></span>
-                                                        to give 15px padding to table rows. <span class="font-weight-bold"><code>.br-0</code></span>
-                                                        is used to remove border radius. To give table a grey border use class <span class="font-weight-bold"><code>.border-grey</code></span>.
+                                                        Use class <span class="font-weight-bold"><code>.text-primary</code></span> for primary. For success text
+                                                        use class <span class="font-weight-bold"><code>.text-success</code></span>. Use class <span class="font-weight-bold"><code>.text-light-primary</code></span>
+                                                        for light primary text. Use class <span class="font-weight-bold"><code>.text-light-cyan</code></span>
+                                                        for grey text.
                                                     </p>
 
                                                     <ul class="nav nav-tabs" id="myTab" role="tablist">
                                                         <li class="nav-item" role="presentation">
-                                                            <button class="nav-link active" id="home-tab" data-toggle="tab" data-target="#typography-html" type="button" role="tab" aria-controls="typography-html" aria-selected="true">HTML</button>
+                                                            <button class="nav-link active" id="home-tab" data-toggle="tab" data-target="#typography-color-preview" type="button" role="tab" aria-controls="typography-color-preview" aria-selected="true">Preview</button>
                                                         </li>
                                                         <li class="nav-item" role="presentation">
-                                                            <button class="nav-link" id="profile-tab" data-toggle="tab" data-target="#typography-css" type="button" role="tab" aria-controls="typography-css" aria-selected="false">CSS</button>
+                                                            <button class="nav-link" id="home-tab" data-toggle="tab" data-target="#typography-color-html" type="button" role="tab" aria-controls="typography-color-html" aria-selected="true">HTML</button>
                                                         </li>
                                                         <li class="nav-item" role="presentation">
-                                                            <button class="nav-link" id="contact-tab" data-toggle="tab" data-target="#typography-js" type="button" role="tab" aria-controls="typography-js" aria-selected="false">JS</button>
+                                                            <button class="nav-link" id="profile-tab" data-toggle="tab" data-target="#typography-color-css" type="button" role="tab" aria-controls="typography-color-css" aria-selected="false">CSS</button>
+                                                        </li>
+                                                        <li class="nav-item" role="presentation">
+                                                            <button class="nav-link" id="contact-tab" data-toggle="tab" data-target="#typography-color-js" type="button" role="tab" aria-controls="typography-color-js" aria-selected="false">JS</button>
                                                         </li>
                                                     </ul>
                                                     <div class="tab-content" id="myTabContent">
-                                                        <div class="tab-pane fade show active" id="typography-html" role="tabpanel" aria-labelledby="typography-html-tab">
+                                                        <div class="tab-pane p-5 fade show active" id="typography-color-preview" role="tabpanel" aria-labelledby="typography-color-preview-tab">
+                                                            <p class="font-text text-primary">Text primary</p>
+                                                            <p class="font-text text-light-primary">Text light primary</p>
+                                                            <p class="font-text text-success">Text success</p>
+                                                            <p class="font-text text-light-cyan">Text cyan</p>
                                                         </div>
-                                                        <div class="tab-pane fade" id="typography-css" role="tabpanel" aria-labelledby="typography-css-tab">
+                                                        <div class="tab-pane fade" id="typography-color-html" role="tabpanel" aria-labelledby="typography-color-html-tab">
+                                                            <?php $html_code = '
+    
+    
+    <p class="font-text text-primary">Text primary</p>
+    <p class="font-text text-light-primary">Text light primary</p>
+    <p class="font-text text-success">Text success</p>
+    <p class="font-text text-light-cyan">Text cyan</p>';
+
+                                                            echo "
+                                        <pre>" . htmlentities($html_code) . "</pre>";
+                                                            ?>
+                                                        </div>
+                                                        <div class="tab-pane fade" id="typography-color-css" role="tabpanel" aria-labelledby="typography-color-css-tab">
                                                             <pre>
                                                                 <code>
                                                                     
+    .text-light-cyan {
+        color: #839FA0;
+    }
+
+    .text-light-primary {
+        color: #EBF2E4;
+    }
+        
+    .text-primary {
+        color: #074A37 !important;
+    }
+
+    .text-success {
+        color: #FEC045 !important;
+    }
 
                                                                 </code>
                                                             </pre>
                                                         </div>
-                                                        <div class="tab-pane fade" id="typography-js" role="tabpanel" aria-labelledby="typography-js-tab">...</div>
+                                                        <div class="tab-pane fade" id="typography-color-js" role="tabpanel" aria-labelledby="typography-color-js-tab">...</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+
+                                            <div class="row p-5 mt-7">
+                                                <div class="col-lg-12">
+                                                    <h3 class="text-primary">Badges</h3>
+
+                                                    <p class="text-primary my-7">
+                                                        Use class <span class="font-weight-bold"><code>.light-primary-badge</code></span> for light primary badge. For light blue badge
+                                                        use class <span class="font-weight-bold"><code>.light-blue-badge</code></span>. Use class <span class="font-weight-bold"><code>.light-yellow-badge</code></span>
+                                                        for light yellow. Use class <span class="font-weight-bold"><code>.cyan-badge</code></span>
+                                                        for cyan badge. Use<span class="font-weight-bold"><code>.primary-badge</code></span>
+                                                        for primary badge.
+                                                    </p>
+
+                                                    <ul class="nav nav-tabs" id="myTab" role="tablist">
+                                                        <li class="nav-item" role="presentation">
+                                                            <button class="nav-link active" id="home-tab" data-toggle="tab" data-target="#badges-preview" type="button" role="tab" aria-controls="badges-preview" aria-selected="true">Preview</button>
+                                                        </li>
+                                                        <li class="nav-item" role="presentation">
+                                                            <button class="nav-link" id="home-tab" data-toggle="tab" data-target="#badges-html" type="button" role="tab" aria-controls="badges-html" aria-selected="true">HTML</button>
+                                                        </li>
+                                                        <li class="nav-item" role="presentation">
+                                                            <button class="nav-link" id="profile-tab" data-toggle="tab" data-target="#badges-css" type="button" role="tab" aria-controls="badges-css" aria-selected="false">CSS</button>
+                                                        </li>
+                                                        <li class="nav-item" role="presentation">
+                                                            <button class="nav-link" id="contact-tab" data-toggle="tab" data-target="#badges-js" type="button" role="tab" aria-controls="badges-js" aria-selected="false">JS</button>
+                                                        </li>
+                                                    </ul>
+                                                    <div class="tab-content" id="myTabContent">
+                                                        <div class="tab-pane p-5 fade show active" id="badges-preview" role="tabpanel" aria-labelledby="badges-preview-tab">
+                                                            <span class="light-primary-badge">light primary</span>
+                                                            <span class="light-blue-badge">light blue</span>
+                                                            <span class="light-yellow-badge">light yellow</span>
+                                                            <span class="cyan-badge">cyan</span>
+                                                            <span class="primary-badge">primary badge</span>
+                                                        </div>
+                                                        <div class="tab-pane fade" id="badges-html" role="tabpanel" aria-labelledby="badges-html-tab">
+                                                            <?php $html_code = '
+    
+    
+    <span class="light-primary-badge">light primary</span>
+    <span class="light-blue-badge">light blue</span>
+    <span class="light-yellow-badge">light yellow</span>
+    <span class="cyan-badge">cyan</span>
+    <span class="primary-badge">primary badge</span>';
+
+                                                            echo "
+                                        <pre>" . htmlentities($html_code) . "</pre>";
+                                                            ?>
+                                                        </div>
+                                                        <div class="tab-pane fade" id="badges-css" role="tabpanel" aria-labelledby="badges-css-tab">
+                                                            <pre>
+                                                                <code>
+    .light-primary-badge {
+        background-color: #EBF2E4;
+        color: #074A37;
+        font-size: 8px;
+        font-weight: 700;
+        padding: 3.25px;
+    }
+
+    .light-blue-badge {
+        background-color: #D6E7FF;
+        color: #074A37;
+        font-size: 8px;
+        font-weight: 700;
+        padding: 3.25px;
+    }
+
+    .light-yellow-badge {
+        background-color: rgba(214, 208, 33, 0.15);
+        color: #074A37;
+        font-size: 8px;
+        font-weight: 700;
+        padding: 3.25px;
+    }
+
+    .cyan-badge {
+        background-color: #4C94A0;
+        color: #074A37;
+        font-size: 8px;
+        font-weight: 700;
+        padding: 3.25px;
+    }
+
+    .primary-badge {
+        background-color: #4C94A0;
+        color: #074A37;
+        font-size: 8px;
+        font-weight: 700;
+        padding: 3.25px;
+    }
+
+                                                                </code>
+                                                            </pre>
+                                                        </div>
+                                                        <div class="tab-pane fade" id="badges-js" role="tabpanel" aria-labelledby="badges-js-tab">...</div>
                                                     </div>
                                                 </div>
                                             </div>
