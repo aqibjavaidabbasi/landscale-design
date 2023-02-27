@@ -101303,22 +101303,30 @@ select {
 }
 
 .c-btn-lg {
-    width: 75%;
+    width: 200px;
+    height: 40px;
+    font-size: 14px !important;
 }
 
 .c-btn-md {
     width: 176px;
     height: 36px;
-    font-size: 11px !important;
+    font-size: 13px !important;
 }
 
 .c-btn-sm {
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
     width: 95px;
     height: 25px;
-    font-size: 12px !important;
+    font-size: 10px !important;
 }
 
 .c-btn-xs {
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
     width: 85px;
     height: 15px;
     font-size: 7px !important;
