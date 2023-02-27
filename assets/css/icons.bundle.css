@@ -386,7 +386,7 @@
     mask: url('../media/svg_icons/chart.svg') no-repeat center;
     -webkit-mask-size: contain;
     mask-size: contain;
-    background-color: #074A37;  
+    background-color: #074A37;
     width: 16px;
     height: 16px;
 }
@@ -569,6 +569,20 @@
     -webkit-mask-size: contain;
     mask-size: contain;
     background-color: #fff;
+    width: 16px;
+    height: 16px;
+}
+
+.icn-file-chart {
+    display: inline-block;
+    /* background-image: url('../media/svg_icons/file-chart.svg');
+    background-repeat: no-repeat;
+    background-size: contain; */
+    -webkit-mask: url('../media/svg_icons/file-chart.svg') no-repeat center;
+    mask: url('../media/svg_icons/file-chart.svg') no-repeat center;
+    -webkit-mask-size: contain;
+    mask-size: contain;
+    background-color: #074A37;
     width: 16px;
     height: 16px;
 }
@@ -773,4 +787,12 @@
     align-items: center;
     justify-content: center;
     border-radius: 50%;
+}
+
+.nav-icn {
+    width: 40px !important;
+    height: 40px !important;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
 }

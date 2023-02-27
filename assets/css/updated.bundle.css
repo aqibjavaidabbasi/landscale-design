@@ -99246,7 +99246,7 @@ body {
 
 .aside-menu .menu-nav>.menu-item:not(.menu-item-parent):not(.menu-item-open):not(.menu-item-here):not(.menu-item-active):hover>.menu-heading .menu-text,
 .aside-menu .menu-nav>.menu-item:not(.menu-item-parent):not(.menu-item-open):not(.menu-item-here):not(.menu-item-active):hover>.menu-link .menu-text {
-    color: #074A37;
+    color: #EBF2E4;
 }
 
 .aside-menu .menu-nav>.menu-item:not(.menu-item-parent):not(.menu-item-open):not(.menu-item-here):not(.menu-item-active):hover>.menu-heading .menu-icon,
@@ -100999,11 +100999,11 @@ select {
 }
 
 .h-59px {
-    height: 58.5px !important;
+    height: 53px !important;
 }
 
 .h-58px {
-    height: 58px !important;
+    height: 53.5px !important;
 }
 
 .card-hover:hover {
