@@ -650,7 +650,7 @@ License: You must have a valid license purchased only from themeforest(the above
         $('.copy-link').on('click', function() {
             var textToCopy = $(this).find('.text-to-copy').text();
             navigator.clipboard.writeText(textToCopy);
-            $('.text-to-copy').unmark();
+            // $('.text-to-copy').unmark();
             alert('Text copied to clipboard!');
         });
 

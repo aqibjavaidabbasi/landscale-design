@@ -54,6 +54,7 @@ License: You must have a valid license purchased only from themeforest(the above
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.62.2/codemirror.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.62.2/theme/dracula.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.8/clipboard.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.62.2/codemirror.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.62.2/mode/htmlmixed/htmlmixed.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.62.2/mode/xml/xml.min.js"></script>
@@ -213,11 +214,16 @@ License: You must have a valid license purchased only from themeforest(the above
                                                     </table>
                                                 </div>
                                                 <div class="tab-pane fade" id="home" role="tabpanel" aria-labelledby="home-tab">
+                                                    <div class="d-flex justify-content-end">
+                                                        <button class="btn btn-light-primary br-50 mx-5 my-2" data-clipboard-text="" id="editor-copyButton"><i class="icn-file icn-cyan"></i></button>
+                                                    </div>
                                                     <div id="editor"></div>
-
                                                 </div>
                                                 <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
-                                                    <div id="editor-css"></div>
+                                                    <div class="d-flex justify-content-end">
+                                                        <button class="btn btn-light-primary br-50 mx-5 my-2" data-clipboard-text="" id="editor-css-copyButton"><i class="icn-file icn-cyan"></i></button>
+                                                    </div>
+                                                    <div id="editor-css" class="codemirror" contenteditable="true"></div>
 
                                                 </div>
                                                 <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
@@ -287,10 +293,15 @@ License: You must have a valid license purchased only from themeforest(the above
                                                         </table>
                                                     </div>
                                                     <div class="tab-pane fade" id="table-dark-html" role="tabpanel" aria-labelledby="table-dark-html-tab">
+                                                        <div class="d-flex justify-content-end">
+                                                            <button class="btn btn-light-primary br-50 mx-5 my-2" data-clipboard-text="" id="cm-drk-table-html-copyButton"><i class="icn-file icn-cyan"></i></button>
+                                                        </div>
                                                         <div id="cm-drk-table-html"></div>
-
                                                     </div>
                                                     <div class="tab-pane fade" id="table-dark-css" role="tabpanel" aria-labelledby="table-dark-css-tab">
+                                                        <div class="d-flex justify-content-end">
+                                                            <button class="btn btn-light-primary br-50 mx-5 my-2" data-clipboard-text="" id="cm-drk-table-css-copyButton"><i class="icn-file icn-cyan"></i></button>
+                                                        </div>
                                                         <div id="cm-drk-table-css"></div>
 
                                                     </div>
@@ -335,11 +346,16 @@ License: You must have a valid license purchased only from themeforest(the above
                                                             </div>
                                                         </div>
                                                         <div class="tab-pane fade" id="button-html" role="tabpanel" aria-labelledby="button-html-tab">
+                                                            <div class="d-flex justify-content-end">
+                                                                <button class="btn btn-light-primary br-50 mx-5 my-2" data-clipboard-text="" id="cm-btn-color-html-copyButton"><i class="icn-file icn-cyan"></i></button>
+                                                            </div>
                                                             <div id="cm-btn-color-html"></div>
                                                         </div>
                                                         <div class="tab-pane fade" id="button-css" role="tabpanel" aria-labelledby="botton-css-tab">
+                                                            <div class="d-flex justify-content-end">
+                                                                <button class="btn btn-light-primary br-50 mx-5 my-2" data-clipboard-text="" id="cm-btn-color-css-copyButton"><i class="icn-file icn-cyan"></i></button>
+                                                            </div>
                                                             <div id="cm-btn-color-css"></div>
-
                                                         </div>
                                                         <div class="tab-pane fade" id="button-js" role="tabpanel" aria-labelledby="button-js-tab">
                                                             <div id="cm-btn-color-js"></div>
@@ -384,11 +400,16 @@ License: You must have a valid license purchased only from themeforest(the above
                                                             </div>
                                                         </div>
                                                         <div class="tab-pane fade" id="btn-size-html" role="tabpanel" aria-labelledby="btn-size-html-tab">
+                                                            <div class="d-flex justify-content-end">
+                                                                <button class="btn btn-light-primary br-50 mx-5 my-2" data-clipboard-text="" id="cm-btn-size-html-copyButton"><i class="icn-file icn-cyan"></i></button>
+                                                            </div>
                                                             <div id="cm-btn-size-html"></div>
                                                         </div>
                                                         <div class="tab-pane fade" id="btn-size-css" role="tabpanel" aria-labelledby="btn-size-css-tab">
+                                                            <div class="d-flex justify-content-end">
+                                                                <button class="btn btn-light-primary br-50 mx-5 my-2" data-clipboard-text="" id="cm-btn-size-css-copyButton"><i class="icn-file icn-cyan"></i></button>
+                                                            </div>
                                                             <div id="cm-btn-size-css"></div>
-
                                                         </div>
                                                         <div class="tab-pane fade" id="btn-size-js" role="tabpanel" aria-labelledby="btn-size-js-tab">
                                                             <div id="cm-btn-size-js"></div>
@@ -461,10 +482,15 @@ License: You must have a valid license purchased only from themeforest(the above
                                                             </div>
                                                         </div>
                                                         <div class="tab-pane fade" id="input-home" role="tabpanel" aria-labelledby="input-home-tab">
+                                                            <div class="d-flex justify-content-end">
+                                                                <button class="btn btn-light-primary br-50 mx-5 my-2" data-clipboard-text="" id="cm-input-html-copyButton"><i class="icn-file icn-cyan"></i></button>
+                                                            </div>
                                                             <div id="cm-input-html"></div>
-
                                                         </div>
                                                         <div class="tab-pane fade" id="input-css" role="tabpanel" aria-labelledby="input-css-tab">
+                                                            <div class="d-flex justify-content-end">
+                                                                <button class="btn btn-light-primary br-50 mx-5 my-2" data-clipboard-text="" id="cm-input-css-copyButton"><i class="icn-file icn-cyan"></i></button>
+                                                            </div>
                                                             <div id="cm-input-css"></div>
                                                         </div>
                                                         <div class="tab-pane fade" id="input-js" role="tabpanel" aria-labelledby="input-js-tab">
@@ -518,9 +544,15 @@ License: You must have a valid license purchased only from themeforest(the above
                                                             <span class="font-small d-block">Small text</span>
                                                         </div>
                                                         <div class="tab-pane fade" id="typography-html" role="tabpanel" aria-labelledby="typography-html-tab">
+                                                            <div class="d-flex justify-content-end">
+                                                                <button class="btn btn-light-primary br-50 mx-5 my-2" data-clipboard-text="" id="cm-typo-html-copyButton"><i class="icn-file icn-cyan"></i></button>
+                                                            </div>
                                                             <div id="cm-typo-html"></div>
                                                         </div>
                                                         <div class="tab-pane fade" id="typography-css" role="tabpanel" aria-labelledby="typography-css-tab">
+                                                            <div class="d-flex justify-content-end">
+                                                                <button class="btn btn-light-primary br-50 mx-5 my-2" data-clipboard-text="" id="cm-typo-css-copyButton"><i class="icn-file icn-cyan"></i></button>
+                                                            </div>
                                                             <div id="cm-typo-css"></div>
                                                         </div>
                                                         <div class="tab-pane fade" id="typography-js" role="tabpanel" aria-labelledby="typography-js-tab">
@@ -564,9 +596,15 @@ License: You must have a valid license purchased only from themeforest(the above
                                                             <p class="font-text text-light-cyan">Text cyan</p>
                                                         </div>
                                                         <div class="tab-pane fade" id="typography-color-html" role="tabpanel" aria-labelledby="typography-color-html-tab">
+                                                            <div class="d-flex justify-content-end">
+                                                                <button class="btn btn-light-primary br-50 mx-5 my-2" data-clipboard-text="" id="cm-typo-color-html-copyButton"><i class="icn-file icn-cyan"></i></button>
+                                                            </div>
                                                             <div id="cm-typo-color-html"></div>
                                                         </div>
                                                         <div class="tab-pane fade" id="typography-color-css" role="tabpanel" aria-labelledby="typography-color-css-tab">
+                                                            <div class="d-flex justify-content-end">
+                                                                <button class="btn btn-light-primary br-50 mx-5 my-2" data-clipboard-text="" id="cm-typo-color-css-copyButton"><i class="icn-file icn-cyan"></i></button>
+                                                            </div>
                                                             <div id="cm-typo-color-css"></div>
                                                         </div>
                                                         <div class="tab-pane fade" id="typography-color-js" role="tabpanel" aria-labelledby="typography-color-js-tab">
@@ -612,10 +650,15 @@ License: You must have a valid license purchased only from themeforest(the above
                                                             <span class="primary-badge">primary badge</span>
                                                         </div>
                                                         <div class="tab-pane fade" id="badges-html" role="tabpanel" aria-labelledby="badges-html-tab">
+                                                            <div class="d-flex justify-content-end">
+                                                                <button class="btn btn-light-primary br-50 mx-5 my-2" data-clipboard-text="" id="cm-badges-html-copyButton"><i class="icn-file icn-cyan"></i></button>
+                                                            </div>
                                                             <div id="cm-badges-html"></div>
-
                                                         </div>
                                                         <div class="tab-pane fade" id="badges-css" role="tabpanel" aria-labelledby="badges-css-tab">
+                                                            <div class="d-flex justify-content-end">
+                                                                <button class="btn btn-light-primary br-50 mx-5 my-2" data-clipboard-text="" id="cm-badges-css-copyButton"><i class="icn-file icn-cyan"></i></button>
+                                                            </div>
                                                             <div id="cm-badges-css"></div>
                                                         </div>
                                                         <div class="tab-pane fade" id="badges-js" role="tabpanel" aria-labelledby="badges-js-tab">
@@ -800,7 +843,19 @@ License: You must have a valid license purchased only from themeforest(the above
                         autofocus: true,
                     });
                     cssEditor.refresh();
+
+                    var htmlCopyButton = document.getElementById(htmlId + '-copyButton');
+                    console.log(htmlCopyButton);
+                    htmlCopyButton.setAttribute('data-clipboard-text', htmlEditor.getValue());
+                    var cssCopyButton = document.getElementById(cssId + '-copyButton');
+                    cssCopyButton.setAttribute('data-clipboard-text', cssEditor.getValue());
                 }
+
+
+                var clipboard = new ClipboardJS('.btn');
+                clipboard.on('success', function(e) {
+                    alert('Text copied to clipboard');
+                });
             </script>
 
             <script>
