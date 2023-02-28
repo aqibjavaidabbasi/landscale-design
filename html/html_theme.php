@@ -52,8 +52,14 @@ License: You must have a valid license purchased only from themeforest(the above
     <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/mark.min.js" integrity="sha512-5CYOlHXGh6QpOFA/TeTylKLWfB3ftPsde7AnmhuitiTX4K5SqCLBeKro6sPS8ilsz1Q4NRx3v8Ko2IBiszzdww==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <!-- Hotjar Tracking Code for keenthemes.com -->
 
-    <link href="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/themes/prism.min.css" rel="stylesheet">
-    <script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/prism.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.62.2/codemirror.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.62.2/theme/dracula.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.62.2/codemirror.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.62.2/mode/htmlmixed/htmlmixed.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.62.2/mode/xml/xml.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.62.2/mode/javascript/javascript.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.62.2/mode/css/css.min.js"></script>
+
     <script>
         (function(h, o, t, j, a, r) {
             h.hj = h.hj || function() {
@@ -168,7 +174,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                     <button class="nav-link" id="contact-tab" data-toggle="tab" data-target="#contact" type="button" role="tab" aria-controls="contact" aria-selected="false">JS</button>
                                                 </li>
                                             </ul>
-                                            <div class="tab-content" id="myTabContent">
+                                            <div class="tab-content border" id="myTabContent">
                                                 <div class="tab-pane p-5 fade show active" id="preview" role="tabpanel" aria-labelledby="contact-tab">
                                                     <table class="table table-light-pale border-grey text-primary text-dark-grey p-table-10 stripped dataTable br-0" id="kt_datatable" role="grid" style="width: 1151px; margin-top: 0px !important;">
                                                         <thead>
@@ -207,85 +213,16 @@ License: You must have a valid license purchased only from themeforest(the above
                                                     </table>
                                                 </div>
                                                 <div class="tab-pane fade" id="home" role="tabpanel" aria-labelledby="home-tab">
-                                                    <?php $html_code = '
-
-<table class="table table-light-pale border-grey text-primary text-dark-grey p-table-10 stripped dataTable br-0" id="kt_datatable" role="grid" style="width: 1151px; margin-top: 0px !important;">
-<thead>
-    <tr>
-        <th class="sorting" tabindex="0" aria-controls="kt_datatable" rowspan="1" colspan="1" style="width: 56px;">
-            Record ID</th>
-        <th class="sorting" tabindex="0" aria-controls="kt_datatable" rowspan="1" colspan="1" style="width: 45px;">
-            Order ID</th>
-        <th class="sorting" tabindex="0" aria-controls="kt_datatable" rowspan="1" colspan="1" style="width: 65px;">
-            Country
-        </th>
-    </tr>
-</thead>
-
-<tbody>
-    <tr>
-        <td class="dtr-control sorting_1" tabindex="0">6
-        </td>
-        <td>53499-0393</td>
-        <td>Ukraine</td>
-    </tr>
-    <tr>
-        <td class="dtr-control sorting_1" tabindex="0">6
-        </td>
-        <td>53499-0393</td>
-        <td>Ukraine</td>
-    </tr>
-    <tr>
-        <td class="dtr-control sorting_1" tabindex="0">6
-        </td>
-        <td>53499-0393</td>
-        <td>Ukraine</td>
-    </tr>
-</tbody>
-
-</table>';
-
-                                                    echo "
-                                                    <pre>" . htmlentities($html_code) . "</pre>";
-                                                    ?>
+                                                    <div id="editor"></div>
 
                                                 </div>
                                                 <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
-                                                    <pre>
-                                                        <code>
-                                                            
-.table.stripped tbody tr:nth-child(even) {
-    background-color: #F0F0F0;
-}
+                                                    <div id="editor-css"></div>
 
-.table.stripped tbody tr:nth-child(odd) {
-    background-color: #fff;
-}
-
-.table.table-light-pale thead tr {
-    color: #074A37;
-    background-color: #EBF2E4;
-}
-
-.table.p-table-10 tbody tr td {
-    padding: 10px !important;
-}
-
-.table.p-table-15 tbody tr td {
-    padding: 15px !important;
-}
-
-.br-0 {
-    border-radius: 0px !important;
-}
-
-.table.border-grey {
-    border: 2px solid #F0F0F0 !important;
-}
-                                                        </code>
-                                                    </pre>
                                                 </div>
-                                                <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">...</div>
+                                                <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+                                                    <div id="editor-js"></div>
+                                                </div>
                                             </div>
                                         </div>
                                         <div class="row mt-7 p-5">
@@ -311,7 +248,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                         <button class="nav-link" id="contact-tab" data-toggle="tab" data-target="#table-dark-js" type="button" role="tab" aria-controls="contact" aria-selected="false">JS</button>
                                                     </li>
                                                 </ul>
-                                                <div class="tab-content" id="myTabContent">
+                                                <div class="tab-content border" id="myTabContent">
                                                     <div class="tab-pane p-5 fade show active" id="table-dark-preview" role="tabpanel" aria-labelledby="table-dark-preview-tab">
                                                         <table class="table table-dark-pale border-grey text-primary text-dark-grey p-table-10 dataTable br-0" id="kt_datatable" role="grid" style="width: 1151px; margin-top: 0px !important;">
                                                             <thead>
@@ -350,60 +287,16 @@ License: You must have a valid license purchased only from themeforest(the above
                                                         </table>
                                                     </div>
                                                     <div class="tab-pane fade" id="table-dark-html" role="tabpanel" aria-labelledby="table-dark-html-tab">
-                                                        <?php $html_code = '
-
-<table class="table table-dark-pale border-grey text-primary text-dark-grey p-table-10 dataTable br-0" id="kt_datatable" role="grid" style="width: 1151px; margin-top: 0px !important;">
-<thead>
-    <tr>
-        <th class="sorting" tabindex="0" aria-controls="kt_datatable" rowspan="1" colspan="1" style="width: 56px;">
-            Record ID</th>
-        <th class="sorting" tabindex="0" aria-controls="kt_datatable" rowspan="1" colspan="1" style="width: 45px;">
-            Order ID</th>
-        <th class="sorting" tabindex="0" aria-controls="kt_datatable" rowspan="1" colspan="1" style="width: 65px;">
-            Country
-        </th>
-    </tr>
-</thead>
-
-<tbody>
-    <tr>
-        <td class="dtr-control sorting_1" tabindex="0">6
-        </td>
-        <td>53499-0393</td>
-        <td>Ukraine</td>
-    </tr>
-    <tr>
-        <td class="dtr-control sorting_1" tabindex="0">6
-        </td>
-        <td>53499-0393</td>
-        <td>Ukraine</td>
-    </tr>
-    <tr>
-        <td class="dtr-control sorting_1" tabindex="0">6
-        </td>
-        <td>53499-0393</td>
-        <td>Ukraine</td>
-    </tr>
-</tbody>
-
-</table>';
-
-                                                        echo "
-                                                    <pre>" . htmlentities($html_code) . "</pre>";
-                                                        ?>
+                                                        <div id="cm-drk-table-html"></div>
 
                                                     </div>
                                                     <div class="tab-pane fade" id="table-dark-css" role="tabpanel" aria-labelledby="table-dark-css-tab">
-                                                        <pre>
-                                                        <code>
-.table.table-dark-pale thead tr {
-    color: #074A37;
-    background-color: #DCE6D1 !important;
-}
-                                                        </code>
-                                                    </pre>
+                                                        <div id="cm-drk-table-css"></div>
+
                                                     </div>
-                                                    <div class="tab-pane fade" id="table-dark-js" role="tabpanel" aria-labelledby="table-dark-js-tab">...</div>
+                                                    <div class="tab-pane fade" id="table-dark-js" role="tabpanel" aria-labelledby="table-dark-js-tab">
+                                                        <div id="cm-drk-table-js"></div>
+                                                    </div>
                                                 </div>
                                             </div>
                                             <div class="row p-5 mt-7">
@@ -432,7 +325,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                             <button class="nav-link" id="contact-tab" data-toggle="tab" data-target="#button-js" type="button" role="tab" aria-controls="button-js" aria-selected="false">JS</button>
                                                         </li>
                                                     </ul>
-                                                    <div class="tab-content" id="myTabContent">
+                                                    <div class="tab-content border" id="myTabContent">
                                                         <div class="tab-pane p-5 fade show active" id="button-preview" role="tabpanel" aria-labelledby="button-preview-tab">
                                                             <div class="d-flex flex-wrap">
                                                                 <button class="btn btn-grey">Grey Button</button>
@@ -442,6 +335,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                             </div>
                                                         </div>
                                                         <div class="tab-pane fade" id="button-html" role="tabpanel" aria-labelledby="button-html-tab">
+                                                            <div id="cm-btn-color-html"></div>
                                                             <?php $html_code = '
 
 
@@ -455,56 +349,12 @@ License: You must have a valid license purchased only from themeforest(the above
                                                             ?>
                                                         </div>
                                                         <div class="tab-pane fade" id="button-css" role="tabpanel" aria-labelledby="botton-css-tab">
-                                                            <pre>
-                                                                <code>
-.btn-grey {
-    font-family: 'Roboto';
-    display: inline-block;
-    text-align: center;
-    background: #4C94A0 !important;
-    color: #fff !important;
-    border-radius: 15px !important;
-    padding: 10px;
-    border: 0px !important;
-}
+                                                            <div id="cm-btn-color-css"></div>
 
-.c-btn-success {
-    font-family: 'Roboto';
-    display: inline-block;
-    text-align: center;
-    background: #FEC045 !important;
-    color: #074A37 !important;
-    border-radius: 15px !important;
-    padding: 10px;
-    border: 0px !important;
-}
-
-.c-btn-light-primary {
-    font-family: 'Roboto';
-    display: inline-block;
-    text-align: center;
-    background: #EBF2E4 !important;
-    color: #074A37 !important;
-    border-radius: 15px !important;
-    padding: 10px;
-    border: 0px !important;
-}
-
-.c-btn-primary {
-    font-family: 'Roboto';
-    display: inline-block;
-    text-align: center;
-    background: #074A37 !important;
-    color: #EBF2E4 !important;
-    border-radius: 15px !important;
-    padding: 10px;
-    border: 0px !important;
-}
-
-                                                                </code>
-                                                            </pre>
                                                         </div>
-                                                        <div class="tab-pane fade" id="button-js" role="tabpanel" aria-labelledby="button-js-tab">...</div>
+                                                        <div class="tab-pane fade" id="button-js" role="tabpanel" aria-labelledby="button-js-tab">
+                                                            <div id="cm-btn-color-js"></div>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -535,7 +385,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                             <button class="nav-link" id="contact-tab" data-toggle="tab" data-target="#btn-size-js" type="button" role="tab" aria-controls="btn-size-js" aria-selected="false">JS</button>
                                                         </li>
                                                     </ul>
-                                                    <div class="tab-content" id="myTabContent">
+                                                    <div class="tab-content border" id="myTabContent">
                                                         <div class="tab-pane p-5 fade show active" id="btn-size-preview" role="tabpanel" aria-labelledby="btn-size-preview-tab">
                                                             <div class="d-flex align-items-center flex-wrap">
                                                                 <button class="btn c-btn-light-primary c-btn-xs">Grey Button</button>
@@ -545,55 +395,15 @@ License: You must have a valid license purchased only from themeforest(the above
                                                             </div>
                                                         </div>
                                                         <div class="tab-pane fade" id="btn-size-html" role="tabpanel" aria-labelledby="btn-size-html-tab">
-                                                            <?php $html_code = '
-
-
-<button class="btn c-btn-light-primary c-btn-xs">Grey Button</button>
-<button class="btn btn-grey c-btn-sm">Grey Button</button>
-<button class="btn c-btn-success c-btn-md ml-2">Success Button</button>
-<button class="btn c-btn-primary c-btn-lg ml-2">Primary Button</button>';
-
-                                                            echo "
-                                                <pre>" . htmlentities($html_code) . "</pre>";
-                                                            ?>
+                                                            <div id="cm-btn-size-html"></div>
                                                         </div>
                                                         <div class="tab-pane fade" id="btn-size-css" role="tabpanel" aria-labelledby="btn-size-css-tab">
-                                                            <pre>
-                                                                <code>
-                                                                    
-.c-btn-lg {
-    width: 200px;
-    height: 40px;
-    font-size: 14px !important;
-}
+                                                            <div id="cm-btn-size-css"></div>
 
-.c-btn-md {
-    width: 176px;
-    height: 36px;
-    font-size: 13px !important;
-}
-
-.c-btn-sm {
-    display: flex !important;
-    align-items: center;
-    justify-content: center;
-    width: 95px;
-    height: 25px;
-    font-size: 10px !important;
-}
-
-.c-btn-xs {
-    display: flex !important;
-    align-items: center;
-    justify-content: center;
-    width: 85px;
-    height: 15px;
-    font-size: 7px !important;
-}
-                                                                </code>
-                                                            </pre>
                                                         </div>
-                                                        <div class="tab-pane fade" id="btn-size-js" role="tabpanel" aria-labelledby="btn-size-js-tab">...</div>
+                                                        <div class="tab-pane fade" id="btn-size-js" role="tabpanel" aria-labelledby="btn-size-js-tab">
+                                                            <div id="cm-btn-size-js"></div>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -624,7 +434,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                             <button class="nav-link" id="contact-tab" data-toggle="tab" data-target="#input-js" type="button" role="tab" aria-controls="input-js" aria-selected="false">JS</button>
                                                         </li>
                                                     </ul>
-                                                    <div class="tab-content" id="myTabContent">
+                                                    <div class="tab-content border" id="myTabContent">
                                                         <div class="tab-pane p-5 fade show active" id="input-preview" role="tabpanel" aria-labelledby="input-preview-tab">
                                                             <div class="card bg-light p-5 br-15">
                                                                 <form action="">
@@ -662,69 +472,15 @@ License: You must have a valid license purchased only from themeforest(the above
                                                             </div>
                                                         </div>
                                                         <div class="tab-pane fade" id="input-home" role="tabpanel" aria-labelledby="input-home-tab">
-                                                            <?php $html_code = '
+                                                            <div id="cm-input-html"></div>
 
-
-<div class="card bg-light p-5 br-15">
-    <form action="">
-        <div class="row">
-            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                <div class="form-group">
-                    <label for="text-input" class="font-text text-primary d-inline">Text</label>
-                    <input type="text" id="text-input" class="form-control bg-light-primary outline-0 border-0 mt-4 mb-2" placeholder="Enter Name" fdprocessedid="qi3pz">
-
-                </div>
-            </div>
-            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                <div class="form-group">
-                    <label for="exampleFormControlSelect1" class="font-text text-primary d-inline">Select</label>
-                    <div class="select-wrapper mt-4 mb-2">
-                        <select class="form-control bg-primary text-light" id="exampleFormControlSelect1" fdprocessedid="e7dmnh">
-                            <option>None Selected</option>
-                            <option>Selected</option>
-                        </select>
-                    </div>
-
-                </div>
-            </div>
-            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                <div class="form-group">
-                    <label class="indicator-small-text">Input with icon</label>
-                    <div class="d-flex align-items-center">
-                        <input class="p-2 bg-light-primary btlr-50 bblr-50 border-0 w-100" type="text">
-                        <span class="d-flex align-items-center p-3 bg-primary btrr-50 bbrr-50 border-color-pale"><i class="icn-edit icn-pale icn-13px"></i></span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </form>
-</div>';
-
-                                                            echo "
-                                                <pre>" . htmlentities($html_code) . "</pre>";
-                                                            ?>
                                                         </div>
                                                         <div class="tab-pane fade" id="input-css" role="tabpanel" aria-labelledby="input-css-tab">
-                                                            <pre>
-                                                                <code>
-.select-wrapper {
-    position: relative;
-}
-
-.select-wrapper::after {
-    content: "▼";
-    font-size: 1rem;
-    top: 10px;
-    right: 15px;
-    position: absolute;
-    color: #fff;
-    z-index: 2 !important;
-}
-
-                                                                </code>
-                                                            </pre>
+                                                            <div id="cm-input-css"></div>
                                                         </div>
-                                                        <div class="tab-pane fade" id="input-js" role="tabpanel" aria-labelledby="input-js-tab">...</div>
+                                                        <div class="tab-pane fade" id="input-js" role="tabpanel" aria-labelledby="input-js-tab">
+                                                            <div id="cm-input-js"></div>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -757,7 +513,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                             <button class="nav-link" id="contact-tab" data-toggle="tab" data-target="#typography-js" type="button" role="tab" aria-controls="typography-js" aria-selected="false">JS</button>
                                                         </li>
                                                     </ul>
-                                                    <div class="tab-content" id="myTabContent">
+                                                    <div class="tab-content border" id="myTabContent">
                                                         <div class="tab-pane p-5 fade show active" id="typography-preview" role="tabpanel" aria-labelledby="typography-preview-tab">
                                                             <h1>Heading 1</h1>
                                                             <h2>Heading 2</h2>
@@ -773,78 +529,14 @@ License: You must have a valid license purchased only from themeforest(the above
                                                             <span class="font-small d-block">Small text</span>
                                                         </div>
                                                         <div class="tab-pane fade" id="typography-html" role="tabpanel" aria-labelledby="typography-html-tab">
-                                                            <?php $html_code = '
-
-    <span class="font-lg d-block">Large font</span>
-    <h1 class="font-heading">Headings</h1>
-    <h3 class="font-subheading">Subheadings</h3>
-    <p class="font-text">Text</p>
-    <p class="font-subtext">Subtext</p>
-    <span class="font-small d-block">Small text</span>
-                                                            ';
-
-                                                            echo "
-                                                <pre>" . htmlentities($html_code) . "</pre>";
-                                                            ?>
+                                                            <div id="cm-typo-html"></div>
                                                         </div>
                                                         <div class="tab-pane fade" id="typography-css" role="tabpanel" aria-labelledby="typography-css-tab">
-                                                            <pre>
-                                                                <code>
-
-                                                                
-.font-heading {
-    font-style: normal;
-    font-weight: 500;
-    font-size: 24px;
-    line-height: 28px;
-    text-transform: capitalize;
-}
-
-.font-lg {
-    font-style: normal;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 136.69%;
-    text-transform: capitalize
-}
-
-.font-subheading {
-    font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 21px;
-    /* identical to box height */
-
-    text-transform: capitalize;
-}
-
-.font-small {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 11px;
-    line-height: 142.19%;
-    /* identical to box height, or 23px */
-
-    text-transform: capitalize;
-}
-
-.font-text {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 18px;
-}
-
-.font-subtext {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 13px;
-    line-height: 18px;
-}
-                                                                </code>
-                                                            </pre>
+                                                            <div id="cm-typo-css"></div>
                                                         </div>
-                                                        <div class="tab-pane fade" id="typography-js" role="tabpanel" aria-labelledby="typography-js-tab">...</div>
+                                                        <div class="tab-pane fade" id="typography-js" role="tabpanel" aria-labelledby="typography-js-tab">
+                                                            <div id="cm-typo-js"></div>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -875,7 +567,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                             <button class="nav-link" id="contact-tab" data-toggle="tab" data-target="#typography-color-js" type="button" role="tab" aria-controls="typography-color-js" aria-selected="false">JS</button>
                                                         </li>
                                                     </ul>
-                                                    <div class="tab-content" id="myTabContent">
+                                                    <div class="tab-content border" id="myTabContent">
                                                         <div class="tab-pane p-5 fade show active" id="typography-color-preview" role="tabpanel" aria-labelledby="typography-color-preview-tab">
                                                             <p class="font-text text-primary">Text primary</p>
                                                             <p class="font-text text-light-primary">Text light primary</p>
@@ -883,42 +575,14 @@ License: You must have a valid license purchased only from themeforest(the above
                                                             <p class="font-text text-light-cyan">Text cyan</p>
                                                         </div>
                                                         <div class="tab-pane fade" id="typography-color-html" role="tabpanel" aria-labelledby="typography-color-html-tab">
-                                                            <?php $html_code = '
-    
-    
-    <p class="font-text text-primary">Text primary</p>
-    <p class="font-text text-light-primary">Text light primary</p>
-    <p class="font-text text-success">Text success</p>
-    <p class="font-text text-light-cyan">Text cyan</p>';
-
-                                                            echo "
-                                        <pre>" . htmlentities($html_code) . "</pre>";
-                                                            ?>
+                                                            <div id="cm-typo-color-html"></div>
                                                         </div>
                                                         <div class="tab-pane fade" id="typography-color-css" role="tabpanel" aria-labelledby="typography-color-css-tab">
-                                                            <pre>
-                                                                <code>
-                                                                    
-    .text-light-cyan {
-        color: #839FA0;
-    }
-
-    .text-light-primary {
-        color: #EBF2E4;
-    }
-        
-    .text-primary {
-        color: #074A37 !important;
-    }
-
-    .text-success {
-        color: #FEC045 !important;
-    }
-
-                                                                </code>
-                                                            </pre>
+                                                            <div id="cm-typo-color-css"></div>
                                                         </div>
-                                                        <div class="tab-pane fade" id="typography-color-js" role="tabpanel" aria-labelledby="typography-color-js-tab">...</div>
+                                                        <div class="tab-pane fade" id="typography-color-js" role="tabpanel" aria-labelledby="typography-color-js-tab">
+                                                            <div id="cm-typo-color-js"></div>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -950,7 +614,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                             <button class="nav-link" id="contact-tab" data-toggle="tab" data-target="#badges-js" type="button" role="tab" aria-controls="badges-js" aria-selected="false">JS</button>
                                                         </li>
                                                     </ul>
-                                                    <div class="tab-content" id="myTabContent">
+                                                    <div class="tab-content border" id="myTabContent">
                                                         <div class="tab-pane p-5 fade show active" id="badges-preview" role="tabpanel" aria-labelledby="badges-preview-tab">
                                                             <span class="light-primary-badge">light primary</span>
                                                             <span class="light-blue-badge">light blue</span>
@@ -959,66 +623,15 @@ License: You must have a valid license purchased only from themeforest(the above
                                                             <span class="primary-badge">primary badge</span>
                                                         </div>
                                                         <div class="tab-pane fade" id="badges-html" role="tabpanel" aria-labelledby="badges-html-tab">
-                                                            <?php $html_code = '
-    
-    
-    <span class="light-primary-badge">light primary</span>
-    <span class="light-blue-badge">light blue</span>
-    <span class="light-yellow-badge">light yellow</span>
-    <span class="cyan-badge">cyan</span>
-    <span class="primary-badge">primary badge</span>';
-
-                                                            echo "
-                                        <pre>" . htmlentities($html_code) . "</pre>";
-                                                            ?>
+                                                            <div id="cm-badges-html"></div>
+                                                            
                                                         </div>
                                                         <div class="tab-pane fade" id="badges-css" role="tabpanel" aria-labelledby="badges-css-tab">
-                                                            <pre>
-                                                                <code>
-    .light-primary-badge {
-        background-color: #EBF2E4;
-        color: #074A37;
-        font-size: 8px;
-        font-weight: 700;
-        padding: 3.25px;
-    }
-
-    .light-blue-badge {
-        background-color: #D6E7FF;
-        color: #074A37;
-        font-size: 8px;
-        font-weight: 700;
-        padding: 3.25px;
-    }
-
-    .light-yellow-badge {
-        background-color: rgba(214, 208, 33, 0.15);
-        color: #074A37;
-        font-size: 8px;
-        font-weight: 700;
-        padding: 3.25px;
-    }
-
-    .cyan-badge {
-        background-color: #4C94A0;
-        color: #074A37;
-        font-size: 8px;
-        font-weight: 700;
-        padding: 3.25px;
-    }
-
-    .primary-badge {
-        background-color: #4C94A0;
-        color: #074A37;
-        font-size: 8px;
-        font-weight: 700;
-        padding: 3.25px;
-    }
-
-                                                                </code>
-                                                            </pre>
+                                                            <div id="cm-badges-css"></div>
                                                         </div>
-                                                        <div class="tab-pane fade" id="badges-js" role="tabpanel" aria-labelledby="badges-js-tab">...</div>
+                                                        <div class="tab-pane fade" id="badges-js" role="tabpanel" aria-labelledby="badges-js-tab">
+                                                            <div id="cm-badges-js"></div>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -1120,6 +733,209 @@ License: You must have a valid license purchased only from themeforest(the above
             <script src="../assets/js/updated.bundle.js"></script>
             <script src="../assets/plugins/custom/datatables/datatables.bundle.js"></script>
             <script>
+                $(document).ready(function() {
+                    var html_code = `<table class="table table-light-pale border-grey text-primary text-dark-grey p-table-10 stripped dataTable br-0">\n\t<thead>\n\t\t<tr>\n\t\t\t<th class="sorting" tabindex="0" aria-controls="kt_datatable" rowspan="1" colspan="1" style="width: 56px;">Record ID</th>\n\t\t\t<th class="sorting" tabindex="0" aria-controls="kt_datatable" rowspan="1" colspan="1" style="width: 45px;">Order ID</th>\n\t\t\t<th class="sorting" tabindex="0" aria-controls="kt_datatable" rowspan="1" colspan="1" style="width: 65px;">Country</th>\n\t\t</tr>\n\t</thead>\n\n\t<tbody>\n\t\t<tr>\n\t\t\t<td class="dtr-control sorting_1" tabindex="0">6</td>\n\t\t\t<td>53499-0393</td>\n\t\t\t<td>Ukraine</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td class="dtr-control sorting_1" tabindex="0">6</td>\n\t\t\t<td>53499-0393</td>\n\t\t\t<td>Ukraine</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td class="dtr-control sorting_1" tabindex="0">6</td>\n\t\t\t<td>53499-0393</td>\n\t\t\t<td>Ukraine</td>\n\t\t</tr>\n\t</tbody>\n</table>`;
+                    var editor1 = CodeMirror(document.getElementById("editor"), {
+                        mode: "htmlmixed",
+                        lineNumbers: true,
+                        theme: "dracula",
+                        value: html_code,
+                        readOnly: true,
+                        indentWithTabs: true,
+                        indentUnit: 4,
+                        autofocus: true,
+                    });
+                    editor1.refresh();
+
+                    var tableCss = CodeMirror(document.getElementById("editor-css"), {
+                        value: ".table.table-light-pale thead tr {\n    color: #074A37;\n    background-color: #EBF2E4;\n}\n\n.table.table-dark-pale thead tr {\n    color: #074A37;\n    background-color: #DCE6D1 !important;\n}\n\n.table.border-grey {\n    border: 2px solid #F0F0F0 !important;\n}\n\n.table.border-light-primary {\n    border: 2px solid #EBF2E4 !important;\n}\n\n.table.text-primary thead tr th {\n    color: #074A37 !important;\n    padding: 16px 10px !important;\n}\n\n.table.text-dark-grey tbody tr td {\n    color: #3F544C !important;\n}\n\n.table.p-table-10 tbody tr td {\n    padding: 10px !important;\n}\n\n.table.p-table-15 tbody tr td {\n    padding: 15px !important;\n}\n\n.table.stripped tbody tr:nth-child(even) {\n    background-color: #F0F0F0;\n}\n\n.table.stripped tbody tr:nth-child(odd) {\n    background-color: #fff;\n}",
+                        readOnly: true,
+                        mode: "css",
+                        theme: "dracula",
+                        lineNumbers: true,
+                        smartIndent: true,
+                        lineWrapping: true,
+                        indentWithTabs: true,
+                        autofocus: true,
+                    });
+                    tableCss.refresh();
+
+                    var dTableHtml = CodeMirror(document.getElementById("cm-drk-table-html"), {
+                        mode: "htmlmixed",
+                        lineNumbers: true,
+                        theme: "dracula",
+                        value: "<table class=\"table table-dark-pale border-grey text-primary text-dark-grey p-table-10 dataTable br-0\" id=\"kt_datatable\" role=\"grid\" style=\"width: 1151px; margin-top: 0px !important;\">\n  <thead>\n    <tr>\n      <th class=\"sorting\" tabindex=\"0\" aria-controls=\"kt_datatable\" rowspan=\"1\" colspan=\"1\" style=\"width: 56px;\"> Record ID</th>\n      <th class=\"sorting\" tabindex=\"0\" aria-controls=\"kt_datatable\" rowspan=\"1\" colspan=\"1\" style=\"width: 45px;\"> Order ID</th>\n      <th class=\"sorting\" tabindex=\"0\" aria-controls=\"kt_datatable\" rowspan=\"1\" colspan=\"1\" style=\"width: 65px;\"> Country </th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td class=\"dtr-control sorting_1\" tabindex=\"0\">6 </td>\n      <td>53499-0393</td>\n      <td>Ukraine</td>\n    </tr>\n    <tr>\n      <td class=\"dtr-control sorting_1\" tabindex=\"0\">6 </td>\n      <td>53499-0393</td>\n      <td>Ukraine</td>\n    </tr>\n    <tr>\n      <td class=\"dtr-control sorting_1\" tabindex=\"0\">6 </td>\n      <td>53499-0393</td>\n      <td>Ukraine</td>\n    </tr>\n  </tbody>\n</table>",
+                        readOnly: true,
+                        indentWithTabs: true,
+                        indentUnit: 4,
+                        autofocus: true,
+                    });
+                    dTableHtml.refresh();
+
+                    var dTableCss = CodeMirror(document.getElementById("cm-drk-table-css"), {
+                        value: ".table.table-dark-pale thead tr {\n  color: #074A37;\n  background-color: #DCE6D1 !important;\n}",
+                        readOnly: true,
+                        mode: "css",
+                        theme: "dracula",
+                        lineNumbers: true,
+                        smartIndent: true,
+                        lineWrapping: true,
+                        indentWithTabs: true,
+                        autofocus: true,
+                    });
+                    dTableCss.refresh();
+
+                    var btnColorHtml = CodeMirror(document.getElementById("cm-btn-color-html"), {
+                        mode: "htmlmixed",
+                        lineNumbers: true,
+                        theme: "dracula",
+                        value: `<button class="btn btn-grey">Grey Button</button>\n<button class="btn c-btn-success ml-2">Success Button</button>\n<button class="btn c-btn-primary ml-2">Primary Button</button>\n<button class="btn c-btn-light-primary ml-2">Light Button</button>`,
+                        readOnly: true,
+                        indentWithTabs: true,
+                        indentUnit: 4,
+                        autofocus: true,
+                    });
+                    btnColorHtml.refresh();
+
+                    var btnColorCss = CodeMirror(document.getElementById("cm-btn-color-css"), {
+                        value: ".table.table-dark-pale thead tr {\n  color: #074A37;\n  background-color: #DCE6D1 !important;\n}",
+                        readOnly: true,
+                        mode: "css",
+                        theme: "dracula",
+                        lineNumbers: true,
+                        smartIndent: true,
+                        lineWrapping: true,
+                        indentWithTabs: true,
+                        autofocus: true,
+                    });
+                    btnColorCss.refresh();
+
+                    var btnSizeHtml = CodeMirror(document.getElementById("cm-btn-size-html"), {
+                        mode: "htmlmixed",
+                        lineNumbers: true,
+                        theme: "dracula",
+                        value: `<button class="btn c-btn-light-primary c-btn-xs">Grey Button</button>\n<button class="btn btn-grey c-btn-sm">Grey Button</button>\n<button class="btn c-btn-success c-btn-md ml-2">Success Button</button>\n<button class="btn c-btn-primary c-btn-lg ml-2">Primary Button</button>\n`,
+                        readOnly: true,
+                        indentWithTabs: true,
+                        indentUnit: 4,
+                        autofocus: true,
+                    });
+                    btnSizeHtml.refresh();
+
+                    var btnSizeCss = CodeMirror(document.getElementById("cm-btn-size-css"), {
+                        value: `.c-btn-lg {\n width: 200px;\n height: 40px;\n font-size: 14px !important;\n }\n.c-btn-md { \nwidth: 176px;\n height: 36px;\n font-size: 13px !important;\n }\n.c-btn-sm {\n display: flex !important;\n align-items: center;\n justify-content: center;\n width: 95px;\n height: 25px;\n font-size: 10px !important;\n }\n.c-btn-xs {\n display: flex !important;\n align-items: center;\n justify-content: center;\n width: 85px;\n height: 15px;\n font-size: 7px !important;\n }\n`,
+                        readOnly: true,
+                        mode: "css",
+                        theme: "dracula",
+                        lineNumbers: true,
+                        smartIndent: true,
+                        lineWrapping: true,
+                        indentWithTabs: true,
+                        autofocus: true,
+                    });
+                    btnSizeCss.refresh();
+
+                    var inputHtml = CodeMirror(document.getElementById("cm-input-html"), {
+                        mode: "htmlmixed",
+                        lineNumbers: true,
+                        theme: "dracula",
+                        value: `<div class="card bg-light p-5 br-15">\n\t<form action="">\n\t\t<div class="row">\n\t\t\t<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">\n\t\t\t\t<div class="form-group">\n\t\t\t\t\t<label for="text-input" class="font-text text-primary d-inline">Text</label>\n\t\t\t\t\t<input type="text" id="text-input" class="form-control bg-light-primary outline-0 border-0 mt-4 mb-2" placeholder="Enter Name" fdprocessedid="qi3pz">\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">\n\t\t\t\t<div class="form-group">\n\t\t\t\t\t<label for="exampleFormControlSelect1" class="font-text text-primary d-inline">Select</label>\n\t\t\t\t\t<div class="select-wrapper mt-4 mb-2">\n\t\t\t\t\t\t<select class="form-control bg-primary text-light" id="exampleFormControlSelect1" fdprocessedid="e7dmnh">\n\t\t\t\t\t\t\t<option>None Selected</option>\n\t\t\t\t\t\t\t<option>Selected</option>\n\t\t\t\t\t\t</select>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">\n\t\t\t\t<div class="form-group">\n\t\t\t\t\t<label class="indicator-small-text">Input with icon</label>\n\t\t\t\t\t<div class="d-flex align-items-center">\n\t\t\t\t\t\t<input class="p-2 bg-light-primary btlr-50 bblr-50 border-0 w-100" type="text">\n\t\t\t\t\t\t<span class="d-flex align-items-center p-3 bg-primary btrr-50 bbrr-50 border-color-pale"><i class="icn-edit icn-pale icn-13px"></i></span>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t</form>\n</div>`,
+                        readOnly: true,
+                        indentWithTabs: true,
+                        indentUnit: 4,
+                        autofocus: true,
+                    });
+                    inputHtml.refresh();
+
+                    var inputCss = CodeMirror(document.getElementById("cm-input-css"), {
+                        value: `.select-wrapper {\n position: relative;\n }\n .select-wrapper::after {\n content: "▼";\n font-size: 1rem;\n top: 10px;\n right: 15px;\n position: absolute;\n color: #fff;\n z-index: 2 !important;\n }\n`,
+                        readOnly: true,
+                        mode: "css",
+                        theme: "dracula",
+                        lineNumbers: true,
+                        smartIndent: true,
+                        lineWrapping: true,
+                        indentWithTabs: true,
+                        autofocus: true,
+                    });
+                    inputCss.refresh();
+
+                    var typoHtml = CodeMirror(document.getElementById("cm-typo-html"), {
+                        mode: "htmlmixed",
+                        lineNumbers: true,
+                        theme: "dracula",
+                        value: `<span class="font-lg d-block">Large font</span>\n<h1 class="font-heading">Headings</h1>\n<h3 class="font-subheading">Subheadings</h3>\n<p class="font-text">Text</p>\n<p class="font-subtext">Subtext</p>\n<span class="font-small d-block">Small text</span>`,
+                        readOnly: true,
+                        indentWithTabs: true,
+                        indentUnit: 4,
+                        autofocus: true,
+                    });
+                    typoHtml.refresh();
+
+                    var typoCss = CodeMirror(document.getElementById("cm-typo-css"), {
+                        value: `.font-heading {\n font-style: normal;\n font-weight: 500;\n font-size: 24px;\n line-height: 28px;\n text-transform: capitalize;\n }\n .font-lg {\n font-style: normal;\n font-weight: 700;\n font-size: 36px;\n line-height: 136.69%;\n text-transform: capitalize }\n .font-subheading {\n font-style: normal;\n font-weight: 500;\n font-size: 18px;\n line-height: 21px;\n /* identical to box height */ text-transform: capitalize;\n }\n .font-small {\n font-style: normal;\n font-weight: 400;\n font-size: 11px;\n line-height: 142.19%;\n /* identical to box height, or 23px */ text-transform: capitalize;\n }\n .font-text {\n font-style: normal;\n font-weight: 400;\n font-size: 15px;\n line-height: 18px;\n }\n .font-subtext {\n font-style: normal;\n font-weight: 400;\n font-size: 13px;\n line-height: 18px;\n }\n`,
+                        readOnly: true,
+                        mode: "css",
+                        theme: "dracula",
+                        lineNumbers: true,
+                        smartIndent: true,
+                        lineWrapping: true,
+                        indentWithTabs: true,
+                        autofocus: true,
+                    });
+                    typoCss.refresh();
+
+                    var typoColorHtml = CodeMirror(document.getElementById("cm-typo-color-html"), {
+                        mode: "htmlmixed",
+                        lineNumbers: true,
+                        theme: "dracula",
+                        value: `<p class="font-text text-primary">Text primary</p>\n<p class="font-text text-light-primary">Text light primary</p>\n<p class="font-text text-success">Text success</p>\n<p class="font-text text-light-cyan">Text cyan</p>'`,
+                        readOnly: true,
+                        indentWithTabs: true,
+                        indentUnit: 4,
+                        autofocus: true,
+                    });
+                    typoColorHtml.refresh();
+
+                    var typoColorCss = CodeMirror(document.getElementById("cm-typo-color-css"), {
+                        value: `.text-light-cyan {\n color: #839FA0;\n }\n .text-light-primary {\n color: #EBF2E4;\n }\n .text-primary {\n color: #074A37 !important;\n }\n .text-success {\n color: #FEC045 !important;\n }\n`,
+                        readOnly: true,
+                        mode: "css",
+                        theme: "dracula",
+                        lineNumbers: true,
+                        smartIndent: true,
+                        lineWrapping: true,
+                        indentWithTabs: true,
+                        autofocus: true,
+                    });
+                    typoColorCss.refresh();
+
+                    var badgesHtml = CodeMirror(document.getElementById("cm-badges-html"), {
+                        mode: "htmlmixed",
+                        lineNumbers: true,
+                        theme: "dracula",
+                        value: `<span class="light-primary-badge">light primary</span>\n<span class="light-blue-badge">light blue</span>\n<span class="light-yellow-badge">light yellow</span>\n<span class="cyan-badge">cyan</span>\n<span class="primary-badge">primary badge</span>`,
+                        readOnly: true,
+                        indentWithTabs: true,
+                        indentUnit: 4,
+                        autofocus: true,
+                    });
+                    badgesHtml.refresh();
+
+                    var badgesCss = CodeMirror(document.getElementById("cm-badges-css"), {
+                        value: `.light-primary-badge {\n background-color: #EBF2E4;\n color: #074A37;\n font-size: 8px;\n font-weight: 700;\n padding: 3.25px;\n }\n .light-blue-badge {\n background-color: #D6E7FF;\n color: #074A37;\n font-size: 8px;\n font-weight: 700;\n padding: 3.25px;\n }\n .light-yellow-badge {\n background-color: rgba(214, 208, 33, 0.15);\n color: #074A37;\n font-size: 8px;\n font-weight: 700;\n padding: 3.25px;\n }\n .cyan-badge {\n background-color: #4C94A0;\n color: #074A37;\n font-size: 8px;\n font-weight: 700;\n padding: 3.25px;\n }\n .primary-badge {\n background-color: #4C94A0;\n color: #074A37;\n font-size: 8px;\n font-weight: 700;\n padding: 3.25px;\n }\n`,
+                        readOnly: true,
+                        mode: "css",
+                        theme: "dracula",
+                        lineNumbers: true,
+                        smartIndent: true,
+                        lineWrapping: true,
+                        indentWithTabs: true,
+                        autofocus: true,
+                    });
+                    badgesCss.refresh();
+
+                })
                 $(document).on('click', '#kt_aside_toggle', function() {
                     if (!$('#kt_body').hasClass('aside-minimize')) {
                         $('#menu_open_img').removeClass('d-none');
