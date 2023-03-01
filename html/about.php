@@ -192,7 +192,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                 <div class="row mt-10 mb-10 ">
                                     <div class="col-md-9">
                                         <h3 class="text-primary custom-font-style-heading font-weight-bolder text-center my-10">Contact us</h3>
-                                        <p class="text-primary font-text lh-20 text-center">
+                                        <p class="text-primary font-text px-15 lh-20 text-center">
                                             Please create a new issue below to open a conversation with us. You can submit an issue about any technical challenges, problems or questions about the system and guidelines and all suggestions or ideas you want to share with us.
                                         </p>
                                         <div class="d-flex justify-content-center mt-7">
