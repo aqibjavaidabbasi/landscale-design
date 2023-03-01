@@ -154,7 +154,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                         </div>
                                     </div>
                                     <div class="col-md-3">
-                                        <div class="mt-10 impotant-links" style="border-left: 3px solid #EBF2E4;">
+                                        <div class="mt-10 impotant-links ml-10" style="border-left: 3px solid #EBF2E4;">
                                             <h3 class="text-primary font-text font-weight-bolder pl-5">Important Links</h3>
                                             <ul class="lh-25 pl-5" style="list-style: none;">
                                                 <li><a href="#" class="text-primary font-text link-hover-underline" data-toggle="modal" data-target="#privacy-modal">Privacy Policy</a></li>
