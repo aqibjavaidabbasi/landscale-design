@@ -829,8 +829,8 @@ License: You must have a valid license purchased only from themeforest(the above
                         indentUnit: 4,
                         autofocus: true,
                     });
-                    htmlEditor.refresh();
-                    htmlEditor.focus();
+                    // htmlEditor.refresh();
+                    // htmlEditor.focus();
 
                     var cssEditor = CodeMirror(document.getElementById(cssId), {
                         value: cssValue,
@@ -843,8 +843,16 @@ License: You must have a valid license purchased only from themeforest(the above
                         indentWithTabs: true,
                         autofocus: true,
                     });
-                    cssEditor.refresh();
-                    cssEditor.focus();
+                    // cssEditor.refresh();
+                    // cssEditor.focus();
+
+                    $(document).on('shown.bs.tab', 'button[data-toggle="tab"]', function() {
+                        this.refresh();
+                    }.bind(htmlEditor));
+
+                    $(document).on('shown.bs.tab', 'button[data-toggle="tab"]', function() {
+                        this.refresh();
+                    }.bind(cssEditor));
 
                     var htmlCopyButton = document.getElementById(htmlId + '-copyButton');
                     console.log(htmlCopyButton);
