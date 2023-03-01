@@ -830,6 +830,7 @@ License: You must have a valid license purchased only from themeforest(the above
                         autofocus: true,
                     });
                     htmlEditor.refresh();
+                    htmlEditor.focus();
 
                     var cssEditor = CodeMirror(document.getElementById(cssId), {
                         value: cssValue,
@@ -843,6 +844,7 @@ License: You must have a valid license purchased only from themeforest(the above
                         autofocus: true,
                     });
                     cssEditor.refresh();
+                    cssEditor.focus();
 
                     var htmlCopyButton = document.getElementById(htmlId + '-copyButton');
                     console.log(htmlCopyButton);

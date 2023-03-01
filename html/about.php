@@ -133,9 +133,9 @@ License: You must have a valid license purchased only from themeforest(the above
                     <div class="container w-75">
 
                         <div class="row">
-                            <div class="col-lg-9 col-md-12 col-sm-12 col-xs-12">
+                            <div class="col-lg-12">
                                 <div class="row mt-5">
-                                    <div class="col-md-12">
+                                    <div class="col-md-9">
                                         <h3 class="text-primary custom-font-style-heading font-weight-bolder text-center">ABOUT</h3>
                                         <div class="px-15 mt-10">
                                             <p class="text-primary font-text lh-20 text-center">
@@ -153,9 +153,22 @@ License: You must have a valid license purchased only from themeforest(the above
                                             </p>
                                         </div>
                                     </div>
+                                    <div class="col-md-3">
+                                        <div class="mt-10 impotant-links" style="border-left: 3px solid #EBF2E4;">
+                                            <h3 class="text-primary font-text font-weight-bolder pl-5">Important Links</h3>
+                                            <ul class="lh-25 pl-5" style="list-style: none;">
+                                                <li><a href="#" class="text-primary font-text link-hover-underline" data-toggle="modal" data-target="#privacy-modal">Privacy Policy</a></li>
+                                                <li><a href="#" class="text-primary font-text link-hover-underline" data-toggle="modal" data-target="#terms-modal">Terms of Use</a></li>
+                                                <li><a href="#" class="text-primary font-text link-hover-underline" data-toggle="modal" data-target="#cookie-modal">Cookie Notice</a></li>
+                                                <li><a href="#" class="text-primary font-text link-hover-underline" data-toggle="modal" data-target="#contact-modal">Contact us</a></li>
+
+                                            </ul>
+
+                                        </div>
+                                    </div>
                                 </div>
 
-                                <div class="row mt-7">
+                                <!-- <div class="row mt-7">
                                     <div class="col-md-12">
                                         <div class="d-flex justify-content-center">
                                             <img alt="Logo" id="menu_open_img" class="w-25" src="../assets/media/logo/FullColour/Landscale Logo_Full_Colour.png">
@@ -174,10 +187,10 @@ License: You must have a valid license purchased only from themeforest(the above
                                             <img alt="Logo" id="menu_open_img" height="50px" src="../assets/media/logo/EII-logo.png">
                                         </div>
                                     </div>
-                                </div>
+                                </div> -->
 
                                 <div class="row mt-10 mb-10 ">
-                                    <div class="col-md-12">
+                                    <div class="col-md-9">
                                         <h3 class="text-primary custom-font-style-heading font-weight-bolder text-center my-10">Contact us</h3>
                                         <p class="text-primary font-text lh-20 text-center">
                                             Please create a new issue below to open a conversation with us. You can submit an issue about any technical challenges, problems or questions about the system and guidelines and all suggestions or ideas you want to share with us.
@@ -215,10 +228,28 @@ License: You must have a valid license purchased only from themeforest(the above
 
                                         </div>
                                     </div>
+                                    <div class="col-lg-3">
+                                        <div class="d-flex justify-content-center">
+                                            <img alt="Logo" id="menu_open_img" class="w-25" src="../assets/media/logo/FullColour/Landscale Logo_Full_Colour.png">
+                                        </div>
+                                        <span class="font-text text-primary text-center d-inline-block w-100 my-10">
+                                            A initiative by
+                                        </span>
+                                        <div class="d-flex flex-column justify-content-center align-items-center px-10">
+                                            <img alt="Logo" id="menu_open_img" height="50px" class="mr-5" src="../assets/media/logo/rainforest-logo.png">
+                                            <img alt="Logo" id="menu_open_img" height="50px" class="ml-5" src="../assets/media/logo/conservation-logo.png">
+                                        </div>
+                                        <span class="font-text text-primary text-center d-inline-block w-100 my-10">
+                                            Built by
+                                        </span>
+                                        <div class="d-flex justify-content-center mt-2">
+                                            <img alt="Logo" id="menu_open_img" height="50px" src="../assets/media/logo/EII-logo.png">
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                             <div class="col-lg-3 col-md-12 col-sm-12 col-xs-12">
-                                <div class="mt-10 impotant-links"  style="border-left: 3px solid #EBF2E4;">
+                                <!-- <div class="mt-10 impotant-links"  style="border-left: 3px solid #EBF2E4;">
                                     <h3 class="text-primary font-text font-weight-bolder pl-5">Important Links</h3>
                                     <ul class="lh-25 pl-5" style="list-style: none;">
                                         <li><a href="#" class="text-primary font-text link-hover-underline" data-toggle="modal" data-target="#privacy-modal">Privacy Policy</a></li>
@@ -228,7 +259,7 @@ License: You must have a valid license purchased only from themeforest(the above
 
                                     </ul>
 
-                                </div>
+                                </div> -->
                             </div>
                         </div>
                         <!-- privacy modal -->
@@ -549,7 +580,7 @@ License: You must have a valid license purchased only from themeforest(the above
             element.removeClass('side-icon-bg-dark');
         });
     </script>
-    
+
     <!-- <script src="https://keenthemes.com/metronic/assets/js/engage_code.js"></script> -->
     <!--end::Global Theme Bundle-->
     <!--begin::Page Scripts(used by this page)-->
