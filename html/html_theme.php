@@ -52,6 +52,10 @@ License: You must have a valid license purchased only from themeforest(the above
     <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/mark.min.js" integrity="sha512-5CYOlHXGh6QpOFA/TeTylKLWfB3ftPsde7AnmhuitiTX4K5SqCLBeKro6sPS8ilsz1Q4NRx3v8Ko2IBiszzdww==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <!-- Hotjar Tracking Code for keenthemes.com -->
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/js-beautify/1.14.7/beautify.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/js-beautify/1.14.7/beautify-css.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/js-beautify/1.14.7/beautify-html.min.js"></script>
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.62.2/codemirror.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.62.2/theme/dracula.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.8/clipboard.min.js"></script>
@@ -60,6 +64,7 @@ License: You must have a valid license purchased only from themeforest(the above
     <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.62.2/mode/xml/xml.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.62.2/mode/javascript/javascript.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.62.2/mode/css/css.min.js"></script>
+
 
     <script>
         (function(h, o, t, j, a, r) {
@@ -319,7 +324,8 @@ License: You must have a valid license purchased only from themeforest(the above
                                                         Use class <span class="font-weight-bold"><code>.btn-grey</code></span> for grey button. For giving a warning color
                                                         use class <span class="font-weight-bold"><code>.c-btn-success</code></span>. Use class <span class="font-weight-bold"><code>.c-btn-primary</code></span>
                                                         for primary buttons. Use class <span class="font-weight-bold"><code>.c-btn-light-primary</code></span>
-                                                        for light pale button.
+                                                        for light pale button. Use class <span class="font-weight-bold"><code>.btn-outline-primary</code></span>
+                                                        for a button with outline.
                                                     </p>
 
                                                     <ul class="nav nav-tabs" id="myTab" role="tablist">
@@ -342,7 +348,17 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                 <button class="btn btn-grey">Grey Button</button>
                                                                 <button class="btn c-btn-success ml-2">Success Button</button>
                                                                 <button class="btn c-btn-primary ml-2">Primary Button</button>
-                                                                <button class="btn c-btn-light-primary ml-2">Light Button</button>
+                                                                <button class="btn c-btn-light-primary mx-2">Light Button</button>
+                                                                <div class="d-inline">
+                                                                    <input type="checkbox" class="btn-check filter_test_map" value="{!!trans('general.filter_test_val')!!}" name="test_filter_map" id="test_map" autocomplete="off">
+                                                                    <label class="mr-1 btn btn-outline-primary btn-sm br-0" for="test_map">Outline Button</label>
+                                                                </div>
+                                                                <a href="./overview.php" class="btn-grey c-btn-lg d-flex justify-content-center align-items-center">
+                                                                    <i class="icn-add-folder icn-2x icn-white"></i>
+                                                                    <span class="text-light pl-2">
+                                                                        Button with icon
+                                                                    </span>
+                                                                </a>
                                                             </div>
                                                         </div>
                                                         <div class="tab-pane fade" id="button-html" role="tabpanel" aria-labelledby="button-html-tab">
@@ -428,6 +444,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                         Use class <span class="font-weight-bold"><code>.form-control .bg-light-primary</code></span> for light pale input field.
                                                         Use class <span class="font-weight-bold"><code>.form-control .bg-primary .text-light</code></span> for primary input field.
                                                         Use class <span class="font-weight-bold"><code>.select-wrapper</code></span> in the parent div of select input for adding padding to the select drop down arrow.
+                                                        Use classes <span class="font-weight-bold"><code>.custom-control .custom-radio .custom-control-label</code></span> for styling radio inputs and label.
                                                     </p>
 
                                                     <ul class="nav nav-tabs" id="myTab" role="tablist">
@@ -452,7 +469,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                                                                             <div class="form-group">
                                                                                 <label for="text-input" class="font-text text-primary d-inline">Text</label>
-                                                                                <input type="text" id="text-input" class="form-control bg-light-primary outline-0 border-0 mt-4 mb-2" placeholder="Enter Name" fdprocessedid="qi3pz">
+                                                                                <input type="text" id="text-input" class="form-control bg-light-primary outline-0 border-0 mt-4 mb-2" placeholder="Enter Name">
 
                                                                             </div>
                                                                         </div>
@@ -460,7 +477,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                             <div class="form-group">
                                                                                 <label for="exampleFormControlSelect1" class="font-text text-primary d-inline">Select</label>
                                                                                 <div class="select-wrapper mt-4 mb-2">
-                                                                                    <select class="form-control bg-primary text-light" id="exampleFormControlSelect1" fdprocessedid="e7dmnh">
+                                                                                    <select class="form-control bg-primary text-light" id="exampleFormControlSelect1">
                                                                                         <option>None Selected</option>
                                                                                         <option>Selected</option>
                                                                                     </select>
@@ -475,6 +492,40 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                     <input class="p-2 bg-light-primary btlr-50 bblr-50 border-0 w-100" type="text">
                                                                                     <span class="d-flex align-items-center p-3 bg-primary btrr-50 bbrr-50 border-color-pale"><i class="icn-edit icn-pale icn-13px"></i></span>
                                                                                 </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                                                                            <div class="mt-7">
+                                                                                <div class="input-group">
+                                                                                    <input type="text" class="form-control btlr-50 bblr-50 bg-light-grey outline-0 border-0 w-50" placeholder="search for anything">
+                                                                                    <div class="input-group-append">
+                                                                                        <span class="input-group-text btrr-50 bbrr-50 bg-light-grey">
+                                                                                            <i class="icn-search"></i>
+                                                                                        </span>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+
+                                                                        </div>
+                                                                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                                                                            <div class="form-group">
+                                                                                <label for="input_subtext" class="font-text text-primary font-weight-bolder d-inline">Input with subtext</label>
+                                                                                <input type="text" id="input_subtext" class="form-control bg-light-primary outline-0 border-0 w-100 mt-4 mb-2" placeholder="Enter Name">
+                                                                                <span class="font-small text-primary">Subtext</span>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                                                                            <div class="form-group">
+                                                                                <label class="font-text text-primary font-weight-bold d-inline">Radio Input</label>
+                                                                                <div class="custom-control custom-radio mt-3">
+                                                                                    <input type="radio" id="rd_1" name="rd" class="custom-control-input" value="Yes">
+                                                                                    <label class="custom-control-label" for="rd_1">Yes</label>
+                                                                                </div>
+                                                                                <div class="custom-control custom-radio my-2">
+                                                                                    <input type="radio" id="rd_2" name="rd" class="custom-control-input" value="No">
+                                                                                    <label class="custom-control-label" for="rd_2">No</label>
+                                                                                </div>
+                                                                                <div class="font-small text-primary mt-4">Subtext</div>
                                                                             </div>
                                                                         </div>
                                                                     </div>
@@ -766,8 +817,8 @@ License: You must have a valid license purchased only from themeforest(the above
             <script src="../assets/plugins/custom/datatables/datatables.bundle.js"></script>
             <script>
                 $(document).ready(function() {
-                    var html_code = `<table class="table table-light-pale border-grey text-primary text-dark-grey p-table-10 stripped dataTable br-0">\n\t<thead>\n\t\t<tr>\n\t\t\t<th class="sorting" tabindex="0" aria-controls="kt_datatable" rowspan="1" colspan="1" style="width: 56px;">Record ID</th>\n\t\t\t<th class="sorting" tabindex="0" aria-controls="kt_datatable" rowspan="1" colspan="1" style="width: 45px;">Order ID</th>\n\t\t\t<th class="sorting" tabindex="0" aria-controls="kt_datatable" rowspan="1" colspan="1" style="width: 65px;">Country</th>\n\t\t</tr>\n\t</thead>\n\n\t<tbody>\n\t\t<tr>\n\t\t\t<td class="dtr-control sorting_1" tabindex="0">6</td>\n\t\t\t<td>53499-0393</td>\n\t\t\t<td>Ukraine</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td class="dtr-control sorting_1" tabindex="0">6</td>\n\t\t\t<td>53499-0393</td>\n\t\t\t<td>Ukraine</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td class="dtr-control sorting_1" tabindex="0">6</td>\n\t\t\t<td>53499-0393</td>\n\t\t\t<td>Ukraine</td>\n\t\t</tr>\n\t</tbody>\n</table>`;
-                    var css_code = `.table.table-light-pale thead tr {\n    color: #074A37;\n    background-color: #EBF2E4;\n}\n\n.table.table-dark-pale thead tr {\n    color: #074A37;\n    background-color: #DCE6D1 !important;\n}\n\n.table.border-grey {\n    border: 2px solid #F0F0F0 !important;\n}\n\n.table.border-light-primary {\n    border: 2px solid #EBF2E4 !important;\n}\n\n.table.text-primary thead tr th {\n    color: #074A37 !important;\n    padding: 16px 10px !important;\n}\n\n.table.text-dark-grey tbody tr td {\n    color: #3F544C !important;\n}\n\n.table.p-table-10 tbody tr td {\n    padding: 10px !important;\n}\n\n.table.p-table-15 tbody tr td {\n    padding: 15px !important;\n}\n\n.table.stripped tbody tr:nth-child(even) {\n    background-color: #F0F0F0;\n}\n\n.table.stripped tbody tr:nth-child(odd) {\n    background-color: #fff;\n}`;
+                    var html_code = `<table class="table table-light-pale border-grey text-primary text-dark-grey p-table-10 stripped dataTable br-0"> <thead> <tr> <th class="sorting" tabindex="0" aria-controls="kt_datatable" rowspan="1" colspan="1" style="width: 56px;">Record ID</th> <th class="sorting" tabindex="0" aria-controls="kt_datatable" rowspan="1" colspan="1" style="width: 45px;">Order ID</th> <th class="sorting" tabindex="0" aria-controls="kt_datatable" rowspan="1" colspan="1" style="width: 65px;">Country</th> </tr> </thead> <tbody> <tr> <td class="dtr-control sorting_1" tabindex="0">6</td> <td>53499-0393</td> <td>Ukraine</td> </tr> <tr> <td class="dtr-control sorting_1" tabindex="0">6</td> <td>53499-0393</td> <td>Ukraine</td> </tr> <tr> <td class="dtr-control sorting_1" tabindex="0">6</td> <td>53499-0393</td> <td>Ukraine</td> </tr> </tbody> </table>`;
+                    var css_code = `.table.table-light-pale thead tr { color: #074A37; background-color: #EBF2E4; } .table.border-grey { border: 2px solid #F0F0F0 !important; } .table.border-light-primary { border: 2px solid #EBF2E4 !important; } .table.text-primary thead tr th { color: #074A37 !important; padding: 16px 10px !important; } .table.text-dark-grey tbody tr td { color: #3F544C !important; } .table.p-table-10 tbody tr td { padding: 10px !important; } .table.p-table-15 tbody tr td { padding: 15px !important; } .table.stripped tbody tr:nth-child(even) { background-color: #F0F0F0; } .table.stripped tbody tr:nth-child(odd) { background-color: #fff; }`;
                     cmRender("editor", "editor-css", html_code, css_code);
 
                     var dTable_html_code = `<table class=\"table table-dark-pale border-grey text-primary text-dark-grey p-table-10 dataTable br-0\" id=\"kt_datatable\" role=\"grid\" style=\"width: 1151px; margin-top: 0px !important;\">\n  <thead>\n    <tr>\n      <th class=\"sorting\" tabindex=\"0\" aria-controls=\"kt_datatable\" rowspan=\"1\" colspan=\"1\" style=\"width: 56px;\"> Record ID</th>\n      <th class=\"sorting\" tabindex=\"0\" aria-controls=\"kt_datatable\" rowspan=\"1\" colspan=\"1\" style=\"width: 45px;\"> Order ID</th>\n      <th class=\"sorting\" tabindex=\"0\" aria-controls=\"kt_datatable\" rowspan=\"1\" colspan=\"1\" style=\"width: 65px;\"> Country </th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td class=\"dtr-control sorting_1\" tabindex=\"0\">6 </td>\n      <td>53499-0393</td>\n      <td>Ukraine</td>\n    </tr>\n    <tr>\n      <td class=\"dtr-control sorting_1\" tabindex=\"0\">6 </td>\n      <td>53499-0393</td>\n      <td>Ukraine</td>\n    </tr>\n    <tr>\n      <td class=\"dtr-control sorting_1\" tabindex=\"0\">6 </td>\n      <td>53499-0393</td>\n      <td>Ukraine</td>\n    </tr>\n  </tbody>\n</table>`;
@@ -782,8 +833,8 @@ License: You must have a valid license purchased only from themeforest(the above
                     var btn_size_css_code = `.c-btn-lg {\n width: 200px;\n height: 40px;\n font-size: 14px !important;\n }\n.c-btn-md { \nwidth: 176px;\n height: 36px;\n font-size: 13px !important;\n }\n.c-btn-sm {\n display: flex !important;\n align-items: center;\n justify-content: center;\n width: 95px;\n height: 25px;\n font-size: 10px !important;\n }\n.c-btn-xs {\n display: flex !important;\n align-items: center;\n justify-content: center;\n width: 85px;\n height: 15px;\n font-size: 7px !important;\n }\n`;
                     cmRender("cm-btn-size-html", "cm-btn-size-css", btn_size_html_code, btn_size_css_code);
 
-                    var input_html_code = `<div class="card bg-light p-5 br-15">\n\t<form action="">\n\t\t<div class="row">\n\t\t\t<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">\n\t\t\t\t<div class="form-group">\n\t\t\t\t\t<label for="text-input" class="font-text text-primary d-inline">Text</label>\n\t\t\t\t\t<input type="text" id="text-input" class="form-control bg-light-primary outline-0 border-0 mt-4 mb-2" placeholder="Enter Name" fdprocessedid="qi3pz">\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">\n\t\t\t\t<div class="form-group">\n\t\t\t\t\t<label for="exampleFormControlSelect1" class="font-text text-primary d-inline">Select</label>\n\t\t\t\t\t<div class="select-wrapper mt-4 mb-2">\n\t\t\t\t\t\t<select class="form-control bg-primary text-light" id="exampleFormControlSelect1" fdprocessedid="e7dmnh">\n\t\t\t\t\t\t\t<option>None Selected</option>\n\t\t\t\t\t\t\t<option>Selected</option>\n\t\t\t\t\t\t</select>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">\n\t\t\t\t<div class="form-group">\n\t\t\t\t\t<label class="indicator-small-text">Input with icon</label>\n\t\t\t\t\t<div class="d-flex align-items-center">\n\t\t\t\t\t\t<input class="p-2 bg-light-primary btlr-50 bblr-50 border-0 w-100" type="text">\n\t\t\t\t\t\t<span class="d-flex align-items-center p-3 bg-primary btrr-50 bbrr-50 border-color-pale"><i class="icn-edit icn-pale icn-13px"></i></span>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t</form>\n</div>`;
-                    var input_css_code = `.select-wrapper {\n position: relative;\n }\n .select-wrapper::after {\n content: "▼";\n font-size: 1rem;\n top: 10px;\n right: 15px;\n position: absolute;\n color: #fff;\n z-index: 2 !important;\n }\n`;
+                    var input_html_code = `<div class="card bg-light p-5 br-15"> <form action=""> <div class="row"> <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12"> <div class="form-group">\n <label for="text-input" class="font-text text-primary d-inline">Text</label> \n<input type="text" id="text-input" class="form-control bg-light-primary outline-0 border-0 mt-4 mb-2" placeholder="Enter Name"> </div> </div> <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12"> <div class="form-group"> \n<label for="exampleFormControlSelect1" class="font-text text-primary d-inline">Select</label> \n<div class="select-wrapper mt-4 mb-2"> \n<select class="form-control bg-primary text-light" id="exampleFormControlSelect1"> <option>None Selected</option> <option>Selected</option> </select> </div> </div> </div> <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12"> <div class="form-group"> \n<label class="indicator-small-text">Input with icon</label> \n<div class="d-flex align-items-center"> \n<input class="p-2 bg-light-primary btlr-50 bblr-50 border-0 w-100" type="text"> \n<span class="d-flex align-items-center p-3 bg-primary btrr-50 bbrr-50 border-color-pale">\n<i class="icn-edit icn-pale icn-13px"></i></span> </div> </div> </div> <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12"> <div class="mt-7"> <div class="input-group"> \n<input type="text" class="form-control btlr-50 bblr-50 bg-light-grey outline-0 border-0 w-50" placeholder="search for anything"> <div class="input-group-append"> <span class="input-group-text btrr-50 bbrr-50 bg-light-grey"> <i class="icn-search"></i> </span> </div> </div> </div> </div> <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12"> <div class="form-group"> <label for="input_subtext" class="font-text text-primary font-weight-bolder d-inline">Input with subtext</label> <input type="text" id="input_subtext" class="form-control bg-light-primary outline-0 border-0 w-100 mt-4 mb-2" placeholder="Enter Name"> <span class="font-small text-primary">Subtext</span> </div> </div> <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12"> <div class="form-group"> <label class="font-text text-primary font-weight-bold d-inline">Radio Input</label> <div class="custom-control custom-radio mt-3"> <input type="radio" id="rd_1" name="rd" class="custom-control-input" value="Yes"> <label class="custom-control-label" for="rd_1">Yes</label> </div> <div class="custom-control custom-radio my-2"> <input type="radio" id="rd_2" name="rd" class="custom-control-input" value="No"> <label class="custom-control-label" for="rd_2">No</label> </div> <div class="font-small text-primary mt-4">Subtext</div> </div> </div> </div> </form> </div>`;
+                    var input_css_code = `.select-wrapper {\n position: relative;\n }\n .select-wrapper::after {\n content: "▼";\n font-size: 1rem;\n top: 10px;\n right: 15px;\n position: absolute;\n color: #fff;\n z-index: 2 !important;\n }\n.custom-radio .custom-control-label::before { border-radius: 50%; } .custom-radio .custom-control-input:checked~.custom-control-label::after { background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='%23ffffff'/%3e%3c/svg%3e"); } .custom-radio .custom-control-input:disabled:checked~.custom-control-label::before { background-color: rgba(7, 74, 55, 0.5); }`;
                     cmRender("cm-input-html", "cm-input-css", input_html_code, input_css_code);
 
                     var typo_html_code = `<span class="font-lg d-block">Large font</span>\n<h1 class="font-heading">Headings</h1>\n<h3 class="font-subheading">Subheadings</h3>\n<p class="font-text">Text</p>\n<p class="font-subtext">Subtext</p>\n<span class="font-small d-block">Small text</span>`;
@@ -828,9 +879,8 @@ License: You must have a valid license purchased only from themeforest(the above
                         indentWithTabs: true,
                         indentUnit: 4,
                         autofocus: true,
+                        lineWrapping: true
                     });
-                    // htmlEditor.refresh();
-                    // htmlEditor.focus();
 
                     var cssEditor = CodeMirror(document.getElementById(cssId), {
                         value: cssValue,
@@ -843,15 +893,24 @@ License: You must have a valid license purchased only from themeforest(the above
                         indentWithTabs: true,
                         autofocus: true,
                     });
-                    // cssEditor.refresh();
-                    // cssEditor.focus();
 
                     $(document).on('shown.bs.tab', 'button[data-toggle="tab"]', function() {
                         this.refresh();
+                        formattedCode = html_beautify(this.getValue(), {
+                            indent_size: 4,
+                            space_in_empty_paren: true
+                        });
+                        this.setValue(formattedCode);
                     }.bind(htmlEditor));
 
                     $(document).on('shown.bs.tab', 'button[data-toggle="tab"]', function() {
                         this.refresh();
+                        formattedCode = css_beautify(this.getValue(), {
+                            indent_size: 4,
+                            space_in_empty_paren: true
+                        });
+                        this.setValue(formattedCode);
+                        console.log(formattedCode);
                     }.bind(cssEditor));
 
                     var htmlCopyButton = document.getElementById(htmlId + '-copyButton');
