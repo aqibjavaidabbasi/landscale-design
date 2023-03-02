@@ -6559,7 +6559,7 @@ input[type=button].btn-block {
     margin-left: -1px;
     line-height: 1.25;
     color: #074A37;
-    background-color: #ffffff;
+    background-color: #EBF2E4 !important;
     border: 1px solid #E4E6EF;
 }
 
@@ -6592,7 +6592,7 @@ input[type=button].btn-block {
 .page-item.active .page-link {
     z-index: 3;
     color: #ffffff;
-    background-color: #074A37;
+    background-color: #074A37 !important;
     border-color: #074A37;
 }
 
@@ -100507,7 +100507,6 @@ body {
     border: 1px solid rgba(154, 191, 120, 0.6);
     padding-left: 0px !important;
     padding-right: 0px !important;
-    /* max-width: 31% !important; */
 }
 
 .child-bottom {
@@ -100802,7 +100801,7 @@ body {
 .button {
     position: relative;
     top: 50%;
-    width: 100%;
+    width: 90px;
     overflow: hidden;
     padding-bottom: 3px;
 }
@@ -100841,9 +100840,9 @@ body {
 
 
 /* Button 10 */
-.button-10 .knobs:before,
-.button-10 .knobs:after,
-.button-10 .knobs span {
+.swt-btn .knobs:before,
+.swt-btn .knobs:after,
+.swt-btn .knobs span {
     position: absolute;
     width: 50%;
     height: 100%;
@@ -100855,39 +100854,39 @@ body {
     transition: 0.3s ease all;
 }
 
-.button-10 .knobs:before {
+.swt-btn .knobs:before {
     content: "";
     /* left: 4px; */
     background-color: #074A37;
 }
 
-.button-10 .knobs:after {
+.swt-btn .knobs:after {
     content: "Included";
     right: 4px;
     color: #4e4e4e;
 }
 
-.button-10 .knobs span {
+.swt-btn .knobs span {
     display: inline-block;
     /* left: 4px; */
     color: #fff;
     z-index: 1;
 }
 
-.button-10 .switch-checkbox:checked+.knobs span {
+.swt-btn .switch-checkbox:checked+.knobs span {
     color: #9C9C9C;
 }
 
-.button-10 .switch-checkbox:checked+.knobs:before {
+.swt-btn .switch-checkbox:checked+.knobs:before {
     left: 45px;
     background-color: #074A37;
 }
 
-.button-10 .switch-checkbox:checked+.knobs:after {
+.swt-btn .switch-checkbox:checked+.knobs:after {
     color: #fff;
 }
 
-.button-10 .switch-checkbox:checked~.layer {
+.swt-btn .switch-checkbox:checked~.layer {
     background-color: #fcebeb;
 }
 
@@ -101090,6 +101089,49 @@ select {
 .impotant-links {
     position: sticky;
     top: 70px;
+}
+
+/* active step card */
+.step-cards {
+    background-color: #EBF2E4;
+    height: 100% !important;
+    border: 1px solid rgba(154, 191, 120, 0.6) !important;
+    border-radius: 15px;
+    text-align: center;
+    padding: 16.25px;
+    position: relative !important;
+}
+
+/* disabled step card */
+.step-cards-disabled {
+    background-color: #E1E1E1 !important;
+    color: #839FA0 !important;
+    height: 100% !important;
+    border: 1px solid rgba(154, 191, 120, 0.6) !important;
+    border-radius: 15px;
+    text-align: center;
+    padding: 16.25px;
+    position: relative !important;
+}
+
+/* help  card */
+.help-card {
+    background-color: #EBF2E4 !important;
+    color: #839FA0 !important;
+    max-width: 32% !important;
+    border-radius: 4px !important;
+    padding: 16.25px;
+}
+
+/* content  card */
+.content-card {
+    background-color: #EBF2E4 !important;
+    color: #074A37 !important;
+    border-radius: 15px !important;
+    padding: 16.25px;
+    height: 100% !important;
+    text-align: center;
+    cursor: pointer;
 }
 
 

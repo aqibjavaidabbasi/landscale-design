@@ -237,7 +237,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                     <div class="font-subheading text-primary">Steps</div>
                                     <div class="row p-8">
                                         <div class="col-12 col-sm-6 col-md mb-2 h-150px">
-                                            <div class="p-5 bg-light-primary border-color-pale br-15 text-center h-100">
+                                            <div class="step-cards">
                                                 <div class="mb-3 mt-3">
                                                     <i class="icn-file icn-3x"></i>
                                                 </div>
@@ -262,7 +262,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                             </div>
                                         </div>
                                         <div class="col-12 col-sm-6 col-md mb-2 h-150px">
-                                            <div class="p-5 bg-light-primary border-color-pale br-15 text-center h-100">
+                                            <div class="step-cards">
                                                 <div class="mb-3 mt-3">
                                                     <i class="icn-marker icn-3x"></i>
                                                 </div>
@@ -288,7 +288,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                             </div>
                                         </div>
                                         <div class="col-12 col-sm-6 col-md mb-2 h-150px">
-                                            <div class="p-5 bg-light-primary border-color-pale br-15 text-center h-100">
+                                            <div class="step-cards">
                                                 <div class="mb-3 mt-3">
                                                     <i class="icn-circut icn-3x"></i>
                                                 </div>
@@ -313,7 +313,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                             </div>
                                         </div>
                                         <div class="col-12 col-sm-6 col-md mb-2 h-150px">
-                                            <div class="p-5 bg-light-primary border-color-pale br-15 text-center h-100">
+                                            <div class="step-cards">
                                                 <div class="mb-3 mt-3">
                                                     <i class="icn-chart icn-3x"></i>
                                                 </div>
@@ -338,7 +338,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                             </div>
                                         </div>
                                         <div class="col-12 col-sm-6 col-md mb-2 h-150px">
-                                            <div class="p-5 bg-dark-grey border-color-pale br-15 text-center h-100 locked-background">
+                                            <div class="step-cards-disabled">
                                                 <div class="mb-3 mt-3">
                                                     <i class="icn-notepad icn-3x"></i>
                                                 </div>

@@ -422,7 +422,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                 <td>1.1.1 Effective conservation and protection of natural ecosystems</td>
                                                                                 <td><span class="bg-primary text-light-primary font-xs br-3 p-1">Core</span></td>
                                                                                 <td>
-                                                                                    <div class="button b2 button-10" id="button-10">
+                                                                                    <div class="button b2 swt-btn" id="swt-btn">
                                                                                         <input type="checkbox" class="switch-checkbox" />
                                                                                         <div class="knobs">
                                                                                             <span>Defferred</span>
@@ -450,7 +450,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                     </div>
                                                                                 </td>
                                                                                 <td>
-                                                                                    <div class="button b2 button-10" id="button-10">
+                                                                                    <div class="button b2 swt-btn" id="swt-btn">
                                                                                         <input type="checkbox" class="switch-checkbox" />
                                                                                         <div class="knobs">
                                                                                             <span>Defferred</span>
@@ -469,7 +469,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                 <td>1.1.4 Ecosystem restoration</td>
                                                                                 <td><span class="bg-secondary text-light font-xs p-1">Optional</span></td>
                                                                                 <td>
-                                                                                    <div class="button b2 button-10" id="button-10">
+                                                                                    <div class="button b2 swt-btn" id="swt-btn">
                                                                                         <input type="checkbox" class="switch-checkbox" />
                                                                                         <div class="knobs">
                                                                                             <span>Defferred</span>
@@ -542,7 +542,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                 <td>1.2.1 Threats to species</td>
                                                                                 <td><span class="bg-primary text-light-primary font-xs br-3 p-1">Core</span></td>
                                                                                 <td>
-                                                                                    <div class="button b2 button-10" id="button-10">
+                                                                                    <div class="button b2 swt-btn" id="swt-btn">
                                                                                         <input type="checkbox" class="switch-checkbox" />
                                                                                         <div class="knobs">
                                                                                             <span>Defferred</span>
@@ -561,7 +561,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                 <td>1.2.2 Biodiversity habitat conversion</td>
                                                                                 <td><span class="bg-primary text-light-primary font-xs br-3 p-1">Core</span></td>
                                                                                 <td>
-                                                                                    <div class="button b2 button-10" id="button-10">
+                                                                                    <div class="button b2 swt-btn" id="swt-btn">
                                                                                         <input type="checkbox" class="switch-checkbox" />
                                                                                         <div class="knobs">
                                                                                             <span>Defferred</span>
@@ -580,7 +580,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                 <td>1.2.3 Biodiversity habitat degradation</td>
                                                                                 <td><span class="bg-primary text-light-primary font-xs br-3 p-1">Core</span></td>
                                                                                 <td>
-                                                                                    <div class="button b2 button-10" id="button-10">
+                                                                                    <div class="button b2 swt-btn" id="swt-btn">
                                                                                         <input type="checkbox" class="switch-checkbox" />
                                                                                         <div class="knobs">
                                                                                             <span>Defferred</span>
@@ -653,7 +653,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                 <td>1.2.1 Threats to species</td>
                                                                                 <td><span class="bg-primary text-light-primary font-xs br-3 p-1">Core</span></td>
                                                                                 <td>
-                                                                                    <div class="button b2 button-10" id="button-10">
+                                                                                    <div class="button b2 swt-btn" id="swt-btn">
                                                                                         <input type="checkbox" class="switch-checkbox" />
                                                                                         <div class="knobs">
                                                                                             <span>Defferred</span>
@@ -672,7 +672,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                 <td>1.2.2 Biodiversity habitat conversion</td>
                                                                                 <td><span class="bg-primary text-light-primary font-xs br-3 p-1">Core</span></td>
                                                                                 <td>
-                                                                                    <div class="button b2 button-10" id="button-10">
+                                                                                    <div class="button b2 swt-btn" id="swt-btn">
                                                                                         <input type="checkbox" class="switch-checkbox" />
                                                                                         <div class="knobs">
                                                                                             <span>Defferred</span>
@@ -691,7 +691,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                 <td>1.2.3 Biodiversity habitat degradation</td>
                                                                                 <td><span class="bg-primary text-light-primary font-xs br-3 p-1">Core</span></td>
                                                                                 <td>
-                                                                                    <div class="button b2 button-10" id="button-10">
+                                                                                    <div class="button b2 swt-btn" id="swt-btn">
                                                                                         <input type="checkbox" class="switch-checkbox" />
                                                                                         <div class="knobs">
                                                                                             <span>Defferred</span>
@@ -770,7 +770,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                 <td>2.1.1 Household income & assets</td>
                                                                                 <td><span class="bg-primary text-light-primary font-xs br-3 p-1">Core</span></td>
                                                                                 <td>
-                                                                                    <div class="button b2 button-10" id="button-10">
+                                                                                    <div class="button b2 swt-btn" id="swt-btn">
                                                                                         <input type="checkbox" class="switch-checkbox" />
                                                                                         <div class="knobs">
                                                                                             <span>Defferred</span>
@@ -798,7 +798,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                     </div>
                                                                                 </td>
                                                                                 <td>
-                                                                                    <div class="button b2 button-10" id="button-10">
+                                                                                    <div class="button b2 swt-btn" id="swt-btn">
                                                                                         <input type="checkbox" class="switch-checkbox" />
                                                                                         <div class="knobs">
                                                                                             <span>Defferred</span>
@@ -817,7 +817,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                 <td>2.1.3 Education</td>
                                                                                 <td><span class="bg-secondary text-light font-xs p-1">Optional</span></td>
                                                                                 <td>
-                                                                                    <div class="button b2 button-10" id="button-10">
+                                                                                    <div class="button b2 swt-btn" id="swt-btn">
                                                                                         <input type="checkbox" class="switch-checkbox" />
                                                                                         <div class="knobs">
                                                                                             <span>Defferred</span>
@@ -890,7 +890,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                 <td>2.2.1 Child labor</td>
                                                                                 <td><span class="bg-primary text-light-primary font-xs br-3 p-1">Core</span></td>
                                                                                 <td>
-                                                                                    <div class="button b2 button-10" id="button-10">
+                                                                                    <div class="button b2 swt-btn" id="swt-btn">
                                                                                         <input type="checkbox" class="switch-checkbox" />
                                                                                         <div class="knobs">
                                                                                             <span>Defferred</span>
@@ -909,7 +909,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                 <td>2.2.2 Women’s rights</td>
                                                                                 <td><span class="bg-primary text-light-primary font-xs br-3 p-1">Core</span></td>
                                                                                 <td>
-                                                                                    <div class="button b2 button-10" id="button-10">
+                                                                                    <div class="button b2 swt-btn" id="swt-btn">
                                                                                         <input type="checkbox" class="switch-checkbox" />
                                                                                         <div class="knobs">
                                                                                             <span>Defferred</span>
@@ -928,7 +928,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                 <td>2.2.3 Indigenous peoples’ and other marginalized groups’ right</td>
                                                                                 <td><span class="bg-primary text-light-primary font-xs br-3 p-1">Core</span></td>
                                                                                 <td>
-                                                                                    <div class="button b2 button-10" id="button-10">
+                                                                                    <div class="button b2 swt-btn" id="swt-btn">
                                                                                         <input type="checkbox" class="switch-checkbox" />
                                                                                         <div class="knobs">
                                                                                             <span>Defferred</span>
@@ -1007,7 +1007,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                 <td>3.1.1 Land tenure</td>
                                                                                 <td><span class="bg-primary text-light-primary font-xs br-3 p-1">Core</span></td>
                                                                                 <td>
-                                                                                    <div class="button b2 button-10" id="button-10">
+                                                                                    <div class="button b2 swt-btn" id="swt-btn">
                                                                                         <input type="checkbox" class="switch-checkbox" />
                                                                                         <div class="knobs">
                                                                                             <span>Defferred</span>
@@ -1035,7 +1035,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                     </div>
                                                                                 </td>
                                                                                 <td>
-                                                                                    <div class="button b2 button-10" id="button-10">
+                                                                                    <div class="button b2 swt-btn" id="swt-btn">
                                                                                         <input type="checkbox" class="switch-checkbox" />
                                                                                         <div class="knobs">
                                                                                             <span>Defferred</span>
@@ -1054,7 +1054,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                 <td>3.1.3 Resource tenure</td>
                                                                                 <td><span class="bg-secondary text-light font-xs p-1">Optional</span></td>
                                                                                 <td>
-                                                                                    <div class="button b2 button-10" id="button-10">
+                                                                                    <div class="button b2 swt-btn" id="swt-btn">
                                                                                         <input type="checkbox" class="switch-checkbox" />
                                                                                         <div class="knobs">
                                                                                             <span>Defferred</span>
@@ -1127,7 +1127,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                 <td>3.2.1 Land-use plan adoption & enforcement</td>
                                                                                 <td><span class="bg-primary text-light-primary font-xs br-3 p-1">Core</span></td>
                                                                                 <td>
-                                                                                    <div class="button b2 button-10" id="button-10">
+                                                                                    <div class="button b2 swt-btn" id="swt-btn">
                                                                                         <input type="checkbox" class="switch-checkbox" />
                                                                                         <div class="knobs">
                                                                                             <span>Defferred</span>
@@ -1146,7 +1146,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                 <td>3.2.2 Coordination of government agencies in land-use policy</td>
                                                                                 <td><span class="bg-primary text-light-primary font-xs br-3 p-1">Core</span></td>
                                                                                 <td>
-                                                                                    <div class="button b2 button-10" id="button-10">
+                                                                                    <div class="button b2 swt-btn" id="swt-btn">
                                                                                         <input type="checkbox" class="switch-checkbox" />
                                                                                         <div class="knobs">
                                                                                             <span>Defferred</span>
@@ -1165,7 +1165,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                 <td>3.2.3 Stakeholder participation and inclusion in land-use policy</td>
                                                                                 <td><span class="bg-primary text-light-primary font-xs br-3 p-1">Core</span></td>
                                                                                 <td>
-                                                                                    <div class="button b2 button-10" id="button-10">
+                                                                                    <div class="button b2 swt-btn" id="swt-btn">
                                                                                         <input type="checkbox" class="switch-checkbox" />
                                                                                         <div class="knobs">
                                                                                             <span>Defferred</span>
@@ -1244,7 +1244,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                 <td>4.1.1 Agricultural, agroforestry & tree plantation productivity</td>
                                                                                 <td><span class="bg-primary text-light-primary font-xs br-3 p-1">Core</span></td>
                                                                                 <td>
-                                                                                    <div class="button b2 button-10" id="button-10">
+                                                                                    <div class="button b2 swt-btn" id="swt-btn">
                                                                                         <input type="checkbox" class="switch-checkbox" />
                                                                                         <div class="knobs">
                                                                                             <span>Defferred</span>
@@ -1272,7 +1272,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                     </div>
                                                                                 </td>
                                                                                 <td>
-                                                                                    <div class="button b2 button-10" id="button-10">
+                                                                                    <div class="button b2 swt-btn" id="swt-btn">
                                                                                         <input type="checkbox" class="switch-checkbox" />
                                                                                         <div class="knobs">
                                                                                             <span>Defferred</span>
@@ -1291,7 +1291,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                 <td>4.1.3 Adoption of sustainable land management practices</td>
                                                                                 <td><span class="bg-secondary text-light font-xs p-1">Optional</span></td>
                                                                                 <td>
-                                                                                    <div class="button b2 button-10" id="button-10">
+                                                                                    <div class="button b2 swt-btn" id="swt-btn">
                                                                                         <input type="checkbox" class="switch-checkbox" />
                                                                                         <div class="knobs">
                                                                                             <span>Defferred</span>
@@ -1364,7 +1364,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                 <td>4.2.1 User-defined indicator(s)</td>
                                                                                 <td><span class="bg-primary text-light-primary font-xs br-3 p-1">Core</span></td>
                                                                                 <td>
-                                                                                    <div class="button b2 button-10" id="button-10">
+                                                                                    <div class="button b2 swt-btn" id="swt-btn">
                                                                                         <input type="checkbox" class="switch-checkbox" />
                                                                                         <div class="knobs">
                                                                                             <span>Defferred</span>
@@ -1525,6 +1525,7 @@ License: You must have a valid license purchased only from themeforest(the above
             }
         });
 
+        // active nav link
         $('.nav-link').on('click', function() {
             let prevActiveLink = $(this).siblings(".active");
             let darkBg = prevActiveLink.find('.icn-bg-dark');
@@ -1597,6 +1598,7 @@ License: You must have a valid license purchased only from themeforest(the above
             }
         })
 
+        // side menu toggle
         function toggleAside() {
             if ($('#inner-side-nav').hasClass('max-w-5-percent')) {
                 $('#inner-side-nav').removeClass('max-w-5-percent');

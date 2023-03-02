@@ -232,6 +232,9 @@ License: You must have a valid license purchased only from themeforest(the above
 
                                                 </div>
                                                 <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+                                                    <div class="d-flex justify-content-end">
+                                                        <button class="btn btn-light-primary br-50 mx-5 my-2" data-clipboard-text="" id="editor-js-copyButton"><i class="icn-file icn-cyan"></i></button>
+                                                    </div>
                                                     <div id="editor-js"></div>
                                                 </div>
                                             </div>
@@ -311,6 +314,9 @@ License: You must have a valid license purchased only from themeforest(the above
 
                                                     </div>
                                                     <div class="tab-pane fade" id="table-dark-js" role="tabpanel" aria-labelledby="table-dark-js-tab">
+                                                        <div class="d-flex justify-content-end">
+                                                            <button class="btn btn-light-primary br-50 mx-5 my-2" data-clipboard-text="" id="cm-drk-table-js-copyButton"><i class="icn-file icn-cyan"></i></button>
+                                                        </div>
                                                         <div id="cm-drk-table-js"></div>
                                                     </div>
                                                 </div>
@@ -349,16 +355,16 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                 <button class="btn c-btn-success ml-2">Success Button</button>
                                                                 <button class="btn c-btn-primary ml-2">Primary Button</button>
                                                                 <button class="btn c-btn-light-primary mx-2">Light Button</button>
-                                                                <div class="d-inline">
-                                                                    <input type="checkbox" class="btn-check filter_test_map" value="{!!trans('general.filter_test_val')!!}" name="test_filter_map" id="test_map" autocomplete="off">
-                                                                    <label class="mr-1 btn btn-outline-primary btn-sm br-0" for="test_map">Outline Button</label>
-                                                                </div>
                                                                 <a href="./overview.php" class="btn-grey c-btn-lg d-flex justify-content-center align-items-center">
                                                                     <i class="icn-add-folder icn-2x icn-white"></i>
                                                                     <span class="text-light pl-2">
                                                                         Button with icon
                                                                     </span>
                                                                 </a>
+                                                                <div class="d-inline">
+                                                                    <input type="checkbox" class="btn-check filter_test_map" value="{!!trans('general.filter_test_val')!!}" name="test_filter_map" id="test_map" autocomplete="off">
+                                                                    <label class="mr-1 btn btn-outline-primary btn-sm br-0" for="test_map">Outline Button</label>
+                                                                </div>
                                                             </div>
                                                         </div>
                                                         <div class="tab-pane fade" id="button-html" role="tabpanel" aria-labelledby="button-html-tab">
@@ -374,6 +380,9 @@ License: You must have a valid license purchased only from themeforest(the above
                                                             <div id="cm-btn-color-css"></div>
                                                         </div>
                                                         <div class="tab-pane fade" id="button-js" role="tabpanel" aria-labelledby="button-js-tab">
+                                                            <div class="d-flex justify-content-end">
+                                                                <button class="btn btn-light-primary br-50 mx-5 my-2" data-clipboard-text="" id="cm-btn-color-js-copyButton"><i class="icn-file icn-cyan"></i></button>
+                                                            </div>
                                                             <div id="cm-btn-color-js"></div>
                                                         </div>
                                                     </div>
@@ -428,7 +437,61 @@ License: You must have a valid license purchased only from themeforest(the above
                                                             <div id="cm-btn-size-css"></div>
                                                         </div>
                                                         <div class="tab-pane fade" id="btn-size-js" role="tabpanel" aria-labelledby="btn-size-js-tab">
+                                                            <div class="d-flex justify-content-end">
+                                                                <button class="btn btn-light-primary br-50 mx-5 my-2" data-clipboard-text="" id="cm-btn-size-js-copyButton"><i class="icn-file icn-cyan"></i></button>
+                                                            </div>
                                                             <div id="cm-btn-size-js"></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+
+                                            <div class="row p-5 mt-7 w-100">
+                                                <div class="col-lg-12">
+                                                    <h6 class="text-primary my-5">Switches</h6>
+
+                                                    <ul class="nav nav-tabs w-100" id="myTab" role="tablist">
+                                                        <li class="nav-item" role="presentation">
+                                                            <button class="nav-link active" id="home-tab" data-toggle="tab" data-target="#switch-preview" type="button" role="tab" aria-controls="switch-preview" aria-selected="true">Preview</button>
+                                                        </li>
+                                                        <li class="nav-item" role="presentation">
+                                                            <button class="nav-link" id="home-tab" data-toggle="tab" data-target="#switch-html" type="button" role="tab" aria-controls="switch-html" aria-selected="true">HTML</button>
+                                                        </li>
+                                                        <li class="nav-item" role="presentation">
+                                                            <button class="nav-link" id="profile-tab" data-toggle="tab" data-target="#switch-css" type="button" role="tab" aria-controls="switch-css" aria-selected="false">CSS</button>
+                                                        </li>
+                                                        <li class="nav-item" role="presentation">
+                                                            <button class="nav-link" id="contact-tab" data-toggle="tab" data-target="#switch-js" type="button" role="tab" aria-controls="switch-js" aria-selected="false">JS</button>
+                                                        </li>
+                                                    </ul>
+                                                    <div class="tab-content border w-100" id="myTabContent">
+                                                        <div class="tab-pane p-5 fade show active" id="switch-preview" role="tabpanel" aria-labelledby="switch-preview-tab">
+                                                            <div class="button b2 swt-btn" id="swt-btn">
+                                                                <input type="checkbox" class="switch-checkbox">
+                                                                <div class="knobs">
+                                                                    <span>Defferred</span>
+                                                                </div>
+                                                                <div class="layer"></div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="tab-pane fade" id="switch-html" role="tabpanel" aria-labelledby="switch-html-tab">
+                                                            <div class="d-flex justify-content-end">
+                                                                <button class="btn btn-light-primary br-50 mx-5 my-2" data-clipboard-text="" id="cm-switch-html-copyButton"><i class="icn-file icn-cyan"></i></button>
+                                                            </div>
+                                                            <div id="cm-switch-html"></div>
+                                                        </div>
+                                                        <div class="tab-pane fade" id="switch-css" role="tabpanel" aria-labelledby="switch-css-tab">
+                                                            <div class="d-flex justify-content-end">
+                                                                <button class="btn btn-light-primary br-50 mx-5 my-2" data-clipboard-text="" id="cm-switch-css-copyButton"><i class="icn-file icn-cyan"></i></button>
+                                                            </div>
+                                                            <div id="cm-switch-css"></div>
+                                                        </div>
+                                                        <div class="tab-pane fade" id="switch-js" role="tabpanel" aria-labelledby="switch-js-tab">
+                                                            <div class="d-flex justify-content-end">
+                                                                <button class="btn btn-light-primary br-50 mx-5 my-2" data-clipboard-text="" id="cm-switch-js-copyButton"><i class="icn-file icn-cyan"></i></button>
+                                                            </div>
+                                                            <div id="cm-switch-js"></div>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -545,6 +608,9 @@ License: You must have a valid license purchased only from themeforest(the above
                                                             <div id="cm-input-css"></div>
                                                         </div>
                                                         <div class="tab-pane fade" id="input-js" role="tabpanel" aria-labelledby="input-js-tab">
+                                                            <div class="d-flex justify-content-end">
+                                                                <button class="btn btn-light-primary br-50 mx-5 my-2" data-clipboard-text="" id="cm-input-js-copyButton"><i class="icn-file icn-cyan"></i></button>
+                                                            </div>
                                                             <div id="cm-input-js"></div>
                                                         </div>
                                                     </div>
@@ -607,7 +673,11 @@ License: You must have a valid license purchased only from themeforest(the above
                                                             <div id="cm-typo-css"></div>
                                                         </div>
                                                         <div class="tab-pane fade" id="typography-js" role="tabpanel" aria-labelledby="typography-js-tab">
+                                                            <div class="d-flex justify-content-end">
+                                                                <button class="btn btn-light-primary br-50 mx-5 my-2" data-clipboard-text="" id="cm-typo-js-copyButton"><i class="icn-file icn-cyan"></i></button>
+                                                            </div>
                                                             <div id="cm-typo-js"></div>
+
                                                         </div>
                                                     </div>
                                                 </div>
@@ -659,6 +729,9 @@ License: You must have a valid license purchased only from themeforest(the above
                                                             <div id="cm-typo-color-css"></div>
                                                         </div>
                                                         <div class="tab-pane fade" id="typography-color-js" role="tabpanel" aria-labelledby="typography-color-js-tab">
+                                                            <div class="d-flex justify-content-end">
+                                                                <button class="btn btn-light-primary br-50 mx-5 my-2" data-clipboard-text="" id="cm-typo-color-js-copyButton"><i class="icn-file icn-cyan"></i></button>
+                                                            </div>
                                                             <div id="cm-typo-color-js"></div>
                                                         </div>
                                                     </div>
@@ -713,7 +786,735 @@ License: You must have a valid license purchased only from themeforest(the above
                                                             <div id="cm-badges-css"></div>
                                                         </div>
                                                         <div class="tab-pane fade" id="badges-js" role="tabpanel" aria-labelledby="badges-js-tab">
+                                                            <div class="d-flex justify-content-end">
+                                                                <button class="btn btn-light-primary br-50 mx-5 my-2" data-clipboard-text="" id="cm-badges-js-copyButton"><i class="icn-file icn-cyan"></i></button>
+                                                            </div>
                                                             <div id="cm-badges-js"></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+
+                                            <div class="row p-5 mt-7 w-100">
+                                                <div class="col-lg-12">
+                                                    <h3 class="text-primary my-5">Pagination</h3>
+
+                                                    <ul class="nav nav-tabs" id="myTab" role="tablist">
+                                                        <li class="nav-item" role="presentation">
+                                                            <button class="nav-link active" id="home-tab" data-toggle="tab" data-target="#pagination-preview" type="button" role="tab" aria-controls="pagination-preview" aria-selected="true">Preview</button>
+                                                        </li>
+                                                        <li class="nav-item" role="presentation">
+                                                            <button class="nav-link" id="home-tab" data-toggle="tab" data-target="#pagination-html" type="button" role="tab" aria-controls="pagination-html" aria-selected="true">HTML</button>
+                                                        </li>
+                                                        <li class="nav-item" role="presentation">
+                                                            <button class="nav-link" id="profile-tab" data-toggle="tab" data-target="#pagination-css" type="button" role="tab" aria-controls="pagination-css" aria-selected="false">CSS</button>
+                                                        </li>
+                                                        <li class="nav-item" role="presentation">
+                                                            <button class="nav-link" id="contact-tab" data-toggle="tab" data-target="#pagination-js" type="button" role="tab" aria-controls="pagination-js" aria-selected="false">JS</button>
+                                                        </li>
+                                                    </ul>
+                                                    <div class="tab-content border" id="myTabContent">
+                                                        <div class="tab-pane p-5 fade show active" id="pagination-preview" role="tabpanel" aria-labelledby="pagination-preview-tab">
+                                                            <div class="dataTables_paginate paging_simple_numbers" id="kt_datatable_paginate">
+                                                                <ul class="pagination">
+                                                                    <li class="paginate_button page-item previous disabled" id="kt_datatable_previous"><a href="#" aria-controls="kt_datatable" data-dt-idx="0" tabindex="0" class="page-link"><i class="ki ki-arrow-back"></i></a></li>
+                                                                    <li class="paginate_button page-item active"><a href="#" aria-controls="kt_datatable" data-dt-idx="1" tabindex="0" class="page-link">1</a></li>
+                                                                    <li class="paginate_button page-item "><a href="#" aria-controls="kt_datatable" data-dt-idx="2" tabindex="0" class="page-link">2</a></li>
+                                                                    <li class="paginate_button page-item next" id="kt_datatable_next"><a href="#" aria-controls="kt_datatable" data-dt-idx="3" tabindex="0" class="page-link"><i class="ki ki-arrow-next"></i></a></li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                        <div class="tab-pane fade" id="pagination-html" role="tabpanel" aria-labelledby="pagination-html-tab">
+                                                            <div class="d-flex justify-content-end">
+                                                                <button class="btn btn-light-primary br-50 mx-5 my-2" data-clipboard-text="" id="cm-pagination-html-copyButton"><i class="icn-file icn-cyan"></i></button>
+                                                            </div>
+                                                            <div id="cm-pagination-html"></div>
+                                                        </div>
+                                                        <div class="tab-pane fade" id="pagination-css" role="tabpanel" aria-labelledby="pagination-css-tab">
+                                                            <div class="d-flex justify-content-end">
+                                                                <button class="btn btn-light-primary br-50 mx-5 my-2" data-clipboard-text="" id="cm-pagination-css-copyButton"><i class="icn-file icn-cyan"></i></button>
+                                                            </div>
+                                                            <div id="cm-pagination-css"></div>
+                                                        </div>
+                                                        <div class="tab-pane fade" id="pagination-js" role="tabpanel" aria-labelledby="pagination-js-tab">
+                                                            <div class="d-flex justify-content-end">
+                                                                <button class="btn btn-light-primary br-50 mx-5 my-2" data-clipboard-text="" id="cm-pagination-js-copyButton"><i class="icn-file icn-cyan"></i></button>
+                                                            </div>
+                                                            <div id="cm-pagination-js"></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+
+                                            <div class="row p-5 mt-7 w-100">
+                                                <div class="col-lg-12">
+                                                    <h3 class="text-primary my-5">Cards</h3>
+                                                    <h6 class="text-primary my-5">Basic Cards</h6>
+
+                                                    <p class="text-primary my-7">
+                                                        Use class <span class="font-weight-bold"><code>.card .bg-grey</code></span> for grey card.
+                                                        Use class <span class="font-weight-bold"><code>.card .bg-pale</code></span> for pale card.
+                                                        Use class <span class="font-weight-bold"><code>.card-header .bg-light-primary</code></span> for having a card with light primary color header.
+                                                    </p>
+
+                                                    <ul class="nav nav-tabs" id="myTab" role="tablist">
+                                                        <li class="nav-item" role="presentation">
+                                                            <button class="nav-link active" id="home-tab" data-toggle="tab" data-target="#cards-preview" type="button" role="tab" aria-controls="cards-preview" aria-selected="true">Preview</button>
+                                                        </li>
+                                                        <li class="nav-item" role="presentation">
+                                                            <button class="nav-link" id="home-tab" data-toggle="tab" data-target="#cards-html" type="button" role="tab" aria-controls="cards-html" aria-selected="true">HTML</button>
+                                                        </li>
+                                                        <li class="nav-item" role="presentation">
+                                                            <button class="nav-link" id="profile-tab" data-toggle="tab" data-target="#cards-css" type="button" role="tab" aria-controls="cards-css" aria-selected="false">CSS</button>
+                                                        </li>
+                                                        <li class="nav-item" role="presentation">
+                                                            <button class="nav-link" id="contact-tab" data-toggle="tab" data-target="#cards-js" type="button" role="tab" aria-controls="cards-js" aria-selected="false">JS</button>
+                                                        </li>
+                                                    </ul>
+                                                    <div class="tab-content border" id="myTabContent">
+                                                        <div class="tab-pane p-5 fade show active" id="cards-preview" role="tabpanel" aria-labelledby="cards-preview-tab">
+                                                            <div class="row">
+                                                                <!-- start grey card -->
+                                                                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                                                                    <div class="card w-100 p-5 h-100 bg-grey">
+                                                                        <div class="row mb-5 ml-5">
+                                                                            <div class="col-md-12 mt-5">
+                                                                                <h2 class="font-family-roboto font-heading text-primary mt-4">Heading</h2>
+                                                                                <p class="font-family-roboto font-subtext text-secondary pb-3">
+                                                                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit
+                                                                                </p>
+                                                                                <a href="./overview.php" class="btn-grey c-btn-lg d-flex justify-content-center align-items-center">
+                                                                                    <i class="icn-add-folder icn-2x icn-white"></i>
+                                                                                    <span class="text-light pl-2">
+                                                                                        Large Button
+                                                                                    </span>
+                                                                                </a>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <!-- end grey card -->
+
+                                                                <!-- start pale card -->
+                                                                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                                                                    <div class="card w-100 h-100 p-5 bg-pale mt-5-res">
+                                                                        <div class="row mb-5 ml-5">
+                                                                            <div class="col-md-12 mt-5">
+                                                                                <h2 class="font-family-roboto font-heading text-primary mt-4">Heading</h2>
+                                                                                <p class="font-family-roboto font-subtext text-secondary pb-3">
+                                                                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit
+                                                                                </p>
+                                                                                <a href="./overview.php" class="btn-grey c-btn-lg d-flex justify-content-center align-items-center">
+                                                                                    <i class="icn-add-folder icn-2x icn-white"></i>
+                                                                                    <span class="text-light pl-2">
+                                                                                        Large Button
+                                                                                    </span>
+                                                                                </a>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <!-- end pale card -->
+
+
+                                                                <!-- start card with light primary header -->
+                                                                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 mt-5">
+                                                                    <div class="card w-100 h-100">
+                                                                        <div class="card-header bg-light-primary br-0">
+                                                                            <span class="text-primary font-subheading">
+                                                                                Card Header
+                                                                            </span>
+                                                                        </div>
+                                                                        <div class="card-body">
+                                                                            <div class="row mb-5 ml-5">
+                                                                                <div class="col-md-12 mt-5">
+                                                                                    <h2 class="font-family-roboto font-heading text-primary mt-4">Heading</h2>
+                                                                                    <p class="font-family-roboto font-subtext text-secondary pb-3">
+                                                                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit
+                                                                                    </p>
+                                                                                    <a href="./overview.php" class="btn-grey c-btn-lg d-flex justify-content-center align-items-center">
+                                                                                        <i class="icn-add-folder icn-2x icn-white"></i>
+                                                                                        <span class="text-light pl-2">
+                                                                                            Large Button
+                                                                                        </span>
+                                                                                    </a>
+                                                                                </div>
+                                                                            </div>
+
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <!-- end card with light primary header -->
+
+                                                            </div>
+
+                                                        </div>
+                                                        <div class="tab-pane fade" id="cards-html" role="tabpanel" aria-labelledby="cards-html-tab">
+                                                            <div class="d-flex justify-content-end">
+                                                                <button class="btn btn-light-primary br-50 mx-5 my-2" data-clipboard-text="" id="cm-cards-html-copyButton"><i class="icn-file icn-cyan"></i></button>
+                                                            </div>
+                                                            <div id="cm-cards-html"></div>
+                                                        </div>
+                                                        <div class="tab-pane fade" id="cards-css" role="tabpanel" aria-labelledby="cards-css-tab">
+                                                            <div class="d-flex justify-content-end">
+                                                                <button class="btn btn-light-primary br-50 mx-5 my-2" data-clipboard-text="" id="cm-cards-css-copyButton"><i class="icn-file icn-cyan"></i></button>
+                                                            </div>
+                                                            <div id="cm-cards-css"></div>
+                                                        </div>
+                                                        <div class="tab-pane fade" id="cards-js" role="tabpanel" aria-labelledby="cards-js-tab">
+                                                            <div class="d-flex justify-content-end">
+                                                                <button class="btn btn-light-primary br-50 mx-5 my-2" data-clipboard-text="" id="cm-cards-js-copyButton"><i class="icn-file icn-cyan"></i></button>
+                                                            </div>
+                                                            <div id="cm-cards-js"></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+
+                                            <div class="row p-5 mt-7 w-100">
+                                                <div class="col-lg-12">
+                                                    <h6 class="text-primary my-5">Steps Cards</h6>
+
+                                                    <p class="text-primary my-7">
+                                                        Use class <span class="font-weight-bold"><code>.step-cards</code></span> for active step card.
+                                                        Use class <span class="font-weight-bold"><code>.step-cards-disabled</code></span> for disabled.
+                                                    </p>
+
+                                                    <ul class="nav nav-tabs" id="myTab" role="tablist">
+                                                        <li class="nav-item" role="presentation">
+                                                            <button class="nav-link active" id="home-tab" data-toggle="tab" data-target="#step-cards-preview" type="button" role="tab" aria-controls="step-cards-preview" aria-selected="true">Preview</button>
+                                                        </li>
+                                                        <li class="nav-item" role="presentation">
+                                                            <button class="nav-link" id="home-tab" data-toggle="tab" data-target="#step-cards-html" type="button" role="tab" aria-controls="step-cards-html" aria-selected="true">HTML</button>
+                                                        </li>
+                                                        <li class="nav-item" role="presentation">
+                                                            <button class="nav-link" id="profile-tab" data-toggle="tab" data-target="#step-cards-css" type="button" role="tab" aria-controls="step-cards-css" aria-selected="false">CSS</button>
+                                                        </li>
+                                                        <li class="nav-item" role="presentation">
+                                                            <button class="nav-link" id="contact-tab" data-toggle="tab" data-target="#step-cards-js" type="button" role="tab" aria-controls="step-cards-js" aria-selected="false">JS</button>
+                                                        </li>
+                                                    </ul>
+                                                    <div class="tab-content border" id="myTabContent">
+                                                        <div class="tab-pane p-5 fade show active" id="step-cards-preview" role="tabpanel" aria-labelledby="step-cards-preview-tab">
+                                                            <div class="row">
+                                                                <!-- start active step card -->
+                                                                <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 mt-5">
+                                                                    <div class="h-150px">
+                                                                        <div class="step-cards">
+                                                                            <div class="mb-3 mt-3">
+                                                                                <i class="icn-file icn-3x"></i>
+                                                                            </div>
+                                                                            <span class="py-5">
+                                                                                Active
+                                                                            </span>
+                                                                            <div class="child-bottom">
+                                                                                <div class="d-flex justify-content-center my-4">
+                                                                                    <div class="progress-line"></div>
+                                                                                </div>
+                                                                                <div>
+                                                                                    <span class="bg-success text-primary br-4 step-counter px-2 py-1">
+                                                                                        6/6
+                                                                                    </span>
+                                                                                    <span class="bg-primary text-light-primary font-subtext btrr-4 bbrr-4 pr-4 pl-2 py-1">TASKS</span>
+                                                                                </div>
+                                                                            </div>
+
+                                                                            <div class="step-number font-text-bolder">
+                                                                                1
+                                                                            </div>
+                                                                        </div>
+
+                                                                    </div>
+                                                                </div>
+                                                                <!-- end active step card -->
+
+                                                                <!-- start disabled step card -->
+                                                                <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 mt-5">
+                                                                    <div class="h-150px">
+                                                                        <div class="step-cards-disabled">
+                                                                            <div class="mb-3 mt-3">
+                                                                                <i class="icn-file icn-3x"></i>
+                                                                            </div>
+                                                                            <span class="py-5">
+                                                                                Disabled
+                                                                            </span>
+                                                                            <div class="child-bottom">
+                                                                                <div class="d-flex justify-content-center my-4">
+                                                                                    <div class="progress-line"></div>
+                                                                                </div>
+                                                                                <div>
+                                                                                    <span class="bg-dusty-grey br-4 step-counter px-2 py-1">
+                                                                                        <svg width="13" height="14" viewBox="0 0 13 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                                            <path d="M6.11447 13.9984C4.67472 13.9984 3.2353 14.0008 1.79555 13.9973C0.899112 13.9953 0.164208 13.3884 0.0306823 12.5453C0.0122413 12.4282 0.00916786 12.3073 0.00882637 12.1881C0.00746037 10.4929 0.0296578 8.797 0.000288908 7.10249C-0.017469 6.07219 0.785394 5.20922 1.8577 5.25396C2.19271 5.26796 2.52943 5.24542 2.86444 5.26079C3.03723 5.26864 3.06797 5.20922 3.06558 5.05111C3.05636 4.40841 3.05123 3.76537 3.06387 3.12267C3.0888 1.82942 3.67071 0.872537 4.83454 0.293698C6.36104 -0.465453 8.33524 0.309748 8.95608 1.8984C9.11556 2.30615 9.19376 2.72619 9.1924 3.16331C9.19069 3.80601 9.19615 4.44905 9.18864 5.09175C9.18693 5.2304 9.23065 5.26216 9.36144 5.25942C9.73094 5.25123 10.1011 5.25396 10.471 5.25703C11.4914 5.26557 12.2392 6.00355 12.243 7.02463C12.2495 8.75978 12.2485 10.4949 12.243 12.2301C12.2399 13.2419 11.4835 13.9939 10.4676 13.9977C9.01653 14.0025 7.5655 13.9984 6.11447 13.9984ZM6.11789 13.1228C7.54638 13.1228 8.97486 13.1088 10.403 13.1293C11.0297 13.1381 11.392 12.6734 11.3872 12.1382C11.3729 10.4601 11.3821 8.78164 11.3817 7.10317C11.3817 6.47994 11.0225 6.12 10.3948 6.11966C7.54945 6.11863 4.70409 6.11863 1.85872 6.11966C1.23071 6.12 0.872134 6.47755 0.871451 7.10249C0.870427 8.79222 0.870427 10.482 0.87111 12.172C0.871451 12.7574 1.23378 13.1221 1.81569 13.1224C3.24965 13.1228 4.68394 13.1224 6.11789 13.1228ZM6.10867 5.25601C6.79098 5.25601 7.4733 5.25225 8.15561 5.25942C8.2864 5.26079 8.31509 5.22357 8.31406 5.0979C8.30792 4.41012 8.31338 3.722 8.31065 3.03422C8.30587 1.83898 7.33192 0.88005 6.12711 0.88005C4.92299 0.88005 3.9463 1.84103 3.94152 3.03388C3.93879 3.72166 3.94425 4.40978 3.93811 5.09755C3.93708 5.2222 3.9644 5.26113 4.09588 5.25977C4.76658 5.25225 5.43762 5.25601 6.10867 5.25601Z" fill="#C3C8BD"></path>
+                                                                                            <path d="M5.68513 11.115C5.68513 10.933 5.67933 10.751 5.68752 10.5696C5.6923 10.4661 5.66362 10.4105 5.56356 10.363C4.96798 10.0803 4.67532 9.40033 4.87783 8.78973C5.09161 8.14498 5.73055 7.77411 6.39886 7.90696C6.91384 8.00906 7.34823 8.46291 7.41858 8.97277C7.49951 9.55673 7.22461 10.1134 6.71987 10.3473C6.59249 10.4064 6.56312 10.4754 6.56586 10.6031C6.57405 10.9552 6.56176 11.3079 6.572 11.66C6.5761 11.7939 6.53136 11.8229 6.40842 11.8161C6.22709 11.8058 6.04405 11.8048 5.86305 11.8164C5.72611 11.8253 5.66942 11.7925 5.68138 11.6429C5.69606 11.4684 5.68513 11.2912 5.68513 11.115ZM6.12908 9.62913C6.3712 9.62811 6.57439 9.4215 6.56961 9.18143C6.56483 8.94306 6.3531 8.73919 6.1161 8.74465C5.88627 8.75011 5.68513 8.95536 5.68411 9.18587C5.6824 9.42662 5.8873 9.63016 6.12908 9.62913Z" fill="#C3C8BD"></path>
+                                                                                        </svg>
+
+                                                                                    </span>
+                                                                                    <span class="bg-grey text-light-cyan btrr-4 bbrr-4 pr-4 pl-2 py-1">Locked</span>
+                                                                                </div>
+                                                                            </div>
+
+                                                                            <div class="step-number font-text-bolder">
+                                                                                2
+                                                                            </div>
+                                                                        </div>
+
+                                                                    </div>
+                                                                </div>
+                                                                <!-- end disabled step card -->
+
+                                                            </div>
+                                                        </div>
+                                                        <div class="tab-pane fade" id="step-cards-html" role="tabpanel" aria-labelledby="step-cards-html-tab">
+                                                            <div class="d-flex justify-content-end">
+                                                                <button class="btn btn-light-primary br-50 mx-5 my-2" data-clipboard-text="" id="cm-step-cards-html-copyButton"><i class="icn-file icn-cyan"></i></button>
+                                                            </div>
+                                                            <div id="cm-step-cards-html"></div>
+                                                        </div>
+                                                        <div class="tab-pane fade" id="step-cards-css" role="tabpanel" aria-labelledby="step-cards-css-tab">
+                                                            <div class="d-flex justify-content-end">
+                                                                <button class="btn btn-light-primary br-50 mx-5 my-2" data-clipboard-text="" id="cm-step-cards-css-copyButton"><i class="icn-file icn-cyan"></i></button>
+                                                            </div>
+                                                            <div id="cm-step-cards-css"></div>
+                                                        </div>
+                                                        <div class="tab-pane fade" id="step-cards-js" role="tabpanel" aria-labelledby="step-cards-js-tab">
+                                                            <div class="d-flex justify-content-end">
+                                                                <button class="btn btn-light-primary br-50 mx-5 my-2" data-clipboard-text="" id="cm-step-cards-js-copyButton"><i class="icn-file icn-cyan"></i></button>
+                                                            </div>
+                                                            <div id="cm-step-cards-js"></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+
+                                            <div class="row p-5 mt-7 w-100">
+                                                <div class="col-lg-12">
+                                                    <h6 class="text-primary my-5">Grid view Cards</h6>
+
+                                                    <p class="text-primary my-7">
+                                                        Use class <span class="font-weight-bold"><code>.grid-card</code></span> for having a grid view card.
+                                                    </p>
+
+                                                    <ul class="nav nav-tabs" id="myTab" role="tablist">
+                                                        <li class="nav-item" role="presentation">
+                                                            <button class="nav-link active" id="home-tab" data-toggle="tab" data-target="#grid-cards-preview" type="button" role="tab" aria-controls="grid-cards-preview" aria-selected="true">Preview</button>
+                                                        </li>
+                                                        <li class="nav-item" role="presentation">
+                                                            <button class="nav-link" id="home-tab" data-toggle="tab" data-target="#grid-cards-html" type="button" role="tab" aria-controls="grid-cards-html" aria-selected="true">HTML</button>
+                                                        </li>
+                                                        <li class="nav-item" role="presentation">
+                                                            <button class="nav-link" id="profile-tab" data-toggle="tab" data-target="#grid-cards-css" type="button" role="tab" aria-controls="grid-cards-css" aria-selected="false">CSS</button>
+                                                        </li>
+                                                        <li class="nav-item" role="presentation">
+                                                            <button class="nav-link" id="contact-tab" data-toggle="tab" data-target="#grid-cards-js" type="button" role="tab" aria-controls="grid-cards-js" aria-selected="false">JS</button>
+                                                        </li>
+                                                    </ul>
+                                                    <div class="tab-content border" id="myTabContent">
+                                                        <div class="tab-pane p-5 fade show active" id="grid-cards-preview" role="tabpanel" aria-labelledby="grid-cards-preview-tab">
+                                                            <div class="row">
+
+                                                                <!-- start grid card -->
+                                                                <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 mt-5">
+                                                                    <div class="grid-card">
+                                                                        <img src="../assets/media/map_img1.png" class="w-100 p-1" alt="">
+                                                                        <div class="p-4">
+                                                                            <h6 class="font-text text-primary">Jacob Michael</h6>
+                                                                            <span class="font-small">Not Plan yet!</span>
+                                                                        </div>
+                                                                        <div class="d-flex px-4">
+                                                                            <span class="sm-icon bg-light-primary">
+                                                                                <i class="icn-world"></i>
+                                                                            </span>
+                                                                            <span class="font-small">Country: Florida</span>
+                                                                        </div>
+                                                                        <div class="d-flex px-4 mt-3">
+                                                                            <span class="sm-icon bg-light-primary">
+                                                                                <i class="icn-phone"></i>
+                                                                            </span>
+                                                                            <span class="font-small">Assessment Contact: +1 202 555 0156</span>
+                                                                        </div>
+
+                                                                        <div class="d-flex justify-content-between align-items-center my-5 px-4">
+                                                                            <span class="font-small bg-light-grey px-5 py-2">
+                                                                                2022-12-07
+                                                                            </span>
+                                                                            <span class="bg-light-primary font-small bg-light-grey px-5 py-2">Completed</span>
+                                                                        </div>
+
+                                                                    </div>
+                                                                </div>
+                                                                <!-- end grid card -->
+                                                            </div>
+                                                        </div>
+                                                        <div class="tab-pane fade" id="grid-cards-html" role="tabpanel" aria-labelledby="grid-cards-html-tab">
+                                                            <div class="d-flex justify-content-end">
+                                                                <button class="btn btn-light-primary br-50 mx-5 my-2" data-clipboard-text="" id="cm-grid-cards-html-copyButton"><i class="icn-file icn-cyan"></i></button>
+                                                            </div>
+                                                            <div id="cm-grid-cards-html"></div>
+                                                        </div>
+                                                        <div class="tab-pane fade" id="grid-cards-css" role="tabpanel" aria-labelledby="grid-cards-css-tab">
+                                                            <div class="d-flex justify-content-end">
+                                                                <button class="btn btn-light-primary br-50 mx-5 my-2" data-clipboard-text="" id="cm-grid-cards-css-copyButton"><i class="icn-file icn-cyan"></i></button>
+                                                            </div>
+                                                            <div id="cm-grid-cards-css"></div>
+                                                        </div>
+                                                        <div class="tab-pane fade" id="grid-cards-js" role="tabpanel" aria-labelledby="grid-cards-js-tab">
+                                                            <div class="d-flex justify-content-end">
+                                                                <button class="btn btn-light-primary br-50 mx-5 my-2" data-clipboard-text="" id="cm-grid-cards-js-copyButton"><i class="icn-file icn-cyan"></i></button>
+                                                            </div>
+                                                            <div id="cm-grid-cards-js"></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+
+                                            <div class="row p-5 mt-7 w-100">
+                                                <div class="col-lg-12">
+                                                    <h6 class="text-primary my-5">Help Center Cards</h6>
+
+                                                    <p class="text-primary my-7">
+                                                        Use class <span class="font-weight-bold"><code>.help-card</code></span> for having a help panel cards.
+                                                    </p>
+
+                                                    <ul class="nav nav-tabs" id="myTab" role="tablist">
+                                                        <li class="nav-item" role="presentation">
+                                                            <button class="nav-link active" id="home-tab" data-toggle="tab" data-target="#help-cards-preview" type="button" role="tab" aria-controls="help-cards-preview" aria-selected="true">Preview</button>
+                                                        </li>
+                                                        <li class="nav-item" role="presentation">
+                                                            <button class="nav-link" id="home-tab" data-toggle="tab" data-target="#help-cards-html" type="button" role="tab" aria-controls="help-cards-html" aria-selected="true">HTML</button>
+                                                        </li>
+                                                        <li class="nav-item" role="presentation">
+                                                            <button class="nav-link" id="profile-tab" data-toggle="tab" data-target="#help-cards-css" type="button" role="tab" aria-controls="help-cards-css" aria-selected="false">CSS</button>
+                                                        </li>
+                                                        <li class="nav-item" role="presentation">
+                                                            <button class="nav-link" id="contact-tab" data-toggle="tab" data-target="#help-cards-js" type="button" role="tab" aria-controls="help-cards-js" aria-selected="false">JS</button>
+                                                        </li>
+                                                    </ul>
+                                                    <div class="tab-content border" id="myTabContent">
+                                                        <div class="tab-pane p-5 fade show active" id="help-cards-preview" role="tabpanel" aria-labelledby="help-cards-preview-tab">
+                                                            <div class="row">
+
+                                                                <!-- start help card -->
+                                                                <div class="col-lg-2 col-md-12 col-sm-12 col-xs-12 help-card ml-2">
+                                                                    <div class="d-flex flex-column align-items-center justify-content-center w-100 h-100">
+                                                                        <i class="icn-message icn-3x"></i>
+                                                                        <span class="font-small text-primary text-center mt-1">Assessment
+                                                                            Feedback</span>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-lg-2 col-md-12 col-sm-12 col-xs-12 help-card ml-2">
+                                                                    <div class="d-flex flex-column align-items-center justify-content-center w-100 h-100">
+                                                                        <i class="icn-file-fold icn-3x"></i>
+                                                                        <span class="font-small text-primary text-center mt-1">View Guidelines</span>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-lg-2 col-md-12 col-sm-12 col-xs-12 help-card ml-2">
+                                                                    <div class="d-flex flex-column align-items-center justify-content-center w-100 h-100">
+                                                                        <i class="icn-conversation icn-4x"></i>
+
+                                                                        <span class="font-small text-primary text-center mt-1">Report
+                                                                            Issue</span>
+                                                                    </div>
+                                                                </div>
+                                                                <!-- end help card -->
+                                                            </div>
+                                                        </div>
+                                                        <div class="tab-pane fade" id="help-cards-html" role="tabpanel" aria-labelledby="help-cards-html-tab">
+                                                            <div class="d-flex justify-content-end">
+                                                                <button class="btn btn-light-primary br-50 mx-5 my-2" data-clipboard-text="" id="cm-help-cards-html-copyButton"><i class="icn-file icn-cyan"></i></button>
+                                                            </div>
+                                                            <div id="cm-help-cards-html"></div>
+                                                        </div>
+                                                        <div class="tab-pane fade" id="help-cards-css" role="tabpanel" aria-labelledby="help-cards-css-tab">
+                                                            <div class="d-flex justify-content-end">
+                                                                <button class="btn btn-light-primary br-50 mx-5 my-2" data-clipboard-text="" id="cm-help-cards-css-copyButton"><i class="icn-file icn-cyan"></i></button>
+                                                            </div>
+                                                            <div id="cm-help-cards-css"></div>
+                                                        </div>
+                                                        <div class="tab-pane fade" id="help-cards-js" role="tabpanel" aria-labelledby="help-cards-js-tab">
+                                                            <div class="d-flex justify-content-end">
+                                                                <button class="btn btn-light-primary br-50 mx-5 my-2" data-clipboard-text="" id="cm-help-cards-js-copyButton"><i class="icn-file icn-cyan"></i></button>
+                                                            </div>
+                                                            <div id="cm-help-cards-js"></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="row p-5 mt-7 w-100">
+                                                <div class="col-lg-12">
+                                                    <h6 class="text-primary my-5">Referenece Cards</h6>
+
+                                                    <p class="text-primary my-7">
+                                                        Use class <span class="font-weight-bold"><code>.content-card</code></span> for having a reference cards.
+                                                    </p>
+
+                                                    <ul class="nav nav-tabs" id="myTab" role="tablist">
+                                                        <li class="nav-item" role="presentation">
+                                                            <button class="nav-link active" id="home-tab" data-toggle="tab" data-target="#content-cards-preview" type="button" role="tab" aria-controls="content-cards-preview" aria-selected="true">Preview</button>
+                                                        </li>
+                                                        <li class="nav-item" role="presentation">
+                                                            <button class="nav-link" id="home-tab" data-toggle="tab" data-target="#content-cards-html" type="button" role="tab" aria-controls="content-cards-html" aria-selected="true">HTML</button>
+                                                        </li>
+                                                        <li class="nav-item" role="presentation">
+                                                            <button class="nav-link" id="profile-tab" data-toggle="tab" data-target="#content-cards-css" type="button" role="tab" aria-controls="content-cards-css" aria-selected="false">CSS</button>
+                                                        </li>
+                                                        <li class="nav-item" role="presentation">
+                                                            <button class="nav-link" id="contact-tab" data-toggle="tab" data-target="#content-cards-js" type="button" role="tab" aria-controls="content-cards-js" aria-selected="false">JS</button>
+                                                        </li>
+                                                    </ul>
+                                                    <div class="tab-content border" id="myTabContent">
+                                                        <div class="tab-pane p-5 fade show active" id="content-cards-preview" role="tabpanel" aria-labelledby="content-cards-preview-tab">
+                                                            <!-- start reference card -->
+                                                            <div class="row">
+                                                                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 responsive-margin-card">
+                                                                    <div class="content-card">
+                                                                        <div class="my-2">
+                                                                            <i class="icn-reference-library icn-3x"></i>
+                                                                        </div>
+                                                                        <span class="font-subtext mb-2">
+                                                                            Reference Library
+                                                                        </span>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 my-5-res">
+                                                                    <div class="content-card">
+                                                                        <div class="my-2">
+                                                                            <i class="icn-image-gallery icn-3x"></i>
+                                                                        </div>
+                                                                        <span class="font-subtext mb-2">
+                                                                            Image Galary
+                                                                        </span>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 responsive-margin-card">
+                                                                    <div class="content-card">
+                                                                        <div class="my-2">
+                                                                            <i class="icn-help icn-3x"></i>
+                                                                        </div>
+                                                                        <span class="font-subtext mb-2">
+                                                                            Need Help
+                                                                        </span>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <!-- end reference -->
+                                                        </div>
+                                                        <div class="tab-pane fade" id="content-cards-html" role="tabpanel" aria-labelledby="content-cards-html-tab">
+                                                            <div class="d-flex justify-content-end">
+                                                                <button class="btn btn-light-primary br-50 mx-5 my-2" data-clipboard-text="" id="cm-content-cards-html-copyButton"><i class="icn-file icn-cyan"></i></button>
+                                                            </div>
+                                                            <div id="cm-content-cards-html"></div>
+                                                        </div>
+                                                        <div class="tab-pane fade" id="content-cards-css" role="tabpanel" aria-labelledby="content-cards-css-tab">
+                                                            <div class="d-flex justify-content-end">
+                                                                <button class="btn btn-light-primary br-50 mx-5 my-2" data-clipboard-text="" id="cm-content-cards-css-copyButton"><i class="icn-file icn-cyan"></i></button>
+                                                            </div>
+                                                            <div id="cm-content-cards-css"></div>
+                                                        </div>
+                                                        <div class="tab-pane fade" id="content-cards-js" role="tabpanel" aria-labelledby="content-cards-js-tab">
+                                                            <div class="d-flex justify-content-end">
+                                                                <button class="btn btn-light-primary br-50 mx-5 my-2" data-clipboard-text="" id="cm-content-cards-js-copyButton"><i class="icn-file icn-cyan"></i></button>
+                                                            </div>
+                                                            <div id="cm-content-cards-js"></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+
+                                            <div class="row p-5 mt-7 w-100">
+                                                <div class="col-lg-12">
+                                                    <h3 class="text-primary my-5">Drop down</h3>
+
+                                                    <p class="text-primary my-7">
+                                                        Use class <span class="font-weight-bold"><code>.content-card</code></span> for having a reference cards.
+                                                    </p>
+
+                                                    <ul class="nav nav-tabs" id="myTab" role="tablist">
+                                                        <li class="nav-item" role="presentation">
+                                                            <button class="nav-link active" id="home-tab" data-toggle="tab" data-target="#drop-down-preview" type="button" role="tab" aria-controls="drop-down-preview" aria-selected="true">Preview</button>
+                                                        </li>
+                                                        <li class="nav-item" role="presentation">
+                                                            <button class="nav-link" id="home-tab" data-toggle="tab" data-target="#drop-down-html" type="button" role="tab" aria-controls="drop-down-html" aria-selected="true">HTML</button>
+                                                        </li>
+                                                        <li class="nav-item" role="presentation">
+                                                            <button class="nav-link" id="profile-tab" data-toggle="tab" data-target="#drop-down-css" type="button" role="tab" aria-controls="drop-down-css" aria-selected="false">CSS</button>
+                                                        </li>
+                                                        <li class="nav-item" role="presentation">
+                                                            <button class="nav-link" id="contact-tab" data-toggle="tab" data-target="#drop-down-js" type="button" role="tab" aria-controls="drop-down-js" aria-selected="false">JS</button>
+                                                        </li>
+                                                    </ul>
+                                                    <div class="tab-content border" id="myTabContent">
+                                                        <div class="tab-pane p-5 fade show active" id="drop-down-preview" role="tabpanel" aria-labelledby="drop-down-preview-tab">
+                                                            <!-- start dropdown -->
+
+                                                            <!-- end dropdown -->
+                                                        </div>
+                                                        <div class="tab-pane fade" id="drop-down-html" role="tabpanel" aria-labelledby="drop-down-html-tab">
+                                                            <div class="d-flex justify-content-end">
+                                                                <button class="btn btn-light-primary br-50 mx-5 my-2" data-clipboard-text="" id="cm-drop-down-html-copyButton"><i class="icn-file icn-cyan"></i></button>
+                                                            </div>
+                                                            <div id="cm-drop-down-html"></div>
+                                                        </div>
+                                                        <div class="tab-pane fade" id="drop-down-css" role="tabpanel" aria-labelledby="drop-down-css-tab">
+                                                            <div class="d-flex justify-content-end">
+                                                                <button class="btn btn-light-primary br-50 mx-5 my-2" data-clipboard-text="" id="cm-drop-down-css-copyButton"><i class="icn-file icn-cyan"></i></button>
+                                                            </div>
+                                                            <div id="cm-drop-down-css"></div>
+                                                        </div>
+                                                        <div class="tab-pane fade" id="drop-down-js" role="tabpanel" aria-labelledby="drop-down-js-tab">
+                                                            <div class="d-flex justify-content-end">
+                                                                <button class="btn btn-light-primary br-50 mx-5 my-2" data-clipboard-text="" id="cm-drop-down-js-copyButton"><i class="icn-file icn-cyan"></i></button>
+                                                            </div>
+                                                            <div id="cm-drop-down-js"></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+
+                                            <div class="row p-5 mt-7 w-100">
+                                                <div class="col-lg-12">
+                                                    <h3 class="text-primary my-5">Side bar</h3>
+
+                                                    <p class="text-primary my-7">
+                                                        Use class <span class="font-weight-bold"><code>.content-card</code></span> for having a reference cards.
+                                                    </p>
+
+                                                    <ul class="nav nav-tabs" id="myTab" role="tablist">
+                                                        <li class="nav-item" role="presentation">
+                                                            <button class="nav-link active" id="home-tab" data-toggle="tab" data-target="#sidebar-preview" type="button" role="tab" aria-controls="sidebar-preview" aria-selected="true">Preview</button>
+                                                        </li>
+                                                        <li class="nav-item" role="presentation">
+                                                            <button class="nav-link" id="home-tab" data-toggle="tab" data-target="#sidebar-html" type="button" role="tab" aria-controls="sidebar-html" aria-selected="true">HTML</button>
+                                                        </li>
+                                                        <li class="nav-item" role="presentation">
+                                                            <button class="nav-link" id="profile-tab" data-toggle="tab" data-target="#sidebar-css" type="button" role="tab" aria-controls="sidebar-css" aria-selected="false">CSS</button>
+                                                        </li>
+                                                        <li class="nav-item" role="presentation">
+                                                            <button class="nav-link" id="contact-tab" data-toggle="tab" data-target="#sidebar-js" type="button" role="tab" aria-controls="sidebar-js" aria-selected="false">JS</button>
+                                                        </li>
+                                                    </ul>
+                                                    <div class="tab-content border" id="myTabContent">
+                                                        <div class="tab-pane p-5 fade show active" id="sidebar-preview" role="tabpanel" aria-labelledby="sidebar-preview-tab">
+                                                            <!-- start sidebar -->
+                                                            <div class="row border-color-pale br-15 m-sm-0">
+                                                                <div class="col-md-3 col-sm-12 col-xs-12 pr-0 mt-7 max-w-20-percent" id="inner-side-nav">
+
+                                                                    <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                                                                        <a class="main-menu nav-link indicator-tab-link" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="false">
+                                                                            <div class="d-flex align-items-center">
+                                                                                <span class="icn-bg-pale">
+                                                                                    <i class="icn-ecosystem-main"></i>
+                                                                                </span>
+
+                                                                                <span class="inner-nav-text ml-5">
+                                                                                    Ecosystems
+                                                                                </span>
+                                                                            </div>
+                                                                            <div class="sub-menu-hover brt-50 brb-50">
+                                                                                <span class="d-flex align-items-center h-100">
+                                                                                    Ecosystems
+                                                                                </span>
+                                                                            </div>
+                                                                        </a>
+                                                                        <a class="main-menu nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">
+                                                                            <div class="d-flex align-items-center">
+
+                                                                                <span class="icn-bg-pale">
+                                                                                    <i class="icn-wellbeing-main"></i>
+                                                                                </span>
+                                                                                <span class="inner-nav-text ml-5">
+                                                                                    Human Well-being
+                                                                                </span>
+                                                                            </div>
+                                                                            <div class="sub-menu-hover brt-50 brb-50">
+                                                                                <span class="d-flex align-items-center h-100">
+                                                                                    Human Well-being
+                                                                                </span>
+                                                                            </div>
+                                                                        </a>
+                                                                        <a class="main-menu nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">
+                                                                            <div class="d-flex align-items-center">
+                                                                                <span class="icn-bg-pale">
+                                                                                    <i class="icn-governance-main"></i>
+                                                                                </span>
+                                                                                <span class="inner-nav-text ml-5">
+                                                                                    Governance
+                                                                                </span>
+                                                                            </div>
+                                                                            <div class="sub-menu-hover brt-50 brb-50">
+                                                                                <span class="d-flex align-items-center h-100">
+                                                                                    Governance
+                                                                                </span>
+                                                                            </div>
+                                                                        </a>
+                                                                        <a class="main-menu mb-5 nav-link active" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="true">
+                                                                            <div class="d-flex align-items-center">
+                                                                                <span class="icn-bg-dark">
+                                                                                    <i class="icn-production-main icn-pale"></i>
+                                                                                </span>
+                                                                                <span class="inner-nav-text ml-5">
+                                                                                    Production
+                                                                                </span>
+                                                                            </div>
+                                                                            <div class="sub-menu-hover brt-50 brb-50">
+                                                                                <span class="d-flex align-items-center h-100">
+                                                                                    Production
+                                                                                </span>
+                                                                            </div>
+                                                                        </a>
+                                                                    </div>
+
+                                                                </div>
+                                                                <div class="col-md-12 col-sm-12 col-xs-12 bg-light-primary btrr-15 bbrr-15 max-w-80-percent btlr-15-res bblr-15-res" id="inner-side-main">
+                                                                    <div class="d-flex justify-content-between mt-5 mr-5">
+                                                                        <button class="ml-5 bg-transparent border-0 br-15  p-2" onclick="toggleAside()" fdprocessedid="dw0os">
+                                                                            <i class="icn-menu icn-2x mt-3"></i>
+                                                                        </button>
+
+                                                                    </div>
+                                                                    <div class="tab-content" id="v-pills-tabContent">
+                                                                        <div class="tab-pane fade" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
+
+                                                                        </div>
+                                                                        <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+
+                                                                        </div>
+                                                                        <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
+
+                                                                        </div>
+                                                                        <div class="tab-pane fade active show" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <!-- end sidebar -->
+                                                        </div>
+                                                        <div class="tab-pane fade" id="sidebar-html" role="tabpanel" aria-labelledby="sidebar-html-tab">
+                                                            <div class="d-flex justify-content-end">
+                                                                <button class="btn btn-light-primary br-50 mx-5 my-2" data-clipboard-text="" id="cm-sidebar-html-copyButton"><i class="icn-file icn-cyan"></i></button>
+                                                            </div>
+                                                            <div id="cm-sidebar-html"></div>
+                                                        </div>
+                                                        <div class="tab-pane fade" id="sidebar-css" role="tabpanel" aria-labelledby="sidebar-css-tab">
+                                                            <div class="d-flex justify-content-end">
+                                                                <button class="btn btn-light-primary br-50 mx-5 my-2" data-clipboard-text="" id="cm-sidebar-css-copyButton"><i class="icn-file icn-cyan"></i></button>
+                                                            </div>
+                                                            <div id="cm-sidebar-css"></div>
+                                                        </div>
+                                                        <div class="tab-pane fade" id="sidebar-js" role="tabpanel" aria-labelledby="sidebar-js-tab">
+                                                            <div class="d-flex justify-content-end">
+                                                                <button class="btn btn-light-primary br-50 mx-5 my-2" data-clipboard-text="" id="cm-sidebar-js-copyButton"><i class="icn-file icn-cyan"></i></button>
+                                                            </div>
+                                                            <div id="cm-sidebar-js"></div>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -721,7 +1522,6 @@ License: You must have a valid license purchased only from themeforest(the above
                                         </div>
                                     </div>
                                 </div>
-
                             </div>
                             <!--end::Subheader-->
                         </div>
@@ -819,35 +1619,83 @@ License: You must have a valid license purchased only from themeforest(the above
                 $(document).ready(function() {
                     var html_code = `<table class="table table-light-pale border-grey text-primary text-dark-grey p-table-10 stripped dataTable br-0"> <thead> <tr> <th class="sorting" tabindex="0" aria-controls="kt_datatable" rowspan="1" colspan="1" style="width: 56px;">Record ID</th> <th class="sorting" tabindex="0" aria-controls="kt_datatable" rowspan="1" colspan="1" style="width: 45px;">Order ID</th> <th class="sorting" tabindex="0" aria-controls="kt_datatable" rowspan="1" colspan="1" style="width: 65px;">Country</th> </tr> </thead> <tbody> <tr> <td class="dtr-control sorting_1" tabindex="0">6</td> <td>53499-0393</td> <td>Ukraine</td> </tr> <tr> <td class="dtr-control sorting_1" tabindex="0">6</td> <td>53499-0393</td> <td>Ukraine</td> </tr> <tr> <td class="dtr-control sorting_1" tabindex="0">6</td> <td>53499-0393</td> <td>Ukraine</td> </tr> </tbody> </table>`;
                     var css_code = `.table.table-light-pale thead tr { color: #074A37; background-color: #EBF2E4; } .table.border-grey { border: 2px solid #F0F0F0 !important; } .table.border-light-primary { border: 2px solid #EBF2E4 !important; } .table.text-primary thead tr th { color: #074A37 !important; padding: 16px 10px !important; } .table.text-dark-grey tbody tr td { color: #3F544C !important; } .table.p-table-10 tbody tr td { padding: 10px !important; } .table.p-table-15 tbody tr td { padding: 15px !important; } .table.stripped tbody tr:nth-child(even) { background-color: #F0F0F0; } .table.stripped tbody tr:nth-child(odd) { background-color: #fff; }`;
-                    cmRender("editor", "editor-css", html_code, css_code);
+                    var js_code = ``;
+                    cmRender("editor", "editor-css", "editor-js", html_code, css_code, js_code);
 
                     var dTable_html_code = `<table class=\"table table-dark-pale border-grey text-primary text-dark-grey p-table-10 dataTable br-0\" id=\"kt_datatable\" role=\"grid\" style=\"width: 1151px; margin-top: 0px !important;\">\n  <thead>\n    <tr>\n      <th class=\"sorting\" tabindex=\"0\" aria-controls=\"kt_datatable\" rowspan=\"1\" colspan=\"1\" style=\"width: 56px;\"> Record ID</th>\n      <th class=\"sorting\" tabindex=\"0\" aria-controls=\"kt_datatable\" rowspan=\"1\" colspan=\"1\" style=\"width: 45px;\"> Order ID</th>\n      <th class=\"sorting\" tabindex=\"0\" aria-controls=\"kt_datatable\" rowspan=\"1\" colspan=\"1\" style=\"width: 65px;\"> Country </th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td class=\"dtr-control sorting_1\" tabindex=\"0\">6 </td>\n      <td>53499-0393</td>\n      <td>Ukraine</td>\n    </tr>\n    <tr>\n      <td class=\"dtr-control sorting_1\" tabindex=\"0\">6 </td>\n      <td>53499-0393</td>\n      <td>Ukraine</td>\n    </tr>\n    <tr>\n      <td class=\"dtr-control sorting_1\" tabindex=\"0\">6 </td>\n      <td>53499-0393</td>\n      <td>Ukraine</td>\n    </tr>\n  </tbody>\n</table>`;
                     var dTable_css_code = `.table.table-dark-pale thead tr {\n  color: #074A37;\n  background-color: #DCE6D1 !important;\n}`;
-                    cmRender("cm-drk-table-html", "cm-drk-table-css", dTable_html_code, dTable_css_code);
+                    var dTable_js_code = ``;
+                    cmRender("cm-drk-table-html", "cm-drk-table-css", "cm-drk-table-js", dTable_html_code, dTable_css_code, dTable_js_code);
 
                     var btn_color_html_code = `<button class="btn btn-grey">Grey Button</button>\n<button class="btn c-btn-success ml-2">Success Button</button>\n<button class="btn c-btn-primary ml-2">Primary Button</button>\n<button class="btn c-btn-light-primary ml-2">Light Button</button>`;
                     var btn_color_css_code = `btn-grey {\n font-family: 'Roboto';\n display: inline-block;\n text-align: center;\n background: #4C94A0 !important;\n color: #fff !important;\n border-radius: 15px !important;\n padding: 10px;\n border: 0px !important;\n }\n .c-btn-success {\n font-family: 'Roboto';\n display: inline-block;\n text-align: center;\n background: #FEC045 !important;\n color: #074A37 !important;\n border-radius: 15px !important;\n padding: 10px;\n border: 0px !important;\n }\n .c-btn-light-primary {\n font-family: 'Roboto';\n display: inline-block;\n text-align: center;/n background: #EBF2E4 !important;/n color: #074A37 !important;/n border-radius: 15px !important;/n padding: 10px;/n border: 0px !important;/n }/n .c-btn-primary {/n font-family: 'Roboto';/n display: inline-block;/n text-align: center;/n background: #074A37 !important;/n color: #EBF2E4 !important;/n border-radius: 15px !important;/n padding: 10px;/n border: 0px !important;/n }/n`;
-                    cmRender("cm-btn-color-html", "cm-btn-color-css", btn_color_html_code, btn_color_css_code);
+                    var btn_color_js_code = ``;
+                    cmRender("cm-btn-color-html", "cm-btn-color-css", "cm-btn-color-js", btn_color_html_code, btn_color_css_code, btn_color_js_code);
 
                     var btn_size_html_code = `<button class="btn c-btn-light-primary c-btn-xs">Grey Button</button>\n<button class="btn btn-grey c-btn-sm">Grey Button</button>\n<button class="btn c-btn-success c-btn-md ml-2">Success Button</button>\n<button class="btn c-btn-primary c-btn-lg ml-2">Primary Button</button>\n`;
                     var btn_size_css_code = `.c-btn-lg {\n width: 200px;\n height: 40px;\n font-size: 14px !important;\n }\n.c-btn-md { \nwidth: 176px;\n height: 36px;\n font-size: 13px !important;\n }\n.c-btn-sm {\n display: flex !important;\n align-items: center;\n justify-content: center;\n width: 95px;\n height: 25px;\n font-size: 10px !important;\n }\n.c-btn-xs {\n display: flex !important;\n align-items: center;\n justify-content: center;\n width: 85px;\n height: 15px;\n font-size: 7px !important;\n }\n`;
-                    cmRender("cm-btn-size-html", "cm-btn-size-css", btn_size_html_code, btn_size_css_code);
+                    var btn_size_js_code = ``;
+                    cmRender("cm-btn-size-html", "cm-btn-size-css", "cm-btn-size-js", btn_size_html_code, btn_size_css_code, btn_size_js_code);
+
+                    var switch_html_code = `<div class="button b2 swt-btn" id="swt-btn"> <input type="checkbox" class="switch-checkbox"> <div class="knobs"> <span>Defferred</span> </div> <div class="layer"></div> </div>`;
+                    var switch_css_code = `.button-cover, .knobs, .layer { position: absolute; top: 0; right: 0; bottom: 0; left: 0; } .button { position: relative; top: 50%; width: 90px; overflow: hidden; padding-bottom: 3px; } .button.r, .button.r .layer { border-radius: 100px; } .button.b2 { border-radius: 2px; } .switch-checkbox { position: relative; width: 100%; height: 100%; padding: 0; margin: 0; opacity: 0; cursor: pointer; z-index: 3; } .knobs { z-index: 2; } .layer { width: 100%; background-color: #fcebeb; transition: 0.3s ease all; z-index: 1; } /* switch */ .swt-btn .knobs:before, .swt-btn .knobs:after, .swt-btn .knobs span { position: absolute; width: 50%; height: 100%; font-size: 7px; text-align: center; line-height: 1; padding: 9px 4px; border-radius: 2px; transition: 0.3s ease all; } .swt-btn .knobs:before { content: ""; background-color: #074A37; } .swt-btn .knobs:after { content: "Included"; right: 4px; color: #4e4e4e; } .swt-btn .knobs span { display: inline-block; color: #fff; z-index: 1; } .swt-btn .switch-checkbox:checked+.knobs span { color: #9C9C9C; } .swt-btn .switch-checkbox:checked+.knobs:before { left: 45px; background-color: #074A37; } .swt-btn .switch-checkbox:checked+.knobs:after { color: #fff; } .swt-btn .switch-checkbox:checked~.layer { background-color: #fcebeb; }`;
+                    var switch_js_code = ``;
+                    cmRender("cm-switch-html", "cm-switch-css", "cm-switch-js", switch_html_code, switch_css_code, switch_js_code);
 
                     var input_html_code = `<div class="card bg-light p-5 br-15"> <form action=""> <div class="row"> <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12"> <div class="form-group">\n <label for="text-input" class="font-text text-primary d-inline">Text</label> \n<input type="text" id="text-input" class="form-control bg-light-primary outline-0 border-0 mt-4 mb-2" placeholder="Enter Name"> </div> </div> <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12"> <div class="form-group"> \n<label for="exampleFormControlSelect1" class="font-text text-primary d-inline">Select</label> \n<div class="select-wrapper mt-4 mb-2"> \n<select class="form-control bg-primary text-light" id="exampleFormControlSelect1"> <option>None Selected</option> <option>Selected</option> </select> </div> </div> </div> <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12"> <div class="form-group"> \n<label class="indicator-small-text">Input with icon</label> \n<div class="d-flex align-items-center"> \n<input class="p-2 bg-light-primary btlr-50 bblr-50 border-0 w-100" type="text"> \n<span class="d-flex align-items-center p-3 bg-primary btrr-50 bbrr-50 border-color-pale">\n<i class="icn-edit icn-pale icn-13px"></i></span> </div> </div> </div> <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12"> <div class="mt-7"> <div class="input-group"> \n<input type="text" class="form-control btlr-50 bblr-50 bg-light-grey outline-0 border-0 w-50" placeholder="search for anything"> <div class="input-group-append"> <span class="input-group-text btrr-50 bbrr-50 bg-light-grey"> <i class="icn-search"></i> </span> </div> </div> </div> </div> <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12"> <div class="form-group"> <label for="input_subtext" class="font-text text-primary font-weight-bolder d-inline">Input with subtext</label> <input type="text" id="input_subtext" class="form-control bg-light-primary outline-0 border-0 w-100 mt-4 mb-2" placeholder="Enter Name"> <span class="font-small text-primary">Subtext</span> </div> </div> <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12"> <div class="form-group"> <label class="font-text text-primary font-weight-bold d-inline">Radio Input</label> <div class="custom-control custom-radio mt-3"> <input type="radio" id="rd_1" name="rd" class="custom-control-input" value="Yes"> <label class="custom-control-label" for="rd_1">Yes</label> </div> <div class="custom-control custom-radio my-2"> <input type="radio" id="rd_2" name="rd" class="custom-control-input" value="No"> <label class="custom-control-label" for="rd_2">No</label> </div> <div class="font-small text-primary mt-4">Subtext</div> </div> </div> </div> </form> </div>`;
                     var input_css_code = `.select-wrapper {\n position: relative;\n }\n .select-wrapper::after {\n content: "▼";\n font-size: 1rem;\n top: 10px;\n right: 15px;\n position: absolute;\n color: #fff;\n z-index: 2 !important;\n }\n.custom-radio .custom-control-label::before { border-radius: 50%; } .custom-radio .custom-control-input:checked~.custom-control-label::after { background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='%23ffffff'/%3e%3c/svg%3e"); } .custom-radio .custom-control-input:disabled:checked~.custom-control-label::before { background-color: rgba(7, 74, 55, 0.5); }`;
-                    cmRender("cm-input-html", "cm-input-css", input_html_code, input_css_code);
+                    var input_js_code = ``;
+                    cmRender("cm-input-html", "cm-input-css", "cm-input-js", input_html_code, input_css_code, input_js_code);
 
                     var typo_html_code = `<span class="font-lg d-block">Large font</span>\n<h1 class="font-heading">Headings</h1>\n<h3 class="font-subheading">Subheadings</h3>\n<p class="font-text">Text</p>\n<p class="font-subtext">Subtext</p>\n<span class="font-small d-block">Small text</span>`;
                     var typo_css_code = `.font-heading {\n font-style: normal;\n font-weight: 500;\n font-size: 24px;\n line-height: 28px;\n text-transform: capitalize;\n }\n .font-lg {\n font-style: normal;\n font-weight: 700;\n font-size: 36px;\n line-height: 136.69%;\n text-transform: capitalize }\n .font-subheading {\n font-style: normal;\n font-weight: 500;\n font-size: 18px;\n line-height: 21px;\n /* identical to box height */ text-transform: capitalize;\n }\n .font-small {\n font-style: normal;\n font-weight: 400;\n font-size: 11px;\n line-height: 142.19%;\n /* identical to box height, or 23px */ text-transform: capitalize;\n }\n .font-text {\n font-style: normal;\n font-weight: 400;\n font-size: 15px;\n line-height: 18px;\n }\n .font-subtext {\n font-style: normal;\n font-weight: 400;\n font-size: 13px;\n line-height: 18px;\n }\n`;
-                    cmRender("cm-typo-html", "cm-typo-css", typo_html_code, typo_css_code);
+                    var typo_js_code = ``;
+                    cmRender("cm-typo-html", "cm-typo-css", "cm-typo-js", typo_html_code, typo_css_code, typo_js_code);
 
                     var typo_color_html_code = `<p class="font-text text-primary">Text primary</p>\n<p class="font-text text-light-primary">Text light primary</p>\n<p class="font-text text-success">Text success</p>\n<p class="font-text text-light-cyan">Text cyan</p>`;
                     var typo_color_css_code = `.text-light-cyan {\n color: #839FA0;\n }\n .text-light-primary {\n color: #EBF2E4;\n }\n .text-primary {\n color: #074A37 !important;\n }\n .text-success {\n color: #FEC045 !important;\n }\n`;
-                    cmRender("cm-typo-color-html", "cm-typo-color-css", typo_color_html_code, typo_color_css_code);
+                    var typo_color_js_code = ``;
+                    cmRender("cm-typo-color-html", "cm-typo-color-css", "cm-typo-color-js", typo_color_html_code, typo_color_css_code, typo_color_js_code);
 
                     var badge_html_code = `<span class="light-primary-badge">light primary</span>\n<span class="light-blue-badge">light blue</span>\n<span class="light-yellow-badge">light yellow</span>\n<span class="cyan-badge">cyan</span>\n<span class="primary-badge">primary badge</span>`;
                     var badge_css_code = `.light-primary-badge {\n background-color: #EBF2E4;\n color: #074A37;\n font-size: 8px;\n font-weight: 700;\n padding: 3.25px;\n }\n .light-blue-badge {\n background-color: #D6E7FF;\n color: #074A37;\n font-size: 8px;\n font-weight: 700;\n padding: 3.25px;\n }\n .light-yellow-badge {\n background-color: rgba(214, 208, 33, 0.15);\n color: #074A37;\n font-size: 8px;\n font-weight: 700;\n padding: 3.25px;\n }\n .cyan-badge {\n background-color: #4C94A0;\n color: #074A37;\n font-size: 8px;\n font-weight: 700;\n padding: 3.25px;\n }\n .primary-badge {\n background-color: #4C94A0;\n color: #074A37;\n font-size: 8px;\n font-weight: 700;\n padding: 3.25px;\n }\n`;
-                    cmRender("cm-badges-html", "cm-badges-css", badge_html_code, badge_css_code);
+                    var badge_js_code = ``;
+                    cmRender("cm-badges-html", "cm-badges-css", "cm-badges-js", badge_html_code, badge_css_code, badge_js_code);
+
+                    var pagination_html_code = `<div class="dataTables_paginate paging_simple_numbers" id="kt_datatable_paginate"> <ul class="pagination"> <li class="paginate_button page-item previous disabled" id="kt_datatable_previous"><a href="#" aria-controls="kt_datatable" data-dt-idx="0" tabindex="0" class="page-link"><i class="ki ki-arrow-back"></i></a></li> <li class="paginate_button page-item active"><a href="#" aria-controls="kt_datatable" data-dt-idx="1" tabindex="0" class="page-link">1</a></li> <li class="paginate_button page-item "><a href="#" aria-controls="kt_datatable" data-dt-idx="2" tabindex="0" class="page-link">2</a></li> <li class="paginate_button page-item next" id="kt_datatable_next"><a href="#" aria-controls="kt_datatable" data-dt-idx="3" tabindex="0" class="page-link"><i class="ki ki-arrow-next"></i></a></li> </ul> </div>`;
+                    var pagination_css_code = ``;
+                    var pagination_js_code = ``;
+                    cmRender("cm-pagination-html", "cm-pagination-css", "cm-pagination-js", pagination_html_code, pagination_css_code, pagination_js_code);
+
+                    var cards_html_code = `<!-- start grey card --> <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12"> <div class="card w-100 p-5 h-100 bg-grey"> <div class="row mb-5 ml-5"> <div class="col-md-12 mt-5"> <h2 class="font-family-roboto font-heading text-primary mt-4">Heading</h2> <p class="font-family-roboto font-subtext text-secondary pb-3"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit </p> <a href="./overview.php" class="btn-grey c-btn-lg d-flex justify-content-center align-items-center"> <i class="icn-add-folder icn-2x icn-white"></i> <span class="text-light pl-2"> Large Button </span> </a> </div> </div> </div> </div> \n<!-- end grey card --> \n\n<!-- start pale card --> <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12"> <div class="card w-100 h-100 p-5 bg-pale mt-5-res"> <div class="row mb-5 ml-5"> <div class="col-md-12 mt-5"> <h2 class="font-family-roboto font-heading text-primary mt-4">Heading</h2> <p class="font-family-roboto font-subtext text-secondary pb-3"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit </p> <a href="./overview.php" class="btn-grey c-btn-lg d-flex justify-content-center align-items-center"> <i class="icn-add-folder icn-2x icn-white"></i> <span class="text-light pl-2"> Large Button </span> </a> </div> </div> </div> </div> \n<!-- end pale card --> \n\n<!-- start card with light primary header --> <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 mt-5"> <div class="card w-100 h-100"> <div class="card-header bg-light-primary br-0"> <span class="text-primary font-subheading"> Card Header </span> </div> <div class="card-body"> <div class="row mb-5 ml-5"> <div class="col-md-12 mt-5"> <h2 class="font-family-roboto font-heading text-primary mt-4">Heading</h2> <p class="font-family-roboto font-subtext text-secondary pb-3"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit </p> <a href="./overview.php" class="btn-grey c-btn-lg d-flex justify-content-center align-items-center"> <i class="icn-add-folder icn-2x icn-white"></i> <span class="text-light pl-2"> Large Button </span> </a> </div> </div> </div> </div> </div> \n<!-- end card with light primary header -->`;
+                    var cards_css_code = `/* grey background */ .bg-grey { background-color: #DCF3EF !important; } /* pale background */ .bg-pale { background-color: #F4F4DA !important; } /* light primary background */ .bg-light-primary { background-color: #EBF2E4 !important; }`;
+                    var cards_js_code = ``;
+                    cmRender("cm-cards-html", "cm-cards-css", "cm-cards-js", cards_html_code, cards_css_code, cards_js_code);
+
+                    var step_cards_html_code = `<!-- start active step card --> <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 mt-5"> <div class="h-150px"> <div class="step-cards"> <div class="mb-3 mt-3"> <i class="icn-file icn-3x"></i> </div> <span class="py-5"> Active </span> <div class="child-bottom"> <div class="d-flex justify-content-center my-4"> <div class="progress-line"></div> </div> <div> <span class="bg-success text-primary br-4 step-counter px-2 py-1"> 6/6 </span> <span class="bg-primary text-light-primary font-subtext btrr-4 bbrr-4 pr-4 pl-2 py-1">TASKS</span> </div> </div> <div class="step-number font-text-bolder"> 1 </div> </div> </div> </div> \n<!-- end active step card -->\n\n\n <!-- start disabled step card --> <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 mt-5"> <div class="h-150px"> <div class="step-cards-disabled"> <div class="mb-3 mt-3"> <i class="icn-file icn-3x"></i> </div> <span class="py-5"> Disabled </span> <div class="child-bottom"> <div class="d-flex justify-content-center my-4"> <div class="progress-line"></div> </div> <div> <span class="bg-dusty-grey br-4 step-counter px-2 py-1"> <svg width="13" height="14" viewBox="0 0 13 14" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M6.11447 13.9984C4.67472 13.9984 3.2353 14.0008 1.79555 13.9973C0.899112 13.9953 0.164208 13.3884 0.0306823 12.5453C0.0122413 12.4282 0.00916786 12.3073 0.00882637 12.1881C0.00746037 10.4929 0.0296578 8.797 0.000288908 7.10249C-0.017469 6.07219 0.785394 5.20922 1.8577 5.25396C2.19271 5.26796 2.52943 5.24542 2.86444 5.26079C3.03723 5.26864 3.06797 5.20922 3.06558 5.05111C3.05636 4.40841 3.05123 3.76537 3.06387 3.12267C3.0888 1.82942 3.67071 0.872537 4.83454 0.293698C6.36104 -0.465453 8.33524 0.309748 8.95608 1.8984C9.11556 2.30615 9.19376 2.72619 9.1924 3.16331C9.19069 3.80601 9.19615 4.44905 9.18864 5.09175C9.18693 5.2304 9.23065 5.26216 9.36144 5.25942C9.73094 5.25123 10.1011 5.25396 10.471 5.25703C11.4914 5.26557 12.2392 6.00355 12.243 7.02463C12.2495 8.75978 12.2485 10.4949 12.243 12.2301C12.2399 13.2419 11.4835 13.9939 10.4676 13.9977C9.01653 14.0025 7.5655 13.9984 6.11447 13.9984ZM6.11789 13.1228C7.54638 13.1228 8.97486 13.1088 10.403 13.1293C11.0297 13.1381 11.392 12.6734 11.3872 12.1382C11.3729 10.4601 11.3821 8.78164 11.3817 7.10317C11.3817 6.47994 11.0225 6.12 10.3948 6.11966C7.54945 6.11863 4.70409 6.11863 1.85872 6.11966C1.23071 6.12 0.872134 6.47755 0.871451 7.10249C0.870427 8.79222 0.870427 10.482 0.87111 12.172C0.871451 12.7574 1.23378 13.1221 1.81569 13.1224C3.24965 13.1228 4.68394 13.1224 6.11789 13.1228ZM6.10867 5.25601C6.79098 5.25601 7.4733 5.25225 8.15561 5.25942C8.2864 5.26079 8.31509 5.22357 8.31406 5.0979C8.30792 4.41012 8.31338 3.722 8.31065 3.03422C8.30587 1.83898 7.33192 0.88005 6.12711 0.88005C4.92299 0.88005 3.9463 1.84103 3.94152 3.03388C3.93879 3.72166 3.94425 4.40978 3.93811 5.09755C3.93708 5.2222 3.9644 5.26113 4.09588 5.25977C4.76658 5.25225 5.43762 5.25601 6.10867 5.25601Z" fill="#C3C8BD"></path> <path d="M5.68513 11.115C5.68513 10.933 5.67933 10.751 5.68752 10.5696C5.6923 10.4661 5.66362 10.4105 5.56356 10.363C4.96798 10.0803 4.67532 9.40033 4.87783 8.78973C5.09161 8.14498 5.73055 7.77411 6.39886 7.90696C6.91384 8.00906 7.34823 8.46291 7.41858 8.97277C7.49951 9.55673 7.22461 10.1134 6.71987 10.3473C6.59249 10.4064 6.56312 10.4754 6.56586 10.6031C6.57405 10.9552 6.56176 11.3079 6.572 11.66C6.5761 11.7939 6.53136 11.8229 6.40842 11.8161C6.22709 11.8058 6.04405 11.8048 5.86305 11.8164C5.72611 11.8253 5.66942 11.7925 5.68138 11.6429C5.69606 11.4684 5.68513 11.2912 5.68513 11.115ZM6.12908 9.62913C6.3712 9.62811 6.57439 9.4215 6.56961 9.18143C6.56483 8.94306 6.3531 8.73919 6.1161 8.74465C5.88627 8.75011 5.68513 8.95536 5.68411 9.18587C5.6824 9.42662 5.8873 9.63016 6.12908 9.62913Z" fill="#C3C8BD"></path> </svg> </span> <span class="bg-grey text-light-cyan btrr-4 bbrr-4 pr-4 pl-2 py-1">Locked</span> </div> </div> <div class="step-number font-text-bolder"> 2 </div> </div> </div> </div> \n<!-- end disabled step card -->`;
+                    var step_cards_css_code = `/* active step card */ .step-cards { background-color: #EBF2E4; height: 100% !important; border: 1px solid rgba(154, 191, 120, 0.6) !important; border-radius: 15px; text-align: center; padding: 16.25px; position: relative !important; } /* disabled step card */ .step-cards-disabled { background-color: #E1E1E1 !important; color: #839FA0 !important; height: 100% !important; border: 1px solid rgba(154, 191, 120, 0.6) !important; border-radius: 15px; text-align: center; padding: 16.25px; position: relative !important; }`;
+                    var step_cards_js_code = ``;
+                    cmRender("cm-step-cards-html", "cm-step-cards-css", "cm-step-cards-js", step_cards_html_code, step_cards_css_code, step_cards_js_code);
+
+                    var grid_cards_html_code = `<!-- start grid card --> <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 mt-5"> <div class="grid-card"> <img src="../assets/media/map_img1.png" class="w-100 p-1" alt=""> <div class="p-4"> <h6 class="font-text text-primary">Jacob Michael</h6> <span class="font-small">Not Plan yet!</span> </div> <div class="d-flex px-4"> <span class="sm-icon bg-light-primary"> <i class="icn-world"></i> </span> <span class="font-small">Country: Florida</span> </div> <div class="d-flex px-4 mt-3"> <span class="sm-icon bg-light-primary"> <i class="icn-phone"></i> </span> <span class="font-small">Assessment Contact: +1 202 555 0156</span> </div> <div class="d-flex justify-content-between align-items-center my-5 px-4"> <span class="font-small bg-light-grey px-5 py-2"> 2022-12-07 </span> <span class="bg-light-primary font-small bg-light-grey px-5 py-2">Completed</span> </div> </div> </div> \n<!-- end grid card -->`;
+                    var grid_cards_css_code = `/* grid card */ .grid-card { background: #FFFFFF; border: 1px solid rgba(154, 191, 120, 0.6); padding-left: 0px !important; padding-right: 0px !important; }`;
+                    var grid_cards_js_code = ``;
+                    cmRender("cm-grid-cards-html", "cm-grid-cards-css", "cm-grid-cards-js", grid_cards_html_code, grid_cards_css_code, grid_cards_js_code);
+
+                    var help_cards_html_code = `<!-- start help card --> <div class="col-lg-2 col-md-12 col-sm-12 col-xs-12 help-card ml-2"> <div class="d-flex flex-column align-items-center justify-content-center w-100 h-100"> <i class="icn-message icn-3x"></i> <span class="font-small text-primary text-center mt-1">Assessment Feedback</span> </div> </div> <div class="col-lg-2 col-md-12 col-sm-12 col-xs-12 help-card ml-2"> <div class="d-flex flex-column align-items-center justify-content-center w-100 h-100"> <i class="icn-file-fold icn-3x"></i> <span class="font-small text-primary text-center mt-1">View Guidelines</span> </div> </div> <div class="col-lg-2 col-md-12 col-sm-12 col-xs-12 help-card ml-2"> <div class="d-flex flex-column align-items-center justify-content-center w-100 h-100"> <i class="icn-conversation icn-4x"></i> <span class="font-small text-primary text-center mt-1">Report Issue</span> </div> </div> \n<!-- end help card -->`;
+                    var help_cards_css_code = `/* help card */ .help-card { background-color: #EBF2E4 !important; color: #839FA0 !important; max-width: 32% !important; border-radius: 4px !important; padding: 16.25px; }`;
+                    var help_cards_js_code = ``;
+                    cmRender("cm-help-cards-html", "cm-help-cards-css", "cm-help-cards-js", help_cards_html_code, help_cards_css_code, help_cards_js_code);
+
+                    var content_cards_html_code = `<!-- start reference card --> <div class="row"> <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 responsive-margin-card"> <div class="content-card"> <div class="my-2"> <i class="icn-reference-library icn-3x"></i> </div> <span class="font-subtext mb-2"> Reference Library </span> </div> </div> <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 my-5-res"> <div class="content-card"> <div class="my-2"> <i class="icn-image-gallery icn-3x"></i> </div> <span class="font-subtext mb-2"> Image Galary </span> </div> </div> <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 responsive-margin-card"> <div class="content-card"> <div class="my-2"> <i class="icn-help icn-3x"></i> </div> <span class="font-subtext mb-2"> Need Help </span> </div> </div> </div> \n<!-- end reference -->`;
+                    var content_cards_css_code = `/* content card */ .content-card { background-color: #EBF2E4 !important; color: #074A37 !important; border-radius: 15px !important; padding: 16.25px; height: 100% !important; text-align: center; cursor: pointer; }`;
+                    var content_cards_js_code = ``;
+                    cmRender("cm-content-cards-html", "cm-content-cards-css", "cm-content-cards-js", content_cards_html_code, content_cards_css_code, content_cards_js_code);
+
+                    var sidebar_html_code = `<!-- start sidebar --> <div class="row border-color-pale br-15 m-sm-0"> <div class="col-md-3 col-sm-12 col-xs-12 pr-0 mt-7 max-w-20-percent" id="inner-side-nav"> <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical"> <a class="main-menu nav-link indicator-tab-link" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="false"> <div class="d-flex align-items-center"> <span class="icn-bg-pale"> <i class="icn-ecosystem-main"></i> </span> <span class="inner-nav-text ml-5"> Ecosystems </span> </div> <div class="sub-menu-hover brt-50 brb-50"> <span class="d-flex align-items-center h-100"> Ecosystems </span> </div> </a> <a class="main-menu nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false"> <div class="d-flex align-items-center"> <span class="icn-bg-pale"> <i class="icn-wellbeing-main"></i> </span> <span class="inner-nav-text ml-5"> Human Well-being </span> </div> <div class="sub-menu-hover brt-50 brb-50"> <span class="d-flex align-items-center h-100"> Human Well-being </span> </div> </a> <a class="main-menu nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false"> <div class="d-flex align-items-center"> <span class="icn-bg-pale"> <i class="icn-governance-main"></i> </span> <span class="inner-nav-text ml-5"> Governance </span> </div> <div class="sub-menu-hover brt-50 brb-50"> <span class="d-flex align-items-center h-100"> Governance </span> </div> </a> <a class="main-menu mb-5 nav-link active" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="true"> <div class="d-flex align-items-center"> <span class="icn-bg-dark"> <i class="icn-production-main icn-pale"></i> </span> <span class="inner-nav-text ml-5"> Production </span> </div> <div class="sub-menu-hover brt-50 brb-50"> <span class="d-flex align-items-center h-100"> Production </span> </div> </a> </div> </div> <div class="col-md-12 col-sm-12 col-xs-12 bg-light-primary btrr-15 bbrr-15 max-w-80-percent btlr-15-res bblr-15-res" id="inner-side-main"> <div class="d-flex justify-content-between mt-5 mr-5"> <button class="ml-5 bg-transparent border-0 br-15 p-2" onclick="toggleAside()" fdprocessedid="dw0os"> <i class="icn-menu icn-2x mt-3"></i> </button> </div> <div class="tab-content" id="v-pills-tabContent"> <div class="tab-pane fade" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab"> </div> <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab"> </div> <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab"> </div> <div class="tab-pane fade active show" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab"> </div> </div> </div> </div> \n<!-- end sidebar -->`;
+                    var sidebar_css_code = ``;
+                    var sidebar_js_code = `// active nav link $('.nav-link').on('click', function() { let prevActiveLink = $(this).siblings(".active"); let darkBg = prevActiveLink.find('.icn-bg-dark'); let currentLink = $(this).find('.icn-bg-pale'); darkBg.addClass('icn-bg-pale') darkBg.removeClass('icn-bg-dark') darkBg.find('i').removeClass('icn-pale') currentLink.addClass('icn-bg-dark') currentLink.removeClass('icn-bg-pale') currentLink.find('i').addClass('icn-pale') }); // side menu toggle function toggleAside() { if ($('#inner-side-nav').hasClass('max-w-5-percent')) { $('#inner-side-nav').removeClass('max-w-5-percent'); $('#inner-side-nav').addClass('max-w-20-percent'); $('#inner-side-nav').find('.inner-nav-text').toggle('d-none'); $('#piller-create').removeClass('d-none'); $('#inner-side-main').removeClass('max-w-95-percent'); $('#inner-side-main').addClass('max-w-80-percent'); } else { $('#inner-side-nav').addClass('max-w-5-percent'); $('#inner-side-nav').removeClass('max-w-20-percent'); $('#inner-side-nav').find('.inner-nav-text').toggle('d-none'); $('#piller-create').addClass('d-none'); console.log('dd'); $('#inner-side-main').addClass('max-w-95-percent'); $('#inner-side-main').removeClass('max-w-80-percent'); } }`;
+                    cmRender("cm-sidebar-html", "cm-sidebar-css", "cm-sidebar-js", sidebar_html_code, sidebar_css_code, sidebar_js_code);
 
                 })
                 $(document).on('click', '#kt_aside_toggle', function() {
@@ -869,7 +1717,7 @@ License: You must have a valid license purchased only from themeforest(the above
                     }
                 });
 
-                function cmRender(htmlId, cssId, htmlValue, cssValue) {
+                function cmRender(htmlId, cssId, jsId, htmlValue, cssValue, jsValue) {
                     var htmlEditor = CodeMirror(document.getElementById(htmlId), {
                         mode: "htmlmixed",
                         lineNumbers: true,
@@ -886,6 +1734,18 @@ License: You must have a valid license purchased only from themeforest(the above
                         value: cssValue,
                         readOnly: true,
                         mode: "css",
+                        theme: "dracula",
+                        lineNumbers: true,
+                        smartIndent: true,
+                        lineWrapping: true,
+                        indentWithTabs: true,
+                        autofocus: true,
+                    });
+
+                    var jsEditor = CodeMirror(document.getElementById(jsId), {
+                        value: jsValue,
+                        readOnly: true,
+                        mode: "javascript",
                         theme: "dracula",
                         lineNumbers: true,
                         smartIndent: true,
@@ -913,17 +1773,60 @@ License: You must have a valid license purchased only from themeforest(the above
                         console.log(formattedCode);
                     }.bind(cssEditor));
 
+                    $(document).on('shown.bs.tab', 'button[data-toggle="tab"]', function() {
+                        this.refresh();
+                        formattedCode = js_beautify(this.getValue(), {
+                            indent_size: 4,
+                            space_in_empty_paren: true
+                        });
+                        this.setValue(formattedCode);
+                        console.log(formattedCode);
+                    }.bind(jsEditor));
+
                     var htmlCopyButton = document.getElementById(htmlId + '-copyButton');
-                    console.log(htmlCopyButton);
                     htmlCopyButton.setAttribute('data-clipboard-text', htmlEditor.getValue());
                     var cssCopyButton = document.getElementById(cssId + '-copyButton');
                     cssCopyButton.setAttribute('data-clipboard-text', cssEditor.getValue());
+                    var jsCopyButton = document.getElementById(jsId + '-copyButton');
+                    jsCopyButton.setAttribute('data-clipboard-text', jsEditor.getValue());
                 }
 
 
                 var clipboard = new ClipboardJS('.btn');
                 clipboard.on('success', function(e) {
                     alert('Text copied to clipboard');
+                });
+
+                function toggleAside() {
+                    if ($('#inner-side-nav').hasClass('max-w-5-percent')) {
+                        $('#inner-side-nav').removeClass('max-w-5-percent');
+                        $('#inner-side-nav').addClass('max-w-20-percent');
+                        $('#inner-side-nav').find('.inner-nav-text').toggle('d-none');
+                        $('#piller-create').removeClass('d-none');
+                        $('#inner-side-main').removeClass('max-w-95-percent');
+                        $('#inner-side-main').addClass('max-w-80-percent');
+                    } else {
+                        $('#inner-side-nav').addClass('max-w-5-percent');
+                        $('#inner-side-nav').removeClass('max-w-20-percent');
+                        $('#inner-side-nav').find('.inner-nav-text').toggle('d-none');
+                        $('#piller-create').addClass('d-none');
+                        console.log('dd');
+                        $('#inner-side-main').addClass('max-w-95-percent');
+                        $('#inner-side-main').removeClass('max-w-80-percent');
+                    }
+
+                }
+
+                $('.nav-link').on('click', function() {
+                    let prevActiveLink = $(this).siblings(".active");
+                    let darkBg = prevActiveLink.find('.icn-bg-dark');
+                    let currentLink = $(this).find('.icn-bg-pale');
+                    darkBg.addClass('icn-bg-pale')
+                    darkBg.removeClass('icn-bg-dark')
+                    darkBg.find('i').removeClass('icn-pale')
+                    currentLink.addClass('icn-bg-dark')
+                    currentLink.removeClass('icn-bg-pale')
+                    currentLink.find('i').addClass('icn-pale')
                 });
             </script>
 
