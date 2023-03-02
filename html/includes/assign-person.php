@@ -1,4 +1,4 @@
-<div class="assignto-container">
+<div class="user-widget-container">
     <img src="../assets/media/icons_and_Illustrations/Avatars/Avatars_Baboon.png" class="people" alt="">
     <img src="../assets/media/icons_and_Illustrations/Avatars/Avatars_Frog.png" class="people" alt="">
     <img src="../assets/media/icons_and_Illustrations/Avatars/Avatars_Parrot.png" class="people" alt="">

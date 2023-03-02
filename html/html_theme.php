@@ -529,6 +529,8 @@ License: You must have a valid license purchased only from themeforest(the above
                                                             <div class="card bg-light p-5 br-15">
                                                                 <form action="">
                                                                     <div class="row">
+
+                                                                        <!-- start basic input -->
                                                                         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                                                                             <div class="form-group">
                                                                                 <label for="text-input" class="font-text text-primary d-inline">Text</label>
@@ -536,6 +538,8 @@ License: You must have a valid license purchased only from themeforest(the above
 
                                                                             </div>
                                                                         </div>
+
+                                                                        <!-- start select input -->
                                                                         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                                                                             <div class="form-group">
                                                                                 <label for="exampleFormControlSelect1" class="font-text text-primary d-inline">Select</label>
@@ -548,6 +552,8 @@ License: You must have a valid license purchased only from themeforest(the above
 
                                                                             </div>
                                                                         </div>
+
+                                                                        <!-- start input with icon -->
                                                                         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                                                                             <div class="form-group">
                                                                                 <label class="indicator-small-text">Input with icon</label>
@@ -557,6 +563,8 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                 </div>
                                                                             </div>
                                                                         </div>
+
+                                                                        <!-- start searchbar -->
                                                                         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                                                                             <div class="mt-7">
                                                                                 <div class="input-group">
@@ -570,6 +578,8 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                             </div>
 
                                                                         </div>
+
+                                                                        <!-- start input with subtext -->
                                                                         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                                                                             <div class="form-group">
                                                                                 <label for="input_subtext" class="font-text text-primary font-weight-bolder d-inline">Input with subtext</label>
@@ -577,6 +587,20 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                 <span class="font-small text-primary">Subtext</span>
                                                                             </div>
                                                                         </div>
+
+                                                                        <!-- start input icon on top -->
+                                                                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                                                                            <div class="mb-5"><!-- indicators filter -->
+                                                                                <div class="row justify-content-between">
+                                                                                    <div class="col-md-8"><label class="">input with icon in label:</label></div>
+                                                                                    <div class="col-md-4" style="text-align: right;"><i class="fas fa-filter"></i><span id="demoid"></span></div>
+                                                                                </div>
+                                                                                <select id="demo" class="form-control">
+                                                                                </select>
+                                                                            </div>
+                                                                        </div>
+
+                                                                        <!-- start radios -->
                                                                         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                                                                             <div class="form-group">
                                                                                 <label class="font-text text-primary font-weight-bold d-inline">Radio Input</label>
@@ -589,6 +613,30 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                     <label class="custom-control-label" for="rd_2">No</label>
                                                                                 </div>
                                                                                 <div class="font-small text-primary mt-4">Subtext</div>
+                                                                            </div>
+                                                                        </div>
+
+                                                                        <!-- start check box  -->
+                                                                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                                                                            <div class="form-group">
+                                                                                <span class="text-primary font-weight-bold">
+                                                                                    Check boxes
+                                                                                </span>
+                                                                                <label class="container-chkbox">
+                                                                                    <span>Option 1</span>
+                                                                                    <input name="demo" type="checkbox" checked="checked">
+                                                                                    <span class="checkmark"></span>
+                                                                                </label>
+                                                                                <label class="container-chkbox">
+                                                                                    <span>Option 2</span>
+                                                                                    <input name="demo" type="checkbox" checked="checked">
+                                                                                    <span class="checkmark"></span>
+                                                                                </label>
+                                                                                <label class="container-chkbox">
+                                                                                    <span>Option 3</span>
+                                                                                    <input name="demo" type="checkbox" checked="checked">
+                                                                                    <span class="checkmark"></span>
+                                                                                </label>
                                                                             </div>
                                                                         </div>
                                                                     </div>
@@ -1327,6 +1375,91 @@ License: You must have a valid license purchased only from themeforest(the above
                                                 </div>
                                             </div>
 
+                                            <div class="row p-5 mt-7 w-100">
+                                                <div class="col-lg-12">
+                                                    <h6 class="text-primary my-5">Pricing Cards</h6>
+
+                                                    <p class="text-primary my-7">
+                                                        Use class <span class="font-weight-bold"><code>.content-card</code></span> for having a reference cards.
+                                                    </p>
+
+                                                    <ul class="nav nav-tabs" id="myTab" role="tablist">
+                                                        <li class="nav-item" role="presentation">
+                                                            <button class="nav-link active" id="home-tab" data-toggle="tab" data-target="#pricing-cards-preview" type="button" role="tab" aria-controls="pricing-cards-preview" aria-selected="true">Preview</button>
+                                                        </li>
+                                                        <li class="nav-item" role="presentation">
+                                                            <button class="nav-link" id="home-tab" data-toggle="tab" data-target="#pricing-cards-html" type="button" role="tab" aria-controls="pricing-cards-html" aria-selected="true">HTML</button>
+                                                        </li>
+                                                        <li class="nav-item" role="presentation">
+                                                            <button class="nav-link" id="profile-tab" data-toggle="tab" data-target="#pricing-cards-css" type="button" role="tab" aria-controls="pricing-cards-css" aria-selected="false">CSS</button>
+                                                        </li>
+                                                        <li class="nav-item" role="presentation">
+                                                            <button class="nav-link" id="contact-tab" data-toggle="tab" data-target="#pricing-cards-js" type="button" role="tab" aria-controls="pricing-cards-js" aria-selected="false">JS</button>
+                                                        </li>
+                                                    </ul>
+                                                    <div class="tab-content border" id="myTabContent">
+                                                        <div class="tab-pane p-5 fade show active" id="pricing-cards-preview" role="tabpanel" aria-labelledby="pricing-cards-preview-tab">
+                                                            <!-- start pricing card -->
+                                                            <div class="p-5 mr-4 payment-plan-card">
+                                                                <span class="w-100 font-text text-primary d-inline-block text-center">
+                                                                    <span class="font-weight-bold">Powered</span> By LandScale
+                                                                </span>
+                                                                <div class="text-center my-3">
+                                                                    <span class="bg-secondary text-light-primary w-135px py-3 br-50 font-lg d-inline-block">
+                                                                        $7.5K
+                                                                    </span>
+                                                                </div>
+                                                                <span class="w-100 d-inline-block text-center font-text text-primary">
+                                                                    per assessment, per landscape
+                                                                </span>
+                                                                <div class="mt-5">
+                                                                    <ul class="listings font-text text-primary lh-25">
+                                                                        <li>
+                                                                            Access to LandScale’s online platform.
+                                                                        </li>
+                                                                        <li>
+                                                                            Use of the full LandScale assessment framework.
+                                                                        </li>
+                                                                        <li>
+                                                                            Ability to add your own custom indicators and metrics.
+                                                                        </li>
+                                                                        <li>
+                                                                            Ability to download your results at any time.
+                                                                        </li>
+                                                                        <li>
+                                                                            Access to LandScale’s assessment resources.
+                                                                        </li>
+                                                                        <li>
+                                                                            Access to online learning content.
+                                                                        </li>
+
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                            <!-- end pricing -->
+                                                        </div>
+                                                        <div class="tab-pane fade" id="pricing-cards-html" role="tabpanel" aria-labelledby="pricing-cards-html-tab">
+                                                            <div class="d-flex justify-content-end">
+                                                                <button class="btn btn-light-primary br-50 mx-5 my-2" data-clipboard-text="" id="cm-pricing-cards-html-copyButton"><i class="icn-file icn-cyan"></i></button>
+                                                            </div>
+                                                            <div id="cm-pricing-cards-html"></div>
+                                                        </div>
+                                                        <div class="tab-pane fade" id="pricing-cards-css" role="tabpanel" aria-labelledby="pricing-cards-css-tab">
+                                                            <div class="d-flex justify-content-end">
+                                                                <button class="btn btn-light-primary br-50 mx-5 my-2" data-clipboard-text="" id="cm-pricing-cards-css-copyButton"><i class="icn-file icn-cyan"></i></button>
+                                                            </div>
+                                                            <div id="cm-pricing-cards-css"></div>
+                                                        </div>
+                                                        <div class="tab-pane fade" id="pricing-cards-js" role="tabpanel" aria-labelledby="pricing-cards-js-tab">
+                                                            <div class="d-flex justify-content-end">
+                                                                <button class="btn btn-light-primary br-50 mx-5 my-2" data-clipboard-text="" id="cm-pricing-cards-js-copyButton"><i class="icn-file icn-cyan"></i></button>
+                                                            </div>
+                                                            <div id="cm-pricing-cards-js"></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
 
                                             <div class="row p-5 mt-7 w-100">
                                                 <div class="col-lg-12">
@@ -1382,10 +1515,6 @@ License: You must have a valid license purchased only from themeforest(the above
                                             <div class="row p-5 mt-7 w-100">
                                                 <div class="col-lg-12">
                                                     <h3 class="text-primary my-5">Side bar</h3>
-
-                                                    <p class="text-primary my-7">
-                                                        Use class <span class="font-weight-bold"><code>.content-card</code></span> for having a reference cards.
-                                                    </p>
 
                                                     <ul class="nav nav-tabs" id="myTab" role="tablist">
                                                         <li class="nav-item" role="presentation">
@@ -1519,6 +1648,134 @@ License: You must have a valid license purchased only from themeforest(the above
                                                     </div>
                                                 </div>
                                             </div>
+
+                                            <div class="row p-5 mt-7 w-100">
+                                                <div class="col-lg-12">
+                                                    <h3 class="text-primary my-5">User widget</h3>
+
+                                                    <ul class="nav nav-tabs" id="myTab" role="tablist">
+                                                        <li class="nav-item" role="presentation">
+                                                            <button class="nav-link active" id="home-tab" data-toggle="tab" data-target="#user-widget-preview" type="button" role="tab" aria-controls="user-widget-preview" aria-selected="true">Preview</button>
+                                                        </li>
+                                                        <li class="nav-item" role="presentation">
+                                                            <button class="nav-link" id="home-tab" data-toggle="tab" data-target="#user-widget-html" type="button" role="tab" aria-controls="user-widget-html" aria-selected="true">HTML</button>
+                                                        </li>
+                                                        <li class="nav-item" role="presentation">
+                                                            <button class="nav-link" id="profile-tab" data-toggle="tab" data-target="#user-widget-css" type="button" role="tab" aria-controls="user-widget-css" aria-selected="false">CSS</button>
+                                                        </li>
+                                                        <li class="nav-item" role="presentation">
+                                                            <button class="nav-link" id="contact-tab" data-toggle="tab" data-target="#user-widget-js" type="button" role="tab" aria-controls="user-widget-js" aria-selected="false">JS</button>
+                                                        </li>
+                                                    </ul>
+                                                    <div class="tab-content border" id="myTabContent">
+                                                        <div class="tab-pane p-5 fade show active" id="user-widget-preview" role="tabpanel" aria-labelledby="user-widget-preview-tab">
+                                                            <!-- start user widget -->
+                                                            <div class="user-widget-container">
+                                                                <img src="../assets/media/icons_and_Illustrations/Avatars/Avatars_Baboon.png" class="people" alt="">
+                                                                <img src="../assets/media/icons_and_Illustrations/Avatars/Avatars_Frog.png" class="people" alt="">
+                                                                <img src="../assets/media/icons_and_Illustrations/Avatars/Avatars_Parrot.png" class="people" alt="">
+                                                                <span class="people icn-bg-pale">6+</span>
+                                                                <a href="#" class="people icn-bg-dark" data-toggle="modal" data-target="#myModal"><i class="icn-person-plus"></i></a>
+                                                            </div>
+                                                            <!-- end user widget -->
+
+                                                            <!-- start help center popup btn -->
+                                                            <!-- <div class="btn-help-center-wrapper cursor-pointer">
+                                                                <div class="btn-dropdown btn-lg mr-1 d-flex align-items-center" id="place_id">
+                                                                    <span class="btn-help-icon">
+                                                                        <i class="icn-question icn-3x mt-2 mx-2"></i>
+                                                                    </span>
+                                                                    <span class="btn-help-toggle font-text p-6 bg-light d-none">
+                                                                        Help Center
+                                                                    </span>
+                                                                </div>
+                                                            </div> -->
+                                                            <!-- end help center popup btn -->
+                                                        </div>
+                                                        <div class="tab-pane fade" id="user-widget-html" role="tabpanel" aria-labelledby="user-widget-html-tab">
+                                                            <div class="d-flex justify-content-end">
+                                                                <button class="btn btn-light-primary br-50 mx-5 my-2" data-clipboard-text="" id="cm-user-widget-html-copyButton"><i class="icn-file icn-cyan"></i></button>
+                                                            </div>
+                                                            <div id="cm-user-widget-html"></div>
+                                                        </div>
+                                                        <div class="tab-pane fade" id="user-widget-css" role="tabpanel" aria-labelledby="user-widget-css-tab">
+                                                            <div class="d-flex justify-content-end">
+                                                                <button class="btn btn-light-primary br-50 mx-5 my-2" data-clipboard-text="" id="cm-user-widget-css-copyButton"><i class="icn-file icn-cyan"></i></button>
+                                                            </div>
+                                                            <div id="cm-user-widget-css"></div>
+                                                        </div>
+                                                        <div class="tab-pane fade" id="user-widget-js" role="tabpanel" aria-labelledby="user-widget-js-tab">
+                                                            <div class="d-flex justify-content-end">
+                                                                <button class="btn btn-light-primary br-50 mx-5 my-2" data-clipboard-text="" id="cm-user-widget-js-copyButton"><i class="icn-file icn-cyan"></i></button>
+                                                            </div>
+                                                            <div id="cm-user-widget-js"></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+
+                                            <div class="row p-5 mt-7 w-100">
+                                                <div class="col-lg-12">
+                                                    <h3 class="text-primary my-5">Progress tags</h3>
+
+                                                    <ul class="nav nav-tabs" id="myTab" role="tablist">
+                                                        <li class="nav-item" role="presentation">
+                                                            <button class="nav-link active" id="home-tab" data-toggle="tab" data-target="#progress-tags-preview" type="button" role="tab" aria-controls="progress-tags-preview" aria-selected="true">Preview</button>
+                                                        </li>
+                                                        <li class="nav-item" role="presentation">
+                                                            <button class="nav-link" id="home-tab" data-toggle="tab" data-target="#progress-tags-html" type="button" role="tab" aria-controls="progress-tags-html" aria-selected="true">HTML</button>
+                                                        </li>
+                                                        <li class="nav-item" role="presentation">
+                                                            <button class="nav-link" id="profile-tab" data-toggle="tab" data-target="#progress-tags-css" type="button" role="tab" aria-controls="progress-tags-css" aria-selected="false">CSS</button>
+                                                        </li>
+                                                        <li class="nav-item" role="presentation">
+                                                            <button class="nav-link" id="contact-tab" data-toggle="tab" data-target="#progress-tags-js" type="button" role="tab" aria-controls="progress-tags-js" aria-selected="false">JS</button>
+                                                        </li>
+                                                    </ul>
+                                                    <div class="tab-content border" id="myTabContent">
+                                                        <div class="tab-pane p-5 fade show active" id="progress-tags-preview" role="tabpanel" aria-labelledby="progress-tags-preview-tab">
+                                                            <!-- start progress tags with step on left -->
+                                                            <span class="d-inline-block mt-1">
+                                                                <div class="progress-tag">
+                                                                    <span class="progress-tag-step">
+                                                                        6/6
+                                                                    </span>
+                                                                    <span class="progress-tag-text">TASKS</span>
+                                                                </div>
+                                                            </span>
+                                                            <!-- end progress tags -->
+
+                                                            <!-- start progress tags with step on right -->
+                                                            <span class="d-inline-block mt-1">
+                                                                <div class="progress-tag p-2">
+                                                                    <span class="font-small text-light-primary mr-2">Pillars Completed</span>
+                                                                    <span class="font-small bg-success text-primary p-1 br-4">2/4</span>
+                                                                </div>
+                                                            </span>
+                                                            <!-- end progress tags with step on right -->
+                                                        </div>
+                                                        <div class="tab-pane fade" id="progress-tags-html" role="tabpanel" aria-labelledby="progress-tags-html-tab">
+                                                            <div class="d-flex justify-content-end">
+                                                                <button class="btn btn-light-primary br-50 mx-5 my-2" data-clipboard-text="" id="cm-progress-tags-html-copyButton"><i class="icn-file icn-cyan"></i></button>
+                                                            </div>
+                                                            <div id="cm-progress-tags-html"></div>
+                                                        </div>
+                                                        <div class="tab-pane fade" id="progress-tags-css" role="tabpanel" aria-labelledby="progress-tags-css-tab">
+                                                            <div class="d-flex justify-content-end">
+                                                                <button class="btn btn-light-primary br-50 mx-5 my-2" data-clipboard-text="" id="cm-progress-tags-css-copyButton"><i class="icn-file icn-cyan"></i></button>
+                                                            </div>
+                                                            <div id="cm-progress-tags-css"></div>
+                                                        </div>
+                                                        <div class="tab-pane fade" id="progress-tags-js" role="tabpanel" aria-labelledby="progress-tags-js-tab">
+                                                            <div class="d-flex justify-content-end">
+                                                                <button class="btn btn-light-primary br-50 mx-5 my-2" data-clipboard-text="" id="cm-progress-tags-js-copyButton"><i class="icn-file icn-cyan"></i></button>
+                                                            </div>
+                                                            <div id="cm-progress-tags-js"></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -1642,8 +1899,8 @@ License: You must have a valid license purchased only from themeforest(the above
                     var switch_js_code = ``;
                     cmRender("cm-switch-html", "cm-switch-css", "cm-switch-js", switch_html_code, switch_css_code, switch_js_code);
 
-                    var input_html_code = `<div class="card bg-light p-5 br-15"> <form action=""> <div class="row"> <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12"> <div class="form-group">\n <label for="text-input" class="font-text text-primary d-inline">Text</label> \n<input type="text" id="text-input" class="form-control bg-light-primary outline-0 border-0 mt-4 mb-2" placeholder="Enter Name"> </div> </div> <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12"> <div class="form-group"> \n<label for="exampleFormControlSelect1" class="font-text text-primary d-inline">Select</label> \n<div class="select-wrapper mt-4 mb-2"> \n<select class="form-control bg-primary text-light" id="exampleFormControlSelect1"> <option>None Selected</option> <option>Selected</option> </select> </div> </div> </div> <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12"> <div class="form-group"> \n<label class="indicator-small-text">Input with icon</label> \n<div class="d-flex align-items-center"> \n<input class="p-2 bg-light-primary btlr-50 bblr-50 border-0 w-100" type="text"> \n<span class="d-flex align-items-center p-3 bg-primary btrr-50 bbrr-50 border-color-pale">\n<i class="icn-edit icn-pale icn-13px"></i></span> </div> </div> </div> <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12"> <div class="mt-7"> <div class="input-group"> \n<input type="text" class="form-control btlr-50 bblr-50 bg-light-grey outline-0 border-0 w-50" placeholder="search for anything"> <div class="input-group-append"> <span class="input-group-text btrr-50 bbrr-50 bg-light-grey"> <i class="icn-search"></i> </span> </div> </div> </div> </div> <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12"> <div class="form-group"> <label for="input_subtext" class="font-text text-primary font-weight-bolder d-inline">Input with subtext</label> <input type="text" id="input_subtext" class="form-control bg-light-primary outline-0 border-0 w-100 mt-4 mb-2" placeholder="Enter Name"> <span class="font-small text-primary">Subtext</span> </div> </div> <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12"> <div class="form-group"> <label class="font-text text-primary font-weight-bold d-inline">Radio Input</label> <div class="custom-control custom-radio mt-3"> <input type="radio" id="rd_1" name="rd" class="custom-control-input" value="Yes"> <label class="custom-control-label" for="rd_1">Yes</label> </div> <div class="custom-control custom-radio my-2"> <input type="radio" id="rd_2" name="rd" class="custom-control-input" value="No"> <label class="custom-control-label" for="rd_2">No</label> </div> <div class="font-small text-primary mt-4">Subtext</div> </div> </div> </div> </form> </div>`;
-                    var input_css_code = `.select-wrapper {\n position: relative;\n }\n .select-wrapper::after {\n content: "▼";\n font-size: 1rem;\n top: 10px;\n right: 15px;\n position: absolute;\n color: #fff;\n z-index: 2 !important;\n }\n.custom-radio .custom-control-label::before { border-radius: 50%; } .custom-radio .custom-control-input:checked~.custom-control-label::after { background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='%23ffffff'/%3e%3c/svg%3e"); } .custom-radio .custom-control-input:disabled:checked~.custom-control-label::before { background-color: rgba(7, 74, 55, 0.5); }`;
+                    var input_html_code = `<!-- start basic input --> <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12"> <div class="form-group"> <label for="text-input" class="font-text text-primary d-inline">Text</label> <input type="text" id="text-input" class="form-control bg-light-primary outline-0 border-0 mt-4 mb-2" placeholder="Enter Name"> </div> </div> \n\n\n<!-- start select input --> <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12"> <div class="form-group"> <label for="exampleFormControlSelect1" class="font-text text-primary d-inline">Select</label> <div class="select-wrapper mt-4 mb-2"> <select class="form-control bg-primary text-light" id="exampleFormControlSelect1"> <option>None Selected</option> <option>Selected</option> </select> </div> </div> </div>  \n\n\n<!-- start input with icon --> <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12"> <div class="form-group"> <label class="indicator-small-text">Input with icon</label> <div class="d-flex align-items-center"> <input class="p-2 bg-light-primary btlr-50 bblr-50 border-0 w-100" type="text"> <span class="d-flex align-items-center p-3 bg-primary btrr-50 bbrr-50 border-color-pale"><i class="icn-edit icn-pale icn-13px"></i></span> </div> </div> </div>  \n\n\n<!-- start searchbar --> <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12"> <div class="mt-7"> <div class="input-group"> <input type="text" class="form-control btlr-50 bblr-50 bg-light-grey outline-0 border-0 w-50" placeholder="search for anything"> <div class="input-group-append"> <span class="input-group-text btrr-50 bbrr-50 bg-light-grey"> <i class="icn-search"></i> </span> </div> </div> </div> </div>  \n\n\n<!-- start input with subtext --> <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12"> <div class="form-group"> <label for="input_subtext" class="font-text text-primary font-weight-bolder d-inline">Input with subtext</label> <input type="text" id="input_subtext" class="form-control bg-light-primary outline-0 border-0 w-100 mt-4 mb-2" placeholder="Enter Name"> <span class="font-small text-primary">Subtext</span> </div> </div>  \n\n\n<!-- start input icon on top --> <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12"> <div class="mb-5"><!-- indicators filter --> <div class="row justify-content-between"> <div class="col-md-8"><label class="">input with icon in label:</label></div> <div class="col-md-4" style="text-align: right;"><i class="fas fa-filter"></i><span id="demoid"></span></div> </div> <select id="demo" class="form-control"> </select> </div> </div>  \n\n\n<!-- start radios --> <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12"> <div class="form-group"> <label class="font-text text-primary font-weight-bold d-inline">Radio Input</label> <div class="custom-control custom-radio mt-3"> <input type="radio" id="rd_1" name="rd" class="custom-control-input" value="Yes"> <label class="custom-control-label" for="rd_1">Yes</label> </div> <div class="custom-control custom-radio my-2"> <input type="radio" id="rd_2" name="rd" class="custom-control-input" value="No"> <label class="custom-control-label" for="rd_2">No</label> </div> <div class="font-small text-primary mt-4">Subtext</div> </div> </div>  \n\n\n<!-- start check box --> <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12"> <div class="form-group"> <span class="text-primary font-weight-bold"> Check boxes </span> <label class="container-chkbox"> <span>Option 1</span> <input name="demo" type="checkbox" checked="checked"> <span class="checkmark"></span> </label> <label class="container-chkbox"> <span>Option 2</span> <input name="demo" type="checkbox" checked="checked"> <span class="checkmark"></span> </label> <label class="container-chkbox"> <span>Option 3</span> <input name="demo" type="checkbox" checked="checked"> <span class="checkmark"></span> </label> </div> </div>`;
+                    var input_css_code = `.select-wrapper {\n position: relative;\n }\n .select-wrapper::after {\n content: "▼";\n font-size: 1rem;\n top: 10px;\n right: 15px;\n position: absolute;\n color: #fff;\n z-index: 2 !important;\n }\n.custom-radio .custom-control-label::before { border-radius: 50%; } .custom-radio .custom-control-input:checked~.custom-control-label::after { background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='%23ffffff'/%3e%3c/svg%3e"); } .custom-radio .custom-control-input:disabled:checked~.custom-control-label::before { background-color: rgba(7, 74, 55, 0.5); } /* checkbox container */ .container-chkbox { display: block; position: relative; padding-left: 35px; margin-bottom: 12px; cursor: pointer; font-size: 22px; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; } /* Hide the browser's default checkbox */ .container-chkbox input { position: absolute; opacity: 0; cursor: pointer; height: 0; width: 0; } /* Create a custom checkbox */ .checkmark { position: absolute; top: 0; left: 0; height: 20px; width: 20px; background-color: #eee; } /* On mouse-over, add a grey background color */ .container-chkbox:hover input~.checkmark { background-color: #ccc; } /* When the checkbox is checked, add a blue background */ .container-chkbox input:checked~.checkmark { background-color: #074A37; } /* Create the checkmark/indicator (hidden when not checked) */ .checkmark:after { content: ""; position: absolute; display: none; } /* Show the checkmark when checked */ .container-chkbox input:checked~.checkmark:after { display: block; } /* Style the checkmark/indicator */ .container-chkbox .checkmark:after { left: 9px; top: 5px; width: 5px; height: 10px; border: solid white; border-width: 0 3px 3px 0; -webkit-transform: rotate(45deg); -ms-transform: rotate(45deg); transform: rotate(45deg); }`;
                     var input_js_code = ``;
                     cmRender("cm-input-html", "cm-input-css", "cm-input-js", input_html_code, input_css_code, input_js_code);
 
@@ -1692,10 +1949,25 @@ License: You must have a valid license purchased only from themeforest(the above
                     var content_cards_js_code = ``;
                     cmRender("cm-content-cards-html", "cm-content-cards-css", "cm-content-cards-js", content_cards_html_code, content_cards_css_code, content_cards_js_code);
 
+                    var pricing_cards_html_code = `<!-- start pricing card --> <div class="p-5 mr-4 payment-plan-card"> <span class="w-100 font-text text-primary d-inline-block text-center"> <span class="font-weight-bold">Powered</span> By LandScale </span> <div class="text-center my-3"> <span class="bg-secondary text-light-primary w-135px py-3 br-50 font-lg d-inline-block"> $7.5K </span> </div> <span class="w-100 d-inline-block text-center font-text text-primary"> per assessment, per landscape </span> <div class="mt-5"> <ul class="listings font-text text-primary lh-25"> <li> Access to LandScale’s online platform. </li> <li> Use of the full LandScale assessment framework. </li> <li> Ability to add your own custom indicators and metrics. </li> <li> Ability to download your results at any time. </li> <li> Access to LandScale’s assessment resources. </li> <li> Access to online learning content. </li> </ul> </div> </div> <!-- end pricing -->`;
+                    var pricing_cards_css_code = `/* payment plan card */ .payment-plan-card { background: #ECF4E4; border: 1px solid #9ABF78; border-radius: 20px; width: 450px; height: 577px; box-sizing: border-box; }`;
+                    var pricing_cards_js_code = ``;
+                    cmRender("cm-pricing-cards-html", "cm-pricing-cards-css", "cm-pricing-cards-js", pricing_cards_html_code, pricing_cards_css_code, pricing_cards_js_code);
+
                     var sidebar_html_code = `<!-- start sidebar --> <div class="row border-color-pale br-15 m-sm-0"> <div class="col-md-3 col-sm-12 col-xs-12 pr-0 mt-7 max-w-20-percent" id="inner-side-nav"> <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical"> <a class="main-menu nav-link indicator-tab-link" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="false"> <div class="d-flex align-items-center"> <span class="icn-bg-pale"> <i class="icn-ecosystem-main"></i> </span> <span class="inner-nav-text ml-5"> Ecosystems </span> </div> <div class="sub-menu-hover brt-50 brb-50"> <span class="d-flex align-items-center h-100"> Ecosystems </span> </div> </a> <a class="main-menu nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false"> <div class="d-flex align-items-center"> <span class="icn-bg-pale"> <i class="icn-wellbeing-main"></i> </span> <span class="inner-nav-text ml-5"> Human Well-being </span> </div> <div class="sub-menu-hover brt-50 brb-50"> <span class="d-flex align-items-center h-100"> Human Well-being </span> </div> </a> <a class="main-menu nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false"> <div class="d-flex align-items-center"> <span class="icn-bg-pale"> <i class="icn-governance-main"></i> </span> <span class="inner-nav-text ml-5"> Governance </span> </div> <div class="sub-menu-hover brt-50 brb-50"> <span class="d-flex align-items-center h-100"> Governance </span> </div> </a> <a class="main-menu mb-5 nav-link active" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="true"> <div class="d-flex align-items-center"> <span class="icn-bg-dark"> <i class="icn-production-main icn-pale"></i> </span> <span class="inner-nav-text ml-5"> Production </span> </div> <div class="sub-menu-hover brt-50 brb-50"> <span class="d-flex align-items-center h-100"> Production </span> </div> </a> </div> </div> <div class="col-md-12 col-sm-12 col-xs-12 bg-light-primary btrr-15 bbrr-15 max-w-80-percent btlr-15-res bblr-15-res" id="inner-side-main"> <div class="d-flex justify-content-between mt-5 mr-5"> <button class="ml-5 bg-transparent border-0 br-15 p-2" onclick="toggleAside()" fdprocessedid="dw0os"> <i class="icn-menu icn-2x mt-3"></i> </button> </div> <div class="tab-content" id="v-pills-tabContent"> <div class="tab-pane fade" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab"> </div> <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab"> </div> <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab"> </div> <div class="tab-pane fade active show" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab"> </div> </div> </div> </div> \n<!-- end sidebar -->`;
                     var sidebar_css_code = ``;
                     var sidebar_js_code = `// active nav link $('.nav-link').on('click', function() { let prevActiveLink = $(this).siblings(".active"); let darkBg = prevActiveLink.find('.icn-bg-dark'); let currentLink = $(this).find('.icn-bg-pale'); darkBg.addClass('icn-bg-pale') darkBg.removeClass('icn-bg-dark') darkBg.find('i').removeClass('icn-pale') currentLink.addClass('icn-bg-dark') currentLink.removeClass('icn-bg-pale') currentLink.find('i').addClass('icn-pale') }); // side menu toggle function toggleAside() { if ($('#inner-side-nav').hasClass('max-w-5-percent')) { $('#inner-side-nav').removeClass('max-w-5-percent'); $('#inner-side-nav').addClass('max-w-20-percent'); $('#inner-side-nav').find('.inner-nav-text').toggle('d-none'); $('#piller-create').removeClass('d-none'); $('#inner-side-main').removeClass('max-w-95-percent'); $('#inner-side-main').addClass('max-w-80-percent'); } else { $('#inner-side-nav').addClass('max-w-5-percent'); $('#inner-side-nav').removeClass('max-w-20-percent'); $('#inner-side-nav').find('.inner-nav-text').toggle('d-none'); $('#piller-create').addClass('d-none'); console.log('dd'); $('#inner-side-main').addClass('max-w-95-percent'); $('#inner-side-main').removeClass('max-w-80-percent'); } }`;
                     cmRender("cm-sidebar-html", "cm-sidebar-css", "cm-sidebar-js", sidebar_html_code, sidebar_css_code, sidebar_js_code);
+
+                    var user_widget_html_code = `<div class="user-widget-container"> <img src="../assets/media/icons_and_Illustrations/Avatars/Avatars_Baboon.png" class="people" alt=""> <img src="../assets/media/icons_and_Illustrations/Avatars/Avatars_Frog.png" class="people" alt=""> <img src="../assets/media/icons_and_Illustrations/Avatars/Avatars_Parrot.png" class="people" alt=""> <span class="people icn-bg-pale">6+</span> <a href="#" class="people icn-bg-dark" data-toggle="modal" data-target="#myModal"><i class="icn-person-plus"></i></a> </div>`;
+                    var user_widget_css_code = `/* user widget */ .user-widget-container { display: flex; align-items: center; } .people { top: 0; width: 30px; height: 30px; margin: 0px -3px; }`;
+                    var user_widget_js_code = ``;
+                    cmRender("cm-user-widget-html", "cm-user-widget-css", "cm-user-widget-js", user_widget_html_code, user_widget_css_code, user_widget_js_code);
+
+                    var progress_tag_html_code = `<!-- start progress tags with step on left --> \n<span class="d-inline-block mt-1"> <div class="progress-tag"> <span class="progress-tag-step"> 6/6 </span> <span class="progress-tag-text">TASKS</span> </div> </span> \n<!-- end progress tags --> \n\n\n<!-- start progress tags with step on right --> \n<span class="d-inline-block mt-1"> <div class="progress-tag p-2"> <span class="font-small text-light-primary mr-2">Pillars Completed</span> <span class="font-small bg-success text-primary p-1 br-4">2/4</span> </div> </span> \n<!-- end progress tags with step on right -->`;
+                    var progress_tag_css_code = `/* progress tags */ .progress-tag { display: flex; align-items: center; background-color: #074A37; border-radius: 6px; } /* progress tag step */ .progress-tag-step { margin-right: -2px; z-index: 1; position: relative; border-radius: 4px; color: #074A37 !important; padding: 0.25rem 0.5rem; background-color: #FEC045 !important; } /* progress tag text */ .progress-tag-text { font-style: normal; font-weight: 400; font-size: 13px; line-height: 18px; border-bottom-right-radius: 4px !important; border-top-right-radius: 4px !important; color: #EBF2E4 !important; padding-left: 0.5rem !important; padding-right: 1rem !important; padding-top: 0.25rem !important; padding-bottom: 0.25rem !important; background-color: #074A37 !important; }`;
+                    var progress_tag_js_code = ``;
+                    cmRender("cm-progress-tags-html", "cm-progress-tags-css", "cm-progress-tags-js", progress_tag_html_code, progress_tag_css_code, progress_tag_js_code);
 
                 })
                 $(document).on('click', '#kt_aside_toggle', function() {
