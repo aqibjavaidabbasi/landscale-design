@@ -101749,43 +101749,46 @@ select {
 
 /* accordian arrow */
 
-.accordion.accordion-toggle-arrow .card .card-header {
-    color: #074A37;
-    position: relative;
+.accordion.accordion-toggle-arrow .card .card-header .card-accordian {
+    color: #074A37 !important;
+    position: relative !important;
 }
 
-.accordion.accordion-toggle-arrow .card .card-header:after {
-    position: absolute;
-    font-family: Ki;
-    font-style: normal;
-    font-weight: normal;
-    font-variant: normal;
-    line-height: 1;
-    text-decoration: inherit;
-    text-rendering: optimizeLegibility;
-    text-transform: none;
-    -moz-osx-font-smoothing: grayscale;
-    -webkit-font-smoothing: antialiased;
-    font-smoothing: antialiased;
-    content: "";
-    color: #074A37;
-    font-size: 0.7rem;
-    -webkit-transition: all 0.15s ease;
-    transition: all 0.15s ease;
+.accordion.accordion-toggle-arrow .card .card-header .card-accordian:after {
+    position: absolute !important;
+    font-family: Ki !important;
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-variant: normal !important;
+    line-height: 1 !important;
+    text-decoration: inherit !important;
+    text-rendering: optimizeLegibility !important;
+    text-transform: none !important;
+    -moz-osx-font-smoothing: grayscale !important;
+    -webkit-font-smoothing: antialiased !important;
+    font-smoothing: antialiased !important;
+    content: "" !important;
+    color: #074A37 !important;
+    font-size: 0.7rem !important;
+    -webkit-transition: all 0.15s ease !important;
+    transition: all 0.15s ease !important;
+    right: 20px !important;
+    top: 20px !important;
 }
 
-.accordion.accordion-toggle-arrow .card .card-header.collapsed {
-    color: #3F4254;
-    -webkit-transition: all 0.15s ease;
-    transition: all 0.15s ease;
+.accordion.accordion-toggle-arrow .card .card-header .card-accordian.collapsed {
+    color: #3F4254 !important;
+    -webkit-transition: all 0.15s ease !important;
+    transition: all 0.15s ease !important;
 }
 
-.accordion.accordion-toggle-arrow .card .card-header.collapsed:after {
-    color: #7E8299;
-    -webkit-transition: all 0.15s ease;
-    transition: all 0.15s ease;
-    -webkit-transform: rotate(-90deg);
-    transform: rotate(-90deg);
+
+.accordion.accordion-toggle-arrow .card .card-header .card-accordian.collapsed:after {
+    color: #7E8299 !important;
+    -webkit-transition: all 0.15s ease !important;
+    transition: all 0.15s ease !important;
+    -webkit-transform: rotate(-90deg) !important;
+    transform: rotate(-90deg) !important;
     /*rtl:begin:*/
     /*rtl:end:*/
 }

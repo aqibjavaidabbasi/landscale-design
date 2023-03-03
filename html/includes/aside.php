@@ -41,9 +41,12 @@
                         <!-- menu-subnav py-0  brt-50 -->
                         <ul class="menu-subnav pt-0  brt-50">
                             <li class="menu-item menu-item-parent brt-50 brb-50 bg-primary h-58px" aria-haspopup="true">
-                                <span class="menu-link p-5" style="height: auto!important;">
+                                <a href="./index.php" class="menu-link p-5 text-light" style="height: auto!important;">
+                                    Assessments Dashboard
+                                </a>
+                                <!-- <span class="menu-link p-5" style="height: auto!important;">
                                     <span class="menu-text m-1 text-light"><a href="./index.php" class="text-light">Assessments Dashboard</a></span>
-                                </span>
+                                </span> -->
                             </li>
                             <li class="menu-item" aria-haspopup="true">
                                 <a href="./admin_dashboard.php" class="menu-link">
@@ -89,9 +92,12 @@
                         <i class="menu-arrow"></i>
                         <ul class="menu-subnav pt-0  brt-50">
                             <li class="menu-item menu-item-parent brt-50 brb-50  bg-primary h-59px" aria-haspopup="true">
-                                <span class="menu-link p-5" style="height: auto!important;">
+                                <a href="./dashboard_with_square_cornors.php" class="menu-link p-5 text-light" style="height: auto!important;">
+                                    Assessments
+                                </a>
+                                <!-- <span class="menu-link p-5" style="height: auto!important;">
                                     <span class="menu-text m-1 text-light"><a href="./dashboard_with_square_cornors.php" class="text-light">Assessments</a></span>
-                                </span>
+                                </span> -->
                             </li>
                             <li class="menu-item" aria-haspopup="true">
                                 <a href="./dashboard_with_square_cornors.php" class="menu-link">
@@ -106,7 +112,7 @@
                                     <span class="menu-text">Assesment 01</span>
                                 </a>
                             </li>
-                            
+
                             <li class="menu-item" aria-haspopup="true">
                                 <a href="./dashboard_with_square_cornors.php" class="menu-link">
                                     <i class="menu-bullet-dot mr-3">
@@ -148,9 +154,12 @@
 
                         <ul class="menu-subnav pt-0  brt-50">
                             <li class="menu-item menu-item-parent brt-50 brb-50  bg-primary h-59px" aria-haspopup="true">
-                                <span class="menu-link p-5" style="height: auto!important;">
+                                <a href="./favorite_asssesment.php" class="menu-link p-5 text-light" style="height: auto!important;">
+                                    Explore Landscapes
+                                </a>
+                                <!-- <span class="menu-link p-5" style="height: auto!important;">
                                     <span class="menu-text m-1 text-light"><a href="./favorite_asssesment.php" class="text-light">Explore Landscapes</a></span>
-                                </span>
+                                </span> -->
                             </li>
                             <li class="menu-item" aria-haspopup="true">
                                 <a href="./favorite_asssesment.php" class="menu-link">
@@ -196,9 +205,12 @@
                         <i class="menu-arrow"></i>
                         <ul class="menu-subnav py-0  brt-50">
                             <li class="menu-item menu-item-parent brt-50 brb-50 bg-primary h-59px" aria-haspopup="true">
-                                <span class="menu-link p-5" style="height: auto!important;">
+                                <a href="#" id="kt_quick_cart_toggle_span" class="menu-link p-5 text-light" style="height: auto!important;">
+                                    Help Center
+                                </a>
+                                <!-- <span class="menu-link p-5" style="height: auto!important;">
                                     <span class="menu-text m-1 text-light" id="kt_quick_cart_toggle_span"><a href="#" class="text-light">Help Center</a></span>
-                                </span>
+                                </span> -->
                             </li>
                         </ul>
                     </div>
@@ -217,11 +229,14 @@
                         <i class="menu-arrow"></i>
                         <ul class="menu-subnav pt-0  brt-50">
                             <li class="menu-item menu-item-parent brt-50 brb-50  bg-primary h-59px" aria-haspopup="true">
-                                <span class="menu-link p-5" style="height: auto!important;">
+                                <a href="./html_theme.php" class="menu-link p-5 text-light" style="height: auto!important;">
+                                    Documentation
+                                </a>
+                                <!-- <span class="menu-link p-5" style="height: auto!important;">
                                     <span class="menu-text m-1 text-light"><a href="./html_theme.php" class="text-light">Documentation</a></span>
-                                </span>
+                                </span> -->
                             </li>
-                            
+
                             <li class="menu-item" aria-haspopup="true">
                                 <a href="./icons.php" class="menu-link">
                                     <i class="menu-bullet-dot mr-3">
