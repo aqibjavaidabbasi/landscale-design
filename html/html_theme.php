@@ -361,7 +361,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                         Button with icon
                                                                     </span>
                                                                 </a>
-                                                                <div class="d-inline">
+                                                                <div class="d-inline-block mx-4 mt-2">
                                                                     <input type="checkbox" class="btn-check filter_test_map" value="{!!trans('general.filter_test_val')!!}" name="test_filter_map" id="test_map" autocomplete="off">
                                                                     <label class="mr-1 btn btn-outline-primary btn-sm br-0" for="test_map">Outline Button</label>
                                                                 </div>
