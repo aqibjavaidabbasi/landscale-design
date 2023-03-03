@@ -1669,28 +1669,36 @@ License: You must have a valid license purchased only from themeforest(the above
                                                     </ul>
                                                     <div class="tab-content border" id="myTabContent">
                                                         <div class="tab-pane p-5 fade show active" id="user-widget-preview" role="tabpanel" aria-labelledby="user-widget-preview-tab">
-                                                            <!-- start user widget -->
-                                                            <div class="user-widget-container">
-                                                                <img src="../assets/media/icons_and_Illustrations/Avatars/Avatars_Baboon.png" class="people" alt="">
-                                                                <img src="../assets/media/icons_and_Illustrations/Avatars/Avatars_Frog.png" class="people" alt="">
-                                                                <img src="../assets/media/icons_and_Illustrations/Avatars/Avatars_Parrot.png" class="people" alt="">
-                                                                <span class="people icn-bg-pale">6+</span>
-                                                                <a href="#" class="people icn-bg-dark" data-toggle="modal" data-target="#myModal"><i class="icn-person-plus"></i></a>
-                                                            </div>
-                                                            <!-- end user widget -->
+                                                            <div class="row">
+                                                                <div class="col-md-2">
+                                                                    <!-- start user widget -->
+                                                                    <div class="user-widget-container">
+                                                                        <img src="../assets/media/icons_and_Illustrations/Avatars/Avatars_Baboon.png" class="people" alt="">
+                                                                        <img src="../assets/media/icons_and_Illustrations/Avatars/Avatars_Frog.png" class="people" alt="">
+                                                                        <img src="../assets/media/icons_and_Illustrations/Avatars/Avatars_Parrot.png" class="people" alt="">
+                                                                        <span class="people icn-bg-pale">6+</span>
+                                                                        <a href="#" class="people icn-bg-dark" data-toggle="modal" data-target="#myModal"><i class="icn-person-plus"></i></a>
+                                                                    </div>
+                                                                    <!-- end user widget -->
 
-                                                            <!-- start help center popup btn -->
-                                                            <!-- <div class="btn-help-center-wrapper cursor-pointer">
-                                                                <div class="btn-dropdown btn-lg mr-1 d-flex align-items-center" id="place_id">
-                                                                    <span class="btn-help-icon">
-                                                                        <i class="icn-question icn-3x mt-2 mx-2"></i>
-                                                                    </span>
-                                                                    <span class="btn-help-toggle font-text p-6 bg-light d-none">
-                                                                        Help Center
-                                                                    </span>
                                                                 </div>
-                                                            </div> -->
-                                                            <!-- end help center popup btn -->
+                                                                <div class="col-md-3">
+                                                                    <!-- start help center popup btn -->
+                                                                    <div class="cursor-pointer">
+                                                                        <div class="btn-dropdown btn-lg mr-1 d-flex align-items-center" id="place_id">
+                                                                            <span class="btn-help-icon">
+                                                                                <i class="icn-question icn-3x mt-2 mx-2"></i>
+                                                                            </span>
+                                                                            <span class="btn-help-toggle font-text p-6 bg-light">
+                                                                                Help Center
+                                                                            </span>
+                                                                        </div>
+                                                                    </div>
+                                                                    <!-- end help center popup btn -->
+
+                                                                </div>
+                                                            </div>
+
                                                         </div>
                                                         <div class="tab-pane fade" id="user-widget-html" role="tabpanel" aria-labelledby="user-widget-html-tab">
                                                             <div class="d-flex justify-content-end">
@@ -1772,6 +1780,272 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                 <button class="btn btn-light-primary br-50 mx-5 my-2" data-clipboard-text="" id="cm-progress-tags-js-copyButton"><i class="icn-file icn-cyan"></i></button>
                                                             </div>
                                                             <div id="cm-progress-tags-js"></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+
+                                            <div class="row p-5 mt-7 w-100">
+                                                <div class="col-lg-12">
+                                                    <h3 class="text-primary my-5">Accordians</h3>
+                                                    <h6 class="text-primary my-5">Basic</h6>
+
+                                                    <p class="text-primary my-7">
+                                                        Use class <span class="font-weight-bold"><code>.accordian</code></span> for having an accordian.
+                                                        Use class <span class="font-weight-bold"><code>.collapse</code></span> for accordian content.
+                                                    </p>
+                                                    <ul class="nav nav-tabs" id="myTab" role="tablist">
+                                                        <li class="nav-item" role="presentation">
+                                                            <button class="nav-link active" id="home-tab" data-toggle="tab" data-target="#accordians-preview" type="button" role="tab" aria-controls="accordians-preview" aria-selected="true">Preview</button>
+                                                        </li>
+                                                        <li class="nav-item" role="presentation">
+                                                            <button class="nav-link" id="home-tab" data-toggle="tab" data-target="#accordians-html" type="button" role="tab" aria-controls="accordians-html" aria-selected="true">HTML</button>
+                                                        </li>
+                                                        <li class="nav-item" role="presentation">
+                                                            <button class="nav-link" id="profile-tab" data-toggle="tab" data-target="#accordians-css" type="button" role="tab" aria-controls="accordians-css" aria-selected="false">CSS</button>
+                                                        </li>
+                                                        <li class="nav-item" role="presentation">
+                                                            <button class="nav-link" id="contact-tab" data-toggle="tab" data-target="#accordians-js" type="button" role="tab" aria-controls="accordians-js" aria-selected="false">JS</button>
+                                                        </li>
+                                                    </ul>
+                                                    <div class="tab-content border" id="myTabContent">
+                                                        <div class="tab-pane p-5 fade show active" id="accordians-preview" role="tabpanel" aria-labelledby="accordians-preview-tab">
+                                                            <!-- start accordian -->
+                                                            <div class="accordion m-5" id="accordionExample-0">
+                                                                <div class="card indicator-accordian-card">
+                                                                    <div class="card-header bg-white indicator-accordian-card-header" id="headingOne-0">
+                                                                        <div class="btn btn-block text-left indicator-accordian-responsive" role="region" data-toggle="collapse" data-target="#collapseOne-0" aria-expanded="true" aria-controls="collapseOne-0">
+                                                                            <div class="row">
+                                                                                <div class="col-lg-1 col-md-1 col-sm-12 col-xs-12">
+                                                                                    <div class="d-flex align-items-center h-100">
+                                                                                        <i class="icn-ecosystem-goal-one icn-4x"></i>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
+                                                                                    <span class="d-flex align-items-center h-100">
+                                                                                        1.1 Conserve and restore natural ecosystems
+                                                                                    </span>
+                                                                                </div>
+
+
+
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+
+                                                                    <div id="collapseOne-0" class="collapse show" aria-labelledby="headingOne-0" style="">
+                                                                        <div class="mx-5 mb-5">
+                                                                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa sequi ullam qui incidunt debitis saepe eius ducimus ex impedit iure! Officiis sit quia fuga numquam corporis eligendi deleniti dicta iure!
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="card indicator-accordian-card">
+                                                                    <div class="card-header bg-white indicator-accordian-card-header" id="headingTwo-0">
+                                                                        <div class="btn btn-block text-left indicator-accordian-responsive collapsed" role="region" data-toggle="collapse" data-target="#collapseTwo-0" aria-expanded="false" aria-controls="collapseTwo-0">
+                                                                            <div class="row">
+                                                                                <div class="col-lg-1 col-md-1 col-sm-12 col-xs-12">
+                                                                                    <div class="d-flex align-items-center h-100">
+                                                                                        <i class="icn-ecosystem-goal-two icn-4x"></i>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
+                                                                                    <span class="d-flex align-items-center h-100">
+                                                                                        1.2 Protect and restore biodiversity
+                                                                                    </span>
+                                                                                </div>
+
+
+
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div id="collapseTwo-0" class="collapse" aria-labelledby="headingTwo-0" style="">
+                                                                        <div class="mx-5 mb-5">
+                                                                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum ex adipisci, deleniti maiores cumque quaerat eveniet expedita nostrum praesentium perferendis quis ad. Suscipit aliquam autem eum officiis ab vero sed.
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="card indicator-accordian-card">
+                                                                    <div class="card-header bg-white indicator-accordian-card-header" id="headingTwo-3">
+                                                                        <div class="btn btn-block text-left indicator-accordian-responsive collapsed" role="region" data-toggle="collapse" data-target="#collapseTwo-3" aria-expanded="false" aria-controls="collapseTwo-3">
+                                                                            <div class="row">
+                                                                                <div class="col-lg-1 col-md-1 col-sm-12 col-xs-12">
+                                                                                    <div class="d-flex align-items-center h-100">
+                                                                                        <i class="icn-ecosystem-goal-three icn-4x"></i>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
+                                                                                    <span class="d-flex align-items-center h-100">
+                                                                                        1.3 Maintain and enhance ecosystem services
+                                                                                    </span>
+                                                                                </div>
+
+
+
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div id="collapseTwo-3" class="collapse" aria-labelledby="headingTwo-3" style="">
+                                                                        <div class="mx-5 mb-5">
+                                                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam enim sunt iste, placeat natus quisquam voluptas veniam. Animi quas pariatur minima, iusto eius dolor porro adipisci assumenda consequatur natus dolore!
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+
+                                                            </div>
+                                                            <!-- end accordian -->
+                                                        </div>
+                                                        <div class="tab-pane fade" id="accordians-html" role="tabpanel" aria-labelledby="accordians-html-tab">
+                                                            <div class="d-flex justify-content-end">
+                                                                <button class="btn btn-light-primary br-50 mx-5 my-2" data-clipboard-text="" id="cm-accordians-html-copyButton"><i class="icn-file icn-cyan"></i></button>
+                                                            </div>
+                                                            <div id="cm-accordians-html"></div>
+                                                        </div>
+                                                        <div class="tab-pane fade" id="accordians-css" role="tabpanel" aria-labelledby="accordians-css-tab">
+                                                            <div class="d-flex justify-content-end">
+                                                                <button class="btn btn-light-primary br-50 mx-5 my-2" data-clipboard-text="" id="cm-accordians-css-copyButton"><i class="icn-file icn-cyan"></i></button>
+                                                            </div>
+                                                            <div id="cm-accordians-css"></div>
+                                                        </div>
+                                                        <div class="tab-pane fade" id="accordians-js" role="tabpanel" aria-labelledby="accordians-js-tab">
+                                                            <div class="d-flex justify-content-end">
+                                                                <button class="btn btn-light-primary br-50 mx-5 my-2" data-clipboard-text="" id="cm-accordians-js-copyButton"><i class="icn-file icn-cyan"></i></button>
+                                                            </div>
+                                                            <div id="cm-accordians-js"></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+
+
+                                            <div class="row p-5 mt-7 w-100">
+                                                <div class="col-lg-12">
+                                                    <h6 class="text-primary my-5">Accordians with childs</h6>
+
+                                                    <p class="text-primary my-7">
+                                                        Use class <span class="font-weight-bold"><code>.accordian</code></span> for having an accordian.
+                                                        Use class <span class="font-weight-bold"><code>.collapse</code></span> for accordian content.
+                                                    </p>
+                                                    <ul class="nav nav-tabs" id="myTab" role="tablist">
+                                                        <li class="nav-item" role="presentation">
+                                                            <button class="nav-link active" id="home-tab" data-toggle="tab" data-target="#accordians-child-preview" type="button" role="tab" aria-controls="accordians-child-preview" aria-selected="true">Preview</button>
+                                                        </li>
+                                                        <li class="nav-item" role="presentation">
+                                                            <button class="nav-link" id="home-tab" data-toggle="tab" data-target="#accordians-child-html" type="button" role="tab" aria-controls="accordians-child-html" aria-selected="true">HTML</button>
+                                                        </li>
+                                                        <li class="nav-item" role="presentation">
+                                                            <button class="nav-link" id="profile-tab" data-toggle="tab" data-target="#accordians-child-css" type="button" role="tab" aria-controls="accordians-child-css" aria-selected="false">CSS</button>
+                                                        </li>
+                                                        <li class="nav-item" role="presentation">
+                                                            <button class="nav-link" id="contact-tab" data-toggle="tab" data-target="#accordians-child-js" type="button" role="tab" aria-controls="accordians-child-js" aria-selected="false">JS</button>
+                                                        </li>
+                                                    </ul>
+                                                    <div class="tab-content border" id="myTabContent">
+                                                        <div class="tab-pane p-5 fade show active" id="accordians-child-preview" role="tabpanel" aria-labelledby="accordians-child-preview-tab">
+                                                            <!-- start accordian -->
+                                                            <div class="accordion m-5" id="accordionExample-0">
+                                                                <div class="card indicator-accordian-card">
+                                                                    <div class="card-header bg-white indicator-accordian-card-header" id="headingOne-0">
+                                                                        <div class="btn btn-block text-left indicator-accordian-responsive" role="region" data-toggle="collapse" data-target="#collapseOne-0" aria-expanded="true" aria-controls="collapseOne-0">
+                                                                            <div class="row">
+                                                                                <div class="col-lg-1 col-md-1 col-sm-12 col-xs-12 pr-0 max-w-6-percent">
+                                                                                    <div class="d-flex align-items-center h-100">
+                                                                                        <i class="icn-ecosystem-goal-one icn-4x"></i>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12 pl-0">
+                                                                                    <span class="d-flex align-items-center h-100">
+                                                                                        1.1 Conserve and restore natural ecosystems
+                                                                                    </span>
+                                                                                </div>
+
+
+
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+
+                                                                    <div id="collapseOne-0" class="collapse show" aria-labelledby="headingOne-0" style="">
+                                                                        <div class="card">
+                                                                            <div class="pl-17 py-4 d-flex justify-content-between align-items-center collapsed" data-toggle="collapse" data-target="#collapseOneA" aria-expanded="false">
+                                                                                <span class="text-primary">1.1.1 Effective conservation and protection of natural ecosystems</span>
+
+                                                                            </div>
+                                                                            <div class="border-bottom-secondary collapse" id="collapseOneA" style="">
+                                                                                <div class="mx-10 mt-5">
+
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="card">
+                                                                            <div class="pl-17 py-4 d-flex justify-content-between align-items-center collapsed" data-toggle="collapse" data-target="#collapseOneB" aria-expanded="false">
+                                                                                <span class="text-primary">1.1.2 Natural ecosystem conversion</span>
+
+                                                                            </div>
+                                                                            <div class="border-bottom-secondary collapse" id="collapseOneB" style="">
+                                                                                <div class="mx-10 mt-5">
+
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="card indicator-accordian-card">
+                                                                    <div class="card-header bg-white indicator-accordian-card-header" id="headingTwo-0">
+                                                                        <div class="btn btn-block text-left indicator-accordian-responsive collapsed" role="region" data-toggle="collapse" data-target="#collapseTwo-0" aria-expanded="false" aria-controls="collapseTwo-0">
+                                                                            <div class="row">
+                                                                                <div class="col-lg-1 col-md-1 col-sm-12 col-xs-12 pr-0 max-w-6-percent">
+                                                                                    <div class="d-flex align-items-center h-100">
+                                                                                        <i class="icn-ecosystem-goal-two icn-4x"></i>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12 pl-0">
+                                                                                    <span class="d-flex align-items-center h-100">
+                                                                                        1.2 Protect and restore biodiversity
+                                                                                    </span>
+                                                                                </div>
+
+
+
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div id="collapseTwo-0" class="collapse" aria-labelledby="headingTwo-0" style="">
+                                                                        <div class="card">
+                                                                            <div class="pl-17 py-4 d-flex justify-content-between align-items-center cursor-pointer" data-toggle="collapse" data-target="#collapseTwoA" aria-expanded="true">
+                                                                                <span class="text-primary">1.2.1 Threats to species</span>
+
+                                                                            </div>
+                                                                            <div class="border-bottom-secondary collapse show" id="collapseTwoA" style="">
+                                                                                <div class="mx-10 mt-5">
+
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <!-- end accordian -->
+                                                        </div>
+                                                        <div class="tab-pane fade" id="accordians-child-html" role="tabpanel" aria-labelledby="accordians-child-html-tab">
+                                                            <div class="d-flex justify-content-end">
+                                                                <button class="btn btn-light-primary br-50 mx-5 my-2" data-clipboard-text="" id="cm-accordians-child-html-copyButton"><i class="icn-file icn-cyan"></i></button>
+                                                            </div>
+                                                            <div id="cm-accordians-child-html"></div>
+                                                        </div>
+                                                        <div class="tab-pane fade" id="accordians-child-css" role="tabpanel" aria-labelledby="accordians-child-css-tab">
+                                                            <div class="d-flex justify-content-end">
+                                                                <button class="btn btn-light-primary br-50 mx-5 my-2" data-clipboard-text="" id="cm-accordians-child-css-copyButton"><i class="icn-file icn-cyan"></i></button>
+                                                            </div>
+                                                            <div id="cm-accordians-child-css"></div>
+                                                        </div>
+                                                        <div class="tab-pane fade" id="accordians-child-js" role="tabpanel" aria-labelledby="accordians-child-js-tab">
+                                                            <div class="d-flex justify-content-end">
+                                                                <button class="btn btn-light-primary br-50 mx-5 my-2" data-clipboard-text="" id="cm-accordians-child-js-copyButton"><i class="icn-file icn-cyan"></i></button>
+                                                            </div>
+                                                            <div id="cm-accordians-child-js"></div>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -1875,7 +2149,7 @@ License: You must have a valid license purchased only from themeforest(the above
             <script>
                 $(document).ready(function() {
                     var html_code = `<table class="table table-light-pale border-grey text-primary text-dark-grey p-table-10 stripped dataTable br-0"> <thead> <tr> <th class="sorting" tabindex="0" aria-controls="kt_datatable" rowspan="1" colspan="1" style="width: 56px;">Record ID</th> <th class="sorting" tabindex="0" aria-controls="kt_datatable" rowspan="1" colspan="1" style="width: 45px;">Order ID</th> <th class="sorting" tabindex="0" aria-controls="kt_datatable" rowspan="1" colspan="1" style="width: 65px;">Country</th> </tr> </thead> <tbody> <tr> <td class="dtr-control sorting_1" tabindex="0">6</td> <td>53499-0393</td> <td>Ukraine</td> </tr> <tr> <td class="dtr-control sorting_1" tabindex="0">6</td> <td>53499-0393</td> <td>Ukraine</td> </tr> <tr> <td class="dtr-control sorting_1" tabindex="0">6</td> <td>53499-0393</td> <td>Ukraine</td> </tr> </tbody> </table>`;
-                    var css_code = `.table.table-light-pale thead tr { color: #074A37; background-color: #EBF2E4; } .table.border-grey { border: 2px solid #F0F0F0 !important; } .table.border-light-primary { border: 2px solid #EBF2E4 !important; } .table.text-primary thead tr th { color: #074A37 !important; padding: 16px 10px !important; } .table.text-dark-grey tbody tr td { color: #3F544C !important; } .table.p-table-10 tbody tr td { padding: 10px !important; } .table.p-table-15 tbody tr td { padding: 15px !important; } .table.stripped tbody tr:nth-child(even) { background-color: #F0F0F0; } .table.stripped tbody tr:nth-child(odd) { background-color: #fff; }`;
+                    var css_code = `/* pale table header */ .table.table-light-pale thead tr { color: #074A37; background-color: #EBF2E4; } /* table border grey */ .table.border-grey { border: 2px solid #F0F0F0 !important; } /* table border light primary */ .table.border-light-primary { border: 2px solid #EBF2E4 !important; } /* table header text primary */ .table.text-primary thead tr th { color: #074A37 !important; padding: 16px 10px !important; } /* rows grey text */ .table.text-dark-grey tbody tr td { color: #3F544C !important; } /* rows padding 10px */ .table.p-table-10 tbody tr td { padding: 10px !important; } /* rows padding 15px */ .table.p-table-15 tbody tr td { padding: 15px !important; } /* stripped table */ .table.stripped tbody tr:nth-child(even) { background-color: #F0F0F0; } .table.stripped tbody tr:nth-child(odd) { background-color: #fff; }`;
                     var js_code = ``;
                     cmRender("editor", "editor-css", "editor-js", html_code, css_code, js_code);
 
@@ -1885,7 +2159,7 @@ License: You must have a valid license purchased only from themeforest(the above
                     cmRender("cm-drk-table-html", "cm-drk-table-css", "cm-drk-table-js", dTable_html_code, dTable_css_code, dTable_js_code);
 
                     var btn_color_html_code = `<button class="btn btn-grey">Grey Button</button>\n<button class="btn c-btn-success ml-2">Success Button</button>\n<button class="btn c-btn-primary ml-2">Primary Button</button>\n<button class="btn c-btn-light-primary ml-2">Light Button</button>`;
-                    var btn_color_css_code = `btn-grey {\n font-family: 'Roboto';\n display: inline-block;\n text-align: center;\n background: #4C94A0 !important;\n color: #fff !important;\n border-radius: 15px !important;\n padding: 10px;\n border: 0px !important;\n }\n .c-btn-success {\n font-family: 'Roboto';\n display: inline-block;\n text-align: center;\n background: #FEC045 !important;\n color: #074A37 !important;\n border-radius: 15px !important;\n padding: 10px;\n border: 0px !important;\n }\n .c-btn-light-primary {\n font-family: 'Roboto';\n display: inline-block;\n text-align: center;/n background: #EBF2E4 !important;/n color: #074A37 !important;/n border-radius: 15px !important;/n padding: 10px;/n border: 0px !important;/n }/n .c-btn-primary {/n font-family: 'Roboto';/n display: inline-block;/n text-align: center;/n background: #074A37 !important;/n color: #EBF2E4 !important;/n border-radius: 15px !important;/n padding: 10px;/n border: 0px !important;/n }/n`;
+                    var btn_color_css_code = `btn-grey {\n font-family: 'Roboto';\n display: inline-block;\n text-align: center;\n background: #4C94A0 !important;\n color: #fff !important;\n border-radius: 15px !important;\n padding: 10px;\n border: 0px !important;\n }\n .c-btn-success {\n font-family: 'Roboto';\n display: inline-block;\n text-align: center;\n background: #FEC045 !important;\n color: #074A37 !important;\n border-radius: 15px !important;\n padding: 10px;\n border: 0px !important;\n }\n .c-btn-light-primary {\n font-family: 'Roboto';\n display: inline-block;\n text-align: center; background: #EBF2E4 !important; color: #074A37 !important; border-radius: 15px !important; padding: 10px; border: 0px !important; } .c-btn-primary { font-family: 'Roboto'; display: inline-block; text-align: center; background: #074A37 !important; color: #EBF2E4 !important; border-radius: 15px !important; padding: 10px; border: 0px !important; }`;
                     var btn_color_js_code = ``;
                     cmRender("cm-btn-color-html", "cm-btn-color-css", "cm-btn-color-js", btn_color_html_code, btn_color_css_code, btn_color_js_code);
 
@@ -1959,15 +2233,25 @@ License: You must have a valid license purchased only from themeforest(the above
                     var sidebar_js_code = `// active nav link $('.nav-link').on('click', function() { let prevActiveLink = $(this).siblings(".active"); let darkBg = prevActiveLink.find('.icn-bg-dark'); let currentLink = $(this).find('.icn-bg-pale'); darkBg.addClass('icn-bg-pale') darkBg.removeClass('icn-bg-dark') darkBg.find('i').removeClass('icn-pale') currentLink.addClass('icn-bg-dark') currentLink.removeClass('icn-bg-pale') currentLink.find('i').addClass('icn-pale') }); // side menu toggle function toggleAside() { if ($('#inner-side-nav').hasClass('max-w-5-percent')) { $('#inner-side-nav').removeClass('max-w-5-percent'); $('#inner-side-nav').addClass('max-w-20-percent'); $('#inner-side-nav').find('.inner-nav-text').toggle('d-none'); $('#piller-create').removeClass('d-none'); $('#inner-side-main').removeClass('max-w-95-percent'); $('#inner-side-main').addClass('max-w-80-percent'); } else { $('#inner-side-nav').addClass('max-w-5-percent'); $('#inner-side-nav').removeClass('max-w-20-percent'); $('#inner-side-nav').find('.inner-nav-text').toggle('d-none'); $('#piller-create').addClass('d-none'); console.log('dd'); $('#inner-side-main').addClass('max-w-95-percent'); $('#inner-side-main').removeClass('max-w-80-percent'); } }`;
                     cmRender("cm-sidebar-html", "cm-sidebar-css", "cm-sidebar-js", sidebar_html_code, sidebar_css_code, sidebar_js_code);
 
-                    var user_widget_html_code = `<div class="user-widget-container"> <img src="../assets/media/icons_and_Illustrations/Avatars/Avatars_Baboon.png" class="people" alt=""> <img src="../assets/media/icons_and_Illustrations/Avatars/Avatars_Frog.png" class="people" alt=""> <img src="../assets/media/icons_and_Illustrations/Avatars/Avatars_Parrot.png" class="people" alt=""> <span class="people icn-bg-pale">6+</span> <a href="#" class="people icn-bg-dark" data-toggle="modal" data-target="#myModal"><i class="icn-person-plus"></i></a> </div>`;
-                    var user_widget_css_code = `/* user widget */ .user-widget-container { display: flex; align-items: center; } .people { top: 0; width: 30px; height: 30px; margin: 0px -3px; }`;
-                    var user_widget_js_code = ``;
+                    var user_widget_html_code = `<!-- start user widget --> <div class="user-widget-container"> <img src="../assets/media/icons_and_Illustrations/Avatars/Avatars_Baboon.png" class="people" alt=""> <img src="../assets/media/icons_and_Illustrations/Avatars/Avatars_Frog.png" class="people" alt=""> <img src="../assets/media/icons_and_Illustrations/Avatars/Avatars_Parrot.png" class="people" alt=""> <span class="people icn-bg-pale">6+</span> <a href="#" class="people icn-bg-dark" data-toggle="modal" data-target="#myModal"><i class="icn-person-plus"></i></a> </div> \n<!-- end user widget --> \n\n\n<!-- start help center popup btn --> <div class="btn-help-center-wrapper"> <div class="btn-lg mr-1 d-flex align-items-center" id="kt_quick_cart_toggle"> <span class="btn-help-icon"> <i class="icn-question icn-3x mt-2 mx-2"></i> </span> <span class="btn-help-toggle font-text p-6 bg-light d-none"> Help Center </span> </div> </div> \n<!-- end help center popup btn -->`;
+                    var user_widget_css_code = `/* user widget */ .user-widget-container { display: flex; align-items: center; } .people { top: 0; width: 30px; height: 30px; margin: 0px -3px; } /* help button wrapper */ .btn-help-center-wrapper { position: fixed !important; top: 50%; right: -23px; cursor: pointer; } /* help button icon */ .btn-help-icon { opacity: 0.3; background-color: #074A37; border-radius: 25px 0px 0px 25px; padding: 7.6px; }`;
+                    var user_widget_js_code = `// help button show\n $(".btn-help-center-wrapper").mouseenter(function() { $(".btn-help-center-wrapper").find('.btn-help-toggle').removeClass('d-none') $(".btn-help-center-wrapper").find('.btn-help-toggle').addClass('d-flex align-self-center') }); // help button hide\n $(".btn-help-center-wrapper").mouseleave(function() { $(".btn-help-center-wrapper").find('.btn-help-toggle').addClass('d-none') $(".btn-help-center-wrapper").find('.btn-help-toggle').removeClass('d-flex align-self-center') });`;
                     cmRender("cm-user-widget-html", "cm-user-widget-css", "cm-user-widget-js", user_widget_html_code, user_widget_css_code, user_widget_js_code);
 
                     var progress_tag_html_code = `<!-- start progress tags with step on left --> \n<span class="d-inline-block mt-1"> <div class="progress-tag"> <span class="progress-tag-step"> 6/6 </span> <span class="progress-tag-text">TASKS</span> </div> </span> \n<!-- end progress tags --> \n\n\n<!-- start progress tags with step on right --> \n<span class="d-inline-block mt-1"> <div class="progress-tag p-2"> <span class="font-small text-light-primary mr-2">Pillars Completed</span> <span class="font-small bg-success text-primary p-1 br-4">2/4</span> </div> </span> \n<!-- end progress tags with step on right -->`;
                     var progress_tag_css_code = `/* progress tags */ .progress-tag { display: flex; align-items: center; background-color: #074A37; border-radius: 6px; } /* progress tag step */ .progress-tag-step { margin-right: -2px; z-index: 1; position: relative; border-radius: 4px; color: #074A37 !important; padding: 0.25rem 0.5rem; background-color: #FEC045 !important; } /* progress tag text */ .progress-tag-text { font-style: normal; font-weight: 400; font-size: 13px; line-height: 18px; border-bottom-right-radius: 4px !important; border-top-right-radius: 4px !important; color: #EBF2E4 !important; padding-left: 0.5rem !important; padding-right: 1rem !important; padding-top: 0.25rem !important; padding-bottom: 0.25rem !important; background-color: #074A37 !important; }`;
                     var progress_tag_js_code = ``;
                     cmRender("cm-progress-tags-html", "cm-progress-tags-css", "cm-progress-tags-js", progress_tag_html_code, progress_tag_css_code, progress_tag_js_code);
+
+                    var accordian_html_code = `<!-- start accordian --> <div class="accordion m-5" id="accordionExample-0"> <div class="card indicator-accordian-card"> <div class="card-header bg-white indicator-accordian-card-header" id="headingOne-0"> <div class="btn btn-block text-left indicator-accordian-responsive" role="region" data-toggle="collapse" data-target="#collapseOne-0" aria-expanded="true" aria-controls="collapseOne-0"> <div class="row"> <div class="col-lg-1 col-md-1 col-sm-12 col-xs-12"> <div class="d-flex align-items-center h-100"> <i class="icn-ecosystem-goal-one icn-4x"></i> </div> </div> <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12"> <span class="d-flex align-items-center h-100"> 1.1 Conserve and restore natural ecosystems </span> </div> </div> </div> </div> <div id="collapseOne-0" class="collapse show" aria-labelledby="headingOne-0" style=""> <div class="mx-5 mb-5"> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa sequi ullam qui incidunt debitis saepe eius ducimus ex impedit iure! Officiis sit quia fuga numquam corporis eligendi deleniti dicta iure! </div> </div> </div> <div class="card indicator-accordian-card"> <div class="card-header bg-white indicator-accordian-card-header" id="headingTwo-0"> <div class="btn btn-block text-left indicator-accordian-responsive collapsed" role="region" data-toggle="collapse" data-target="#collapseTwo-0" aria-expanded="false" aria-controls="collapseTwo-0"> <div class="row"> <div class="col-lg-1 col-md-1 col-sm-12 col-xs-12"> <div class="d-flex align-items-center h-100"> <i class="icn-ecosystem-goal-two icn-4x"></i> </div> </div> <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12"> <span class="d-flex align-items-center h-100"> 1.2 Protect and restore biodiversity </span> </div> </div> </div> </div> <div id="collapseTwo-0" class="collapse" aria-labelledby="headingTwo-0" style=""> <div class="mx-5 mb-5"> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum ex adipisci, deleniti maiores cumque quaerat eveniet expedita nostrum praesentium perferendis quis ad. Suscipit aliquam autem eum officiis ab vero sed. </div> </div> </div> <div class="card indicator-accordian-card"> <div class="card-header bg-white indicator-accordian-card-header" id="headingTwo-3"> <div class="btn btn-block text-left indicator-accordian-responsive collapsed" role="region" data-toggle="collapse" data-target="#collapseTwo-3" aria-expanded="false" aria-controls="collapseTwo-3"> <div class="row"> <div class="col-lg-1 col-md-1 col-sm-12 col-xs-12"> <div class="d-flex align-items-center h-100"> <i class="icn-ecosystem-goal-three icn-4x"></i> </div> </div> <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12"> <span class="d-flex align-items-center h-100"> 1.3 Maintain and enhance ecosystem services </span> </div> </div> </div> </div> <div id="collapseTwo-3" class="collapse" aria-labelledby="headingTwo-3" style=""> <div class="mx-5 mb-5"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam enim sunt iste, placeat natus quisquam voluptas veniam. Animi quas pariatur minima, iusto eius dolor porro adipisci assumenda consequatur natus dolore! </div> </div> </div> </div> \n<!-- end accordian -->`;
+                    var accordian_css_code = ``;
+                    var accordian_js_code = ``;
+                    cmRender("cm-accordians-html", "cm-accordians-css", "cm-accordians-js", accordian_html_code, accordian_css_code, accordian_js_code);
+
+                    var accordian_child_html_code = `<!-- start accordian --> <div class="accordion m-5" id="accordionExample-0"> <div class="card indicator-accordian-card"> <div class="card-header bg-white indicator-accordian-card-header" id="headingOne-0"> <div class="btn btn-block text-left indicator-accordian-responsive" role="region" data-toggle="collapse" data-target="#collapseOne-0" aria-expanded="true" aria-controls="collapseOne-0"> <div class="row"> <div class="col-lg-1 col-md-1 col-sm-12 col-xs-12 pr-0 max-w-6-percent"> <div class="d-flex align-items-center h-100"> <i class="icn-ecosystem-goal-one icn-4x"></i> </div> </div> <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12 pl-0"> <span class="d-flex align-items-center h-100"> 1.1 Conserve and restore natural ecosystems </span> </div> </div> </div> </div> <div id="collapseOne-0" class="collapse show" aria-labelledby="headingOne-0" style=""> <div class="card"> <div class="pl-17 py-4 d-flex justify-content-between align-items-center collapsed" data-toggle="collapse" data-target="#collapseOneA" aria-expanded="false"> <span class="text-primary">1.1.1 Effective conservation and protection of natural ecosystems</span> </div> <div class="border-bottom-secondary collapse" id="collapseOneA" style=""> <div class="mx-10 mt-5"> </div> </div> </div> <div class="card"> <div class="pl-17 py-4 d-flex justify-content-between align-items-center collapsed" data-toggle="collapse" data-target="#collapseOneB" aria-expanded="false"> <span class="text-primary">1.1.2 Natural ecosystem conversion</span> </div> <div class="border-bottom-secondary collapse" id="collapseOneB" style=""> <div class="mx-10 mt-5"> </div> </div> </div> </div> </div> <div class="card indicator-accordian-card"> <div class="card-header bg-white indicator-accordian-card-header" id="headingTwo-0"> <div class="btn btn-block text-left indicator-accordian-responsive collapsed" role="region" data-toggle="collapse" data-target="#collapseTwo-0" aria-expanded="false" aria-controls="collapseTwo-0"> <div class="row"> <div class="col-lg-1 col-md-1 col-sm-12 col-xs-12 pr-0 max-w-6-percent"> <div class="d-flex align-items-center h-100"> <i class="icn-ecosystem-goal-two icn-4x"></i> </div> </div> <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12 pl-0"> <span class="d-flex align-items-center h-100"> 1.2 Protect and restore biodiversity </span> </div> </div> </div> </div> <div id="collapseTwo-0" class="collapse" aria-labelledby="headingTwo-0" style=""> <div class="card"> <div class="pl-17 py-4 d-flex justify-content-between align-items-center cursor-pointer" data-toggle="collapse" data-target="#collapseTwoA" aria-expanded="true"> <span class="text-primary">1.2.1 Threats to species</span> </div> <div class="border-bottom-secondary collapse show" id="collapseTwoA" style=""> <div class="mx-10 mt-5"> </div> </div> </div> </div> </div> </div> <!-- end accordian -->`;
+                    var accordian_child_css_code = ``;
+                    var accordian_child_js_code = ``;
+                    cmRender("cm-accordians-child-html", "cm-accordians-child-css", "cm-accordians-child-js", accordian_child_html_code, accordian_child_css_code, accordian_child_js_code);
 
                 })
                 $(document).on('click', '#kt_aside_toggle', function() {
@@ -2111,12 +2395,13 @@ License: You must have a valid license purchased only from themeforest(the above
                 });
 
 
-
+                // help button show
                 $(".btn-help-center-wrapper").mouseenter(function() {
                     $(".btn-help-center-wrapper").find('.btn-help-toggle').removeClass('d-none')
                     $(".btn-help-center-wrapper").find('.btn-help-toggle').addClass('d-flex align-self-center')
                 });
 
+                // help button hide
                 $(".btn-help-center-wrapper").mouseleave(function() {
                     $(".btn-help-center-wrapper").find('.btn-help-toggle').addClass('d-none')
                     $(".btn-help-center-wrapper").find('.btn-help-toggle').removeClass('d-flex align-self-center')

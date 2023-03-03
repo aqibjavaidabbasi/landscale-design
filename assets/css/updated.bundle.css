@@ -100584,12 +100584,15 @@ body {
     background-color: #074A37 !important;
 }
 
+/* help button wrapper */
 .btn-help-center-wrapper {
     position: fixed !important;
     top: 50%;
     right: -23px;
+    cursor: pointer;
 }
 
+/* help button icon */
 .btn-help-icon {
     opacity: 0.3;
     background-color: #074A37;
@@ -101457,41 +101460,50 @@ select {
 
 /* custom tables */
 
+/* pale table header */
 .table.table-light-pale thead tr {
     color: #074A37;
     background-color: #EBF2E4;
 }
 
+/* dark pale dable header */
 .table.table-dark-pale thead tr {
     color: #074A37;
     background-color: #DCE6D1 !important;
 }
 
+/* table border grey */
 .table.border-grey {
     border: 2px solid #F0F0F0 !important;
 }
 
+/* table border light primary */
 .table.border-light-primary {
     border: 2px solid #EBF2E4 !important;
 }
 
+/* table header text primary */
 .table.text-primary thead tr th {
     color: #074A37 !important;
     padding: 16px 10px !important;
 }
 
+/* rows grey text */
 .table.text-dark-grey tbody tr td {
     color: #3F544C !important;
 }
 
+/* rows padding 10px */
 .table.p-table-10 tbody tr td {
     padding: 10px !important;
 }
 
+/* rows padding 15px */
 .table.p-table-15 tbody tr td {
     padding: 15px !important;
 }
 
+/* stripped table */
 .table.stripped tbody tr:nth-child(even) {
     background-color: #F0F0F0;
 }
@@ -101733,4 +101745,47 @@ select {
     .max-w-95-percent {
         max-width: 93% !important;
     }
+}
+
+/* accordian arrow */
+
+.accordion.accordion-toggle-arrow .card .card-header {
+    color: #074A37;
+    position: relative;
+}
+
+.accordion.accordion-toggle-arrow .card .card-header:after {
+    position: absolute;
+    font-family: Ki;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    line-height: 1;
+    text-decoration: inherit;
+    text-rendering: optimizeLegibility;
+    text-transform: none;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+    content: "";
+    color: #074A37;
+    font-size: 0.7rem;
+    -webkit-transition: all 0.15s ease;
+    transition: all 0.15s ease;
+}
+
+.accordion.accordion-toggle-arrow .card .card-header.collapsed {
+    color: #3F4254;
+    -webkit-transition: all 0.15s ease;
+    transition: all 0.15s ease;
+}
+
+.accordion.accordion-toggle-arrow .card .card-header.collapsed:after {
+    color: #7E8299;
+    -webkit-transition: all 0.15s ease;
+    transition: all 0.15s ease;
+    -webkit-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    /*rtl:begin:*/
+    /*rtl:end:*/
 }
