@@ -142,10 +142,10 @@ License: You must have a valid license purchased only from themeforest(the above
                                     <div class="row">
                                         <div class="col-md-12">
                                             <div class="col-md-12 text-center">
-                                                <?php include './includes/progress-bar.php' ?>
+                                                <?php include './includes/updated-progressbar.php' ?>
                                             </div>
                                         </div>
-                                        <div class="col-md-12 mt-17">
+                                        <div class="col-md-12 mt-25">
                                             <span class="font-heading text-primary">Step 3: Indicator & Metrics</span>
                                         </div>
                                     </div>

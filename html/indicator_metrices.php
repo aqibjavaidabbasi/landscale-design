@@ -143,7 +143,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                             <span class="font-heading text-primary">Steps</span>
                                         </div>
                                         <div class="col-md-12 text-center">
-                                            <?php include './includes/progress-bar.php' ?>
+                                            <?php include './includes/updated-progressbar.php' ?>
                                         </div>
                                     </div>
 

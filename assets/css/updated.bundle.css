@@ -100647,6 +100647,7 @@ body {
 .listings {
     list-style-image: url(../media/list-chk.png);
 }
+
 /* 
 .wrapper-progerss-bar .custom-progress-bar:first-child {
     background-color: #074A37;
@@ -100837,6 +100838,85 @@ body {
     left: -25px;
     color: #9ABF78;
 }
+
+
+/* steps progress bars start*/
+.iconform-progress-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.iconform-progress-bar {
+    background-color: #EBF2E4;
+    width: 70%;
+    height: 3px;
+}
+
+.iconstep-indicators {
+    display: flex;
+    justify-content: space-around;
+}
+
+.iconstep-indicator {
+    position: relative;
+}
+
+.iconstep-indicator.active::before {
+    position: absolute;
+    top: 0px;
+    left: -212px;
+    content: '';
+    width: 335px;
+    height: 3px;
+    background-color: #074A37 !important;
+}
+
+.iconform-step-number {
+    position: absolute;
+    top: -15px;
+    left: -15px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #EBF2E4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.iconform-step-number.active::after {
+    background-color: #074A37 !important;
+}
+
+.iconform-step-text {
+    position: absolute;
+    top: 35px;
+    left: -70px;
+    color: #9ABF78;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.step-name {
+    font-weight: bold;
+}
+
+.c-disabled-bg {
+    background-color: #E1E1E1 !important;
+    color: #839FA0 !important;
+}
+
+.c-disabled-text {
+    /* background-color: #E1E1E1 !important; */
+    color: #839FA0 !important;
+}
+
+/* steps progress bars end*/
 
 /* user widget */
 .user-widget-container {
@@ -101764,6 +101844,21 @@ select {
     /* .responsive-width-auto {
         width: auto !important;
     } */
+
+    .iconform-progress-container {
+        height: 120vh;
+    }
+
+    .iconstep-indicators {
+        flex-direction: column !important;
+        align-items: center;
+        height: 380px;
+        z-index: 1;
+        justify-content: space-between !important;
+    }
+    .iconform-progress-bar {
+        background-color: #fff;
+    }
 }
 
 @media screen and (min-width: 768px) and (max-width: 901px) {
