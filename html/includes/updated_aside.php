@@ -1,16 +1,16 @@
 <?php
-$backgroundColor = 'background-color:#fff;';
+$backgroundColor = 'background-color:#9ABF78;';
 if ($_GET['v'] == 2) {
-    $backgroundColor = 'background-color:#94BF78 !important;';
+    $backgroundColor = 'background-color:#fff !important;';
 }
 if ($_GET['v'] == 3) {
-    $backgroundColor = 'background-color:#4c94A0 !important;';
+    $backgroundColor = 'background-color:#F4F4EC !important;';
 }
 if ($_GET['v'] == 4) {
-    $backgroundColor = 'background-color:#fec094 !important;';
+    $backgroundColor = 'background-color:#4C94A0 !important;';
 }
 if ($_GET['v'] == 5) {
-    $backgroundColor = 'background-color:#9fcdef !important;';
+    $backgroundColor = 'background-color:#fff !important;';
 }
 ?>
 

@@ -1,3 +1,33 @@
+<?php
+$bodyBackgroundColor = 'background-color:#fff;';
+$mainCardbackgroundColor = 'background-color:#F4F3EC;';
+$tableBackgroundColor = 'background-color:#FEC045;';
+$iconBackgroundColor = 'background-color:#FEC045;';
+if ($_GET['v'] == 2) {
+    $mainCardbackgroundColor = 'background-color:#fff !important;';
+    $bodyBackgroundColor = 'background-color:#9ABF78 !important;';
+    $tableBackgroundColor = 'background-color:#FEC045 !important;';
+    $iconBackgroundColor = 'background-color:#FEC045 !important;';
+}
+if ($_GET['v'] == 3) {
+    $mainCardbackgroundColor = 'background-color:#F4F3EC !important;';
+    $bodyBackgroundColor = 'background-color:#9ABF78 !important;';
+    $tableBackgroundColor = 'background-color:#F4F3EC !important;';
+    $iconBackgroundColor = 'background-color:#F4F3EC !important;';
+}
+if ($_GET['v'] == 4) {
+    $mainCardbackgroundColor = 'background-color:#9ABF78 !important;';
+    $bodyBackgroundColor = 'background-color:#F4F3EC !important;';
+    $tableBackgroundColor = 'background-color:#074A37 !important; color:#fff !important;';
+    $iconBackgroundColor = 'background-color:#074A37 !important;';
+}
+if ($_GET['v'] == 5) {
+    $mainCardbackgroundColor = 'background-color:#4C94A0 !important;';
+    $bodyBackgroundColor = 'background-color:#9FCEDF !important;';
+    $tableBackgroundColor = 'background-color:#4c69a0 !important; color:#fff !important;';
+    $iconBackgroundColor = 'background-color:#4c69a0 !important;';
+}
+?>
 <!DOCTYPE html>
 <!--
 Template Name: Metronic - Bootstrap 4 HTML, React, Angular 11 & VueJS Admin Dashboard Theme
@@ -70,7 +100,7 @@ License: You must have a valid license purchased only from themeforest(the above
 <!--end::Head-->
 <!--begin::Body-->
 
-<body id="kt_body" class="header-fixed header-mobile-fixed subheader-enabled subheader-fixed aside-enabled aside-fixed aside-minimize page-loading bg-white">
+<body id="kt_body" class="header-fixed header-mobile-fixed subheader-enabled subheader-fixed aside-enabled aside-fixed aside-minimize page-loading" style="<?php echo $bodyBackgroundColor; ?>">
     <!-- Google Tag Manager (noscript) -->
     <noscript>
         <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5FS8GGP" height="0" width="0" style="display:none;visibility:hidden"></iframe>
@@ -120,13 +150,13 @@ License: You must have a valid license purchased only from themeforest(the above
         <div class="d-flex flex-row flex-column-fluid page">
             <!--begin::Aside-->
             <!--begin::Aside-->
-            <?php 
-                // if($_GET['v'] == 1){
-                //     include './includes/aside.php';
-                // }else {
-                // }
-                include './includes/updated_aside.php';
-            
+            <?php
+            // if($_GET['v'] == 1){
+            //     include './includes/aside.php';
+            // }else {
+            // }
+            include './includes/updated_aside.php';
+
             ?>
             <!--end::Aside-->
             <!--end::Aside-->
@@ -145,7 +175,7 @@ License: You must have a valid license purchased only from themeforest(the above
                         </div>
                         <div class="row">
                             <div class="col-md-12">
-                                <div class="card w-100 p-5" style="background-color: #f4f3ec;">
+                                <div class="card w-100 p-5" style="<?php echo $mainCardbackgroundColor; ?>">
                                     <div class="row p-5">
                                         <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
                                             <div class="card w-100 h-100 p-5 bg-pale">
@@ -285,11 +315,11 @@ License: You must have a valid license purchased only from themeforest(the above
                                                     <div class="row">
                                                         <div class="col-lg-3 col-md-12 col-sm-12 col-xs-12 pr-1">
                                                             <div class="card card-custom card-border gutter-b card-shadowless" id="sub_menu_wizard">
-                                                                <div class="bg-light-primary pxy-15-30" style="position: -webkit-sticky;position: sticky; top: 0px;">
+                                                                <div class="pxy-15-30" style="position: -webkit-sticky;position: sticky; top: 0px; <?php echo $tableBackgroundColor; ?>">
                                                                     <div class="row justify-content-between">
                                                                         <div class="col-md-6">
                                                                             <div class="d-flex align-items-center h-100">
-                                                                                <span class="font-family-roboto text-primary font-text p-1">Filters</span>
+                                                                                <span class="font-family-roboto font-text p-1">Filters</span>
                                                                             </div>
                                                                         </div>
                                                                         <div class="col-md-6" style="text-align: right;"><a class="btn btn-secondary btn-sm btn-text-white btn-hover-primary" id="btn_clear_all" style="display:none">{!!trans('data_resources.label_clear_filter')!!}</a></div>
@@ -424,20 +454,20 @@ License: You must have a valid license purchased only from themeforest(the above
                                                             <div id="table_view" class="tabcontent">
                                                                 <div class="row">
                                                                     <div class="col-sm-12 table-margin responsive-overflow-scroll">
-                                                                        <table class="table table-light-pale border-grey text-primary text-dark-grey p-table-10 stripped dataTable br-0" id="kt_datatable" role="grid" style="width: 1151px; margin-top: 0px !important;">
-                                                                            <thead class="bg-light-primary">
+                                                                        <table class="table border-grey text-primary text-dark-grey p-table-10 stripped dataTable br-0" id="kt_datatable" role="grid" style="width: 1151px; margin-top: 0px !important;">
+                                                                            <thead>
                                                                                 <tr>
-                                                                                    <th class="sorting" tabindex="0" aria-controls="kt_datatable" rowspan="1" colspan="1" style="width: 56px;" aria-sort="ascending">
+                                                                                    <th class="sorting" tabindex="0" aria-controls="kt_datatable" rowspan="1" colspan="1"  style="<?php echo $tableBackgroundColor; ?>" aria-sort="ascending">
                                                                                         Record ID</th>
-                                                                                    <th class="sorting" tabindex="0" aria-controls="kt_datatable" rowspan="1" colspan="1" style="width: 45px;">
+                                                                                    <th class="sorting" tabindex="0" aria-controls="kt_datatable" rowspan="1" colspan="1"  style="<?php echo $tableBackgroundColor; ?>">
                                                                                         Order ID</th>
-                                                                                    <th class="sorting" tabindex="0" aria-controls="kt_datatable" rowspan="1" colspan="1" style="width: 65px;">
+                                                                                    <th class="sorting" tabindex="0" aria-controls="kt_datatable" rowspan="1" colspan="1"  style="<?php echo $tableBackgroundColor; ?>">
                                                                                         Country</th>
-                                                                                    <th class="sorting" tabindex="0" aria-controls="kt_datatable" rowspan="1" colspan="1" style="width: 41px;">
+                                                                                    <th class="sorting" tabindex="0" aria-controls="kt_datatable" rowspan="1" colspan="1"  style="<?php echo $tableBackgroundColor; ?>">
                                                                                         Ship City</th>
-                                                                                    <th class="sorting" tabindex="0" aria-controls="kt_datatable" rowspan="1" colspan="1" style="width: 62px;">
+                                                                                    <th class="sorting" tabindex="0" aria-controls="kt_datatable" rowspan="1" colspan="1"  style="<?php echo $tableBackgroundColor; ?>">
                                                                                         Ship Address</th>
-                                                                                    <th class="sorting" tabindex="0" aria-controls="kt_datatable" rowspan="1" colspan="1" style="width: 69px;">
+                                                                                    <th class="sorting" tabindex="0" aria-controls="kt_datatable" rowspan="1" colspan="1"  style="<?php echo $tableBackgroundColor; ?>">
                                                                                         Company Agent</th>
                                                                                 </tr>
                                                                             </thead>
