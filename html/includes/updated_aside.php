@@ -1,6 +1,5 @@
 <?php
 $backgroundColor = 'background-color:#fff;';
-$iconBackground = 'background-color:#FAF3EC !important;;';
 if ($_GET['v'] == 2) {
     $backgroundColor = 'background-color:#94BF78 !important;';
 }
@@ -47,7 +46,7 @@ if ($_GET['v'] == 5) {
             <ul class="menu-nav">
                 <li class="menu-item menu-item-submenu" aria-haspopup="true" data-menu-toggle="hover">
                     <a href="javascript:;" onclick="javascript:location.href='./index.php'" class="menu-link menu-toggle px-4 py-2 hover-menu text-center">
-                        <span class="svg-icon-lg p-4 nav-icn rounded-circle bg-light-primary mr-5">
+                        <span class="svg-icon-lg p-4 nav-icn rounded-circle bg-icon mr-5">
                             <i class="icn-assessment icn-2x"></i>
                             <!--end::Svg Icon-->
                         </span>
@@ -97,7 +96,7 @@ if ($_GET['v'] == 5) {
                 </li>
                 <li class="menu-item menu-item-submenu" aria-haspopup="true" data-menu-toggle="hover">
                     <a href="javascript:;" onclick="javascript:location.href='./dashboard_with_square_cornors.php'" class="menu-link menu-toggle px-4 py-2 hover-menu text-center">
-                        <span class="svg-icon-lg p-4 nav-icn rounded-circle bg-light-primary mr-5">
+                        <span class="svg-icon-lg p-4 nav-icn rounded-circle bg-icon mr-5">
 
                             <i class="icn-stack icn-primary icn-2x"></i>
                             <!--end::Svg Icon-->
@@ -161,7 +160,7 @@ if ($_GET['v'] == 5) {
                 </li>
                 <li class="menu-item menu-item-submenu" aria-haspopup="true" data-menu-toggle="hover">
                     <a href="javascript:;" onclick="javascript:location.href='./favorite_asssesment.php'" class="menu-link menu-toggle px-4 py-2 hover-menu text-center">
-                        <span class="svg-icon-lg nav-icn p-4 rounded-circle bg-light-primary mr-5">
+                        <span class="svg-icon-lg nav-icn p-4 rounded-circle bg-icon mr-5">
                             <i class="icn-file-chart icn-2x"></i>
                         </span>
                         <span class="menu-text menu-text-opened">Explore Landscapes</span>
@@ -209,7 +208,7 @@ if ($_GET['v'] == 5) {
                 </li>
                 <li class="menu-item menu-item-submenu" aria-haspopup="true" data-menu-toggle="hover">
                     <a href="javascript:;" class="menu-link menu-toggle px-4 py-2 hover-menu text-center" id="kt_quick_cart_toggle_link">
-                        <span class="svg-icon-lg p-4 nav-icn rounded-circle bg-light-primary mr-5">
+                        <span class="svg-icon-lg p-4 nav-icn rounded-circle bg-icon mr-5">
                             <!--begin::Svg Icon | path:/metronic/theme/html/demo1/dist/assets/media/svg/icons/Code/Compiling.svg-->
                             <i class="icn-question icn-primary icn-2x"></i>
 
@@ -234,7 +233,7 @@ if ($_GET['v'] == 5) {
                 </li>
                 <li class="menu-item menu-item-submenu" aria-haspopup="true" data-menu-toggle="hover">
                     <a href="javascript:;" onclick="javascript:location.href='./html_theme.php'" class="menu-link menu-toggle px-4 py-2 hover-menu text-center">
-                        <span class="svg-icon-lg p-4 nav-icn rounded-circle bg-light-primary mr-5">
+                        <span class="svg-icon-lg p-4 nav-icn rounded-circle bg-icon mr-5">
 
                             <i class="icn-file icn-primary icn-2x"></i>
                             <!--end::Svg Icon-->
@@ -286,7 +285,7 @@ if ($_GET['v'] == 5) {
 
                 <li class="menu-item menu-item-submenu" aria-haspopup="true" data-menu-toggle="hover">
                     <a href="javascript:;" onclick="javascript:location.href='./html_theme.php'" class="menu-link menu-toggle px-4 py-2 hover-menu text-center">
-                        <span class="svg-icon-lg p-4 nav-icn rounded-circle bg-light-primary mr-5">
+                        <span class="svg-icon-lg p-4 nav-icn rounded-circle bg-icon mr-5">
 
                             <i class="icn-file icn-primary icn-2x"></i>
                             <!--end::Svg Icon-->

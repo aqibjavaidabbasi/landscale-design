@@ -31905,6 +31905,10 @@ a.text-white:focus {
     background-color: #EBF2E4 !important;
 }
 
+.bg-icon {
+    background-color: #FAF3EC !important;
+}
+
 .bg-hover-light-primary {
     -webkit-transition: all 0.15s ease;
     transition: all 0.15s ease;
