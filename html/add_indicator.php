@@ -377,10 +377,10 @@ License: You must have a valid license purchased only from themeforest(the above
                                             </div>
                                             <div class="tab-content" id="v-pills-tabContent">
                                                 <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
-                                                    <div class="accordion m-5" id="accordionExample-0">
+                                                    <div class="accordion accordion-toggle-arrow" id="accordionExample-0">
                                                         <div class="card indicator-accordian-card">
                                                             <div class="card-header bg-white indicator-accordian-card-header" id="headingOne-0">
-                                                                <div class="btn btn-block text-left indicator-accordian-responsive" role="region" data-toggle="collapse" data-target="#collapseOne-0" aria-expanded="true" aria-controls="collapseOne-0">
+                                                                <div class="btn btn-block text-left card-accordian" role="region" data-toggle="collapse" data-target="#collapseOne-0" aria-expanded="true" aria-controls="collapseOne-0">
                                                                     <div class="row">
                                                                         <div class="col-lg-1 col-md-1 col-sm-12 col-xs-12">
                                                                             <div class="d-flex align-items-center h-100">
@@ -399,9 +399,6 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                             <span class="steps-tags-text steps-success-tag p-1 custom-position-relative d-flex align-items-center h-100">
                                                                                 Completed
                                                                             </span>
-                                                                        </div>
-                                                                        <div class="col-lg-1 col-md-1 col-sm-12 col-xs-12">
-                                                                            <span class="d-flex align-items-center h-100 p-1"><i class="fas fa-chevron-up"></i></span>
                                                                         </div>
                                                                     </div>
                                                                 </div>
@@ -501,7 +498,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                         </div>
                                                         <div class="card indicator-accordian-card">
                                                             <div class="card-header bg-white indicator-accordian-card-header" id="headingTwo-0">
-                                                                <div class="btn btn-block text-left collapsed indicator-accordian-responsive" role="region" data-toggle="collapse" data-target="#collapseTwo-0" aria-expanded="false" aria-controls="collapseTwo-0">
+                                                                <div class="btn btn-block text-left collapsed card-accordian" role="region" data-toggle="collapse" data-target="#collapseTwo-0" aria-expanded="false" aria-controls="collapseTwo-0">
                                                                     <div class="row">
                                                                         <div class="col-lg-1 col-md-1 col-sm-12 col-xs-12">
                                                                             <div class="d-flex align-items-center h-100">
@@ -521,9 +518,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                 Completed
                                                                             </span>
                                                                         </div>
-                                                                        <div class="col-lg-1 col-md-1 col-sm-12 col-xs-12">
-                                                                            <span class="d-flex align-items-center h-100 p-1"><i class="fas fa-chevron-down"></i></span>
-                                                                        </div>
+                                                                        
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -612,7 +607,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                         </div>
                                                         <div class="card indicator-accordian-card">
                                                             <div class="card-header bg-white indicator-accordian-card-header" id="headingTwo-3">
-                                                                <div class="btn btn-block text-left collapsed indicator-accordian-responsive" role="region" data-toggle="collapse" data-target="#collapseTwo-3" aria-expanded="false" aria-controls="collapseTwo-3">
+                                                                <div class="btn btn-block text-left collapsed card-accordian" role="region" data-toggle="collapse" data-target="#collapseTwo-3" aria-expanded="false" aria-controls="collapseTwo-3">
                                                                     <div class="row">
                                                                         <div class="col-lg-1 col-md-1 col-sm-12 col-xs-12">
                                                                             <div class="d-flex align-items-center h-100">
@@ -632,9 +627,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                 Completed
                                                                             </span>
                                                                         </div>
-                                                                        <div class="col-lg-1 col-md-1 col-sm-12 col-xs-12">
-                                                                            <span class="d-flex align-items-center h-100 p-1"><i class="fas fa-chevron-down"></i></span>
-                                                                        </div>
+                                                                        
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -725,10 +718,10 @@ License: You must have a valid license purchased only from themeforest(the above
                                                     </div>
                                                 </div>
                                                 <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
-                                                    <div class="accordion m-5" id="accordionExample-1">
+                                                    <div class="accordion accordion-toggle-arrow" id="accordionExample-1">
                                                         <div class="card indicator-accordian-card">
                                                             <div class="card-header bg-white indicator-accordian-card-header" id="headingOne-0">
-                                                                <div class="btn btn-block text-left indicator-accordian-responsive" role="region" data-toggle="collapse" data-target="#collapseOne-0" aria-expanded="true" aria-controls="collapseOne-0">
+                                                                <div class="btn btn-block text-left card-accordian" role="region" data-toggle="collapse" data-target="#collapseOne-0" aria-expanded="true" aria-controls="collapseOne-0">
                                                                     <div class="row">
                                                                         <div class="col-lg-1 col-md-1 col-sm-12 col-xs-12">
                                                                             <div class="d-flex align-items-center h-100">
@@ -748,9 +741,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                 Completed
                                                                             </span>
                                                                         </div>
-                                                                        <div class="col-lg-1 col-md-1 col-sm-12 col-xs-12">
-                                                                            <span class="d-flex align-items-center h-100 p-1"><i class="fas fa-chevron-down"></i></span>
-                                                                        </div>
+                                                                        
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -849,7 +840,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                         </div>
                                                         <div class="card indicator-accordian-card">
                                                             <div class="card-header bg-white indicator-accordian-card-header" id="headingTwo-0">
-                                                                <div class="btn btn-block text-left collapsed indicator-accordian-responsive" role="region" data-toggle="collapse" data-target="#collapseTwo-0" aria-expanded="false" aria-controls="collapseTwo-0">
+                                                                <div class="btn btn-block text-left collapsed card-accordian" role="region" data-toggle="collapse" data-target="#collapseTwo-0" aria-expanded="false" aria-controls="collapseTwo-0">
                                                                     <div class="row">
                                                                         <div class="col-lg-1 col-md-1 col-sm-12 col-xs-12">
                                                                             <div class="d-flex align-items-center h-100">
@@ -869,9 +860,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                 Completed
                                                                             </span>
                                                                         </div>
-                                                                        <div class="col-lg-1 col-md-1 col-sm-12 col-xs-12">
-                                                                            <span class="d-flex align-items-center h-100 p-1"><i class="fas fa-chevron-down"></i></span>
-                                                                        </div>
+                                                                        
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -962,10 +951,10 @@ License: You must have a valid license purchased only from themeforest(the above
                                                     </div>
                                                 </div>
                                                 <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
-                                                    <div class="accordion m-5" id="accordionExample-1">
+                                                    <div class="accordion accordion-toggle-arrow" id="accordionExample-1">
                                                         <div class="card indicator-accordian-card">
                                                             <div class="card-header bg-white indicator-accordian-card-header" id="headingOne-0">
-                                                                <div class="btn btn-block text-left indicator-accordian-responsive" role="region" data-toggle="collapse" data-target="#collapseOne-0" aria-expanded="true" aria-controls="collapseOne-0">
+                                                                <div class="btn btn-block text-left card-accordian" role="region" data-toggle="collapse" data-target="#collapseOne-0" aria-expanded="true" aria-controls="collapseOne-0">
                                                                     <div class="row">
                                                                         <div class="col-lg-1 col-md-1 col-sm-12 col-xs-12">
                                                                             <div class="d-flex align-items-center h-100">
@@ -985,9 +974,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                 Completed
                                                                             </span>
                                                                         </div>
-                                                                        <div class="col-lg-1 col-md-1 col-sm-12 col-xs-12">
-                                                                            <span class="d-flex align-items-center h-100 p-1"><i class="fas fa-chevron-down"></i></span>
-                                                                        </div>
+                                                                        
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -1086,7 +1073,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                         </div>
                                                         <div class="card indicator-accordian-card">
                                                             <div class="card-header bg-white indicator-accordian-card-header" id="headingTwo-0">
-                                                                <div class="btn btn-block text-left collapsed indicator-accordian-responsive" role="region" data-toggle="collapse" data-target="#collapseTwo-0" aria-expanded="false" aria-controls="collapseTwo-0">
+                                                                <div class="btn btn-block text-left collapsed card-accordian" role="region" data-toggle="collapse" data-target="#collapseTwo-0" aria-expanded="false" aria-controls="collapseTwo-0">
                                                                     <div class="row">
                                                                         <div class="col-lg-1 col-md-1 col-sm-12 col-xs-12">
                                                                             <div class="d-flex align-items-center h-100">
@@ -1106,9 +1093,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                 Completed
                                                                             </span>
                                                                         </div>
-                                                                        <div class="col-lg-1 col-md-1 col-sm-12 col-xs-12">
-                                                                            <span class="d-flex align-items-center h-100 p-1"><i class="fas fa-chevron-down"></i></span>
-                                                                        </div>
+                                                                        
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -1199,10 +1184,10 @@ License: You must have a valid license purchased only from themeforest(the above
                                                     </div>
                                                 </div>
                                                 <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">
-                                                    <div class="accordion m-5" id="accordionExample-1">
+                                                    <div class="accordion accordion-toggle-arrow" id="accordionExample-1">
                                                         <div class="card indicator-accordian-card">
                                                             <div class="card-header bg-white indicator-accordian-card-header" id="headingOne-0">
-                                                                <div class="btn btn-block text-left indicator-accordian-responsive" role="region" data-toggle="collapse" data-target="#collapseOne-0" aria-expanded="true" aria-controls="collapseOne-0">
+                                                                <div class="btn btn-block text-left card-accordian" role="region" data-toggle="collapse" data-target="#collapseOne-0" aria-expanded="true" aria-controls="collapseOne-0">
                                                                     <div class="row">
                                                                         <div class="col-lg-1 col-md-1 col-sm-12 col-xs-12">
                                                                             <div class="d-flex align-items-center h-100">
@@ -1222,9 +1207,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                 Completed
                                                                             </span>
                                                                         </div>
-                                                                        <div class="col-lg-1 col-md-1 col-sm-12 col-xs-12">
-                                                                            <span class="d-flex align-items-center h-100 p-1"><i class="fas fa-chevron-down"></i></span>
-                                                                        </div>
+                                                                        
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -1323,7 +1306,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                         </div>
                                                         <div class="card indicator-accordian-card">
                                                             <div class="card-header bg-white indicator-accordian-card-header" id="headingTwo-0">
-                                                                <div class="btn btn-block text-left collapsed indicator-accordian-responsive" role="region" data-toggle="collapse" data-target="#collapseTwo-0" aria-expanded="false" aria-controls="collapseTwo-0">
+                                                                <div class="btn btn-block text-left collapsed card-accordian" role="region" data-toggle="collapse" data-target="#collapseTwo-0" aria-expanded="false" aria-controls="collapseTwo-0">
                                                                     <div class="row">
                                                                         <div class="col-lg-1 col-md-1 col-sm-12 col-xs-12">
                                                                             <div class="d-flex align-items-center h-100">
@@ -1343,9 +1326,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                 Completed
                                                                             </span>
                                                                         </div>
-                                                                        <div class="col-lg-1 col-md-1 col-sm-12 col-xs-12">
-                                                                            <span class="d-flex align-items-center h-100 p-1"><i class="fas fa-chevron-down"></i></span>
-                                                                        </div>
+                                                                        
                                                                     </div>
                                                                 </div>
                                                             </div>
