@@ -604,7 +604,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                             </button>
                                             <div class="tab-content" id="v-pills-tabContent">
                                                 <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
-                                                    <div class="accordion m-5" id="accordionExample">
+                                                    <div class="accordion accordion-toggle-arrow" id="accordionExample">
                                                         <div class="bg-light d-none btlr-15 btrr-15" id="headingTwo-header">
                                                             <div class="btn btn-block text-left d-flex justify-content-between align-items-center indicator-accordian-responsive">
                                                                 <span class="font-text">
@@ -615,7 +615,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                         </div>
                                                         <div class="card indicator-accordian-card indicator-border-top-15">
                                                             <div class="card-header bg-white indicator-accordian-card-header indicator-border-bottom-15 accordian-header-click" id="headingTwo">
-                                                                <div class="btn btn-block text-left collapsed indicator-accordian-responsive" role="region" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                                                <div class="btn btn-block text-left collapsed indicator-accordian-responsive card-accordian" role="region" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                                                                     <div class="row">
                                                                         <div class="col-lg-1 col-md-1 col-sm-12 col-xs-12 pr-0 max-w-6-percent">
                                                                             <div class="d-flex align-items-center h-100">
@@ -644,7 +644,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                             </div>
                                                             <div id="collapseTwo" class="collapse indicator-responsive-collapse" aria-labelledby="headingTwo">
                                                                 <div class="card">
-                                                                    <div class="pl-17 py-4 d-flex justify-content-between align-items-center" data-toggle="collapse" data-target="#collapseOneA">
+                                                                    <div class="pl-17 py-4 d-flex justify-content-between align-items-center card-accordian" data-toggle="collapse" data-target="#collapseOneA">
                                                                         <span class="text-primary">1.1.1 Effective conservation and protection of natural ecosystems</span>
                                                                         <span class="pr-20"> <i class="fas fa-chevron-down"></i></span>
                                                                     </div>
@@ -826,7 +826,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                     </div>
                                                                 </div>
                                                                 <div class="card">
-                                                                    <div class="pl-17 py-4 d-flex justify-content-between align-items-center" data-toggle="collapse" data-target="#collapseOneB">
+                                                                    <div class="pl-17 py-4 d-flex justify-content-between align-items-center card-accordian" data-toggle="collapse" data-target="#collapseOneB">
                                                                         <span class="text-primary">1.1.2 Natural ecosystem conversion</span>
                                                                         <span class="pr-20"> <i class="fas fa-chevron-down"></i></span>
                                                                     </div>
