@@ -466,9 +466,9 @@ License: You must have a valid license purchased only from themeforest(the above
                                             </button>
                                             <div class="tab-content" id="v-pills-tabContent">
                                                 <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
-                                                    <div id="accordion" class="my-7">
+                                                    <div id="accordion" class="my-7 accordion accordion-toggle-arrow">
                                                         <div class="card">
-                                                            <div id="headingOne" class="card-header p-4" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                                            <div id="headingOne" class="card-header p-4 card-accordian" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                                                                 <div class="row">
                                                                     <div class="col-lg-1 col-md-1 col-sm-12 col-xs-12 pr-0 max-w-6-percent">
                                                                         <div class="d-flex align-items-center h-100">
@@ -482,27 +482,24 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                             </h5>
                                                                         </div>
                                                                     </div>
-                                                                    <div class="col-lg-1 col-md-1 col-sm-12 col-xs-12 pr-0">
-                                                                        <span class="d-flex align-items-center h-100 p-1"><i class="fas fa-chevron-down"></i></span>
-                                                                    </div>
                                                                 </div>
                                                             </div>
-                                                            <div id="collapseOne" class="collapse" aria-labelledby="headingOne">
-                                                                <div id="child1">
+                                                            <div id="collapseOne" class="collapse accordion accordion-toggle-arrow" aria-labelledby="headingOne">
+                                                                <div id="child1" class="card">
                                                                     <div class="text-primary">
-                                                                        <div class="card-header pl-12 pr-22 py-5 d-flex justify-content-between align-items-center" data-toggle="collapse" data-target="#collapseOneA">
+                                                                        <div class="card-header pl-12 pr-22 py-5 d-flex justify-content-between align-items-center card-accordian" data-toggle="collapse" data-target="#collapseOneA">
                                                                             <span>1.1.1 Effective conservation and protection of natural ecosystems</span>
-                                                                            <i class="fas fa-chevron-down"></i>
+                                                                            
                                                                         </div>
                                                                         <div class="collapse" id="collapseOneA">
-                                                                            <div class="card-header pl-14 py-4 pr-22 d-flex justify-content-between align-items-center" data-toggle="collapse" data-target="#collapseOneB">
+                                                                            <div class="card-header pl-14 py-4 pr-22 d-flex justify-content-between align-items-center card-accordian" data-toggle="collapse" data-target="#collapseOneB">
                                                                                 <span>1.1.1.1 Total area (ha) & percentage (%) of the landscape in designated protected areas disaggregated by natural ecosystem type</span>
-                                                                                <i class="fas fa-chevron-down"></i>
+                                                                                
                                                                             </div>
                                                                             <div class="collapse" id="collapseOneB">
-                                                                                <div class="card-header pl-16 py-4 pr-22 d-flex justify-content-between align-items-center" data-toggle="collapse" data-target="#collapseOneC">
+                                                                                <div class="card-header pl-16 py-4 pr-22 d-flex justify-content-between align-items-center card-accordian" data-toggle="collapse" data-target="#collapseOneC">
                                                                                     <span>Demo_LR</span>
-                                                                                    <i class="fas fa-chevron-down"></i>
+                                                                                    
                                                                                 </div>
                                                                                 <div class="collapse pl-18 p-4" id="collapseOneC">
                                                                                     Another flipp runch wolf moon tempor, sunt aliqua put a bird.
@@ -511,19 +508,19 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                         </div>
                                                                     </div>
                                                                     <div class="text-primary">
-                                                                        <div class="card-header pl-12 py-5 pr-22 d-flex justify-content-between align-items-center" data-toggle="collapse" data-target="#collapseOne2">
+                                                                        <div class="card-header pl-12 py-5 pr-22 d-flex justify-content-between align-items-center card-accordian" data-toggle="collapse" data-target="#collapseOne2">
                                                                             <span>1.1.2 Natural ecosystem conversion</span>
-                                                                            <i class="fas fa-chevron-down"></i>
+                                                                            
                                                                         </div>
                                                                         <div class="collapse" id="collapseOne2">
-                                                                            <div class="card-header pl-14 py-4 pr-22 d-flex justify-content-between align-items-center" data-toggle="collapse" data-target="#collapseOneD">
+                                                                            <div class="card-header pl-14 py-4 pr-22 d-flex justify-content-between align-items-cente card-accordian" data-toggle="collapse" data-target="#collapseOneD">
                                                                                 <span href="#">1.1.2.1 Total area (ha) & percentage (%) of area of natural ecosystems in the landscape that has been recently converted</span>
-                                                                                <i class="fas fa-chevron-down"></i>
+                                                                                
                                                                             </div>
                                                                             <div class="collapse" id="collapseOneD">
-                                                                                <div class="card-header pl-16 py-4 pr-22 d-flex justify-content-between align-items-center" data-toggle="collapse" data-target="#collapseOneE">
+                                                                                <div class="card-header pl-16 py-4 pr-22 d-flex justify-content-between align-items-center card-accordian" data-toggle="collapse" data-target="#collapseOneE">
                                                                                     <span href="#">Demo_LR</span>
-                                                                                    <i class="fas fa-chevron-down"></i>
+                                                                                    
                                                                                 </div>
                                                                                 <div class="collapse pl-18 p-4" id="collapseOneE">
                                                                                     Another flipp runch wolf moon tempor, sunt aliqua put a bird.
