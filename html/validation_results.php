@@ -524,10 +524,10 @@ License: You must have a valid license purchased only from themeforest(the above
                                             </button>
                                             <div class="tab-content" id="v-pills-tabContent">
                                                 <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
-                                                    <div class="accordion m-5" id="accordionExample-0">
+                                                    <div class="accordion accordion-toggle-arrow" id="accordionExample-0">
                                                         <div class="card indicator-accordian-card">
                                                             <div class="card-header bg-white indicator-accordian-card-header" id="headingOne-0">
-                                                                <div class="btn btn-block text-left indicator-accordian-responsive" role="region" data-toggle="collapse" data-target="#collapseOne-0" aria-expanded="true" aria-controls="collapseOne-0">
+                                                                <div class="btn btn-block text-left indicator-accordian-responsive card-accordian" role="region" data-toggle="collapse" data-target="#collapseOne-0" aria-expanded="true" aria-controls="collapseOne-0">
                                                                     <div class="row">
                                                                         <div class="col-lg-1 col-md-1 col-sm-12 col-xs-12 pr-0 max-w-6-percent">
                                                                             <div class="d-flex align-items-center h-100">
@@ -541,21 +541,15 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                 </span>
                                                                             </div>
                                                                         </div>
-
-                                                                        <div class="col-lg-1 col-md-1 col-sm-12 col-xs-12">
-                                                                            <div class="d-flex align-items-center h-100">
-                                                                                <span class=" p-1"><i class="fas fa-chevron-up"></i></span>
-                                                                            </div>
-                                                                        </div>
                                                                     </div>
                                                                 </div>
                                                             </div>
 
                                                             <div id="collapseOne-0" class="collapse show" aria-labelledby="headingOne-0">
                                                                 <div class="card">
-                                                                    <div class="pl-17 py-4 d-flex justify-content-between align-items-center" data-toggle="collapse" data-target="#collapseOneA">
+                                                                    <div class="pl-17 py-4 d-flex justify-content-between align-items-center card-accordian" data-toggle="collapse" data-target="#collapseOneA">
                                                                         <span class="text-primary">1.1.1 Effective conservation and protection of natural ecosystems</span>
-                                                                        <span class="pr-20"><i class="fas fa-chevron-down"></i></span>
+                                                                        
                                                                     </div>
                                                                     <div class="collapse" id="collapseOneA">
                                                                         <div class="mx-5 border-color-pale mb-5 indicator-responsive-collapse">
@@ -627,9 +621,9 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                     </div>
                                                                 </div>
                                                                 <div class="card">
-                                                                    <div class="pl-17 py-4 d-flex justify-content-between align-items-center" data-toggle="collapse" data-target="#collapseOneB">
+                                                                    <div class="pl-17 py-4 d-flex justify-content-between align-items-center card-accordian" data-toggle="collapse" data-target="#collapseOneB">
                                                                         <span class="text-primary">1.1.2 Natural ecosystem conversion</span>
-                                                                        <span class="pr-20"><i class="fas fa-chevron-down"></i></span>
+                                                                        
                                                                     </div>
                                                                     <div class="collapse border-bottom-secondary" id="collapseOneB">
                                                                         <div class="mx-5 border-color-pale mb-5 indicator-responsive-collapse">
@@ -770,7 +764,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                         </div>
                                                         <div class="card indicator-accordian-card">
                                                             <div class="card-header bg-white indicator-accordian-card-header" id="headingTwo-0">
-                                                                <div class="btn btn-block text-left collapsed indicator-accordian-responsive" role="region" data-toggle="collapse" data-target="#collapseTwo-0" aria-expanded="false" aria-controls="collapseTwo-0">
+                                                                <div class="btn btn-block text-left collapsed indicator-accordian-responsive card-accordian" role="region" data-toggle="collapse" data-target="#collapseTwo-0" aria-expanded="false" aria-controls="collapseTwo-0">
                                                                     <div class="row">
                                                                         <div class="col-lg-1 col-md-1 col-sm-12 col-xs-12 pr-0 max-w-6-percent">
                                                                             <div class="d-flex align-items-center h-100">
@@ -784,21 +778,15 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                 </span>
                                                                             </div>
                                                                         </div>
-
-                                                                        <div class="col-lg-1 col-md-1 col-sm-12 col-xs-12">
-                                                                            <div class="d-flex align-items-center h-100">
-                                                                                <span class=" p-1"><i class="fas fa-chevron-down"></i></span>
-                                                                            </div>
-                                                                        </div>
                                                                     </div>
 
                                                                 </div>
                                                             </div>
                                                             <div id="collapseTwo-0" class="collapse" aria-labelledby="headingTwo-0">
                                                                 <div class="card">
-                                                                    <div class="pl-17 py-4 d-flex justify-content-between align-items-center" data-toggle="collapse" data-target="#collapseTwoA">
+                                                                    <div class="pl-17 py-4 d-flex justify-content-between align-items-center card-accordian" data-toggle="collapse" data-target="#collapseTwoA">
                                                                         <span class="text-primary">1.2.1 Threats to species</span>
-                                                                        <span class="pr-20"><i class="fas fa-chevron-down"></i></span>
+                                                                        
                                                                     </div>
                                                                     <div class="collapse" id="collapseTwoA">
                                                                         <div class="mx-5 border-color-pale mb-5 indicator-responsive-collapse">
@@ -870,9 +858,9 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                     </div>
                                                                 </div>
                                                                 <div class="card">
-                                                                    <div class="pl-17 py-4 d-flex justify-content-between align-items-center" data-toggle="collapse" data-target="#collapseTwoB">
+                                                                    <div class="pl-17 py-4 d-flex justify-content-between align-items-center card-accordian" data-toggle="collapse" data-target="#collapseTwoB">
                                                                         <span class="text-primary">1.2.2 Biodiversity habitat conversion</span>
-                                                                        <span class="pr-20"><i class="fas fa-chevron-down"></i></span>
+                                                                        
                                                                     </div>
                                                                     <div class="collapse border-bottom-secondary" id="collapseTwoB">
                                                                         <div class="mx-5 border-color-pale mb-5 indicator-responsive-collapse">
