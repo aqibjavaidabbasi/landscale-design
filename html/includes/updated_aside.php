@@ -1,11 +1,28 @@
+<?php
+$backgroundColor = 'background-color:#fff;';
+$iconBackground = 'background-color:#FAF3EC !important;;';
+if ($_GET['v'] == 2) {
+    $backgroundColor = 'background-color:#94BF78 !important;';
+}
+if ($_GET['v'] == 3) {
+    $backgroundColor = 'background-color:#4c94A0 !important;';
+}
+if ($_GET['v'] == 4) {
+    $backgroundColor = 'background-color:#fec094 !important;';
+}
+if ($_GET['v'] == 5) {
+    $backgroundColor = 'background-color:#9fcdef !important;';
+}
+?>
+
 <!--begin::Aside-->
-<div class="aside aside-left aside-fixed d-flex flex-column flex-row-auto box-shadow-0" id="kt_aside">
+<div class="aside aside-left aside-fixed d-flex flex-column flex-row-auto box-shadow-0" id="kt_aside" style="<?php echo $backgroundColor; ?>">
     <!--begin::Brand-->
     <div class="brand flex-column-auto primary-border-right primary-border-bottom" id="kt_brand">
         <!--begin::Logo-->
         <a href="../index.php" class="brand-logo">
-            <img alt="Logo" id="menu_close_img" src="../assets/media/landscale_icon.svg">
-            <img alt="Logo" id="menu_open_img" class="d-none" src="../assets/media/logo/FullColour/Landscale Logo_Full_Colour.png" width="220px">
+            <img alt="Logo" id="menu_close_img" src="../assets/media/landscale_icon.svg" style="border: 2px solid #fff; padding: 5px;">
+            <img alt="Logo" id="menu_open_img" class="d-none" src="../../assets/media/logo/White/Landscale_Logo_White.png" width="220px" style="border: 2px solid #fff; padding: 5px;">
         </a>
         <!--end::Logo-->
     </div>
@@ -13,7 +30,7 @@
     <!--begin::Aside Menu-->
     <div class="aside-menu-wrapper flex-column-fluid" id="kt_aside_menu_wrapper">
         <!--begin::Menu Container-->
-        <div id="kt_aside_menu" class="aside-menu my-4 aside-menu-dropdown" data-menu-vertical="1" data-menu-dropdown="1" data-menu-scroll="0" data-menu-dropdown-timeout="500">
+        <div id="kt_aside_menu" class="aside-menu my-4 aside-menu-dropdown" data-menu-vertical="1" data-menu-dropdown="1" data-menu-scroll="0" data-menu-dropdown-timeout="500" style="<?php echo $backgroundColor; ?>">
             <!--begin::Menu Nav-->
             <div class="mob-resp">
                 <div class="input-group custom-search-bar p-3">
@@ -348,7 +365,7 @@
 
                                         </span>
                                     </i>
-                                    <span class="menu-text">Version 4</span>
+                                    <span class="menu-text">Version 5</span>
                                 </a>
                             </li>
                         </ul>
