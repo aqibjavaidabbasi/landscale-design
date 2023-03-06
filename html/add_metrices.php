@@ -333,7 +333,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                     </svg>
                                                 </span>
                                             </button>
-                                            <div class="tab-content" id="v-pills-tabContent">
+                                            <div class="tab-content my-10" id="v-pills-tabContent">
                                                 <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
                                                     <!-- <div class="mt-5 px-5">
                                                         <div class="select-wrapper">
@@ -343,10 +343,10 @@ License: You must have a valid license purchased only from themeforest(the above
                                                             </select>
                                                         </div>
                                                     </div> -->
-                                                    <div class="accordion m-5" id="accordionExample-0">
+                                                    <div class="accordion accordion-toggle-arrow" id="accordionExample-0">
                                                         <div class="card indicator-accordian-card">
                                                             <div class="card-header bg-white indicator-accordian-card-header" id="headingOne-0">
-                                                                <div class="btn btn-block text-left indicator-accordian-responsive" role="region" data-toggle="collapse" data-target="#collapseOne-0" aria-expanded="true" aria-controls="collapseOne-0">
+                                                                <div class="btn btn-block text-left card-accordian" role="region" data-toggle="collapse" data-target="#collapseOne-0" aria-expanded="true" aria-controls="collapseOne-0">
                                                                     <div class="row">
                                                                         <div class="col-lg-1 col-md-1 col-sm-12 col-xs-12 pr-0 max-w-6-percent">
                                                                             <div class="d-flex align-items-center h-100">
@@ -366,18 +366,16 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                 Completed
                                                                             </span>
                                                                         </div>
-                                                                        <div class="col-lg-1 col-md-1 col-sm-12 col-xs-12">
-                                                                            <span class="d-flex align-items-center h-100 p-1"><i class="fas fa-chevron-up"></i></span>
-                                                                        </div>
+                                                                        
                                                                     </div>
                                                                 </div>
                                                             </div>
 
-                                                            <div id="collapseOne-0" class="collapse show" aria-labelledby="headingOne-0">
+                                                            <div id="collapseOne-0" class="collapse show accordion accordion-toggle-arrow" aria-labelledby="headingOne-0">
                                                                 <div class="card">
-                                                                    <div class="pl-17 py-4 d-flex justify-content-between align-items-center" data-toggle="collapse" data-target="#collapseOneA">
+                                                                    <div class="pl-17 py-4 d-flex justify-content-between align-items-center card-accordian" data-toggle="collapse" data-target="#collapseOneA">
                                                                         <span class="text-primary">1.1.1 Effective conservation and protection of natural ecosystems</span>
-                                                                        <span class="d-flex align-items-center h-100 pr-20"><i class="fas fa-chevron-down"></i></span>
+                                                                        
                                                                     </div>
                                                                     <div class="collapse border-bottom-secondary" id="collapseOneA">
                                                                         <div class="mx-10 mt-5">
@@ -472,9 +470,9 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                     </div>
                                                                 </div>
                                                                 <div class="card">
-                                                                    <div class="pl-17 py-4 d-flex justify-content-between align-items-center" data-toggle="collapse" data-target="#collapseOneB">
+                                                                    <div class="pl-17 py-4 d-flex justify-content-between align-items-center card-accordian" data-toggle="collapse" data-target="#collapseOneB">
                                                                         <span class="text-primary">1.1.2 Natural ecosystem conversion</span>
-                                                                        <span class="d-flex align-items-center h-100 pr-20"><i class="fas fa-chevron-down"></i></span>
+                                                                        
                                                                     </div>
                                                                     <div class="collapse border-bottom-secondary" id="collapseOneB">
                                                                         <div class="mx-10 mt-5">
@@ -596,7 +594,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                         </div>
                                                         <div class="card indicator-accordian-card">
                                                             <div class="card-header bg-white indicator-accordian-card-header" id="headingTwo-0">
-                                                                <div class="btn btn-block text-left collapsed indicator-accordian-responsive" role="region" data-toggle="collapse" data-target="#collapseTwo-0" aria-expanded="false" aria-controls="collapseTwo-0">
+                                                                <div class="btn btn-block text-left collapsed card-accordian" role="region" data-toggle="collapse" data-target="#collapseTwo-0" aria-expanded="false" aria-controls="collapseTwo-0">
                                                                     <div class="row">
                                                                         <div class="col-lg-1 col-md-1 col-sm-12 col-xs-12 pr-0 max-w-6-percent">
                                                                             <div class="d-flex align-items-center h-100">
@@ -616,17 +614,15 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                 Completed
                                                                             </span>
                                                                         </div>
-                                                                        <div class="col-lg-1 col-md-1 col-sm-12 col-xs-12">
-                                                                            <span class="d-flex align-items-center h-100 p-1"><i class="fas fa-chevron-down"></i></span>
-                                                                        </div>
+                                                                        
                                                                     </div>
                                                                 </div>
                                                             </div>
-                                                            <div id="collapseTwo-0" class="collapse" aria-labelledby="headingTwo-0">
+                                                            <div id="collapseTwo-0" class="collapse accordion accordion-toggle-arrow" aria-labelledby="headingTwo-0">
                                                                 <div class="card">
-                                                                    <div class="pl-17 py-4 d-flex justify-content-between align-items-center cursor-pointer" data-toggle="collapse" data-target="#collapseTwoA">
+                                                                    <div class="pl-17 py-4 d-flex justify-content-between align-items-center cursor-pointer card-accordian" data-toggle="collapse" data-target="#collapseTwoA">
                                                                         <span class="text-primary">1.2.1 Threats to species</span>
-                                                                        <span class="d-flex align-items-center h-100 pr-20"><i class="fas fa-chevron-down"></i></span>
+                                                                        
                                                                     </div>
                                                                     <div class="collapse border-bottom-secondary" id="collapseTwoA">
                                                                         <div class="mx-10 mt-5">
@@ -703,10 +699,10 @@ License: You must have a valid license purchased only from themeforest(the above
                                                 </div>
                                                 <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
 
-                                                    <div class="accordion m-5" id="accordionExample-0">
+                                                    <div class="accordion accordion-toggle-arrow" id="accordionExample-0">
                                                         <div class="card indicator-accordian-card">
                                                             <div class="card-header bg-white indicator-accordian-card-header" id="headingOne-0">
-                                                                <div class="btn btn-block text-left indicator-accordian-responsive" role="region" data-toggle="collapse" data-target="#collapseOne-0" aria-expanded="true" aria-controls="collapseOne-0">
+                                                                <div class="btn btn-block text-left card-accordian" role="region" data-toggle="collapse" data-target="#collapseOne-0" aria-expanded="true" aria-controls="collapseOne-0">
                                                                     <div class="row">
                                                                         <div class="col-lg-1 col-md-1 col-sm-12 col-xs-12 pr-0 max-w-6-percent">
                                                                             <div class="d-flex align-items-center h-100">
@@ -726,18 +722,16 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                 Completed
                                                                             </span>
                                                                         </div>
-                                                                        <div class="col-lg-1 col-md-1 col-sm-12 col-xs-12">
-                                                                            <span class="d-flex align-items-center h-100 p-1"><i class="fas fa-chevron-up"></i></span>
-                                                                        </div>
+                                                                        
                                                                     </div>
                                                                 </div>
                                                             </div>
 
-                                                            <div id="collapseOne-0" class="collapse show cursor-pointer text-primary" aria-labelledby="headingOne-0">
+                                                            <div id="collapseOne-0" class="collapse show cursor-pointer text-primary accordion accordion-toggle-arrow" aria-labelledby="headingOne-0">
                                                                 <div class="card">
-                                                                    <div class="pl-17 py-4 d-flex justify-content-between align-items-center" data-toggle="collapse" data-target="#collapseOneA">
+                                                                    <div class="pl-17 py-4 d-flex justify-content-between align-items-center card-accordian" data-toggle="collapse" data-target="#collapseOneA">
                                                                         <span>2.1.1 Household income & assets</span>
-                                                                        <span class="d-flex align-items-center h-100 pr-20"><i class="fas fa-chevron-down"></i></span>
+                                                                        
                                                                     </div>
                                                                     <div class="collapse border-bottom-secondary" id="collapseOneA">
                                                                         <div class="mx-10 mt-5">
@@ -807,9 +801,9 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                     </div>
                                                                 </div>
                                                                 <div class="card">
-                                                                    <div class="pl-17 py-4 d-flex justify-content-between align-items-center" data-toggle="collapse" data-target="#collapseOneB">
+                                                                    <div class="pl-17 py-4 d-flex justify-content-between align-items-center card-accordian" data-toggle="collapse" data-target="#collapseOneB">
                                                                         <span>2.1.2 Health & nutrition</span>
-                                                                        <span class="d-flex align-items-center h-100 pr-20"><i class="fas fa-chevron-down"></i></span>
+                                                                        
                                                                     </div>
                                                                     <div class="collapse border-bottom-secondary" id="collapseOneB">
                                                                         <div class="mx-10 mt-5">
@@ -906,7 +900,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                         </div>
                                                         <div class="card indicator-accordian-card">
                                                             <div class="card-header bg-white indicator-accordian-card-header" id="headingTwo-0">
-                                                                <div class="btn btn-block text-left collapsed indicator-accordian-responsive" role="region" data-toggle="collapse" data-target="#collapseTwo-0" aria-expanded="false" aria-controls="collapseTwo-0">
+                                                                <div class="btn btn-block text-left collapsed card-accordian" role="region" data-toggle="collapse" data-target="#collapseTwo-0" aria-expanded="false" aria-controls="collapseTwo-0">
                                                                     <div class="row">
                                                                         <div class="col-lg-1 col-md-1 col-sm-12 col-xs-12 pr-0 max-w-6-percent">
                                                                             <div class="d-flex align-items-center h-100">
@@ -926,17 +920,15 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                 Completed
                                                                             </span>
                                                                         </div>
-                                                                        <div class="col-lg-1 col-md-1 col-sm-12 col-xs-12">
-                                                                            <span class="d-flex align-items-center h-100 p-1"><i class="fas fa-chevron-down"></i></span>
-                                                                        </div>
+                                                                        
                                                                     </div>
                                                                 </div>
                                                             </div>
-                                                            <div id="collapseTwo-0" class="collapse text-primary cursor-pointer" aria-labelledby="headingTwo-0">
+                                                            <div id="collapseTwo-0" class="collapse text-primary cursor-pointer accordion accordion-toggle-arrow" aria-labelledby="headingTwo-0">
                                                                 <div class="card">
-                                                                    <div class="pl-17 py-4 d-flex justify-content-between align-items-center" data-toggle="collapse" data-target="#collapseTwoA">
+                                                                    <div class="pl-17 py-4 d-flex justify-content-between align-items-center card-accordian" data-toggle="collapse" data-target="#collapseTwoA">
                                                                         <span>2.2.1 Child labor</span>
-                                                                        <span class="d-flex align-items-center h-100 pr-20"><i class="fas fa-chevron-down"></i></span>
+                                                                        
                                                                     </div>
                                                                     <div class="collapse border-bottom-secondary" id="collapseTwoA">
                                                                         <div class="mx-10 mt-5">
@@ -984,193 +976,12 @@ License: You must have a valid license purchased only from themeforest(the above
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <!-- <div class="accordion m-5" id="accordionExample-1">
-                                                        <div class="card indicator-accordian-card">
-                                                            <div class="card-header bg-white indicator-accordian-card-header" id="headingOne-0">
-                                                                <div class="btn btn-block text-left indicator-accordian-responsive" role="region" data-toggle="collapse" data-target="#collapseOne-0" aria-expanded="true" aria-controls="collapseOne-0">
-                                                                    <div class="row">
-                                                                        <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
-                                                                            <span>
-                                                                                2.1.1 Household income & assets
-                                                                            </span>
-                                                                        </div>
-                                                                        <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-                                                                            <?php include './includes/assign-person.php' ?>
-                                                                        </div>
-                                                                        <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
-                                                                            <span class="steps-tags-text steps-success-tag p-1 custom-position-relative">Completed</span>
-                                                                        </div>
-                                                                        <div class="col-lg-1 col-md-1 col-sm-12 col-xs-12">
-                                                                            <span class=" p-1"><img src="../assets/media/Vector_arrow_down.png" alt=""></span>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-
-                                                            <div id="collapseOne-0" class="collapse show" aria-labelledby="headingOne-0">
-                                                                <div class="mx-5 border-color-pale mb-5 indicator-responsive-collapse">
-                                                                    <table class="table table-vertical-center table-dark-pale p-table-15 border-light-primary">
-                                                                        <thead>
-                                                                            <tr>
-                                                                                <th class="font-text" scope="col">Include</th>
-                                                                                <th class="font-text" scope="col">Metric</th>
-                                                                                <th class="font-text w-125px" scope="col">Target</th>
-                                                                                <th class="font-text" scope="col">Milestone</th>
-                                                                                <th class="font-text" scope="col">Type</th>
-                                                                                <th class="font-text" scope="col">Actions</th>
-                                                                            </tr>
-                                                                        </thead>
-                                                                        <tbody class="bg-white">
-                                                                            <tr>
-                                                                                <td>
-                                                                                    <label class="container-chkbox">
-                                                                                        <input type="checkbox" checked="checked">
-                                                                                        <span class="checkmark"></span>
-                                                                                    </label>
-                                                                                </td>
-                                                                                <td>
-                                                                                    2.1.1.1 Percentage (%) of female and male population living below the local poverty line (or, if this is not specified, earning <$1.90 /day) </td>
-                                                                                <td>
-                                                                                    <a href="#" class="c-btn-success c-btn-xs d-flex align-items-center justify-content-center">
-                                                                                        <i class="icn-edit"></i>
-                                                                                        <span class="font-weight-bolder pl-1">Add/Edit</span>
-                                                                                    </a>
-                                                                                </td>
-                                                                                <td></td>
-                                                                                <td>
-                                                                                    <span class="bg-primary text-light-primary font-xs br-3 p-1">Required</span>
-                                                                                </td>
-                                                                                <td>
-                                                                                    <span class="bg-primary text-light-primary font-xs br-3 p-1">Modify</span>
-                                                                                </td>
-                                                                            </tr>
-                                                                            <tr>
-                                                                                <td>
-                                                                                    <label class="container-chkbox">
-                                                                                        <input type="checkbox" checked="checked">
-                                                                                        <span class="checkmark"></span>
-                                                                                    </label>
-                                                                                </td>
-                                                                                <td>
-                                                                                    2.1.1.2 Percentage (%) of households owning or lacking context-appropriate asset(s). Examples include radio, TV, telephone, computer, animal cart, bicycle, motorbike, refrigerator, car, or truck
-                                                                                </td>
-                                                                                <td>
-                                                                                    <a href="#" class="c-btn-success c-btn-xs d-flex align-items-center justify-content-center">
-                                                                                        <i class="icn-edit"></i>
-                                                                                        <span class="font-weight-bolder pl-1">Add/Edit</span>
-                                                                                    </a>
-                                                                                </td>
-                                                                                <td></td>
-                                                                                <td>
-                                                                                    <span class="bg-primary text-light-primary font-xs br-3 p-1">Required</span>
-                                                                                </td>
-                                                                                <td>
-                                                                                    <span class="bg-primary text-light-primary font-xs br-3 p-1">Modify</span>
-                                                                                </td>
-                                                                            </tr>
-
-                                                                        </tbody>
-                                                                    </table>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div class="card indicator-accordian-card">
-                                                            <div class="card-header bg-white indicator-accordian-card-header" id="headingTwo-0">
-                                                                <div class="btn btn-block text-left collapsed indicator-accordian-responsive" role="region" data-toggle="collapse" data-target="#collapseTwo-0" aria-expanded="false" aria-controls="collapseTwo-0">
-                                                                    <div class="row">
-                                                                        <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
-                                                                            <span>
-                                                                                2.1.2 Health & nutrition
-                                                                            </span>
-                                                                        </div>
-                                                                        <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-                                                                            <?php include './includes/assign-person.php' ?>
-                                                                        </div>
-                                                                        <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
-                                                                            <span class="steps-tags-text steps-success-tag p-1 custom-position-relative">Completed</span>
-                                                                        </div>
-                                                                        <div class="col-lg-1 col-md-1 col-sm-12 col-xs-12">
-                                                                            <span class=" p-1"><img src="../assets/media/Vector_arrow_down.png" alt=""></span>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                            <div id="collapseTwo-0" class="collapse" aria-labelledby="headingTwo-0">
-                                                                <div class="mx-5 border-color-pale mb-5 indicator-responsive-collapse">
-                                                                    <table class="table table-vertical-center table-dark-pale p-table-15 border-light-primary">
-                                                                        <thead>
-                                                                            <tr>
-                                                                                <th class="font-text" scope="col">Include</th>
-                                                                                <th class="font-text" scope="col">Metric</th>
-                                                                                <th class="font-text w-125px" scope="col">Target</th>
-                                                                                <th class="font-text" scope="col">Milestone</th>
-                                                                                <th class="font-text" scope="col">Type</th>
-                                                                                <th class="font-text" scope="col">Actions</th>
-                                                                            </tr>
-                                                                        </thead>
-                                                                        <tbody class="bg-white">
-                                                                            <tr>
-                                                                                <td>
-                                                                                    <label class="container-chkbox">
-                                                                                        <input type="checkbox" checked="checked">
-                                                                                        <span class="checkmark"></span>
-                                                                                    </label>
-                                                                                </td>
-                                                                                <td>
-                                                                                    2.1.2.1 Percentage (%) of girls and boys that are undernourished (required)
-                                                                                </td>
-                                                                                <td>
-                                                                                    <a href="#" class="c-btn-success c-btn-xs d-flex align-items-center justify-content-center">
-                                                                                        <i class="icn-edit"></i>
-                                                                                        <span class="font-weight-bolder pl-1">Add/Edit</span>
-                                                                                    </a>
-                                                                                </td>
-                                                                                <td></td>
-                                                                                <td>
-                                                                                    <span class="bg-primary text-light-primary font-xs br-3 p-1">Required</span>
-                                                                                </td>
-                                                                                <td>
-                                                                                    <span class="bg-primary text-light-primary font-xs br-3 p-1">Modify</span>
-                                                                                </td>
-                                                                            </tr>
-                                                                            <tr>
-                                                                                <td>
-                                                                                    <label class="container-chkbox">
-                                                                                        <input type="checkbox" checked="checked">
-                                                                                        <span class="checkmark"></span>
-                                                                                    </label>
-                                                                                </td>
-                                                                                <td>
-                                                                                    2.1.2.2 Percentage (%) of female and male population without access to health services
-                                                                                </td>
-                                                                                <td>
-                                                                                    <a href="#" class="c-btn-success c-btn-xs d-flex align-items-center justify-content-center">
-                                                                                        <i class="icn-edit"></i>
-                                                                                        <span class="font-weight-bolder pl-1">Add/Edit</span>
-                                                                                    </a>
-                                                                                </td>
-                                                                                <td></td>
-                                                                                <td>
-                                                                                    <span class="bg-primary text-light-primary font-xs br-3 p-1">Required</span>
-                                                                                </td>
-                                                                                <td>
-                                                                                    <span class="bg-primary text-light-primary font-xs br-3 p-1">Modify</span>
-                                                                                </td>
-                                                                            </tr>
-
-                                                                        </tbody>
-                                                                    </table>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-
-                                                    </div> -->
                                                 </div>
                                                 <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
-                                                    <div class="accordion m-5" id="accordionExample-0">
+                                                    <div class="accordion accordion-toggle-arrow" id="accordionExample-0">
                                                         <div class="card indicator-accordian-card">
                                                             <div class="card-header bg-white indicator-accordian-card-header" id="headingOne-0">
-                                                                <div class="btn btn-block text-left indicator-accordian-responsive" role="region" data-toggle="collapse" data-target="#collapseOne-0" aria-expanded="true" aria-controls="collapseOne-0">
+                                                                <div class="btn btn-block text-left card-accordian" role="region" data-toggle="collapse" data-target="#collapseOne-0" aria-expanded="true" aria-controls="collapseOne-0">
                                                                     <div class="row">
                                                                         <div class="col-lg-1 col-md-1 col-sm-12 col-xs-12 pr-0 max-w-6-percent">
                                                                             <div class="d-flex align-items-center h-100">
@@ -1190,18 +1001,16 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                 Completed
                                                                             </span>
                                                                         </div>
-                                                                        <div class="col-lg-1 col-md-1 col-sm-12 col-xs-12">
-                                                                            <span class="d-flex align-items-center h-100 p-1"><i class="fas fa-chevron-up"></i></span>
-                                                                        </div>
+                                                                        
                                                                     </div>
                                                                 </div>
                                                             </div>
 
-                                                            <div id="collapseOne-0" class="collapse text-primary cursor-pointer show" aria-labelledby="headingOne-0">
+                                                            <div id="collapseOne-0" class="collapse text-primary cursor-pointer show accordion accordion-toggle-arrow" aria-labelledby="headingOne-0">
                                                                 <div class="card">
-                                                                    <div class="pl-17 py-4 d-flex justify-content-between align-items-center" data-toggle="collapse" data-target="#collapseOneA">
+                                                                    <div class="pl-17 py-4 d-flex justify-content-between align-items-center card-accordian" data-toggle="collapse" data-target="#collapseOneA">
                                                                         <span>3.1.1 Land tenure</span>
-                                                                        <span class="d-flex align-items-center h-100 pr-20"><i class="fas fa-chevron-down"></i></span>
+                                                                        
                                                                     </div>
                                                                     <div class="collapse border-bottom-secondary" id="collapseOneA">
                                                                         <div class="mx-10 mt-5">
@@ -1271,9 +1080,9 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                     </div>
                                                                 </div>
                                                                 <div class="card">
-                                                                    <div class="pl-17 py-4 d-flex justify-content-between align-items-center" data-toggle="collapse" data-target="#collapseOneB">
+                                                                    <div class="pl-17 py-4 d-flex justify-content-between align-items-center card-accordian" data-toggle="collapse" data-target="#collapseOneB">
                                                                         <span>3.1.2 Land conflicts</span>
-                                                                        <span class="d-flex align-items-center h-100 pr-20"><i class="fas fa-chevron-down"></i></span>
+                                                                        
                                                                     </div>
                                                                     <div class="collapse border-bottom-secondary" id="collapseOneB">
                                                                         <div class="mx-10 mt-5">
@@ -1347,7 +1156,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                         </div>
                                                         <div class="card indicator-accordian-card">
                                                             <div class="card-header bg-white indicator-accordian-card-header" id="headingTwo-0">
-                                                                <div class="btn btn-block text-left collapsed indicator-accordian-responsive" role="region" data-toggle="collapse" data-target="#collapseTwo-0" aria-expanded="false" aria-controls="collapseTwo-0">
+                                                                <div class="btn btn-block text-left collapsed card-accordian" role="region" data-toggle="collapse" data-target="#collapseTwo-0" aria-expanded="false" aria-controls="collapseTwo-0">
                                                                     <div class="row">
                                                                         <div class="col-lg-1 col-md-1 col-sm-12 col-xs-12 pr-0 max-w-6-percent">
                                                                             <div class="d-flex align-items-center h-100">
@@ -1367,17 +1176,15 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                 Completed
                                                                             </span>
                                                                         </div>
-                                                                        <div class="col-lg-1 col-md-1 col-sm-12 col-xs-12">
-                                                                            <span class="d-flex align-items-center h-100 p-1"><i class="fas fa-chevron-down"></i></span>
-                                                                        </div>
+                                                                        
                                                                     </div>
                                                                 </div>
                                                             </div>
-                                                            <div id="collapseTwo-0" class="collapse text-primary cursor-pointer" aria-labelledby="headingTwo-0">
+                                                            <div id="collapseTwo-0" class="collapse text-primary cursor-pointer accordion accordion-toggle-arrow" aria-labelledby="headingTwo-0">
                                                                 <div class="card">
-                                                                    <div class="pl-17 py-4 d-flex justify-content-between align-items-center" data-toggle="collapse" data-target="#collapseTwoA">
+                                                                    <div class="pl-17 py-4 d-flex justify-content-between align-items-center card-accordian" data-toggle="collapse" data-target="#collapseTwoA">
                                                                         <span>3.2.1 Land-use plan adoption & enforcement</span>
-                                                                        <span class="d-flex align-items-center h-100 pr-20"><i class="fas fa-chevron-down"></i></span>
+                                                                        
                                                                     </div>
                                                                     <div class="collapse border-bottom-secondary" id="collapseTwoA">
                                                                         <div class="mx-10 mt-5">
@@ -1453,10 +1260,10 @@ License: You must have a valid license purchased only from themeforest(the above
                                                     </div>
                                                 </div>
                                                 <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">
-                                                    <div class="accordion m-5" id="accordionExample-0">
+                                                    <div class="accordion accordion-toggle-arrow" id="accordionExample-0">
                                                         <div class="card indicator-accordian-card">
                                                             <div class="card-header bg-white indicator-accordian-card-header" id="headingOne-0">
-                                                                <div class="btn btn-block text-left indicator-accordian-responsive" role="region" data-toggle="collapse" data-target="#collapseOne-0" aria-expanded="true" aria-controls="collapseOne-0">
+                                                                <div class="btn btn-block text-left card-accordian" role="region" data-toggle="collapse" data-target="#collapseOne-0" aria-expanded="true" aria-controls="collapseOne-0">
                                                                     <div class="row">
                                                                         <div class="col-lg-1 col-md-1 col-sm-12 col-xs-12 pr-0 max-w-6-percent">
                                                                             <div class="d-flex align-items-center h-100">
@@ -1476,19 +1283,16 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                 Completed
                                                                             </span>
                                                                         </div>
-                                                                        <div class="col-lg-1 col-md-1 col-sm-12 col-xs-12">
-                                                                            <span class="d-flex align-items-center h-100 p-1"><i class="fas fa-chevron-down"></i></span>
-
-                                                                        </div>
+                                                                        
                                                                     </div>
                                                                 </div>
                                                             </div>
 
-                                                            <div id="collapseOne-0" class="collapse show text-primary cursor-pointer" aria-labelledby="headingOne-0">
+                                                            <div id="collapseOne-0" class="collapse show text-primary cursor-pointer accordion accordion-toggle-arrow" aria-labelledby="headingOne-0">
                                                                 <div class="card">
-                                                                    <div class="pl-17 py-4 d-flex justify-content-between align-items-center" data-toggle="collapse" data-target="#collapseOneA">
+                                                                    <div class="pl-17 py-4 d-flex justify-content-between align-items-center card-accordian" data-toggle="collapse" data-target="#collapseOneA">
                                                                         <span>4.1.1 Agricultural, agroforestry & tree plantation productivity</span>
-                                                                        <span class="d-flex align-items-center h-100 pr-20"><i class="fas fa-chevron-down"></i></span>
+                                                                        
                                                                     </div>
                                                                     <div class="collapse border-bottom-secondary" id="collapseOneA">
                                                                         <div class="mx-10 mt-5">

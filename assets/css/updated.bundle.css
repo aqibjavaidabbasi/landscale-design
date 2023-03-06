@@ -101909,12 +101909,12 @@ select {
 
 /* accordian arrow */
 
-.accordion.accordion-toggle-arrow .card .card-header .card-accordian {
+.accordion.accordion-toggle-arrow .card .card-accordian {
     color: #074A37 !important;
     position: relative !important;
 }
 
-.accordion.accordion-toggle-arrow .card .card-header .card-accordian:after {
+.accordion.accordion-toggle-arrow .card .card-accordian:after {
     position: absolute !important;
     font-family: Ki !important;
     font-style: normal !important;
@@ -101936,14 +101936,14 @@ select {
     top: 20px !important;
 }
 
-.accordion.accordion-toggle-arrow .card .card-header .card-accordian.collapsed {
+.accordion.accordion-toggle-arrow .card .card-accordian.collapsed {
     color: #3F4254 !important;
     -webkit-transition: all 0.15s ease !important;
     transition: all 0.15s ease !important;
 }
 
 
-.accordion.accordion-toggle-arrow .card .card-header .card-accordian.collapsed:after {
+.accordion.accordion-toggle-arrow .card .card-accordian.collapsed:after {
     color: #7E8299 !important;
     -webkit-transition: all 0.15s ease !important;
     transition: all 0.15s ease !important;
