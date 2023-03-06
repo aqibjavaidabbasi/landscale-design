@@ -2318,9 +2318,6 @@ License: You must have a valid license purchased only from themeforest(the above
                                             <div class="row p-5 mt-7 w-100">
                                                 <div class="col-lg-12">
                                                     <h6 class="text-primary my-5">Steps Progress Bars</h6>
-                                                    <p class="text-primary my-7">
-                                                        import <span class="font-weight-bold"><code>form-wizard.css file</code></span> for steps progress bar.
-                                                    </p>
                                                     <ul class="nav nav-tabs" id="myTab" role="tablist">
                                                         <li class="nav-item" role="presentation">
                                                             <button class="nav-link active" id="home-tab" data-toggle="tab" data-target="#progressbar-preview" type="button" role="tab" aria-controls="progressbar-preview" aria-selected="true">Preview</button>
@@ -2336,80 +2333,48 @@ License: You must have a valid license purchased only from themeforest(the above
                                                         </li>
                                                     </ul>
                                                     <div class="tab-content border" id="myTabContent">
-                                                        <div class="tab-pane p-5 fade show active" id="progressbar-preview" role="tabpanel" aria-labelledby="progressbar-preview-tab">
+                                                        <div class="tab-pane p-5 fade show active" id="progressbar-preview" role="tabpanel" aria-labelledby="progressbar-preview-tab" style="height: 150px;">
                                                             <!-- start Progressbar -->
-                                                            <div class="wizard wizard-3 mb-160-res" id="kt_wizard_v3" data-wizard-state="step-first" data-wizard-clickable="true" style="position: relative;">
-                                                                <div class="wizard-nav responsive-mobile step-nav-width">
-                                                                    <div class="wizard-steps metrices-step custom-steps-title px-8 py-8 px-lg-15 py-lg-3 margin-align responsive-nav-progress">
-                                                                        <!--begin::Wizard Step 1 Nav-->
-                                                                        <a href="#" class="wizard-step custom-width-steps custom-metrices-step" data-wizard-type="step" data-wizard-state="done">
-                                                                            <div class="wizard-label metrices-label">
-                                                                                <div class="label-wrapper text-center">
-                                                                                    <h3 class="wizard-title wizard-nav-title-step wizard-nav-title-responsive step-title">
-                                                                                        Preparation
-                                                                                    </h3>
-                                                                                    <span class="steps-tags-text step-pending-tag p-1">Pending Review</span>
-                                                                                </div>
-                                                                                <div class="wizard-bar-1" id="step1" style="--bg-color:#074A37;"></div>
-                                                                            </div>
+                                                            <div class="iconform-progress-container">
+                                                                <div class="iconform-progress-bar">
+                                                                    <div class="iconstep-indicators">
+                                                                        <!-- start steps -->
+                                                                        <a href="#" class="iconstep-indicator">
+                                                                            <span class="iconform-step-number"><i class="icn-file icn-2x"></i></span>
+                                                                            <span class="iconform-step-text">
+                                                                                <span class="step-name">Preparation</span>
+                                                                                <span class="step-status">Pending</span>
+                                                                            </span>
                                                                         </a>
-                                                                        <!--end::Wizard Step 1 Nav-->
-
-                                                                        <!--begin::Wizard Step 2 Nav-->
-                                                                        <a href="#" class="wizard-step custom-width-steps custom-metrices-step" data-wizard-type="step" data-wizard-state="done">
-                                                                            <div class="wizard-label">
-                                                                                <div class="label-wrapper text-center">
-                                                                                    <h3 class="wizard-title wizard-nav-title-step wizard-nav-title-responsive step-title">
-                                                                                        Boundary
-                                                                                    </h3>
-                                                                                    <span class="steps-tags-text step-pending-tag p-1">Pending Review</span>
-                                                                                </div>
-                                                                                <div class="wizard-bar-2" id="step2" style="--border-clr:#074A37; --bg-color:#074A37;"></div>
-                                                                            </div>
+                                                                        <a href="#" class="iconstep-indicator">
+                                                                            <span class="iconform-step-number"><i class="icn-marker icn-2x"></i></span>
+                                                                            <span class="iconform-step-text">
+                                                                                <span class="step-name">Boundary</span>
+                                                                                <span class="step-status">Pending</span>
+                                                                            </span>
                                                                         </a>
-                                                                        <!--end::Wizard Step 2 Nav-->
-
-                                                                        <!--begin::Wizard Step 3 Nav-->
-                                                                        <a href="./indicator_metrices.php" class="wizard-step custom-width-steps custom-metrices-step" data-wizard-type="step" data-wizard-state="done">
-                                                                            <div class="wizard-label">
-                                                                                <div class="label-wrapper text-center">
-                                                                                    <h3 class="wizard-title wizard-nav-title-step wizard-nav-title-responsive step-title">
-                                                                                        Indicator &amp; Metrics
-                                                                                    </h3>
-                                                                                    <span class="steps-tags-text steps-success-tag p-1">Completed</span>
-                                                                                </div>
-                                                                                <div class="wizard-bar-3" id="step3" style="--border-clr:#074A37; --bg-color:#074A37;"></div>
-                                                                            </div>
+                                                                        <a href="./indicator_metrices.php" class="iconstep-indicator">
+                                                                            <span class="iconform-step-number"><i class="icn-circut icn-2x"></i></span>
+                                                                            <span class="iconform-step-text">
+                                                                                <span class="step-name">Indicator & Metrices</span>
+                                                                                <span class="step-status">Completed</span>
+                                                                            </span>
                                                                         </a>
-                                                                        <!--end::Wizard Step 3 Nav-->
-
-                                                                        <!--begin::Wizard Step 4 Nav-->
-                                                                        <a href="./datatask_results.php" class="wizard-step custom-width-steps custom-metrices-step" data-wizard-type="step" data-wizard-state="current">
-                                                                            <div class="wizard-label">
-                                                                                <div class="label-wrapper text-center">
-                                                                                    <h3 class="wizard-title wizard-nav-title-step wizard-nav-title-responsive step-title">
-                                                                                        Data &amp; Results
-                                                                                    </h3>
-                                                                                    <span class="steps-tags-text step-pending-tag p-1">Pending Review</span>
-                                                                                </div>
-                                                                                <div class="wizard-bar-4" id="step4" style="--border-clr:#074A37;"></div>
-                                                                            </div>
+                                                                        <a href="./datatask_results.php" class="iconstep-indicator">
+                                                                            <span class="iconform-step-number"><i class="icn-chart icn-2x"></i></span>
+                                                                            <span class="iconform-step-text">
+                                                                                <span class="step-name">Data & Results</span>
+                                                                                <span class="step-status">Pending</span>
+                                                                            </span>
                                                                         </a>
-                                                                        <!--end::Wizard Step 4 Nav-->
-
-                                                                        <!--begin::Wizard Step 5 Nav-->
-                                                                        <a href="#" class="wizard-step custom-width-steps custom-metrices-step" data-wizard-type="step" data-wizard-state="current">
-                                                                            <div class="wizard-label">
-                                                                                <div class="label-wrapper text-center">
-                                                                                    <h3 class="wizard-title wizard-nav-title-step wizard-nav-title-responsive step-title text-light-cyan">
-                                                                                        Report &amp; Publish
-                                                                                    </h3>
-                                                                                    <span class="steps-tags-text step-pending-tag p-1 text-light-cyan">Pending Review</span>
-                                                                                </div>
-                                                                                <div class="wizard-bar-5" id="step5" style="--border-clr:#074A37;"></div>
-                                                                            </div>
+                                                                        <a href="#" class="iconstep-indicator">
+                                                                            <span class="iconform-step-number c-disabled-bg"><i class="icn-notepad icn-2x"></i></span>
+                                                                            <span class="iconform-step-text">
+                                                                                <span class="step-name c-disabled-text">Report & Publish</span>
+                                                                                <span class="step-status c-disabled-text">Pending</span>
+                                                                            </span>
                                                                         </a>
-                                                                        <!--end::Wizard Step 5 Nav-->
+                                                                        <!-- end steps -->
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -2720,8 +2685,8 @@ License: You must have a valid license purchased only from themeforest(the above
                     var accordian_child_js_code = ``;
                     cmRender("cm-accordians-child-html", "cm-accordians-child-css", "cm-accordians-child-js", accordian_child_html_code, accordian_child_css_code, accordian_child_js_code);
 
-                    var progressbar_html_code = `<div class="wizard wizard-3 mb-160-res" id="kt_wizard_v3" data-wizard-state="step-first" data-wizard-clickable="true" style="position: relative;"> <div class="wizard-nav responsive-mobile step-nav-width"> <div class="wizard-steps metrices-step custom-steps-title px-8 py-8 px-lg-15 py-lg-3 margin-align responsive-nav-progress"> <!--begin::Wizard Step 1 Nav--> <a href="#" class="wizard-step custom-width-steps custom-metrices-step" data-wizard-type="step" data-wizard-state="done"> <div class="wizard-label metrices-label"> <div class="label-wrapper text-center"> <h3 class="wizard-title wizard-nav-title-step wizard-nav-title-responsive step-title"> Preparation </h3> <span class="steps-tags-text step-pending-tag p-1">Pending Review</span> </div> <div class="wizard-bar-1" id="step1" style="--bg-color:#074A37;"></div> </div> </a> <!--end::Wizard Step 1 Nav--> <!--begin::Wizard Step 2 Nav--> <a href="#" class="wizard-step custom-width-steps custom-metrices-step" data-wizard-type="step" data-wizard-state="done"> <div class="wizard-label"> <div class="label-wrapper text-center"> <h3 class="wizard-title wizard-nav-title-step wizard-nav-title-responsive step-title"> Boundary </h3> <span class="steps-tags-text step-pending-tag p-1">Pending Review</span> </div> <div class="wizard-bar-2" id="step2" style="--border-clr:#074A37; --bg-color:#074A37;"></div> </div> </a> <!--end::Wizard Step 2 Nav--> <!--begin::Wizard Step 3 Nav--> <a href="./indicator_metrices.php" class="wizard-step custom-width-steps custom-metrices-step" data-wizard-type="step" data-wizard-state="done"> <div class="wizard-label"> <div class="label-wrapper text-center"> <h3 class="wizard-title wizard-nav-title-step wizard-nav-title-responsive step-title"> Indicator &amp; Metrics </h3> <span class="steps-tags-text steps-success-tag p-1">Completed</span> </div> <div class="wizard-bar-3" id="step3" style="--border-clr:#074A37; --bg-color:#074A37;"></div> </div> </a> <!--end::Wizard Step 3 Nav--> <!--begin::Wizard Step 4 Nav--> <a href="./datatask_results.php" class="wizard-step custom-width-steps custom-metrices-step" data-wizard-type="step" data-wizard-state="current"> <div class="wizard-label"> <div class="label-wrapper text-center"> <h3 class="wizard-title wizard-nav-title-step wizard-nav-title-responsive step-title"> Data &amp; Results </h3> <span class="steps-tags-text step-pending-tag p-1">Pending Review</span> </div> <div class="wizard-bar-4" id="step4" style="--border-clr:#074A37;"></div> </div> </a> <!--end::Wizard Step 4 Nav--> <!--begin::Wizard Step 5 Nav--> <a href="#" class="wizard-step custom-width-steps custom-metrices-step" data-wizard-type="step" data-wizard-state="current"> <div class="wizard-label"> <div class="label-wrapper text-center"> <h3 class="wizard-title wizard-nav-title-step wizard-nav-title-responsive step-title text-light-cyan"> Report &amp; Publish </h3> <span class="steps-tags-text step-pending-tag p-1 text-light-cyan">Pending Review</span> </div> <div class="wizard-bar-5" id="step5" style="--border-clr:#074A37;"></div> </div> </a> <!--end::Wizard Step 5 Nav--> </div> </div> </div>`;
-                    var progressbar_css_code = ``;
+                    var progressbar_html_code = `<!-- start Progressbar --><div class="iconform-progress-container">\n\t<div class="iconform-progress-bar">\n\t\t<div class="iconstep-indicators">\n\t\t\t<!-- start steps -->\n\t\t\t<a href="#" class="iconstep-indicator">\n\t\t\t\t<span class="iconform-step-number"><i class="icn-file icn-2x"></i></span>\n\t\t\t\t<span class="iconform-step-text">\n\t\t\t\t\t<span class="step-name">Preparation</span>\n\t\t\t\t\t<span class="step-status">Pending</span>\n\t\t\t\t</span>\n\t\t\t</a>\n\t\t\t<a href="#" class="iconstep-indicator">\n\t\t\t\t<span class="iconform-step-number"><i class="icn-marker icn-2x"></i></span>\n\t\t\t\t<span class="iconform-step-text">\n\t\t\t\t\t<span class="step-name">Boundary</span>\n\t\t\t\t\t<span class="step-status">Pending</span>\n\t\t\t\t</span>\n\t\t\t</a>\n\t\t\t<a href="./indicator_metrices.php" class="iconstep-indicator">\n\t\t\t\t<span class="iconform-step-number"><i class="icn-circut icn-2x"></i></span>\n\t\t\t\t<span class="iconform-step-text">\n\t\t\t\t\t<span class="step-name">Indicator &amp; Metrices</span>\n\t\t\t\t\t<span class="step-status">Completed</span>\n\t\t\t\t</span>\n\t\t\t</a>\n\t\t\t<a href="./datatask_results.php" class="iconstep-indicator">\n\t\t\t\t<span class="iconform-step-number"><i class="icn-chart icn-2x"></i></span>\n\t\t\t\t<span class="iconform-step-text">\n\t\t\t\t\t<span class="step-name">Data &amp; Results</span>\n\t\t\t\t\t<span class="step-status">Pending</span>\n\t\t\t\t</span>\n\t\t\t</a>\n\t\t\t<a href="#" class="iconstep-indicator">\n\t\t\t\t<span class="iconform-step-number c-disabled-bg"><i class="icn-notepad icn-2x"></i></span>\n\t\t\t\t<span class="iconform-step-text">\n\t\t\t\t\t<span class="step-name c-disabled-text">Report &amp; Publish</span>\n\t\t\t\t\t<span class="step-status c-disabled-text">Pending</span>\n\t\t\t\t</span>\n\t\t\t</a>\n\t\t\t<!-- end steps -->\n\t\t</div>\n\t</div>\n</div> \n<!-- end Progressbar -->`;
+                    var progressbar_css_code = `/* steps progress bars start*/ .iconform-progress-container { display: flex; justify-content: center; width: 100%; margin-top: 50px; } .iconform-progress-bar { background-color: #EBF2E4; width: 70%; height: 3px; } .iconstep-indicators { display: flex; justify-content: space-around; } .iconstep-indicator { position: relative; } .iconstep-indicator.active::before { position: absolute; top: 0px; left: -212px; content: ''; width: 335px; height: 3px; background-color: #074A37 !important; } .iconform-step-number { position: absolute; top: -15px; left: -15px; width: 40px; height: 40px; border-radius: 50%; background-color: #EBF2E4; display: flex; justify-content: center; align-items: center; } .iconform-step-number.active::after { background-color: #074A37 !important; } .iconform-step-text { position: absolute; top: 35px; left: -70px; color: #9ABF78; width: 150px; display: flex; flex-direction: column; justify-content: center; align-items: center; } .step-name { font-weight: bold; } .c-disabled-bg { background-color: #E1E1E1 !important; color: #839FA0 !important; } .c-disabled-text { /* background-color: #E1E1E1 !important; */ color: #839FA0 !important; } /* steps progress bars end*/`;
                     var progressbar_js_code = ``;
                     cmRender("cm-progressbar-html", "cm-progressbar-css", "cm-progressbar-js", progressbar_html_code, progressbar_css_code, progressbar_js_code);
 
