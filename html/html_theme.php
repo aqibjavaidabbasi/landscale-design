@@ -46,6 +46,7 @@ License: You must have a valid license purchased only from themeforest(the above
     <link rel="stylesheet" href="../assets/plugins/custom/prismjs/prismjs.bundle.css">
     <!-- <link rel="stylesheet" href="../assets/css/style.bundle.css"> -->
     <link rel="stylesheet" href="../assets/css/updated.bundle.css">
+    <link rel="stylesheet" href="../assets/css/form-wizard.css">
     <link rel="stylesheet" href="../assets/css/icons.bundle.css">
     <link rel="stylesheet" href="../assets/plugins/custom/datatables/datatables.bundle.css">
     <!-- scripts mark js -->
@@ -866,10 +867,10 @@ License: You must have a valid license purchased only from themeforest(the above
                                                         <div class="tab-pane p-5 fade show active" id="pagination-preview" role="tabpanel" aria-labelledby="pagination-preview-tab">
                                                             <div class="dataTables_paginate paging_simple_numbers" id="kt_datatable_paginate">
                                                                 <ul class="pagination">
-                                                                    <li class="paginate_button page-item previous disabled" id="kt_datatable_previous"><a href="#" aria-controls="kt_datatable" data-dt-idx="0" tabindex="0" class="page-link"><i class="ki ki-arrow-back"></i></a></li>
-                                                                    <li class="paginate_button page-item active"><a href="#" aria-controls="kt_datatable" data-dt-idx="1" tabindex="0" class="page-link">1</a></li>
-                                                                    <li class="paginate_button page-item "><a href="#" aria-controls="kt_datatable" data-dt-idx="2" tabindex="0" class="page-link">2</a></li>
-                                                                    <li class="paginate_button page-item next" id="kt_datatable_next"><a href="#" aria-controls="kt_datatable" data-dt-idx="3" tabindex="0" class="page-link"><i class="ki ki-arrow-next"></i></a></li>
+                                                                    <li class="paginate_button page-item previous disabled" id="kt_datatable_previous"><a href="javascript:void(0)" aria-controls="kt_datatable" data-dt-idx="0" tabindex="0" class="page-link"><i class="ki ki-arrow-back"></i></a></li>
+                                                                    <li class="paginate_button page-item active"><a href="javascript:void(0)" aria-controls="kt_datatable" data-dt-idx="1" tabindex="0" class="page-link">1</a></li>
+                                                                    <li class="paginate_button page-item "><a href="javascript:void(0)" aria-controls="kt_datatable" data-dt-idx="2" tabindex="0" class="page-link">2</a></li>
+                                                                    <li class="paginate_button page-item next" id="kt_datatable_next"><a href="javascript:void(0)" aria-controls="kt_datatable" data-dt-idx="3" tabindex="0" class="page-link"><i class="ki ki-arrow-next"></i></a></li>
                                                                 </ul>
                                                             </div>
                                                         </div>
@@ -1145,6 +1146,7 @@ License: You must have a valid license purchased only from themeforest(the above
 
                                                     <p class="text-primary my-7">
                                                         Use class <span class="font-weight-bold"><code>.grid-card</code></span> for having a grid view card.
+                                                        Use class <span class="font-weight-bold"><code>.help-center-ul</code></span> for styling list view in help center.
                                                     </p>
 
                                                     <ul class="nav nav-tabs" id="myTab" role="tablist">
@@ -1196,6 +1198,63 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                     </div>
                                                                 </div>
                                                                 <!-- end grid card -->
+
+                                                                <!-- List view start -->
+
+                                                                <ul class="help-center-ul">
+                                                                    <li>
+                                                                        <a class="d-flex align-items-center" href="javascript:void(0)">
+                                                                            <span class="help-center-link-icon">
+                                                                                <i class="icn-file-double icn-2x"></i>
+                                                                            </span>
+                                                                            <span class="help-link-text">
+                                                                                Guidelines Library
+                                                                            </span>
+                                                                        </a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a class="d-flex align-items-center" href="javascript:void(0)">
+                                                                            <span class="help-center-link-icon">
+                                                                                <i class="icn-youtube icn-2x"></i>
+                                                                            </span>
+                                                                            <span class="help-link-text">
+                                                                                Video Library
+                                                                            </span>
+                                                                        </a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a class="d-flex align-items-center" href="javascript:void(0)">
+                                                                            <span class="help-center-link-icon">
+                                                                                <i class="icn-horizontal-stack icn-2x"></i>
+                                                                            </span>
+                                                                            <span class="help-link-text">
+                                                                                Data Resource Library
+                                                                            </span>
+                                                                        </a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a class="d-flex align-items-center" href="javascript:void(0)">
+                                                                            <span class="help-center-link-icon">
+                                                                                <i class="icn-loop icn-2x"></i>
+                                                                            </span>
+                                                                            <span class="help-link-text">
+                                                                                Platform Updates
+                                                                            </span>
+                                                                        </a>
+                                                                    </li>
+                                                                    <li class="border-bottom-secondary">
+                                                                        <a href="javascript:void(0)" class="d-flex align-items-center mb-2">
+                                                                            <span class="help-center-link-icon">
+                                                                                <i class="icn-persons icn-2x"></i>
+                                                                            </span>
+                                                                            <span class="help-link-text">
+                                                                                Community Of Practices
+                                                                            </span>
+                                                                        </a>
+                                                                    </li>
+                                                                </ul>
+
+                                                                <!-- List view end -->
                                                             </div>
                                                         </div>
                                                         <div class="tab-pane fade" id="grid-cards-html" role="tabpanel" aria-labelledby="grid-cards-html-tab">
@@ -2254,6 +2313,205 @@ License: You must have a valid license purchased only from themeforest(the above
                                                     </div>
                                                 </div>
                                             </div>
+
+
+                                            <div class="row p-5 mt-7 w-100">
+                                                <div class="col-lg-12">
+                                                    <h6 class="text-primary my-5">Steps Progress Bars</h6>
+                                                    <p class="text-primary my-7">
+                                                        import <span class="font-weight-bold"><code>form-wizard.css file</code></span> for steps progress bar.
+                                                    </p>
+                                                    <ul class="nav nav-tabs" id="myTab" role="tablist">
+                                                        <li class="nav-item" role="presentation">
+                                                            <button class="nav-link active" id="home-tab" data-toggle="tab" data-target="#progressbar-preview" type="button" role="tab" aria-controls="progressbar-preview" aria-selected="true">Preview</button>
+                                                        </li>
+                                                        <li class="nav-item" role="presentation">
+                                                            <button class="nav-link" id="home-tab" data-toggle="tab" data-target="#progressbar-html" type="button" role="tab" aria-controls="progressbar-html" aria-selected="true">HTML</button>
+                                                        </li>
+                                                        <li class="nav-item" role="presentation">
+                                                            <button class="nav-link" id="profile-tab" data-toggle="tab" data-target="#progressbar-css" type="button" role="tab" aria-controls="progressbar-css" aria-selected="false">CSS</button>
+                                                        </li>
+                                                        <li class="nav-item" role="presentation">
+                                                            <button class="nav-link" id="contact-tab" data-toggle="tab" data-target="#progressbar-js" type="button" role="tab" aria-controls="progressbar-js" aria-selected="false">JS</button>
+                                                        </li>
+                                                    </ul>
+                                                    <div class="tab-content border" id="myTabContent">
+                                                        <div class="tab-pane p-5 fade show active" id="progressbar-preview" role="tabpanel" aria-labelledby="progressbar-preview-tab">
+                                                            <!-- start Progressbar -->
+                                                            <div class="wizard wizard-3 mb-160-res" id="kt_wizard_v3" data-wizard-state="step-first" data-wizard-clickable="true" style="position: relative;">
+                                                                <div class="wizard-nav responsive-mobile step-nav-width">
+                                                                    <div class="wizard-steps metrices-step custom-steps-title px-8 py-8 px-lg-15 py-lg-3 margin-align responsive-nav-progress">
+                                                                        <!--begin::Wizard Step 1 Nav-->
+                                                                        <a href="#" class="wizard-step custom-width-steps custom-metrices-step" data-wizard-type="step" data-wizard-state="done">
+                                                                            <div class="wizard-label metrices-label">
+                                                                                <div class="label-wrapper text-center">
+                                                                                    <h3 class="wizard-title wizard-nav-title-step wizard-nav-title-responsive step-title">
+                                                                                        Preparation
+                                                                                    </h3>
+                                                                                    <span class="steps-tags-text step-pending-tag p-1">Pending Review</span>
+                                                                                </div>
+                                                                                <div class="wizard-bar-1" id="step1" style="--bg-color:#074A37;"></div>
+                                                                            </div>
+                                                                        </a>
+                                                                        <!--end::Wizard Step 1 Nav-->
+
+                                                                        <!--begin::Wizard Step 2 Nav-->
+                                                                        <a href="#" class="wizard-step custom-width-steps custom-metrices-step" data-wizard-type="step" data-wizard-state="done">
+                                                                            <div class="wizard-label">
+                                                                                <div class="label-wrapper text-center">
+                                                                                    <h3 class="wizard-title wizard-nav-title-step wizard-nav-title-responsive step-title">
+                                                                                        Boundary
+                                                                                    </h3>
+                                                                                    <span class="steps-tags-text step-pending-tag p-1">Pending Review</span>
+                                                                                </div>
+                                                                                <div class="wizard-bar-2" id="step2" style="--border-clr:#074A37; --bg-color:#074A37;"></div>
+                                                                            </div>
+                                                                        </a>
+                                                                        <!--end::Wizard Step 2 Nav-->
+
+                                                                        <!--begin::Wizard Step 3 Nav-->
+                                                                        <a href="./indicator_metrices.php" class="wizard-step custom-width-steps custom-metrices-step" data-wizard-type="step" data-wizard-state="done">
+                                                                            <div class="wizard-label">
+                                                                                <div class="label-wrapper text-center">
+                                                                                    <h3 class="wizard-title wizard-nav-title-step wizard-nav-title-responsive step-title">
+                                                                                        Indicator &amp; Metrics
+                                                                                    </h3>
+                                                                                    <span class="steps-tags-text steps-success-tag p-1">Completed</span>
+                                                                                </div>
+                                                                                <div class="wizard-bar-3" id="step3" style="--border-clr:#074A37; --bg-color:#074A37;"></div>
+                                                                            </div>
+                                                                        </a>
+                                                                        <!--end::Wizard Step 3 Nav-->
+
+                                                                        <!--begin::Wizard Step 4 Nav-->
+                                                                        <a href="./datatask_results.php" class="wizard-step custom-width-steps custom-metrices-step" data-wizard-type="step" data-wizard-state="current">
+                                                                            <div class="wizard-label">
+                                                                                <div class="label-wrapper text-center">
+                                                                                    <h3 class="wizard-title wizard-nav-title-step wizard-nav-title-responsive step-title">
+                                                                                        Data &amp; Results
+                                                                                    </h3>
+                                                                                    <span class="steps-tags-text step-pending-tag p-1">Pending Review</span>
+                                                                                </div>
+                                                                                <div class="wizard-bar-4" id="step4" style="--border-clr:#074A37;"></div>
+                                                                            </div>
+                                                                        </a>
+                                                                        <!--end::Wizard Step 4 Nav-->
+
+                                                                        <!--begin::Wizard Step 5 Nav-->
+                                                                        <a href="#" class="wizard-step custom-width-steps custom-metrices-step" data-wizard-type="step" data-wizard-state="current">
+                                                                            <div class="wizard-label">
+                                                                                <div class="label-wrapper text-center">
+                                                                                    <h3 class="wizard-title wizard-nav-title-step wizard-nav-title-responsive step-title text-light-cyan">
+                                                                                        Report &amp; Publish
+                                                                                    </h3>
+                                                                                    <span class="steps-tags-text step-pending-tag p-1 text-light-cyan">Pending Review</span>
+                                                                                </div>
+                                                                                <div class="wizard-bar-5" id="step5" style="--border-clr:#074A37;"></div>
+                                                                            </div>
+                                                                        </a>
+                                                                        <!--end::Wizard Step 5 Nav-->
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <!-- end Progressbar -->
+                                                        </div>
+                                                        <div class="tab-pane fade" id="progressbar-html" role="tabpanel" aria-labelledby="progressbar-html-tab">
+                                                            <div class="d-flex justify-content-end">
+                                                                <button class="btn btn-light-primary br-50 mx-5 my-2" data-clipboard-text="" id="cm-progressbar-html-copyButton"><i class="icn-file icn-cyan"></i></button>
+                                                            </div>
+                                                            <div id="cm-progressbar-html"></div>
+                                                        </div>
+                                                        <div class="tab-pane fade" id="progressbar-css" role="tabpanel" aria-labelledby="progressbar-css-tab">
+                                                            <div class="d-flex justify-content-end">
+                                                                <button class="btn btn-light-primary br-50 mx-5 my-2" data-clipboard-text="" id="cm-progressbar-css-copyButton"><i class="icn-file icn-cyan"></i></button>
+                                                            </div>
+                                                            <div id="cm-progressbar-css"></div>
+                                                        </div>
+                                                        <div class="tab-pane fade" id="progressbar-js" role="tabpanel" aria-labelledby="progressbar-js-tab">
+                                                            <div class="d-flex justify-content-end">
+                                                                <button class="btn btn-light-primary br-50 mx-5 my-2" data-clipboard-text="" id="cm-progressbar-js-copyButton"><i class="icn-file icn-cyan"></i></button>
+                                                            </div>
+                                                            <div id="cm-progressbar-js"></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+
+                                            <div class="row p-5 mt-7 w-100">
+                                                <div class="col-lg-12">
+                                                    <h6 class="text-primary my-5">Assessment Progress Bars</h6>
+
+                                                    <ul class="nav nav-tabs" id="myTab" role="tablist">
+                                                        <li class="nav-item" role="presentation">
+                                                            <button class="nav-link active" id="home-tab" data-toggle="tab" data-target="#assessment-progressbar-preview" type="button" role="tab" aria-controls="assessment-progressbar-preview" aria-selected="true">Preview</button>
+                                                        </li>
+                                                        <li class="nav-item" role="presentation">
+                                                            <button class="nav-link" id="home-tab" data-toggle="tab" data-target="#assessment-progressbar-html" type="button" role="tab" aria-controls="assessment-progressbar-html" aria-selected="true">HTML</button>
+                                                        </li>
+                                                        <li class="nav-item" role="presentation">
+                                                            <button class="nav-link" id="profile-tab" data-toggle="tab" data-target="#assessment-progressbar-css" type="button" role="tab" aria-controls="assessment-progressbar-css" aria-selected="false">CSS</button>
+                                                        </li>
+                                                        <li class="nav-item" role="presentation">
+                                                            <button class="nav-link" id="contact-tab" data-toggle="tab" data-target="#assessment-progressbar-js" type="button" role="tab" aria-controls="assessment-progressbar-js" aria-selected="false">JS</button>
+                                                        </li>
+                                                    </ul>
+                                                    <div class="tab-content border" id="myTabContent">
+                                                        <div class="tab-pane p-5 fade show active" id="assessment-progressbar-preview" role="tabpanel" aria-labelledby="assessment-progressbar-preview-tab" style="height: 150px;">
+                                                            <!-- start Progressbar -->
+                                                            <div class="form-progress-container mt-15">
+                                                                <div class="form-progress-bar">
+                                                                    <div class="step-indicators">
+                                                                        <div class="step-indicator active">
+                                                                            <span class="form-step-number active"></span>
+                                                                            <span class="form-step-text">
+                                                                                Overview
+                                                                            </span>
+                                                                        </div>
+                                                                        <div class="step-indicator">
+                                                                            <span class="form-step-number"></span>
+                                                                            <span class="form-step-text">
+                                                                                Objective
+                                                                            </span>
+                                                                        </div>
+                                                                        <div class="step-indicator">
+                                                                            <span class="form-step-number"></span>
+                                                                            <span class="form-step-text">
+                                                                                Boundary
+                                                                            </span>
+                                                                        </div>
+                                                                        <div class="step-indicator">
+                                                                            <span class="form-step-number"></span>
+                                                                            <span class="form-step-text">
+                                                                                Payment
+                                                                            </span>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <!-- end Progressbar -->
+                                                        </div>
+                                                        <div class="tab-pane fade" id="assessment-progressbar-html" role="tabpanel" aria-labelledby="assessment-progressbar-html-tab">
+                                                            <div class="d-flex justify-content-end">
+                                                                <button class="btn btn-light-primary br-50 mx-5 my-2" data-clipboard-text="" id="cm-assessment-progressbar-html-copyButton"><i class="icn-file icn-cyan"></i></button>
+                                                            </div>
+                                                            <div id="cm-assessment-progressbar-html"></div>
+                                                        </div>
+                                                        <div class="tab-pane fade" id="assessment-progressbar-css" role="tabpanel" aria-labelledby="assessment-progressbar-css-tab">
+                                                            <div class="d-flex justify-content-end">
+                                                                <button class="btn btn-light-primary br-50 mx-5 my-2" data-clipboard-text="" id="cm-assessment-progressbar-css-copyButton"><i class="icn-file icn-cyan"></i></button>
+                                                            </div>
+                                                            <div id="cm-assessment-progressbar-css"></div>
+                                                        </div>
+                                                        <div class="tab-pane fade" id="assessment-progressbar-js" role="tabpanel" aria-labelledby="assessment-progressbar-js-tab">
+                                                            <div class="d-flex justify-content-end">
+                                                                <button class="btn btn-light-primary br-50 mx-5 my-2" data-clipboard-text="" id="cm-assessment-progressbar-js-copyButton"><i class="icn-file icn-cyan"></i></button>
+                                                            </div>
+                                                            <div id="cm-assessment-progressbar-js"></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -2412,8 +2670,8 @@ License: You must have a valid license purchased only from themeforest(the above
                     var step_cards_js_code = ``;
                     cmRender("cm-step-cards-html", "cm-step-cards-css", "cm-step-cards-js", step_cards_html_code, step_cards_css_code, step_cards_js_code);
 
-                    var grid_cards_html_code = `<!-- start grid card --> <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 mt-5"> <div class="grid-card"> <img src="../assets/media/map_img1.png" class="w-100 p-1" alt=""> <div class="p-4"> <h6 class="font-text text-primary">Jacob Michael</h6> <span class="font-small">Not Plan yet!</span> </div> <div class="d-flex px-4"> <span class="sm-icon bg-light-primary"> <i class="icn-world"></i> </span> <span class="font-small">Country: Florida</span> </div> <div class="d-flex px-4 mt-3"> <span class="sm-icon bg-light-primary"> <i class="icn-phone"></i> </span> <span class="font-small">Assessment Contact: +1 202 555 0156</span> </div> <div class="d-flex justify-content-between align-items-center my-5 px-4"> <span class="font-small bg-light-grey px-5 py-2"> 2022-12-07 </span> <span class="bg-light-primary font-small bg-light-grey px-5 py-2">Completed</span> </div> </div> </div> \n<!-- end grid card -->`;
-                    var grid_cards_css_code = `/* grid card */ .grid-card { background: #FFFFFF; border: 1px solid rgba(154, 191, 120, 0.6); padding-left: 0px !important; padding-right: 0px !important; }`;
+                    var grid_cards_html_code = `<!-- start grid card --> <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 mt-5"> <div class="grid-card"> <img src="../assets/media/map_img1.png" class="w-100 p-1" alt=""> <div class="p-4"> <h6 class="font-text text-primary">Jacob Michael</h6> <span class="font-small">Not Plan yet!</span> </div> <div class="d-flex px-4"> <span class="sm-icon bg-light-primary"> <i class="icn-world"></i> </span> <span class="font-small">Country: Florida</span> </div> <div class="d-flex px-4 mt-3"> <span class="sm-icon bg-light-primary"> <i class="icn-phone"></i> </span> <span class="font-small">Assessment Contact: +1 202 555 0156</span> </div> <div class="d-flex justify-content-between align-items-center my-5 px-4"> <span class="font-small bg-light-grey px-5 py-2"> 2022-12-07 </span> <span class="bg-light-primary font-small bg-light-grey px-5 py-2">Completed</span> </div> </div> </div> \n<!-- end grid card -->\n\n<!-- List view start --> <ul class="help-center-ul"> <li> <a class="d-flex align-items-center" href="javascript:void(0)"> <span class="help-center-link-icon"> <i class="icn-file-double icn-2x"></i> </span> <span class="help-link-text"> Guidelines Library </span> </a> </li> <li> <a class="d-flex align-items-center" href="javascript:void(0)"> <span class="help-center-link-icon"> <i class="icn-youtube icn-2x"></i> </span> <span class="help-link-text"> Video Library </span> </a> </li> <li> <a class="d-flex align-items-center" href="javascript:void(0)"> <span class="help-center-link-icon"> <i class="icn-horizontal-stack icn-2x"></i> </span> <span class="help-link-text"> Data Resource Library </span> </a> </li> <li> <a class="d-flex align-items-center" href="javascript:void(0)"> <span class="help-center-link-icon"> <i class="icn-loop icn-2x"></i> </span> <span class="help-link-text"> Platform Updates </span> </a> </li> <li class="border-bottom-secondary"> <a href="javascript:void(0)" class="d-flex align-items-center mb-2"> <span class="help-center-link-icon"> <i class="icn-persons icn-2x"></i> </span> <span class="help-link-text"> Community Of Practices </span> </a> </li> </ul> \n<!-- List view end -->`;
+                    var grid_cards_css_code = `/* grid card */ .grid-card { background: #FFFFFF; border: 1px solid rgba(154, 191, 120, 0.6); padding-left: 0px !important; padding-right: 0px !important; }/* helpcenter link list */ .help-center-ul { list-style: none !important; padding: 0px !important; } .help-center-ul li { margin: 10px 0px; border-top: 1px solid #EBF2E4; padding: 10px 1.5rem; }`;
                     var grid_cards_js_code = ``;
                     cmRender("cm-grid-cards-html", "cm-grid-cards-css", "cm-grid-cards-js", grid_cards_html_code, grid_cards_css_code, grid_cards_js_code);
 
@@ -2461,6 +2719,16 @@ License: You must have a valid license purchased only from themeforest(the above
                     var accordian_child_css_code = ``;
                     var accordian_child_js_code = ``;
                     cmRender("cm-accordians-child-html", "cm-accordians-child-css", "cm-accordians-child-js", accordian_child_html_code, accordian_child_css_code, accordian_child_js_code);
+
+                    var progressbar_html_code = `<div class="wizard wizard-3 mb-160-res" id="kt_wizard_v3" data-wizard-state="step-first" data-wizard-clickable="true" style="position: relative;"> <div class="wizard-nav responsive-mobile step-nav-width"> <div class="wizard-steps metrices-step custom-steps-title px-8 py-8 px-lg-15 py-lg-3 margin-align responsive-nav-progress"> <!--begin::Wizard Step 1 Nav--> <a href="#" class="wizard-step custom-width-steps custom-metrices-step" data-wizard-type="step" data-wizard-state="done"> <div class="wizard-label metrices-label"> <div class="label-wrapper text-center"> <h3 class="wizard-title wizard-nav-title-step wizard-nav-title-responsive step-title"> Preparation </h3> <span class="steps-tags-text step-pending-tag p-1">Pending Review</span> </div> <div class="wizard-bar-1" id="step1" style="--bg-color:#074A37;"></div> </div> </a> <!--end::Wizard Step 1 Nav--> <!--begin::Wizard Step 2 Nav--> <a href="#" class="wizard-step custom-width-steps custom-metrices-step" data-wizard-type="step" data-wizard-state="done"> <div class="wizard-label"> <div class="label-wrapper text-center"> <h3 class="wizard-title wizard-nav-title-step wizard-nav-title-responsive step-title"> Boundary </h3> <span class="steps-tags-text step-pending-tag p-1">Pending Review</span> </div> <div class="wizard-bar-2" id="step2" style="--border-clr:#074A37; --bg-color:#074A37;"></div> </div> </a> <!--end::Wizard Step 2 Nav--> <!--begin::Wizard Step 3 Nav--> <a href="./indicator_metrices.php" class="wizard-step custom-width-steps custom-metrices-step" data-wizard-type="step" data-wizard-state="done"> <div class="wizard-label"> <div class="label-wrapper text-center"> <h3 class="wizard-title wizard-nav-title-step wizard-nav-title-responsive step-title"> Indicator &amp; Metrics </h3> <span class="steps-tags-text steps-success-tag p-1">Completed</span> </div> <div class="wizard-bar-3" id="step3" style="--border-clr:#074A37; --bg-color:#074A37;"></div> </div> </a> <!--end::Wizard Step 3 Nav--> <!--begin::Wizard Step 4 Nav--> <a href="./datatask_results.php" class="wizard-step custom-width-steps custom-metrices-step" data-wizard-type="step" data-wizard-state="current"> <div class="wizard-label"> <div class="label-wrapper text-center"> <h3 class="wizard-title wizard-nav-title-step wizard-nav-title-responsive step-title"> Data &amp; Results </h3> <span class="steps-tags-text step-pending-tag p-1">Pending Review</span> </div> <div class="wizard-bar-4" id="step4" style="--border-clr:#074A37;"></div> </div> </a> <!--end::Wizard Step 4 Nav--> <!--begin::Wizard Step 5 Nav--> <a href="#" class="wizard-step custom-width-steps custom-metrices-step" data-wizard-type="step" data-wizard-state="current"> <div class="wizard-label"> <div class="label-wrapper text-center"> <h3 class="wizard-title wizard-nav-title-step wizard-nav-title-responsive step-title text-light-cyan"> Report &amp; Publish </h3> <span class="steps-tags-text step-pending-tag p-1 text-light-cyan">Pending Review</span> </div> <div class="wizard-bar-5" id="step5" style="--border-clr:#074A37;"></div> </div> </a> <!--end::Wizard Step 5 Nav--> </div> </div> </div>`;
+                    var progressbar_css_code = ``;
+                    var progressbar_js_code = ``;
+                    cmRender("cm-progressbar-html", "cm-progressbar-css", "cm-progressbar-js", progressbar_html_code, progressbar_css_code, progressbar_js_code);
+
+                    var assessment_progressbar_html_code = `<!-- start Progressbar -->\n<div class="form-progress-container"> <div class="form-progress-bar"> <div class="step-indicators"> <div class="step-indicator active"> <span class="form-step-number active"></span> <span class="form-step-text"> Overview </span> </div> <div class="step-indicator"> <span class="form-step-number"></span> <span class="form-step-text"> Objective </span> </div> <div class="step-indicator"> <span class="form-step-number"></span> <span class="form-step-text"> Boundary </span> </div> <div class="step-indicator"> <span class="form-step-number"></span> <span class="form-step-text"> Payment </span> </div> </div> </div> </div>`;
+                    var assessment_progressbar_css_code = `/* Assessment progress bar assessments */ .form-progress-container { display: flex; justify-content: center; width: 100%; } .form-progress-bar { background-color: #EBF2E4; width: 60%; height: 3px; } .step-indicators { display: flex; justify-content: space-around; } .step-indicator { position: relative; } .step-indicator.active::before { position: absolute; top: 0px; left: -96px; content: ''; width: 15rem; height: 3px; background-color: #074A37 !important; } .form-step-number { position: absolute; top: -6px; } .form-step-number::after { position: absolute; top: 0px; content: ""; width: 15px; height: 15px; border-radius: 50%; background-color: #EBF2E4; margin-right: 100px; } .form-step-number.active::after { background-color: #074A37 !important; } .form-step-text { position: absolute; top: 10px; left: -25px; color: #9ABF78; }`;
+                    var assessment_progressbar_js_code = ``;
+                    cmRender("cm-assessment-progressbar-html", "cm-assessment-progressbar-css", "cm-assessment-progressbar-js", assessment_progressbar_html_code, assessment_progressbar_css_code, assessment_progressbar_js_code);
 
                 })
                 $(document).on('click', '#kt_aside_toggle', function() {

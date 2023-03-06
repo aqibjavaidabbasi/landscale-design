@@ -100605,6 +100605,7 @@ body {
     padding: 9px;
 } */
 
+/* helpcenter link list */
 .help-center-ul {
     list-style: none !important;
     padding: 0px !important;
@@ -100646,7 +100647,7 @@ body {
 .listings {
     list-style-image: url(../media/list-chk.png);
 }
-
+/* 
 .wrapper-progerss-bar .custom-progress-bar:first-child {
     background-color: #074A37;
 }
@@ -100728,7 +100729,6 @@ body {
     color: #9ABF78;
 }
 
-/* objective progress bar */
 
 
 .wrapper-progerss-bar {
@@ -100774,12 +100774,76 @@ body {
 
 .plan-after::after {
     content: "Payment plan" !important;
+} */
+
+
+
+/* Assessment progress bar assessments */
+
+.form-progress-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
 }
+
+.form-progress-bar {
+    background-color: #EBF2E4;
+    width: 60%;
+    height: 3px;
+}
+
+.step-indicators {
+    display: flex;
+    justify-content: space-around;
+}
+
+.step-indicator {
+    position: relative;
+}
+
+.step-indicator.active::before {
+    position: absolute;
+    top: 0px;
+    left: -96px;
+    content: '';
+    width: 15rem;
+    height: 3px;
+    background-color: #074A37 !important;
+}
+
+.form-step-number {
+    position: absolute;
+    top: -6px;
+}
+
+.form-step-number::after {
+    position: absolute;
+    top: 0px;
+    content: "";
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #EBF2E4;
+    margin-right: 100px;
+}
+
+.form-step-number.active::after {
+    background-color: #074A37 !important;
+}
+
+.form-step-text {
+    position: absolute;
+    top: 10px;
+    left: -25px;
+    color: #9ABF78;
+}
+
 /* user widget */
 .user-widget-container {
     display: flex;
     align-items: center;
 }
+
 .people {
     top: 0;
     width: 30px;
@@ -100815,7 +100879,7 @@ body {
 
 .inner-side-submenu {
     position: absolute;
-    top: 0px;    
+    top: 0px;
     right: -99px;
     z-index: 3;
 }
@@ -101347,6 +101411,7 @@ select {
     font-weight: 700;
     padding: 3.25px;
 }
+
 /* badges end */
 
 /* custom icon bg  */

@@ -143,12 +143,36 @@ License: You must have a valid license purchased only from themeforest(the above
                                     </div>
 
                                     <div class="row mt-10">
-                                        <div class="col-md-12 d-flex justify-content-center">
-                                            <div class="wrapper-progerss-bar d-flex">
-                                                <span class="custom-progress-bar"></span>
-                                                <span class="custom-progress-bar objective-after"></span>
-                                                <span class="custom-progress-bar boundary-after"></span>
-                                                <span class="custom-progress-bar plan-after"></span>
+                                        <div class="col-md-12">
+                                            <div class="form-progress-container">
+                                                <div class="form-progress-bar">
+                                                    <div class="step-indicators">
+                                                        <div class="step-indicator active">
+                                                            <span class="form-step-number active"></span>
+                                                            <span class="form-step-text">
+                                                                Overview
+                                                            </span>
+                                                        </div>
+                                                        <div class="step-indicator">
+                                                            <span class="form-step-number"></span>
+                                                            <span class="form-step-text">
+                                                                Objective
+                                                            </span>
+                                                        </div>
+                                                        <div class="step-indicator">
+                                                            <span class="form-step-number"></span>
+                                                            <span class="form-step-text">
+                                                                Boundary
+                                                            </span>
+                                                        </div>
+                                                        <div class="step-indicator">
+                                                            <span class="form-step-number"></span>
+                                                            <span class="form-step-text">
+                                                                Payment
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>

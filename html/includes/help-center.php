@@ -44,8 +44,8 @@
         </div>
     </div>
     <ul class="help-center-ul">
-        <li class="d-flex align-items-center">
-            <a href="#">
+        <li>
+            <a class="d-flex align-items-center" href="#">
                 <span class="help-center-link-icon">
                     <i class="icn-file-double icn-2x"></i>
                     <!-- <img src="../assets/media/guideline.png" style="width: 50%;" alt=""> -->
@@ -55,8 +55,8 @@
                 </span>
             </a>
         </li>
-        <li class="d-flex align-items-center">
-            <a href="#">
+        <li>
+            <a class="d-flex align-items-center" href="#">
                 <span class="help-center-link-icon">
                     <i class="icn-youtube icn-2x"></i>
                 </span>
@@ -65,8 +65,8 @@
                 </span>
             </a>
         </li>
-        <li class="d-flex align-items-center">
-            <a href="#">
+        <li>
+            <a class="d-flex align-items-center" href="#">
                 <span class="help-center-link-icon">
                     <i class="icn-horizontal-stack icn-2x"></i>
                 </span>
@@ -75,8 +75,8 @@
                 </span>
             </a>
         </li>
-        <li class="d-flex align-items-center border-bottom-secondary">
-            <a href="#">
+        <li>
+            <a class="d-flex align-items-center" href="#">
                 <span class="help-center-link-icon">
                     <i class="icn-loop icn-2x"></i>
                     <!-- <img src="../assets/media/icon_feedback.png" style="width: 50%;" alt=""> -->
@@ -86,8 +86,8 @@
                 </span>
             </a>
         </li>
-        <li class="d-flex align-items-center border-bottom-secondary">
-            <a href="#">
+        <li class="border-bottom-secondary">
+            <a href="#" class="d-flex align-items-center mb-2">
                 <span class="help-center-link-icon">
                     <i class="icn-persons icn-2x"></i>
                     <!-- <img src="../assets/media/icon_feedback.png" style="width: 50%;" alt=""> -->
@@ -101,8 +101,8 @@
 
     <h6 class="font-text text-primary py-4 px-7">Can't find what you're looking for?</h6>
     <ul class="help-center-ul">
-        <li class="d-flex align-items-center">
-            <a href="#">
+        <li>
+            <a class="d-flex align-items-center" href="#">
                 <span class="help-center-link-icon">
                     <i class="icn-faq icn-2x"></i>
                     <!-- <img src="../assets/media/help_icon.png" style="width: 50%;" alt=""> -->
@@ -110,8 +110,8 @@
                 <span class="help-link-text">FAQs</span>
             </a>
         </li>
-        <li class="d-flex align-items-center">
-            <a href="#">
+        <li>
+            <a class="d-flex align-items-center" href="#">
                 <span class="help-center-link-icon">
                     <i class="icn-message-question icn-2x"></i>
                     <!-- <img src="../assets/media/info.png" style="width: 50%;" alt=""> -->
@@ -119,8 +119,8 @@
                 <span class="help-link-text">Help Desk</span>
             </a>
         </li>
-        <li class="d-flex align-items-center">
-            <a href="#">
+        <li>
+            <a class="d-flex align-items-center" href="#">
                 <span class="help-center-link-icon">
                     <i class="icn-play icn-2x"></i>
                     <!-- <img src="../assets/media/tuts.png" style="width: 30%;" alt=""> -->
@@ -128,16 +128,16 @@
                 <span class="help-link-text">Interactive Tutorials</span>
             </a>
         </li>
-        <li class="d-flex align-items-center">
-            <a href="#">
+        <li>
+            <a class="d-flex align-items-center" href="#">
                 <span class="help-center-link-icon">
                     <i class="icn-board icn-2x"></i>
                 </span>
                 <span class="help-link-text">Tell Us About Your Experience</span>
             </a>
         </li>
-        <li class="d-flex align-items-center">
-            <a href="./about.php">
+        <li>
+            <a class="d-flex align-items-center" href="./about.php">
                 <span class="help-center-link-icon">
                     <i class="icn-person"></i>
                     <!-- <img src="../assets/media/vector_profile.png" style="width: 50%;" alt=""> -->
