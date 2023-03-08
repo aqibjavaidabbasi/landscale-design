@@ -1,5 +1,7 @@
 <?php
 $backgroundColor = 'background-color:#9ABF78;';
+$iconBackgroundColor = 'background-color:#4c69a0 !important;';
+$logoBorder = 'border: 2px solid #fff !important; padding: 5px;';
 if ($_GET['v'] == 2) {
     $backgroundColor = 'background-color:#fff !important;';
 }
@@ -12,6 +14,11 @@ if ($_GET['v'] == 4) {
 if ($_GET['v'] == 5) {
     $backgroundColor = 'background-color:#fff !important;';
 }
+if ($_GET['v'] == 6) {
+    $backgroundColor = 'background-color:#074A37 !important;';
+    $iconBackgroundColor = 'background-color:#f4f3ec !important;';
+    $logoBorder = 'border: none !important';
+}
 ?>
 
 <!--begin::Aside-->
@@ -20,8 +27,8 @@ if ($_GET['v'] == 5) {
     <div class="brand flex-column-auto primary-border-right primary-border-bottom" id="kt_brand">
         <!--begin::Logo-->
         <a href="../index.php" class="brand-logo">
-            <img alt="Logo" id="menu_close_img" src="../assets/media/landscale_icon.svg" style="border: 2px solid #fff; padding: 5px;">
-            <img alt="Logo" id="menu_open_img" class="d-none" src="../../assets/media/logo/White/Landscale_Logo_White.png" width="220px" style="border: 2px solid #fff; padding: 5px;">
+            <img alt="Logo" id="menu_close_img" src="../assets/media/landscale_icon.svg" style="<?php echo $logoBorder; ?>">
+            <img alt="Logo" id="menu_open_img" class="d-none" src="../../assets/media/logo/White/Landscale_Logo_White.png" width="220px" style="<?php echo $logoBorder; ?>">
         </a>
         <!--end::Logo-->
     </div>
@@ -365,6 +372,19 @@ if ($_GET['v'] == 5) {
                                         </span>
                                     </i>
                                     <span class="menu-text">Version 5</span>
+                                </a>
+                            </li>
+                            <li class="menu-item" aria-haspopup="true">
+                                <a href="./updated_admin.php?v=6" class="menu-link">
+                                    <i class="menu-bullet-dot mr-3">
+                                        <span>
+                                            <svg width="7" height="9" viewBox="0 0 7 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M1.19995 1.42438L1.65276 1L5.39995 4.5L1.65276 8L1.19995 7.57781L4.49214 4.5L1.19995 1.42438Z" stroke="#3F544C" />
+                                            </svg>
+
+                                        </span>
+                                    </i>
+                                    <span class="menu-text">Version 6</span>
                                 </a>
                             </li>
                         </ul>

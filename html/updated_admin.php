@@ -27,6 +27,14 @@ if ($_GET['v'] == 5) {
     $tableBackgroundColor = 'background-color:#4c69a0 !important; color:#fff !important;';
     $iconBackgroundColor = 'background-color:#4c69a0 !important;';
 }
+if ($_GET['v'] == 6) {
+    $mainCardbackgroundColor = 'background-color:#f4f3ec !important;';
+    $bodyBackgroundColor = 'background-color:#fff !important;';
+    $tableBackgroundColor = 'background-color:#FEC045 !important; color:#000 !important;';
+    $filterBackgroundColor = 'background-color:#fff !important; color:#000 !important;';
+    $filterBodyBg = 'background-color:#f4f3ec !important;';
+    $iconBackgroundColor = 'background-color:#f4f3ec !important;';
+}
 ?>
 <!DOCTYPE html>
 <!--
@@ -178,7 +186,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                 <div class="card w-100 p-5" style="<?php echo $mainCardbackgroundColor; ?>">
                                     <div class="row p-5">
                                         <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
-                                            <div class="card w-100 h-100 p-5 bg-pale">
+                                            <div class="card w-100 h-100 p-5 bg-pale" style=" <?php echo $filterBackgroundColor; ?>">
                                                 <div class="row d-flex align-items-center">
                                                     <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
                                                         <div class="box-colors">
@@ -206,7 +214,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                             </div>
                                         </div>
                                         <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
-                                            <div class="card w-100 h-100 p-5 bg-white mt-5-res">
+                                            <div class="card w-100 h-100 p-5 bg-white mt-5-res" style=" <?php echo $filterBackgroundColor; ?>">
                                                 <div class="row h-50">
                                                     <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 responsive-margin-card">
                                                         <div class="bg-light-primary br-15 text-center h-100 cursor-pointer d-flex flex-column align-items-center justify-content-center">
@@ -315,7 +323,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                     <div class="row">
                                                         <div class="col-lg-3 col-md-12 col-sm-12 col-xs-12 pr-1">
                                                             <div class="card card-custom card-border gutter-b card-shadowless" id="sub_menu_wizard">
-                                                                <div class="pxy-15-30" style="position: -webkit-sticky;position: sticky; top: 0px; <?php echo $tableBackgroundColor; ?>">
+                                                                <div class="pxy-15-30" style="position: -webkit-sticky;position: sticky; top: 0px; <?php echo $filterBackgroundColor; ?>">
                                                                     <div class="row justify-content-between">
                                                                         <div class="col-md-6">
                                                                             <div class="d-flex align-items-center h-100">
@@ -325,7 +333,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                         <div class="col-md-6" style="text-align: right;"><a class="btn btn-secondary btn-sm btn-text-white btn-hover-primary" id="btn_clear_all" style="display:none">{!!trans('data_resources.label_clear_filter')!!}</a></div>
                                                                     </div>
                                                                 </div>
-                                                                <div class="card-body pt-2 mt-5" id="filters_body">
+                                                                <div class="card-body" id="filters_body" style="<?php echo $filterBodyBg; ?>">
                                                                     <div class="demo-assessment mb-5"><!-- indicators filter -->
                                                                         <div class="row justify-content-between">
                                                                             <div class="col-md-8"><label class="">Country:</label></div>

@@ -348,7 +348,7 @@
 
                                         </span>
                                     </i>
-                                    <span class="menu-text">Version 4</span>
+                                    <span class="menu-text">Version 5</span>
                                 </a>
                             </li>
                         </ul>

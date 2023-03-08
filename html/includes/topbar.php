@@ -1,4 +1,14 @@
-<div id="kt_header" class="header header-fixed">
+<?php
+$topBarBg = 'background-color:#fff !important;';
+$iconBackgroundColor = 'background-color:#f4f3ec !important;';
+$icnColor = 'icn-primary';
+if ($_GET['v'] == 6) {
+    $topBarBg = 'background-color:#f4f3ec !important;';
+    $iconBackgroundColor = 'background-color:#074A37 !important;';
+    $icnColor = 'icn-pale';
+}
+?>
+<div id="kt_header" class="header header-fixed" style="<?php echo $topBarBg ?>">
     <!--begin::Container-->
     <div class="container-fluid d-flex align-items-stretch justify-content-between">
         <!--begin::Header Menu Wrapper-->
@@ -32,12 +42,12 @@
         <div class="topbar">
 
             <div class="topbar-item header-top-icon">
-                <div class="btn btn-icon btn-clean btn-md mr-1 ml-2 rounded-circle bg-icon" data-toggle="modal" data-target="#kt_chat_modal">
+                <div class="btn btn-icon btn-clean btn-md mr-1 ml-2 rounded-circle bg-icon" data-toggle="modal" data-target="#kt_chat_modal" style="<?php echo $iconBackgroundColor ?>">
                     <span class="svg-icon-md svg-icon-primary">
-                        <svg width="20" height="16" viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M10.0001 16L9.69391 15.7321C2.7274 10.067 0.851807 8.07655 0.851807 4.82296C0.851807 2.14354 3.03362 0 5.67477 0C7.89487 0 9.15803 1.26315 10.0001 2.22009C10.8422 1.26315 12.1054 0 14.3255 0C17.0049 0 19.1485 2.18182 19.1485 4.82296C19.1485 8.07655 17.2729 10.067 10.3064 15.7321L10.0001 16ZM5.67477 0.995212C3.56951 0.995212 1.84702 2.7177 1.84702 4.82296C1.84702 7.61722 3.60779 9.45455 10.0001 14.6986C16.3925 9.45455 18.1532 7.61722 18.1532 4.82296C18.1532 2.7177 16.4308 0.995212 14.3255 0.995212C12.4116 0.995212 11.3781 2.14354 10.5743 3.0622L10.0001 3.71292L9.42597 3.0622C8.62214 2.14354 7.58865 0.995212 5.67477 0.995212Z" fill="#074A37" />
-                        </svg>
-
+                        <!-- <svg width="20" height="16" viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M10.0001 16L9.69391 15.7321C2.7274 10.067 0.851807 8.07655 0.851807 4.82296C0.851807 2.14354 3.03362 0 5.67477 0C7.89487 0 9.15803 1.26315 10.0001 2.22009C10.8422 1.26315 12.1054 0 14.3255 0C17.0049 0 19.1485 2.18182 19.1485 4.82296C19.1485 8.07655 17.2729 10.067 10.3064 15.7321L10.0001 16ZM5.67477 0.995212C3.56951 0.995212 1.84702 2.7177 1.84702 4.82296C1.84702 7.61722 3.60779 9.45455 10.0001 14.6986C16.3925 9.45455 18.1532 7.61722 18.1532 4.82296C18.1532 2.7177 16.4308 0.995212 14.3255 0.995212C12.4116 0.995212 11.3781 2.14354 10.5743 3.0622L10.0001 3.71292L9.42597 3.0622C8.62214 2.14354 7.58865 0.995212 5.67477 0.995212Z" fill="#f4f3ec" />
+                        </svg> -->
+                        <i class="icn-heart <?php echo $icnColor?>"></i>
 
                     </span>
                 </div>
@@ -46,14 +56,15 @@
             <div class="dropdown" id="kt_quick_search_toggle">
                 <!--begin::Toggle-->
                 <div class="topbar-item header-top-icon" data-toggle="dropdown" data-offset="10px,0px">
-                    <div class="btn btn-icon btn-clean btn-md mr-1 ml-2 rounded-circle bg-icon" data-toggle="modal" data-target="#kt_chat_modal">
+                    <div class="btn btn-icon btn-clean btn-md mr-1 ml-2 rounded-circle bg-icon" data-toggle="modal" data-target="#kt_chat_modal" style="<?php echo $iconBackgroundColor ?>">
                         <span class="svg-icon-md svg-icon-primary">
-                            <svg width="19" height="18" viewBox="0 0 19 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <!-- <svg width="19" height="18" viewBox="0 0 19 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M19.0001 15.5252C15.4865 15.5252 15.0232 12.2433 14.5599 9.0772C14.0579 5.64081 13.5946 2.43608 9.73346 2.43608C5.87235 2.43608 5.40902 5.67942 4.90707 9.0772C4.44374 12.2433 3.98041 15.5252 0.466797 15.5252V14.5214C2.93791 14.5214 3.40124 12.4364 3.90318 8.96136C4.36652 5.60219 4.9843 1.43219 9.73346 1.43219C14.4826 1.43219 15.1004 5.60219 15.5637 8.96136C16.0657 12.4364 16.529 14.5214 19.0001 14.5214V15.5252Z" fill="#074A37" />
                                 <path d="M9.73354 17.6875C8.26632 17.6875 7.03076 16.4906 7.03076 14.9847H8.03465C8.03465 15.9114 8.76826 16.645 9.69493 16.645C10.6216 16.645 11.3552 15.9114 11.3552 14.9847H12.3591C12.4363 16.4906 11.2008 17.6875 9.73354 17.6875Z" fill="#074A37" />
                                 <path d="M0.466797 14.4828H19.0001V15.5639H0.466797V14.4828Z" fill="#074A37" />
                                 <path d="M10.8146 1.39361C10.8146 2.01138 10.3126 2.20444 9.73346 2.20444C9.15429 2.20444 8.65234 1.97277 8.65234 1.39361C8.65234 0.81444 9.15429 0.3125 9.73346 0.3125C10.3126 0.3125 10.8146 0.775829 10.8146 1.39361Z" fill="#074A37" />
-                            </svg>
+                            </svg> -->
+                            <i class="icn-notification  <?php echo $icnColor?>"></i>
                         </span>
                     </div>
                 </div>
