@@ -171,7 +171,7 @@ License: You must have a valid license purchased only from themeforest(the above
             <!--begin::Wrapper-->
             <div class="d-flex flex-column flex-row-fluid wrapper" id="kt_wrapper">
                 <!--begin::Header-->
-                <?php include './includes/topbar.php'; ?>
+                <?php include './includes/updated_topbar.php'; ?>
                 <!--end::Header-->
                 <!--begin::Content-->
                 <div class="d-flex flex-column flex-column-fluid" id="kt_content">
@@ -323,7 +323,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                     <div class="row">
                                                         <div class="col-lg-3 col-md-12 col-sm-12 col-xs-12 pr-1">
                                                             <div class="card card-custom card-border gutter-b card-shadowless" id="sub_menu_wizard">
-                                                                <div class="pxy-15-30" style="position: -webkit-sticky;position: sticky; top: 0px; <?php echo $filterBackgroundColor; ?>">
+                                                                <div class="pxy-15-30" style="position: -webkit-sticky;position: sticky; top: 0px; <?php echo $tableBackgroundColor; ?>">
                                                                     <div class="row justify-content-between">
                                                                         <div class="col-md-6">
                                                                             <div class="d-flex align-items-center h-100">

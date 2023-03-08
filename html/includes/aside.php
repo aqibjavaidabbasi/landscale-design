@@ -351,6 +351,19 @@
                                     <span class="menu-text">Version 5</span>
                                 </a>
                             </li>
+                            <li class="menu-item" aria-haspopup="true">
+                                <a href="./updated_admin.php?v=6" class="menu-link">
+                                    <i class="menu-bullet-dot mr-3">
+                                        <span>
+                                            <svg width="7" height="9" viewBox="0 0 7 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M1.19995 1.42438L1.65276 1L5.39995 4.5L1.65276 8L1.19995 7.57781L4.49214 4.5L1.19995 1.42438Z" stroke="#3F544C" />
+                                            </svg>
+
+                                        </span>
+                                    </i>
+                                    <span class="menu-text">Version 6</span>
+                                </a>
+                            </li>
                         </ul>
                     </div>
                 </li>
