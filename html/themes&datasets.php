@@ -93,9 +93,9 @@ License: You must have a valid license purchased only from themeforest(the above
             </button>
             <!--end::Aside Mobile Toggle-->
             <!--begin::Header Menu Mobile Toggle-->
-            <button class="btn p-0 burger-icon ml-4" id="kt_header_mobile_toggle">
+            <!-- <button class="btn p-0 burger-icon ml-4" id="kt_header_mobile_toggle">
                 <span></span>
-            </button>
+            </button> -->
             <!--end::Header Menu Mobile Toggle-->
             <!--begin::Topbar Mobile Toggle-->
             <button class="btn btn-hover-text-primary p-0 ml-2" id="kt_header_mobile_topbar_toggle">
@@ -800,6 +800,19 @@ License: You must have a valid license purchased only from themeforest(the above
                 $(this).parent().addClass('indicator-border-top-15');
             }
         });
+
+        function redirectLink(pagelink) {
+            if ($(window).width() < 768) {
+                // Prevent the default action of the link
+                location.href = '#'
+
+                // Toggle the dropdown on click
+                $(this).siblings('.sub-menu').toggle();
+            } else {
+                console.log('dede');
+                location.href = pagelink;
+            }
+        }
 
         function toggleAside() {
             if ($('#inner-side-nav').hasClass('max-w-5-percent')) {

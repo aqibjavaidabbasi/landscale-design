@@ -2,6 +2,7 @@
 $backgroundColor = 'background-color:#9ABF78;';
 $iconBackgroundColor = 'background-color:#4c69a0 !important;';
 $logoBorder = 'border: 2px solid #fff !important; padding: 5px;';
+$textWhite = 'color: #231f20 !important;';
 if ($_GET['v'] == 2) {
     $backgroundColor = 'background-color:#fff !important;';
 }
@@ -17,7 +18,8 @@ if ($_GET['v'] == 5) {
 if ($_GET['v'] == 6) {
     $backgroundColor = 'background-color:#074A37 !important;';
     $iconBackgroundColor = 'background-color:#f4f3ec !important;';
-    $logoBorder = 'border: none !important';
+    $logoBorder = 'border: none !important;';
+    $textWhite = 'color: #fff !important';
 }
 ?>
 
@@ -52,12 +54,12 @@ if ($_GET['v'] == 6) {
             </div>
             <ul class="menu-nav">
                 <li class="menu-item menu-item-submenu" aria-haspopup="true" data-menu-toggle="hover">
-                    <a href="javascript:;" onclick="javascript:location.href='./index.php'" class="menu-link menu-toggle px-4 py-2 hover-menu text-center">
+                    <a href="javascript:;" onclick="redirectLink('./index.php')" class="menu-link menu-toggle px-4 py-2 hover-menu text-center">
                         <span class="svg-icon-lg p-4 nav-icn rounded-circle bg-icon mr-5">
                             <i class="icn-assessment icn-2x"></i>
                             <!--end::Svg Icon-->
                         </span>
-                        <span class="menu-text menu-text-opened">Assessments Dashboard</span>
+                        <span class="menu-text menu-text-opened" style="<?php echo $textWhite?>">Assessments Dashboard</span>
                     </a>
                     <div class="menu-submenu bg-light-primary brt-50">
                         <i class="menu-arrow"></i>
@@ -72,7 +74,7 @@ if ($_GET['v'] == 6) {
                                 </span> -->
                             </li>
                             <li class="menu-item" aria-haspopup="true">
-                                <a href="./admin_dashboard.php" class="menu-link">
+                                <a href="./admin_dashboard.php" class="menu-link sm-d-flex align-items-center">
                                     <i class="menu-bullet-dot mr-3">
                                         <span>
                                             <svg width="7" height="9" viewBox="0 0 7 9" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -85,7 +87,7 @@ if ($_GET['v'] == 6) {
                                 </a>
                             </li>
                             <li class="menu-item" aria-haspopup="true">
-                                <a href="./landscale_listing_dashboard.php" class="menu-link">
+                                <a href="./landscale_listing_dashboard.php" class="menu-link sm-d-flex align-items-center">
                                     <i class="menu-bullet-dot mr-3">
                                         <span>
                                             <svg width="7" height="9" viewBox="0 0 7 9" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -101,14 +103,15 @@ if ($_GET['v'] == 6) {
 
                     </div>
                 </li>
+                <!-- javascript:location.href='' -->
                 <li class="menu-item menu-item-submenu" aria-haspopup="true" data-menu-toggle="hover">
-                    <a href="javascript:;" onclick="javascript:location.href='./dashboard_with_square_cornors.php'" class="menu-link menu-toggle px-4 py-2 hover-menu text-center">
+                    <a href="javascript:;" onclick="redirectLink('./dashboard_with_square_cornors.php')" class="menu-link menu-toggle px-4 py-2 hover-menu text-center">
                         <span class="svg-icon-lg p-4 nav-icn rounded-circle bg-icon mr-5">
 
                             <i class="icn-stack icn-primary icn-2x"></i>
                             <!--end::Svg Icon-->
                         </span>
-                        <span class="menu-text menu-text-opened">Assessments</span>
+                        <span class="menu-text menu-text-opened" style="<?php echo $textWhite?>">Assessments</span>
                         <i class="menu-arrow"></i>
                     </a>
                     <div class="menu-submenu bg-light-primary brt-50">
@@ -123,7 +126,7 @@ if ($_GET['v'] == 6) {
                                 </span> -->
                             </li>
                             <li class="menu-item" aria-haspopup="true">
-                                <a href="./dashboard_with_square_cornors.php" class="menu-link">
+                                <a href="./dashboard_with_square_cornors.php" class="menu-link sm-d-flex align-items-center">
                                     <i class="menu-bullet-dot mr-3">
                                         <span>
                                             <svg width="7" height="9" viewBox="0 0 7 9" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -137,7 +140,7 @@ if ($_GET['v'] == 6) {
                             </li>
 
                             <li class="menu-item" aria-haspopup="true">
-                                <a href="./dashboard_with_square_cornors.php" class="menu-link">
+                                <a href="./dashboard_with_square_cornors.php" class="menu-link sm-d-flex align-items-center">
                                     <i class="menu-bullet-dot mr-3">
                                         <span>
                                             <svg width="7" height="9" viewBox="0 0 7 9" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -150,7 +153,7 @@ if ($_GET['v'] == 6) {
                                 </a>
                             </li>
                             <li class="menu-item" aria-haspopup="true">
-                                <a href="./dashboard_with_square_cornors.php" class="menu-link">
+                                <a href="./dashboard_with_square_cornors.php" class="menu-link sm-d-flex align-items-center">
                                     <i class="menu-bullet-dot mr-3">
                                         <span>
                                             <svg width="7" height="9" viewBox="0 0 7 9" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -166,11 +169,11 @@ if ($_GET['v'] == 6) {
                     </div>
                 </li>
                 <li class="menu-item menu-item-submenu" aria-haspopup="true" data-menu-toggle="hover">
-                    <a href="javascript:;" onclick="javascript:location.href='./favorite_asssesment.php'" class="menu-link menu-toggle px-4 py-2 hover-menu text-center">
+                    <a href="javascript:;" onclick="redirectLink('./favorite_asssesment.php')" class="menu-link menu-toggle px-4 py-2 hover-menu text-center">
                         <span class="svg-icon-lg nav-icn p-4 rounded-circle bg-icon mr-5">
                             <i class="icn-file-chart icn-2x"></i>
                         </span>
-                        <span class="menu-text menu-text-opened">Explore Landscapes</span>
+                        <span class="menu-text menu-text-opened" style="<?php echo $textWhite?>">Explore Landscapes</span>
                     </a>
                     <div class="menu-submenu bg-light-primary brt-50">
                         <i class="menu-arrow"></i>
@@ -185,7 +188,7 @@ if ($_GET['v'] == 6) {
                                 </span> -->
                             </li>
                             <li class="menu-item" aria-haspopup="true">
-                                <a href="./favorite_asssesment.php" class="menu-link">
+                                <a href="./favorite_asssesment.php" class="menu-link sm-d-flex align-items-center">
                                     <i class="menu-bullet-dot mr-3">
                                         <span>
                                             <svg width="7" height="9" viewBox="0 0 7 9" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -198,7 +201,7 @@ if ($_GET['v'] == 6) {
                                 </a>
                             </li>
                             <li class="menu-item" aria-haspopup="true">
-                                <a href="./indicator_metrices.php" class="menu-link">
+                                <a href="./indicator_metrices.php" class="menu-link sm-d-flex align-items-center">
                                     <i class="menu-bullet-dot mr-3">
                                         <span>
                                             <svg width="7" height="9" viewBox="0 0 7 9" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -222,7 +225,7 @@ if ($_GET['v'] == 6) {
 
                             <!--end::Svg Icon-->
                         </span>
-                        <span class="menu-text menu-text-opened">Help Center</span>
+                        <span class="menu-text menu-text-opened" style="<?php echo $textWhite?>">Help Center</span>
                     </a>
                     <div class="menu-submenu bg-primary pb-0 mb-0 brt-50 brb-50">
                         <i class="menu-arrow"></i>
@@ -239,13 +242,13 @@ if ($_GET['v'] == 6) {
                     </div>
                 </li>
                 <li class="menu-item menu-item-submenu" aria-haspopup="true" data-menu-toggle="hover">
-                    <a href="javascript:;" onclick="javascript:location.href='./html_theme.php'" class="menu-link menu-toggle px-4 py-2 hover-menu text-center">
+                    <a href="javascript:;" onclick="redirectLink('./html_theme.php')" class="menu-link menu-toggle px-4 py-2 hover-menu text-center">
                         <span class="svg-icon-lg p-4 nav-icn rounded-circle bg-icon mr-5">
 
                             <i class="icn-file icn-primary icn-2x"></i>
                             <!--end::Svg Icon-->
                         </span>
-                        <span class="menu-text menu-text-opened">Documentation</span>
+                        <span class="menu-text menu-text-opened" style="<?php echo $textWhite?>">Documentation</span>
                         <i class="menu-arrow"></i>
                     </a>
                     <div class="menu-submenu bg-light-primary brt-50">
@@ -261,7 +264,7 @@ if ($_GET['v'] == 6) {
                             </li>
 
                             <li class="menu-item" aria-haspopup="true">
-                                <a href="./icons.php" class="menu-link">
+                                <a href="./icons.php" class="menu-link sm-d-flex align-items-center">
                                     <i class="menu-bullet-dot mr-3">
                                         <span>
                                             <svg width="7" height="9" viewBox="0 0 7 9" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -274,7 +277,7 @@ if ($_GET['v'] == 6) {
                                 </a>
                             </li>
                             <li class="menu-item" aria-haspopup="true">
-                                <a href="./html_theme.php" class="menu-link">
+                                <a href="./html_theme.php" class="menu-link sm-d-flex align-items-center">
                                     <i class="menu-bullet-dot mr-3">
                                         <span>
                                             <svg width="7" height="9" viewBox="0 0 7 9" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -291,13 +294,13 @@ if ($_GET['v'] == 6) {
                 </li>
 
                 <li class="menu-item menu-item-submenu" aria-haspopup="true" data-menu-toggle="hover">
-                    <a href="javascript:;" onclick="javascript:location.href='./html_theme.php'" class="menu-link menu-toggle px-4 py-2 hover-menu text-center">
+                    <a href="javascript:;" onclick="redirectLink('./updated_admin.php?v=1')" class="menu-link menu-toggle px-4 py-2 hover-menu text-center">
                         <span class="svg-icon-lg p-4 nav-icn rounded-circle bg-icon mr-5">
 
                             <i class="icn-file icn-primary icn-2x"></i>
                             <!--end::Svg Icon-->
                         </span>
-                        <span class="menu-text menu-text-opened">Versions</span>
+                        <span class="menu-text menu-text-opened" style="<?php echo $textWhite?>">Versions</span>
                         <i class="menu-arrow"></i>
                     </a>
                     <div class="menu-submenu bg-light-primary brt-50">
@@ -310,7 +313,7 @@ if ($_GET['v'] == 6) {
                             </li>
 
                             <li class="menu-item" aria-haspopup="true">
-                                <a href="./updated_admin.php?v=1" class="menu-link">
+                                <a href="./updated_admin.php?v=1" class="menu-link sm-d-flex align-items-center">
                                     <i class="menu-bullet-dot mr-3">
                                         <span>
                                             <svg width="7" height="9" viewBox="0 0 7 9" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -323,7 +326,7 @@ if ($_GET['v'] == 6) {
                                 </a>
                             </li>
                             <li class="menu-item" aria-haspopup="true">
-                                <a href="./updated_admin.php?v=2" class="menu-link">
+                                <a href="./updated_admin.php?v=2" class="menu-link sm-d-flex align-items-center">
                                     <i class="menu-bullet-dot mr-3">
                                         <span>
                                             <svg width="7" height="9" viewBox="0 0 7 9" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -336,7 +339,7 @@ if ($_GET['v'] == 6) {
                                 </a>
                             </li>
                             <li class="menu-item" aria-haspopup="true">
-                                <a href="./updated_admin.php?v=3" class="menu-link">
+                                <a href="./updated_admin.php?v=3" class="menu-link sm-d-flex align-items-center">
                                     <i class="menu-bullet-dot mr-3">
                                         <span>
                                             <svg width="7" height="9" viewBox="0 0 7 9" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -349,7 +352,7 @@ if ($_GET['v'] == 6) {
                                 </a>
                             </li>
                             <li class="menu-item" aria-haspopup="true">
-                                <a href="./updated_admin.php?v=4" class="menu-link">
+                                <a href="./updated_admin.php?v=4" class="menu-link sm-d-flex align-items-center">
                                     <i class="menu-bullet-dot mr-3">
                                         <span>
                                             <svg width="7" height="9" viewBox="0 0 7 9" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -362,7 +365,7 @@ if ($_GET['v'] == 6) {
                                 </a>
                             </li>
                             <li class="menu-item" aria-haspopup="true">
-                                <a href="./updated_admin.php?v=5" class="menu-link">
+                                <a href="./updated_admin.php?v=5" class="menu-link sm-d-flex align-items-center">
                                     <i class="menu-bullet-dot mr-3">
                                         <span>
                                             <svg width="7" height="9" viewBox="0 0 7 9" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -375,7 +378,7 @@ if ($_GET['v'] == 6) {
                                 </a>
                             </li>
                             <li class="menu-item" aria-haspopup="true">
-                                <a href="./updated_admin.php?v=6" class="menu-link">
+                                <a href="./updated_admin.php?v=6" class="menu-link sm-d-flex align-items-center">
                                     <i class="menu-bullet-dot mr-3">
                                         <span>
                                             <svg width="7" height="9" viewBox="0 0 7 9" fill="none" xmlns="http://www.w3.org/2000/svg">

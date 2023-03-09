@@ -5,7 +5,7 @@
         <!--begin::Logo-->
         <a href="../index.php" class="brand-logo">
             <img alt="Logo" id="menu_close_img" src="../assets/media/landscale_icon.svg">
-            <img alt="Logo" id="menu_open_img" class="d-none" src="../assets/media/logo/FullColour/Landscale Logo_Full_Colour.png" width="220px">
+            <img alt="Logo" id="menu_open_img" class="d-none" src="../../assets/media/logo/FullColour/Landscale_white_logo.png" width="220px">
         </a>
         <!--end::Logo-->
     </div>
@@ -29,7 +29,7 @@
             </div>
             <ul class="menu-nav">
                 <li class="menu-item menu-item-submenu" aria-haspopup="true" data-menu-toggle="hover">
-                    <a href="javascript:;" onclick="javascript:location.href='./index.php'" class="menu-link menu-toggle px-4 py-2 hover-menu text-center">
+                    <a href="javascript:;" onclick="redirectLink('./index.php')" class="menu-link menu-toggle px-4 py-2 hover-menu text-center">
                         <span class="svg-icon-lg p-4 nav-icn rounded-circle bg-light-primary mr-5">
                             <i class="icn-assessment icn-2x"></i>
                             <!--end::Svg Icon-->
@@ -49,7 +49,7 @@
                                 </span> -->
                             </li>
                             <li class="menu-item" aria-haspopup="true">
-                                <a href="./admin_dashboard.php" class="menu-link">
+                                <a href="./admin_dashboard.php" class="menu-link sm-d-flex align-items-center">
                                     <i class="menu-bullet-dot mr-3">
                                         <span>
                                             <svg width="7" height="9" viewBox="0 0 7 9" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -62,7 +62,7 @@
                                 </a>
                             </li>
                             <li class="menu-item" aria-haspopup="true">
-                                <a href="./landscale_listing_dashboard.php" class="menu-link">
+                                <a href="./landscale_listing_dashboard.php" class="menu-link sm-d-flex align-items-center">
                                     <i class="menu-bullet-dot mr-3">
                                         <span>
                                             <svg width="7" height="9" viewBox="0 0 7 9" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -79,7 +79,7 @@
                     </div>
                 </li>
                 <li class="menu-item menu-item-submenu" aria-haspopup="true" data-menu-toggle="hover">
-                    <a href="javascript:;" onclick="javascript:location.href='./dashboard_with_square_cornors.php'" class="menu-link menu-toggle px-4 py-2 hover-menu text-center">
+                    <a href="javascript:;" onclick="redirectLink('./dashboard_with_square_cornors.php')" class="menu-link menu-toggle px-4 py-2 hover-menu text-center">
                         <span class="svg-icon-lg p-4 nav-icn rounded-circle bg-light-primary mr-5">
 
                             <i class="icn-stack icn-primary icn-2x"></i>
@@ -100,7 +100,7 @@
                                 </span> -->
                             </li>
                             <li class="menu-item" aria-haspopup="true">
-                                <a href="./dashboard_with_square_cornors.php" class="menu-link">
+                                <a href="./dashboard_with_square_cornors.php" class="menu-link sm-d-flex align-items-center">
                                     <i class="menu-bullet-dot mr-3">
                                         <span>
                                             <svg width="7" height="9" viewBox="0 0 7 9" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -114,7 +114,7 @@
                             </li>
 
                             <li class="menu-item" aria-haspopup="true">
-                                <a href="./dashboard_with_square_cornors.php" class="menu-link">
+                                <a href="./dashboard_with_square_cornors.php" class="menu-link sm-d-flex align-items-center">
                                     <i class="menu-bullet-dot mr-3">
                                         <span>
                                             <svg width="7" height="9" viewBox="0 0 7 9" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -127,7 +127,7 @@
                                 </a>
                             </li>
                             <li class="menu-item" aria-haspopup="true">
-                                <a href="./dashboard_with_square_cornors.php" class="menu-link">
+                                <a href="./dashboard_with_square_cornors.php" class="menu-link sm-d-flex align-items-center">
                                     <i class="menu-bullet-dot mr-3">
                                         <span>
                                             <svg width="7" height="9" viewBox="0 0 7 9" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -143,7 +143,7 @@
                     </div>
                 </li>
                 <li class="menu-item menu-item-submenu" aria-haspopup="true" data-menu-toggle="hover">
-                    <a href="javascript:;" onclick="javascript:location.href='./favorite_asssesment.php'" class="menu-link menu-toggle px-4 py-2 hover-menu text-center">
+                    <a href="javascript:;" onclick="redirectLink('./favorite_asssesment.php')" class="menu-link menu-toggle px-4 py-2 hover-menu text-center">
                         <span class="svg-icon-lg nav-icn p-4 rounded-circle bg-light-primary mr-5">
                             <i class="icn-file-chart icn-2x"></i>
                         </span>
@@ -162,7 +162,7 @@
                                 </span> -->
                             </li>
                             <li class="menu-item" aria-haspopup="true">
-                                <a href="./favorite_asssesment.php" class="menu-link">
+                                <a href="./favorite_asssesment.php" class="menu-link sm-d-flex align-items-center">
                                     <i class="menu-bullet-dot mr-3">
                                         <span>
                                             <svg width="7" height="9" viewBox="0 0 7 9" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -175,7 +175,7 @@
                                 </a>
                             </li>
                             <li class="menu-item" aria-haspopup="true">
-                                <a href="./indicator_metrices.php" class="menu-link">
+                                <a href="./indicator_metrices.php" class="menu-link sm-d-flex align-items-center">
                                     <i class="menu-bullet-dot mr-3">
                                         <span>
                                             <svg width="7" height="9" viewBox="0 0 7 9" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -216,7 +216,7 @@
                     </div>
                 </li>
                 <li class="menu-item menu-item-submenu" aria-haspopup="true" data-menu-toggle="hover">
-                    <a href="javascript:;" onclick="javascript:location.href='./html_theme.php'" class="menu-link menu-toggle px-4 py-2 hover-menu text-center">
+                    <a href="javascript:;" onclick="redirectLink('./html_theme.php')" class="menu-link menu-toggle px-4 py-2 hover-menu text-center">
                         <span class="svg-icon-lg p-4 nav-icn rounded-circle bg-light-primary mr-5">
 
                             <i class="icn-file icn-primary icn-2x"></i>
@@ -238,7 +238,7 @@
                             </li>
 
                             <li class="menu-item" aria-haspopup="true">
-                                <a href="./icons.php" class="menu-link">
+                                <a href="./icons.php" class="menu-link sm-d-flex align-items-center">
                                     <i class="menu-bullet-dot mr-3">
                                         <span>
                                             <svg width="7" height="9" viewBox="0 0 7 9" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -251,7 +251,7 @@
                                 </a>
                             </li>
                             <li class="menu-item" aria-haspopup="true">
-                                <a href="./html_theme.php" class="menu-link">
+                                <a href="./html_theme.php" class="menu-link sm-d-flex align-items-center">
                                     <i class="menu-bullet-dot mr-3">
                                         <span>
                                             <svg width="7" height="9" viewBox="0 0 7 9" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -268,7 +268,7 @@
                 </li>
 
                 <li class="menu-item menu-item-submenu" aria-haspopup="true" data-menu-toggle="hover">
-                    <a href="javascript:;" onclick="javascript:location.href='./html_theme.php'" class="menu-link menu-toggle px-4 py-2 hover-menu text-center">
+                    <a href="javascript:;" onclick="redirectLink('./updated_admin.php?v=1')" class="menu-link menu-toggle px-4 py-2 hover-menu text-center">
                         <span class="svg-icon-lg p-4 nav-icn rounded-circle bg-light-primary mr-5">
 
                             <i class="icn-file icn-primary icn-2x"></i>
@@ -287,7 +287,7 @@
                             </li>
 
                             <li class="menu-item" aria-haspopup="true">
-                                <a href="./updated_admin.php?v=1" class="menu-link">
+                                <a href="./updated_admin.php?v=1" class="menu-link sm-d-flex align-items-center">
                                     <i class="menu-bullet-dot mr-3">
                                         <span>
                                             <svg width="7" height="9" viewBox="0 0 7 9" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -300,7 +300,7 @@
                                 </a>
                             </li>
                             <li class="menu-item" aria-haspopup="true">
-                                <a href="./updated_admin.php?v=2" class="menu-link">
+                                <a href="./updated_admin.php?v=2" class="menu-link sm-d-flex align-items-center">
                                     <i class="menu-bullet-dot mr-3">
                                         <span>
                                             <svg width="7" height="9" viewBox="0 0 7 9" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -313,7 +313,7 @@
                                 </a>
                             </li>
                             <li class="menu-item" aria-haspopup="true">
-                                <a href="./updated_admin.php?v=3" class="menu-link">
+                                <a href="./updated_admin.php?v=3" class="menu-link sm-d-flex align-items-center">
                                     <i class="menu-bullet-dot mr-3">
                                         <span>
                                             <svg width="7" height="9" viewBox="0 0 7 9" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -326,7 +326,7 @@
                                 </a>
                             </li>
                             <li class="menu-item" aria-haspopup="true">
-                                <a href="./updated_admin.php?v=4" class="menu-link">
+                                <a href="./updated_admin.php?v=4" class="menu-link sm-d-flex align-items-center">
                                     <i class="menu-bullet-dot mr-3">
                                         <span>
                                             <svg width="7" height="9" viewBox="0 0 7 9" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -339,7 +339,7 @@
                                 </a>
                             </li>
                             <li class="menu-item" aria-haspopup="true">
-                                <a href="./updated_admin.php?v=5" class="menu-link">
+                                <a href="./updated_admin.php?v=5" class="menu-link sm-d-flex align-items-center">
                                     <i class="menu-bullet-dot mr-3">
                                         <span>
                                             <svg width="7" height="9" viewBox="0 0 7 9" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -352,7 +352,7 @@
                                 </a>
                             </li>
                             <li class="menu-item" aria-haspopup="true">
-                                <a href="./updated_admin.php?v=6" class="menu-link">
+                                <a href="./updated_admin.php?v=6" class="menu-link sm-d-flex align-items-center">
                                     <i class="menu-bullet-dot mr-3">
                                         <span>
                                             <svg width="7" height="9" viewBox="0 0 7 9" fill="none" xmlns="http://www.w3.org/2000/svg">

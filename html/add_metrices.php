@@ -93,9 +93,9 @@ License: You must have a valid license purchased only from themeforest(the above
             </button>
             <!--end::Aside Mobile Toggle-->
             <!--begin::Header Menu Mobile Toggle-->
-            <button class="btn p-0 burger-icon ml-4" id="kt_header_mobile_toggle">
+            <!-- <button class="btn p-0 burger-icon ml-4" id="kt_header_mobile_toggle">
                 <span></span>
-            </button>
+            </button> -->
             <!--end::Header Menu Mobile Toggle-->
             <!--begin::Topbar Mobile Toggle-->
             <button class="btn btn-hover-text-primary p-0 ml-2" id="kt_header_mobile_topbar_toggle">
@@ -366,7 +366,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                 Completed
                                                                             </span>
                                                                         </div>
-                                                                        
+
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -375,7 +375,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                 <div class="card">
                                                                     <div class="pl-17 py-4 d-flex justify-content-between align-items-center card-accordian" data-toggle="collapse" data-target="#collapseOneA">
                                                                         <span class="text-primary">1.1.1 Effective conservation and protection of natural ecosystems</span>
-                                                                        
+
                                                                     </div>
                                                                     <div class="collapse border-bottom-secondary" id="collapseOneA">
                                                                         <div class="mx-10 mt-5">
@@ -472,7 +472,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                 <div class="card">
                                                                     <div class="pl-17 py-4 d-flex justify-content-between align-items-center card-accordian" data-toggle="collapse" data-target="#collapseOneB">
                                                                         <span class="text-primary">1.1.2 Natural ecosystem conversion</span>
-                                                                        
+
                                                                     </div>
                                                                     <div class="collapse border-bottom-secondary" id="collapseOneB">
                                                                         <div class="mx-10 mt-5">
@@ -614,7 +614,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                 Completed
                                                                             </span>
                                                                         </div>
-                                                                        
+
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -622,7 +622,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                 <div class="card">
                                                                     <div class="pl-17 py-4 d-flex justify-content-between align-items-center cursor-pointer card-accordian" data-toggle="collapse" data-target="#collapseTwoA">
                                                                         <span class="text-primary">1.2.1 Threats to species</span>
-                                                                        
+
                                                                     </div>
                                                                     <div class="collapse border-bottom-secondary" id="collapseTwoA">
                                                                         <div class="mx-10 mt-5">
@@ -722,7 +722,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                 Completed
                                                                             </span>
                                                                         </div>
-                                                                        
+
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -731,7 +731,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                 <div class="card">
                                                                     <div class="pl-17 py-4 d-flex justify-content-between align-items-center card-accordian" data-toggle="collapse" data-target="#collapseOneA">
                                                                         <span>2.1.1 Household income & assets</span>
-                                                                        
+
                                                                     </div>
                                                                     <div class="collapse border-bottom-secondary" id="collapseOneA">
                                                                         <div class="mx-10 mt-5">
@@ -803,7 +803,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                 <div class="card">
                                                                     <div class="pl-17 py-4 d-flex justify-content-between align-items-center card-accordian" data-toggle="collapse" data-target="#collapseOneB">
                                                                         <span>2.1.2 Health & nutrition</span>
-                                                                        
+
                                                                     </div>
                                                                     <div class="collapse border-bottom-secondary" id="collapseOneB">
                                                                         <div class="mx-10 mt-5">
@@ -920,7 +920,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                 Completed
                                                                             </span>
                                                                         </div>
-                                                                        
+
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -928,7 +928,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                 <div class="card">
                                                                     <div class="pl-17 py-4 d-flex justify-content-between align-items-center card-accordian" data-toggle="collapse" data-target="#collapseTwoA">
                                                                         <span>2.2.1 Child labor</span>
-                                                                        
+
                                                                     </div>
                                                                     <div class="collapse border-bottom-secondary" id="collapseTwoA">
                                                                         <div class="mx-10 mt-5">
@@ -1001,7 +1001,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                 Completed
                                                                             </span>
                                                                         </div>
-                                                                        
+
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -1010,7 +1010,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                 <div class="card">
                                                                     <div class="pl-17 py-4 d-flex justify-content-between align-items-center card-accordian" data-toggle="collapse" data-target="#collapseOneA">
                                                                         <span>3.1.1 Land tenure</span>
-                                                                        
+
                                                                     </div>
                                                                     <div class="collapse border-bottom-secondary" id="collapseOneA">
                                                                         <div class="mx-10 mt-5">
@@ -1082,7 +1082,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                 <div class="card">
                                                                     <div class="pl-17 py-4 d-flex justify-content-between align-items-center card-accordian" data-toggle="collapse" data-target="#collapseOneB">
                                                                         <span>3.1.2 Land conflicts</span>
-                                                                        
+
                                                                     </div>
                                                                     <div class="collapse border-bottom-secondary" id="collapseOneB">
                                                                         <div class="mx-10 mt-5">
@@ -1176,7 +1176,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                 Completed
                                                                             </span>
                                                                         </div>
-                                                                        
+
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -1184,7 +1184,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                 <div class="card">
                                                                     <div class="pl-17 py-4 d-flex justify-content-between align-items-center card-accordian" data-toggle="collapse" data-target="#collapseTwoA">
                                                                         <span>3.2.1 Land-use plan adoption & enforcement</span>
-                                                                        
+
                                                                     </div>
                                                                     <div class="collapse border-bottom-secondary" id="collapseTwoA">
                                                                         <div class="mx-10 mt-5">
@@ -1283,7 +1283,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                 Completed
                                                                             </span>
                                                                         </div>
-                                                                        
+
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -1292,7 +1292,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                 <div class="card">
                                                                     <div class="pl-17 py-4 d-flex justify-content-between align-items-center card-accordian" data-toggle="collapse" data-target="#collapseOneA">
                                                                         <span>4.1.1 Agricultural, agroforestry & tree plantation productivity</span>
-                                                                        
+
                                                                     </div>
                                                                     <div class="collapse border-bottom-secondary" id="collapseOneA">
                                                                         <div class="mx-10 mt-5">
@@ -1605,6 +1605,19 @@ License: You must have a valid license purchased only from themeforest(the above
                 $(this).parent().addClass('indicator-border-top-15');
             }
         });
+
+        function redirectLink(pagelink) {
+            if ($(window).width() < 768) {
+                // Prevent the default action of the link
+                location.href = '#'
+
+                // Toggle the dropdown on click
+                $(this).siblings('.sub-menu').toggle();
+            } else {
+                console.log('dede');
+                location.href = pagelink;
+            }
+        }
 
         function toggleAside() {
             if ($('#inner-side-nav').hasClass('max-w-5-percent')) {

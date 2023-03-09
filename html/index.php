@@ -92,9 +92,9 @@ License: You must have a valid license purchased only from themeforest(the above
             </button>
             <!--end::Aside Mobile Toggle-->
             <!--begin::Header Menu Mobile Toggle-->
-            <button class="btn p-0 burger-icon ml-4" id="kt_header_mobile_toggle">
+            <!-- <button class="btn p-0 burger-icon ml-4" id="kt_header_mobile_toggle">
                 <span></span>
-            </button>
+            </button> -->
             <!--end::Header Menu Mobile Toggle-->
             <!--begin::Topbar Mobile Toggle-->
             <button class="btn btn-hover-text-primary p-0 ml-2" id="kt_header_mobile_topbar_toggle">
@@ -197,7 +197,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                 <!--begin: Datatable-->
                                                 <div id="kt_datatable_wrapper" class="dataTables_wrapper dt-bootstrap4 no-footer">
                                                     <div class="row my-5">
-                                                        <div class="col-lg-8 col-md-12 col-sm-12 col-xs-12">
+                                                        <div class="col-lg-8 col-md-12 col-sm-12 col-12">
                                                             <!-- <div class="dataTables_length" id="kt_datatable_length">
                                                                 <label class="entries-label">Show
                                                                     <select name="kt_datatable_length" aria-controls="kt_datatable" class="custom-select custom-select-sm bg-light-primary br-0">
@@ -211,7 +211,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                 Assessments
                                                             </h3>
                                                         </div>
-                                                        <div class="col-lg-3 col-md-12 col-sm-12 col-xs-12">
+                                                        <div class="col-lg-3 col-md-6 col-sm-6 col-9">
                                                             <div id="kt_datatable_filter" class="dataTables_filter mr-5">
                                                                 <div class="input-group custom-search-bar table-searchbar">
                                                                     <input type="text" class="form-control btlr-50 bblr-50 bg-light-grey outline-0 border-0 w-50" placeholder="search for anything">
@@ -223,7 +223,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                 </div>
                                                             </div>
                                                         </div>
-                                                        <div class="col-lg-1 col-md-12 col-sm-12 col-xs-12">
+                                                        <div class="col-lg-1 col-md-6 col-sm-6 col-3">
                                                             <div class="d-flex justify-content-end">
                                                                 <!--begin::Dropdown-->
                                                                 <button type="button" class="btn btn-light-primary font-weight-bolder btlr-11 bblr-11 tablinks active" onclick="openCity(event, 'table_view')">
@@ -382,7 +382,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                             <div id="table_view" class="tabcontent">
                                                                 <div class="row">
                                                                     <div class="col-sm-12 table-margin responsive-overflow-scroll">
-                                                                        <table class="table table-light-pale border-grey text-primary text-dark-grey p-table-10 stripped dataTable br-0" id="kt_datatable" role="grid" style="width: 1151px; margin-top: 0px !important;">
+                                                                        <table class="table table-light-pale border-grey table-responsive text-primary text-dark-grey p-table-10 stripped dataTable br-0" id="kt_datatable" role="grid" style="width: 1151px; margin-top: 0px !important;">
                                                                             <thead>
                                                                                 <tr>
                                                                                     <th class="sorting" tabindex="0" aria-controls="kt_datatable" rowspan="1" colspan="1" style="width: 56px;">
@@ -983,7 +983,7 @@ License: You must have a valid license purchased only from themeforest(the above
                 }
             },
             responsive: [{
-                breakpoint: 480,
+                breakpoint: 320,
                 options: {
                     chart: {
                         width: '100px',
@@ -1074,6 +1074,19 @@ License: You must have a valid license purchased only from themeforest(the above
             let element = $(this).parent('.menu-item').find('.menu-toggle');
             element.removeClass('side-icon-bg-dark');
         });
+
+        function redirectLink(pagelink) {
+            if ($(window).width() < 768) {
+                // Prevent the default action of the link
+                location.href = '#'
+
+                // Toggle the dropdown on click
+                $(this).siblings('.sub-menu').toggle();
+            } else {
+                console.log('dede');
+                location.href = pagelink;
+            }
+        }
 
         function openCity(evt, cityName) {
             var i, tabcontent, tablinks;
