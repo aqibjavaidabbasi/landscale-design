@@ -237,6 +237,17 @@
     height: 16px;
 }
 
+.icn-heart-plain {
+    display: inline-block;
+    -webkit-mask: url('../media/svg_icons/heart-plain.svg') no-repeat center;
+    mask: url('../media/svg_icons/heart-plain.svg') no-repeat center;
+    -webkit-mask-size: contain;
+    mask-size: contain;
+    background-color: #EBF2E4;
+    width: 16px;
+    height: 16px;
+}
+
 .icn-horizontal-stack {
     display: inline-block;
     /* background-image: url('../media/svg_icons/horizontal-stack.svg');
