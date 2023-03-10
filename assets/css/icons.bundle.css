@@ -104,11 +104,33 @@
     background-size: contain; */
     -webkit-mask: url('../media/svg_icons/stack.svg') no-repeat center;
     mask: url('../media/svg_icons/stack.svg') no-repeat center;
-    -webkit-mask-size: contain;
+    -webkit-mask-size: 20px;
     mask-size: contain;
     background-color: #EBF2E4;
     width: 12px;
     height: 12px;
+}
+
+.icn-question-mark {
+    display: inline-block;
+    -webkit-mask: url('../media/svg_icons/question-mark.svg') no-repeat center;
+    mask: url('../media/svg_icons/question-mark.svg') no-repeat center;
+    -webkit-mask-size: 30px;
+    mask-size: contain;
+    background-color: #EBF2E4;
+    width: 12px;
+    height: 12px;
+}
+
+.icn-arrow-right {
+    display: inline-block;
+    -webkit-mask: url('../media/svg_icons/arrow-right.svg') no-repeat center;
+    mask: url('../media/svg_icons/arrow-right.svg') no-repeat center;
+    -webkit-mask-size: contain;
+    mask-size: contain;
+    background-color: #074A37;
+    width: 15px;
+    height: 15px;
 }
 
 .icn-phone {

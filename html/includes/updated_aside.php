@@ -29,7 +29,7 @@ if ($_GET['v'] == 6) {
     <div class="brand flex-column-auto primary-border-right primary-border-bottom" id="kt_brand">
         <!--begin::Logo-->
         <a href="../index.php" class="brand-logo">
-            <img alt="Logo" id="menu_close_img" src="../assets/media/landscale_icon.svg" style="<?php echo $logoBorder; ?>">
+            <img alt="Logo" id="menu_close_img" src="../assets/media/landscale_icon.svg" style="<?php echo $logoBorder; echo $imageFilter; ?>">
             <img alt="Logo" id="menu_open_img" class="d-none" src="../../assets/media/logo/White/Landscale_Logo_White.png" width="220px" style="<?php echo $logoBorder; ?>">
         </a>
         <!--end::Logo-->
@@ -221,7 +221,7 @@ if ($_GET['v'] == 6) {
                     <a href="javascript:;" class="menu-link menu-toggle px-4 py-2 hover-menu text-center" id="kt_quick_cart_toggle_link">
                         <span class="svg-icon-lg p-4 nav-icn rounded-circle bg-icon mr-5">
                             <!--begin::Svg Icon | path:/metronic/theme/html/demo1/dist/assets/media/svg/icons/Code/Compiling.svg-->
-                            <i class="icn-question icn-primary icn-2x"></i>
+                            <i class="icn-question-mark icn-primary icn-2x"></i>
 
 
                             <!--end::Svg Icon-->

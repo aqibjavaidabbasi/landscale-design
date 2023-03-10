@@ -28397,7 +28397,7 @@ a.text-primary:focus {
     color: #000403 !important;
 }
 
-.text-secondary {
+.text-lake {
     color: #4C94A0 !important;
 }
 
@@ -101163,6 +101163,12 @@ select {
     z-index: 2 !important;
 }
 
+.primary-arrow.select-wrapper::after {
+    color: #074a37 !important;
+    font-size: 0.8rem;
+    top: 13px;
+}
+
 .hover-menu:hover,
 .hover-menu:visited {
     background-color: #074A37 !important;
@@ -101654,11 +101660,31 @@ select {
 
 /* stripped table */
 .table.stripped tbody tr:nth-child(even) {
-    background-color: #F0F0F0;
+    background-color: #F4F3EC;
 }
 
 .table.stripped tbody tr:nth-child(odd) {
     background-color: #fff;
+}
+
+.table.t-radius-15 {
+    border-radius: 15px !important;
+}
+
+.table.t-radius-15 thead tr th:first-child {
+    border-top-left-radius: 15px !important;
+}
+
+.table.t-radius-15 thead tr th:last-child {
+    border-top-right-radius: 15px !important;
+}
+
+.table.t-radius-15 tbody tr:last-child td:first-child {
+    border-bottom-left-radius: 15px !important;
+}
+
+.table.t-radius-15 tbody tr:last-child td:last-child {
+    border-bottom-right-radius: 15px !important;
 }
 
 
@@ -101676,56 +101702,56 @@ select {
 .box-colors ul {
     list-style: none;
     line-height: 2.3;
-    padding-left: 60px;
+    padding-left: 47px;
     padding-top: 12px;
 }
 
 .box-colors li:first-child:before {
     border: 5px;
-    width: 30px;
+    width: 20px;
     content: '';
     background: #9ABF78;
     position: absolute;
-    height: 15px;
+    height: 20px;
     left: -45px;
-    top: 13px;
-    border-radius: 3px;
+    top: 10px;
+    border-radius: 50%;
 }
 
 .box-colors li:nth-child(2):before {
     border: 5px;
-    width: 30px;
+    width: 20px;
     content: '';
     background: #074A37;
     position: absolute;
-    height: 15px;
+    height: 20px;
     left: -45px;
-    top: 13px;
-    border-radius: 3px;
+    top: 10px;
+    border-radius: 50%;
 }
 
 .box-colors li:nth-child(3):before {
     border: 5px;
-    width: 30px;
+    width: 20px;
     content: '';
     background: #9FCEDF;
     position: absolute;
-    height: 15px;
+    height: 20px;
     left: -45px;
-    top: 13px;
-    border-radius: 3px;
+    top: 10px;
+    border-radius: 50%;
 }
 
 .box-colors li:nth-child(4):before {
     border: 5px;
-    width: 30px;
+    width: 20px;
     content: '';
     background: #FEC85C;
     position: absolute;
-    height: 15px;
+    height: 20px;
     left: -45px;
-    top: 13px;
-    border-radius: 3px;
+    top: 10px;
+    border-radius: 50%;
 }
 
 .box-colors li {
