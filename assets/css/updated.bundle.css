@@ -101860,8 +101860,15 @@ select {
         z-index: 1;
         justify-content: space-between !important;
     }
+
     .iconform-progress-bar {
         background-color: #fff;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    .mob-resp {
+        display: block !important;
     }
 }
 

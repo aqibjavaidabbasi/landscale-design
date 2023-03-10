@@ -16,6 +16,7 @@
         <div id="kt_aside_menu" class="aside-menu my-4 aside-menu-dropdown" data-menu-vertical="1" data-menu-dropdown="1" data-menu-scroll="0" data-menu-dropdown-timeout="500">
             <!--begin::Menu Nav-->
             <div class="mob-resp">
+                <img alt="Logo" id="menu_open_img" src="../../assets/media/logo/FullColour/Landscale_white_logo.png" width="220px">
                 <div class="input-group custom-search-bar p-3">
                     <input type="text" class="form-control input-circle-left primary-bg-color outline-0 border-0" placeholder="search for anything">
                     <div class="input-group-append">

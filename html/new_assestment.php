@@ -835,7 +835,7 @@ License: You must have a valid license purchased only from themeforest(the above
 
 
         function redirectLink(pagelink) {
-            if ($(window).width() < 768) {
+            if ($(window).width() < 992) {
                 // Prevent the default action of the link
                 location.href = '#'
 

@@ -41,6 +41,7 @@ if ($_GET['v'] == 6) {
         <div id="kt_aside_menu" class="aside-menu my-4 aside-menu-dropdown" data-menu-vertical="1" data-menu-dropdown="1" data-menu-scroll="0" data-menu-dropdown-timeout="500" style="<?php echo $backgroundColor; ?>">
             <!--begin::Menu Nav-->
             <div class="mob-resp">
+                <img alt="Logo" id="menu_open_img" src="../../assets/media/logo/FullColour/Landscale_white_logo.png" width="220px">
                 <div class="input-group custom-search-bar p-3">
                     <input type="text" class="form-control input-circle-left primary-bg-color outline-0 border-0" placeholder="search for anything">
                     <div class="input-group-append">
@@ -59,7 +60,7 @@ if ($_GET['v'] == 6) {
                             <i class="icn-assessment icn-2x"></i>
                             <!--end::Svg Icon-->
                         </span>
-                        <span class="menu-text menu-text-opened" style="<?php echo $textWhite?>">Assessments Dashboard</span>
+                        <span class="menu-text menu-text-opened" style="<?php echo $textWhite ?>">Assessments Dashboard</span>
                     </a>
                     <div class="menu-submenu bg-light-primary brt-50">
                         <i class="menu-arrow"></i>
@@ -111,7 +112,7 @@ if ($_GET['v'] == 6) {
                             <i class="icn-stack icn-primary icn-2x"></i>
                             <!--end::Svg Icon-->
                         </span>
-                        <span class="menu-text menu-text-opened" style="<?php echo $textWhite?>">Assessments</span>
+                        <span class="menu-text menu-text-opened" style="<?php echo $textWhite ?>">Assessments</span>
                         <i class="menu-arrow"></i>
                     </a>
                     <div class="menu-submenu bg-light-primary brt-50">
@@ -173,7 +174,7 @@ if ($_GET['v'] == 6) {
                         <span class="svg-icon-lg nav-icn p-4 rounded-circle bg-icon mr-5">
                             <i class="icn-file-chart icn-2x"></i>
                         </span>
-                        <span class="menu-text menu-text-opened" style="<?php echo $textWhite?>">Explore Landscapes</span>
+                        <span class="menu-text menu-text-opened" style="<?php echo $textWhite ?>">Explore Landscapes</span>
                     </a>
                     <div class="menu-submenu bg-light-primary brt-50">
                         <i class="menu-arrow"></i>
@@ -225,7 +226,7 @@ if ($_GET['v'] == 6) {
 
                             <!--end::Svg Icon-->
                         </span>
-                        <span class="menu-text menu-text-opened" style="<?php echo $textWhite?>">Help Center</span>
+                        <span class="menu-text menu-text-opened" style="<?php echo $textWhite ?>">Help Center</span>
                     </a>
                     <div class="menu-submenu bg-primary pb-0 mb-0 brt-50 brb-50">
                         <i class="menu-arrow"></i>
@@ -248,7 +249,7 @@ if ($_GET['v'] == 6) {
                             <i class="icn-file icn-primary icn-2x"></i>
                             <!--end::Svg Icon-->
                         </span>
-                        <span class="menu-text menu-text-opened" style="<?php echo $textWhite?>">Documentation</span>
+                        <span class="menu-text menu-text-opened" style="<?php echo $textWhite ?>">Documentation</span>
                         <i class="menu-arrow"></i>
                     </a>
                     <div class="menu-submenu bg-light-primary brt-50">
@@ -300,7 +301,7 @@ if ($_GET['v'] == 6) {
                             <i class="icn-file icn-primary icn-2x"></i>
                             <!--end::Svg Icon-->
                         </span>
-                        <span class="menu-text menu-text-opened" style="<?php echo $textWhite?>">Versions</span>
+                        <span class="menu-text menu-text-opened" style="<?php echo $textWhite ?>">Versions</span>
                         <i class="menu-arrow"></i>
                     </a>
                     <div class="menu-submenu bg-light-primary brt-50">
