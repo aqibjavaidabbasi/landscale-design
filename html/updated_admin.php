@@ -326,19 +326,20 @@ License: You must have a valid license purchased only from themeforest(the above
                                                             <div class="card card-custom card-border gutter-b card-shadowless btrr-15 btlr-15" id="sub_menu_wizard">
                                                                 <div class="pxy-15-30  btrr-15 btlr-15" style="position: -webkit-sticky;position: sticky; top: 0px; <?php echo $tableBackgroundColor; ?>">
                                                                     <div class="row justify-content-between">
-                                                                        <div class="col-md-6">
-                                                                            <div class="d-flex align-items-center h-100">
+                                                                        <div class="col-md-12">
+                                                                            <div class="d-flex justify-content-between align-items-center h-100">
                                                                                 <span class="font-family-roboto font-text p-1">Filters</span>
+                                                                                <i class="fas fa-filter"></i>
                                                                             </div>
                                                                         </div>
-                                                                        <div class="col-md-6" style="text-align: right;"><a class="btn btn-secondary btn-sm btn-text-white btn-hover-primary" id="btn_clear_all" style="display:none">{!!trans('data_resources.label_clear_filter')!!}</a></div>
+                                                                        <!-- <div class="col-md-6" style="text-align: right;"><a class="btn btn-secondary btn-sm btn-text-white btn-hover-primary" id="btn_clear_all" style="display:none">{!!trans('data_resources.label_clear_filter')!!}</a></div> -->
                                                                     </div>
                                                                 </div>
                                                                 <div class="card-body" id="filters_body" style="<?php echo $filterBodyBg; ?>">
                                                                     <div class="demo-assessment mb-5"><!-- indicators filter -->
                                                                         <div class="row justify-content-between">
                                                                             <div class="col-md-8"><label class="">Country:</label></div>
-                                                                            <div class="col-md-4" style="text-align: right;"><i class="fas fa-filter"></i><span id="table-filter-indicators-total"></span></div>
+                                                                            <!-- <div class="col-md-4" style="text-align: right;"><i class="fas fa-filter"></i><span id="table-filter-indicators-total"></span></div> -->
                                                                         </div>
                                                                         <div class="primary-arrow select-wrapper">
                                                                             <select id="table-filter-country_map" class="form-control"> <!-- select input with unique countries of the assessment -->
@@ -349,7 +350,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                     <div class="demo-assessment mb-5"><!-- indicators filter -->
                                                                         <div class="row justify-content-between">
                                                                             <div class="col-md-8"><label class="">Continent:</label></div>
-                                                                            <div class="col-md-4" style="text-align: right;"><i class="fas fa-filter"></i><span id="table-filter-indicators-total"></span></div>
+                                                                            <!-- <div class="col-md-4" style="text-align: right;"><i class="fas fa-filter"></i><span id="table-filter-indicators-total"></span></div> -->
                                                                         </div>
                                                                         <div class="primary-arrow select-wrapper">
                                                                             <select id="table-filter-continent_map" class="form-control"> <!-- select input with unique countries of the assessment -->
@@ -359,7 +360,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                     <div class="demo-assessment mb-5"><!-- indicators filter -->
                                                                         <div class="row justify-content-between">
                                                                             <div class="col-md-8"><label class="">Test Assessments:</label></div>
-                                                                            <div class="col-md-4" style="text-align: right;"><i class="fas fa-filter"></i><span id="table-filter-indicators-total"></span></div>
+                                                                            <!-- <div class="col-md-4" style="text-align: right;"><i class="fas fa-filter"></i><span id="table-filter-indicators-total"></span></div> -->
                                                                         </div>
                                                                         <div id="test_filters_map">
                                                                             <div class="d-inline">
@@ -377,7 +378,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                     <div class="demo-assessment mb-5"><!-- indicators filter -->
                                                                         <div class="row justify-content-between">
                                                                             <div class="col-md-8"><label class="">Assigned tasks to:</label></div>
-                                                                            <div class="col-md-4" style="text-align: right;"><i class="fas fa-filter"></i><span id="table-filter-indicators-total"></span></div>
+                                                                            <!-- <div class="col-md-4" style="text-align: right;"><i class="fas fa-filter"></i><span id="table-filter-indicators-total"></span></div> -->
                                                                         </div>
                                                                         <div class="primary-arrow select-wrapper">
                                                                             <select id="table-filter-user_map" class="form-control"> <!-- select input with unique countries of the assessment -->
@@ -387,7 +388,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                     <div class="demo-assessment mb-5"><!-- indicators filter -->
                                                                         <div class="row justify-content-between">
                                                                             <div class="col-md-8"><label class="">Assessment contact:</label></div>
-                                                                            <div class="col-md-4" style="text-align: right;"><i class="fas fa-filter"></i><span id="table-filter-indicators-total"></span></div>
+                                                                            <!-- <div class="col-md-4" style="text-align: right;"><i class="fas fa-filter"></i><span id="table-filter-indicators-total"></span></div> -->
                                                                         </div>
                                                                         <div class="primary-arrow select-wrapper">
                                                                             <select id="table-filter-concat_user_map" class="form-control"> <!-- select input with unique countries of the assessment -->
@@ -400,7 +401,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                     <div class="demo-assessment mb-5"><!-- indicators filter -->
                                                                         <div class="row justify-content-between">
                                                                             <div class="col-md-8"><label class="">Assessments:</label></div>
-                                                                            <div class="col-md-4" style="text-align: right;"><i class="fas fa-filter"></i><span id="table-filter-indicators-total"></span></div>
+                                                                            <!-- <div class="col-md-4" style="text-align: right;"><i class="fas fa-filter"></i><span id="table-filter-indicators-total"></span></div> -->
                                                                         </div>
                                                                         <div class="primary-arrow select-wrapper">
                                                                             <select id="table-filter-name_map" class="form-control"> <!-- select input with unique countries of the assessment -->
@@ -411,7 +412,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                     <div class="demo-assessment mb-5"><!-- indicators filter -->
                                                                         <div class="row justify-content-between">
                                                                             <div class="col-md-8"><label class="">Steps completed:</label></div>
-                                                                            <div class="col-md-4" style="text-align: right;"><i class="fas fa-filter"></i><span id="table-filter-indicators-total"></span></div>
+                                                                            <!-- <div class="col-md-4" style="text-align: right;"><i class="fas fa-filter"></i><span id="table-filter-indicators-total"></span></div> -->
                                                                         </div>
                                                                         <div id="filter_steps_map">
                                                                             <div class="step-custom-filter d-inline">
@@ -459,7 +460,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                     <div class="demo-assessment mb-5"><!-- indicators filter -->
                                                                         <div class="row justify-content-between">
                                                                             <div class="col-md-8"><label class="">Status:</label></div>
-                                                                            <div class="col-md-4" style="text-align: right;"><i class="fas fa-filter"></i><span id="table-filter-indicators-total"></span></div>
+                                                                            <!-- <div class="col-md-4" style="text-align: right;"><i class="fas fa-filter"></i><span id="table-filter-indicators-total"></span></div> -->
                                                                         </div>
                                                                         <div class="primary-arrow select-wrapper">
                                                                             <select id="table-filter-status_map" class="form-control"> <!-- select input with unique status of the assessment  -->
