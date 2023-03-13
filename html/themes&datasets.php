@@ -468,7 +468,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                 <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
                                                     <div id="accordion" class="my-7 accordion accordion-toggle-arrow">
                                                         <div class="card">
-                                                            <div id="headingOne" class="card-header p-4 card-accordian" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                                            <div id="headingOne" class="card-header p-4 card-accordian bg-white" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                                                                 <div class="row">
                                                                     <div class="col-lg-1 col-md-1 col-sm-12 col-xs-12 pr-0 max-w-6-percent">
                                                                         <div class="d-flex align-items-center h-100">
@@ -487,17 +487,17 @@ License: You must have a valid license purchased only from themeforest(the above
                                                             <div id="collapseOne" class="collapse accordion accordion-toggle-arrow" aria-labelledby="headingOne">
                                                                 <div id="child1" class="card">
                                                                     <div class="text-primary">
-                                                                        <div class="card-header pl-12 pr-22 py-5 d-flex justify-content-between align-items-center card-accordian" data-toggle="collapse" data-target="#collapseOneA">
+                                                                        <div class="card-header bg-white pl-12 pr-22 py-5 d-flex justify-content-between align-items-center card-accordian" data-toggle="collapse" data-target="#collapseOneA">
                                                                             <span>1.1.1 Effective conservation and protection of natural ecosystems</span>
                                                                             
                                                                         </div>
                                                                         <div class="collapse" id="collapseOneA">
-                                                                            <div class="card-header pl-14 py-4 pr-22 d-flex justify-content-between align-items-center card-accordian" data-toggle="collapse" data-target="#collapseOneB">
+                                                                            <div class="card-header bg-white pl-14 py-4 pr-22 d-flex justify-content-between align-items-center card-accordian" data-toggle="collapse" data-target="#collapseOneB">
                                                                                 <span>1.1.1.1 Total area (ha) & percentage (%) of the landscape in designated protected areas disaggregated by natural ecosystem type</span>
                                                                                 
                                                                             </div>
                                                                             <div class="collapse" id="collapseOneB">
-                                                                                <div class="card-header pl-16 py-4 pr-22 d-flex justify-content-between align-items-center card-accordian" data-toggle="collapse" data-target="#collapseOneC">
+                                                                                <div class="card-header bg-white pl-16 py-4 pr-22 d-flex justify-content-between align-items-center card-accordian" data-toggle="collapse" data-target="#collapseOneC">
                                                                                     <span>Demo_LR</span>
                                                                                     
                                                                                 </div>
@@ -508,17 +508,17 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                         </div>
                                                                     </div>
                                                                     <div class="text-primary">
-                                                                        <div class="card-header pl-12 py-5 pr-22 d-flex justify-content-between align-items-center card-accordian" data-toggle="collapse" data-target="#collapseOne2">
+                                                                        <div class="card-header bg-white pl-12 py-5 pr-22 d-flex justify-content-between align-items-center card-accordian" data-toggle="collapse" data-target="#collapseOne2">
                                                                             <span>1.1.2 Natural ecosystem conversion</span>
                                                                             
                                                                         </div>
                                                                         <div class="collapse" id="collapseOne2">
-                                                                            <div class="card-header pl-14 py-4 pr-22 d-flex justify-content-between align-items-cente card-accordian" data-toggle="collapse" data-target="#collapseOneD">
+                                                                            <div class="card-header bg-white pl-14 py-4 pr-22 d-flex justify-content-between align-items-cente card-accordian" data-toggle="collapse" data-target="#collapseOneD">
                                                                                 <span href="#">1.1.2.1 Total area (ha) & percentage (%) of area of natural ecosystems in the landscape that has been recently converted</span>
                                                                                 
                                                                             </div>
                                                                             <div class="collapse" id="collapseOneD">
-                                                                                <div class="card-header pl-16 py-4 pr-22 d-flex justify-content-between align-items-center card-accordian" data-toggle="collapse" data-target="#collapseOneE">
+                                                                                <div class="card-header bg-white pl-16 py-4 pr-22 d-flex justify-content-between align-items-center card-accordian" data-toggle="collapse" data-target="#collapseOneE">
                                                                                     <span href="#">Demo_LR</span>
                                                                                     
                                                                                 </div>

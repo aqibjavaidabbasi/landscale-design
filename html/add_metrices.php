@@ -379,7 +379,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                     </div>
                                                                     <div class="collapse border-bottom-secondary" id="collapseOneA">
                                                                         <div class="mx-10 mt-5">
-                                                                            <table class="table table-vertical-center table-dark-pale p-table-15 border-light-primary">
+                                                                            <table class="table table-vertical-center c-table-dark text-light-primary text-primary p-table-15 border-light-primary">
                                                                                 <thead>
                                                                                     <tr>
                                                                                         <th class="font-text text-primary" scope="col">Include</th>
@@ -476,7 +476,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                     </div>
                                                                     <div class="collapse border-bottom-secondary" id="collapseOneB">
                                                                         <div class="mx-10 mt-5">
-                                                                            <table class="table table-vertical-center table-dark-pale p-table-15 border-light-primary">
+                                                                            <table class="table table-vertical-center c-table-dark text-light-primary text-primary p-table-15 border-light-primary">
                                                                                 <thead>
                                                                                     <tr>
                                                                                         <th class="font-text" scope="col">Include</th>
@@ -626,7 +626,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                     </div>
                                                                     <div class="collapse border-bottom-secondary" id="collapseTwoA">
                                                                         <div class="mx-10 mt-5">
-                                                                            <table class="table table-vertical-center table-dark-pale p-table-15 border-light-primary">
+                                                                            <table class="table table-vertical-center c-table-dark text-light-primary text-primary p-table-15 border-light-primary">
                                                                                 <thead>
                                                                                     <tr>
                                                                                         <th class="font-text" scope="col">Include</th>
@@ -735,7 +735,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                     </div>
                                                                     <div class="collapse border-bottom-secondary" id="collapseOneA">
                                                                         <div class="mx-10 mt-5">
-                                                                            <table class="table table-vertical-center table-dark-pale p-table-15 border-light-primary">
+                                                                            <table class="table table-vertical-center c-table-dark text-light-primary text-primary p-table-15 border-light-primary">
                                                                                 <thead>
                                                                                     <tr>
                                                                                         <th class="font-text" scope="col">Include</th>
@@ -807,7 +807,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                     </div>
                                                                     <div class="collapse border-bottom-secondary" id="collapseOneB">
                                                                         <div class="mx-10 mt-5">
-                                                                            <table class="table table-vertical-center table-dark-pale p-table-15 border-light-primary">
+                                                                            <table class="table table-vertical-center c-table-dark text-light-primary text-primary p-table-15 border-light-primary">
                                                                                 <thead>
                                                                                     <tr>
                                                                                         <th class="font-text" scope="col">Include</th>
@@ -932,7 +932,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                     </div>
                                                                     <div class="collapse border-bottom-secondary" id="collapseTwoA">
                                                                         <div class="mx-10 mt-5">
-                                                                            <table class="table table-vertical-center table-dark-pale p-table-15 border-light-primary">
+                                                                            <table class="table table-vertical-center c-table-dark text-light-primary text-primary p-table-15 border-light-primary">
                                                                                 <thead>
                                                                                     <tr>
                                                                                         <th class="font-text" scope="col">Include</th>
@@ -1014,7 +1014,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                     </div>
                                                                     <div class="collapse border-bottom-secondary" id="collapseOneA">
                                                                         <div class="mx-10 mt-5">
-                                                                            <table class="table table-vertical-center table-dark-pale p-table-15 border-light-primary">
+                                                                            <table class="table table-vertical-center c-table-dark text-light-primary text-primary p-table-15 border-light-primary">
                                                                                 <thead>
                                                                                     <tr>
                                                                                         <th class="font-text" scope="col">Include</th>
@@ -1086,7 +1086,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                     </div>
                                                                     <div class="collapse border-bottom-secondary" id="collapseOneB">
                                                                         <div class="mx-10 mt-5">
-                                                                            <table class="table table-vertical-center table-dark-pale p-table-15 border-light-primary">
+                                                                            <table class="table table-vertical-center c-table-dark text-light-primary text-primary p-table-15 border-light-primary">
                                                                                 <thead>
                                                                                     <tr>
                                                                                         <th class="font-text" scope="col">Include</th>
@@ -1188,7 +1188,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                     </div>
                                                                     <div class="collapse border-bottom-secondary" id="collapseTwoA">
                                                                         <div class="mx-10 mt-5">
-                                                                            <table class="table table-vertical-center table-dark-pale p-table-15 border-light-primary">
+                                                                            <table class="table table-vertical-center c-table-dark text-light-primary text-primary p-table-15 border-light-primary">
                                                                                 <thead>
                                                                                     <tr>
                                                                                         <th class="font-text" scope="col">Include</th>
@@ -1296,7 +1296,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                     </div>
                                                                     <div class="collapse border-bottom-secondary" id="collapseOneA">
                                                                         <div class="mx-10 mt-5">
-                                                                            <table class="table table-vertical-center table-dark-pale p-table-15 border-light-primary">
+                                                                            <table class="table table-vertical-center c-table-dark text-light-primary text-primary p-table-15 border-light-primary">
                                                                                 <thead>
                                                                                     <tr>
                                                                                         <th class="font-text" scope="col">Include</th>

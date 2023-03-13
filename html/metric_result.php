@@ -634,11 +634,6 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                 <?php include './includes/assign-person.php' ?>
                                                                             </div>
                                                                         </div>
-                                                                        <div class="col-lg-1 col-md-1 col-sm-12 col-xs-12">
-                                                                            <div class="d-flex h-100 align-items-center">
-                                                                                <span class=" p-1"> <i class="fas fa-chevron-down"></i></span>
-                                                                            </div>
-                                                                        </div>
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -646,13 +641,13 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                 <div class="card">
                                                                     <div class="pl-17 py-4 d-flex justify-content-between align-items-center card-accordian" data-toggle="collapse" data-target="#collapseOneA">
                                                                         <span class="text-primary">1.1.1 Effective conservation and protection of natural ecosystems</span>
-                                                                        <span class="pr-20"> <i class="fas fa-chevron-down"></i></span>
+                                                                        
                                                                     </div>
                                                                     <div class="collapse" id="collapseOneA">
                                                                         <div class="mx-10 mt-5">
                                                                             <div class="border-color-pale mb-5">
                                                                                 <div class="px-4">
-                                                                                    <div class="row py-5 bg-light-primary">
+                                                                                    <div class="row py-5 bg-primary text-light">
                                                                                         <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
                                                                                             <div class="d-flex align-items-center h-100">
                                                                                                 <span class="bg-secondary text-light br-4 font-xs p-2">
@@ -828,13 +823,13 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                 <div class="card">
                                                                     <div class="pl-17 py-4 d-flex justify-content-between align-items-center card-accordian" data-toggle="collapse" data-target="#collapseOneB">
                                                                         <span class="text-primary">1.1.2 Natural ecosystem conversion</span>
-                                                                        <span class="pr-20"> <i class="fas fa-chevron-down"></i></span>
+                                                                        
                                                                     </div>
                                                                     <div class="collapse border-bottom-secondary" id="collapseOneB">
                                                                         <div class="mx-10 mt-5">
                                                                             <div class="border-color-pale mb-5">
                                                                                 <div class="px-4">
-                                                                                    <div class="row py-5 bg-light-primary">
+                                                                                    <div class="row py-5 bg-primary text-light">
                                                                                         <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
                                                                                             <div class="d-flex align-items-center h-100">
                                                                                                 <span class="bg-secondary text-light br-4 font-xs p-2">
