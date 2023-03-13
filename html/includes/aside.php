@@ -4,19 +4,19 @@
     <div class="brand flex-column-auto primary-border-right primary-border-bottom" id="kt_brand">
         <!--begin::Logo-->
         <a href="../index.php" class="brand-logo">
-            <img alt="Logo" id="menu_close_img" src="../assets/media/landscale_icon.svg">
-            <img alt="Logo" id="menu_open_img" class="d-none" src="../../assets/media/logo/FullColour/Landscale_white_logo.png" width="220px">
+            <img alt="Logo" id="menu_close_img" src="../assets/media/landscale_icon.svg" style="filter: brightness(100);">
+            <img alt="Logo" id="menu_open_img" class="d-none" src="../../assets/media/logo/White/Landscale_Logo_White.png" width="220px">
         </a>
         <!--end::Logo-->
     </div>
     <!--end::Brand-->
     <!--begin::Aside Menu-->
-    <div class="aside-menu-wrapper flex-column-fluid" id="kt_aside_menu_wrapper">
+    <div class="aside-menu-wrapper flex-column-fluid bg-primary" id="kt_aside_menu_wrapper">
         <!--begin::Menu Container-->
-        <div id="kt_aside_menu" class="aside-menu my-4 aside-menu-dropdown" data-menu-vertical="1" data-menu-dropdown="1" data-menu-scroll="0" data-menu-dropdown-timeout="500">
+        <div id="kt_aside_menu" class="aside-menu my-4 aside-menu-dropdown bg-primary" data-menu-vertical="1" data-menu-dropdown="1" data-menu-scroll="0" data-menu-dropdown-timeout="500">
             <!--begin::Menu Nav-->
             <div class="mob-resp">
-                <img alt="Logo" id="menu_open_img" src="../../assets/media/logo/FullColour/Landscale_white_logo.png" width="220px">
+                <img alt="Logo" id="menu_open_img" src="../../assets/media/logo/White/Landscale_Logo_White.png" width="220px">
                 <div class="input-group custom-search-bar p-3">
                     <input type="text" class="form-control input-circle-left primary-bg-color outline-0 border-0" placeholder="search for anything">
                     <div class="input-group-append">
@@ -31,11 +31,11 @@
             <ul class="menu-nav">
                 <li class="menu-item menu-item-submenu" aria-haspopup="true" data-menu-toggle="hover">
                     <a href="javascript:;" onclick="redirectLink('./index.php')" class="menu-link menu-toggle px-4 py-2 hover-menu text-center">
-                        <span class="svg-icon-lg p-4 nav-icn rounded-circle bg-light-primary mr-5">
+                        <span class="svg-icon-lg p-4 nav-icn rounded-circle bg-info mr-5">
                             <i class="icn-assessment icn-2x"></i>
                             <!--end::Svg Icon-->
                         </span>
-                        <span class="menu-text menu-text-opened">Assessments Dashboard</span>
+                        <span class="menu-text menu-text-opened text-white">Assessments Dashboard</span>
                     </a>
                     <div class="menu-submenu bg-light-primary brt-50">
                         <i class="menu-arrow"></i>
@@ -81,12 +81,12 @@
                 </li>
                 <li class="menu-item menu-item-submenu" aria-haspopup="true" data-menu-toggle="hover">
                     <a href="javascript:;" onclick="redirectLink('./dashboard_with_square_cornors.php')" class="menu-link menu-toggle px-4 py-2 hover-menu text-center">
-                        <span class="svg-icon-lg p-4 nav-icn rounded-circle bg-light-primary mr-5">
+                        <span class="svg-icon-lg p-4 nav-icn rounded-circle bg-info mr-5">
 
                             <i class="icn-stack icn-primary icn-2x"></i>
                             <!--end::Svg Icon-->
                         </span>
-                        <span class="menu-text menu-text-opened">Assessments</span>
+                        <span class="menu-text menu-text-opened text-white">Assessments</span>
                         <i class="menu-arrow"></i>
                     </a>
                     <div class="menu-submenu bg-light-primary brt-50">
@@ -145,10 +145,10 @@
                 </li>
                 <li class="menu-item menu-item-submenu" aria-haspopup="true" data-menu-toggle="hover">
                     <a href="javascript:;" onclick="redirectLink('./favorite_asssesment.php')" class="menu-link menu-toggle px-4 py-2 hover-menu text-center">
-                        <span class="svg-icon-lg nav-icn p-4 rounded-circle bg-light-primary mr-5">
+                        <span class="svg-icon-lg nav-icn p-4 rounded-circle bg-info mr-5">
                             <i class="icn-file-chart icn-2x"></i>
                         </span>
-                        <span class="menu-text menu-text-opened">Explore Landscapes</span>
+                        <span class="menu-text menu-text-opened text-white">Explore Landscapes</span>
                     </a>
                     <div class="menu-submenu bg-light-primary brt-50">
                         <i class="menu-arrow"></i>
@@ -193,14 +193,14 @@
                 </li>
                 <li class="menu-item menu-item-submenu" aria-haspopup="true" data-menu-toggle="hover">
                     <a href="javascript:;" class="menu-link menu-toggle px-4 py-2 hover-menu text-center" id="kt_quick_cart_toggle_link">
-                        <span class="svg-icon-lg p-4 nav-icn rounded-circle bg-light-primary mr-5">
+                        <span class="svg-icon-lg p-4 nav-icn rounded-circle bg-info mr-5">
                             <!--begin::Svg Icon | path:/metronic/theme/html/demo1/dist/assets/media/svg/icons/Code/Compiling.svg-->
                             <i class="icn-question icn-primary icn-2x"></i>
 
 
                             <!--end::Svg Icon-->
                         </span>
-                        <span class="menu-text menu-text-opened">Help Center</span>
+                        <span class="menu-text menu-text-opened text-white">Help Center</span>
                     </a>
                     <div class="menu-submenu bg-primary pb-0 mb-0 brt-50 brb-50">
                         <i class="menu-arrow"></i>
@@ -218,12 +218,12 @@
                 </li>
                 <li class="menu-item menu-item-submenu" aria-haspopup="true" data-menu-toggle="hover">
                     <a href="javascript:;" onclick="redirectLink('./html_theme.php')" class="menu-link menu-toggle px-4 py-2 hover-menu text-center">
-                        <span class="svg-icon-lg p-4 nav-icn rounded-circle bg-light-primary mr-5">
+                        <span class="svg-icon-lg p-4 nav-icn rounded-circle bg-info mr-5">
 
                             <i class="icn-file icn-primary icn-2x"></i>
                             <!--end::Svg Icon-->
                         </span>
-                        <span class="menu-text menu-text-opened">Documentation</span>
+                        <span class="menu-text menu-text-opened text-white">Documentation</span>
                         <i class="menu-arrow"></i>
                     </a>
                     <div class="menu-submenu bg-light-primary brt-50">
@@ -270,12 +270,12 @@
 
                 <li class="menu-item menu-item-submenu" aria-haspopup="true" data-menu-toggle="hover">
                     <a href="javascript:;" onclick="redirectLink('./updated_admin.php?v=1')" class="menu-link menu-toggle px-4 py-2 hover-menu text-center">
-                        <span class="svg-icon-lg p-4 nav-icn rounded-circle bg-light-primary mr-5">
+                        <span class="svg-icon-lg p-4 nav-icn rounded-circle bg-info mr-5">
 
                             <i class="icn-file icn-primary icn-2x"></i>
                             <!--end::Svg Icon-->
                         </span>
-                        <span class="menu-text menu-text-opened">Versions</span>
+                        <span class="menu-text menu-text-opened text-white">Versions</span>
                         <i class="menu-arrow"></i>
                     </a>
                     <div class="menu-submenu bg-light-primary brt-50">

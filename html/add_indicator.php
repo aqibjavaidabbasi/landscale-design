@@ -134,7 +134,7 @@ License: You must have a valid license purchased only from themeforest(the above
                         <div class="py-5">
                             <a href="#" class="font-text text-secondary">Assessments /</a>
                             <a href="./indicator_metrices.php" class="font-text text-secondary">Step 3 /</a>
-                            <span class="font-text text-primary">Add Indicator</span>
+                            <span class="font-text text-lake">Add Indicator</span>
                         </div>
                         <div class="row">
                             <div class="col-md-12">
@@ -152,7 +152,7 @@ License: You must have a valid license purchased only from themeforest(the above
 
                                     <div class="row mt-7 mb-7">
                                         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                                            <div class="bg-light-primary br-15 border-color-pale h-100 p-5">
+                                            <div class="bg-info h-100 p-5">
                                                 <div class="d-flex justify-content-between align-items-center">
                                                     <div class="d-flex align-items-center">
                                                         <span class="font-subheading text-primary d-inline-block mr-2">Indicator selection</span>
@@ -179,10 +179,10 @@ License: You must have a valid license purchased only from themeforest(the above
                                             </div>
                                         </div>
                                         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 custom-padding-0 pl-0 pr-0">
-                                            <div class="card-wrapper h-100 p-5">
+                                            <div class="card-wrapper bg-info h-100 p-5">
                                                 <div class="row">
                                                     <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 responsive-margin-card">
-                                                        <div class="p-5 bg-light-primary br-15 text-center h-100 cursor-pointer">
+                                                        <div class="p-5 bg-white br-15 text-center h-100 cursor-pointer">
                                                             <div class="my-2">
                                                                 <i class="icn-reference-library icn-3x"></i>
                                                             </div>
@@ -192,7 +192,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                         </div>
                                                     </div>
                                                     <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 my-5-res">
-                                                        <div class="p-5 bg-light-primary text-center br-15 h-100 cursor-pointer">
+                                                        <div class="p-5 bg-white text-center br-15 h-100 cursor-pointer">
                                                             <div class="my-2">
                                                                 <i class="icn-image-gallery icn-3x"></i>
                                                             </div>
@@ -202,7 +202,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                         </div>
                                                     </div>
                                                     <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 responsive-margin-card">
-                                                        <div class="p-5 bg-light-primary text-center br-15 h-100 cursor-pointer">
+                                                        <div class="p-5 bg-white text-center br-15 h-100 cursor-pointer">
                                                             <div class="my-2">
                                                                 <i class="icn-help icn-3x"></i>
                                                             </div>
@@ -214,7 +214,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                 </div>
                                                 <div class="row my-5-res" style="margin-top: 20px;">
                                                     <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 responsive-margin-card">
-                                                        <div class="p-5 bg-light-primary text-center br-15 h-100 cursor-pointer">
+                                                        <div class="p-5 bg-white text-center br-15 h-100 cursor-pointer">
                                                             <div class="my-2">
                                                                 <i class="icn-phone-book icn-3x"></i>
 
@@ -225,7 +225,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                         </div>
                                                     </div>
                                                     <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 my-5-res">
-                                                        <div class="p-5 bg-light-primary text-center br-15 h-100 cursor-pointer">
+                                                        <div class="p-5 bg-white text-center br-15 h-100 cursor-pointer">
                                                             <div class="my-2">
                                                                 <i class="icn-team icn-3x"></i>
                                                             </div>
@@ -235,7 +235,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                         </div>
                                                     </div>
                                                     <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 responsive-margin-card">
-                                                        <div class="p-5 bg-light-primary text-center br-15 h-100 cursor-pointer">
+                                                        <div class="p-5 bg-white text-center br-15 h-100 cursor-pointer">
                                                             <div class="my-2">
                                                                 <i class="icn-hand-shake icn-3x"></i>
                                                             </div>
@@ -365,7 +365,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                 </a>
                                             </div>
                                         </div>
-                                        <div class="col-md-12 col-sm-12 col-xs-12 bg-light-primary btrr-15 bbrr-15 max-w-80-percent btlr-15-res bblr-15-res" id="inner-side-main">
+                                        <div class="col-md-12 col-sm-12 col-xs-12 bg-info btrr-15 bbrr-15 max-w-80-percent btlr-15-res bblr-15-res" id="inner-side-main">
                                             <div class="d-flex justify-content-between mt-5 mr-5">
                                                 <button class="ml-5 bg-transparent border-0 br-15  p-2" onclick="toggleAside()">
                                                     <i class="icn-menu icn-2x mt-3"></i>

@@ -132,14 +132,14 @@ License: You must have a valid license purchased only from themeforest(the above
                     <div class="container">
                         <div class="py-5">
                             <a href="#" class="font-text text-secondary">Main /</a>
-                            <span class="font-text text-primary">Assessments</span>
+                            <span class="font-text text-lake">Assessments</span>
                         </div>
                         <div class="row">
                             <div class="col-md-12">
                                 <div class="card w-100 p-5">
                                     <div class="row p-5">
                                         <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 mb-5-res">
-                                            <div class="card w-100 h-100 p-5 bg-grey">
+                                            <div class="card w-100 h-100 p-5 bg-info">
                                                 <div class="row mb-5 ml-5">
                                                     <div class="col-md-12 mt-5">
                                                         <h2 class="font-family-roboto font-heading text-primary mt-4">Welcome to the LandScale</h2>
@@ -156,10 +156,10 @@ License: You must have a valid license purchased only from themeforest(the above
                                             </div>
                                         </div>
                                         <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12  mt-5-res">
-                                            <div class="card w-100 h-100 p-5 bg-white">
+                                            <div class="card w-100 h-100 p-5 bg-info">
                                                 <div class="d-flex h-100 w-100">
                                                     <div class="w-50 m-2">
-                                                        <div class="bg-light-primary br-15 text-center h-100 cursor-pointer d-flex flex-column align-items-center justify-content-center">
+                                                        <div class="bg-light-white br-15 text-center h-100 cursor-pointer d-flex flex-column align-items-center justify-content-center">
                                                             <div class="font-lg text-primary">
                                                                 25
                                                             </div>
@@ -169,7 +169,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                         </div>
                                                     </div>
                                                     <div class="d-flex flex-column w-50 m-2">
-                                                        <div class="bg-light-primary br-15 text-center h-100 cursor-pointer d-flex flex-column align-items-center justify-content-center">
+                                                        <div class="bg-light-white br-15 text-center h-100 cursor-pointer d-flex flex-column align-items-center justify-content-center">
                                                             <div class="font-lg text-primary">
                                                                 11
                                                             </div>
@@ -221,9 +221,9 @@ License: You must have a valid license purchased only from themeforest(the above
                                                         <div class="col-lg-3 col-md-6 col-sm-6 col-9">
                                                             <div id="kt_datatable_filter" class="dataTables_filter mr-5">
                                                                 <div class="input-group custom-search-bar table-searchbar">
-                                                                    <input type="text" class="form-control btlr-50 bblr-50 bg-light-grey outline-0 border-0 w-50" placeholder="search for anything">
+                                                                    <input type="text" class="form-control btlr-50 bblr-50 bg-info outline-0 border-0 w-50" placeholder="search for anything">
                                                                     <div class="input-group-append">
-                                                                        <span class="input-group-text btrr-50 bbrr-50 bg-light-grey">
+                                                                        <span class="input-group-text btrr-50 bbrr-50 bg-info">
                                                                             <i class="icn-search"></i>
                                                                         </span>
                                                                     </div>
@@ -234,14 +234,14 @@ License: You must have a valid license purchased only from themeforest(the above
                                                             <div class="d-flex justify-content-end">
                                                                 <!--begin::Dropdown-->
                                                                 <button type="button" class="btn btn-light-primary font-weight-bolder btlr-11 bblr-11 tablinks active" onclick="openCity(event, 'table_view')">
-                                                                    <i class="icn-list"></i>
+                                                                    <i class="icn-list icn-white"></i>
                                                                 </button>
                                                                 <!--end::Dropdown-->
 
                                                                 <!--begin::Button-->
 
                                                                 <button type="button" class="btn btn-light-primary font-weight-bolder btrr-11 bbrr-11 tablinks" onclick="openCity(event, 'grid_view')">
-                                                                    <i class="icn-grid"></i>
+                                                                    <i class="icn-grid icn-primary"></i>
                                                                 </button>
                                                                 <!--end::Button-->
                                                             </div>
@@ -253,10 +253,10 @@ License: You must have a valid license purchased only from themeforest(the above
                                                             <div id="table_view" class="tabcontent">
                                                                 <div class="row">
                                                                     <div class="col-sm-12 table-margin responsive-overflow-scroll">
-                                                                        <table class="table table-light-pale border-grey text-primary text-dark-grey p-table-15 stripped dataTable br-0" id="kt_datatable" role="grid" style="width: 1151px; margin-top: 0px !important;">
-                                                                            <thead class="bg-light-primary">
+                                                                        <table class="table c-table-dark border-grey text-light-primary t-radius-15 text-dark-grey p-table-10 stripped dataTable br-0" id="kt_datatable" role="grid" style="width: 1151px; margin-top: 0px !important;">
+                                                                            <thead>
                                                                                 <tr>
-                                                                                    <th class="sorting sorting_asc" tabindex="0" aria-controls="kt_datatable" rowspan="1" colspan="1" style="width: 56px;" aria-sort="ascending">
+                                                                                    <th class="sorting" tabindex="0" aria-controls="kt_datatable" rowspan="1" colspan="1" style="width: 56px;">
                                                                                         Record ID</th>
                                                                                     <th class="sorting" tabindex="0" aria-controls="kt_datatable" rowspan="1" colspan="1" style="width: 45px;">
                                                                                         Order ID</th>
@@ -1032,6 +1032,16 @@ License: You must have a valid license purchased only from themeforest(the above
             "lengthChange": false,
             "pagingType": "simple_numbers",
             "pageLength": 5,
+        });
+
+
+        $('.tablinks').on('click', function() {
+            if ($(this).hasClass('active')) {
+                $(this).siblings().find('i').addClass('icn-primary')
+                $(this).siblings().find('i').removeClass('icn-white')
+                $(this).find('i').addClass('icn-white')
+                $(this).find('i').removeClass('icn-primary')
+            }
         });
 
         function redirectLink(pagelink) {

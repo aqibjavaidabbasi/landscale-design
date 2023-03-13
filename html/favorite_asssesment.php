@@ -132,7 +132,7 @@ License: You must have a valid license purchased only from themeforest(the above
                     <div class="container">
                         <div class="py-5">
                             <a href="#" class="font-text text-secondary">Explore Landscapes /</a>
-                            <span class="font-text text-primary">Assessments</span>
+                            <span class="font-text text-lake">Assessments</span>
                         </div>
                         <div class="row">
                             <div class="col-md-12">

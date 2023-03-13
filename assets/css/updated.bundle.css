@@ -60486,6 +60486,15 @@ button {
     border-color: transparent;
 }
 
+.btn.btn-light-primary:hover {
+    background-color: #F4F4DA !important;
+    border-color: transparent;
+}
+
+.btn.btn-light-primary:hover i {
+    color: #fff !important;
+}
+
 .btn.btn-light-primary i {
     color: #074A37;
 }
@@ -90817,13 +90826,13 @@ code {
 
 .dataTables_wrapper .dataTable th.sorting_asc,
 .dataTables_wrapper .dataTable td.sorting_asc {
-    color: #074A37 !important;
+    color: #f4f3ec !important;
 }
 
 .dataTables_wrapper .dataTable th.sorting_asc:before,
 .dataTables_wrapper .dataTable td.sorting_asc:before {
     opacity: 1;
-    color: #074A37 !important;
+    color: #f4f3ec !important;
 }
 
 .dataTables_wrapper .dataTable th.sorting_desc,
@@ -100105,7 +100114,7 @@ body {
 }
 
 .aside {
-    background: #ffffff;
+    background: #074A37;
     -webkit-box-shadow: 0px 1px 9px -3px rgba(0, 0, 0, 0.75);
     box-shadow: 0px 1px 9px -3px rgba(0, 0, 0, 0.75);
 }
@@ -100116,7 +100125,7 @@ body {
 
 @media (max-width: 991.98px) {
     .aside {
-        background: #ffffff;
+        background: #074A37;
         -webkit-box-shadow: 0px 1px 9px -3px rgba(0, 0, 0, 0.75);
         box-shadow: 0px 1px 9px -3px rgba(0, 0, 0, 0.75);
     }
@@ -100387,10 +100396,11 @@ body {
 
 /* custom utilities */
 .body-bg {
-    background: url(../media/LS_Background.jpg) top left no-repeat;
+    /* background: url(../media/LS_Background.jpg) top left no-repeat;
     background-size: cover;
     background-color: #21661133;
-    background-blend-mode: overlay;
+    background-blend-mode: overlay; */
+    background-color: #F4F4DA;
 }
 
 .vertical-align-unset {
@@ -100499,7 +100509,7 @@ body {
 }
 
 .pxy-15-30 {
-    padding: 15px 30px !important;
+    padding: 14px 30px !important;
 }
 
 .tabcontent {
@@ -100898,7 +100908,7 @@ body {
     position: absolute;
     top: 35px;
     left: -70px;
-    color: #9ABF78;
+    color: #074A37;
     width: 150px;
     display: flex;
     flex-direction: column;
@@ -100944,7 +100954,7 @@ body {
 }
 
 .nav.nav-pills .nav-link.active {
-    background-color: #EBF2E4 !important;
+    background-color: #F4F3EC !important;
     color: #074A37 !important;
     border-radius: 25px 0px 0px 25px;
     padding-right: 0px !important;
@@ -101627,6 +101637,11 @@ select {
     background-color: #DCE6D1 !important;
 }
 
+/* dark pale dable header */
+.table.c-table-dark thead tr {
+    background-color: #074A37 !important;
+}
+
 /* table border grey */
 .table.border-grey {
     border: 2px solid #F0F0F0 !important;
@@ -101643,9 +101658,20 @@ select {
     padding: 16px 10px !important;
 }
 
+/* table header text light primary */
+.table.text-light-primary thead tr th {
+    color: #f4f3ec !important;
+    padding: 16px 10px !important;
+}
+
 /* rows grey text */
 .table.text-dark-grey tbody tr td {
     color: #3F544C !important;
+}
+
+/* rows grey text */
+.table.text-primary tbody tr td {
+    color: #074A37 !important;
 }
 
 /* rows padding 10px */

@@ -132,29 +132,29 @@ License: You must have a valid license purchased only from themeforest(the above
                     <div class="container">
                         <div class="py-5">
                             <a href="#" class="font-text text-secondary">Main /</a>
-                            <span class="font-text text-primary">Assessments</span>
+                            <span class="font-text text-lake">Assessments</span>
                         </div>
                         <div class="row">
                             <div class="col-md-12">
                                 <div class="card w-100 p-5">
                                     <div class="row p-5">
                                         <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
-                                            <div class="card w-100 h-100 p-5 bg-pale">
+                                            <div class="card w-100 h-100 p-5 bg-info mt-5-res">
                                                 <div class="row d-flex align-items-center">
                                                     <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
                                                         <div class="box-colors">
                                                             <ul>
                                                                 <li>
-                                                                    Overview (10 Assessments)
+                                                                    Overview (10 Assessments) <span class="ml-1 font-weight-bold text-primary">10%</span>
                                                                 </li>
                                                                 <li>
-                                                                    Objectives (25 Assessments)
+                                                                    Objectives (25 Assessments) <span class="ml-1 font-weight-bold text-primary">25%</span>
                                                                 </li>
                                                                 <li>
-                                                                    Boundary (35 Assessments)
+                                                                    Boundary (35 Assessments) <span class="ml-1 font-weight-bold text-primary">35%</span>
                                                                 </li>
                                                                 <li>
-                                                                    Payment plan ( 30 Assessments)
+                                                                    Payment plan ( 30 Assessments) <span class="ml-1 font-weight-bold text-primary">30%</span>
                                                                 </li>
                                                             </ul>
                                                         </div>
@@ -167,10 +167,10 @@ License: You must have a valid license purchased only from themeforest(the above
                                             </div>
                                         </div>
                                         <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
-                                            <div class="card w-100 h-100 p-5 bg-white mt-5-res">
+                                            <div class="card w-100 h-100 p-5 bg-info mt-5-res">
                                                 <div class="row h-50">
                                                     <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 responsive-margin-card">
-                                                        <div class="bg-light-primary br-15 text-center h-100 cursor-pointer d-flex flex-column align-items-center justify-content-center">
+                                                        <div class="bg-white br-15 text-center h-100 cursor-pointer d-flex flex-column align-items-center justify-content-center">
                                                             <div class="font-lg text-primary">
                                                                 25
                                                             </div>
@@ -180,7 +180,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                         </div>
                                                     </div>
                                                     <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 mt-5-res">
-                                                        <div class="bg-light-primary text-center br-15 h-100 cursor-pointer d-flex flex-column align-items-center justify-content-center">
+                                                        <div class="bg-white text-center br-15 h-100 cursor-pointer d-flex flex-column align-items-center justify-content-center">
                                                             <div class="font-lg text-primary">
                                                                 5
                                                             </div>
@@ -193,7 +193,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                 </div>
                                                 <div class="row h-50 mt-7 mt-5-res">
                                                     <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 responsive-margin-card">
-                                                        <div class="bg-light-primary br-15 text-center h-100 cursor-pointer d-flex flex-column align-items-center justify-content-center">
+                                                        <div class="bg-white br-15 text-center h-100 cursor-pointer d-flex flex-column align-items-center justify-content-center">
                                                             <div class="font-lg text-primary">
                                                                 2
                                                             </div>
@@ -203,7 +203,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                         </div>
                                                     </div>
                                                     <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 mt-5-res">
-                                                        <div class="bg-light-primary text-center br-15 h-100 cursor-pointer d-flex flex-column align-items-center justify-content-center">
+                                                        <div class="bg-white text-center br-15 h-100 cursor-pointer d-flex flex-column align-items-center justify-content-center">
                                                             <div class="font-lg text-primary">
                                                                 10
                                                             </div>
@@ -247,9 +247,9 @@ License: You must have a valid license purchased only from themeforest(the above
                                                         <div class="col-lg-3 col-md-6 col-sm-6 col-9">
                                                             <div id="kt_datatable_filter" class="dataTables_filter mr-5">
                                                                 <div class="input-group custom-search-bar table-searchbar">
-                                                                    <input type="text" class="form-control btlr-50 bblr-50 bg-light-grey outline-0 border-0 w-50" placeholder="search for anything">
+                                                                    <input type="text" class="form-control btlr-50 bblr-50 bg-info outline-0 border-0 w-50" placeholder="search for anything">
                                                                     <div class="input-group-append">
-                                                                        <span class="input-group-text btrr-50 bbrr-50 bg-light-grey">
+                                                                        <span class="input-group-text btrr-50 bbrr-50 bg-info">
                                                                             <i class="icn-search"></i>
                                                                         </span>
                                                                     </div>
@@ -260,14 +260,14 @@ License: You must have a valid license purchased only from themeforest(the above
                                                             <div class="d-flex justify-content-end">
                                                                 <!--begin::Dropdown-->
                                                                 <button type="button" class="btn btn-light-primary font-weight-bolder btlr-11 bblr-11 tablinks active" onclick="openCity(event, 'table_view')">
-                                                                    <i class="icn-list"></i>
+                                                                    <i class="icn-list icn-white"></i>
                                                                 </button>
                                                                 <!--end::Dropdown-->
 
                                                                 <!--begin::Button-->
 
                                                                 <button type="button" class="btn btn-light-primary font-weight-bolder btrr-11 bbrr-11 tablinks" onclick="openCity(event, 'grid_view')">
-                                                                    <i class="icn-grid"></i>
+                                                                    <i class="icn-grid icn-primary"></i>
                                                                 </button>
                                                                 <!--end::Button-->
                                                             </div>
@@ -275,12 +275,13 @@ License: You must have a valid license purchased only from themeforest(the above
                                                     </div>
                                                     <div class="row">
                                                         <div class="col-lg-3 col-md-12 col-sm-12 col-xs-12 pr-1">
-                                                            <div class="card card-custom card-border gutter-b card-shadowless" id="sub_menu_wizard">
-                                                                <div class="bg-light-primary pxy-15-30" style="position: -webkit-sticky;position: sticky; top: 0px;">
+                                                            <div class="card card-custom card-border gutter-b card-shadowless btrr-15 btlr-15" id="sub_menu_wizard">
+                                                                <div class="bg-primary pxy-15-30 btrr-15 btlr-15" style="position: -webkit-sticky;position: sticky; top: 0px;">
                                                                     <div class="row justify-content-between">
-                                                                        <div class="col-md-6">
-                                                                            <div class="d-flex align-items-center h-100">
-                                                                                <span class="font-family-roboto text-primary font-text p-1">Filters</span>
+                                                                        <div class="col-md-12">
+                                                                            <div class="d-flex justify-content-between align-items-center h-100">
+                                                                                <span class="font-family-roboto text-info font-text p-1">Filters</span>
+                                                                                <i class="fas fa-filter"></i>
                                                                             </div>
                                                                         </div>
                                                                         <div class="col-md-6" style="text-align: right;"><a class="btn btn-secondary btn-sm btn-text-white btn-hover-primary" id="btn_clear_all" style="display:none">{!!trans('data_resources.label_clear_filter')!!}</a></div>
@@ -290,7 +291,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                     <div class="demo-assessment mb-5"><!-- indicators filter -->
                                                                         <div class="row justify-content-between">
                                                                             <div class="col-md-8"><label class="">Country:</label></div>
-                                                                            <div class="col-md-4" style="text-align: right;"><i class="fas fa-filter"></i><span id="table-filter-indicators-total"></span></div>
+                                                                            
                                                                         </div>
                                                                         <select id="table-filter-country_map" class="form-control"> <!-- select input with unique countries of the assessment -->
                                                                         </select>
@@ -299,7 +300,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                     <div class="demo-assessment mb-5"><!-- indicators filter -->
                                                                         <div class="row justify-content-between">
                                                                             <div class="col-md-8"><label class="">Continent:</label></div>
-                                                                            <div class="col-md-4" style="text-align: right;"><i class="fas fa-filter"></i><span id="table-filter-indicators-total"></span></div>
+                                                                            
                                                                         </div>
                                                                         <select id="table-filter-continent_map" class="form-control"> <!-- select input with unique countries of the assessment -->
                                                                         </select>
@@ -307,7 +308,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                     <div class="demo-assessment mb-5"><!-- indicators filter -->
                                                                         <div class="row justify-content-between">
                                                                             <div class="col-md-8"><label class="">Test Assessments:</label></div>
-                                                                            <div class="col-md-4" style="text-align: right;"><i class="fas fa-filter"></i><span id="table-filter-indicators-total"></span></div>
+                                                                            
                                                                         </div>
                                                                         <div id="test_filters_map">
                                                                             <div class="d-inline">
@@ -325,7 +326,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                     <div class="demo-assessment mb-5"><!-- indicators filter -->
                                                                         <div class="row justify-content-between">
                                                                             <div class="col-md-8"><label class="">Assigned tasks to:</label></div>
-                                                                            <div class="col-md-4" style="text-align: right;"><i class="fas fa-filter"></i><span id="table-filter-indicators-total"></span></div>
+                                                                            
                                                                         </div>
                                                                         <select id="table-filter-user_map" class="form-control"> <!-- select input with unique countries of the assessment -->
                                                                         </select>
@@ -333,7 +334,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                     <div class="demo-assessment mb-5"><!-- indicators filter -->
                                                                         <div class="row justify-content-between">
                                                                             <div class="col-md-8"><label class="">Assessment contact:</label></div>
-                                                                            <div class="col-md-4" style="text-align: right;"><i class="fas fa-filter"></i><span id="table-filter-indicators-total"></span></div>
+                                                                            
                                                                         </div>
                                                                         <select id="table-filter-concat_user_map" class="form-control"> <!-- select input with unique countries of the assessment -->
 
@@ -344,7 +345,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                     <div class="demo-assessment mb-5"><!-- indicators filter -->
                                                                         <div class="row justify-content-between">
                                                                             <div class="col-md-8"><label class="">Assessments:</label></div>
-                                                                            <div class="col-md-4" style="text-align: right;"><i class="fas fa-filter"></i><span id="table-filter-indicators-total"></span></div>
+                                                                            
                                                                         </div>
                                                                         <select id="table-filter-name_map" class="form-control"> <!-- select input with unique countries of the assessment -->
                                                                         </select>
@@ -353,7 +354,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                     <div class="demo-assessment mb-5"><!-- indicators filter -->
                                                                         <div class="row justify-content-between">
                                                                             <div class="col-md-8"><label class="">Steps completed:</label></div>
-                                                                            <div class="col-md-4" style="text-align: right;"><i class="fas fa-filter"></i><span id="table-filter-indicators-total"></span></div>
+                                                                            
                                                                         </div>
                                                                         <div id="filter_steps_map">
                                                                             <div class="step-custom-filter d-inline">
@@ -401,7 +402,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                     <div class="demo-assessment mb-5"><!-- indicators filter -->
                                                                         <div class="row justify-content-between">
                                                                             <div class="col-md-8"><label class="">Status:</label></div>
-                                                                            <div class="col-md-4" style="text-align: right;"><i class="fas fa-filter"></i><span id="table-filter-indicators-total"></span></div>
+                                                                            
                                                                         </div>
                                                                         <select id="table-filter-status_map" class="form-control"> <!-- select input with unique status of the assessment  -->
                                                                             <option value="">All</option>
@@ -415,10 +416,10 @@ License: You must have a valid license purchased only from themeforest(the above
                                                             <div id="table_view" class="tabcontent">
                                                                 <div class="row">
                                                                     <div class="col-sm-12 table-margin responsive-overflow-scroll">
-                                                                        <table class="table table-light-pale border-grey text-primary text-dark-grey p-table-10 stripped dataTable br-0" id="kt_datatable" role="grid" style="width: 1151px; margin-top: 0px !important;">
-                                                                            <thead class="bg-light-primary">
+                                                                        <table class="table c-table-dark border-grey text-light-primary t-radius-15 text-dark-grey p-table-10 stripped dataTable br-0" id="kt_datatable" role="grid" style="width: 1151px; margin-top: 0px !important;">
+                                                                            <thead>
                                                                                 <tr>
-                                                                                    <th class="sorting" tabindex="0" aria-controls="kt_datatable" rowspan="1" colspan="1" style="width: 56px;" aria-sort="ascending">
+                                                                                    <th class="sorting" tabindex="0" aria-controls="kt_datatable" rowspan="1" colspan="1" style="width: 56px;">
                                                                                         Record ID</th>
                                                                                     <th class="sorting" tabindex="0" aria-controls="kt_datatable" rowspan="1" colspan="1" style="width: 45px;">
                                                                                         Order ID</th>
@@ -989,7 +990,7 @@ License: You must have a valid license purchased only from themeforest(the above
                 }
             },
             dataLabels: {
-                enabled: true,
+                enabled: false,
                 textAnchor: 'start',
                 style: {
                     fontSize: '12px',
@@ -1107,6 +1108,15 @@ License: You must have a valid license purchased only from themeforest(the above
             "lengthChange": false,
             "pagingType": "simple_numbers",
             "pageLength": 5,
+        });
+
+        $('.tablinks').on('click', function() {
+            if ($(this).hasClass('active')) {
+                $(this).siblings().find('i').addClass('icn-primary')
+                $(this).siblings().find('i').removeClass('icn-white')
+                $(this).find('i').addClass('icn-white')
+                $(this).find('i').removeClass('icn-primary')
+            }
         });
 
         function redirectLink(pagelink) {
