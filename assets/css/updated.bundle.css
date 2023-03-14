@@ -8559,7 +8559,7 @@ button.bg-success:hover,
 button.bg-success:focus {
     background-color: #feaf12 !important;
 }
-
+/* info background */
 .bg-info {
     background-color: #F4F3EC !important;
 }
@@ -100643,7 +100643,7 @@ body {
 
 /* payment plan card */
 .payment-plan-card {
-    background: #ECF4E4;
+    background: #F4F3EC;
     border: 1px solid #9ABF78;
     border-radius: 20px;
     width: 450px;
@@ -101315,7 +101315,7 @@ select {
 
 /* help  card */
 .help-card {
-    background-color: #EBF2E4 !important;
+    background-color: #fff !important;
     color: #839FA0 !important;
     max-width: 32% !important;
     border-radius: 4px !important;
@@ -101324,7 +101324,7 @@ select {
 
 /* content  card */
 .content-card {
-    background-color: #EBF2E4 !important;
+    background-color: #fff !important;
     color: #074A37 !important;
     border-radius: 15px !important;
     padding: 16.25px;
@@ -101637,7 +101637,7 @@ select {
     background-color: #DCE6D1 !important;
 }
 
-/* dark pale dable header */
+/* dark forest green table header */
 .table.c-table-dark thead tr {
     background-color: #074A37 !important;
 }

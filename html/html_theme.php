@@ -242,7 +242,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                         </div>
                                         <div class="row mt-7 p-5">
                                             <div class="col-lg-12">
-                                                <h6 class="text-primary mt-5">Table With Dark Header</h6>
+                                                <h6 class="text-primary mt-5">Table With Dark Pale Header</h6>
 
                                                 <p class="text-primary my-7">
                                                     For giving table header a dark pale color
@@ -319,6 +319,89 @@ License: You must have a valid license purchased only from themeforest(the above
                                                             <button class="btn btn-light-primary br-50 mx-5 my-2" data-clipboard-text="" id="cm-drk-table-js-copyButton"><i class="icn-file icn-cyan"></i></button>
                                                         </div>
                                                         <div id="cm-drk-table-js"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-12 mt-7">
+                                                <h6 class="text-primary mt-5">Table With Forest Green Header</h6>
+
+                                                <p class="text-primary my-7">
+                                                    For giving table header a dark pale color
+                                                    use class <span class="font-weight-bold"><code>.c-table-dark</code></span>.
+                                                    use class <span class="font-weight-bold"><code>.text-light-primary</code></span> for having a light primamry color for header text.
+                                                </p>
+
+                                                <ul class="nav nav-tabs" id="myTab" role="tablist">
+                                                    <li class="nav-item" role="presentation">
+                                                        <button class="nav-link active" id="home-tab" data-toggle="tab" data-target="#table-dark-forest-preview" type="button" role="tab" aria-controls="table-dark-forest-preview" aria-selected="true">Preview</button>
+                                                    </li>
+                                                    <li class="nav-item" role="presentation">
+                                                        <button class="nav-link" id="home-tab" data-toggle="tab" data-target="#table-dark-forest-html" type="button" role="tab" aria-controls="home" aria-selected="true">HTML</button>
+                                                    </li>
+                                                    <li class="nav-item" role="presentation">
+                                                        <button class="nav-link" id="profile-tab" data-toggle="tab" data-target="#table-dark-forest-css" type="button" role="tab" aria-controls="profile" aria-selected="false">CSS</button>
+                                                    </li>
+                                                    <li class="nav-item" role="presentation">
+                                                        <button class="nav-link" id="contact-tab" data-toggle="tab" data-target="#table-dark-forest-js" type="button" role="tab" aria-controls="contact" aria-selected="false">JS</button>
+                                                    </li>
+                                                </ul>
+                                                <div class="tab-content border" id="myTabContent">
+                                                    <div class="tab-pane p-5 fade show active" id="table-dark-forest-preview" role="tabpanel" aria-labelledby="table-dark-forest-preview-tab">
+                                                        <!-- start table -->
+                                                        <table class="table c-table-dark border-grey text-light-primary text-dark-grey p-table-10 dataTable br-0" id="kt_datatable" role="grid" style="width: 1151px; margin-top: 0px !important;">
+                                                            <thead>
+                                                                <tr>
+                                                                    <th class="sorting" tabindex="0" aria-controls="kt_datatable" rowspan="1" colspan="1" style="width: 56px;">
+                                                                        Record ID</th>
+                                                                    <th class="sorting" tabindex="0" aria-controls="kt_datatable" rowspan="1" colspan="1" style="width: 45px;">
+                                                                        Order ID</th>
+                                                                    <th class="sorting" tabindex="0" aria-controls="kt_datatable" rowspan="1" colspan="1" style="width: 65px;">
+                                                                        Country
+                                                                    </th>
+                                                                </tr>
+                                                            </thead>
+
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td class="dtr-control sorting_1" tabindex="0">6
+                                                                    </td>
+                                                                    <td>53499-0393</td>
+                                                                    <td>Ukraine</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td class="dtr-control sorting_1" tabindex="0">6
+                                                                    </td>
+                                                                    <td>53499-0393</td>
+                                                                    <td>Ukraine</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td class="dtr-control sorting_1" tabindex="0">6
+                                                                    </td>
+                                                                    <td>53499-0393</td>
+                                                                    <td>Ukraine</td>
+                                                                </tr>
+                                                            </tbody>
+
+                                                        </table>
+                                                    </div>
+                                                    <div class="tab-pane fade" id="table-dark-forest-html" role="tabpanel" aria-labelledby="table-dark-forest-html-tab">
+                                                        <div class="d-flex justify-content-end">
+                                                            <button class="btn btn-light-primary br-50 mx-5 my-2" data-clipboard-text="" id="cm-drk-table-forest-html-copyButton"><i class="icn-file icn-cyan"></i></button>
+                                                        </div>
+                                                        <div id="cm-drk-table-forest-html"></div>
+                                                    </div>
+                                                    <div class="tab-pane fade" id="table-dark-forest-css" role="tabpanel" aria-labelledby="table-dark-forest-css-tab">
+                                                        <div class="d-flex justify-content-end">
+                                                            <button class="btn btn-light-primary br-50 mx-5 my-2" data-clipboard-text="" id="cm-drk-table-forest-css-copyButton"><i class="icn-file icn-cyan"></i></button>
+                                                        </div>
+                                                        <div id="cm-drk-table-forest-css"></div>
+
+                                                    </div>
+                                                    <div class="tab-pane fade" id="table-dark-forest-js" role="tabpanel" aria-labelledby="table-dark-forest-js-tab">
+                                                        <div class="d-flex justify-content-end">
+                                                            <button class="btn btn-light-primary br-50 mx-5 my-2" data-clipboard-text="" id="cm-drk-table-forest-js-copyButton"><i class="icn-file icn-cyan"></i></button>
+                                                        </div>
+                                                        <div id="cm-drk-table-forest-js"></div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -505,7 +588,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                     <h6 class="text-primary mt-5">Types</h6>
 
                                                     <p class="text-primary my-7">
-                                                        Use class <span class="font-weight-bold"><code>.form-control .bg-light-primary</code></span> for light pale input field.
+                                                        Use class <span class="font-weight-bold"><code>.form-control .bg-info</code></span> for light pale input field.
                                                         Use class <span class="font-weight-bold"><code>.form-control .bg-primary .text-light</code></span> for primary input field.
                                                         Use class <span class="font-weight-bold"><code>.select-wrapper</code></span> in the parent div of select input for adding padding to the select drop down arrow.
                                                         Use classes <span class="font-weight-bold"><code>.custom-control .custom-radio .custom-control-label</code></span> for styling radio inputs and label.
@@ -535,7 +618,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                                                                             <div class="form-group">
                                                                                 <label for="text-input" class="font-text text-primary d-inline">Text</label>
-                                                                                <input type="text" id="text-input" class="form-control bg-light-primary outline-0 border-0 mt-4 mb-2" placeholder="Enter Name">
+                                                                                <input type="text" id="text-input" class="form-control bg-info outline-0 border-0 mt-4 mb-2" placeholder="Enter Name">
 
                                                                             </div>
                                                                         </div>
@@ -559,7 +642,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                             <div class="form-group">
                                                                                 <label class="indicator-small-text">Input with icon</label>
                                                                                 <div class="d-flex align-items-center">
-                                                                                    <input class="p-2 bg-light-primary btlr-50 bblr-50 border-0 w-100" type="text">
+                                                                                    <input class="p-2 bg-info btlr-50 bblr-50 border-0 w-100" type="text">
                                                                                     <span class="d-flex align-items-center p-3 bg-primary btrr-50 bbrr-50 border-color-pale"><i class="icn-edit icn-pale icn-13px"></i></span>
                                                                                 </div>
                                                                             </div>
@@ -584,7 +667,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                                                                             <div class="form-group">
                                                                                 <label for="input_subtext" class="font-text text-primary font-weight-bolder d-inline">Input with subtext</label>
-                                                                                <input type="text" id="input_subtext" class="form-control bg-light-primary outline-0 border-0 w-100 mt-4 mb-2" placeholder="Enter Name">
+                                                                                <input type="text" id="input_subtext" class="form-control bg-info outline-0 border-0 w-100 mt-4 mb-2" placeholder="Enter Name">
                                                                                 <span class="font-small text-primary">Subtext</span>
                                                                             </div>
                                                                         </div>
@@ -903,9 +986,10 @@ License: You must have a valid license purchased only from themeforest(the above
                                                     <h6 class="text-primary my-5">Basic Cards</h6>
 
                                                     <p class="text-primary my-7">
-                                                        Use class <span class="font-weight-bold"><code>.card .bg-grey</code></span> for grey card.
+                                                        Use class <span class="font-weight-bold"><code>.card .bg-info</code></span> for sand color(info card) card.
                                                         Use class <span class="font-weight-bold"><code>.card .bg-pale</code></span> for pale card.
-                                                        Use class <span class="font-weight-bold"><code>.card-header .bg-light-primary</code></span> for having a card with light primary color header.
+                                                        Use class <span class="font-weight-bold"><code>.card-header .bg-primary</code></span> for having a card with light primary color header.
+                                                        Use class <span class="font-weight-bold"><code>.text-light-primary</code></span> for having light primary header text.
                                                     </p>
 
                                                     <ul class="nav nav-tabs" id="myTab" role="tablist">
@@ -927,7 +1011,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                             <div class="row">
                                                                 <!-- start grey card -->
                                                                 <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                                                                    <div class="card w-100 p-5 h-100 bg-grey">
+                                                                    <div class="card w-100 p-5 h-100 bg-info">
                                                                         <div class="row mb-5 ml-5">
                                                                             <div class="col-md-12 mt-5">
                                                                                 <h2 class="font-family-roboto font-heading text-primary mt-4">Heading</h2>
@@ -971,8 +1055,8 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                 <!-- start card with light primary header -->
                                                                 <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 mt-5">
                                                                     <div class="card w-100 h-100">
-                                                                        <div class="card-header bg-light-primary br-0">
-                                                                            <span class="text-primary font-subheading">
+                                                                        <div class="card-header bg-primary br-0">
+                                                                            <span class="text-light-primary font-subheading">
                                                                                 Card Header
                                                                             </span>
                                                                         </div>
@@ -1303,7 +1387,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                         </li>
                                                     </ul>
                                                     <div class="tab-content border" id="myTabContent">
-                                                        <div class="tab-pane p-5 fade show active" id="help-cards-preview" role="tabpanel" aria-labelledby="help-cards-preview-tab">
+                                                        <div class="tab-pane bg-info p-5 fade show active" id="help-cards-preview" role="tabpanel" aria-labelledby="help-cards-preview-tab">
                                                             <div class="row">
 
                                                                 <!-- start help card -->
@@ -1376,7 +1460,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                         </li>
                                                     </ul>
                                                     <div class="tab-content border" id="myTabContent">
-                                                        <div class="tab-pane p-5 fade show active" id="content-cards-preview" role="tabpanel" aria-labelledby="content-cards-preview-tab">
+                                                        <div class="tab-pane bg-info p-5 fade show active" id="content-cards-preview" role="tabpanel" aria-labelledby="content-cards-preview-tab">
                                                             <!-- start reference card -->
                                                             <div class="row">
                                                                 <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 responsive-margin-card">
@@ -1439,7 +1523,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                     <h6 class="text-primary my-5">Pricing Cards</h6>
 
                                                     <p class="text-primary my-7">
-                                                        Use class <span class="font-weight-bold"><code>.content-card</code></span> for having a reference cards.
+                                                        Use class <span class="font-weight-bold"><code>.payment-plan-card</code></span> for having a payment plan card.
                                                     </p>
 
                                                     <ul class="nav nav-tabs" id="myTab" role="tablist">
@@ -1853,7 +1937,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                     </div>
 
                                                                 </div>
-                                                                <div class="col-md-12 col-sm-12 col-xs-12 bg-light-primary btrr-15 bbrr-15 max-w-80-percent btlr-15-res bblr-15-res" id="inner-side-main">
+                                                                <div class="col-md-12 col-sm-12 col-xs-12 bg-info btrr-15 bbrr-15 max-w-80-percent btlr-15-res bblr-15-res" id="inner-side-main">
                                                                     <div class="d-flex justify-content-between mt-5 mr-5">
                                                                         <button class="ml-5 bg-transparent border-0 br-15  p-2" onclick="toggleAside()" fdprocessedid="dw0os">
                                                                             <i class="icn-menu icn-2x mt-3"></i>
@@ -2585,6 +2669,11 @@ License: You must have a valid license purchased only from themeforest(the above
                     var dTable_js_code = ``;
                     cmRender("cm-drk-table-html", "cm-drk-table-css", "cm-drk-table-js", dTable_html_code, dTable_css_code, dTable_js_code);
 
+                    var dForestTable_html_code = `<!-- start table --> <table class="table c-table-dark border-grey text-light-primary text-dark-grey p-table-10 dataTable br-0" id="kt_datatable" role="grid" style="width: 1151px; margin-top: 0px !important;"> <thead> <tr> <th class="sorting" tabindex="0" aria-controls="kt_datatable" rowspan="1" colspan="1" style="width: 56px;"> Record ID</th> <th class="sorting" tabindex="0" aria-controls="kt_datatable" rowspan="1" colspan="1" style="width: 45px;"> Order ID</th> <th class="sorting" tabindex="0" aria-controls="kt_datatable" rowspan="1" colspan="1" style="width: 65px;"> Country </th> </tr> </thead> <tbody> <tr> <td class="dtr-control sorting_1" tabindex="0">6 </td> <td>53499-0393</td> <td>Ukraine</td> </tr> <tr> <td class="dtr-control sorting_1" tabindex="0">6 </td> <td>53499-0393</td> <td>Ukraine</td> </tr> <tr> <td class="dtr-control sorting_1" tabindex="0">6 </td> <td>53499-0393</td> <td>Ukraine</td> </tr> </tbody> </table>`;
+                    var dForestTable_css_code = `/* dark forest green table header */ .table.c-table-dark thead tr { background-color: #074A37 !important; } /* table header text light primary */ .table.text-light-primary thead tr th { color: #f4f3ec !important; padding: 16px 10px !important; }`;
+                    var dForestTable_js_code = ``;
+                    cmRender("cm-drk-table-forest-html", "cm-drk-table-forest-css", "cm-drk-table-forest-js", dForestTable_html_code, dForestTable_css_code, dForestTable_js_code);
+
                     var btn_color_html_code = `<button class="btn btn-grey">Grey Button</button>\n<button class="btn c-btn-success ml-2">Success Button</button>\n<button class="btn c-btn-primary ml-2">Primary Button</button>\n<button class="btn c-btn-light-primary ml-2">Light Button</button>`;
                     var btn_color_css_code = `btn-grey {\n font-family: 'Roboto';\n display: inline-block;\n text-align: center;\n background: #4C94A0 !important;\n color: #fff !important;\n border-radius: 15px !important;\n padding: 10px;\n border: 0px !important;\n }\n .c-btn-success {\n font-family: 'Roboto';\n display: inline-block;\n text-align: center;\n background: #FEC045 !important;\n color: #074A37 !important;\n border-radius: 15px !important;\n padding: 10px;\n border: 0px !important;\n }\n .c-btn-light-primary {\n font-family: 'Roboto';\n display: inline-block;\n text-align: center; background: #EBF2E4 !important; color: #074A37 !important; border-radius: 15px !important; padding: 10px; border: 0px !important; } .c-btn-primary { font-family: 'Roboto'; display: inline-block; text-align: center; background: #074A37 !important; color: #EBF2E4 !important; border-radius: 15px !important; padding: 10px; border: 0px !important; }`;
                     var btn_color_js_code = ``;
@@ -2600,8 +2689,8 @@ License: You must have a valid license purchased only from themeforest(the above
                     var switch_js_code = ``;
                     cmRender("cm-switch-html", "cm-switch-css", "cm-switch-js", switch_html_code, switch_css_code, switch_js_code);
 
-                    var input_html_code = `<!-- start basic input --> <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12"> <div class="form-group"> <label for="text-input" class="font-text text-primary d-inline">Text</label> <input type="text" id="text-input" class="form-control bg-light-primary outline-0 border-0 mt-4 mb-2" placeholder="Enter Name"> </div> </div> \n\n\n<!-- start select input --> <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12"> <div class="form-group"> <label for="exampleFormControlSelect1" class="font-text text-primary d-inline">Select</label> <div class="select-wrapper mt-4 mb-2"> <select class="form-control bg-primary text-light" id="exampleFormControlSelect1"> <option>None Selected</option> <option>Selected</option> </select> </div> </div> </div>  \n\n\n<!-- start input with icon --> <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12"> <div class="form-group"> <label class="indicator-small-text">Input with icon</label> <div class="d-flex align-items-center"> <input class="p-2 bg-light-primary btlr-50 bblr-50 border-0 w-100" type="text"> <span class="d-flex align-items-center p-3 bg-primary btrr-50 bbrr-50 border-color-pale"><i class="icn-edit icn-pale icn-13px"></i></span> </div> </div> </div>  \n\n\n<!-- start searchbar --> <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12"> <div class="mt-7"> <div class="input-group"> <input type="text" class="form-control btlr-50 bblr-50 bg-light-grey outline-0 border-0 w-50" placeholder="search for anything"> <div class="input-group-append"> <span class="input-group-text btrr-50 bbrr-50 bg-light-grey"> <i class="icn-search"></i> </span> </div> </div> </div> </div>  \n\n\n<!-- start input with subtext --> <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12"> <div class="form-group"> <label for="input_subtext" class="font-text text-primary font-weight-bolder d-inline">Input with subtext</label> <input type="text" id="input_subtext" class="form-control bg-light-primary outline-0 border-0 w-100 mt-4 mb-2" placeholder="Enter Name"> <span class="font-small text-primary">Subtext</span> </div> </div>  \n\n\n<!-- start input icon on top --> <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12"> <div class="mb-5"><!-- indicators filter --> <div class="row justify-content-between"> <div class="col-md-8"><label class="">input with icon in label:</label></div> <div class="col-md-4" style="text-align: right;"><i class="fas fa-filter"></i><span id="demoid"></span></div> </div> <select id="demo" class="form-control"> </select> </div> </div>  \n\n\n<!-- start radios --> <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12"> <div class="form-group"> <label class="font-text text-primary font-weight-bold d-inline">Radio Input</label> <div class="custom-control custom-radio mt-3"> <input type="radio" id="rd_1" name="rd" class="custom-control-input" value="Yes"> <label class="custom-control-label" for="rd_1">Yes</label> </div> <div class="custom-control custom-radio my-2"> <input type="radio" id="rd_2" name="rd" class="custom-control-input" value="No"> <label class="custom-control-label" for="rd_2">No</label> </div> <div class="font-small text-primary mt-4">Subtext</div> </div> </div>  \n\n\n<!-- start check box --> <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12"> <div class="form-group"> <span class="text-primary font-weight-bold"> Check boxes </span> <label class="container-chkbox"> <span>Option 1</span> <input name="demo" type="checkbox" checked="checked"> <span class="checkmark"></span> </label> <label class="container-chkbox"> <span>Option 2</span> <input name="demo" type="checkbox" checked="checked"> <span class="checkmark"></span> </label> <label class="container-chkbox"> <span>Option 3</span> <input name="demo" type="checkbox" checked="checked"> <span class="checkmark"></span> </label> </div> </div>`;
-                    var input_css_code = `.select-wrapper {\n position: relative;\n }\n .select-wrapper::after {\n content: "▼";\n font-size: 1rem;\n top: 10px;\n right: 15px;\n position: absolute;\n color: #fff;\n z-index: 2 !important;\n }\n.custom-radio .custom-control-label::before { border-radius: 50%; } .custom-radio .custom-control-input:checked~.custom-control-label::after { background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='%23ffffff'/%3e%3c/svg%3e"); } .custom-radio .custom-control-input:disabled:checked~.custom-control-label::before { background-color: rgba(7, 74, 55, 0.5); } /* checkbox container */ .container-chkbox { display: block; position: relative; padding-left: 35px; margin-bottom: 12px; cursor: pointer; font-size: 22px; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; } /* Hide the browser's default checkbox */ .container-chkbox input { position: absolute; opacity: 0; cursor: pointer; height: 0; width: 0; } /* Create a custom checkbox */ .checkmark { position: absolute; top: 0; left: 0; height: 20px; width: 20px; background-color: #eee; } /* On mouse-over, add a grey background color */ .container-chkbox:hover input~.checkmark { background-color: #ccc; } /* When the checkbox is checked, add a blue background */ .container-chkbox input:checked~.checkmark { background-color: #074A37; } /* Create the checkmark/indicator (hidden when not checked) */ .checkmark:after { content: ""; position: absolute; display: none; } /* Show the checkmark when checked */ .container-chkbox input:checked~.checkmark:after { display: block; } /* Style the checkmark/indicator */ .container-chkbox .checkmark:after { left: 9px; top: 5px; width: 5px; height: 10px; border: solid white; border-width: 0 3px 3px 0; -webkit-transform: rotate(45deg); -ms-transform: rotate(45deg); transform: rotate(45deg); }`;
+                    var input_html_code = `<!-- start basic input --> <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12"> <div class="form-group"> <label for="text-input" class="font-text text-primary d-inline">Text</label> <input type="text" id="text-input" class="form-control bg-info outline-0 border-0 mt-4 mb-2" placeholder="Enter Name"> </div> </div> \n\n\n<!-- start select input --> <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12"> <div class="form-group"> <label for="exampleFormControlSelect1" class="font-text text-primary d-inline">Select</label> <div class="select-wrapper mt-4 mb-2"> <select class="form-control bg-primary text-light" id="exampleFormControlSelect1"> <option>None Selected</option> <option>Selected</option> </select> </div> </div> </div>  \n\n\n<!-- start input with icon --> <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12"> <div class="form-group"> <label class="indicator-small-text">Input with icon</label> <div class="d-flex align-items-center"> <input class="p-2 bg-info btlr-50 bblr-50 border-0 w-100" type="text"> <span class="d-flex align-items-center p-3 bg-primary btrr-50 bbrr-50 border-color-pale"><i class="icn-edit icn-pale icn-13px"></i></span> </div> </div> </div>  \n\n\n<!-- start searchbar --> <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12"> <div class="mt-7"> <div class="input-group"> <input type="text" class="form-control btlr-50 bblr-50 bg-light-grey outline-0 border-0 w-50" placeholder="search for anything"> <div class="input-group-append"> <span class="input-group-text btrr-50 bbrr-50 bg-light-grey"> <i class="icn-search"></i> </span> </div> </div> </div> </div>  \n\n\n<!-- start input with subtext --> <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12"> <div class="form-group"> <label for="input_subtext" class="font-text text-primary font-weight-bolder d-inline">Input with subtext</label> <input type="text" id="input_subtext" class="form-control bg-info outline-0 border-0 w-100 mt-4 mb-2" placeholder="Enter Name"> <span class="font-small text-primary">Subtext</span> </div> </div>  \n\n\n<!-- start input icon on top --> <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12"> <div class="mb-5"><!-- indicators filter --> <div class="row justify-content-between"> <div class="col-md-8"><label class="">input with icon in label:</label></div> <div class="col-md-4" style="text-align: right;"><i class="fas fa-filter"></i><span id="demoid"></span></div> </div> <select id="demo" class="form-control"> </select> </div> </div>  \n\n\n<!-- start radios --> <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12"> <div class="form-group"> <label class="font-text text-primary font-weight-bold d-inline">Radio Input</label> <div class="custom-control custom-radio mt-3"> <input type="radio" id="rd_1" name="rd" class="custom-control-input" value="Yes"> <label class="custom-control-label" for="rd_1">Yes</label> </div> <div class="custom-control custom-radio my-2"> <input type="radio" id="rd_2" name="rd" class="custom-control-input" value="No"> <label class="custom-control-label" for="rd_2">No</label> </div> <div class="font-small text-primary mt-4">Subtext</div> </div> </div>  \n\n\n<!-- start check box --> <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12"> <div class="form-group"> <span class="text-primary font-weight-bold"> Check boxes </span> <label class="container-chkbox"> <span>Option 1</span> <input name="demo" type="checkbox" checked="checked"> <span class="checkmark"></span> </label> <label class="container-chkbox"> <span>Option 2</span> <input name="demo" type="checkbox" checked="checked"> <span class="checkmark"></span> </label> <label class="container-chkbox"> <span>Option 3</span> <input name="demo" type="checkbox" checked="checked"> <span class="checkmark"></span> </label> </div> </div>`;
+                    var input_css_code = `/* info background */ .bg-info { background-color: #F4F3EC !important; }.select-wrapper {\n position: relative;\n }\n .select-wrapper::after {\n content: "▼";\n font-size: 1rem;\n top: 10px;\n right: 15px;\n position: absolute;\n color: #fff;\n z-index: 2 !important;\n }\n.custom-radio .custom-control-label::before { border-radius: 50%; } .custom-radio .custom-control-input:checked~.custom-control-label::after { background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='%23ffffff'/%3e%3c/svg%3e"); } .custom-radio .custom-control-input:disabled:checked~.custom-control-label::before { background-color: rgba(7, 74, 55, 0.5); } /* checkbox container */ .container-chkbox { display: block; position: relative; padding-left: 35px; margin-bottom: 12px; cursor: pointer; font-size: 22px; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; } /* Hide the browser's default checkbox */ .container-chkbox input { position: absolute; opacity: 0; cursor: pointer; height: 0; width: 0; } /* Create a custom checkbox */ .checkmark { position: absolute; top: 0; left: 0; height: 20px; width: 20px; background-color: #eee; } /* On mouse-over, add a grey background color */ .container-chkbox:hover input~.checkmark { background-color: #ccc; } /* When the checkbox is checked, add a blue background */ .container-chkbox input:checked~.checkmark { background-color: #074A37; } /* Create the checkmark/indicator (hidden when not checked) */ .checkmark:after { content: ""; position: absolute; display: none; } /* Show the checkmark when checked */ .container-chkbox input:checked~.checkmark:after { display: block; } /* Style the checkmark/indicator */ .container-chkbox .checkmark:after { left: 9px; top: 5px; width: 5px; height: 10px; border: solid white; border-width: 0 3px 3px 0; -webkit-transform: rotate(45deg); -ms-transform: rotate(45deg); transform: rotate(45deg); }`;
                     var input_js_code = ``;
                     cmRender("cm-input-html", "cm-input-css", "cm-input-js", input_html_code, input_css_code, input_js_code);
 
@@ -2625,8 +2714,8 @@ License: You must have a valid license purchased only from themeforest(the above
                     var pagination_js_code = ``;
                     cmRender("cm-pagination-html", "cm-pagination-css", "cm-pagination-js", pagination_html_code, pagination_css_code, pagination_js_code);
 
-                    var cards_html_code = `<!-- start grey card --> <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12"> <div class="card w-100 p-5 h-100 bg-grey"> <div class="row mb-5 ml-5"> <div class="col-md-12 mt-5"> <h2 class="font-family-roboto font-heading text-primary mt-4">Heading</h2> <p class="font-family-roboto font-subtext text-secondary pb-3"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit </p> <a href="./overview.php" class="btn-grey c-btn-lg d-flex justify-content-center align-items-center"> <i class="icn-add-folder icn-2x icn-white"></i> <span class="text-light pl-2"> Large Button </span> </a> </div> </div> </div> </div> \n<!-- end grey card --> \n\n<!-- start pale card --> <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12"> <div class="card w-100 h-100 p-5 bg-pale mt-5-res"> <div class="row mb-5 ml-5"> <div class="col-md-12 mt-5"> <h2 class="font-family-roboto font-heading text-primary mt-4">Heading</h2> <p class="font-family-roboto font-subtext text-secondary pb-3"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit </p> <a href="./overview.php" class="btn-grey c-btn-lg d-flex justify-content-center align-items-center"> <i class="icn-add-folder icn-2x icn-white"></i> <span class="text-light pl-2"> Large Button </span> </a> </div> </div> </div> </div> \n<!-- end pale card --> \n\n<!-- start card with light primary header --> <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 mt-5"> <div class="card w-100 h-100"> <div class="card-header bg-light-primary br-0"> <span class="text-primary font-subheading"> Card Header </span> </div> <div class="card-body"> <div class="row mb-5 ml-5"> <div class="col-md-12 mt-5"> <h2 class="font-family-roboto font-heading text-primary mt-4">Heading</h2> <p class="font-family-roboto font-subtext text-secondary pb-3"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit </p> <a href="./overview.php" class="btn-grey c-btn-lg d-flex justify-content-center align-items-center"> <i class="icn-add-folder icn-2x icn-white"></i> <span class="text-light pl-2"> Large Button </span> </a> </div> </div> </div> </div> </div> \n<!-- end card with light primary header -->`;
-                    var cards_css_code = `/* grey background */ .bg-grey { background-color: #DCF3EF !important; } /* pale background */ .bg-pale { background-color: #F4F4DA !important; } /* light primary background */ .bg-light-primary { background-color: #EBF2E4 !important; }`;
+                    var cards_html_code = `<!-- start grey card --> <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12"> <div class="card w-100 p-5 h-100 bg-info"> <div class="row mb-5 ml-5"> <div class="col-md-12 mt-5"> <h2 class="font-family-roboto font-heading text-primary mt-4">Heading</h2> <p class="font-family-roboto font-subtext text-secondary pb-3"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit </p> <a href="./overview.php" class="btn-grey c-btn-lg d-flex justify-content-center align-items-center"> <i class="icn-add-folder icn-2x icn-white"></i> <span class="text-light pl-2"> Large Button </span> </a> </div> </div> </div> </div> \n<!-- end grey card --> \n\n<!-- start pale card --> <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12"> <div class="card w-100 h-100 p-5 bg-pale mt-5-res"> <div class="row mb-5 ml-5"> <div class="col-md-12 mt-5"> <h2 class="font-family-roboto font-heading text-primary mt-4">Heading</h2> <p class="font-family-roboto font-subtext text-secondary pb-3"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit </p> <a href="./overview.php" class="btn-grey c-btn-lg d-flex justify-content-center align-items-center"> <i class="icn-add-folder icn-2x icn-white"></i> <span class="text-light pl-2"> Large Button </span> </a> </div> </div> </div> </div> \n<!-- end pale card --> \n\n<!-- start card with light primary header --> <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 mt-5"> <div class="card w-100 h-100"> <div class="card-header bg-light-primary br-0"> <span class="text-primary font-subheading"> Card Header </span> </div> <div class="card-body"> <div class="row mb-5 ml-5"> <div class="col-md-12 mt-5"> <h2 class="font-family-roboto font-heading text-primary mt-4">Heading</h2> <p class="font-family-roboto font-subtext text-secondary pb-3"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit </p> <a href="./overview.php" class="btn-grey c-btn-lg d-flex justify-content-center align-items-center"> <i class="icn-add-folder icn-2x icn-white"></i> <span class="text-light pl-2"> Large Button </span> </a> </div> </div> </div> </div> </div> \n<!-- end card with light primary header -->`;
+                    var cards_css_code = `/* info background */ .bg-info { background-color: #F4F3EC !important; } /* primary background */ .bg-primary { background-color: #074A37 !important; } /* pale background */ .bg-pale { background-color: #F4F4DA !important; } /* light primary background */ .bg-light-primary { background-color: #EBF2E4 !important; } /* light primary background */ .text-light-primary { color: #EBF2E4 !important; }`;
                     var cards_js_code = ``;
                     cmRender("cm-cards-html", "cm-cards-css", "cm-cards-js", cards_html_code, cards_css_code, cards_js_code);
 
@@ -2641,17 +2730,17 @@ License: You must have a valid license purchased only from themeforest(the above
                     cmRender("cm-grid-cards-html", "cm-grid-cards-css", "cm-grid-cards-js", grid_cards_html_code, grid_cards_css_code, grid_cards_js_code);
 
                     var help_cards_html_code = `<!-- start help card --> <div class="col-lg-2 col-md-12 col-sm-12 col-xs-12 help-card ml-2"> <div class="d-flex flex-column align-items-center justify-content-center w-100 h-100"> <i class="icn-message icn-3x"></i> <span class="font-small text-primary text-center mt-1">Assessment Feedback</span> </div> </div> <div class="col-lg-2 col-md-12 col-sm-12 col-xs-12 help-card ml-2"> <div class="d-flex flex-column align-items-center justify-content-center w-100 h-100"> <i class="icn-file-fold icn-3x"></i> <span class="font-small text-primary text-center mt-1">View Guidelines</span> </div> </div> <div class="col-lg-2 col-md-12 col-sm-12 col-xs-12 help-card ml-2"> <div class="d-flex flex-column align-items-center justify-content-center w-100 h-100"> <i class="icn-conversation icn-4x"></i> <span class="font-small text-primary text-center mt-1">Report Issue</span> </div> </div> \n<!-- end help card -->`;
-                    var help_cards_css_code = `/* help card */ .help-card { background-color: #EBF2E4 !important; color: #839FA0 !important; max-width: 32% !important; border-radius: 4px !important; padding: 16.25px; }`;
+                    var help_cards_css_code = `/* help card */ .help-card { background-color: #fff !important; color: #839FA0 !important; max-width: 32% !important; border-radius: 4px !important; padding: 16.25px; }`;
                     var help_cards_js_code = ``;
                     cmRender("cm-help-cards-html", "cm-help-cards-css", "cm-help-cards-js", help_cards_html_code, help_cards_css_code, help_cards_js_code);
 
                     var content_cards_html_code = `<!-- start reference card --> <div class="row"> <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 responsive-margin-card"> <div class="content-card"> <div class="my-2"> <i class="icn-reference-library icn-3x"></i> </div> <span class="font-subtext mb-2"> Reference Library </span> </div> </div> <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 my-5-res"> <div class="content-card"> <div class="my-2"> <i class="icn-image-gallery icn-3x"></i> </div> <span class="font-subtext mb-2"> Image Galary </span> </div> </div> <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 responsive-margin-card"> <div class="content-card"> <div class="my-2"> <i class="icn-help icn-3x"></i> </div> <span class="font-subtext mb-2"> Need Help </span> </div> </div> </div> \n<!-- end reference -->`;
-                    var content_cards_css_code = `/* content card */ .content-card { background-color: #EBF2E4 !important; color: #074A37 !important; border-radius: 15px !important; padding: 16.25px; height: 100% !important; text-align: center; cursor: pointer; }`;
+                    var content_cards_css_code = `/* content card */ .content-card { background-color: #fff !important; color: #074A37 !important; border-radius: 15px !important; padding: 16.25px; height: 100% !important; text-align: center; cursor: pointer; }`;
                     var content_cards_js_code = ``;
                     cmRender("cm-content-cards-html", "cm-content-cards-css", "cm-content-cards-js", content_cards_html_code, content_cards_css_code, content_cards_js_code);
 
                     var pricing_cards_html_code = `<!-- start pricing card --> <div class="p-5 mr-4 payment-plan-card"> <span class="w-100 font-text text-primary d-inline-block text-center"> <span class="font-weight-bold">Powered</span> By LandScale </span> <div class="text-center my-3"> <span class="bg-secondary text-light-primary w-135px py-3 br-50 font-lg d-inline-block"> $7.5K </span> </div> <span class="w-100 d-inline-block text-center font-text text-primary"> per assessment, per landscape </span> <div class="mt-5"> <ul class="listings font-text text-primary lh-25"> <li> Access to LandScale’s online platform. </li> <li> Use of the full LandScale assessment framework. </li> <li> Ability to add your own custom indicators and metrics. </li> <li> Ability to download your results at any time. </li> <li> Access to LandScale’s assessment resources. </li> <li> Access to online learning content. </li> </ul> </div> </div> <!-- end pricing -->`;
-                    var pricing_cards_css_code = `/* payment plan card */ .payment-plan-card { background: #ECF4E4; border: 1px solid #9ABF78; border-radius: 20px; width: 450px; height: 577px; box-sizing: border-box; }`;
+                    var pricing_cards_css_code = `/* payment plan card */ .payment-plan-card { background: #F4F3EC; border: 1px solid #9ABF78; border-radius: 20px; width: 450px; height: 577px; box-sizing: border-box; }`;
                     var pricing_cards_js_code = ``;
                     cmRender("cm-pricing-cards-html", "cm-pricing-cards-css", "cm-pricing-cards-js", pricing_cards_html_code, pricing_cards_css_code, pricing_cards_js_code);
 
