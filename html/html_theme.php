@@ -155,8 +155,91 @@ License: You must have a valid license purchased only from themeforest(the above
                             <div class="col-md-12">
                                 <div class="card w-100 p-5 mb-7">
                                     <div class="row">
-                                        <div class="col-lg-12">
+                                        <div class="col-lg-12 mt-7">
                                             <h3 class="text-primary">Tables</h3>
+                                            <h6 class="text-primary mt-5">Table With Forest Green Header</h6>
+
+                                            <p class="text-primary my-7">
+                                                For giving table header a dark pale color
+                                                use class <span class="font-weight-bold"><code>.c-table-dark</code></span>.
+                                                use class <span class="font-weight-bold"><code>.text-light-primary</code></span> for having a light primamry color for header text.
+                                            </p>
+
+                                            <ul class="nav nav-tabs" id="myTab" role="tablist">
+                                                <li class="nav-item" role="presentation">
+                                                    <button class="nav-link active" id="home-tab" data-toggle="tab" data-target="#table-dark-forest-preview" type="button" role="tab" aria-controls="table-dark-forest-preview" aria-selected="true">Preview</button>
+                                                </li>
+                                                <li class="nav-item" role="presentation">
+                                                    <button class="nav-link" id="home-tab" data-toggle="tab" data-target="#table-dark-forest-html" type="button" role="tab" aria-controls="home" aria-selected="true">HTML</button>
+                                                </li>
+                                                <li class="nav-item" role="presentation">
+                                                    <button class="nav-link" id="profile-tab" data-toggle="tab" data-target="#table-dark-forest-css" type="button" role="tab" aria-controls="profile" aria-selected="false">CSS</button>
+                                                </li>
+                                                <li class="nav-item" role="presentation">
+                                                    <button class="nav-link" id="contact-tab" data-toggle="tab" data-target="#table-dark-forest-js" type="button" role="tab" aria-controls="contact" aria-selected="false">JS</button>
+                                                </li>
+                                            </ul>
+                                            <div class="tab-content border" id="myTabContent">
+                                                <div class="tab-pane p-5 fade show active" id="table-dark-forest-preview" role="tabpanel" aria-labelledby="table-dark-forest-preview-tab">
+                                                    <!-- start table -->
+                                                    <table class="table c-table-dark border-grey text-light-primary text-dark-grey p-table-10 dataTable br-0" id="kt_datatable" role="grid" style="width: 1151px; margin-top: 0px !important;">
+                                                        <thead>
+                                                            <tr>
+                                                                <th class="sorting" tabindex="0" aria-controls="kt_datatable" rowspan="1" colspan="1" style="width: 56px;">
+                                                                    Record ID</th>
+                                                                <th class="sorting" tabindex="0" aria-controls="kt_datatable" rowspan="1" colspan="1" style="width: 45px;">
+                                                                    Order ID</th>
+                                                                <th class="sorting" tabindex="0" aria-controls="kt_datatable" rowspan="1" colspan="1" style="width: 65px;">
+                                                                    Country
+                                                                </th>
+                                                            </tr>
+                                                        </thead>
+
+                                                        <tbody>
+                                                            <tr>
+                                                                <td class="dtr-control sorting_1" tabindex="0">6
+                                                                </td>
+                                                                <td>53499-0393</td>
+                                                                <td>Ukraine</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td class="dtr-control sorting_1" tabindex="0">6
+                                                                </td>
+                                                                <td>53499-0393</td>
+                                                                <td>Ukraine</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td class="dtr-control sorting_1" tabindex="0">6
+                                                                </td>
+                                                                <td>53499-0393</td>
+                                                                <td>Ukraine</td>
+                                                            </tr>
+                                                        </tbody>
+
+                                                    </table>
+                                                </div>
+                                                <div class="tab-pane fade" id="table-dark-forest-html" role="tabpanel" aria-labelledby="table-dark-forest-html-tab">
+                                                    <div class="d-flex justify-content-end">
+                                                        <button class="btn btn-light-primary br-50 mx-5 my-2" data-clipboard-text="" id="cm-drk-table-forest-html-copyButton"><i class="icn-file icn-cyan"></i></button>
+                                                    </div>
+                                                    <div id="cm-drk-table-forest-html"></div>
+                                                </div>
+                                                <div class="tab-pane fade" id="table-dark-forest-css" role="tabpanel" aria-labelledby="table-dark-forest-css-tab">
+                                                    <div class="d-flex justify-content-end">
+                                                        <button class="btn btn-light-primary br-50 mx-5 my-2" data-clipboard-text="" id="cm-drk-table-forest-css-copyButton"><i class="icn-file icn-cyan"></i></button>
+                                                    </div>
+                                                    <div id="cm-drk-table-forest-css"></div>
+
+                                                </div>
+                                                <div class="tab-pane fade" id="table-dark-forest-js" role="tabpanel" aria-labelledby="table-dark-forest-js-tab">
+                                                    <div class="d-flex justify-content-end">
+                                                        <button class="btn btn-light-primary br-50 mx-5 my-2" data-clipboard-text="" id="cm-drk-table-forest-js-copyButton"><i class="icn-file icn-cyan"></i></button>
+                                                    </div>
+                                                    <div id="cm-drk-table-forest-js"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-12 mt-7">
                                             <h6 class="text-primary mt-5">Table With Light Header</h6>
 
                                             <p class="text-primary my-7">
@@ -322,89 +405,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="col-lg-12 mt-7">
-                                                <h6 class="text-primary mt-5">Table With Forest Green Header</h6>
 
-                                                <p class="text-primary my-7">
-                                                    For giving table header a dark pale color
-                                                    use class <span class="font-weight-bold"><code>.c-table-dark</code></span>.
-                                                    use class <span class="font-weight-bold"><code>.text-light-primary</code></span> for having a light primamry color for header text.
-                                                </p>
-
-                                                <ul class="nav nav-tabs" id="myTab" role="tablist">
-                                                    <li class="nav-item" role="presentation">
-                                                        <button class="nav-link active" id="home-tab" data-toggle="tab" data-target="#table-dark-forest-preview" type="button" role="tab" aria-controls="table-dark-forest-preview" aria-selected="true">Preview</button>
-                                                    </li>
-                                                    <li class="nav-item" role="presentation">
-                                                        <button class="nav-link" id="home-tab" data-toggle="tab" data-target="#table-dark-forest-html" type="button" role="tab" aria-controls="home" aria-selected="true">HTML</button>
-                                                    </li>
-                                                    <li class="nav-item" role="presentation">
-                                                        <button class="nav-link" id="profile-tab" data-toggle="tab" data-target="#table-dark-forest-css" type="button" role="tab" aria-controls="profile" aria-selected="false">CSS</button>
-                                                    </li>
-                                                    <li class="nav-item" role="presentation">
-                                                        <button class="nav-link" id="contact-tab" data-toggle="tab" data-target="#table-dark-forest-js" type="button" role="tab" aria-controls="contact" aria-selected="false">JS</button>
-                                                    </li>
-                                                </ul>
-                                                <div class="tab-content border" id="myTabContent">
-                                                    <div class="tab-pane p-5 fade show active" id="table-dark-forest-preview" role="tabpanel" aria-labelledby="table-dark-forest-preview-tab">
-                                                        <!-- start table -->
-                                                        <table class="table c-table-dark border-grey text-light-primary text-dark-grey p-table-10 dataTable br-0" id="kt_datatable" role="grid" style="width: 1151px; margin-top: 0px !important;">
-                                                            <thead>
-                                                                <tr>
-                                                                    <th class="sorting" tabindex="0" aria-controls="kt_datatable" rowspan="1" colspan="1" style="width: 56px;">
-                                                                        Record ID</th>
-                                                                    <th class="sorting" tabindex="0" aria-controls="kt_datatable" rowspan="1" colspan="1" style="width: 45px;">
-                                                                        Order ID</th>
-                                                                    <th class="sorting" tabindex="0" aria-controls="kt_datatable" rowspan="1" colspan="1" style="width: 65px;">
-                                                                        Country
-                                                                    </th>
-                                                                </tr>
-                                                            </thead>
-
-                                                            <tbody>
-                                                                <tr>
-                                                                    <td class="dtr-control sorting_1" tabindex="0">6
-                                                                    </td>
-                                                                    <td>53499-0393</td>
-                                                                    <td>Ukraine</td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td class="dtr-control sorting_1" tabindex="0">6
-                                                                    </td>
-                                                                    <td>53499-0393</td>
-                                                                    <td>Ukraine</td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td class="dtr-control sorting_1" tabindex="0">6
-                                                                    </td>
-                                                                    <td>53499-0393</td>
-                                                                    <td>Ukraine</td>
-                                                                </tr>
-                                                            </tbody>
-
-                                                        </table>
-                                                    </div>
-                                                    <div class="tab-pane fade" id="table-dark-forest-html" role="tabpanel" aria-labelledby="table-dark-forest-html-tab">
-                                                        <div class="d-flex justify-content-end">
-                                                            <button class="btn btn-light-primary br-50 mx-5 my-2" data-clipboard-text="" id="cm-drk-table-forest-html-copyButton"><i class="icn-file icn-cyan"></i></button>
-                                                        </div>
-                                                        <div id="cm-drk-table-forest-html"></div>
-                                                    </div>
-                                                    <div class="tab-pane fade" id="table-dark-forest-css" role="tabpanel" aria-labelledby="table-dark-forest-css-tab">
-                                                        <div class="d-flex justify-content-end">
-                                                            <button class="btn btn-light-primary br-50 mx-5 my-2" data-clipboard-text="" id="cm-drk-table-forest-css-copyButton"><i class="icn-file icn-cyan"></i></button>
-                                                        </div>
-                                                        <div id="cm-drk-table-forest-css"></div>
-
-                                                    </div>
-                                                    <div class="tab-pane fade" id="table-dark-forest-js" role="tabpanel" aria-labelledby="table-dark-forest-js-tab">
-                                                        <div class="d-flex justify-content-end">
-                                                            <button class="btn btn-light-primary br-50 mx-5 my-2" data-clipboard-text="" id="cm-drk-table-forest-js-copyButton"><i class="icn-file icn-cyan"></i></button>
-                                                        </div>
-                                                        <div id="cm-drk-table-forest-js"></div>
-                                                    </div>
-                                                </div>
-                                            </div>
                                             <div class="row p-5 mt-7">
                                                 <div class="col-lg-12">
                                                     <h3 class="text-primary">Buttons</h3>
@@ -2660,7 +2661,7 @@ License: You must have a valid license purchased only from themeforest(the above
             <script>
                 $(document).ready(function() {
                     var html_code = `<table class="table table-light-pale border-grey text-primary text-dark-grey p-table-10 stripped dataTable br-0"> <thead> <tr> <th class="sorting" tabindex="0" aria-controls="kt_datatable" rowspan="1" colspan="1" style="width: 56px;">Record ID</th> <th class="sorting" tabindex="0" aria-controls="kt_datatable" rowspan="1" colspan="1" style="width: 45px;">Order ID</th> <th class="sorting" tabindex="0" aria-controls="kt_datatable" rowspan="1" colspan="1" style="width: 65px;">Country</th> </tr> </thead> <tbody> <tr> <td class="dtr-control sorting_1" tabindex="0">6</td> <td>53499-0393</td> <td>Ukraine</td> </tr> <tr> <td class="dtr-control sorting_1" tabindex="0">6</td> <td>53499-0393</td> <td>Ukraine</td> </tr> <tr> <td class="dtr-control sorting_1" tabindex="0">6</td> <td>53499-0393</td> <td>Ukraine</td> </tr> </tbody> </table>`;
-                    var css_code = `/* pale table header */ .table.table-light-pale thead tr { color: #074A37; background-color: #EBF2E4; } /* table border grey */ .table.border-grey { border: 2px solid #F0F0F0 !important; } /* table border light primary */ .table.border-light-primary { border: 2px solid #EBF2E4 !important; } /* table header text primary */ .table.text-primary thead tr th { color: #074A37 !important; padding: 16px 10px !important; } /* rows grey text */ .table.text-dark-grey tbody tr td { color: #3F544C !important; } /* rows padding 10px */ .table.p-table-10 tbody tr td { padding: 10px !important; } /* rows padding 15px */ .table.p-table-15 tbody tr td { padding: 15px !important; } /* stripped table */ .table.stripped tbody tr:nth-child(even) { background-color: #F0F0F0; } .table.stripped tbody tr:nth-child(odd) { background-color: #fff; }`;
+                    var css_code = `/* pale table header */ .table.table-light-pale thead tr { color: #074A37; background-color: #EBF2E4; } /* table border grey */ .table.border-grey { border: 2px solid #F0F0F0 !important; } /* table border light primary */ .table.border-light-primary { border: 2px solid #EBF2E4 !important; } /* table header text primary */ .table.text-primary thead tr th { color: #074A37 !important; padding: 16px 10px !important; } /* rows grey text */ .table.text-dark-grey tbody tr td { color: #3F544C !important; } /* rows padding 10px */ .table.p-table-10 tbody tr td { padding: 10px !important; } /* rows padding 15px */ .table.p-table-15 tbody tr td { padding: 15px !important; } /* stripped table */ .table.stripped tbody tr:nth-child(even) { background-color: #F4F3EC; } .table.stripped tbody tr:nth-child(odd) { background-color: #fff; }`;
                     var js_code = ``;
                     cmRender("editor", "editor-css", "editor-js", html_code, css_code, js_code);
 
