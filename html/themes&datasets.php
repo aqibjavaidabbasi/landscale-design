@@ -176,7 +176,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                         The main task is to define all data themes needed to measure the metrics. For example, measuring area and proportion of ecosystem types within protected areas requires an ecosystem map and a protected area map. Because those particular data themes are used in multiple metrics, you can choose which level of the framework to associate them to, in this case, they could be associated to all of pillar 1 or to goals 1.1. and 1.2 within that pillar. Finally you will associate the theme to each relevant metric which will automatically populate the selected dataset.
                                                     </p>
                                                 </div>
-                                                <table class="table table-vertical-center c-table-dark text-light-primary text-primary border-light-primary">
+                                                <table class="table table-vertical-center c-table-dark t-radius-15 text-light-primary text-primary border-light-primary">
                                                     <thead>
                                                         <tr>
                                                             <th class="font-subheading text-primary" scope="col">Pillars</th>

@@ -203,7 +203,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                             <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                                                                                 <div class="ml-1 p-5">
                                                                                     <label for="landscape_name" class="font-text text-primary d-inline">Landscape name*</label>
-                                                                                    <input type="text" id="landscape_name" class="form-control bg-light-primary outline-0 border-0 w-100 mt-4 mb-2" placeholder="Enter Name">
+                                                                                    <input type="text" id="landscape_name" class="form-control bg-info outline-0 border-0 w-100 mt-4 mb-2" placeholder="Enter Name">
                                                                                     <span class="font-small text-primary">This can either be the official name of the jurisdiction, catchment area, or region, or also the name of the initiative behind the assessment.</span>
                                                                                 </div>
                                                                             </div>
@@ -253,14 +253,14 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                             <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                                                                                 <div class="custom-search-bar ml-1 px-5 mt-3">
                                                                                     <label for="landscape_municipality" class="font-text text-primary d-inline">Municipality*</label>
-                                                                                    <input type="text" id="landscape_municipality" class="form-control bg-light-primary outline-0 border-0 w-100 mt-4 mb-2" placeholder="Enter Municipality">
+                                                                                    <input type="text" id="landscape_municipality" class="form-control bg-info outline-0 border-0 w-100 mt-4 mb-2" placeholder="Enter Municipality">
                                                                                     <span class="font-small text-primary">Sub-national jurisdiction(s) (i.e: State, Department, Municipality).</span>
                                                                                 </div>
                                                                             </div>
                                                                             <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                                                                                 <div class="custom-search-bar ml-1 px-5 mt-3">
                                                                                     <label for="landscape_org" class="font-text text-primary d-inline">What is the name of the lead organization?*</label>
-                                                                                    <input type="text" id="landscape_org" class="form-control bg-light-primary outline-0 border-0 w-100 mt-4 mb-2" placeholder="Enter Name of Organization">
+                                                                                    <input type="text" id="landscape_org" class="form-control bg-info outline-0 border-0 w-100 mt-4 mb-2" placeholder="Enter Name of Organization">
                                                                                     <span class="font-small text-primary">Name of organizations responsible for LandScale design and assessment</span>
                                                                                 </div>
                                                                             </div>
@@ -286,7 +286,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                             <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                                                                                 <div class="custom-search-bar ml-1 px-5 mt-3">
                                                                                     <label for="landscape_colead_org" class="font-text text-primary d-inline">Please name any co-lead organizations*</label>
-                                                                                    <input type="text" id="landscape_colead_org" class="form-control bg-light-primary outline-0 border-0 w-100 mt-4 mb-2" placeholder="Enter Name of Co-Lead Organization">
+                                                                                    <input type="text" id="landscape_colead_org" class="form-control bg-info outline-0 border-0 w-100 mt-4 mb-2" placeholder="Enter Name of Co-Lead Organization">
                                                                                     <div class="font-small text-primary mt-5">Name of the co-lead organization responsible for LandScale design and assessment</div>
                                                                                 </div>
                                                                             </div>

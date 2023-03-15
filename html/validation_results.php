@@ -197,8 +197,8 @@ License: You must have a valid license purchased only from themeforest(the above
 
                                                 </div>
                                                 <div class="row mt-2">
-                                                    <div class="col-md-12">
-                                                        <table class="table table-vertical-center c-table-dark text-light-primary text-primary ">
+                                                    <div class="col-md-12" br-15>
+                                                        <table class="table table-vertical-center c-table-dark t-radius-15 text-light-primary text-primary ">
                                                             <thead>
                                                                 <tr>
                                                                     <th class="font-subheading text-primary" scope="col">Pillars</th>
@@ -552,8 +552,8 @@ License: You must have a valid license purchased only from themeforest(the above
 
                                                                     </div>
                                                                     <div class="collapse" id="collapseOneA">
-                                                                        <div class="mx-5 border-color-pale mb-5 indicator-responsive-collapse">
-                                                                            <table class="table table-vertical-center c-table-dark text-light-primary text-primary ">
+                                                                        <div class="mx-5 border-color-pale mb-5 indicator-responsive-collapse br-15">
+                                                                            <table class="table table-vertical-center c-table-dark t-radius-15 text-light-primary text-primary ">
                                                                                 <thead>
                                                                                     <tr>
                                                                                         <th class="font-text" scope="col">Metrics</th>
@@ -626,8 +626,8 @@ License: You must have a valid license purchased only from themeforest(the above
 
                                                                     </div>
                                                                     <div class="collapse border-bottom-secondary" id="collapseOneB">
-                                                                        <div class="mx-5 border-color-pale mb-5 indicator-responsive-collapse">
-                                                                            <table class="table table-vertical-center c-table-dark text-light-primary text-primary ">
+                                                                        <div class="mx-5 border-color-pale mb-5 indicator-responsive-collapse br-15">
+                                                                            <table class="table table-vertical-center c-table-dark t-radius-15 text-light-primary text-primary ">
                                                                                 <thead>
                                                                                     <tr>
                                                                                         <th class="font-text" scope="col">Metrics</th>
@@ -694,8 +694,8 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                         </div>
                                                                     </div>
                                                                 </div>
-                                                                <!-- <div class="mx-5 border-color-pale mb-5 indicator-responsive-collapse">
-                                                                    <table class="table table-vertical-center c-table-dark text-light-primary text-primary ">
+                                                                <!-- <div class="mx-5 border-color-pale mb-5 indicator-responsive-col br-15lapse">
+                                                                    <table class="table table-vertical-center c-table-dark t-radius-15 text-light-primary text-primary ">
                                                                         <thead>
                                                                             <tr>
                                                                                 <th class="font-text" scope="col">Metrics</th>
@@ -789,8 +789,8 @@ License: You must have a valid license purchased only from themeforest(the above
 
                                                                     </div>
                                                                     <div class="collapse" id="collapseTwoA">
-                                                                        <div class="mx-5 border-color-pale mb-5 indicator-responsive-collapse">
-                                                                            <table class="table table-vertical-center c-table-dark text-light-primary text-primary ">
+                                                                        <div class="mx-5 border-color-pale mb-5 indicator-responsive-collapse br-15">
+                                                                            <table class="table table-vertical-center c-table-dark t-radius-15 text-light-primary text-primary ">
                                                                                 <thead>
                                                                                     <tr>
                                                                                         <th class="font-text" scope="col">Metrics</th>
@@ -863,8 +863,8 @@ License: You must have a valid license purchased only from themeforest(the above
 
                                                                     </div>
                                                                     <div class="collapse border-bottom-secondary" id="collapseTwoB">
-                                                                        <div class="mx-5 border-color-pale mb-5 indicator-responsive-collapse">
-                                                                            <table class="table table-vertical-center c-table-dark text-light-primary text-primary ">
+                                                                        <div class="mx-5 border-color-pale mb-5 indicator-responsive-collapse br-15">
+                                                                            <table class="table table-vertical-center c-table-dark t-radius-15 text-light-primary text-primary ">
                                                                                 <thead>
                                                                                     <tr>
                                                                                         <th class="font-text" scope="col">Metrics</th>

@@ -245,14 +245,14 @@ License: You must have a valid license purchased only from themeforest(the above
                                             <div class="bg-info p-10">
                                                 <span class="font-subheading text-primary d-block mb-1">Progress report</span>
                                                 <p class="custom-font-style-subtext text-primary d-block my-5">You are encouraged to submit your indicators & metrics once the 4 pillars are completed. Select the completed pillars and send them for approval.</p>
-                                                <table class="table table-vertical-center c-table-dark text-light-primary text-primary border-light-primary">
+                                                <table class="table table-vertical-center c-table-dark t-radius-15 text-light-primary text-primary">
                                                     <thead>
                                                         <tr>
                                                             <th class="font-subheading text-primary" scope="col">Pillars</th>
                                                             <th class="font-subheading text-primary" scope="col">Indicators & Metrics</th>
                                                         </tr>
                                                     </thead>
-                                                    <tbody class="bg-white">
+                                                    <tbody class="bg-white border-light-primary">
                                                         <tr>
                                                             <td>Ecosystems</td>
                                                             <td><span class="bg-light-primary font-xs text-primary p-1">Completed</span></td>
@@ -270,7 +270,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                             </div>
                                         </div>
                                         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 custom-display-none">
-                                            <table class="table table-vertical-center c-table-dark text-light-primary text-primary border-light-primary">
+                                            <table class="table table-vertical-center c-table-dark t-radius-15 text-light-primary text-primary">
                                                 <thead class="steps-table-header-color">
                                                     <tr>
                                                         <th class="font-subheading text-primary" scope="col">Tasks</th>
@@ -279,7 +279,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                         <th class="font-subheading text-primary" scope="col">Status</th>
                                                     </tr>
                                                 </thead>
-                                                <tbody class="bg-white">
+                                                <tbody class="bg-white border-light-primary">
                                                     <tr>
                                                         <td><a href="./add_indicator.php">Add Indicators</a></td>
                                                         <td>

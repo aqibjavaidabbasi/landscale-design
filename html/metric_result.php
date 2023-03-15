@@ -176,7 +176,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                     <a href="#" class="c-btn-primary c-btn-xs d-flex align-items-center justify-content-center">Download XLSX</a>
                                                     <a href="#" class="c-btn-primary c-btn-xs d-flex align-items-center justify-content-center ml-1">Result Trackers</a>
                                                 </div>
-                                                <table class="table table-vertical-center c-table-dark text-light-primary text-primary border-light-primary">
+                                                <table class="table table-vertical-center c-table-dark t-radius-15 text-light-primary text-primary border-light-primary">
                                                     <thead class="steps-table-header-color">
                                                         <tr>
                                                             <th class="font-subheading text-primary" scope="col">Pillars</th>
@@ -605,15 +605,15 @@ License: You must have a valid license purchased only from themeforest(the above
                                             <div class="tab-content" id="v-pills-tabContent">
                                                 <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
                                                     <div class="accordion accordion-toggle-arrow" id="accordionExample">
-                                                        <div class="bg-light d-none btlr-15 btrr-15" id="headingTwo-header">
+                                                        <!-- <div class="bg-light d-none btlr-15 btrr-15" id="headingTwo-header">
                                                             <div class="btn btn-block text-left d-flex justify-content-between align-items-center indicator-accordian-responsive">
                                                                 <span class="font-text">
                                                                     Indicator
                                                                 </span>
                                                                 <span class="p-1 font-text mr-35">Assigned To</span>
                                                             </div>
-                                                        </div>
-                                                        <div class="card indicator-accordian-card indicator-border-top-15">
+                                                        </div> -->
+                                                        <div class="card indicator-accordian-card mt-7 indicator-border-top-15">
                                                             <div class="card-header bg-white indicator-accordian-card-header indicator-border-bottom-15 accordian-header-click" id="headingTwo">
                                                                 <div class="btn btn-block text-left collapsed indicator-accordian-responsive card-accordian" role="region" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                                                                     <div class="row">
@@ -645,9 +645,9 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                     </div>
                                                                     <div class="collapse" id="collapseOneA">
                                                                         <div class="mx-10 mt-5">
-                                                                            <div class="border-color-pale mb-5">
+                                                                            <div class="border-color-pale mb-5 br-15">
                                                                                 <div class="px-4">
-                                                                                    <div class="row py-5 bg-primary text-light">
+                                                                                    <div class="row py-5 bg-primary text-light btrr-15 btlr-15">
                                                                                         <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
                                                                                             <div class="d-flex align-items-center h-100">
                                                                                                 <span class="bg-secondary text-light br-4 font-xs p-2">
@@ -827,9 +827,9 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                     </div>
                                                                     <div class="collapse border-bottom-secondary" id="collapseOneB">
                                                                         <div class="mx-10 mt-5">
-                                                                            <div class="border-color-pale mb-5">
+                                                                            <div class="border-color-pale mb-5 br-15">
                                                                                 <div class="px-4">
-                                                                                    <div class="row py-5 bg-primary text-light">
+                                                                                    <div class="row py-5 bg-primary text-light btrr-15 btlr-15">
                                                                                         <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
                                                                                             <div class="d-flex align-items-center h-100">
                                                                                                 <span class="bg-secondary text-light br-4 font-xs p-2">

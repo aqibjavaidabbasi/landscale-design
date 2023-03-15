@@ -405,8 +405,8 @@ License: You must have a valid license purchased only from themeforest(the above
                                                             </div>
 
                                                             <div id="collapseOne-0" class="collapse show" aria-labelledby="headingOne-0">
-                                                                <div class="mx-5 border-color-pale mb-5 indicator-responsive-collapse">
-                                                                    <table class="table table-vertical-center c-table-dark text-light-primary text-primary p-table-15">
+                                                                <div class="mx-5 border-color-pale mb-5 indicator-responsive-collapse br-15">
+                                                                    <table class="table table-vertical-center c-table-dark t-radius-15 text-light-primary text-primary p-table-15">
                                                                         <thead>
                                                                             <tr>
                                                                                 <th class="font-text" scope="col">Indicator</th>
@@ -523,8 +523,8 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                 </div>
                                                             </div>
                                                             <div id="collapseTwo-0" class="collapse" aria-labelledby="headingTwo-0">
-                                                                <div class="mx-5 border-color-pale mb-5 indicator-responsive-collapse">
-                                                                    <table class="table table-vertical-center c-table-dark text-light-primary text-primary p-table-15">
+                                                                <div class="mx-5 border-color-pale mb-5 indicator-responsive-collapse br-15">
+                                                                    <table class="table table-vertical-center c-table-dark t-radius-15 text-light-primary text-primary p-table-15">
                                                                         <thead>
                                                                             <tr>
                                                                                 <th class="font-text" scope="col">Indicator</th>
@@ -632,8 +632,8 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                 </div>
                                                             </div>
                                                             <div id="collapseTwo-3" class="collapse" aria-labelledby="headingTwo-3">
-                                                                <div class="mx-5 border-color-pale mb-5 indicator-responsive-collapse">
-                                                                    <table class="table table-vertical-center c-table-dark text-light-primary text-primary p-table-15">
+                                                                <div class="mx-5 border-color-pale mb-5 indicator-responsive-collapse br-15">
+                                                                    <table class="table table-vertical-center c-table-dark t-radius-15 text-light-primary text-primary p-table-15">
                                                                         <thead>
                                                                             <tr>
                                                                                 <th class="font-text" scope="col">Indicator</th>
@@ -747,8 +747,8 @@ License: You must have a valid license purchased only from themeforest(the above
                                                             </div>
 
                                                             <div id="collapseOne-0" class="collapse show" aria-labelledby="headingOne-0">
-                                                                <div class="mx-5 border-color-pale mb-5 indicator-responsive-collapse">
-                                                                    <table class="table table-vertical-center c-table-dark text-light-primary text-primary p-table-15">
+                                                                <div class="mx-5 border-color-pale mb-5 indicator-responsive-collapse br-15">
+                                                                    <table class="table table-vertical-center c-table-dark t-radius-15 text-light-primary text-primary p-table-15">
                                                                         <thead>
                                                                             <tr>
                                                                                 <th class="font-text" scope="col">Indicator</th>
@@ -865,8 +865,8 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                 </div>
                                                             </div>
                                                             <div id="collapseTwo-0" class="collapse" aria-labelledby="headingTwo-0">
-                                                                <div class="mx-5 border-color-pale mb-5 indicator-responsive-collapse">
-                                                                    <table class="table table-vertical-center c-table-dark text-light-primary text-primary p-table-15">
+                                                                <div class="mx-5 border-color-pale mb-5 indicator-responsive-collapse br-15">
+                                                                    <table class="table table-vertical-center c-table-dark t-radius-15 text-light-primary text-primary p-table-15">
                                                                         <thead>
                                                                             <tr>
                                                                                 <th class="font-text" scope="col">Indicator</th>
@@ -980,8 +980,8 @@ License: You must have a valid license purchased only from themeforest(the above
                                                             </div>
 
                                                             <div id="collapseOne-0" class="collapse show" aria-labelledby="headingOne-0">
-                                                                <div class="mx-5 border-color-pale mb-5 indicator-responsive-collapse">
-                                                                    <table class="table table-vertical-center c-table-dark text-light-primary text-primary p-table-15">
+                                                                <div class="mx-5 border-color-pale mb-5 indicator-responsive-collapse br-15">
+                                                                    <table class="table table-vertical-center c-table-dark t-radius-15 text-light-primary text-primary p-table-15">
                                                                         <thead>
                                                                             <tr>
                                                                                 <th class="font-text" scope="col">Indicator</th>
@@ -1098,8 +1098,8 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                 </div>
                                                             </div>
                                                             <div id="collapseTwo-0" class="collapse" aria-labelledby="headingTwo-0">
-                                                                <div class="mx-5 border-color-pale mb-5 indicator-responsive-collapse">
-                                                                    <table class="table table-vertical-center c-table-dark text-light-primary text-primary p-table-15">
+                                                                <div class="mx-5 border-color-pale mb-5 indicator-responsive-collapse br-15">
+                                                                    <table class="table table-vertical-center c-table-dark t-radius-15 text-light-primary text-primary p-table-15">
                                                                         <thead>
                                                                             <tr>
                                                                                 <th class="font-text" scope="col">Indicator</th>
@@ -1213,8 +1213,8 @@ License: You must have a valid license purchased only from themeforest(the above
                                                             </div>
 
                                                             <div id="collapseOne-0" class="collapse show" aria-labelledby="headingOne-0">
-                                                                <div class="mx-5 border-color-pale mb-5 indicator-responsive-collapse">
-                                                                    <table class="table table-vertical-center c-table-dark text-light-primary text-primary p-table-15">
+                                                                <div class="mx-5 border-color-pale mb-5 indicator-responsive-collapse br-15">
+                                                                    <table class="table table-vertical-center c-table-dark t-radius-15 text-light-primary text-primary p-table-15">
                                                                         <thead>
                                                                             <tr>
                                                                                 <th class="font-text" scope="col">Indicator</th>
@@ -1331,8 +1331,8 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                 </div>
                                                             </div>
                                                             <div id="collapseTwo-0" class="collapse" aria-labelledby="headingTwo-0">
-                                                                <div class="mx-5 border-color-pale mb-5 indicator-responsive-collapse">
-                                                                    <table class="table table-vertical-center c-table-dark text-light-primary text-primary p-table-15">
+                                                                <div class="mx-5 border-color-pale mb-5 indicator-responsive-collapse br-15">
+                                                                    <table class="table table-vertical-center c-table-dark t-radius-15 text-light-primary text-primary p-table-15">
                                                                         <thead>
                                                                             <tr>
                                                                                 <th class="font-text" scope="col">Indicator</th>

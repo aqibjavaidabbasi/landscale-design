@@ -207,7 +207,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                         <div class="col-md-6">
                                                                             <div class="ml-1 p-5">
                                                                                 <label for="landscape_obj_1" class="font-text text-primary d-inline">Objective 1*</label>
-                                                                                <input type="text" id="landscape_obj_1" class="form-control bg-light-primary outline-0 border-0 w-100 mt-4 mb-2" placeholder="Enter Name">
+                                                                                <input type="text" id="landscape_obj_1" class="form-control bg-info outline-0 border-0 w-100 mt-4 mb-2" placeholder="Enter Name">
                                                                                 <span class="font-small text-primary">(0/500)</span>
                                                                             </div>
                                                                         </div>
@@ -215,7 +215,7 @@ License: You must have a valid license purchased only from themeforest(the above
 
                                                                             <div class="ml-1 p-5">
                                                                                 <label for="landscape_obj_2" class="font-text text-primary d-inline">Objective 2</label>
-                                                                                <input type="text" id="landscape_obj_2" class="form-control bg-light-primary outline-0 border-0 w-100 mt-4 mb-2" placeholder="Enter Name">
+                                                                                <input type="text" id="landscape_obj_2" class="form-control bg-info outline-0 border-0 w-100 mt-4 mb-2" placeholder="Enter Name">
                                                                                 <span class="font-small text-primary">(0/500)</span>
                                                                             </div>
                                                                         </div>
@@ -224,7 +224,7 @@ License: You must have a valid license purchased only from themeforest(the above
 
                                                                             <div class="ml-1 p-5">
                                                                                 <label for="landscape_obj_3" class="font-text text-primary d-inline">Objective 3</label>
-                                                                                <input type="text" id="landscape_obj_3" class="form-control bg-light-primary outline-0 border-0 w-100 mt-4 mb-2" placeholder="Enter Name">
+                                                                                <input type="text" id="landscape_obj_3" class="form-control bg-info outline-0 border-0 w-100 mt-4 mb-2" placeholder="Enter Name">
                                                                                 <span class="font-small text-primary">(0/500)</span>
                                                                             </div>
                                                                         </div>

@@ -100400,7 +100400,7 @@ body {
     background-size: cover;
     background-color: #21661133;
     background-blend-mode: overlay; */
-    background-color: #F4F4DA;
+    background-color: #F4F3EC;
 }
 
 .vertical-align-unset {
@@ -101648,7 +101648,7 @@ select {
 }
 
 /* table border light primary */
-.table.border-light-primary {
+.table tbody.border-light-primary {
     border: 2px solid #EBF2E4 !important;
 }
 
