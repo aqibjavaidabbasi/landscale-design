@@ -165,6 +165,14 @@ License: You must have a valid license purchased only from themeforest(the above
                                                 use class <span class="font-weight-bold"><code>.text-light-primary</code></span> for having a light primamry color for header text.
                                             </p>
 
+                                            <p class="text-primary my-7">
+                                                Use class <span class="font-weight-bold"><code>.stripped</code></span> for stripes table. For giving table header a light pale color
+                                                Use class <span class="font-weight-bold"><code>.p-table-10</code></span>
+                                                to give 10px padding to table rows. Use class <span class="font-weight-bold"><code>.p-table-15</code></span>
+                                                to give 15px padding to table rows. To give table a grey border use class <span class="font-weight-bold"><code>.border-grey</code></span>.
+                                                To give table a radius use class <span class="font-weight-bold"><code>.t-radius-15</code></span>.
+                                            </p>
+
                                             <ul class="nav nav-tabs" id="myTab" role="tablist">
                                                 <li class="nav-item" role="presentation">
                                                     <button class="nav-link active" id="home-tab" data-toggle="tab" data-target="#table-dark-forest-preview" type="button" role="tab" aria-controls="table-dark-forest-preview" aria-selected="true">Preview</button>
@@ -182,7 +190,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                             <div class="tab-content border" id="myTabContent">
                                                 <div class="tab-pane p-5 fade show active" id="table-dark-forest-preview" role="tabpanel" aria-labelledby="table-dark-forest-preview-tab">
                                                     <!-- start table -->
-                                                    <table class="table c-table-dark border-grey text-light-primary text-dark-grey p-table-10 dataTable br-0" id="kt_datatable" role="grid" style="width: 1151px; margin-top: 0px !important;">
+                                                    <table class="table c-table-dark border-grey stripped text-light-primary text-dark-grey p-table-10 t-radius-15 dataTable br-0" id="kt_datatable" role="grid" style="width: 1151px; margin-top: 0px !important;">
                                                         <thead>
                                                             <tr>
                                                                 <th class="sorting" tabindex="0" aria-controls="kt_datatable" rowspan="1" colspan="1" style="width: 56px;">
@@ -239,7 +247,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-lg-12 mt-7">
+                                        <!-- <div class="col-lg-12 mt-7">
                                             <h6 class="text-primary mt-5">Table With Light Header</h6>
 
                                             <p class="text-primary my-7">
@@ -322,9 +330,9 @@ License: You must have a valid license purchased only from themeforest(the above
                                                     <div id="editor-js"></div>
                                                 </div>
                                             </div>
-                                        </div>
+                                        </div> -->
                                         <div class="row mt-7 p-5">
-                                            <div class="col-lg-12">
+                                            <!-- <div class="col-lg-12">
                                                 <h6 class="text-primary mt-5">Table With Dark Pale Header</h6>
 
                                                 <p class="text-primary my-7">
@@ -404,7 +412,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                         <div id="cm-drk-table-js"></div>
                                                     </div>
                                                 </div>
-                                            </div>
+                                            </div> -->
 
                                             <div class="row p-5 mt-7">
                                                 <div class="col-lg-12">
@@ -611,7 +619,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                     </ul>
                                                     <div class="tab-content border" id="myTabContent">
                                                         <div class="tab-pane p-5 fade show active" id="input-preview" role="tabpanel" aria-labelledby="input-preview-tab">
-                                                            <div class="card bg-light p-5 br-15">
+                                                            <div class="card bg-white p-5 br-15">
                                                                 <form action="">
                                                                     <div class="row">
 
@@ -653,9 +661,9 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                                                                             <div class="mt-7">
                                                                                 <div class="input-group">
-                                                                                    <input type="text" class="form-control btlr-50 bblr-50 bg-light-grey outline-0 border-0 w-50" placeholder="search for anything">
+                                                                                    <input type="text" class="form-control btlr-50 bblr-50 bg-info outline-0 border-0 w-50" placeholder="search for anything">
                                                                                     <div class="input-group-append">
-                                                                                        <span class="input-group-text btrr-50 bbrr-50 bg-light-grey">
+                                                                                        <span class="input-group-text btrr-50 bbrr-50 bg-info">
                                                                                             <i class="icn-search"></i>
                                                                                         </span>
                                                                                     </div>
@@ -2670,7 +2678,7 @@ License: You must have a valid license purchased only from themeforest(the above
                     var dTable_js_code = ``;
                     cmRender("cm-drk-table-html", "cm-drk-table-css", "cm-drk-table-js", dTable_html_code, dTable_css_code, dTable_js_code);
 
-                    var dForestTable_html_code = `<!-- start table --> <table class="table c-table-dark border-grey text-light-primary text-dark-grey p-table-10 dataTable br-0" id="kt_datatable" role="grid" style="width: 1151px; margin-top: 0px !important;"> <thead> <tr> <th class="sorting" tabindex="0" aria-controls="kt_datatable" rowspan="1" colspan="1" style="width: 56px;"> Record ID</th> <th class="sorting" tabindex="0" aria-controls="kt_datatable" rowspan="1" colspan="1" style="width: 45px;"> Order ID</th> <th class="sorting" tabindex="0" aria-controls="kt_datatable" rowspan="1" colspan="1" style="width: 65px;"> Country </th> </tr> </thead> <tbody> <tr> <td class="dtr-control sorting_1" tabindex="0">6 </td> <td>53499-0393</td> <td>Ukraine</td> </tr> <tr> <td class="dtr-control sorting_1" tabindex="0">6 </td> <td>53499-0393</td> <td>Ukraine</td> </tr> <tr> <td class="dtr-control sorting_1" tabindex="0">6 </td> <td>53499-0393</td> <td>Ukraine</td> </tr> </tbody> </table>`;
+                    var dForestTable_html_code = `<!-- start table --> <table class="table c-table-dark border-grey text-light-primary t-radius-15 text-dark-grey p-table-10 dataTable br-0" id="kt_datatable" role="grid" style="width: 1151px; margin-top: 0px !important;"> <thead> <tr> <th class="sorting" tabindex="0" aria-controls="kt_datatable" rowspan="1" colspan="1" style="width: 56px;"> Record ID</th> <th class="sorting" tabindex="0" aria-controls="kt_datatable" rowspan="1" colspan="1" style="width: 45px;"> Order ID</th> <th class="sorting" tabindex="0" aria-controls="kt_datatable" rowspan="1" colspan="1" style="width: 65px;"> Country </th> </tr> </thead> <tbody> <tr> <td class="dtr-control sorting_1" tabindex="0">6 </td> <td>53499-0393</td> <td>Ukraine</td> </tr> <tr> <td class="dtr-control sorting_1" tabindex="0">6 </td> <td>53499-0393</td> <td>Ukraine</td> </tr> <tr> <td class="dtr-control sorting_1" tabindex="0">6 </td> <td>53499-0393</td> <td>Ukraine</td> </tr> </tbody> </table>`;
                     var dForestTable_css_code = `/* dark forest green table header */ .table.c-table-dark thead tr { background-color: #074A37 !important; } /* table header text light primary */ .table.text-light-primary thead tr th { color: #f4f3ec !important; padding: 16px 10px !important; }`;
                     var dForestTable_js_code = ``;
                     cmRender("cm-drk-table-forest-html", "cm-drk-table-forest-css", "cm-drk-table-forest-js", dForestTable_html_code, dForestTable_css_code, dForestTable_js_code);
